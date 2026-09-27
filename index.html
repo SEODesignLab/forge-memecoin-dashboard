@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Forge — Memecoin Paper Book</title>
+<style>
+:root { --bg:#0b1020; --card:#12182b; --line:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --amber:#f59e0b; --green:#22c55e; --red:#f87171; --blue:#60a5fa; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+header { padding:22px 24px 8px; }
+h1 { margin:0; font-size:20px; letter-spacing:.04em; }
+h1 span { color:var(--amber); }
+.sub { color:var(--muted); margin-top:6px; }
+.wrap { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; padding:16px 24px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; }
+.card h2 { margin:0 0 8px; font-size:12px; color:var(--amber); font-weight:600; }
+.big { font-size:28px; font-weight:700; }
+.muted { color:var(--muted); font-size:12px; }
+.pos { color:var(--green); } .neg { color:var(--red); } .blue { color:var(--blue); }
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th { text-align:left; color:var(--muted); font-weight:500; padding:6px 4px; border-bottom:1px solid var(--line); }
+td { padding:6px 4px; border-bottom:1px solid #162033; vertical-align:top; }
+.panel { margin:0 24px 18px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; }
+a { color:var(--blue); }
+.badge { display:inline-block; padding:2px 8px; border-radius:99px; background:#3f2a0a; color:var(--amber); font-size:11px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FORGE — <span>MEMECOIN PAPER BOOK</span></h1>
+  <div class="sub">SEODesignLab · paper only · live buys off · cohort veto · refresh 30m · <span id="gen">—</span></div>
+</header>
+<div class="wrap">
+  <div class="card"><h2>MODE</h2><div class="big" style="font-size:18px"><span class="badge" id="mode">PAPER</span></div><div class="muted">No swaps from this loop</div></div>
+  <div class="card"><h2>PAPER ROWS</h2><div class="big" id="rows">—</div><div class="muted"><span id="skips">—</span> skips · <span id="buys">—</span> would-buys</div></div>
+  <div class="card"><h2>SETTLED</h2><div class="big" id="settled">—</div><div class="muted">need 50 before any live talk · WR <span id="wr">—</span></div></div>
+  <div class="card"><h2>COHORT</h2><div class="big" id="qualified">—</div><div class="muted"><span id="wallets">—</span> wallets tracked · 3+ hits qualify</div></div>
+  <div class="card"><h2>OLD LIVE BOOK</h2><div class="big neg" id="livepnl">—</div><div class="muted" id="livebook">closed sample, bot paused</div></div>
+</div>
+<div class="panel">
+  <h2>Why the gate said no</h2>
+  <table id="reasons"><thead><tr><th>Reason</th><th>Count</th></tr></thead><tbody></tbody></table>
+</div>
+<div class="panel">
+  <h2>Repeat wallets (not auto-bought)</h2>
+  <table id="wallets-table"><thead><tr><th>Wallet</th><th>Hits</th><th>Symbols</th></tr></thead><tbody></tbody></table>
+</div>
+<div class="panel">
+  <h2>Recent paper decisions</h2>
+  <table id="paper"><thead><tr><th>Time</th><th>Symbol</th><th>Decision</th><th>Reason</th><th>1h</th></tr></thead><tbody></tbody></table>
+</div>
+<script>
+async function load(){
+  const r = await fetch('data/dashboard-data.json?t=' + Date.now());
+  const d = await r.json();
+  const s = d.summary || {};
+  document.getElementById('gen').textContent = (d.generated || '').replace('T',' ').slice(0,16) + ' UTC';
+  document.getElementById('mode').textContent = d.mode || 'PAPER';
+  document.getElementById('rows').textContent = s.paper_rows ?? '—';
+  document.getElementById('skips').textContent = s.paper_skips ?? 0;
+  document.getElementById('buys').textContent = s.paper_buys ?? 0;
+  document.getElementById('settled').textContent = (s.paper_settled ?? 0) + ' / ' + (s.need_settled || 50);
+  document.getElementById('wr').textContent = s.paper_win_rate == null ? 'n/a' : Math.round(s.paper_win_rate*100) + '%';
+  document.getElementById('qualified').textContent = s.cohort_qualified ?? 0;
+  document.getElementById('wallets').textContent = s.cohort_wallets ?? 0;
+  const pnl = s.live_pnl_usdc || 0;
+  const el = document.getElementById('livepnl');
+  el.textContent = (pnl>=0?'+':'') + '$' + pnl.toFixed(2);
+  el.className = 'big ' + (pnl>=0?'pos':'neg');
+  document.getElementById('livebook').textContent = (s.live_wins||0) + 'W / ' + ((s.live_closes||0)-(s.live_wins||0)) + 'L · ' + (s.live_closes||0) + ' closes';
+  const rb = document.querySelector('#reasons tbody');
+  rb.innerHTML = '';
+  (d.skip_reasons||[]).forEach(x=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML = `<td>${x.reason}</td><td>${x.count}</td>`;
+    rb.appendChild(tr);
+  });
+  const wb = document.querySelector('#wallets-table tbody');
+  wb.innerHTML = '';
+  (d.wallets||[]).forEach(w=>{
+    const tr=document.createElement('tr');
+    const href=`https://solscan.io/account/${w.wallet}`;
+    tr.innerHTML = `<td><a href="${href}">${w.wallet.slice(0,6)}…${w.wallet.slice(-4)}</a></td><td class="${w.hits>=3?'pos':''}">${w.hits}</td><td>${(w.symbols||[]).join(', ')}</td>`;
+    wb.appendChild(tr);
+  });
+  const pb = document.querySelector('#paper tbody');
+  pb.innerHTML = '';
+  (d.paper||[]).slice(0,25).forEach(r=>{
+    const tr=document.createElement('tr');
+    const dec = r.decision==='PAPER_BUY' ? '<span class="pos">PAPER BUY</span>' : '<span class="muted">SKIP</span>';
+    tr.innerHTML = `<td>${(r.ts||'').slice(5,16).replace('T',' ')}</td><td>${r.symbol||''}</td><td>${dec}</td><td>${r.reason||''}</td><td>${r.h1==null?'':Number(r.h1).toFixed(1)+'%'}</td>`;
+    pb.appendChild(tr);
+  });
+}
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>
