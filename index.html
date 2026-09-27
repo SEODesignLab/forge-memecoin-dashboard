@@ -39,6 +39,12 @@ a { color:var(--blue); }
   <div class="card"><h2>OLD LIVE BOOK</h2><div class="big neg" id="livepnl">—</div><div class="muted" id="livebook">closed sample, bot paused</div></div>
 </div>
 <div class="panel">
+  <h2>Narrative paper — separate book (X noun → smallest new pair). Not the gate.</h2>
+  <div class="muted" id="narr-sum">—</div>
+  <div class="muted" id="mc-sum" style="margin:6px 0 10px">Monte Carlo waits for 8 real settles. It will not invent a win rate.</div>
+  <table id="narr"><thead><tr><th>Time</th><th>Noun</th><th>Symbol</th><th>Entry mcap</th><th>PnL</th></tr></thead><tbody></tbody></table>
+</div>
+<div class="panel">
   <h2>Why the gate said no</h2>
   <table id="reasons"><thead><tr><th>Reason</th><th>Count</th></tr></thead><tbody></tbody></table>
 </div>
@@ -69,6 +75,23 @@ async function load(){
   el.textContent = (pnl>=0?'+':'') + '$' + pnl.toFixed(2);
   el.className = 'big ' + (pnl>=0?'pos':'neg');
   document.getElementById('livebook').textContent = (s.live_wins||0) + 'W / ' + ((s.live_closes||0)-(s.live_wins||0)) + 'L · ' + (s.live_closes||0) + ' closes';
+  const ns = document.getElementById('narr-sum');
+  ns.textContent = (s.narrative_rows||0) + ' paper · ' + (s.narrative_open||0) + ' open · ' + (s.narrative_settled||0) + ' settled'
+    + (s.narrative_win_rate==null ? '' : ' · WR ' + Math.round(s.narrative_win_rate*100) + '% · avg ' + ((s.narrative_avg_pnl||0)*100).toFixed(1) + '%');
+  const mc = d.narrative_montecarlo || {};
+  document.getElementById('mc-sum').textContent = mc.ran
+    ? ('Monte Carlo ' + mc.paths + ' paths × ' + mc.trades_per_path + ' trades @ $' + mc.clip_usdc + ' · median $' + mc.p50 + ' · 5th $' + mc.p05 + ' · P(profit) ' + mc.prob_profit + ' · ' + (mc.note||''))
+    : ('Monte Carlo not run — ' + (mc.reason || 'need 8 settled narrative trades') + ' (' + (mc.n||0) + '/8)');
+  const nb = document.querySelector('#narr tbody');
+  nb.innerHTML = '';
+  (d.narrative_paper||[]).forEach(r=>{
+    const tr=document.createElement('tr');
+    const pnl = r.pnl_pct==null ? (r.settled?'no price':'open') : ((r.pnl_pct*100).toFixed(1)+'%');
+    const cls = r.pnl_pct==null ? '' : (r.pnl_pct>0?'pos':'neg');
+    tr.innerHTML = `<td>${(r.ts||'').slice(5,16).replace('T',' ')}</td><td>${r.noun||''}</td><td>${r.symbol||''}</td><td>$${(r.entry_mcap||0).toLocaleString()}</td><td class="${cls}">${pnl}</td>`;
+    nb.appendChild(tr);
+  });
+  if(!nb.children.length){ const tr=document.createElement('tr'); tr.innerHTML='<td colspan="5">No narrative paper trades yet.</td>'; nb.appendChild(tr); }
   const rb = document.querySelector('#reasons tbody');
   rb.innerHTML = '';
   (d.skip_reasons||[]).forEach(x=>{

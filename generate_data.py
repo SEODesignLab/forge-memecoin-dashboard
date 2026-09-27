@@ -42,6 +42,10 @@ def main():
         })
     wallets.sort(key=lambda x: -x["hits"])
 
+    narrative = load("narrative-paper.json", [])
+    monte = load("narrative-montecarlo.json", {"ran": False, "n": 0, "reason": "no file yet"})
+    n_settled = [r for r in narrative if r.get("settled") and r.get("pnl_pct") is not None]
+    n_wins = [r for r in n_settled if r["pnl_pct"] > 0]
     live_pnl = round(sum(float(r.get("pnl_usdc") or 0) for r in closed), 2)
     live_wins = sum(1 for r in closed if (r.get("pnl_usdc") or 0) > 0)
 
@@ -63,9 +67,17 @@ def main():
             "live_wins": live_wins,
             "live_pnl_usdc": live_pnl,
             "open_positions": len(positions) if isinstance(positions, list) else 0,
+            "narrative_rows": len(narrative),
+            "narrative_open": sum(1 for r in narrative if not r.get("settled")),
+            "narrative_settled": len(n_settled),
+            "narrative_wins": len(n_wins),
+            "narrative_win_rate": round(len(n_wins) / len(n_settled), 3) if n_settled else None,
+            "narrative_avg_pnl": round(sum(r["pnl_pct"] for r in n_settled) / len(n_settled), 4) if n_settled else None,
         },
         "skip_reasons": reason_rows[:12],
         "paper": list(reversed(paper[-40:])),
+        "narrative_paper": list(reversed(narrative[-30:])),
+        "narrative_montecarlo": monte,
         "wallets": wallets[:15],
         "mints": list((cohort.get("seen_mints") or {}).values())[-12:],
         "live_closes": list(reversed(closed[-12:])),
