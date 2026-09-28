@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-28T10:34:28.286690+00:00",
+ "generated": "2026-09-28T11:04:28.430247+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
-  "paper_rows": 287,
-  "paper_skips": 287,
+  "paper_rows": 292,
+  "paper_skips": 292,
   "paper_buys": 0,
   "paper_settled": 0,
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 41,
-  "cohort_wallets": 372,
+  "cohort_runs": 42,
+  "cohort_wallets": 381,
   "cohort_qualified": 1,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 52
+   "count": 53
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -34,18 +34,18 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 21
+   "count": 23
   },
   {
    "reason": "Score 80 below threshold 85",
    "count": 16
   },
   {
-   "reason": "Mint/freeze not renounced",
-   "count": 14
+   "reason": "Score 83 below threshold 85",
+   "count": 15
   },
   {
-   "reason": "Score 83 below threshold 85",
+   "reason": "Mint/freeze not renounced",
    "count": 14
   },
   {
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-28T11:00:41.071637+00:00",
+   "symbol": "GTA 6 Coin",
+   "mint": "qfaAwPjUmKsgGdQ8mmCdxWoiw4xZmwXtGL7f7ttpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005507,
+   "mcap": 550724,
+   "liq": 67201.82,
+   "h1": 1017,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T11:00:41.068103+00:00",
+   "symbol": "PUPP",
+   "mint": "8zeFZ2777XA2q3MGpRiscEH4QhsU5SpKsJ49JCctpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 18.3% > 12% gate",
+   "entry_price": 6.147e-05,
+   "mcap": 61472,
+   "liq": 20590.6,
+   "h1": 25.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T11:00:41.065143+00:00",
+   "symbol": "MAMESUKE",
+   "mint": "JVNThAXvkB1f7PLb3Fq7KjsJYCLTCvZYXMmrSQKpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0001143,
+   "mcap": 114365,
+   "liq": 29372.73,
+   "h1": 135,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T11:00:41.062483+00:00",
+   "symbol": "MrBeast",
+   "mint": "hd8543JY8sqr8Pk6aamWXzofafeBYERpK1nVMmUpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.0007465,
+   "mcap": 746555,
+   "liq": 78706.99,
+   "h1": 1418,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T11:00:41.059566+00:00",
+   "symbol": "KOG",
+   "mint": "76fFhcA142kf9gdg11ahYTmEiZnPXokxJkcF1axupump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 5.523e-05,
+   "mcap": 55239,
+   "liq": 19397.72,
+   "h1": 13.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-28T10:30:52.179968+00:00",
    "symbol": "TRY",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T08:30:44.473553+00:00",
-   "symbol": "SPACEPAID",
-   "mint": "FQUrgVHNvNc4GpRk7LohobvfXNEsPf2Khw71Z5h7pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 15.8% > 12% gate",
-   "entry_price": 0.0001011,
-   "mcap": 101162,
-   "liq": 28115.23,
-   "h1": 101,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T08:30:44.471212+00:00",
-   "symbol": "INSTA",
-   "mint": "bRwgPi7vKjn4uabXwBu43UYS8yAiQLuWigfyVjBpump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 0.0008273,
-   "mcap": 823317,
-   "liq": 82875.66,
-   "h1": 1583,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T08:30:44.468206+00:00",
-   "symbol": "WATPONS",
-   "mint": "8keYKKzA3P3Md7nYdXnLy4vejMNVnJNWSHe17vbopump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 8.931e-05,
-   "mcap": 89316,
-   "liq": 26343.2,
-   "h1": 82.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T08:30:44.465541+00:00",
-   "symbol": "XDP",
-   "mint": "iHkzDmsmXj8JCCkTiBEm99FLvXemvq8VMx9nz2Cpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0005912,
-   "mcap": 591211,
-   "liq": 69645.83,
-   "h1": 1102,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T08:30:44.462703+00:00",
-   "symbol": "1000X",
-   "mint": "ELP7DpZvv41KzWewe513ZPBwTESsuxgzCJzh9zXn8WGd",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 16.6% > 12% gate",
-   "entry_price": 7.058e-05,
-   "mcap": 70587,
-   "liq": 22411.72,
-   "h1": 45.19,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "JIANCO",
     "INSTA"
    ],
-   "last": "2026-09-28 07:00 UTC"
+   "last": "2026-09-28 11:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -722,7 +722,7 @@
     "Holdoween",
     "INSTA"
    ],
-   "last": "2026-09-28 04:30 UTC"
+   "last": "2026-09-28 11:00 UTC"
   },
   {
    "wallet": "77H4ozFy3cZT54rsGLebyDB5nHfczakZdSEzF35aqMVX",
@@ -837,8 +837,8 @@
   {
    "symbol": "Q4",
    "tag": "WATCH",
-   "h1": 19.1,
-   "ts": "2026-09-28 10:30 UTC"
+   "h1": 41.2,
+   "ts": "2026-09-28 11:00 UTC"
   },
   {
    "symbol": "ZSHIB ",
@@ -849,8 +849,8 @@
   {
    "symbol": "Holdoween",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-09-28 10:30 UTC"
+   "h1": 10.4,
+   "ts": "2026-09-28 11:00 UTC"
   },
   {
    "symbol": "LAND",
@@ -873,14 +873,14 @@
   {
    "symbol": "XPAD",
    "tag": "WATCH",
-   "h1": 21.3,
-   "ts": "2026-09-28 10:30 UTC"
+   "h1": 30.7,
+   "ts": "2026-09-28 11:00 UTC"
   },
   {
    "symbol": "INSTA",
    "tag": "FADING",
-   "h1": -50.6,
-   "ts": "2026-09-28 10:30 UTC"
+   "h1": -65.5,
+   "ts": "2026-09-28 11:00 UTC"
   }
  ],
  "live_closes": [
