@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T23:04:26.838177+00:00",
+ "generated": "2026-09-28T23:34:26.961728+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 66,
-  "cohort_wallets": 724,
+  "cohort_runs": 67,
+  "cohort_wallets": 734,
   "cohort_qualified": 4,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,15 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 102
+   "count": 103
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 48
+   "count": 50
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 42
+   "count": 41
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -46,11 +46,11 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 14
+   "count": 13
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 13
+   "count": 10
   },
   {
    "reason": "Top holder 12.6% > 12% gate",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-28T23:30:43.765095+00:00",
+   "symbol": "TRMP",
+   "mint": "CBAeXqpxfmrtkfqVuEj9JtvHDG5EXJpTEwUYf5nupump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0003447,
+   "mcap": 344747,
+   "liq": 51642.18,
+   "h1": 597,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T23:30:43.760686+00:00",
+   "symbol": "ELON",
+   "mint": "oPWpsD5YKLoQj7JrPoBJTKgZgNqKu2iYsfgowDVpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0001351,
+   "mcap": 135145,
+   "liq": 31637.58,
+   "h1": 174,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T23:30:43.755519+00:00",
+   "symbol": "MAMDANI",
+   "mint": "FrAgX7fmMrnUjBCtBXXLZcQeHJzUEqyjKhwMWRBvBCT",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 29.4% > 12% gate",
+   "entry_price": 4.552e-05,
+   "mcap": 45529,
+   "liq": 17436.41,
+   "h1": -5.46,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T23:30:43.749939+00:00",
+   "symbol": "PUMPBLOX",
+   "mint": "6wACL4rfquHHw7XNPDYwrKWELQRXZjfANTafqecPpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 25.1% > 12% gate",
+   "entry_price": 4.205e-05,
+   "mcap": 42057,
+   "liq": 16937.8,
+   "h1": -4.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T23:30:43.744152+00:00",
+   "symbol": "STOCK",
+   "mint": "2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002331,
+   "mcap": 233163,
+   "liq": 42643.81,
+   "h1": 117,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-28T23:00:51.227208+00:00",
    "symbol": "Caterpillar",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.466329+00:00",
-   "symbol": "BINU",
-   "mint": "9nwLzYqpTHnA64UL9a2m74qLYbNagXDeua1iBmorpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 13.9% > 12% gate",
-   "entry_price": 9.574e-05,
-   "mcap": 95743,
-   "liq": 26793.87,
-   "h1": 96.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.462379+00:00",
-   "symbol": "GEMINI",
-   "mint": "3UpGi1tqGwEUEt9PcMKBbyake2VjqMn1BpWrNSvMpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.000411,
-   "mcap": 411095,
-   "liq": 56556.64,
-   "h1": 733,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.458411+00:00",
-   "symbol": "p/xmr",
-   "mint": "B5R7Xt9pXBHDAs2jkJ67nM2Wwch1napBsdzMxk56qpJk",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 33.5% > 12% gate",
-   "entry_price": 1.993e-05,
-   "mcap": 19086,
-   "liq": 10987.81,
-   "h1": 0.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.454388+00:00",
-   "symbol": "AI6",
-   "mint": "DKxXdaMC1so182urvrrnhs6V6fGTrttPS8br6JuEpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 16.9% > 12% gate",
-   "entry_price": 0.0001019,
-   "mcap": 101985,
-   "liq": 28605.75,
-   "h1": 118,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.450318+00:00",
-   "symbol": "Collectinu",
-   "mint": "LmQqKehqhiz2wcVMSYx4ufDew4p87Lb6x46AcLrHmzF",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 1.959e-05,
-   "mcap": 19598,
-   "liq": 12547.19,
-   "h1": -57.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "SP",
     "HAUNTED"
    ],
-   "last": "2026-09-28 23:00 UTC"
+   "last": "2026-09-28 23:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -707,7 +707,7 @@
     "CAT",
     "HAUNTED"
    ],
-   "last": "2026-09-28 21:30 UTC"
+   "last": "2026-09-28 23:30 UTC"
   },
   {
    "wallet": "77H4ozFy3cZT54rsGLebyDB5nHfczakZdSEzF35aqMVX",
@@ -817,7 +817,7 @@
     "ZSHIB ",
     "CAT"
    ],
-   "last": "2026-09-28 16:00 UTC"
+   "last": "2026-09-28 23:30 UTC"
   },
   {
    "wallet": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
@@ -830,12 +830,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "Q4",
-   "tag": "WATCH",
-   "h1": 8.8,
-   "ts": "2026-09-28 23:00 UTC"
-  },
   {
    "symbol": "ZSHIB ",
    "tag": "WATCH",
@@ -881,14 +875,14 @@
   {
    "symbol": "CAT",
    "tag": "WATCH",
-   "h1": -0.0,
-   "ts": "2026-09-28 23:00 UTC"
+   "h1": -0.3,
+   "ts": "2026-09-28 23:30 UTC"
   },
   {
    "symbol": "Pumpoween",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-09-28 23:00 UTC"
+   "h1": 4.2,
+   "ts": "2026-09-28 23:30 UTC"
   },
   {
    "symbol": "SP",
@@ -899,8 +893,14 @@
   {
    "symbol": "HAUNTED",
    "tag": "WATCH",
-   "h1": 42.4,
-   "ts": "2026-09-28 23:00 UTC"
+   "h1": -0.6,
+   "ts": "2026-09-28 23:30 UTC"
+  },
+  {
+   "symbol": "INUINK",
+   "tag": "CHASE",
+   "h1": 156.0,
+   "ts": "2026-09-28 23:30 UTC"
   }
  ],
  "live_closes": [
