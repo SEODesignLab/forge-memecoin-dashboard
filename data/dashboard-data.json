@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-28T18:04:25.379839+00:00",
+ "generated": "2026-09-28T18:34:25.543346+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
-  "paper_rows": 419,
-  "paper_skips": 419,
+  "paper_rows": 422,
+  "paper_skips": 422,
   "paper_buys": 0,
   "paper_settled": 0,
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 56,
-  "cohort_wallets": 567,
+  "cohort_runs": 57,
+  "cohort_wallets": 582,
   "cohort_qualified": 3,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 36
+   "count": 38
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-28T18:30:41.323740+00:00",
+   "symbol": "TRUMP",
+   "mint": "rzjRSBqGoBautTNCLUxXsSFKfWPriLWu8nuCCCLpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.0005838,
+   "mcap": 583796,
+   "liq": 75735.19,
+   "h1": 889,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T18:30:41.318256+00:00",
+   "symbol": "GoogleAI",
+   "mint": "9WGRZ33h9Rx4xmDqBZ1mJgKrmpGKC963gQs4inQpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.0005486,
+   "mcap": 548634,
+   "liq": 73336.7,
+   "h1": 829,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-28T18:30:41.313827+00:00",
+   "symbol": "PFC",
+   "mint": "5bpnsoZ3HgwGs42Tyd6nEK9s9MCQhhDjVmUveqgbmyJK",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 23.2% > 12% gate",
+   "entry_price": 4.859e-05,
+   "mcap": 48591,
+   "liq": 19843.91,
+   "h1": -13.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-28T18:00:47.905085+00:00",
    "symbol": "Claude",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T16:30:50.281275+00:00",
-   "symbol": "HOODRICH",
-   "mint": "Dz732sy9sP94UQyg33p4MuTUpe4GwRibHkLmm9mxpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 0.0001346,
-   "mcap": 134616,
-   "liq": 33177.13,
-   "h1": 167,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T16:00:48.782246+00:00",
-   "symbol": "Mewania",
-   "mint": "2xwekhGkoiYFCGs6eEYcJhSmjMqt1bXvMKJ2dKbZpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004257,
-   "mcap": 425712,
-   "liq": 58807.85,
-   "h1": 767,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T16:00:48.775269+00:00",
-   "symbol": "RLUSD",
-   "mint": "GQgpzXBbJsqeMuTtNdBpbnicyTQ6dRgSaoKeaNipump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003596,
-   "mcap": 359677,
-   "liq": 53063.9,
-   "h1": 631,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -684,18 +684,18 @@
  "wallets": [
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
-   "hits": 11,
+   "hits": 12,
    "symbols": [
-    "Q4",
     "Holdoween",
     "LAND",
     "ZSHIB ",
     "JIANCO",
     "INSTA",
     "CAT",
-    "Pumpoween"
+    "Pumpoween",
+    "SP"
    ],
-   "last": "2026-09-28 18:00 UTC"
+   "last": "2026-09-28 18:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -806,7 +806,7 @@
     "Holdoween",
     "CAT"
    ],
-   "last": "2026-09-28 16:30 UTC"
+   "last": "2026-09-28 18:30 UTC"
   },
   {
    "wallet": "5fE3h8r4zNh2xEeVX68N7aebm3mgSxy45qjB2JWeypMW",
@@ -826,12 +826,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "ARENA",
-   "tag": "WATCH",
-   "h1": 18.3,
-   "ts": "2026-09-27 20:30 UTC"
-  },
   {
    "symbol": "UPTOBER",
    "tag": "WATCH",
@@ -876,9 +870,9 @@
   },
   {
    "symbol": "XPAD",
-   "tag": "FADING",
-   "h1": -26.0,
-   "ts": "2026-09-28 18:00 UTC"
+   "tag": "WATCH",
+   "h1": 20.1,
+   "ts": "2026-09-28 18:30 UTC"
   },
   {
    "symbol": "INSTA",
@@ -889,14 +883,20 @@
   {
    "symbol": "CAT",
    "tag": "WATCH",
-   "h1": -6.7,
-   "ts": "2026-09-28 18:00 UTC"
+   "h1": -4.4,
+   "ts": "2026-09-28 18:30 UTC"
   },
   {
    "symbol": "Pumpoween",
    "tag": "WATCH",
-   "h1": 25.7,
-   "ts": "2026-09-28 18:00 UTC"
+   "h1": 2.5,
+   "ts": "2026-09-28 18:30 UTC"
+  },
+  {
+   "symbol": "SP",
+   "tag": "WATCH",
+   "h1": 30.8,
+   "ts": "2026-09-28 18:30 UTC"
   }
  ],
  "live_closes": [
