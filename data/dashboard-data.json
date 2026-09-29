@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T02:04:27.674894+00:00",
+ "generated": "2026-09-29T02:34:27.814331+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 72,
-  "cohort_wallets": 839,
+  "cohort_runs": 73,
+  "cohort_wallets": 859,
   "cohort_qualified": 4,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 101
+   "count": 102
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 42
+   "count": 41
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -69,11 +69,56 @@
    "count": 5
   },
   {
-   "reason": "Top holder 20.5% > 12% gate",
+   "reason": "Top holder 14.1% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-29T02:30:36.805349+00:00",
+   "symbol": "ELON",
+   "mint": "3zi8qPMLGjXAnQRzpJuryWC76Jv6mhU4b2pjFLMtpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001612,
+   "mcap": 161272,
+   "liq": 34379.14,
+   "h1": 233,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T02:30:36.799993+00:00",
+   "symbol": "XLiquid",
+   "mint": "BhNmfTQuSdkdgVPhZ5fCJnxa1xYTPqkdjMn7LhLYhype",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 23.5% > 12% gate",
+   "entry_price": 4.091e-05,
+   "mcap": 40915,
+   "liq": 16796.69,
+   "h1": -14.99,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T02:30:36.794548+00:00",
+   "symbol": "CASHED",
+   "mint": "367vwbRPVi2vgEZqdEwEoMYNo5ESdypuznPT3isdpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 16.3% > 12% gate",
+   "entry_price": 9.169e-05,
+   "mcap": 91693,
+   "liq": 25631.63,
+   "h1": 90.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-29T02:00:45.899252+00:00",
    "symbol": "N1VEC",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T23:00:51.217637+00:00",
-   "symbol": "ChatGPT",
-   "mint": "AAgzbB3SGVkaWF9ZGLEb6mcYwpt4hhxs2BAWFQ2Tpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.000447,
-   "mcap": 447034,
-   "liq": 59002.01,
-   "h1": 808,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T23:00:51.212053+00:00",
-   "symbol": "BUP",
-   "mint": "AnqozJHBqT6WQ4bwqkyBu3DArWTeTGGGTp9CstMSpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 6.131e-05,
-   "mcap": 61314,
-   "liq": 22206.17,
-   "h1": 22.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T23:00:51.206067+00:00",
-   "symbol": "RENAISSANCE",
-   "mint": "62UxM6G7RoAfth4PUqFZtCJjBpQDAGb515sFrEYupump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 23.0% > 12% gate",
-   "entry_price": 3.596e-05,
-   "mcap": 35968,
-   "liq": 15246.71,
-   "h1": -26.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "HAUNTED",
     "Q4"
    ],
-   "last": "2026-09-29 02:00 UTC"
+   "last": "2026-09-29 02:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -820,13 +820,13 @@
    "last": "2026-09-29 01:30 UTC"
   },
   {
-   "wallet": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
+   "wallet": "Hqf8a2Ryxeb15wNcXSXzAemBeY9VtcSrW5wE6UpcSrnG",
    "hits": 2,
    "symbols": [
-    "INSTA",
-    "XPAD"
+    "XPAD",
+    "INUINK"
    ],
-   "last": "2026-09-28 14:30 UTC"
+   "last": "2026-09-29 02:30 UTC"
   }
  ],
  "mints": [
@@ -858,7 +858,7 @@
    "symbol": "XPAD",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-09-29 02:00 UTC"
+   "ts": "2026-09-29 02:30 UTC"
   },
   {
    "symbol": "INSTA",
@@ -869,14 +869,14 @@
   {
    "symbol": "CAT",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-09-29 02:00 UTC"
+   "h1": 3.0,
+   "ts": "2026-09-29 02:30 UTC"
   },
   {
    "symbol": "Pumpoween",
    "tag": "WATCH",
-   "h1": 2.6,
-   "ts": "2026-09-29 02:00 UTC"
+   "h1": -2.6,
+   "ts": "2026-09-29 02:30 UTC"
   },
   {
    "symbol": "SP",
@@ -893,14 +893,14 @@
   {
    "symbol": "INUINK",
    "tag": "WATCH",
-   "h1": -1.7,
-   "ts": "2026-09-29 02:00 UTC"
+   "h1": 14.2,
+   "ts": "2026-09-29 02:30 UTC"
   },
   {
    "symbol": "HOOKEDCAT",
    "tag": "WATCH",
-   "h1": 28.3,
-   "ts": "2026-09-29 02:00 UTC"
+   "h1": -14.3,
+   "ts": "2026-09-29 02:30 UTC"
   }
  ],
  "live_closes": [
