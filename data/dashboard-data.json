@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T23:34:26.961728+00:00",
+ "generated": "2026-09-29T00:04:27.108261+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 67,
-  "cohort_wallets": 734,
+  "cohort_runs": 68,
+  "cohort_wallets": 757,
   "cohort_qualified": 4,
   "live_closes": 18,
   "live_wins": 4,
@@ -49,12 +49,12 @@
    "count": 13
   },
   {
-   "reason": "Mint/freeze not renounced",
+   "reason": "Top holder 12.6% > 12% gate",
    "count": 10
   },
   {
-   "reason": "Top holder 12.6% > 12% gate",
-   "count": 10
+   "reason": "Mint/freeze not renounced",
+   "count": 6
   },
   {
    "reason": "Top holder 12.9% > 12% gate",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-29T00:00:43.505229+00:00",
+   "symbol": "PAIDINK",
+   "mint": "A8MBwPZwR6msXrDBRzg8b1W7BpjjPch1WsTELQJzpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 57>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001396,
+   "mcap": 139682,
+   "liq": 32115.86,
+   "h1": 55.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T00:00:43.500896+00:00",
+   "symbol": "SITRUMP",
+   "mint": "4tvcXSyhPfb1vQQWunMmMzmVNCJGMYrXgtv3bEbSpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 14.6% > 12% gate",
+   "entry_price": 0.0001013,
+   "mcap": 101332,
+   "liq": 27194.12,
+   "h1": 28.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T00:00:43.496499+00:00",
+   "symbol": "Bill",
+   "mint": "ApRWoweCrJP494QN8SsQt3qxP4pvJZWBs87F5X7bpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 14.5% > 12% gate",
+   "entry_price": 5.566e-05,
+   "mcap": 55669,
+   "liq": 19792.97,
+   "h1": 13.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T00:00:43.492107+00:00",
+   "symbol": "GTA 7 VII",
+   "mint": "aXUALPFteqys2JeUrXLbTrFhbtCut8oBg314WCLpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 15.6% > 12% gate",
+   "entry_price": 8.184e-05,
+   "mcap": 81846,
+   "liq": 24121.43,
+   "h1": 65.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-29T00:00:43.482790+00:00",
+   "symbol": "ASS",
+   "mint": "GjG4Xbbb4L8drRArwGUEfFmDnyQ6xT4QCq5PfMuKpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 1.468e-05,
+   "mcap": 14682,
+   "liq": 9024.77,
+   "h1": -69.91,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-28T23:30:43.765095+00:00",
    "symbol": "TRMP",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:30:52.273642+00:00",
-   "symbol": "PIPS",
-   "mint": "FpPeaDbprm7JHAxghi98czirmRw3aWRbigefbsTKpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 32.8% > 12% gate",
-   "entry_price": 2.13e-05,
-   "mcap": 21309,
-   "liq": 11251.45,
-   "h1": -56.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:30:52.268013+00:00",
-   "symbol": "HOOKEDCAT",
-   "mint": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002574,
-   "mcap": 257438,
-   "liq": 45277.28,
-   "h1": 210,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:30:52.262873+00:00",
-   "symbol": "GATEKEEP",
-   "mint": "FpdLcWp7p776dn4YyYHZiHdM96dyPyAx9fjeaEq9pump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 3.275e-05,
-   "mcap": 32756,
-   "liq": 14557.65,
-   "h1": -32.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.474280+00:00",
-   "symbol": "OFFICE",
-   "mint": "DMVGBQ22T1VWDBpMaLSRTpE859tEvEp1x52Czxvipump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 25.6% > 12% gate",
-   "entry_price": 3.515e-05,
-   "mcap": 35154,
-   "liq": 15057.77,
-   "h1": -27.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-28T21:00:50.470346+00:00",
-   "symbol": "HOOKEDCATS",
-   "mint": "9DPUFzAMZfbh4ie5RLJ1C7Zhes5eEayPsTU91tSzpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 47>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001268,
-   "mcap": 126880,
-   "liq": 30520.73,
-   "h1": 41.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "SP",
     "HAUNTED"
    ],
-   "last": "2026-09-28 23:30 UTC"
+   "last": "2026-09-29 00:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -831,12 +831,6 @@
  ],
  "mints": [
   {
-   "symbol": "ZSHIB ",
-   "tag": "WATCH",
-   "h1": 39.5,
-   "ts": "2026-09-28 03:30 UTC"
-  },
-  {
    "symbol": "Holdoween",
    "tag": "WATCH",
    "h1": -9.4,
@@ -875,14 +869,14 @@
   {
    "symbol": "CAT",
    "tag": "WATCH",
-   "h1": -0.3,
-   "ts": "2026-09-28 23:30 UTC"
+   "h1": 1.8,
+   "ts": "2026-09-29 00:00 UTC"
   },
   {
    "symbol": "Pumpoween",
    "tag": "WATCH",
-   "h1": 4.2,
-   "ts": "2026-09-28 23:30 UTC"
+   "h1": 32.9,
+   "ts": "2026-09-29 00:00 UTC"
   },
   {
    "symbol": "SP",
@@ -892,15 +886,21 @@
   },
   {
    "symbol": "HAUNTED",
-   "tag": "WATCH",
-   "h1": -0.6,
-   "ts": "2026-09-28 23:30 UTC"
+   "tag": "FADING",
+   "h1": -74.8,
+   "ts": "2026-09-29 00:00 UTC"
   },
   {
    "symbol": "INUINK",
-   "tag": "CHASE",
-   "h1": 156.0,
-   "ts": "2026-09-28 23:30 UTC"
+   "tag": "WATCH",
+   "h1": 106.0,
+   "ts": "2026-09-29 00:00 UTC"
+  },
+  {
+   "symbol": "HOOKEDCAT",
+   "tag": "FADING",
+   "h1": -38.5,
+   "ts": "2026-09-29 00:00 UTC"
   }
  ],
  "live_closes": [
