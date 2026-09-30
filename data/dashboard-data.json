@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T05:04:35.419976+00:00",
+ "generated": "2026-09-30T05:34:35.554623+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 126,
-  "cohort_wallets": 1684,
+  "cohort_runs": 127,
+  "cohort_wallets": 1696,
   "cohort_qualified": 16,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 72
+   "count": 70
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 35
+   "count": 36
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 26
+   "count": 27
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -65,15 +65,90 @@
    "count": 7
   },
   {
-   "reason": "Top holder 18.8% > 12% gate",
+   "reason": "Top holder 13.4% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 19.4% > 12% gate",
+   "reason": "Top holder 12.4% > 12% gate",
    "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-30T05:30:53.346559+00:00",
+   "symbol": "Mosquito",
+   "mint": "6ViPRqdGbfyYgBps6c9TmscdMa2G38Nf8A11FjWEhjQU",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 3.973e-05,
+   "mcap": 39731,
+   "liq": 16259.44,
+   "h1": -18.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T05:30:53.342235+00:00",
+   "symbol": "USDSI",
+   "mint": "9pWnrFD8DzCnyMih39qqVk1nfc8TxVuSzuWU28rwpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 13.4% > 12% gate",
+   "entry_price": 9.803e-05,
+   "mcap": 98037,
+   "liq": 26915.59,
+   "h1": 93.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T05:30:53.330820+00:00",
+   "symbol": "POTUS",
+   "mint": "EDETAdjB1N8AARfoWWTwxeUJiNFjGAEhBv1JBePnagoh",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004041,
+   "mcap": 404180,
+   "liq": 65212.49,
+   "h1": 2.88,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T05:30:53.323585+00:00",
+   "symbol": "ST",
+   "mint": "6EedU34v7qsJrzoCGNDv8fRHeYafWhVAyFZjnBBfpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 0.0001391,
+   "mcap": 139177,
+   "liq": 32735.27,
+   "h1": 61.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T05:30:53.318195+00:00",
+   "symbol": "PEPEINU",
+   "mint": "47tKBJGN57NdET6KguRpaSrmaVmCnyj9yQQpx1urpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 7.913e-05,
+   "mcap": 79133,
+   "liq": 23660.61,
+   "h1": 61.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-30T05:00:56.993854+00:00",
    "symbol": "Meta",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T03:00:57.927728+00:00",
-   "symbol": "DOTS",
-   "mint": "3t5uvZAcF86MTqGCLEe3tYXFWFByE9NogdsfkQJPpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 19.4% > 12% gate",
-   "entry_price": 7.655e-05,
-   "mcap": 69234,
-   "liq": 23364.63,
-   "h1": 660,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T03:00:57.920674+00:00",
-   "symbol": "CASH",
-   "mint": "EGvy6a8kQqKRCne3HVW8LqQE59goSw4MKUe9Euetpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 23.7% > 12% gate",
-   "entry_price": 4.342e-05,
-   "mcap": 43178,
-   "liq": 17031.09,
-   "h1": -8.78,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T03:00:57.914423+00:00",
-   "symbol": "PUP",
-   "mint": "Uh722GCeChAY7EgbGFMhK9TX1SMsUuYnMpw42Bnpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 2.987e-05,
-   "mcap": 29837,
-   "liq": 13756.22,
-   "h1": -39.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T03:00:57.907994+00:00",
-   "symbol": "Orangie",
-   "mint": "GjxNDXzZ4XYbufcozyPAn8bAtRiwSf16c5zZrjydpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002028,
-   "mcap": 202830,
-   "liq": 40420.94,
-   "h1": 308,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T02:30:57.530673+00:00",
-   "symbol": "HI",
-   "mint": "6FGnCoQQWmZUQuEgLV4Wtdhw9mLRwi6g5Q4rLS2ipump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 17.4% > 12% gate",
-   "entry_price": 6.829e-05,
-   "mcap": 68297,
-   "liq": 21942.48,
-   "h1": 42.65,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "SS",
     "LionDad"
    ],
-   "last": "2026-09-30 05:00 UTC"
+   "last": "2026-09-30 05:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -860,8 +860,8 @@
   {
    "symbol": "PARASITE",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-09-30 05:00 UTC"
+   "h1": 13.2,
+   "ts": "2026-09-30 05:30 UTC"
   },
   {
    "symbol": "STUPID",
@@ -878,14 +878,14 @@
   {
    "symbol": "NPC",
    "tag": "WATCH",
-   "h1": -0.3,
-   "ts": "2026-09-30 05:00 UTC"
+   "h1": -0.2,
+   "ts": "2026-09-30 05:30 UTC"
   },
   {
    "symbol": "CROCS",
    "tag": "FADING",
-   "h1": -22.2,
-   "ts": "2026-09-30 05:00 UTC"
+   "h1": -28.1,
+   "ts": "2026-09-30 05:30 UTC"
   },
   {
    "symbol": "NI",
@@ -914,8 +914,8 @@
   {
    "symbol": "AIRPAD",
    "tag": "WATCH",
-   "h1": -9.6,
-   "ts": "2026-09-30 05:00 UTC"
+   "h1": -3.7,
+   "ts": "2026-09-30 05:30 UTC"
   }
  ],
  "live_closes": [
