@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T23:34:33.837430+00:00",
+ "generated": "2026-09-30T00:04:33.986696+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 115,
-  "cohort_wallets": 1549,
+  "cohort_runs": 116,
+  "cohort_wallets": 1564,
   "cohort_qualified": 12,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 82
+   "count": 83
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -42,11 +42,11 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 20
+   "count": 21
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 19
+   "count": 18
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-09-30T00:00:49.209077+00:00",
+   "symbol": "Rihanna",
+   "mint": "CCQXph2GpydfrcJK6bCokhCWgRd59efm9Hz3vQYUpump",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0001088,
+   "mcap": 108888,
+   "liq": 28179.98,
+   "h1": 120,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T00:00:49.203762+00:00",
+   "symbol": "PARASITE",
+   "mint": "EUFrBtXcY6T9h39TosszczpeEvoyipx2JEDrbVBqpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Chase filter: +243% in 1h > 40% cap",
+   "entry_price": 0.0001698,
+   "mcap": 169851,
+   "liq": 36105.45,
+   "h1": 243,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-09-30T00:00:49.185822+00:00",
+   "symbol": "ARTHUR",
+   "mint": "6e8LLHkqCTa4mzGuL1PoUxSfeHmDeceJ3DaJSSUNg937",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0009941,
+   "mcap": 994153,
+   "liq": 99577.81,
+   "h1": 1882,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-09-29T23:30:52.050848+00:00",
    "symbol": "Speed",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-29T22:00:56.759816+00:00",
-   "symbol": "STAR",
-   "mint": "6M8CWurfztGraRKK7y6Nz7pavLabYC2LwNsUzaEwpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 5.755e-05,
-   "mcap": 57553,
-   "liq": 20097.22,
-   "h1": 16.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-29T22:00:56.754611+00:00",
-   "symbol": "MINE",
-   "mint": "B6DTxpSYoYhjha7D6FQJeRgzQxpMngCsckgjALvNpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 24.6% > 12% gate",
-   "entry_price": 3.32e-05,
-   "mcap": 33202,
-   "liq": 14612.23,
-   "h1": -31.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-29T21:30:54.871724+00:00",
-   "symbol": "Playoffs",
-   "mint": "B9Wa9nV2WYcdPAFwanZyoSnfS41soXMzaE887fWZvw3v",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001815,
-   "mcap": 181570,
-   "liq": 36914.68,
-   "h1": 268,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "PARASITE",
     "NI"
    ],
-   "last": "2026-09-29 23:30 UTC"
+   "last": "2026-09-30 00:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -758,7 +758,7 @@
     "XPAD",
     "PARASITE"
    ],
-   "last": "2026-09-29 23:00 UTC"
+   "last": "2026-09-30 00:00 UTC"
   },
   {
    "wallet": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
@@ -817,7 +817,7 @@
     "SHAREPAY",
     "NPC"
    ],
-   "last": "2026-09-29 23:30 UTC"
+   "last": "2026-09-30 00:00 UTC"
   },
   {
    "wallet": "9CXG4WSkHk2qqja3hChDbqq57U9rxft3g27dgv5gw37H",
@@ -865,9 +865,9 @@
   },
   {
    "symbol": "PARASITE",
-   "tag": "WATCH",
-   "h1": 4.5,
-   "ts": "2026-09-29 23:30 UTC"
+   "tag": "FADING",
+   "h1": -27.0,
+   "ts": "2026-09-30 00:00 UTC"
   },
   {
    "symbol": "STUPID",
@@ -884,14 +884,14 @@
   {
    "symbol": "NPC",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-09-29 23:30 UTC"
+   "h1": 0.0,
+   "ts": "2026-09-30 00:00 UTC"
   },
   {
    "symbol": "CROCS",
-   "tag": "WATCH",
-   "h1": -17.3,
-   "ts": "2026-09-29 23:30 UTC"
+   "tag": "FADING",
+   "h1": -39.0,
+   "ts": "2026-09-30 00:00 UTC"
   },
   {
    "symbol": "NI",
@@ -901,15 +901,15 @@
   },
   {
    "symbol": "SS",
-   "tag": "CHASE",
-   "h1": 303.0,
-   "ts": "2026-09-29 23:30 UTC"
+   "tag": "WATCH",
+   "h1": 61.9,
+   "ts": "2026-09-30 00:00 UTC"
   },
   {
    "symbol": "RESI",
    "tag": "CHASE",
-   "h1": 1935.0,
-   "ts": "2026-09-29 23:30 UTC"
+   "h1": 178.0,
+   "ts": "2026-09-30 00:00 UTC"
   }
  ],
  "live_closes": [
