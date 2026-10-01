@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T00:34:28.648786+00:00",
+ "generated": "2026-10-01T01:04:28.786196+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 165,
-  "cohort_wallets": 1705,
+  "cohort_runs": 166,
+  "cohort_wallets": 1717,
   "cohort_qualified": 18,
   "live_closes": 18,
   "live_wins": 4,
@@ -38,11 +38,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 19
-  },
-  {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 17
+   "count": 20
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -50,6 +46,10 @@
   },
   {
    "reason": "Score 81 below threshold 85",
+   "count": 16
+  },
+  {
+   "reason": "Top holder 13.2% > 12% gate",
    "count": 15
   },
   {
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-01T01:00:52.221435+00:00",
+   "symbol": "Gemini",
+   "mint": "74sDoYaonj3KhCf3Lu4pWf61ePoczw1YemGmk5FGpump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.0004567,
+   "mcap": 456765,
+   "liq": 59531.93,
+   "h1": 832,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T01:00:52.217031+00:00",
+   "symbol": "SC",
+   "mint": "DNsBHDTtw69dKCoMmiuDFndocnRn9q7m2nJPTL4qpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 56>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001576,
+   "mcap": 157632,
+   "liq": 34114.77,
+   "h1": 84.59,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T01:00:52.212303+00:00",
+   "symbol": "POKEMON",
+   "mint": "E5VahQ8cTPPsW2CSuzYmMP4LwFth8mR2CmvG5CR9eFC8",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 13.9% > 12% gate",
+   "entry_price": 9.81e-05,
+   "mcap": 98103,
+   "liq": 26512.02,
+   "h1": 100,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T01:00:52.206939+00:00",
+   "symbol": "STONKTOBER",
+   "mint": "7vwbC4c5RPqnRt9jNREfdFE1jaK6953S2DcSa3dNSTNK",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 3.562e-05,
+   "mcap": 35629,
+   "liq": 16454.91,
+   "h1": -20.36,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T01:00:52.199965+00:00",
+   "symbol": "Kuma",
+   "mint": "79rbaxRXKm7mbNRiBzroyZAvX4Yv1KyR57eiUvEgFaQe",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 21.2% > 12% gate",
+   "entry_price": 4.924e-05,
+   "mcap": 49242,
+   "liq": 18171.82,
+   "h1": 1.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-01T00:31:17.688772+00:00",
    "symbol": "Pengpeng",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T23:00:56.028865+00:00",
-   "symbol": "CATFLIX",
-   "mint": "haAw3sfS3yQpetdh1ThkSPsCwtr4ggW3qRaphKFpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 12.7% > 12% gate",
-   "entry_price": 0.0001057,
-   "mcap": 105735,
-   "liq": 28159.46,
-   "h1": 27.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T23:00:56.024651+00:00",
-   "symbol": "ALTEREGO",
-   "mint": "DusyJBHFcvwMsHd1MEUMKSnJD415Dt3RrD3bvERkpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 15.6% > 12% gate",
-   "entry_price": 9.176e-05,
-   "mcap": 91763,
-   "liq": 25695.21,
-   "h1": 87.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T23:00:56.020242+00:00",
-   "symbol": "Meridian",
-   "mint": "GjrhXcr8YzUZBbu5rifdqM5CPBS4LFJveq3ZiY2u3g5G",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0008204,
-   "mcap": 789541,
-   "liq": 85446.23,
-   "h1": 273,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T23:00:56.015450+00:00",
-   "symbol": "Picomatch",
-   "mint": "2F3VSnTdEJAKjWmSahfRG43RZFdkCDzSPySNdpz8pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 20.6% > 12% gate",
-   "entry_price": 5.385e-05,
-   "mcap": 53854,
-   "liq": 19179.31,
-   "h1": 9.67,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-09-30T22:30:49.623680+00:00",
-   "symbol": "MrBeast",
-   "mint": "EQRKcF95oiXGbrearFVwWcpsjigRdMQeA75FLbMyEqD8",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0001148,
-   "mcap": 114827,
-   "liq": 28956.44,
-   "h1": 134,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,11 +695,11 @@
     "Holdoween",
     "BSI"
    ],
-   "last": "2026-10-01 00:30 UTC"
+   "last": "2026-10-01 01:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 7,
+   "hits": 8,
    "symbols": [
     "UPTOBER",
     "INSTA",
@@ -707,9 +707,10 @@
     "CAT",
     "HAUNTED",
     "CROCS",
-    "AIRPAD"
+    "AIRPAD",
+    "HI"
    ],
-   "last": "2026-09-30 17:30 UTC"
+   "last": "2026-10-01 01:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -850,12 +851,6 @@
  ],
  "mints": [
   {
-   "symbol": "STUPID",
-   "tag": "WATCH",
-   "h1": 89.3,
-   "ts": "2026-09-29 16:30 UTC"
-  },
-  {
    "symbol": "SNOWBALL",
    "tag": "WATCH",
    "h1": -14.9,
@@ -900,26 +895,32 @@
   {
    "symbol": "AIRPAD",
    "tag": "WATCH",
-   "h1": -0.2,
-   "ts": "2026-10-01 00:30 UTC"
+   "h1": -0.0,
+   "ts": "2026-10-01 01:00 UTC"
   },
   {
    "symbol": "HI",
    "tag": "WATCH",
-   "h1": 10.1,
-   "ts": "2026-10-01 00:30 UTC"
+   "h1": 9.4,
+   "ts": "2026-10-01 01:00 UTC"
   },
   {
    "symbol": "PUMPGU",
    "tag": "WATCH",
-   "h1": -5.4,
-   "ts": "2026-10-01 00:30 UTC"
+   "h1": 3.0,
+   "ts": "2026-10-01 01:00 UTC"
   },
   {
    "symbol": "BSI",
    "tag": "WATCH",
-   "h1": -0.2,
-   "ts": "2026-10-01 00:30 UTC"
+   "h1": -0.0,
+   "ts": "2026-10-01 01:00 UTC"
+  },
+  {
+   "symbol": "GENNYWEALTH",
+   "tag": "WATCH",
+   "h1": -5.2,
+   "ts": "2026-10-01 01:00 UTC"
   }
  ],
  "live_closes": [
