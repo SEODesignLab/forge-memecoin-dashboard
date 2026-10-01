@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T07:34:30.650444+00:00",
+ "generated": "2026-10-01T08:04:30.795500+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 179,
-  "cohort_wallets": 1819,
+  "cohort_runs": 180,
+  "cohort_wallets": 1827,
   "cohort_qualified": 19,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 72
+   "count": 71
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 39
+   "count": 40
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -41,12 +41,12 @@
    "count": 18
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Score 84 below threshold 85",
    "count": 16
   },
   {
-   "reason": "Score 84 below threshold 85",
-   "count": 15
+   "reason": "Score 81 below threshold 85",
+   "count": 16
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-01T08:00:39.529570+00:00",
+   "symbol": "Haaland",
+   "mint": "13egrSyqdRXCgykZ9tizAt9dZRjjvdz3ro8KFwjL1pLd",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.3% > 12% gate",
+   "entry_price": 0.0004026,
+   "mcap": 402663,
+   "liq": 55657.95,
+   "h1": 723,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T08:00:39.525179+00:00",
+   "symbol": "MILI-PIKA",
+   "mint": "2wSyGzcCtzw8deZpHYob3QhwstqTV8Ljmhxwh4qJverW",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0007035,
+   "mcap": 703592,
+   "liq": 74256.96,
+   "h1": 1339,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-01T08:00:39.518778+00:00",
+   "symbol": "McDonald's",
+   "mint": "ArStPxnjmUCKXtBoiwNnH57vw82k99JAQ1KnyaAopump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0004858,
+   "mcap": 485846,
+   "liq": 61349.66,
+   "h1": 893,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-01T07:30:42.574106+00:00",
    "symbol": "SuperButch",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T04:00:47.107614+00:00",
-   "symbol": "SMIND",
-   "mint": "EcVpUcpXHREZiTWAFnie34nMtgnD2p5iCRxYPKrvpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 12.6% > 12% gate",
-   "entry_price": 0.0004487,
-   "mcap": 448757,
-   "liq": 59162.09,
-   "h1": 812,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T04:00:47.102963+00:00",
-   "symbol": "MICROINU",
-   "mint": "2uGZUgVKUxwAVZSD6dwbMat7CiwKs3fwXW8ByMQ8pump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 5.6e-05,
-   "mcap": 56007,
-   "liq": 20096.21,
-   "h1": 11.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T04:00:47.089796+00:00",
-   "symbol": "NUVI",
-   "mint": "EEGtwsf5wLWDG4THEu4TdFKTTRpsEoxArWZsetWZpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 15.6% > 12% gate",
-   "entry_price": 6.891e-05,
-   "mcap": 68916,
-   "liq": 22530.81,
-   "h1": 38.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "FI",
     "DEGEN"
    ],
-   "last": "2026-10-01 07:30 UTC"
+   "last": "2026-10-01 08:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -710,7 +710,7 @@
     "HI",
     "PUMPGU"
    ],
-   "last": "2026-10-01 03:00 UTC"
+   "last": "2026-10-01 08:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -890,15 +890,15 @@
   },
   {
    "symbol": "HI",
-   "tag": "WATCH",
-   "h1": 5.8,
-   "ts": "2026-10-01 07:30 UTC"
+   "tag": "FADING",
+   "h1": -39.1,
+   "ts": "2026-10-01 08:00 UTC"
   },
   {
    "symbol": "PUMPGU",
-   "tag": "FADING",
-   "h1": -29.9,
-   "ts": "2026-10-01 07:30 UTC"
+   "tag": "WATCH",
+   "h1": -4.2,
+   "ts": "2026-10-01 08:00 UTC"
   },
   {
    "symbol": "BSI",
@@ -921,8 +921,8 @@
   {
    "symbol": "DEGEN",
    "tag": "WATCH",
-   "h1": -1.5,
-   "ts": "2026-10-01 07:30 UTC"
+   "h1": 7.2,
+   "ts": "2026-10-01 08:00 UTC"
   }
  ],
  "live_closes": [
