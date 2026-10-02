@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T13:34:39.370942+00:00",
+ "generated": "2026-10-02T14:04:39.515616+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 239,
-  "cohort_wallets": 1935,
+  "cohort_runs": 240,
+  "cohort_wallets": 1937,
   "cohort_qualified": 27,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,14 +34,14 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 32
-  },
-  {
-   "reason": "Score 83 below threshold 85",
-   "count": 31
+   "count": 33
   },
   {
    "reason": "Score 81 below threshold 85",
+   "count": 30
+  },
+  {
+   "reason": "Score 83 below threshold 85",
    "count": 30
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-02T14:00:59.374451+00:00",
+   "symbol": "DOTF",
+   "mint": "844JQLyJEdrvQJvaVfuuQKZk1MQpWs7JxDc3W9PHpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 0.0001119,
+   "mcap": 111970,
+   "liq": 29070.66,
+   "h1": 121,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-02T14:00:59.369885+00:00",
+   "symbol": "Mr. Bean",
+   "mint": "71wkkdgacMjRE8F2AU1ZD2abS6rRbxEdgXvLzfsoxmdS",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0004973,
+   "mcap": 497349,
+   "liq": 63255.44,
+   "h1": 878,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-02T13:30:55.752995+00:00",
    "symbol": "Nike",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-02T10:00:52.548710+00:00",
-   "symbol": "Library",
-   "mint": "EpzFGJXtXtabZnVzM8WFeXvgRFrWSQwGZvpgVJH1EuAZ",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 14.8% > 12% gate",
-   "entry_price": 0.0001059,
-   "mcap": 105981,
-   "liq": 28335.67,
-   "h1": 115,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-02T10:00:52.543778+00:00",
-   "symbol": "deg",
-   "mint": "EBusR2cGL1gR5J8N2FT84zYL4rFBoJVtATNS5PEBpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004028,
-   "mcap": 402872,
-   "liq": 58672.63,
-   "h1": 690,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -895,8 +895,8 @@
   {
    "symbol": "CATOSHI",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-10-02 13:30 UTC"
+   "h1": -9.9,
+   "ts": "2026-10-02 14:00 UTC"
   },
   {
    "symbol": "Pinata",
