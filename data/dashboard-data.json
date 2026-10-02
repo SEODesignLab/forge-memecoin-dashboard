@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T01:04:35.777019+00:00",
+ "generated": "2026-10-02T01:34:35.919469+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 214,
-  "cohort_wallets": 1721,
+  "cohort_runs": 215,
+  "cohort_wallets": 1731,
   "cohort_qualified": 26,
   "live_closes": 18,
   "live_wins": 4,
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 23
+   "count": 22
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-02T01:30:49.486089+00:00",
+   "symbol": "FOLDBUD",
+   "mint": "12JcMRx9QphWP1hs4CEJ8FAeD2nUDgseAuGBQt6Tpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 53>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 7.112e-05,
+   "mcap": 71126,
+   "liq": 22288.12,
+   "h1": 44.36,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-02T01:30:49.479142+00:00",
+   "symbol": "PI",
+   "mint": "7cSPCV6Sadhcuk8zBa7o7mu2ny4ccmXB8XU6HcqPcSqY",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 21.7% > 12% gate",
+   "entry_price": 6.307e-05,
+   "mcap": 63031,
+   "liq": 22433.39,
+   "h1": 21.97,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-02T01:30:49.474049+00:00",
+   "symbol": "blofomo",
+   "mint": "9NHLQy5gSKYejNxQ4waZJrxSFTKz9n97nGggyNMCpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005484,
+   "mcap": 547888,
+   "liq": 70806.58,
+   "h1": 1015,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-02T01:00:54.710775+00:00",
    "symbol": "ANATWOLY",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T23:01:02.229958+00:00",
-   "symbol": "Agency",
-   "mint": "7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 0.0001377,
-   "mcap": 137784,
-   "liq": 32064.81,
-   "h1": 188,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T23:01:02.225023+00:00",
-   "symbol": "MICROCHIMPS",
-   "mint": "2GU7xJt4M5djAC7az3jzpFr5ApBTJK2e3LWXKrNypump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 20.1% > 12% gate",
-   "entry_price": 6.099e-05,
-   "mcap": 60992,
-   "liq": 20496.23,
-   "h1": 31.24,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-01T23:01:02.219810+00:00",
-   "symbol": "e/acc",
-   "mint": "ERxLYPjqeFfLsnChuPnvS6f3y5Me8BjgJi9oWaTJpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 0.0001419,
-   "mcap": 141933,
-   "liq": 32847.06,
-   "h1": 81.58,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [],
@@ -695,7 +695,7 @@
     "Holdoween",
     "LUCAS"
    ],
-   "last": "2026-10-02 01:00 UTC"
+   "last": "2026-10-02 01:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -752,6 +752,18 @@
    "last": "2026-09-30 17:30 UTC"
   },
   {
+   "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+   "hits": 5,
+   "symbols": [
+    "Holdoween",
+    "CAT",
+    "CROCS",
+    "PUMPGU",
+    "HI"
+   ],
+   "last": "2026-10-02 01:30 UTC"
+  },
+  {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
    "hits": 4,
    "symbols": [
@@ -783,17 +795,6 @@
     "CATOSHI"
    ],
    "last": "2026-10-01 17:00 UTC"
-  },
-  {
-   "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 4,
-   "symbols": [
-    "Holdoween",
-    "CAT",
-    "CROCS",
-    "PUMPGU"
-   ],
-   "last": "2026-10-01 06:30 UTC"
   },
   {
    "wallet": "ALVMJ9bny8tFT7AapoVbbzrgCYzrjy8iHw6EHFaehgZZ",
@@ -862,8 +863,8 @@
   {
    "symbol": "HI",
    "tag": "WATCH",
-   "h1": -4.9,
-   "ts": "2026-10-02 01:00 UTC"
+   "h1": -6.1,
+   "ts": "2026-10-02 01:30 UTC"
   },
   {
    "symbol": "PUMPGU",
@@ -898,8 +899,8 @@
   {
    "symbol": "CATOSHI",
    "tag": "WATCH",
-   "h1": 0.6,
-   "ts": "2026-10-02 01:00 UTC"
+   "h1": -0.5,
+   "ts": "2026-10-02 01:30 UTC"
   },
   {
    "symbol": "Pinata",
@@ -909,9 +910,9 @@
   },
   {
    "symbol": "Janes",
-   "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-10-02 01:00 UTC"
+   "tag": "FADING",
+   "h1": -84.5,
+   "ts": "2026-10-02 01:30 UTC"
   },
   {
    "symbol": "Mymo",
@@ -922,8 +923,8 @@
   {
    "symbol": "SACC",
    "tag": "FADING",
-   "h1": -68.2,
-   "ts": "2026-10-02 01:00 UTC"
+   "h1": -71.4,
+   "ts": "2026-10-02 01:30 UTC"
   },
   {
    "symbol": "LUCAS",
