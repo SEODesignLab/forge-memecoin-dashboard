@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T09:04:44.962391+00:00",
+ "generated": "2026-10-03T09:34:45.111984+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 278,
-  "cohort_wallets": 1657,
+  "cohort_runs": 279,
+  "cohort_wallets": 1660,
   "cohort_qualified": 29,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 36
+   "count": 37
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -50,7 +50,7 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 14
+   "count": 15
   },
   {
    "reason": "Top holder 12.1% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-03T09:30:56.466103+00:00",
+   "symbol": "OpenAI",
+   "mint": "HdMhWiBCiDpyHGNW9n81q5b2BAMm5bn1e3hAueGxpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0003841,
+   "mcap": 384186,
+   "liq": 54692.99,
+   "h1": 676,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T09:30:56.459401+00:00",
+   "symbol": "Van Cleef",
+   "mint": "HYTq4TwzJ72xDWBAs55wczeb1qQJiZpibLezM3QGWPWS",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0003887,
+   "mcap": 388796,
+   "liq": 55032.78,
+   "h1": 685,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T09:30:56.451728+00:00",
+   "symbol": "CAREBOND",
+   "mint": "2BcRevrDhP4MgCw2KyqByFZ4S7mpsi1vY8ZypXwepump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 16.2% > 12% gate",
+   "entry_price": 8.63e-05,
+   "mcap": 86304,
+   "liq": 25017.33,
+   "h1": 74.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T09:30:56.445997+00:00",
+   "symbol": "MONAWEEN",
+   "mint": "CkKGSFGZy9aJVBzkLH4huNo8P2YxsYXVYwFyZTSYpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003755,
+   "mcap": 375569,
+   "liq": 59139.29,
+   "h1": 651,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-03T09:01:03.421546+00:00",
    "symbol": "ZUCKAI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T06:01:29.662614+00:00",
-   "symbol": "CARTIER",
-   "mint": "aJE3XPResF45BxPPcZY74JhC4vKtfVmvDUh4RA5GvuD",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0006682,
-   "mcap": 668244,
-   "liq": 73004.97,
-   "h1": 1245,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T06:01:29.656524+00:00",
-   "symbol": "pad",
-   "mint": "5f9ndN5TPPqFrZVyAxCy2SDyHVswUMgXsNbuxsyBpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 5.755e-05,
-   "mcap": 57554,
-   "liq": 19943.06,
-   "h1": 15.77,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T06:01:29.651850+00:00",
-   "symbol": "ZuckAI",
-   "mint": "B6RBvqnGhgiEdCQFsersjHXHSxchGX3Qh3iZEW1umJ3p",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 0.0007004,
-   "mcap": 700448,
-   "liq": 74764.13,
-   "h1": 1310,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T06:01:29.647263+00:00",
-   "symbol": "PHROG",
-   "mint": "2x2Q2JH81iMqvFCSQAJVKhHcSBHko7TqYPXyM4eypump",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 5.307e-05,
-   "mcap": 53073,
-   "liq": 19240.81,
-   "h1": 9.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "SlabPay",
     "HI"
    ],
-   "last": "2026-10-03 09:00 UTC"
+   "last": "2026-10-03 09:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
