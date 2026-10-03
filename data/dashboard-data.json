@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T12:04:45.827717+00:00",
+ "generated": "2026-10-03T12:34:45.964241+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 284,
-  "cohort_wallets": 1697,
+  "cohort_runs": 285,
+  "cohort_wallets": 1699,
   "cohort_qualified": 29,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 30
+   "count": 31
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-03T12:31:05.233176+00:00",
+   "symbol": "Speed",
+   "mint": "FtMgrEhRZgcMdauNHAiwcAxQTdBiDQ9ovr6BDK7ZzvQR",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.000486,
+   "mcap": 486095,
+   "liq": 61832.93,
+   "h1": 878,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T12:31:05.227871+00:00",
+   "symbol": "Lath",
+   "mint": "3t6gDX8oVRN4k71Db64szV8NdXNx3vjvYYwHxtkdpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 23.6% > 12% gate",
+   "entry_price": 4.018e-05,
+   "mcap": 40182,
+   "liq": 16278.85,
+   "h1": -19.61,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T12:31:05.221327+00:00",
+   "symbol": "PUZZLE",
+   "mint": "NM4kZ1wiEPNN4URm1XcoAWmQfVYARRPkyLF3Rx6pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 44.7% > 12% gate",
+   "entry_price": 2.843e-05,
+   "mcap": 27278,
+   "liq": 13489.75,
+   "h1": -41.23,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-03T12:01:03.051314+00:00",
    "symbol": "coal",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T08:00:57.547751+00:00",
-   "symbol": "LP",
-   "mint": "B3ZpkVmvQ3EAWk5SN7hsEHzkYxQBBZsCSuAHpt1Dpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 12.5% > 12% gate",
-   "entry_price": 0.0001562,
-   "mcap": 156300,
-   "liq": 35948.63,
-   "h1": 208,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T08:00:57.543008+00:00",
-   "symbol": "McDonald's",
-   "mint": "GVZEtv3AKhY5tEbcJhCZ8Yb29jCPVvc4gE8AnsnNksmt",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 13.9% > 12% gate",
-   "entry_price": 0.0001,
-   "mcap": 100023,
-   "liq": 26926.91,
-   "h1": 102,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T08:00:57.538511+00:00",
-   "symbol": "KIN",
-   "mint": "8oiqV7E5wNEPYuBkBaTQoDYh6CZgGRfKLQrCuEY7pump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0001396,
-   "mcap": 139689,
-   "liq": 33156.75,
-   "h1": 183,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "SlabPay",
     "HI"
    ],
-   "last": "2026-10-03 11:00 UTC"
+   "last": "2026-10-03 12:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
