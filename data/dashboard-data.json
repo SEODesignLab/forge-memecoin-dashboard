@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T05:04:43.814801+00:00",
+ "generated": "2026-10-03T05:34:43.957649+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 270,
-  "cohort_wallets": 1626,
+  "cohort_runs": 271,
+  "cohort_wallets": 1632,
   "cohort_qualified": 29,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 62
+   "count": 61
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-03T05:30:56.302166+00:00",
+   "symbol": "GTA 7 VII",
+   "mint": "39TACCjrqsUnNwxcE3fJahgjYMzeLvtE56PmpsXBiVP8",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 12.3% > 12% gate",
+   "entry_price": 0.0003355,
+   "mcap": 335530,
+   "liq": 51066.81,
+   "h1": 576,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-03T05:00:55.168776+00:00",
    "symbol": "Gucci",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T02:01:02.569534+00:00",
-   "symbol": "HOLD",
-   "mint": "CpEWAySjashUJio1XoZU5op1MRgcfnKUQLhPD4ibagc",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 0.0002098,
-   "mcap": 209854,
-   "liq": 40560.78,
-   "h1": 327,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "BOO",
     "SlabPay"
    ],
-   "last": "2026-10-03 05:00 UTC"
+   "last": "2026-10-03 05:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -948,14 +948,14 @@
   {
    "symbol": "HOOKEDINU",
    "tag": "FADING",
-   "h1": -78.8,
-   "ts": "2026-10-03 05:00 UTC"
+   "h1": -46.6,
+   "ts": "2026-10-03 05:30 UTC"
   },
   {
    "symbol": "SlabPay",
    "tag": "FADING",
-   "h1": -39.5,
-   "ts": "2026-10-03 05:00 UTC"
+   "h1": -40.2,
+   "ts": "2026-10-03 05:30 UTC"
   }
  ],
  "live_closes": [
