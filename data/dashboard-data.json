@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T07:34:44.530621+00:00",
+ "generated": "2026-10-03T08:04:44.673343+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 275,
-  "cohort_wallets": 1649,
+  "cohort_runs": 276,
+  "cohort_wallets": 1653,
   "cohort_qualified": 29,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,15 +30,15 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 36
-  },
-  {
-   "reason": "Score 81 below threshold 85",
-   "count": 32
+   "count": 37
   },
   {
    "reason": "Score 84 below threshold 85",
    "count": 32
+  },
+  {
+   "reason": "Score 81 below threshold 85",
+   "count": 30
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -50,11 +50,11 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 13
+   "count": 14
   },
   {
    "reason": "Top holder 12.1% > 12% gate",
-   "count": 12
+   "count": 11
   },
   {
    "reason": "Top holder 13.7% > 12% gate",
@@ -69,11 +69,101 @@
    "count": 6
   },
   {
-   "reason": "Top holder 17.3% > 12% gate",
+   "reason": "RugCheck risk 80>45",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-03T08:00:57.556662+00:00",
+   "symbol": "Van Cleef",
+   "mint": "Eqs3QLzusg5GP6PjADVssdPykbPpHYgfnUXU1FdUMSUR",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.000785,
+   "mcap": 785022,
+   "liq": 79168.88,
+   "h1": 1485,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T08:00:57.552161+00:00",
+   "symbol": "GTA 7 VII",
+   "mint": "L2YCdhFYuMEXNz2X9nNjSKjqCBLZbRF8kDodZqbBbEp",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.001353,
+   "mcap": 1353357,
+   "liq": 104682.6,
+   "h1": 2628,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T08:00:57.547751+00:00",
+   "symbol": "LP",
+   "mint": "B3ZpkVmvQ3EAWk5SN7hsEHzkYxQBBZsCSuAHpt1Dpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 12.5% > 12% gate",
+   "entry_price": 0.0001562,
+   "mcap": 156300,
+   "liq": 35948.63,
+   "h1": 208,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T08:00:57.543008+00:00",
+   "symbol": "McDonald's",
+   "mint": "GVZEtv3AKhY5tEbcJhCZ8Yb29jCPVvc4gE8AnsnNksmt",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 13.9% > 12% gate",
+   "entry_price": 0.0001,
+   "mcap": 100023,
+   "liq": 26926.91,
+   "h1": 102,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T08:00:57.538511+00:00",
+   "symbol": "KIN",
+   "mint": "8oiqV7E5wNEPYuBkBaTQoDYh6CZgGRfKLQrCuEY7pump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0001396,
+   "mcap": 139689,
+   "liq": 33156.75,
+   "h1": 183,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-03T08:00:57.533270+00:00",
+   "symbol": "PMASK",
+   "mint": "DHyVoke6jcBe3ZDkZi3dZZuZeaDB4udKeZDL2PLdpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 6.254e-05,
+   "mcap": 62543,
+   "liq": 20818.37,
+   "h1": 24.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-03T07:31:06.458882+00:00",
    "symbol": "PM",
@@ -583,96 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:30:59.459917+00:00",
-   "symbol": "JacksonSte",
-   "mint": "4T8VA5revz1yXwYY5XKHrkn3gwD9vjjkxR8jak2Qpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 7.04e-05,
-   "mcap": 70409,
-   "liq": 22202.53,
-   "h1": 11.53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:30:59.452187+00:00",
-   "symbol": "PUDU",
-   "mint": "8HQgEcbhR5Xoh735zvndAocCLd7wdAYJfWHV55J8pump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 16.2% > 12% gate",
-   "entry_price": 6.178e-05,
-   "mcap": 61781,
-   "liq": 21739.39,
-   "h1": 25.84,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:30:59.442568+00:00",
-   "symbol": "\u30df\u30ba\u30e9",
-   "mint": "26VsYcDJ4Vv8C1TbbCg8K9ZQau8xre6CK1CD2hdEpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 4.306e-05,
-   "mcap": 41776,
-   "liq": 17273.01,
-   "h1": -24.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:01:03.823860+00:00",
-   "symbol": "Tesla AI",
-   "mint": "cMJyFJ2eSvxCFh8JnFqLcnC6QMkBCQQ3fnvEouApump",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 0.0005198,
-   "mcap": 519892,
-   "liq": 64026.68,
-   "h1": 949,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:01:03.819201+00:00",
-   "symbol": "GENIUS",
-   "mint": "YbYhD93eSsgyCbMEUBWHpUc5wNjUbWe7VWQTvdPpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 34.0% > 12% gate",
-   "entry_price": 7.648e-05,
-   "mcap": 76481,
-   "liq": 23294.49,
-   "h1": 55.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-03T04:01:03.814659+00:00",
-   "symbol": "Coinbase",
-   "mint": "EPwe3CH94c8BTpddUuGYn8fftehngLjHGayzpaH2DwuC",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 16.0% > 12% gate",
-   "entry_price": 7.518e-05,
-   "mcap": 75169,
-   "liq": 23069.1,
-   "h1": 51.56,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "SlabPay",
     "HI"
    ],
-   "last": "2026-10-03 07:30 UTC"
+   "last": "2026-10-03 08:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
