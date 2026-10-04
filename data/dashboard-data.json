@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T14:04:53.222032+00:00",
+ "generated": "2026-10-04T14:34:53.377411+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 336,
-  "cohort_wallets": 1618,
+  "cohort_runs": 337,
+  "cohort_wallets": 1631,
   "cohort_qualified": 36,
   "live_closes": 18,
   "live_wins": 4,
@@ -25,12 +25,12 @@
  },
  "skip_reasons": [
   {
-   "reason": "No cohort wallet with 3+ hits on this mint",
+   "reason": "Score 82 below threshold 85",
    "count": 34
   },
   {
-   "reason": "Score 82 below threshold 85",
-   "count": 34
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "count": 33
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -42,11 +42,11 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 25
+   "count": 26
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 20
+   "count": 21
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-04T14:31:13.797460+00:00",
+   "symbol": "SpaceXSI",
+   "mint": "B57rvJzprTYxi2iwapSebaeKbDbjsZQb8JTdX7eKpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 22.2% > 12% gate",
+   "entry_price": 4.943e-05,
+   "mcap": 49432,
+   "liq": 18426.99,
+   "h1": -0.98,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-04T14:31:13.792333+00:00",
+   "symbol": "Instagram",
+   "mint": "dBbrw3wQrBE2yF2VhRjew84nryimt3i5JAkMgPHpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.0006763,
+   "mcap": 676313,
+   "liq": 73994.49,
+   "h1": 1238,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-04T14:31:13.785919+00:00",
+   "symbol": "SIF",
+   "mint": "FgGwBhF9fpyTR25gzuzDsaf2STRdTqCV2GiL8ZYj3rYr",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.0003171,
+   "mcap": 317200,
+   "liq": 58209.76,
+   "h1": -27.17,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-04T14:01:13.391678+00:00",
    "symbol": "ROUTE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T10:01:11.234660+00:00",
-   "symbol": "swordani",
-   "mint": "35Vy8wqTeiqZGum5ewzPycKW84cDCVRtZHqqHFLgpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 6.044e-05,
-   "mcap": 60440,
-   "liq": 21041.43,
-   "h1": 17.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T10:01:11.227988+00:00",
-   "symbol": "Auction",
-   "mint": "5rfN5RBoAYJApnXvhCrh9xcapQGEJNG8sd9zyJDkpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 8.777e-05,
-   "mcap": 87778,
-   "liq": 25911.62,
-   "h1": 76.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T09:31:04.738861+00:00",
-   "symbol": "supagency",
-   "mint": "Cvfx1WcWgY1Rgcu2zqcsFQMJRdkQRotnXbUm7L9fpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.8% > 12% gate",
-   "entry_price": 7.642e-05,
-   "mcap": 76425,
-   "liq": 23847.1,
-   "h1": 52.9,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -916,9 +916,9 @@
   },
   {
    "symbol": "PURRSWORD",
-   "tag": "CHASE",
-   "h1": 601.0,
-   "ts": "2026-10-04 14:00 UTC"
+   "tag": "WATCH",
+   "h1": -0.1,
+   "ts": "2026-10-04 14:30 UTC"
   },
   {
    "symbol": "HIM",
@@ -941,14 +941,14 @@
   {
    "symbol": "SA",
    "tag": "WATCH",
-   "h1": -9.0,
-   "ts": "2026-10-04 14:00 UTC"
+   "h1": 14.2,
+   "ts": "2026-10-04 14:30 UTC"
   },
   {
    "symbol": "PAYR",
-   "tag": "WATCH",
-   "h1": 24.4,
-   "ts": "2026-10-04 14:00 UTC"
+   "tag": "FADING",
+   "h1": -25.7,
+   "ts": "2026-10-04 14:30 UTC"
   },
   {
    "symbol": "DARKPOOL",
