@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T12:04:52.666810+00:00",
+ "generated": "2026-10-04T12:34:52.809133+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 332,
-  "cohort_wallets": 1561,
+  "cohort_runs": 333,
+  "cohort_wallets": 1580,
   "cohort_qualified": 36,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 37
+   "count": 36
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -61,12 +61,12 @@
    "count": 8
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
+   "reason": "Top holder 12.7% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 12.7% > 12% gate",
-   "count": 6
+   "reason": "Top holder 13.7% > 12% gate",
+   "count": 5
   },
   {
    "reason": "Top holder 12.9% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-04T12:31:05.140200+00:00",
+   "symbol": "Joker",
+   "mint": "HTYuNpG6eWjQqt5fznEgU1hFVmaV8DYrMJKtvhuas5xN",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 0.0003558,
+   "mcap": 355852,
+   "liq": 53065.4,
+   "h1": 605,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-04T12:31:05.135250+00:00",
+   "symbol": "NET",
+   "mint": "uxt27m7DDEc4EmMEN2Lkt6bLWxdunVKNeT8NDEtpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 16.4% > 12% gate",
+   "entry_price": 8.662e-05,
+   "mcap": 86622,
+   "liq": 25364.55,
+   "h1": 73.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-04T12:31:05.129759+00:00",
+   "symbol": "Spot",
+   "mint": "5tju1785DT92d3Scfngs8dt6spB9QrDmLZZwWTWvJbuD",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 15.1% > 12% gate",
+   "entry_price": 0.0001058,
+   "mcap": 105841,
+   "liq": 28781.78,
+   "h1": 112,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-04T12:01:11.046330+00:00",
    "symbol": "ELON",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T08:31:09.826895+00:00",
-   "symbol": "TwoDonalds",
-   "mint": "3Ticw94bXxPiQbUW1PYrq1sT89pWeWv3UuxGLtj4uvTa",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 12.8% > 12% gate",
-   "entry_price": 0.0001177,
-   "mcap": 117723,
-   "liq": 29683.64,
-   "h1": 134,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T08:31:09.820364+00:00",
-   "symbol": "SCAT",
-   "mint": "Gy5bjXA2Bu9NsExqxs5xDbWt6ZJPpqdfGQHCg6aMpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0005204,
-   "mcap": 520486,
-   "liq": 72300.18,
-   "h1": 929,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-04T08:01:01.376410+00:00",
-   "symbol": "TikTok",
-   "mint": "2bsuCo7L6ZvQ89NHKZx72Y5J2Quq42kVD2vSykfQvJNH",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 16.2% > 12% gate",
-   "entry_price": 8.156e-05,
-   "mcap": 81564,
-   "liq": 24302.14,
-   "h1": 62.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "HI",
     "PAYR"
    ],
-   "last": "2026-10-04 11:00 UTC"
+   "last": "2026-10-04 12:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -915,9 +915,9 @@
   },
   {
    "symbol": "PURRSWORD",
-   "tag": "WATCH",
-   "h1": 23.7,
-   "ts": "2026-10-04 12:00 UTC"
+   "tag": "FADING",
+   "h1": -22.4,
+   "ts": "2026-10-04 12:30 UTC"
   },
   {
    "symbol": "HIM",
@@ -939,15 +939,15 @@
   },
   {
    "symbol": "SA",
-   "tag": "FADING",
-   "h1": -24.6,
-   "ts": "2026-10-04 11:30 UTC"
+   "tag": "WATCH",
+   "h1": -5.1,
+   "ts": "2026-10-04 12:30 UTC"
   },
   {
    "symbol": "PAYR",
    "tag": "WATCH",
-   "h1": 2.4,
-   "ts": "2026-10-04 12:00 UTC"
+   "h1": 0.6,
+   "ts": "2026-10-04 12:30 UTC"
   },
   {
    "symbol": "DARKPOOL",
