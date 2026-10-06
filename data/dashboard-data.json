@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T07:34:12.431221+00:00",
+ "generated": "2026-10-06T08:04:12.567208+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 419,
-  "cohort_wallets": 1675,
+  "cohort_runs": 420,
+  "cohort_wallets": 1687,
   "cohort_qualified": 40,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,23 +26,23 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 45
+   "count": 46
   },
   {
    "reason": "Score 83 below threshold 85",
    "count": 35
   },
   {
-   "reason": "Score 81 below threshold 85",
-   "count": 28
-  },
-  {
    "reason": "Score 82 below threshold 85",
    "count": 28
   },
   {
+   "reason": "Score 81 below threshold 85",
+   "count": 27
+  },
+  {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 26
+   "count": 27
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-06T08:00:27.310615+00:00",
+   "symbol": "swordphil",
+   "mint": "F5ZVJGupxfF9ShtWtgFZKKN2mYrXEj5Q1mgTrSzrpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 15.5% > 12% gate",
+   "entry_price": 5.688e-05,
+   "mcap": 56882,
+   "liq": 19813.22,
+   "h1": 14.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-06T08:00:27.306175+00:00",
+   "symbol": "Biscuit",
+   "mint": "AuvgaV7pdD2Acnk1thcEgThDpcLhytqfm5dSmh21AaUM",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0004392,
+   "mcap": 439117,
+   "liq": 58851.01,
+   "h1": 780,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-06T08:00:27.300959+00:00",
+   "symbol": "APU",
+   "mint": "E7eCZS2cq655qJ7uVx3dSHR2zK31kwNQsWS6P6Hpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001824,
+   "mcap": 182451,
+   "liq": 36697.09,
+   "h1": 311,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-06T07:30:22.945939+00:00",
    "symbol": "PLAGUEBULL",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-06T04:00:28.356573+00:00",
-   "symbol": "Elonhotdog",
-   "mint": "7degggPuvcMgQJbvDUZgdmdugZYdwrqZuM1AY96dfbgU",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.1% > 12% gate",
-   "entry_price": 0.0003891,
-   "mcap": 389163,
-   "liq": 55243.58,
-   "h1": 680,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-06T04:00:28.352177+00:00",
-   "symbol": "Contagion",
-   "mint": "CcbbD5mKejqgegKrqWzqeeKhLX53wbB3F4vsGtscpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 6.212e-05,
-   "mcap": 62019,
-   "liq": 21586.79,
-   "h1": 25.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-06T04:00:28.347957+00:00",
-   "symbol": "HALLOCAT",
-   "mint": "96tou2bakUgNhGRZvBFm2LctDQRgdyFNyV9UuEVZpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 18.7% > 12% gate",
-   "entry_price": 7.909e-05,
-   "mcap": 79091,
-   "liq": 23865.53,
-   "h1": 60.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -712,7 +712,7 @@
     "GENESIS",
     "SK"
    ],
-   "last": "2026-10-06 07:30 UTC"
+   "last": "2026-10-06 08:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -948,9 +948,9 @@
   },
   {
    "symbol": "MINTRO",
-   "tag": "FADING",
-   "h1": -25.6,
-   "ts": "2026-10-06 07:30 UTC"
+   "tag": "WATCH",
+   "h1": -18.2,
+   "ts": "2026-10-06 08:00 UTC"
   },
   {
    "symbol": "swordcali",
@@ -973,8 +973,8 @@
   {
    "symbol": "SK",
    "tag": "WATCH",
-   "h1": 15.8,
-   "ts": "2026-10-06 07:30 UTC"
+   "h1": 8.0,
+   "ts": "2026-10-06 08:00 UTC"
   },
   {
    "symbol": "AGENCY",
