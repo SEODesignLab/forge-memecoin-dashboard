@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T04:04:18.408144+00:00",
+ "generated": "2026-10-07T04:34:18.554220+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 460,
-  "cohort_wallets": 1619,
+  "cohort_runs": 461,
+  "cohort_wallets": 1650,
   "cohort_qualified": 41,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-07T04:30:35.088682+00:00",
+   "symbol": "YouTube",
+   "mint": "7FJyM8NutXDv5f6mMg9kiqSNwYdCQq19YtckLVfbpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 6.526e-05,
+   "mcap": 65261,
+   "liq": 21275.67,
+   "h1": 32.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-07T04:30:35.080968+00:00",
+   "symbol": "FOMY",
+   "mint": "1pPA5nCDw2akg95HhxTzwTM5tP8s2RbTUVC52HJpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 37.5% > 12% gate",
+   "entry_price": 2.12e-05,
+   "mcap": 21207,
+   "liq": 11209.81,
+   "h1": -55.52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-07T04:30:35.076176+00:00",
+   "symbol": "RSE2",
+   "mint": "3D7wCWznAxeA6FvnYsqqtt8m8hwm56RAvARDmY7LSTNK",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 32.6% > 12% gate",
+   "entry_price": 2.543e-05,
+   "mcap": 25440,
+   "liq": 13215.27,
+   "h1": -36.52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-07T04:00:34.706156+00:00",
    "symbol": "USDF",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T00:31:13.832587+00:00",
-   "symbol": "OpenAI",
-   "mint": "C5LCRJqmqMrQDhFJAsMLJfosxHVvSoJY8675vPfmAx7p",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 16.0% > 12% gate",
-   "entry_price": 5.792e-05,
-   "mcap": 57920,
-   "liq": 20103.43,
-   "h1": 15.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T00:31:13.826087+00:00",
-   "symbol": "FOMO",
-   "mint": "9tL6Jb1pod9ce6QRe7rJh62E4wAh2H7zMdCds9hrpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.00042,
-   "mcap": 419956,
-   "liq": 57564.79,
-   "h1": 739,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T00:31:13.821660+00:00",
-   "symbol": "CROSSY",
-   "mint": "5AbVQzLZhZuvVhTTK8z6Ae434PdzKaXwrpBgfDmzpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 3.006e-05,
-   "mcap": 30027,
-   "liq": 13870.51,
-   "h1": -38.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -917,12 +917,6 @@
  ],
  "mints": [
   {
-   "symbol": "AGENCY",
-   "tag": "FADING",
-   "h1": -59.2,
-   "ts": "2026-10-06 05:00 UTC"
-  },
-  {
    "symbol": "GOMO",
    "tag": "WATCH",
    "h1": -18.2,
@@ -949,14 +943,14 @@
   {
    "symbol": "SI276",
    "tag": "FADING",
-   "h1": -26.9,
-   "ts": "2026-10-07 04:00 UTC"
+   "h1": -30.4,
+   "ts": "2026-10-07 04:30 UTC"
   },
   {
    "symbol": "SNDWITCH",
    "tag": "WATCH",
-   "h1": 4.7,
-   "ts": "2026-10-07 04:00 UTC"
+   "h1": 9.9,
+   "ts": "2026-10-07 04:30 UTC"
   },
   {
    "symbol": "AGENCY",
@@ -973,20 +967,26 @@
   {
    "symbol": "CATCRAFT",
    "tag": "WATCH",
-   "h1": -0.4,
-   "ts": "2026-10-07 04:00 UTC"
+   "h1": 2.0,
+   "ts": "2026-10-07 04:30 UTC"
   },
   {
    "symbol": "A1",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-10-07 04:00 UTC"
+   "h1": -3.7,
+   "ts": "2026-10-07 04:30 UTC"
   },
   {
    "symbol": "FullMargin",
    "tag": "CHASE",
-   "h1": 335.0,
-   "ts": "2026-10-07 04:00 UTC"
+   "h1": 427.0,
+   "ts": "2026-10-07 04:30 UTC"
+  },
+  {
+   "symbol": "RARINU",
+   "tag": "WATCH",
+   "h1": -11.6,
+   "ts": "2026-10-07 04:30 UTC"
   }
  ],
  "live_closes": [
