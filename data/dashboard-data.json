@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T11:04:20.488684+00:00",
+ "generated": "2026-10-07T11:34:20.635768+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 474,
-  "cohort_wallets": 1566,
+  "cohort_runs": 475,
+  "cohort_wallets": 1594,
   "cohort_qualified": 42,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 58
+   "count": 60
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 30
+   "count": 31
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -65,15 +65,75 @@
    "count": 10
   },
   {
-   "reason": "Top holder 18.3% > 12% gate",
+   "reason": "Top holder 13.4% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 13.4% > 12% gate",
+   "reason": "Top holder 18.8% > 12% gate",
    "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-07T11:30:33.995694+00:00",
+   "symbol": "darwin",
+   "mint": "4JKAMv1czqTa1bENoDBuodfdEAhRZBWfBE92RQE8pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000332,
+   "mcap": 332004,
+   "liq": 50400.22,
+   "h1": 579,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-07T11:30:33.989594+00:00",
+   "symbol": "Gemini AI",
+   "mint": "DFyAWSYJ4MNJYLNZECjAhCw1D1Pw9cVvnPbnR3nqne1p",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.000524,
+   "mcap": 523937,
+   "liq": 63746.91,
+   "h1": 975,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-07T11:30:33.984819+00:00",
+   "symbol": "EIN",
+   "mint": "DDGaG24dubWq1h8iULGYkgTbJbYg7rwaQR9NUmiGpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.586e-05,
+   "mcap": 25869,
+   "liq": 12581.72,
+   "h1": -45.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-07T11:30:33.979542+00:00",
+   "symbol": "SP",
+   "mint": "AXpyuszGu835wkqxUU1gCH8AwDYB9q5yfpqEYNaipump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003109,
+   "mcap": 310915,
+   "liq": 51320.35,
+   "h1": 521,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-07T11:00:26.575720+00:00",
    "symbol": "TRUMPI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T07:30:31.776881+00:00",
-   "symbol": "HASHERS",
-   "mint": "85WdpEBNDSN9oNkPomBGspnBZsaKb7WF1NQ51pdouxML",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001846,
-   "mcap": 184656,
-   "liq": 37851.91,
-   "h1": 284,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T07:00:59.037301+00:00",
-   "symbol": "CLAUDIA",
-   "mint": "6pzTNx5CZrUbhfwftoy7hCqPT9o1sebdVGYxWkaKpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 6.563e-05,
-   "mcap": 65631,
-   "liq": 23289.2,
-   "h1": 29.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T07:00:59.030323+00:00",
-   "symbol": "KAKAROT",
-   "mint": "Hfdd5tTixGubtBcFd57vhrSUTjktv8oH9dfDzLWepump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 20.1% > 12% gate",
-   "entry_price": 5.512e-05,
-   "mcap": 55128,
-   "liq": 19443.46,
-   "h1": 12.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T07:00:59.023380+00:00",
-   "symbol": "Robinhood",
-   "mint": "HSSAhjFJNatu6XvPEs1peZ9k7qKmW2g5egBY9MEwqyaq",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 99.9% > 12% gate",
-   "entry_price": 3.099e-05,
-   "mcap": 30994,
-   "liq": 14144.18,
-   "h1": -37.26,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -731,18 +731,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 17,
+   "hits": 18,
    "symbols": [
-    "DARKPOOL",
     "SHIBO",
     "CARNAGE",
     "GENESIS",
     "GOMO",
     "SK",
     "SI276",
-    "CAT"
+    "CAT",
+    "Pumpoween"
    ],
-   "last": "2026-10-07 07:30 UTC"
+   "last": "2026-10-07 11:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -847,7 +847,7 @@
     "SHIBO",
     "SI276"
    ],
-   "last": "2026-10-07 08:30 UTC"
+   "last": "2026-10-07 11:30 UTC"
   },
   {
    "wallet": "ALVMJ9bny8tFT7AapoVbbzrgCYzrjy8iHw6EHFaehgZZ",
@@ -946,14 +946,14 @@
   {
    "symbol": "SI276",
    "tag": "WATCH",
-   "h1": 4.1,
-   "ts": "2026-10-07 11:00 UTC"
+   "h1": -11.7,
+   "ts": "2026-10-07 11:30 UTC"
   },
   {
    "symbol": "SNDWITCH",
    "tag": "WATCH",
-   "h1": -1.6,
-   "ts": "2026-10-07 11:00 UTC"
+   "h1": 3.7,
+   "ts": "2026-10-07 11:30 UTC"
   },
   {
    "symbol": "AGENCY",
@@ -970,14 +970,14 @@
   {
    "symbol": "CATCRAFT",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-10-07 11:00 UTC"
+   "h1": 1.3,
+   "ts": "2026-10-07 11:30 UTC"
   },
   {
    "symbol": "A1",
    "tag": "WATCH",
-   "h1": -8.0,
-   "ts": "2026-10-07 11:00 UTC"
+   "h1": 3.8,
+   "ts": "2026-10-07 11:30 UTC"
   },
   {
    "symbol": "FullMargin",
