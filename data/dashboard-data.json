@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T20:30:27.662607+00:00",
+ "generated": "2026-10-07T21:04:23.417841+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,7 +9,7 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 493,
+  "cohort_runs": 494,
   "cohort_wallets": 1500,
   "cohort_qualified": 43,
   "live_closes": 18,
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 28
+   "count": 29
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-07T21:00:32.404087+00:00",
+   "symbol": "PRICE",
+   "mint": "2tW2VY5fLbwAZKtqnZS1jtAsGASi1HcUACa8ZEb9ZGhB",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.0001541,
+   "mcap": 154193,
+   "liq": 29627.33,
+   "h1": 430,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-07T19:30:46.176306+00:00",
    "symbol": "BARRON",
@@ -655,21 +670,6 @@
    "mcap": 995586,
    "liq": 88382.23,
    "h1": 1948,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T17:30:50.138293+00:00",
-   "symbol": "Claude AI",
-   "mint": "h3AoBVbuj8FbHkvj4mDkibtcUvYw89FSE5bL787pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000606,
-   "mcap": 606011,
-   "liq": 68501.09,
-   "h1": 1146,
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
