@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T06:34:26.172358+00:00",
+ "generated": "2026-10-08T07:04:26.312795+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 513,
-  "cohort_wallets": 1854,
-  "cohort_qualified": 45,
+  "cohort_runs": 514,
+  "cohort_wallets": 1869,
+  "cohort_qualified": 46,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -61,12 +61,12 @@
    "count": 8
   },
   {
-   "reason": "Top holder 12.7% > 12% gate",
+   "reason": "Top holder 14.2% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
-   "count": 7
+   "reason": "Top holder 12.7% > 12% gate",
+   "count": 6
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-08T07:00:54.497458+00:00",
+   "symbol": "iCoin",
+   "mint": "6x36m5J2VxRPpWBV3MEZq15oe5Tq8ahR7qSCdA7pump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 70.5% > 12% gate",
+   "entry_price": 0.0002234,
+   "mcap": 223463,
+   "liq": 42016.61,
+   "h1": 382,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-08T07:00:54.492199+00:00",
+   "symbol": "Playground ",
+   "mint": "cnNgFYRS26pKHstKvfzQXEDQuvuMfUNzTB2AMZypump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 17.3% > 12% gate",
+   "entry_price": 6.459e-05,
+   "mcap": 64592,
+   "liq": 20672.61,
+   "h1": 39.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-08T06:31:28.897886+00:00",
    "symbol": "SpaceX",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-08T03:30:38.613098+00:00",
-   "symbol": "BARRON",
-   "mint": "BKpV1cS1C46GAthMCfeZQ1eQ61T8abZXqaZ3CYgQ88dQ",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0001031,
-   "mcap": 103148,
-   "liq": 27065.26,
-   "h1": 114,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-08T03:30:38.608370+00:00",
-   "symbol": "Tesla",
-   "mint": "Gqpsjtj5qHQzrktnkew5rE7SSKyAz5QNZKCjZ4oepump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001449,
-   "mcap": 144888,
-   "liq": 32395.4,
-   "h1": 201,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,14 +975,14 @@
   {
    "symbol": "LMAO!",
    "tag": "WATCH",
-   "h1": -0.5,
-   "ts": "2026-10-08 06:30 UTC"
+   "h1": 0.5,
+   "ts": "2026-10-08 07:00 UTC"
   },
   {
    "symbol": "ECSTASY",
    "tag": "WATCH",
-   "h1": -2.4,
-   "ts": "2026-10-08 06:30 UTC"
+   "h1": -7.8,
+   "ts": "2026-10-08 07:00 UTC"
   },
   {
    "symbol": "GIGACAT",
@@ -993,8 +993,8 @@
   {
    "symbol": "swordcat",
    "tag": "WATCH",
-   "h1": -9.4,
-   "ts": "2026-10-08 06:30 UTC"
+   "h1": 18.4,
+   "ts": "2026-10-08 07:00 UTC"
   }
  ],
  "live_closes": [
