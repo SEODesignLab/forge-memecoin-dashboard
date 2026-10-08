@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T02:04:24.856399+00:00",
+ "generated": "2026-10-08T02:34:25.003263+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 504,
-  "cohort_wallets": 1700,
+  "cohort_runs": 505,
+  "cohort_wallets": 1721,
   "cohort_qualified": 44,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 57
+   "count": 58
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 32
+   "count": 31
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -65,15 +65,60 @@
    "count": 7
   },
   {
-   "reason": "Top holder 19.6% > 12% gate",
+   "reason": "Top holder 13.0% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 13.0% > 12% gate",
-   "count": 5
+   "reason": "Top holder 19.6% > 12% gate",
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-08T02:30:33.570921+00:00",
+   "symbol": "Van Cleef",
+   "mint": "13Xk5Kn77ZLdEZ4aBfiWBj6XUqiuRo4JzZxDS15jpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.0% > 12% gate",
+   "entry_price": 0.0003737,
+   "mcap": 373705,
+   "liq": 53298.16,
+   "h1": 673,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-08T02:30:33.566540+00:00",
+   "symbol": "DIAMONDANT",
+   "mint": "FtQLXvPbWo8Gs2XsHkRZd1ihgjgRaojZ2HwARL2gpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001558,
+   "mcap": 155875,
+   "liq": 34024.33,
+   "h1": 123,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-08T02:30:33.560219+00:00",
+   "symbol": "BOOZ",
+   "mint": "HTqmRQv8FmkyVmH132xyC4Fw7pcqa7nyKW1Bk2pNpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 47.3% > 12% gate",
+   "entry_price": 1.064e-05,
+   "mcap": 10645,
+   "liq": 7302.55,
+   "h1": -78.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-08T02:00:43.077394+00:00",
    "symbol": "FOMO",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T23:00:42.077698+00:00",
-   "symbol": "MIMI",
-   "mint": "2CycCyG3e4zXwxA5bL4rBeNfwWcPcVKVm6cxe3ampump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 24.7% > 12% gate",
-   "entry_price": 3.56e-05,
-   "mcap": 35606,
-   "liq": 15075.49,
-   "h1": -25.27,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T22:30:45.085770+00:00",
-   "symbol": "404",
-   "mint": "9zYS2hL5LXUELmYwTyd3PMnawhUmaSpWDQNJ8iwdnRkh",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 21.8% > 12% gate",
-   "entry_price": 7.995e-05,
-   "mcap": 79957,
-   "liq": 23674.99,
-   "h1": 67.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-07T22:30:45.081590+00:00",
-   "symbol": "PCARD",
-   "mint": "EYGJnvJQs7AQX44S2bM62SpVvq4am5eruTqSzVXgpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 5.597e-05,
-   "mcap": 55898,
-   "liq": 19332.68,
-   "h1": 17.04,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -701,18 +701,18 @@
  "wallets": [
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
-   "hits": 65,
+   "hits": 66,
    "symbols": [
-    "SK",
     "GOMO",
     "MINTRO",
     "ANISOM",
     "SI276",
     "IRL",
     "BULLCRAFT",
-    "Pumpoween"
+    "Pumpoween",
+    "LMAO!"
    ],
-   "last": "2026-10-07 22:30 UTC"
+   "last": "2026-10-08 02:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -832,7 +832,7 @@
     "SI276",
     "BULLCRAFT"
    ],
-   "last": "2026-10-08 02:00 UTC"
+   "last": "2026-10-08 02:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -933,8 +933,8 @@
   {
    "symbol": "SI276",
    "tag": "WATCH",
-   "h1": 20.9,
-   "ts": "2026-10-08 02:00 UTC"
+   "h1": 12.5,
+   "ts": "2026-10-08 02:30 UTC"
   },
   {
    "symbol": "SNDWITCH",
@@ -987,14 +987,14 @@
   {
    "symbol": "LMAO!",
    "tag": "WATCH",
-   "h1": -1.2,
-   "ts": "2026-10-08 02:00 UTC"
+   "h1": 5.7,
+   "ts": "2026-10-08 02:30 UTC"
   },
   {
    "symbol": "ECSTASY",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-10-08 02:00 UTC"
+   "h1": -5.9,
+   "ts": "2026-10-08 02:30 UTC"
   }
  ],
  "live_closes": [
