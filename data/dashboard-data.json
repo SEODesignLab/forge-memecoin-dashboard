@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T14:04:28.325977+00:00",
+ "generated": "2026-10-08T14:34:28.468728+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 528,
-  "cohort_wallets": 1601,
+  "cohort_runs": 529,
+  "cohort_wallets": 1619,
   "cohort_qualified": 47,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 61
+   "count": 60
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 35
+   "count": 36
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 16
+   "count": 17
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-08T14:30:44.664059+00:00",
+   "symbol": "401si(k)",
+   "mint": "FVLu1fxUDvr9GirS2fjheDbjMFLojLMeqN1FK1tqpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 5.416e-05,
+   "mcap": 54163,
+   "liq": 19170.9,
+   "h1": 17.17,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-08T14:30:44.657687+00:00",
+   "symbol": "CocaCola",
+   "mint": "H91tJE3uEcM141RaosHYUR5qjkaPrVK1yYJ4GEVpump",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0004598,
+   "mcap": 459874,
+   "liq": 58391.47,
+   "h1": 884,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-08T14:00:42.552603+00:00",
    "symbol": "Google",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-08T11:00:36.769390+00:00",
-   "symbol": "NVIDIA",
-   "mint": "J6ADETcyJ1hd851DZ1RQWTzmGCbwZB8thQv2yXezpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0006544,
-   "mcap": 654446,
-   "liq": 70640.05,
-   "h1": 1280,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-08T11:00:36.765156+00:00",
-   "symbol": "Nyazsche",
-   "mint": "F3Xr27etgJK76dgeEQPpjyWUN5C8EB6NauEHwsFjpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 5.9e-05,
-   "mcap": 59007,
-   "liq": 19818.54,
-   "h1": 27.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -832,7 +832,7 @@
     "BULLCRAFT",
     "Pumpoween"
    ],
-   "last": "2026-10-08 12:00 UTC"
+   "last": "2026-10-08 14:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -881,18 +881,18 @@
   },
   {
    "wallet": "ALVMJ9bny8tFT7AapoVbbzrgCYzrjy8iHw6EHFaehgZZ",
-   "hits": 8,
+   "hits": 9,
    "symbols": [
-    "ZSHIB ",
     "CAT",
     "Pumpoween",
     "CATOSHI",
     "GROKCAT",
     "SHIBO",
     "discat",
-    "SK"
+    "SK",
+    "SI276"
    ],
-   "last": "2026-10-07 10:30 UTC"
+   "last": "2026-10-08 14:30 UTC"
   },
   {
    "wallet": "AfAf8AuSFtaos6wGUnfCn5oGp9p1F3wCr2Z5Kdca7B5L",
@@ -970,14 +970,14 @@
   {
    "symbol": "LMAO!",
    "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-10-08 14:00 UTC"
+   "h1": -3.2,
+   "ts": "2026-10-08 14:30 UTC"
   },
   {
    "symbol": "ECSTASY",
    "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-10-08 14:00 UTC"
+   "h1": 3.1,
+   "ts": "2026-10-08 14:30 UTC"
   },
   {
    "symbol": "GIGACAT",
@@ -988,8 +988,8 @@
   {
    "symbol": "swordcat",
    "tag": "WATCH",
-   "h1": 33.6,
-   "ts": "2026-10-08 14:00 UTC"
+   "h1": -3.1,
+   "ts": "2026-10-08 14:30 UTC"
   },
   {
    "symbol": "Organisme",
