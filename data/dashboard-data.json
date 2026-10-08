@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T09:04:26.892345+00:00",
+ "generated": "2026-10-08T09:34:27.037243+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 518,
-  "cohort_wallets": 1950,
+  "cohort_runs": 519,
+  "cohort_wallets": 1967,
   "cohort_qualified": 47,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 59
+   "count": 58
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-08T09:30:36.609060+00:00",
+   "symbol": "Nike",
+   "mint": "9UiJaKhaK3gEDqbCN1FbY9R55z1ZUmyBco48cCDCpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.1% > 12% gate",
+   "entry_price": 0.0003843,
+   "mcap": 384339,
+   "liq": 53763.16,
+   "h1": 704,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-08T09:00:36.474896+00:00",
    "symbol": "Tesla",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-08T05:00:41.746286+00:00",
-   "symbol": "X",
-   "mint": "E4ZFpCKre3XGeJLD6LZQosgnkLKYti54ifhC4bkBpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0003971,
-   "mcap": 397189,
-   "liq": 54678.21,
-   "h1": 732,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -817,7 +817,7 @@
     "ECSTASY",
     "Pumpoween"
    ],
-   "last": "2026-10-08 09:00 UTC"
+   "last": "2026-10-08 09:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -970,14 +970,14 @@
   {
    "symbol": "LMAO!",
    "tag": "WATCH",
-   "h1": -1.2,
-   "ts": "2026-10-08 09:00 UTC"
+   "h1": -0.8,
+   "ts": "2026-10-08 09:30 UTC"
   },
   {
    "symbol": "ECSTASY",
    "tag": "WATCH",
-   "h1": -12.3,
-   "ts": "2026-10-08 09:00 UTC"
+   "h1": -11.8,
+   "ts": "2026-10-08 09:30 UTC"
   },
   {
    "symbol": "GIGACAT",
@@ -988,14 +988,14 @@
   {
    "symbol": "swordcat",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-10-08 09:00 UTC"
+   "h1": 3.1,
+   "ts": "2026-10-08 09:30 UTC"
   },
   {
    "symbol": "Organisme",
-   "tag": "FADING",
-   "h1": -42.8,
-   "ts": "2026-10-08 09:00 UTC"
+   "tag": "WATCH",
+   "h1": -19.5,
+   "ts": "2026-10-08 09:30 UTC"
   }
  ],
  "live_closes": [
