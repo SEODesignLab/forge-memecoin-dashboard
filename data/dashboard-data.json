@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T04:34:32.485349+00:00",
+ "generated": "2026-10-09T05:04:32.640084+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 557,
-  "cohort_wallets": 1545,
+  "cohort_runs": 558,
+  "cohort_wallets": 1560,
   "cohort_qualified": 49,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 63
+   "count": 62
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -34,11 +34,11 @@
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 26
+   "count": 27
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 23
+   "count": 22
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-09T05:00:45.332370+00:00",
+   "symbol": "SSINU",
+   "mint": "GsGoihYhzppUSKAwDB4yGJLKbj6pqPRvjeRtwsHspump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 37.7% > 12% gate",
+   "entry_price": 1.625e-05,
+   "mcap": 16260,
+   "liq": 9299.15,
+   "h1": -65.94,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-09T05:00:45.326774+00:00",
+   "symbol": "QI",
+   "mint": "8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 9.53e-05,
+   "mcap": 95300,
+   "liq": 26242.67,
+   "h1": 114,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-09T04:31:31.314047+00:00",
    "symbol": "BUNKER",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T01:31:00.803650+00:00",
-   "symbol": "VAMPSEM",
-   "mint": "9XF7h7vy469ufzky9Wt4LpU1TxW8VmVxwu3i6vVfpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.107e-05,
-   "mcap": 31077,
-   "liq": 12513.36,
-   "h1": -17.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T01:31:00.799155+00:00",
-   "symbol": "TariffsDon",
-   "mint": "DEZ8t15WgTFrEdnbRdr58kGUUYqGfgLE6UVyrAUY5wTw",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.6% > 12% gate",
-   "entry_price": 0.0009686,
-   "mcap": 968651,
-   "liq": 84463.51,
-   "h1": 2037,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -970,8 +970,8 @@
   {
    "symbol": "Gary",
    "tag": "WATCH",
-   "h1": 6.1,
-   "ts": "2026-10-09 04:30 UTC"
+   "h1": 14.9,
+   "ts": "2026-10-09 05:00 UTC"
   },
   {
    "symbol": "swordowl",
@@ -981,9 +981,9 @@
   },
   {
    "symbol": "OWLNIGHT",
-   "tag": "FADING",
-   "h1": -28.6,
-   "ts": "2026-10-09 04:30 UTC"
+   "tag": "WATCH",
+   "h1": 32.5,
+   "ts": "2026-10-09 05:00 UTC"
   },
   {
    "symbol": "INU",
