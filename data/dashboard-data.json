@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T05:34:32.783578+00:00",
+ "generated": "2026-10-09T06:04:32.926410+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 559,
-  "cohort_wallets": 1574,
+  "cohort_runs": 560,
+  "cohort_wallets": 1588,
   "cohort_qualified": 49,
   "live_closes": 18,
   "live_wins": 4,
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 18
+   "count": 17
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -69,11 +69,41 @@
    "count": 5
   },
   {
-   "reason": "Top holder 15.7% > 12% gate",
+   "reason": "Top holder 12.5% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-09T06:00:44.972738+00:00",
+   "symbol": "CHAT",
+   "mint": "DxNXApfiPXYcobrM3NsePAXMDYyaPgB8jfK4yc9ichat",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 23.9% > 12% gate",
+   "entry_price": 3.015e-05,
+   "mcap": 30159,
+   "liq": 13622.91,
+   "h1": -30.85,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-09T06:00:44.967934+00:00",
+   "symbol": "PBTC",
+   "mint": "Xc4bvguiFnPGZnPQ96UpT2LokCc5vJ9mckne3zApump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 13.9% > 12% gate",
+   "entry_price": 0.0001481,
+   "mcap": 148168,
+   "liq": 32572.06,
+   "h1": 225,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-09T05:30:44.677528+00:00",
    "symbol": "QUANTUM",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T01:31:00.818275+00:00",
-   "symbol": "Meta",
-   "mint": "myEHFhkjb6UkKNC8aFYYG3XBYsFd4zCg46GpYsCpump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 0.0005366,
-   "mcap": 536558,
-   "liq": 62338.04,
-   "h1": 1087,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T01:31:00.813993+00:00",
-   "symbol": "FI",
-   "mint": "4At7e5owcjguMyeYCjsyG9U6urLpwHqTQgmai2jXpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 28.0% > 12% gate",
-   "entry_price": 4.869e-05,
-   "mcap": 48699,
-   "liq": 17602.39,
-   "h1": 16.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -701,18 +701,18 @@
  "wallets": [
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
-   "hits": 66,
+   "hits": 67,
    "symbols": [
-    "GOMO",
     "MINTRO",
     "ANISOM",
     "SI276",
     "IRL",
     "BULLCRAFT",
     "Pumpoween",
-    "LMAO!"
+    "LMAO!",
+    "OWLNIGHT"
    ],
-   "last": "2026-10-08 15:00 UTC"
+   "last": "2026-10-09 06:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -969,9 +969,9 @@
   },
   {
    "symbol": "Gary",
-   "tag": "WATCH",
-   "h1": -15.9,
-   "ts": "2026-10-09 05:30 UTC"
+   "tag": "FADING",
+   "h1": -36.9,
+   "ts": "2026-10-09 06:00 UTC"
   },
   {
    "symbol": "swordowl",
@@ -982,8 +982,8 @@
   {
    "symbol": "OWLNIGHT",
    "tag": "FADING",
-   "h1": -20.3,
-   "ts": "2026-10-09 05:30 UTC"
+   "h1": -40.0,
+   "ts": "2026-10-09 06:00 UTC"
   },
   {
    "symbol": "INU",
