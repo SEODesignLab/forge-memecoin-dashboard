@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T10:04:40.989306+00:00",
+ "generated": "2026-10-10T10:34:41.127477+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 616,
-  "cohort_wallets": 1941,
+  "cohort_runs": 617,
+  "cohort_wallets": 1954,
   "cohort_qualified": 52,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,22 +26,22 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 81
+   "count": 82
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 31
+   "count": 30
   },
   {
    "reason": "Score 80 below threshold 85",
    "count": 25
   },
   {
-   "reason": "Score 83 below threshold 85",
+   "reason": "Top holder 13.2% > 12% gate",
    "count": 20
   },
   {
-   "reason": "Top holder 13.2% > 12% gate",
+   "reason": "Score 83 below threshold 85",
    "count": 20
   },
   {
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T10:30:53.050855+00:00",
+   "symbol": "bmw",
+   "mint": "rsViMzjQ3W8YXMsPKdGfgnDQjYSueDrC9hfPUrapump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002206,
+   "mcap": 220659,
+   "liq": 39316.99,
+   "h1": 385,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T10:30:53.043564+00:00",
+   "symbol": "Muse AI",
+   "mint": "Hjk9dQnBXSv5eWX5g4THpidcxmjFrGWL9keywZnpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 12.8% > 12% gate",
+   "entry_price": 0.0003694,
+   "mcap": 369491,
+   "liq": 51433.07,
+   "h1": 713,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T10:30:53.036713+00:00",
+   "symbol": "CLAUDIAGUY",
+   "mint": "4uWF58VnCiewHqB9Lm68Yf7n6wc2u2MG6Dab891Apump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 38.4% > 12% gate",
+   "entry_price": 1.513e-05,
+   "mcap": 15135,
+   "liq": 8882.05,
+   "h1": -68.69,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T10:30:53.030228+00:00",
+   "symbol": "Aramco",
+   "mint": "GKUDbKtq44fkaS3sYXbdiw6mjQHu257LR87oXXWn4vg2",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0009853,
+   "mcap": 985310,
+   "liq": 85286.24,
+   "h1": 2063,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T10:00:51.926211+00:00",
    "symbol": "Haaland",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T06:00:56.951379+00:00",
-   "symbol": "Haaland",
-   "mint": "hvffADaBvXAMfNuJHnahERWgPzMXAZkggSn7QMrpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003789,
-   "mcap": 378990,
-   "liq": 52290.9,
-   "h1": 728,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T06:00:56.945219+00:00",
-   "symbol": "BMW",
-   "mint": "jCzMnpXWZjcdPodiZUz9QocBwR5i4X6qQweG5vdpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000227,
-   "mcap": 227063,
-   "liq": 40023.17,
-   "h1": 397,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T06:00:56.938114+00:00",
-   "symbol": "LUMPY",
-   "mint": "5otm2akyW919z97g1B4iTFBr2EJrQHPu6JjkLxKZpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 0.0001345,
-   "mcap": 134574,
-   "liq": 31410.58,
-   "h1": 217,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T05:31:33.452886+00:00",
-   "symbol": "SWIMOTHY",
-   "mint": "J7kPg8nGo4C92sBrv3GmBUXd2YxntY6V6KEZArcBpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 19.4% > 12% gate",
-   "entry_price": 5.235e-05,
-   "mcap": 52352,
-   "liq": 18288.11,
-   "h1": 15.07,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -965,8 +965,8 @@
   {
    "symbol": "HI",
    "tag": "WATCH",
-   "h1": 3.5,
-   "ts": "2026-10-10 10:00 UTC"
+   "h1": -7.6,
+   "ts": "2026-10-10 10:30 UTC"
   },
   {
    "symbol": "UNITS",
@@ -983,8 +983,8 @@
   {
    "symbol": "qOMPUTE",
    "tag": "WATCH",
-   "h1": -13.7,
-   "ts": "2026-10-10 10:00 UTC"
+   "h1": 14.1,
+   "ts": "2026-10-10 10:30 UTC"
   },
   {
    "symbol": "SQI",
@@ -994,9 +994,9 @@
   },
   {
    "symbol": "Samur\u2022ai",
-   "tag": "WATCH",
-   "h1": 92.7,
-   "ts": "2026-10-10 10:00 UTC"
+   "tag": "FADING",
+   "h1": -23.6,
+   "ts": "2026-10-10 10:30 UTC"
   }
  ],
  "live_closes": [
