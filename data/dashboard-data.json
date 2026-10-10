@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T22:34:44.609674+00:00",
+ "generated": "2026-10-10T23:04:44.754053+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 641,
-  "cohort_wallets": 1787,
+  "cohort_runs": 642,
+  "cohort_wallets": 1809,
   "cohort_qualified": 53,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 89
+   "count": 90
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T23:00:53.304456+00:00",
+   "symbol": "Altaiwif",
+   "mint": "3eaEaxfNP2SxFDFcYqng81VZuU2t5AkvHK4j9Dj7pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001941,
+   "mcap": 194126,
+   "liq": 37320.07,
+   "h1": 28.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T22:31:06.993635+00:00",
    "symbol": "Fomo",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T20:01:05.094311+00:00",
-   "symbol": "PEPETEEN",
-   "mint": "EGcSVeLtiPhnmG53dwEiceR3ZKzafBuEGwDxb8ptpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 20.0% > 12% gate",
-   "entry_price": 5.624e-05,
-   "mcap": 56244,
-   "liq": 19076.35,
-   "h1": 17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,22 +727,22 @@
     "moin",
     "Q/ACC"
    ],
-   "last": "2026-10-10 22:00 UTC"
+   "last": "2026-10-10 23:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 21,
+   "hits": 22,
    "symbols": [
-    "GOMO",
     "SK",
     "SI276",
     "CAT",
     "Pumpoween",
     "BULLCRAFT",
     "ECSTASY",
-    "MogCat"
+    "MogCat",
+    "qOMPUTE"
    ],
-   "last": "2026-10-10 09:30 UTC"
+   "last": "2026-10-10 23:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -927,16 +927,10 @@
  ],
  "mints": [
   {
-   "symbol": "Slime",
-   "tag": "FADING",
-   "h1": -57.4,
-   "ts": "2026-10-09 10:00 UTC"
-  },
-  {
    "symbol": "moin",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-10-10 22:30 UTC"
+   "h1": -8.7,
+   "ts": "2026-10-10 23:00 UTC"
   },
   {
    "symbol": "QCOIN",
@@ -970,9 +964,9 @@
   },
   {
    "symbol": "qOMPUTE",
-   "tag": "FADING",
-   "h1": -58.7,
-   "ts": "2026-10-10 22:30 UTC"
+   "tag": "WATCH",
+   "h1": -13.4,
+   "ts": "2026-10-10 23:00 UTC"
   },
   {
    "symbol": "SQI",
@@ -989,14 +983,20 @@
   {
    "symbol": "brigitte",
    "tag": "FADING",
-   "h1": -26.4,
-   "ts": "2026-10-10 22:30 UTC"
+   "h1": -33.2,
+   "ts": "2026-10-10 23:00 UTC"
   },
   {
    "symbol": "Qiger",
    "tag": "FADING",
    "h1": -20.4,
    "ts": "2026-10-10 22:30 UTC"
+  },
+  {
+   "symbol": "KILOS",
+   "tag": "WATCH",
+   "h1": 18.1,
+   "ts": "2026-10-10 23:00 UTC"
   }
  ],
  "live_closes": [
