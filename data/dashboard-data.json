@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T09:34:40.848524+00:00",
+ "generated": "2026-10-10T10:04:40.989306+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 615,
-  "cohort_wallets": 1932,
+  "cohort_runs": 616,
+  "cohort_wallets": 1941,
   "cohort_qualified": 52,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 26
+   "count": 25
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -53,10 +53,6 @@
    "count": 15
   },
   {
-   "reason": "Top holder 13.1% > 12% gate",
-   "count": 8
-  },
-  {
    "reason": "Top holder 13.3% > 12% gate",
    "count": 8
   },
@@ -65,15 +61,49 @@
    "count": 7
   },
   {
-   "reason": "Top holder 13.0% > 12% gate",
+   "reason": "Top holder 13.1% > 12% gate",
+   "count": 7
+  },
+  {
+   "reason": "RugCheck risk 59>45",
    "count": 5
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
+   "reason": "Top holder 13.0% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T10:00:51.926211+00:00",
+   "symbol": "Haaland",
+   "mint": "NgDFNEuASb5dFsUtW5h8QN9QxZ7F5SbbMeEyqdapump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0002792,
+   "mcap": 279242,
+   "liq": 44544.42,
+   "h1": 512,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T10:00:51.921212+00:00",
+   "symbol": "KIKO",
+   "mint": "tdXgUCUS8majo4sDpZK1ijLncNWRx1BpzGyJ4EGpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.15e-05,
+   "mcap": 51507,
+   "liq": 18021.69,
+   "h1": 12.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T09:30:52.860409+00:00",
    "symbol": "Pons",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T05:31:33.448530+00:00",
-   "symbol": "GETPRICE",
-   "mint": "9HLC3hvta1zNDqDfbmTq4xgwNRzRnaZST16pLs9pump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 4.176e-05,
-   "mcap": 41760,
-   "liq": 16223.96,
-   "h1": -8.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T05:31:33.438878+00:00",
-   "symbol": "SWITCHED",
-   "mint": "8vYJgiQPkpDtbWkDy1wyYDcUq3D9fUXVJUtt6aNEpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004396,
-   "mcap": 439681,
-   "liq": 61571.12,
-   "h1": 911,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "moin",
     "Q/ACC"
    ],
-   "last": "2026-10-10 09:30 UTC"
+   "last": "2026-10-10 10:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -965,8 +965,8 @@
   {
    "symbol": "HI",
    "tag": "WATCH",
-   "h1": 6.5,
-   "ts": "2026-10-10 09:30 UTC"
+   "h1": 3.5,
+   "ts": "2026-10-10 10:00 UTC"
   },
   {
    "symbol": "UNITS",
@@ -982,9 +982,9 @@
   },
   {
    "symbol": "qOMPUTE",
-   "tag": "FADING",
-   "h1": -28.4,
-   "ts": "2026-10-10 09:30 UTC"
+   "tag": "WATCH",
+   "h1": -13.7,
+   "ts": "2026-10-10 10:00 UTC"
   },
   {
    "symbol": "SQI",
@@ -995,8 +995,8 @@
   {
    "symbol": "Samur\u2022ai",
    "tag": "WATCH",
-   "h1": 29.5,
-   "ts": "2026-10-10 09:30 UTC"
+   "h1": 92.7,
+   "ts": "2026-10-10 10:00 UTC"
   }
  ],
  "live_closes": [
