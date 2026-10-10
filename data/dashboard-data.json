@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T11:34:41.411950+00:00",
+ "generated": "2026-10-10T12:04:41.546436+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 619,
-  "cohort_wallets": 1979,
+  "cohort_runs": 620,
+  "cohort_wallets": 1991,
   "cohort_qualified": 52,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,15 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 84
+   "count": 85
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 30
+   "count": 31
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 25
+   "count": 24
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -50,7 +50,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 16
+   "count": 17
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T12:00:58.340320+00:00",
+   "symbol": "Museum",
+   "mint": "86dLD5yzWTMsTH5i1j82VWagrrYivqipPtxAS9abpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 6.567e-05,
+   "mcap": 65675,
+   "liq": 20997.78,
+   "h1": 46.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T12:00:58.334785+00:00",
+   "symbol": "AI",
+   "mint": "B5wfC6m8hik5QYEtikjNPrZp26hLSfRHnSRc7kvpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002688,
+   "mcap": 268820,
+   "liq": 43670.67,
+   "h1": 489,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T12:00:58.327858+00:00",
+   "symbol": "GULP",
+   "mint": "FzcWJFsvG7Dz4nQVmfdbuDN1QAh294NPP8Wrs754pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 38.5% > 12% gate",
+   "entry_price": 1.626e-05,
+   "mcap": 16265,
+   "liq": 9279.9,
+   "h1": -64.52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T12:00:58.319858+00:00",
+   "symbol": "GSQUAD",
+   "mint": "4t78HQitjHdbCehXAvFCHigNYPjGHSm9TK2TNbbzpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 1.855e-05,
+   "mcap": 18558,
+   "liq": 10083.49,
+   "h1": -60.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T11:31:02.702154+00:00",
    "symbol": "CLAUDAI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T08:00:56.958462+00:00",
-   "symbol": "DeepSeek",
-   "mint": "JxHjhTG4RVR9sbtqkD4cowPbst8CCqS4EeNXDAApump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0005565,
-   "mcap": 556520,
-   "liq": 63733.91,
-   "h1": 1120,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T08:00:56.950696+00:00",
-   "symbol": "OPTIMUS",
-   "mint": "29s7BRSf68TjM8NqBhiuEsJM3E3mtanoEWy62JpDfKun",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 3.303e-05,
-   "mcap": 33034,
-   "liq": 14158.96,
-   "h1": -26.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T08:00:56.944509+00:00",
-   "symbol": "Musk",
-   "mint": "CZRNXaxgLkvf5udSTxQa2zhHbQBNDQMi2WkESbGppump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 22.4% > 12% gate",
-   "entry_price": 5.009e-05,
-   "mcap": 50093,
-   "liq": 17970.57,
-   "h1": 6.17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T07:30:54.213987+00:00",
-   "symbol": "DeepSeek",
-   "mint": "561ByCwhiqjb9HsotGoikSvPxxw6LUnWXNyhGRqpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001697,
-   "mcap": 169721,
-   "liq": 34302.38,
-   "h1": 272,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -947,8 +947,8 @@
   {
    "symbol": "moin",
    "tag": "WATCH",
-   "h1": 16.6,
-   "ts": "2026-10-10 11:30 UTC"
+   "h1": 9.4,
+   "ts": "2026-10-10 12:00 UTC"
   },
   {
    "symbol": "QCOIN",
@@ -983,8 +983,8 @@
   {
    "symbol": "qOMPUTE",
    "tag": "FADING",
-   "h1": -35.9,
-   "ts": "2026-10-10 11:30 UTC"
+   "h1": -26.9,
+   "ts": "2026-10-10 12:00 UTC"
   },
   {
    "symbol": "SQI",
