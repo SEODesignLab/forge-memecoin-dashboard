@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T07:04:40.119169+00:00",
+ "generated": "2026-10-10T07:34:40.264592+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 610,
-  "cohort_wallets": 1863,
+  "cohort_runs": 611,
+  "cohort_wallets": 1878,
   "cohort_qualified": 51,
   "live_closes": 18,
   "live_wins": 4,
@@ -38,19 +38,19 @@
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 21
+   "count": 20
+  },
+  {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 20
   },
   {
    "reason": "Score 81 below threshold 85",
    "count": 19
   },
   {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 19
-  },
-  {
    "reason": "Score 84 below threshold 85",
-   "count": 17
+   "count": 18
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T07:30:54.213987+00:00",
+   "symbol": "DeepSeek",
+   "mint": "561ByCwhiqjb9HsotGoikSvPxxw6LUnWXNyhGRqpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001697,
+   "mcap": 169721,
+   "liq": 34302.38,
+   "h1": 272,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T07:30:54.206976+00:00",
+   "symbol": "Mr Beast",
+   "mint": "xAT8zErpd5n1L5pCGftTeLRMUSEhPyrNjFW1j1cpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0003395,
+   "mcap": 339540,
+   "liq": 49300.72,
+   "h1": 644,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T07:30:54.197911+00:00",
+   "symbol": "Musk",
+   "mint": "EzuCZx5B2gPBnZTZBYbVZ3tB4rG3XaDaviHrkmekpump",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 2.992e-05,
+   "mcap": 29929,
+   "liq": 13726.51,
+   "h1": -29.46,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T07:00:51.654630+00:00",
    "symbol": "Musk",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T03:00:56.127383+00:00",
-   "symbol": "MEME",
-   "mint": "5nHdk8rRP68RLMBrRegngAtyxd6WB24QzoTYJVhXMEME",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.000116,
-   "mcap": 116095,
-   "liq": 28992.42,
-   "h1": 150,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T02:30:53.776222+00:00",
-   "symbol": "QB",
-   "mint": "GXu9fpvjP9xuYU5dp5rsd5rVYHWCx4oyMkb7KbeMpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 44.4% > 12% gate",
-   "entry_price": 1.736e-05,
-   "mcap": 17369,
-   "liq": 9671.39,
-   "h1": -61.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T02:30:53.772025+00:00",
-   "symbol": "Anthropic",
-   "mint": "HdEKUguopDH1mx1oePwBWVRv66LgfNjtFCcz718Mpump",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 0.0001252,
-   "mcap": 125221,
-   "liq": 29259.06,
-   "h1": 175,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -877,7 +877,7 @@
     "SI276",
     "BULLCRAFT"
    ],
-   "last": "2026-10-10 00:30 UTC"
+   "last": "2026-10-10 07:30 UTC"
   },
   {
    "wallet": "ALVMJ9bny8tFT7AapoVbbzrgCYzrjy8iHw6EHFaehgZZ",
@@ -965,8 +965,8 @@
   {
    "symbol": "HI",
    "tag": "FADING",
-   "h1": -22.2,
-   "ts": "2026-10-10 07:00 UTC"
+   "h1": -21.9,
+   "ts": "2026-10-10 07:30 UTC"
   },
   {
    "symbol": "UNITS",
@@ -983,8 +983,8 @@
   {
    "symbol": "qOMPUTE",
    "tag": "WATCH",
-   "h1": 4.2,
-   "ts": "2026-10-10 07:00 UTC"
+   "h1": 8.5,
+   "ts": "2026-10-10 07:30 UTC"
   },
   {
    "symbol": "SQI",
@@ -994,9 +994,9 @@
   },
   {
    "symbol": "Samur\u2022ai",
-   "tag": "WATCH",
-   "h1": -19.8,
-   "ts": "2026-10-10 07:00 UTC"
+   "tag": "FADING",
+   "h1": -34.4,
+   "ts": "2026-10-10 07:30 UTC"
   }
  ],
  "live_closes": [
