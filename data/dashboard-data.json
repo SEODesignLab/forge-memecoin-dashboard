@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T03:04:38.987588+00:00",
+ "generated": "2026-10-10T03:34:39.125436+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 602,
-  "cohort_wallets": 1765,
+  "cohort_runs": 603,
+  "cohort_wallets": 1776,
   "cohort_qualified": 51,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 77
+   "count": 78
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -34,15 +34,15 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 22
-  },
-  {
-   "reason": "Score 84 below threshold 85",
-   "count": 20
+   "count": 23
   },
   {
    "reason": "Score 81 below threshold 85",
    "count": 20
+  },
+  {
+   "reason": "Score 84 below threshold 85",
+   "count": 19
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T03:31:01.980585+00:00",
+   "symbol": "OpenAI",
+   "mint": "dssviLN6Vizwk3G6ZXYLQxyuerxjVYtWv25UZKfpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0004796,
+   "mcap": 479671,
+   "liq": 58919.28,
+   "h1": 952,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T03:31:01.976184+00:00",
+   "symbol": "Taylor",
+   "mint": "5Nb75R2NTPMnawy54k67bQ6zZ444Qk7HbE4M6zoadHJE",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.001151,
+   "mcap": 1151580,
+   "liq": 92434.82,
+   "h1": 2427,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T03:31:01.971786+00:00",
+   "symbol": "DiscDog",
+   "mint": "PS88MitFtGtaaj2RbeCvUSgcwvV2KDkB5P39w6ppump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001425,
+   "mcap": 142543,
+   "liq": 31414.3,
+   "h1": 210,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T03:31:01.964120+00:00",
+   "symbol": "PW",
+   "mint": "FRvW3ZTX56znsDcyVitAAEHnX7JVT675JX7JvESppump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 20.6% > 12% gate",
+   "entry_price": 4.435e-05,
+   "mcap": 44356,
+   "liq": 18262.06,
+   "h1": 4.59,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-10T03:00:56.147126+00:00",
    "symbol": "Gemini",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T00:00:53.294359+00:00",
-   "symbol": "Ads",
-   "mint": "GGauatXaF2mxwzqvJpcZ8ep2mCnNyZjUywiWDktZpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001977,
-   "mcap": 197437,
-   "liq": 38703.33,
-   "h1": 337,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T00:00:53.285923+00:00",
-   "symbol": "QC",
-   "mint": "4WHKbStzBeR1xxrorr9gBD2wcWV3BCHFnNq6noS6pWqX",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 15.7% > 12% gate",
-   "entry_price": 9.424e-05,
-   "mcap": 94241,
-   "liq": 25233.23,
-   "h1": 106,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T23:30:54.489758+00:00",
-   "symbol": "QF",
-   "mint": "2QESBxfYAdosi8bbasNwTvYC1Mzxvj6UnDuerWQbpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 34.6% > 12% gate",
-   "entry_price": 1.791e-05,
-   "mcap": 17884,
-   "liq": 9849.34,
-   "h1": -61.29,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T23:30:54.485333+00:00",
-   "symbol": "IP",
-   "mint": "7bDhycJhBVKTbp4GpJ5Hx7W7MxmcqJhgh9DSGKJEpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.9% > 12% gate",
-   "entry_price": 3.811e-05,
-   "mcap": 38119,
-   "liq": 15379.87,
-   "h1": -16.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -965,14 +965,14 @@
   {
    "symbol": "MogCat",
    "tag": "WATCH",
-   "h1": -16.2,
-   "ts": "2026-10-10 03:00 UTC"
+   "h1": -6.1,
+   "ts": "2026-10-10 03:30 UTC"
   },
   {
    "symbol": "HI",
-   "tag": "WATCH",
-   "h1": -1.6,
-   "ts": "2026-10-10 03:00 UTC"
+   "tag": "FADING",
+   "h1": -27.2,
+   "ts": "2026-10-10 03:30 UTC"
   },
   {
    "symbol": "UNITS",
@@ -989,8 +989,8 @@
   {
    "symbol": "qOMPUTE",
    "tag": "WATCH",
-   "h1": -3.9,
-   "ts": "2026-10-10 03:00 UTC"
+   "h1": 2.3,
+   "ts": "2026-10-10 03:30 UTC"
   },
   {
    "symbol": "SQI",
