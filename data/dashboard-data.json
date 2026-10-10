@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T23:34:38.000337+00:00",
+ "generated": "2026-10-10T00:04:38.139907+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 595,
-  "cohort_wallets": 1645,
+  "cohort_runs": 596,
+  "cohort_wallets": 1663,
   "cohort_qualified": 50,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,27 +26,27 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 78
+   "count": 79
   },
   {
    "reason": "Score 82 below threshold 85",
    "count": 29
   },
   {
-   "reason": "Score 81 below threshold 85",
-   "count": 20
-  },
-  {
    "reason": "Score 80 below threshold 85",
-   "count": 20
-  },
-  {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 19
+   "count": 21
   },
   {
    "reason": "Score 83 below threshold 85",
    "count": 19
+  },
+  {
+   "reason": "Score 81 below threshold 85",
+   "count": 19
+  },
+  {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 18
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-10T00:00:53.312166+00:00",
+   "symbol": "QHH",
+   "mint": "41StNQUkGTmEz7vfX6o9deWZcv58FqfbzNjPzjeopump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 25.7% > 12% gate",
+   "entry_price": 7.898e-05,
+   "mcap": 78879,
+   "liq": 22764.12,
+   "h1": 63.48,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T00:00:53.307726+00:00",
+   "symbol": "Anthropic",
+   "mint": "xssg7HMXPghh59yNW4sgZTPfjsCfoLxLvnKnR77pump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.001228,
+   "mcap": 1228472,
+   "liq": 95339.59,
+   "h1": 2609,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T00:00:53.303323+00:00",
+   "symbol": "SHIMOJI",
+   "mint": "7YYWoDwyPvobDsDWoHdosQQapuBJcxnhPSSFkxtqpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 26.5% > 12% gate",
+   "entry_price": 5.249e-05,
+   "mcap": 52490,
+   "liq": 18163.48,
+   "h1": 15.02,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T00:00:53.294359+00:00",
+   "symbol": "Ads",
+   "mint": "GGauatXaF2mxwzqvJpcZ8ep2mCnNyZjUywiWDktZpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001977,
+   "mcap": 197437,
+   "liq": 38703.33,
+   "h1": 337,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-10T00:00:53.285923+00:00",
+   "symbol": "QC",
+   "mint": "4WHKbStzBeR1xxrorr9gBD2wcWV3BCHFnNq6noS6pWqX",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 15.7% > 12% gate",
+   "entry_price": 9.424e-05,
+   "mcap": 94241,
+   "liq": 25233.23,
+   "h1": 106,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-09T23:30:54.489758+00:00",
    "symbol": "QF",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T21:30:58.850117+00:00",
-   "symbol": "Mr Beast",
-   "mint": "ERuXdxoKfotPdqHV4NH9fQT1j5KxdwQf3mP9rvUmpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002147,
-   "mcap": 214778,
-   "liq": 38735.19,
-   "h1": 374,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T21:30:58.844509+00:00",
-   "symbol": "Grok AI",
-   "mint": "exdoc1DiPtwggJkYDMsbYV5umY69fz7Rqj8JUAdpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001358,
-   "mcap": 135839,
-   "liq": 30483,
-   "h1": 200,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T21:30:58.838813+00:00",
-   "symbol": "Cap Coin",
-   "mint": "3x5qLD5HrpNXuqCDcqb6rR7pGRa12f6xCXzS49qfNpZF",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 0.0006514,
-   "mcap": 651474,
-   "liq": 68852.7,
-   "h1": 1337,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T21:30:58.834374+00:00",
-   "symbol": "\u4e03\u4ed4",
-   "mint": "3AYwRSBgVhNoCtn5ZsLvgjEWgG1tj6cJAA3jbQCppump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 6.524e-05,
-   "mcap": 65170,
-   "liq": 20535.39,
-   "h1": 4.09,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-09T21:30:58.829951+00:00",
-   "symbol": "LMAOJI",
-   "mint": "H9fcDfXKu1HfirMPsQRkbYDBP2Pi2nmER9edgVvNpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001653,
-   "mcap": 165373,
-   "liq": 34524.6,
-   "h1": 262,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -757,7 +757,7 @@
     "QCOIN",
     "HI"
    ],
-   "last": "2026-10-09 22:30 UTC"
+   "last": "2026-10-10 00:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -927,12 +927,6 @@
  ],
  "mints": [
   {
-   "symbol": "Gary",
-   "tag": "FADING",
-   "h1": -39.5,
-   "ts": "2026-10-09 16:30 UTC"
-  },
-  {
    "symbol": "swordowl",
    "tag": "FADING",
    "h1": -74.6,
@@ -965,14 +959,14 @@
   {
    "symbol": "moin",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-10-09 23:30 UTC"
+   "h1": 1.2,
+   "ts": "2026-10-10 00:00 UTC"
   },
   {
    "symbol": "QCOIN",
-   "tag": "WATCH",
-   "h1": 8.1,
-   "ts": "2026-10-09 23:30 UTC"
+   "tag": "FADING",
+   "h1": -42.1,
+   "ts": "2026-10-10 00:00 UTC"
   },
   {
    "symbol": "MogCat",
@@ -983,8 +977,8 @@
   {
    "symbol": "HI",
    "tag": "WATCH",
-   "h1": 29.7,
-   "ts": "2026-10-09 23:30 UTC"
+   "h1": -14.3,
+   "ts": "2026-10-10 00:00 UTC"
   },
   {
    "symbol": "UNITS",
@@ -995,8 +989,14 @@
   {
    "symbol": "Q/ACC",
    "tag": "WATCH",
-   "h1": -6.8,
-   "ts": "2026-10-09 23:30 UTC"
+   "h1": 15.4,
+   "ts": "2026-10-10 00:00 UTC"
+  },
+  {
+   "symbol": "qOMPUTE",
+   "tag": "CHASE",
+   "h1": 1007.0,
+   "ts": "2026-10-10 00:00 UTC"
   }
  ],
  "live_closes": [
