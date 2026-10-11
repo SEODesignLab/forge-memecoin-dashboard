@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T04:04:46.205140+00:00",
+ "generated": "2026-10-11T04:34:46.354384+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 652,
-  "cohort_wallets": 1998,
+  "cohort_runs": 653,
+  "cohort_wallets": 1500,
   "cohort_qualified": 54,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 88
+   "count": 89
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -53,6 +53,10 @@
    "count": 12
   },
   {
+   "reason": "Top holder 12.1% > 12% gate",
+   "count": 7
+  },
+  {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 7
   },
@@ -67,13 +71,54 @@
   {
    "reason": "Top holder 13.3% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 12.1% > 12% gate",
-   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-11T04:30:56.731904+00:00",
+   "symbol": "STARBUCKS",
+   "mint": "XVMxzgkMFsN6fs9852x5CNT9tnRWYMCRvAPmF2rpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003443,
+   "mcap": 344303,
+   "liq": 49557.76,
+   "h1": 658,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-11T04:30:56.725987+00:00",
+   "symbol": "Instagram",
+   "mint": "8tBA9jZDiR2f1wQ5hkdPbkXhcgtUGCoAWwT2MshGZm62",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 15.3% > 12% gate",
+   "entry_price": 7.823e-05,
+   "mcap": 78239,
+   "liq": 22692.6,
+   "h1": 72.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-11T04:30:56.720379+00:00",
+   "symbol": "VOLUMIZER",
+   "mint": "7W5KAUYmPc5PvdS1tvDHy8Lvt4ERXmzGue7yEoSNpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 12.1% > 12% gate",
+   "entry_price": 0.0001506,
+   "mcap": 150684,
+   "liq": 32990.93,
+   "h1": 225,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-11T04:01:00.139627+00:00",
    "symbol": "LUNA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-11T00:30:59.632200+00:00",
-   "symbol": "Fuwa",
-   "mint": "97EcGq9fGZj1VKjJybzNd6CAP5VUNfzZQqZxnNpDpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 29.9% > 12% gate",
-   "entry_price": 1.894e-05,
-   "mcap": 18940,
-   "liq": 10234.72,
-   "h1": -58.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-11T00:01:10.807557+00:00",
-   "symbol": "CYBERJAK",
-   "mint": "5yQcnuk4TGs2mSkXVZ9FK3q7uQf55uWSacVhZmy9pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 8.331e-05,
-   "mcap": 83319,
-   "liq": 23894.23,
-   "h1": 58.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-11T00:01:10.801512+00:00",
-   "symbol": "DeepSeek",
-   "mint": "pf4rNVH7KFpZC32nCSQ8NE23zsiJ9f8aXoBRV2Zpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0001004,
-   "mcap": 100454,
-   "liq": 26029.55,
-   "h1": 120,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -701,18 +701,18 @@
  "wallets": [
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
-   "hits": 71,
+   "hits": 72,
    "symbols": [
-    "BULLCRAFT",
     "Pumpoween",
     "LMAO!",
     "OWLNIGHT",
     "Q/ACC",
     "HI",
     "moin",
-    "brigitte"
+    "brigitte",
+    "GOMO"
    ],
-   "last": "2026-10-10 20:30 UTC"
+   "last": "2026-10-11 04:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -746,18 +746,18 @@
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
-   "hits": 16,
+   "hits": 17,
    "symbols": [
-    "ECSTASY",
     "Pumpoween",
     "LMAO!",
     "Gary",
     "moin",
     "QCOIN",
     "HI",
-    "SI276"
+    "SI276",
+    "GOMO"
    ],
-   "last": "2026-10-10 16:00 UTC"
+   "last": "2026-10-11 04:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -989,14 +989,14 @@
   {
    "symbol": "KILOS",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-10-11 04:00 UTC"
+   "h1": 8.9,
+   "ts": "2026-10-11 04:30 UTC"
   },
   {
    "symbol": "SUPMKT",
    "tag": "WATCH",
-   "h1": -13.7,
-   "ts": "2026-10-11 04:00 UTC"
+   "h1": -2.1,
+   "ts": "2026-10-11 04:30 UTC"
   }
  ],
  "live_closes": [
