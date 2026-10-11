@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T03:04:45.922624+00:00",
+ "generated": "2026-10-11T03:34:46.071780+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 650,
-  "cohort_wallets": 1956,
+  "cohort_runs": 651,
+  "cohort_wallets": 1976,
   "cohort_qualified": 54,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 90
+   "count": 88
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -34,15 +34,15 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 27
-  },
-  {
-   "reason": "Score 82 below threshold 85",
-   "count": 23
+   "count": 28
   },
   {
    "reason": "Score 84 below threshold 85",
    "count": 23
+  },
+  {
+   "reason": "Score 82 below threshold 85",
+   "count": 22
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-11T03:31:03.202246+00:00",
+   "symbol": "TESLASI",
+   "mint": "8VjhRuCTbbpUP946ihKbTZRLivn5LnkU5FwGRaAJpump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 6.238e-05,
+   "mcap": 62382,
+   "liq": 20078.15,
+   "h1": 37.02,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-11T03:31:03.197721+00:00",
+   "symbol": "QCL",
+   "mint": "GA8ngAgtVve8PyAKFWKATkNwz3sWiGgEdVoLLW75pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.813e-05,
+   "mcap": 48134,
+   "liq": 17338.6,
+   "h1": 3.91,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-11T03:31:03.193239+00:00",
+   "symbol": "NVIDIA",
+   "mint": "CbmptM9hEQurLUWKn26yUYB5PVoFKGFCjeMmspuCpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 8.375e-05,
+   "mcap": 83759,
+   "liq": 23521.6,
+   "h1": 84.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-11T03:31:03.188104+00:00",
+   "symbol": "SGI",
+   "mint": "7pnSMbX39yg9iGNQ7u5BRYs6EBVA7vfK5nMAqSFTpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 18.4% > 12% gate",
+   "entry_price": 4.708e-05,
+   "mcap": 47086,
+   "liq": 17423.7,
+   "h1": 6.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-11T03:01:02.719121+00:00",
    "symbol": "HAT",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-11T00:01:10.767501+00:00",
-   "symbol": "Ollie",
-   "mint": "3UVjAnc82dWnsUbFPXuE8Q5kCrCcm2ndnms4uNRJpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 12.1% > 12% gate",
-   "entry_price": 0.0001399,
-   "mcap": 127680,
-   "liq": 31616.42,
-   "h1": 208,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-11T00:01:10.762573+00:00",
-   "symbol": "GOMOCAT",
-   "mint": "Ayi9zdqcriYPU77B9HJAtaX32At1ApMaMuKvypEHpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 0.0001341,
-   "mcap": 134154,
-   "liq": 30787,
-   "h1": -4.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T23:31:05.916029+00:00",
-   "symbol": "Old No. 7",
-   "mint": "2ptsHipT9Hak6RsVV5DLhArLWsj7WHfS1JnBwLX3bhSC",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0005745,
-   "mcap": 574525,
-   "liq": 64817.79,
-   "h1": 1154,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-10T23:31:05.911123+00:00",
-   "symbol": "X",
-   "mint": "FpV9xqvZ7fjenqHvgnnKie67UU9UgE7zmdXNuZtYpyYd",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 9.46e-05,
-   "mcap": 94604,
-   "liq": 25200.06,
-   "h1": 107,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -989,14 +989,14 @@
   {
    "symbol": "KILOS",
    "tag": "WATCH",
-   "h1": 0.8,
-   "ts": "2026-10-11 03:00 UTC"
+   "h1": -3.8,
+   "ts": "2026-10-11 03:30 UTC"
   },
   {
    "symbol": "SUPMKT",
    "tag": "WATCH",
-   "h1": 8.5,
-   "ts": "2026-10-11 03:00 UTC"
+   "h1": -18.6,
+   "ts": "2026-10-11 03:30 UTC"
   }
  ],
  "live_closes": [
