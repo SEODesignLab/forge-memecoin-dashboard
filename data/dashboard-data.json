@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T07:34:54.083003+00:00",
+ "generated": "2026-10-12T08:04:54.234071+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 707,
-  "cohort_wallets": 1730,
+  "cohort_runs": 708,
+  "cohort_wallets": 1742,
   "cohort_qualified": 61,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 65
+   "count": 63
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 41
+   "count": 40
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,96 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-12T08:01:12.339337+00:00",
+   "symbol": "Gemini",
+   "mint": "3KrprJqvdLuLnQZw3Z8VtTcqYWtkVFErW2SakVpjpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0004309,
+   "mcap": 430936,
+   "liq": 56430.84,
+   "h1": 821,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T08:01:12.334752+00:00",
+   "symbol": "DOPECRAFT",
+   "mint": "4zh2SmTWqDGwvN7iHc9Z3d7eJ4S2ZupoyiqJseoYpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 18.9% > 12% gate",
+   "entry_price": 9.079e-05,
+   "mcap": 90799,
+   "liq": 25347.23,
+   "h1": 88.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T08:01:12.330239+00:00",
+   "symbol": "TikTok",
+   "mint": "CRdg1EdMfgtXdSPMbnti1cte4SFaMfUEujNzr2eqpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 20.0% > 12% gate",
+   "entry_price": 0.0005523,
+   "mcap": 552383,
+   "liq": 64155.96,
+   "h1": 1080,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T08:01:12.325944+00:00",
+   "symbol": "FOMO",
+   "mint": "pcWTtQYXZWUGbgEb2aeNZg1KtKLvbEPdCApvTBXpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 0.0004185,
+   "mcap": 418594,
+   "liq": 55577.09,
+   "h1": 796,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T08:01:12.319551+00:00",
+   "symbol": "DOPEBAT",
+   "mint": "3q2U15sSP4gy6PEYgmcVtEyurEHBhXgLre21NeHNpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 12.8% > 12% gate",
+   "entry_price": 0.000172,
+   "mcap": 172006,
+   "liq": 40455.26,
+   "h1": 247,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T08:01:12.312915+00:00",
+   "symbol": "maxpain",
+   "mint": "EVD9rS4kGfSnwEzsQWxBnQAgM8ha3iCfbbe6GFNMpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 75>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.034e-05,
+   "mcap": 40348,
+   "liq": 16084.77,
+   "h1": -14.31,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-12T07:31:10.101746+00:00",
    "symbol": "TOKEN",
@@ -583,96 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T04:01:07.612455+00:00",
-   "symbol": "MINIQ",
-   "mint": "HB4jixmJtoBViQBQ1BdHgX2JywyCHxxXG28FZYY9pump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 18.7% > 12% gate",
-   "entry_price": 6.521e-05,
-   "mcap": 65216,
-   "liq": 20710.98,
-   "h1": 39.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T04:01:07.608130+00:00",
-   "symbol": "OpenAI",
-   "mint": "CQUsX9yPPZxn27y8T9CHxi36J1qs8TXw8wMTE6yepump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004895,
-   "mcap": 489580,
-   "liq": 60086.13,
-   "h1": 957,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T04:01:07.602651+00:00",
-   "symbol": "GTA 6 Coin",
-   "mint": "14CPixq8taciAm2k22mvLFPSjAgfYKnNW9vDVhq4pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 12.8% > 12% gate",
-   "entry_price": 0.0004792,
-   "mcap": 479217,
-   "liq": 59427.42,
-   "h1": 933,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T04:01:07.597442+00:00",
-   "symbol": "FOMO",
-   "mint": "5k1XxcXqrppRc4TPMYF2jQeMftmz4GmTVzYcYRULpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004149,
-   "mcap": 414827,
-   "liq": 55141.22,
-   "h1": 795,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T04:01:07.591605+00:00",
-   "symbol": "eHOME",
-   "mint": "DTkkyUtNrPZK3WXd1ZvASyCbgz2pLpZApm6wspfSpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 15.5% > 12% gate",
-   "entry_price": 8.221e-05,
-   "mcap": 82214,
-   "liq": 23804.02,
-   "h1": 77.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T03:31:07.462743+00:00",
-   "symbol": "X",
-   "mint": "D9scUSRBW6WuZMd1hofuUR726tWAnJjY9WMUKYbkpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0005214,
-   "mcap": 521436,
-   "liq": 62102.71,
-   "h1": 1024,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "TM",
     "GOMO"
    ],
-   "last": "2026-10-12 07:30 UTC"
+   "last": "2026-10-12 08:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -959,8 +959,8 @@
   {
    "symbol": "ZNT",
    "tag": "WATCH",
-   "h1": 20.2,
-   "ts": "2026-10-12 07:30 UTC"
+   "h1": 3.9,
+   "ts": "2026-10-12 08:00 UTC"
   },
   {
    "symbol": "WEDNESDAY",
@@ -989,14 +989,14 @@
   {
    "symbol": "TM",
    "tag": "WATCH",
-   "h1": -5.0,
-   "ts": "2026-10-12 07:30 UTC"
+   "h1": -13.5,
+   "ts": "2026-10-12 08:00 UTC"
   },
   {
    "symbol": "SEAN",
    "tag": "WATCH",
    "h1": 2.3,
-   "ts": "2026-10-12 07:30 UTC"
+   "ts": "2026-10-12 08:00 UTC"
   }
  ],
  "live_closes": [
