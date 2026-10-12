@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T13:04:55.657487+00:00",
+ "generated": "2026-10-12T13:34:01.649709+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 718,
-  "cohort_wallets": 1915,
+  "cohort_runs": 719,
+  "cohort_wallets": 1927,
   "cohort_qualified": 62,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 65
+   "count": 64
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-12T13:30:19.823167+00:00",
+   "symbol": "SHUM",
+   "mint": "JD1KjGWLJVfr9xQ85ryPaaFPyrKL38rR2PcwrvF2Hp6K",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 22.4% > 12% gate",
+   "entry_price": 4.549e-05,
+   "mcap": 45495,
+   "liq": 17538.09,
+   "h1": -11.83,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T13:30:19.818014+00:00",
+   "symbol": "Cbenz",
+   "mint": "RDg9LE377mNhUVNi5Enc9e9imcWWvgro2xwLZn5pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 14.1% > 12% gate",
+   "entry_price": 0.0005965,
+   "mcap": 596566,
+   "liq": 66021.88,
+   "h1": 1204,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-12T13:01:16.119025+00:00",
    "symbol": "MINU",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T10:31:29.318234+00:00",
-   "symbol": "ConConAI",
-   "mint": "uv4GRWUTjunyToMKPBueeRYTRbVJt78wYLeaZDxpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0005634,
-   "mcap": 563438,
-   "liq": 64571.33,
-   "h1": 1117,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T10:31:29.312316+00:00",
-   "symbol": "Minecraft",
-   "mint": "6SQfjeWWNCxDeWwNxpkJ7gSZ4LaxtNbajGwq4udKpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 9.175e-05,
-   "mcap": 91752,
-   "liq": 24954.8,
-   "h1": 98.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -977,8 +977,8 @@
   {
    "symbol": "SEAN",
    "tag": "WATCH",
-   "h1": -5.0,
-   "ts": "2026-10-12 13:00 UTC"
+   "h1": 5.1,
+   "ts": "2026-10-12 13:30 UTC"
   },
   {
    "symbol": "CLAUDIAPHIL",
@@ -995,8 +995,8 @@
   {
    "symbol": "FIGHT",
    "tag": "WATCH",
-   "h1": -9.1,
-   "ts": "2026-10-12 13:00 UTC"
+   "h1": -6.2,
+   "ts": "2026-10-12 13:30 UTC"
   }
  ],
  "live_closes": [
