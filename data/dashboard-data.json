@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T09:04:54.518738+00:00",
+ "generated": "2026-10-12T09:34:54.652185+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 710,
-  "cohort_wallets": 1775,
+  "cohort_runs": 711,
+  "cohort_wallets": 1794,
   "cohort_qualified": 62,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 63
+   "count": 64
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-12T09:31:11.676890+00:00",
+   "symbol": "WCAT",
+   "mint": "HHewYpwBtnMSP7PFzWb1UuHXWdCRdMktN3Fcemyfworm",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 23.6% > 12% gate",
+   "entry_price": 3.635e-05,
+   "mcap": 36298,
+   "liq": 15010.15,
+   "h1": -22.31,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-12T09:31:11.672038+00:00",
+   "symbol": "WORMPAD",
+   "mint": "7MKsF76rx5UMAdtUS1WLNeu4NYdpAfiCccV62upNworm",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002765,
+   "mcap": 276541,
+   "liq": 46244.35,
+   "h1": 499,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-12T09:01:45.697698+00:00",
    "symbol": "FOMO",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T05:31:24.535054+00:00",
-   "symbol": "DOGCOIN",
-   "mint": "GmDjFweCHd1FaDUV6TiUreVZa24KMeQMCBA18d5opump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 0.0001322,
-   "mcap": 132252,
-   "liq": 32099.33,
-   "h1": 190,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T05:31:24.530013+00:00",
-   "symbol": "Solami",
-   "mint": "6w5xddFSx75KD2MVJ5YAhKDMf8crYa5qMkxZmtPxpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 25.7% > 12% gate",
-   "entry_price": 3.721e-05,
-   "mcap": 37217,
-   "liq": 15384.27,
-   "h1": -18.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "TM",
     "GOMO"
    ],
-   "last": "2026-10-12 09:00 UTC"
+   "last": "2026-10-12 09:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -927,12 +927,6 @@
  ],
  "mints": [
   {
-   "symbol": "KILOS",
-   "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-10-11 19:00 UTC"
-  },
-  {
    "symbol": "SUPMKT",
    "tag": "CHASE",
    "h1": 897.0,
@@ -952,9 +946,9 @@
   },
   {
    "symbol": "ZNT",
-   "tag": "FADING",
-   "h1": -21.8,
-   "ts": "2026-10-12 09:00 UTC"
+   "tag": "WATCH",
+   "h1": -16.8,
+   "ts": "2026-10-12 09:30 UTC"
   },
   {
    "symbol": "WEDNESDAY",
@@ -989,14 +983,20 @@
   {
    "symbol": "SEAN",
    "tag": "WATCH",
-   "h1": 3.5,
-   "ts": "2026-10-12 09:00 UTC"
+   "h1": 7.6,
+   "ts": "2026-10-12 09:30 UTC"
   },
   {
    "symbol": "CLAUDIAPHIL",
    "tag": "WATCH",
    "h1": 6.3,
    "ts": "2026-10-12 08:30 UTC"
+  },
+  {
+   "symbol": "CAT89",
+   "tag": "WATCH",
+   "h1": 104.0,
+   "ts": "2026-10-12 09:30 UTC"
   }
  ],
  "live_closes": [
