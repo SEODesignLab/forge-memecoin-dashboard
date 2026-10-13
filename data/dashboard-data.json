@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T03:04:05.528603+00:00",
+ "generated": "2026-10-13T03:34:05.660695+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 746,
-  "cohort_wallets": 1811,
+  "cohort_runs": 747,
+  "cohort_wallets": 1825,
   "cohort_qualified": 65,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 44
+   "count": 45
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -42,7 +42,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 26
+   "count": 25
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-13T03:30:17.432843+00:00",
+   "symbol": "FOMO",
+   "mint": "FMzu2fn4Fh9HJHTmVqiLzU9X4jjnCFinJgSvtjRepump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0004058,
+   "mcap": 405804,
+   "liq": 53477.16,
+   "h1": 814,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-13T03:30:17.427841+00:00",
+   "symbol": "this",
+   "mint": "FMPtRTHXpX96pWrYUjxsNFih8h9nBwF1vMeu4QBSpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 35.3% > 12% gate",
+   "entry_price": 1.403e-05,
+   "mcap": 14038,
+   "liq": 8947.36,
+   "h1": -68.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-13T03:30:17.423204+00:00",
+   "symbol": "SUKI",
+   "mint": "F9QL6w3RyEoY4LKtKPCUZ62wmTjPaD7wdb1VR3Nppump",
+   "score": 114,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001856,
+   "mcap": 185496,
+   "liq": 36087.66,
+   "h1": 68.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-13T03:00:23.108480+00:00",
    "symbol": "FOMO",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T23:30:21.571587+00:00",
-   "symbol": "CNN",
-   "mint": "gkAkoGkLrBHidwP9rLCQ33UVmymg1x4i7SjKH3Vpump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0002938,
-   "mcap": 293826,
-   "liq": 44965.43,
-   "h1": 566,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T23:30:21.567210+00:00",
-   "symbol": "FOMO",
-   "mint": "V37EgtciLAopTGUF9LRgyRTQo4nXBQJVJFV7Mehpump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 0.0006328,
-   "mcap": 632824,
-   "liq": 66859.11,
-   "h1": 1337,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-12T23:30:21.558540+00:00",
-   "symbol": "Popo",
-   "mint": "CqWt6SUMJuqmt1JVTTadyEpGuvn4AzDN6QFXuZeXpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 2.232e-05,
-   "mcap": 22281,
-   "liq": 11247.04,
-   "h1": -50.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -927,12 +927,6 @@
  ],
  "mints": [
   {
-   "symbol": "SEAN",
-   "tag": "WATCH",
-   "h1": -16.5,
-   "ts": "2026-10-12 18:30 UTC"
-  },
-  {
    "symbol": "CLAUDIAPHIL",
    "tag": "WATCH",
    "h1": 6.3,
@@ -971,8 +965,8 @@
   {
    "symbol": "Bumo",
    "tag": "WATCH",
-   "h1": -14.7,
-   "ts": "2026-10-13 03:00 UTC"
+   "h1": -12.1,
+   "ts": "2026-10-13 03:30 UTC"
   },
   {
    "symbol": "DEPTH",
@@ -983,20 +977,26 @@
   {
    "symbol": "CHONK",
    "tag": "WATCH",
-   "h1": 14.2,
-   "ts": "2026-10-13 03:00 UTC"
+   "h1": 54.9,
+   "ts": "2026-10-13 03:30 UTC"
   },
   {
    "symbol": "HUMPH",
    "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-10-13 03:00 UTC"
+   "h1": -6.0,
+   "ts": "2026-10-13 03:30 UTC"
   },
   {
    "symbol": "Bear",
+   "tag": "FADING",
+   "h1": -76.5,
+   "ts": "2026-10-13 03:30 UTC"
+  },
+  {
+   "symbol": "WALTJR",
    "tag": "WATCH",
-   "h1": 5.7,
-   "ts": "2026-10-13 03:00 UTC"
+   "h1": 42.3,
+   "ts": "2026-10-13 03:30 UTC"
   }
  ],
  "live_closes": [
