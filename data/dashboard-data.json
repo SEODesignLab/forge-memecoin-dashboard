@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T15:34:09.128844+00:00",
+ "generated": "2026-10-13T16:04:09.278884+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 771,
-  "cohort_wallets": 1692,
+  "cohort_runs": 772,
+  "cohort_wallets": 1711,
   "cohort_qualified": 67,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 41
+   "count": 42
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -61,11 +61,11 @@
    "count": 9
   },
   {
-   "reason": "Top holder 13.6% > 12% gate",
-   "count": 7
+   "reason": "Top holder 13.8% > 12% gate",
+   "count": 8
   },
   {
-   "reason": "Top holder 13.8% > 12% gate",
+   "reason": "Top holder 13.6% > 12% gate",
    "count": 7
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-13T16:00:29.146161+00:00",
+   "symbol": "DeepSeek",
+   "mint": "RH4FBVfwaJGa7YHGGTpMNhc6gkweSh4SkqPDFEapump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 0.0004372,
+   "mcap": 437271,
+   "liq": 55653.1,
+   "h1": 885,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-13T16:00:29.141306+00:00",
+   "symbol": "CDOPE",
+   "mint": "D69eXAaRQfQukvrD2CrTfy9n3Mb7Xig45iKSjmhpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 22.4% > 12% gate",
+   "entry_price": 6.439e-05,
+   "mcap": 64399,
+   "liq": 20294.29,
+   "h1": 42.2,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-13T16:00:29.133232+00:00",
+   "symbol": "HELL",
+   "mint": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001381,
+   "mcap": 1317908,
+   "liq": 102499.53,
+   "h1": -5.09,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-13T15:30:29.995731+00:00",
    "symbol": "pumpkoin",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-13T12:30:33.222996+00:00",
-   "symbol": "Lion",
-   "mint": "9cHteTeeomxooTBLB1QS965bif7HbRcpuBspCJyhpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 8.014e-05,
-   "mcap": 80144,
-   "liq": 23252.78,
-   "h1": 80.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-13T12:30:33.216896+00:00",
-   "symbol": "COWE",
-   "mint": "AiUuiYFVfPPWSDWtBN4LBkQe8THXjSagdVw1umyrpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 20.2% > 12% gate",
-   "entry_price": 4.87e-05,
-   "mcap": 48702,
-   "liq": 17676.51,
-   "h1": 13.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-13T12:00:25.255594+00:00",
-   "symbol": "ZMC",
-   "mint": "AgnAeSubtPYda5NXedA1R1KL5XxbtMduY9fM3NJSpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 8.024e-05,
-   "mcap": 80247,
-   "liq": 23575.03,
-   "h1": 79.53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -959,8 +959,8 @@
   {
    "symbol": "Bumo",
    "tag": "WATCH",
-   "h1": 17.4,
-   "ts": "2026-10-13 15:30 UTC"
+   "h1": 6.2,
+   "ts": "2026-10-13 16:00 UTC"
   },
   {
    "symbol": "DEPTH",
@@ -971,14 +971,14 @@
   {
    "symbol": "CHONK",
    "tag": "WATCH",
-   "h1": -13.5,
-   "ts": "2026-10-13 15:30 UTC"
+   "h1": 4.9,
+   "ts": "2026-10-13 16:00 UTC"
   },
   {
    "symbol": "HUMPH",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-10-13 15:30 UTC"
+   "h1": -9.1,
+   "ts": "2026-10-13 16:00 UTC"
   },
   {
    "symbol": "Bear",
@@ -996,7 +996,7 @@
    "symbol": "YILONGMA",
    "tag": "FADING",
    "h1": -100.0,
-   "ts": "2026-10-13 15:30 UTC"
+   "ts": "2026-10-13 16:00 UTC"
   }
  ],
  "live_closes": [
