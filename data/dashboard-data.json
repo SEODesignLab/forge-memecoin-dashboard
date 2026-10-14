@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T07:34:13.821954+00:00",
+ "generated": "2026-10-14T08:04:13.957472+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 803,
-  "cohort_wallets": 1667,
+  "cohort_runs": 804,
+  "cohort_wallets": 1673,
   "cohort_qualified": 68,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 50
+   "count": 51
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 33
+   "count": 34
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -42,7 +42,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 25
+   "count": 26
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -50,7 +50,7 @@
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,111 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-14T08:00:32.870672+00:00",
+   "symbol": "SpaceX",
+   "mint": "pFWN7ra9b7aj4HEToLpSs2Dh59W42ujLAkDecy1pump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0005642,
+   "mcap": 564288,
+   "liq": 63510.88,
+   "h1": 1165,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.863405+00:00",
+   "symbol": "VEILDOGE",
+   "mint": "E5SzGqbAaXQwwtkRYsrL4NrcvJfcSFjm8aSwyMhCpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000179,
+   "mcap": 179051,
+   "liq": 35402.58,
+   "h1": 272,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.855215+00:00",
+   "symbol": "FOMO",
+   "mint": "5QNznipxCQDBdLVTwqYoENTNv8GjC47uibryPqR8EXZm",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0002454,
+   "mcap": 245451,
+   "liq": 41253.96,
+   "h1": 450,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.847748+00:00",
+   "symbol": "Gemini",
+   "mint": "C57d2bdKozuLELseu1TgmFtCqwSHiNRgwtaMwvdhEek8",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 13.6% > 12% gate",
+   "entry_price": 0.0004142,
+   "mcap": 414300,
+   "liq": 54134.19,
+   "h1": 829,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.841680+00:00",
+   "symbol": "NVIDIA",
+   "mint": "A11zKPbiXJYjDGF7TScwEAmCwhJbfaupL8ubxXDLSBMS",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0004312,
+   "mcap": 431285,
+   "liq": 55280.47,
+   "h1": 868,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.835265+00:00",
+   "symbol": "PSI",
+   "mint": "ng6pDHNYmSW7Sf2rr6Z2yrAGexVQ4SMRXc1v9Khpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 15.1% > 12% gate",
+   "entry_price": 6.878e-05,
+   "mcap": 68783,
+   "liq": 21325.18,
+   "h1": 55.72,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T08:00:32.830370+00:00",
+   "symbol": "Winnie",
+   "mint": "8ihWXWTjy2XFAtXVgdB1MDPsbmfYt2KQJ2PCAHCVpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 19.9% > 12% gate",
+   "entry_price": 5.377e-05,
+   "mcap": 53778,
+   "liq": 18404.17,
+   "h1": 20.22,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-14T07:30:31.320379+00:00",
    "symbol": "SiFi",
@@ -568,111 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.975892+00:00",
-   "symbol": "DragonBall",
-   "mint": "3xAWsej6C9HjCzMLXeaBcJ2cEADpaSVE2tKj8vnGUD1K",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 0.0003999,
-   "mcap": 399945,
-   "liq": 53227.12,
-   "h1": 793,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.969235+00:00",
-   "symbol": "FOMO",
-   "mint": "6YDHH4iAzAb9ULZ4Y4LpUtotu41Nuvdgo81pzkTZLhfU",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 8.806e-05,
-   "mcap": 88065,
-   "liq": 24009.79,
-   "h1": 96.91,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.962881+00:00",
-   "symbol": "SpaceX",
-   "mint": "6M26uo2waV1uBQFBrMs23vuJRgvYtYZRLTPiJb6pump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 16.6% > 12% gate",
-   "entry_price": 6.708e-05,
-   "mcap": 67077,
-   "liq": 20746.05,
-   "h1": 50.01,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.958222+00:00",
-   "symbol": "ASML AI",
-   "mint": "GWrHYixMc1vRUWXLRYPrfQHXe9P5vbggVXqMt4Fspump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004118,
-   "mcap": 411782,
-   "liq": 54051.21,
-   "h1": 820,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.953651+00:00",
-   "symbol": "ELONMASK",
-   "mint": "EghJAubXiAEFQK7joDsDqavFWCqvDsuiRd34JVVLpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 3.957e-05,
-   "mcap": 39577,
-   "liq": 15483.89,
-   "h1": -16.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:30:35.943420+00:00",
-   "symbol": "WORM",
-   "mint": "9JDywUWF2c4tUXYeq1dNSL6shmpQF17rBXnb7gQHworm",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "Top holder 17.8% > 12% gate",
-   "entry_price": 7.507e-05,
-   "mcap": 73818,
-   "liq": 22319.74,
-   "h1": 71.24,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T03:00:32.291427+00:00",
-   "symbol": "SpaceX",
-   "mint": "4w1y4S7boJ1e5Dctudv3pEFKtZtW13SDSEJt3pnFpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004325,
-   "mcap": 432530,
-   "liq": 55369.38,
-   "h1": 865,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -984,19 +984,19 @@
    "symbol": "YILONGMA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-10-14 07:30 UTC"
+   "ts": "2026-10-14 08:00 UTC"
   },
   {
    "symbol": "XTO",
    "tag": "WATCH",
-   "h1": 0.1,
-   "ts": "2026-10-14 07:30 UTC"
+   "h1": 0.8,
+   "ts": "2026-10-14 08:00 UTC"
   },
   {
    "symbol": "Hydra",
    "tag": "FADING",
-   "h1": -56.5,
-   "ts": "2026-10-14 07:30 UTC"
+   "h1": -40.8,
+   "ts": "2026-10-14 08:00 UTC"
   }
  ],
  "live_closes": [
