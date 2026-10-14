@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T04:34:12.972113+00:00",
+ "generated": "2026-10-14T05:04:13.107180+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 797,
-  "cohort_wallets": 1615,
+  "cohort_runs": 798,
+  "cohort_wallets": 1622,
   "cohort_qualified": 68,
   "live_closes": 18,
   "live_wins": 4,
@@ -41,11 +41,11 @@
    "count": 29
   },
   {
-   "reason": "Score 81 below threshold 85",
-   "count": 23
+   "reason": "Score 84 below threshold 85",
+   "count": 24
   },
   {
-   "reason": "Score 84 below threshold 85",
+   "reason": "Score 81 below threshold 85",
    "count": 23
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-14T05:00:28.138515+00:00",
+   "symbol": "BULLPEPE",
+   "mint": "7FTR4x6zfDtstEv6ze3oSNrRSXe1TErJrUq6LZUHpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 32.8% > 12% gate",
+   "entry_price": 1.882e-05,
+   "mcap": 18821,
+   "liq": 10060.74,
+   "h1": -58.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T05:00:28.133492+00:00",
+   "symbol": "FOMO",
+   "mint": "6ArnVTkg2ZDCgY8mP4gFgFiq2qofeVtfwPNghJfpacrv",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 0.0004146,
+   "mcap": 414608,
+   "liq": 54212.1,
+   "h1": 824,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-14T04:30:23.242408+00:00",
    "symbol": "KFC",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T02:00:28.530972+00:00",
-   "symbol": "FOMO",
-   "mint": "3n8QSnPd7ZM3ULxS6RUuQpG2jfRyFNaEYr9G7CJ3pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 0.0004083,
-   "mcap": 408380,
-   "liq": 53692.78,
-   "h1": 815,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T02:00:28.526554+00:00",
-   "symbol": "REPTILE",
-   "mint": "1323pwZSJGDFqcjh1qLo88GrvZD3V7QrZYHihTjTpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 12.9% > 12% gate",
-   "entry_price": 0.0001181,
-   "mcap": 118131,
-   "liq": 28287.74,
-   "h1": 51.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -984,19 +984,19 @@
    "symbol": "YILONGMA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-10-14 04:30 UTC"
+   "ts": "2026-10-14 05:00 UTC"
   },
   {
    "symbol": "XTO",
    "tag": "WATCH",
-   "h1": 8.5,
-   "ts": "2026-10-14 04:30 UTC"
+   "h1": 9.4,
+   "ts": "2026-10-14 05:00 UTC"
   },
   {
    "symbol": "Hydra",
-   "tag": "FADING",
-   "h1": -37.5,
-   "ts": "2026-10-14 04:30 UTC"
+   "tag": "WATCH",
+   "h1": 19.4,
+   "ts": "2026-10-14 05:00 UTC"
   }
  ],
  "live_closes": [
