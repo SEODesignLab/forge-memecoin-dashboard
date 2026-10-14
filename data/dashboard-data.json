@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:34:14.681605+00:00",
+ "generated": "2026-10-14T11:04:14.824416+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 809,
-  "cohort_wallets": 1714,
+  "cohort_runs": 810,
+  "cohort_wallets": 1726,
   "cohort_qualified": 68,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,19 +26,19 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 52
+   "count": 53
   },
   {
    "reason": "Score 83 below threshold 85",
    "count": 33
   },
   {
-   "reason": "Score 82 below threshold 85",
+   "reason": "Score 80 below threshold 85",
    "count": 31
   },
   {
-   "reason": "Score 80 below threshold 85",
-   "count": 31
+   "reason": "Score 82 below threshold 85",
+   "count": 30
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-14T11:00:29.355514+00:00",
+   "symbol": "TRENCH",
+   "mint": "DPdH8mWRCntu8dDyWrrnDo1byHSYkeRz2BN6Vk21pump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002254,
+   "mcap": 225476,
+   "liq": 41679.94,
+   "h1": 386,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-14T11:00:29.346599+00:00",
+   "symbol": "TW",
+   "mint": "8rUdZKL3TNrZTBGqD13QqDoJPhU4AdbGTFLNbQeJpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 5.535e-05,
+   "mcap": 55347,
+   "liq": 18582.28,
+   "h1": 1.8,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-14T10:30:31.230057+00:00",
    "symbol": "GTA 6 Coin",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T05:30:21.828465+00:00",
-   "symbol": "MEDUSA",
-   "mint": "68YxeQbAJBfeajB5rL2UMnPwhxJXTYAB3XbKfmVTYWUi",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000172,
-   "mcap": 172091,
-   "liq": 34275.14,
-   "h1": 286,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-14T05:30:21.822535+00:00",
-   "symbol": "UNTXED",
-   "mint": "A4Ppe8FtJC8YetpnJTXmURbZpFKhbjnYv4QtXtp9pump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 22.2% > 12% gate",
-   "entry_price": 3.884e-05,
-   "mcap": 38792,
-   "liq": 15533.28,
-   "h1": -12.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "Pumpoween",
     "WALTJR"
    ],
-   "last": "2026-10-14 10:30 UTC"
+   "last": "2026-10-14 11:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -927,12 +927,6 @@
  ],
  "mints": [
   {
-   "symbol": "CAT",
-   "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-10-12 17:00 UTC"
-  },
-  {
    "symbol": "AIRFROG",
    "tag": "CHASE",
    "h1": 2005.0,
@@ -989,14 +983,20 @@
   {
    "symbol": "XTO",
    "tag": "WATCH",
-   "h1": -1.4,
-   "ts": "2026-10-14 10:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-10-14 11:00 UTC"
   },
   {
    "symbol": "Hydra",
    "tag": "FADING",
-   "h1": -33.6,
-   "ts": "2026-10-14 10:30 UTC"
+   "h1": -37.0,
+   "ts": "2026-10-14 11:00 UTC"
+  },
+  {
+   "symbol": "SDR",
+   "tag": "WATCH",
+   "h1": -1.3,
+   "ts": "2026-10-14 11:00 UTC"
   }
  ],
  "live_closes": [
