@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:34:23.362310+00:00",
+ "generated": "2026-10-15T16:04:23.506538+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 867,
-  "cohort_wallets": 1942,
+  "cohort_runs": 868,
+  "cohort_wallets": 1951,
   "cohort_qualified": 70,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "Mint/freeze not renounced",
-   "count": 125
+   "count": 128
   },
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 47
+   "count": 46
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -61,19 +61,79 @@
    "count": 5
   },
   {
-   "reason": "Top holder 20.9% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 13.3% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 17.9% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T16:00:46.707350+00:00",
+   "symbol": "JACKIE",
+   "mint": "FvRPqhwXVrgzU8WE8vs4A9218RZ7vwhZVjYKNs7Qpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 4.926e-05,
+   "mcap": 49263,
+   "liq": 17298.11,
+   "h1": 11.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T16:00:46.702420+00:00",
+   "symbol": "WAITIE",
+   "mint": "ip623MjNNPmgNUiGYjmtRrAZs3EmTbDJgbCzrnYpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 6.835e-05,
+   "mcap": 68358,
+   "liq": 20789.24,
+   "h1": 21.72,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T16:00:46.697895+00:00",
+   "symbol": "STREAM",
+   "mint": "GLn625t6KKB1ur41GruhLRF7EHYWRr4iNK8n3TnLpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 8.452e-05,
+   "mcap": 84467,
+   "liq": 23711.05,
+   "h1": 71.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T16:00:46.692816+00:00",
+   "symbol": "STREAM",
+   "mint": "GpACuhDe83JHRRhyNGm8zovfW1a9SrWdsCNVbLXTQ4GU",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 24.3% > 12% gate",
+   "entry_price": 0.0001284,
+   "mcap": 128160,
+   "liq": 30879.56,
+   "h1": 187,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T15:31:15.054236+00:00",
    "symbol": "SGIATH",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T10:30:34.560794+00:00",
-   "symbol": "H20",
-   "mint": "9pTGUwAhG3CLAcu8rZKgu8cQaeAdQRmkbbG8hfzzpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 7.04e-05,
-   "mcap": 70407,
-   "liq": 21163.5,
-   "h1": 65.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T10:00:35.979546+00:00",
-   "symbol": "MGUY",
-   "mint": "RBgEki8XNdpx6xB9ozWsMcKpqTasjvgH6riqRzHpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002945,
-   "mcap": 294592,
-   "liq": 45005.4,
-   "h1": 588,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T10:00:35.972927+00:00",
-   "symbol": "Nihilism",
-   "mint": "AkqNPJ9tfNcTDywoi6SUNNL3tUGLBnPpGfGNUrgopump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 17.9% > 12% gate",
-   "entry_price": 6.699e-05,
-   "mcap": 66859,
-   "liq": 20438.23,
-   "h1": 58.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T10:00:35.968670+00:00",
-   "symbol": "Tralalero",
-   "mint": "8EZDxabmGJxSmefanMBQXqUabCEEPvbjVxQ3bw52pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 20.0% > 12% gate",
-   "entry_price": 4.867e-05,
-   "mcap": 48678,
-   "liq": 17154.2,
-   "h1": 15.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "GOMO",
     "PONK"
    ],
-   "last": "2026-10-15 15:30 UTC"
+   "last": "2026-10-15 16:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -982,21 +982,21 @@
   },
   {
    "symbol": "SYCAMORE",
-   "tag": "WATCH",
-   "h1": 14.8,
-   "ts": "2026-10-15 15:30 UTC"
+   "tag": "FADING",
+   "h1": -30.2,
+   "ts": "2026-10-15 16:00 UTC"
   },
   {
    "symbol": "PONK",
-   "tag": "WATCH",
-   "h1": -19.2,
-   "ts": "2026-10-15 15:30 UTC"
+   "tag": "FADING",
+   "h1": -20.6,
+   "ts": "2026-10-15 16:00 UTC"
   },
   {
    "symbol": "INU",
    "tag": "WATCH",
-   "h1": 7.2,
-   "ts": "2026-10-15 15:30 UTC"
+   "h1": 0.0,
+   "ts": "2026-10-15 16:00 UTC"
   }
  ],
  "live_closes": [
