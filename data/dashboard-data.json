@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T06:04:20.373235+00:00",
+ "generated": "2026-10-15T06:34:20.516921+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 848,
-  "cohort_wallets": 1729,
+  "cohort_runs": 849,
+  "cohort_wallets": 1740,
   "cohort_qualified": 69,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,22 +26,22 @@
  "skip_reasons": [
   {
    "reason": "Mint/freeze not renounced",
-   "count": 113
+   "count": 116
   },
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 45
+   "count": 44
   },
   {
    "reason": "Score 84 below threshold 85",
    "count": 27
   },
   {
-   "reason": "Score 83 below threshold 85",
-   "count": 24
+   "reason": "Score 81 below threshold 85",
+   "count": 23
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Score 83 below threshold 85",
    "count": 23
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T06:30:41.092769+00:00",
+   "symbol": "PUNI",
+   "mint": "xKrreeQ149NnPiE5z1JMBf1ydWXRqZuvDHLCyG6pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 7.535e-05,
+   "mcap": 75353,
+   "liq": 21656.06,
+   "h1": 77.65,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T06:30:41.087882+00:00",
+   "symbol": "DUCKDOG",
+   "mint": "GQRVzchbt7YA3xvsMhzpRGAa7htY3UcbFNsHLoZapump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 9.86e-05,
+   "mcap": 98607,
+   "liq": 36182.17,
+   "h1": 130,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T06:30:41.082676+00:00",
+   "symbol": "AXEL",
+   "mint": "HXdkymtoWocLuQ9fY5WVEp7CKnANkvoz9ZjcRR3Lpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.529e-05,
+   "mcap": 35298,
+   "liq": 14692.89,
+   "h1": -23.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T05:00:39.736672+00:00",
    "symbol": "SCREAM",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T01:30:36.219600+00:00",
-   "symbol": "\u7d22\u62c9\u62c9",
-   "mint": "57ZuSzX2csCfmfyidypQVFhSHKKoCLHe9Rtt9Vkvpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0001138,
-   "mcap": 113699,
-   "liq": 28542.94,
-   "h1": 144,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T01:30:36.215241+00:00",
-   "symbol": "\u641c\u5566\u5566",
-   "mint": "7h7K9yNR3LSswhYqNPMzFhCymB9wrCgwsRdL6AKAaDQA",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 3.086e-05,
-   "mcap": 30864,
-   "liq": 13492.55,
-   "h1": -28.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T01:30:36.210857+00:00",
-   "symbol": "QPF",
-   "mint": "JCsfUhtjjHpfMuRTDk2VXTStGU2z1Uz17aWHjkPdpump",
-   "score": 111,
-   "decision": "SKIP",
-   "reason": "Top holder 32.5% > 12% gate",
-   "entry_price": 5.182e-05,
-   "mcap": 51827,
-   "liq": 17735.61,
-   "h1": 19.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "SDR",
     "GOMO"
    ],
-   "last": "2026-10-15 06:00 UTC"
+   "last": "2026-10-15 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -935,8 +935,8 @@
   {
    "symbol": "HUMPH",
    "tag": "WATCH",
-   "h1": -5.3,
-   "ts": "2026-10-15 06:00 UTC"
+   "h1": -4.9,
+   "ts": "2026-10-15 06:30 UTC"
   },
   {
    "symbol": "Bear",
@@ -989,8 +989,8 @@
   {
    "symbol": "CAPE",
    "tag": "WATCH",
-   "h1": -10.7,
-   "ts": "2026-10-15 06:00 UTC"
+   "h1": 3.3,
+   "ts": "2026-10-15 06:30 UTC"
   },
   {
    "symbol": "PLUS1",
