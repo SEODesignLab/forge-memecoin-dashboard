@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T12:34:22.381257+00:00",
+ "generated": "2026-10-15T13:04:22.538443+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 861,
-  "cohort_wallets": 1864,
+  "cohort_runs": 862,
+  "cohort_wallets": 1880,
   "cohort_qualified": 70,
   "live_closes": 18,
   "live_wins": 4,
@@ -45,12 +45,12 @@
    "count": 21
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Score 82 below threshold 85",
    "count": 19
   },
   {
-   "reason": "Score 82 below threshold 85",
-   "count": 19
+   "reason": "Score 81 below threshold 85",
+   "count": 18
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T13:00:33.775271+00:00",
+   "symbol": "LIQUID",
+   "mint": "4f1hTrVpxaVhzjaShDjhnbZ6CyJnGLyQEc1kcDv1AZYT",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 20.2% > 12% gate",
+   "entry_price": 5.593e-05,
+   "mcap": 55938,
+   "liq": 19273.96,
+   "h1": 33,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T12:30:38.879763+00:00",
    "symbol": "Cosmo",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T05:00:39.717603+00:00",
-   "symbol": "Grok",
-   "mint": "6PaFLp8BW531vmtReYBpb8GaV4rmhp6d5d8TeZ3cuFyS",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0002124,
-   "mcap": 212419,
-   "liq": 37567.34,
-   "h1": 392,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "SDR",
     "GOMO"
    ],
-   "last": "2026-10-15 12:30 UTC"
+   "last": "2026-10-15 13:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -976,9 +976,9 @@
   },
   {
    "symbol": "CAPE",
-   "tag": "WATCH",
-   "h1": -16.1,
-   "ts": "2026-10-15 12:30 UTC"
+   "tag": "FADING",
+   "h1": -37.1,
+   "ts": "2026-10-15 13:00 UTC"
   },
   {
    "symbol": "PLUS1",
@@ -988,15 +988,15 @@
   },
   {
    "symbol": "SYCAMORE",
-   "tag": "FADING",
-   "h1": -24.1,
-   "ts": "2026-10-15 12:30 UTC"
+   "tag": "WATCH",
+   "h1": 8.4,
+   "ts": "2026-10-15 13:00 UTC"
   },
   {
    "symbol": "PONK",
    "tag": "WATCH",
-   "h1": 8.1,
-   "ts": "2026-10-15 12:30 UTC"
+   "h1": 4.8,
+   "ts": "2026-10-15 13:00 UTC"
   }
  ],
  "live_closes": [
