@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T11:04:21.912279+00:00",
+ "generated": "2026-10-15T11:34:22.061199+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 858,
-  "cohort_wallets": 1828,
+  "cohort_runs": 859,
+  "cohort_wallets": 1839,
   "cohort_qualified": 69,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T11:30:37.169210+00:00",
+   "symbol": "SALAMA",
+   "mint": "8CmyhgrPn5cowqPQFgZKUjmjuBfkR6e5quygUGnSpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 18.5% > 12% gate",
+   "entry_price": 6.809e-05,
+   "mcap": 68095,
+   "liq": 20652.48,
+   "h1": 54.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T11:00:46.781223+00:00",
    "symbol": "ALTAIDOPE",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T04:30:42.197222+00:00",
-   "symbol": "en/t",
-   "mint": "AFeJdCi5rwJvvN1VYeqP6pmsh3LYPwNTX9ZHgdUEpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 3.277e-05,
-   "mcap": 32749,
-   "liq": 13720.34,
-   "h1": -23.56,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "SDR",
     "GOMO"
    ],
-   "last": "2026-10-15 11:00 UTC"
+   "last": "2026-10-15 11:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -927,12 +927,6 @@
  ],
  "mints": [
   {
-   "symbol": "CHONK",
-   "tag": "WATCH",
-   "h1": 21.8,
-   "ts": "2026-10-13 21:00 UTC"
-  },
-  {
    "symbol": "HUMPH",
    "tag": "WATCH",
    "h1": -14.1,
@@ -989,14 +983,20 @@
   {
    "symbol": "CAPE",
    "tag": "WATCH",
-   "h1": 42.6,
-   "ts": "2026-10-15 11:00 UTC"
+   "h1": 25.9,
+   "ts": "2026-10-15 11:30 UTC"
   },
   {
    "symbol": "PLUS1",
    "tag": "CHASE",
    "h1": 171.0,
    "ts": "2026-10-15 04:30 UTC"
+  },
+  {
+   "symbol": "SYCAMORE",
+   "tag": "WATCH",
+   "h1": -5.4,
+   "ts": "2026-10-15 11:30 UTC"
   }
  ],
  "live_closes": [
