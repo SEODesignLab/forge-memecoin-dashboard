@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T22:34:00.524961+00:00",
+ "generated": "2026-10-15T23:04:00.678635+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 881,
-  "cohort_wallets": 1579,
+  "cohort_runs": 882,
+  "cohort_wallets": 1596,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "Mint/freeze not renounced",
-   "count": 146
+   "count": 151
   },
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 46
+   "count": 44
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -57,10 +57,6 @@
    "count": 9
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 17.2% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,88 @@
   {
    "reason": "Top holder 20.9% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 23.4% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T23:00:22.198648+00:00",
+   "symbol": "XBAY",
+   "mint": "E8ZvySLWzHg2oDBPFyeDYzNzVdN7AA4zTC3tUYs9pump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 4.465e-05,
+   "mcap": 44655,
+   "liq": 16353.61,
+   "h1": 1.31,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T23:00:22.194483+00:00",
+   "symbol": "Teddy",
+   "mint": "7SK2QhDg1zcARhtQ42rhxLZ6PMWjfLynWfAJP7tMpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 5.113e-05,
+   "mcap": 51047,
+   "liq": 17869.26,
+   "h1": 7.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T23:00:22.190207+00:00",
+   "symbol": "ANTHILL",
+   "mint": "BCcETnmV3CMYuF5aH1ekHN7NSsgnaxJ9B7u9fP52pump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.133e-05,
+   "mcap": 31299,
+   "liq": 13454.96,
+   "h1": -44.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T23:00:22.185946+00:00",
+   "symbol": "YouTube",
+   "mint": "8kGgyRdgdNhGSkcQ4p6Nap68fhe5dvfE2smjBiwypump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0003911,
+   "mcap": 391152,
+   "liq": 52054.14,
+   "h1": 792,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T23:00:22.181423+00:00",
+   "symbol": "p(doom)",
+   "mint": "87DaS9ubJ4U1enT3qyA82zQMgCWRNLLYwuGn5gnpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 2.737e-05,
+   "mcap": 27371,
+   "liq": 12652.28,
+   "h1": -37.84,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T22:31:01.156986+00:00",
    "symbol": "NEYMAR",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T19:31:16.523205+00:00",
-   "symbol": "Tesla",
-   "mint": "BdCAHyagzkfNjPmkGfPHyx695dUcdW24UXxydxjLpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 95.3% > 12% gate",
-   "entry_price": 6.258e-05,
-   "mcap": 62452,
-   "liq": 20554.09,
-   "h1": 42.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T18:31:29.677884+00:00",
-   "symbol": "mCAT",
-   "mint": "3fxVYeGZR4exAvKEYHU4HGSgqa1hPgoYDYKQ9VBqpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 4.901e-05,
-   "mcap": 49017,
-   "liq": 17268.88,
-   "h1": 11.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T18:31:29.673481+00:00",
-   "symbol": "Riot Games",
-   "mint": "62Psg5Vgazgk93mXLemF8q3dBNsT82zRFD6F6ogUpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0004277,
-   "mcap": 427714,
-   "liq": 54485.95,
-   "h1": 877,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T18:31:29.669237+00:00",
-   "symbol": "SPIDER",
-   "mint": "2ShXwByGSBRVfMqdVoUc1QxuK7mAuHPSVqbQbJENpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 20.9% > 12% gate",
-   "entry_price": 0.0001424,
-   "mcap": 142152,
-   "liq": 30937.89,
-   "h1": 224,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T18:31:29.663355+00:00",
-   "symbol": "MSC",
-   "mint": "26KXBUerUjNm2kGGeoYDjih1iZZ1jgar6Hd2qzfHpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 9.492e-06,
-   "mcap": 9493,
-   "liq": 7275.5,
-   "h1": -79.44,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -727,7 +727,7 @@
     "GOMO",
     "PONK"
    ],
-   "last": "2026-10-15 22:30 UTC"
+   "last": "2026-10-15 23:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -802,7 +802,7 @@
     "SDR",
     "PONK"
    ],
-   "last": "2026-10-15 18:30 UTC"
+   "last": "2026-10-15 23:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -959,14 +959,14 @@
   {
    "symbol": "SYCAMORE",
    "tag": "WATCH",
-   "h1": 1.1,
-   "ts": "2026-10-15 22:30 UTC"
+   "h1": 3.4,
+   "ts": "2026-10-15 23:00 UTC"
   },
   {
    "symbol": "PONK",
    "tag": "WATCH",
-   "h1": -0.8,
-   "ts": "2026-10-15 22:30 UTC"
+   "h1": -10.0,
+   "ts": "2026-10-15 23:00 UTC"
   },
   {
    "symbol": "INU",
@@ -983,20 +983,20 @@
   {
    "symbol": "CBUCKS",
    "tag": "WATCH",
-   "h1": -7.1,
-   "ts": "2026-10-15 22:30 UTC"
+   "h1": -5.4,
+   "ts": "2026-10-15 23:00 UTC"
   },
   {
    "symbol": "Starman",
    "tag": "WATCH",
-   "h1": 52.2,
-   "ts": "2026-10-15 22:30 UTC"
+   "h1": 56.7,
+   "ts": "2026-10-15 23:00 UTC"
   },
   {
    "symbol": "OWLDACITY",
    "tag": "WATCH",
-   "h1": 71.5,
-   "ts": "2026-10-15 22:30 UTC"
+   "h1": -13.9,
+   "ts": "2026-10-15 23:00 UTC"
   }
  ],
  "live_closes": [
