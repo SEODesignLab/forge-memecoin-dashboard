@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T11:34:22.061199+00:00",
+ "generated": "2026-10-15T12:04:22.222486+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 859,
-  "cohort_wallets": 1839,
+  "cohort_runs": 860,
+  "cohort_wallets": 1850,
   "cohort_qualified": 69,
   "live_closes": 18,
   "live_wins": 4,
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 20
+   "count": 19
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-15T12:00:45.374139+00:00",
+   "symbol": "MrBeast",
+   "mint": "GuQgRvaoasNnngH9f6eHtU9B8QiyPYJiw82tJZBzpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 23.3% > 12% gate",
+   "entry_price": 3.882e-05,
+   "mcap": 38822,
+   "liq": 14940.76,
+   "h1": -8.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-15T12:00:45.368658+00:00",
+   "symbol": "UNSUB",
+   "mint": "vaJ2tXfvML8sFstrEYtza7tmJGvbmBAp8Dvx3Qxpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 63>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 8.487e-05,
+   "mcap": 84877,
+   "liq": 23276.87,
+   "h1": 105,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-15T11:30:37.169210+00:00",
    "symbol": "SALAMA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T04:30:42.206208+00:00",
-   "symbol": "TUZKI",
-   "mint": "DAk42oLFUG4tfaBxVVjtS9iHW2aaKJuEktedZt3pump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 39.0% > 12% gate",
-   "entry_price": 4.921e-05,
-   "mcap": 49125,
-   "liq": 17352.16,
-   "h1": 12.02,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-15T04:30:42.201643+00:00",
-   "symbol": "DOCA",
-   "mint": "5jofqTNTbRrT1qpjXJKQYLSSGijJbTwFCLrxLTaapump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0001446,
-   "mcap": 144669,
-   "liq": 31393.25,
-   "h1": 221,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -742,7 +742,7 @@
     "XTO",
     "CAPE"
    ],
-   "last": "2026-10-15 10:00 UTC"
+   "last": "2026-10-15 12:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -983,8 +983,8 @@
   {
    "symbol": "CAPE",
    "tag": "WATCH",
-   "h1": 25.9,
-   "ts": "2026-10-15 11:30 UTC"
+   "h1": 27.3,
+   "ts": "2026-10-15 12:00 UTC"
   },
   {
    "symbol": "PLUS1",
@@ -995,8 +995,8 @@
   {
    "symbol": "SYCAMORE",
    "tag": "WATCH",
-   "h1": -5.4,
-   "ts": "2026-10-15 11:30 UTC"
+   "h1": 43.8,
+   "ts": "2026-10-15 12:00 UTC"
   }
  ],
  "live_closes": [
