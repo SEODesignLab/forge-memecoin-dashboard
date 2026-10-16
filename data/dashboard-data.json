@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T05:34:02.589015+00:00",
+ "generated": "2026-10-16T06:04:02.727575+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 895,
-  "cohort_wallets": 1788,
+  "cohort_runs": 896,
+  "cohort_wallets": 1799,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 21
+   "count": 23
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -53,12 +53,12 @@
    "count": 13
   },
   {
-   "reason": "Top holder 13.6% > 12% gate",
+   "reason": "Top holder 13.7% > 12% gate",
    "count": 5
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
-   "count": 5
+   "reason": "Top holder 13.6% > 12% gate",
+   "count": 4
   },
   {
    "reason": "Top holder 21.6% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-16T06:00:19.991103+00:00",
+   "symbol": "FMC",
+   "mint": "BBHbbon3T4Z2H2mwZjoV4wVPtoocSmF2W8B8kWmXpump",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 3.404e-05,
+   "mcap": 34048,
+   "liq": 14515.42,
+   "h1": -21.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-16T06:00:19.984859+00:00",
+   "symbol": "ROADSTER",
+   "mint": "4BsfttrYqyGneG6C5MxA7Rq3XDuv5ajGFjdRjjd6T4kf",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 2.945e-05,
+   "mcap": 29459,
+   "liq": 14788.7,
+   "h1": -31.85,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-16T06:00:19.979447+00:00",
+   "symbol": "Viewer",
+   "mint": "inMxWovQE5CrgXCLeXZhZroqikRuZzNmWgJd4YfKone",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.881e-05,
+   "mcap": 58816,
+   "liq": 19589.26,
+   "h1": 32.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-16T05:30:13.607299+00:00",
    "symbol": "PVSN",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-16T01:30:30.176545+00:00",
-   "symbol": "Holdoween",
-   "mint": "3UYqfnBmdNmUZVqkpJiQjXnTrboUXi8kBZ6eJNQ8pump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0003776,
-   "mcap": 377640,
-   "liq": 51039.25,
-   "h1": 765,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-16T01:30:30.172159+00:00",
-   "symbol": "FTR",
-   "mint": "omDEM2Mgf5HbE4QsMvBwSTPRCPEcLDSway1HKfApump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0003108,
-   "mcap": 310884,
-   "liq": 46144.6,
-   "h1": 610,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-16T01:30:30.167730+00:00",
-   "symbol": "RL",
-   "mint": "BEFJzjudaKsEA8JH7xKgfSNMcLjXNvJM1mq6FnnLVA7L",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 14.2% > 12% gate",
-   "entry_price": 0.0002028,
-   "mcap": 202856,
-   "liq": 39916.41,
-   "h1": 424,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -731,18 +731,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 38,
+   "hits": 39,
    "symbols": [
-    "Bear",
     "YILONGMA",
     "swordcat",
     "GOMO",
     "XTO",
     "CAPE",
     "PONK",
-    "CBUCKS"
+    "CBUCKS",
+    "SYCAMORE"
    ],
-   "last": "2026-10-16 03:00 UTC"
+   "last": "2026-10-16 06:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -952,15 +952,15 @@
   },
   {
    "symbol": "SYCAMORE",
-   "tag": "FADING",
-   "h1": -45.4,
-   "ts": "2026-10-16 05:30 UTC"
+   "tag": "WATCH",
+   "h1": 3.0,
+   "ts": "2026-10-16 06:00 UTC"
   },
   {
    "symbol": "PONK",
    "tag": "WATCH",
-   "h1": -14.8,
-   "ts": "2026-10-16 05:30 UTC"
+   "h1": -17.6,
+   "ts": "2026-10-16 06:00 UTC"
   },
   {
    "symbol": "INU",
@@ -977,8 +977,8 @@
   {
    "symbol": "CBUCKS",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-10-16 05:30 UTC"
+   "h1": 4.7,
+   "ts": "2026-10-16 06:00 UTC"
   },
   {
    "symbol": "Starman",
@@ -989,8 +989,8 @@
   {
    "symbol": "OWLDACITY",
    "tag": "WATCH",
-   "h1": 10.4,
-   "ts": "2026-10-16 05:30 UTC"
+   "h1": -3.5,
+   "ts": "2026-10-16 06:00 UTC"
   },
   {
    "symbol": "AKITA",
