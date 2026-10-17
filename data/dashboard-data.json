@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T19:04:14.185831+00:00",
+ "generated": "2026-10-17T19:34:14.318509+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 970,
-  "cohort_wallets": 1651,
+  "cohort_runs": 971,
+  "cohort_wallets": 1663,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,23 +30,23 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 35
+   "count": 34
   },
   {
    "reason": "Score 82 below threshold 85",
    "count": 31
   },
   {
+   "reason": "Score 80 below threshold 85",
+   "count": 27
+  },
+  {
    "reason": "Score 84 below threshold 85",
    "count": 25
   },
   {
-   "reason": "Score 80 below threshold 85",
-   "count": 25
-  },
-  {
    "reason": "Score 83 below threshold 85",
-   "count": 22
+   "count": 23
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -58,7 +58,7 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 9
+   "count": 8
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T19:30:35.940108+00:00",
+   "symbol": "INSTA",
+   "mint": "MUrXeSpzSPFrnMhdVxPjQKjahQqFeqo9fhM16uvpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 0.0001049,
+   "mcap": 104929,
+   "liq": 26750.21,
+   "h1": 83.02,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T19:30:35.934698+00:00",
+   "symbol": "TRUUP",
+   "mint": "HuHEQrLTk6rqGofZwWb4xycWWxYJTyCCszTszfMYpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 1.224e-05,
+   "mcap": 12247,
+   "liq": 7857.92,
+   "h1": -71.64,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T19:30:35.930459+00:00",
+   "symbol": "Grok",
+   "mint": "3mKxdXUvdaEW9sDJK9vHuguD6mptrzjVGkW1vq46pump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 0.0004479,
+   "mcap": 447993,
+   "liq": 55447.72,
+   "h1": 937,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T19:30:35.925845+00:00",
+   "symbol": "NVIDIA AI",
+   "mint": "Dj4ZPE5ZeatvYpgyW7bK17WBxayTdtygkj7bKEcZpump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 7.879e-05,
+   "mcap": 78790,
+   "liq": 22261.73,
+   "h1": 82.54,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T19:00:40.272314+00:00",
    "symbol": "AUDIA",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T16:00:32.433149+00:00",
-   "symbol": "SOT",
-   "mint": "C1hF64xr1fsVRLX5dCCMbFaYZNzeULbTZty5fQCdpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 33.0% > 12% gate",
-   "entry_price": 1.851e-05,
-   "mcap": 16667,
-   "liq": 9909.33,
-   "h1": -56.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T16:00:32.428726+00:00",
-   "symbol": "SWISS",
-   "mint": "9Xai3yYqP3bzDB7M6rReQS58A6emWCWyUrDeLhWapump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 21.3% > 12% gate",
-   "entry_price": 4.939e-05,
-   "mcap": 49341,
-   "liq": 17401.26,
-   "h1": 6.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T16:00:32.424336+00:00",
-   "symbol": "YILONGMA",
-   "mint": "ESQy4cGfuJ1Z5ynaN65YMwwfaTU2FLkyERYRFrWXpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0006717,
-   "mcap": 671773,
-   "liq": 68502.26,
-   "h1": 1164,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T16:00:32.419572+00:00",
-   "symbol": "MELANIA",
-   "mint": "GDSb8cH8kZW8bqSHwJKTys4QZ8CcU6ApYLBmNjyopump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002366,
-   "mcap": 236608,
-   "liq": 40092.08,
-   "h1": 334,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "CBUCKS",
     "Satoshi"
    ],
-   "last": "2026-10-17 19:00 UTC"
+   "last": "2026-10-17 19:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -806,6 +806,21 @@
    "last": "2026-10-17 03:00 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 18,
+   "symbols": [
+    "Bear",
+    "YILONGMA",
+    "swordcat",
+    "XTO",
+    "PONK",
+    "CBUCKS",
+    "XSTOK",
+    "Ventrion"
+   ],
+   "last": "2026-10-17 19:30 UTC"
+  },
+  {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
    "hits": 17,
    "symbols": [
@@ -819,21 +834,6 @@
     "AKITA"
    ],
    "last": "2026-10-17 19:00 UTC"
-  },
-  {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 17,
-   "symbols": [
-    "Pumpoween",
-    "Bear",
-    "YILONGMA",
-    "swordcat",
-    "XTO",
-    "PONK",
-    "CBUCKS",
-    "XSTOK"
-   ],
-   "last": "2026-10-17 16:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Starman",
-   "tag": "WATCH",
-   "h1": -7.1,
-   "ts": "2026-10-16 01:00 UTC"
-  },
-  {
    "symbol": "OWLDACITY",
    "tag": "WATCH",
    "h1": -3.8,
@@ -999,20 +993,26 @@
   {
    "symbol": "XSTOK",
    "tag": "WATCH",
-   "h1": 10.1,
-   "ts": "2026-10-17 19:00 UTC"
+   "h1": -0.5,
+   "ts": "2026-10-17 19:30 UTC"
   },
   {
    "symbol": "Satoshi",
    "tag": "WATCH",
-   "h1": 6.0,
-   "ts": "2026-10-17 19:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-10-17 19:30 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": 1.1,
-   "ts": "2026-10-17 19:00 UTC"
+   "h1": 54.3,
+   "ts": "2026-10-17 19:30 UTC"
+  },
+  {
+   "symbol": "Ventrion",
+   "tag": "WATCH",
+   "h1": 62.1,
+   "ts": "2026-10-17 19:30 UTC"
   }
  ],
  "live_closes": [
