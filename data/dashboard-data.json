@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T11:04:11.614743+00:00",
+ "generated": "2026-10-17T11:34:11.760780+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 954,
-  "cohort_wallets": 1997,
+  "cohort_runs": 955,
+  "cohort_wallets": 1500,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 60
+   "count": 57
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -50,7 +50,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 14
+   "count": 15
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T11:30:26.346191+00:00",
+   "symbol": "Speed",
+   "mint": "9KLK3VddxHpXJ8vtco21pKrNBeXozyqouHCnbMMpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.0005769,
+   "mcap": 576996,
+   "liq": 63376.32,
+   "h1": 1226,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T11:30:26.340129+00:00",
+   "symbol": "Claude AI",
+   "mint": "77JSNJgKYAJ4NDbi5psGNfxxaNv1Skcsc5FZQ9gzpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 15.6% > 12% gate",
+   "entry_price": 7.626e-05,
+   "mcap": 76268,
+   "liq": 21917.34,
+   "h1": 75.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T11:30:26.334300+00:00",
+   "symbol": "BYTE",
+   "mint": "DWJYwAk2y6eSHkXENcEebrtXgznHQTtCraCuA5LJpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 9.265e-05,
+   "mcap": 92651,
+   "liq": 25639.92,
+   "h1": 107,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T11:00:29.373186+00:00",
    "symbol": "ZEN",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T06:00:30.551113+00:00",
-   "symbol": "PRIME",
-   "mint": "rVWG97Yj6ZbuF9zeQo8TosQG6mUcUeL8BocfHu3pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 16.6% > 12% gate",
-   "entry_price": 7.092e-05,
-   "mcap": 70921,
-   "liq": 22376.71,
-   "h1": 62.04,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T05:30:29.386243+00:00",
-   "symbol": "Singularity",
-   "mint": "GFhszS7cFM4xmcfT4tBCSwcLHWAwj4yXhSwuTXKYpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 64>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 6.693e-05,
-   "mcap": 66932,
-   "liq": 20454.36,
-   "h1": 54.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T05:30:29.379899+00:00",
-   "symbol": "NULL",
-   "mint": "DiWNDYzoekTVMyFYv4A1SRu1TNg5s9NQLVLCzYJ6pump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 18.7% > 12% gate",
-   "entry_price": 8.822e-05,
-   "mcap": 88103,
-   "liq": 24146.79,
-   "h1": 103,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 42,
+   "hits": 43,
    "symbols": [
-    "XTO",
     "CAPE",
     "PONK",
     "CBUCKS",
     "SYCAMORE",
     "STREAM",
     "SR",
-    "XSTOK"
+    "XSTOK",
+    "illusion"
    ],
-   "last": "2026-10-17 07:00 UTC"
+   "last": "2026-10-17 11:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -818,7 +818,7 @@
     "PONK",
     "AKITA"
    ],
-   "last": "2026-10-17 09:30 UTC"
+   "last": "2026-10-17 11:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -981,8 +981,8 @@
   {
    "symbol": "illusion",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-10-17 11:00 UTC"
+   "h1": -0.7,
+   "ts": "2026-10-17 11:30 UTC"
   },
   {
    "symbol": "SR",
@@ -998,15 +998,15 @@
   },
   {
    "symbol": "NUBI",
-   "tag": "WATCH",
-   "h1": 20.8,
-   "ts": "2026-10-17 11:00 UTC"
+   "tag": "FADING",
+   "h1": -20.7,
+   "ts": "2026-10-17 11:30 UTC"
   },
   {
    "symbol": "XSTOK",
    "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-10-17 11:00 UTC"
+   "h1": -10.8,
+   "ts": "2026-10-17 11:30 UTC"
   },
   {
    "symbol": "Satoshi",
