@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T20:34:14.652284+00:00",
+ "generated": "2026-10-17T21:04:14.833315+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 973,
-  "cohort_wallets": 1687,
+  "cohort_runs": 974,
+  "cohort_wallets": 1701,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 69
+   "count": 71
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 31
-  },
-  {
-   "reason": "Mint/freeze not renounced",
-   "count": 28
+   "count": 32
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -43,6 +39,10 @@
   {
    "reason": "Score 84 below threshold 85",
    "count": 26
+  },
+  {
+   "reason": "Mint/freeze not renounced",
+   "count": 25
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T21:00:33.501960+00:00",
+   "symbol": "MrBeast",
+   "mint": "9zwz9CNKTCrwEXBBeHD4TseFo1z8GnioP3EAPE5epump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.482e-05,
+   "mcap": 54821,
+   "liq": 18255.38,
+   "h1": 26.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T21:00:33.497300+00:00",
+   "symbol": "FOMO",
+   "mint": "BDKVUYy6S8xDsxKRGDidzdRQjhHebHMJnb4KxuhZpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0003877,
+   "mcap": 387787,
+   "liq": 51494.55,
+   "h1": 796,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T21:00:33.492806+00:00",
+   "symbol": "Elonius",
+   "mint": "Fco7UgcjMF7BCvoLL55e4G86UuWjQjoce8K4MC2wpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001712,
+   "mcap": 171209,
+   "liq": 34018.41,
+   "h1": 228,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T21:00:33.485691+00:00",
+   "symbol": "AMC",
+   "mint": "3M2RtQFcQqbTdiLWWxsXnq6fWCP6r3DCHQ5xFwjipump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000233,
+   "mcap": 233013,
+   "liq": 40126.78,
+   "h1": 324,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T21:00:33.474300+00:00",
+   "symbol": "YILONGMA",
+   "mint": "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Chase filter: +193% in 1h > 40% cap",
+   "entry_price": 0.0007444,
+   "mcap": 741358,
+   "liq": 75510.08,
+   "h1": 193,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T20:30:36.607843+00:00",
    "symbol": "FOMO",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T17:30:39.467138+00:00",
-   "symbol": "FOMO",
-   "mint": "7okjCQGuuPr8wFzMquLsBvNmd6HyWR1dMkHuhKDopump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004776,
-   "mcap": 477507,
-   "liq": 57101.81,
-   "h1": 1014,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T17:30:39.462689+00:00",
-   "symbol": "CAKE",
-   "mint": "HfFQYSDi4o2u3bVGgSAvCUSJNuHsGdAGAzL4beDsWV57",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 5.14e-05,
-   "mcap": 51409,
-   "liq": 17500.38,
-   "h1": 20.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T17:30:39.458253+00:00",
-   "symbol": "CI",
-   "mint": "G1fBywmTuHLSCHmDzFQmbDPU7o9GMUPsug6SWXWdpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001435,
-   "mcap": 143543,
-   "liq": 30576.39,
-   "h1": 218,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T17:30:39.450236+00:00",
-   "symbol": "HeyGrok",
-   "mint": "81a4zMdXnAPCkH3NkE5nYXms56E2qWcrRmxuB9TTpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001656,
-   "mcap": 165615,
-   "liq": 34139.78,
-   "h1": 265,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T17:30:39.444168+00:00",
-   "symbol": "STACK",
-   "mint": "EfGXXe6yU5UsLSbzKht2jUUyPu1pMGzQdUjSLoFrpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 4.109e-05,
-   "mcap": 41099,
-   "liq": 15576.75,
-   "h1": -4.27,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "NUBI",
     "Satoshi"
    ],
-   "last": "2026-10-17 20:30 UTC"
+   "last": "2026-10-17 21:00 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -743,7 +743,7 @@
     "CBUCKS",
     "Satoshi"
    ],
-   "last": "2026-10-17 20:30 UTC"
+   "last": "2026-10-17 21:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "OWLDACITY",
-   "tag": "WATCH",
-   "h1": -3.8,
-   "ts": "2026-10-16 20:30 UTC"
-  },
-  {
    "symbol": "AKITA",
    "tag": "WATCH",
    "h1": 7.5,
@@ -993,26 +987,32 @@
   {
    "symbol": "XSTOK",
    "tag": "WATCH",
-   "h1": 6.5,
-   "ts": "2026-10-17 20:30 UTC"
+   "h1": -3.0,
+   "ts": "2026-10-17 21:00 UTC"
   },
   {
    "symbol": "Satoshi",
    "tag": "WATCH",
-   "h1": 2.6,
-   "ts": "2026-10-17 20:30 UTC"
+   "h1": 2.8,
+   "ts": "2026-10-17 21:00 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": 12.8,
-   "ts": "2026-10-17 20:30 UTC"
+   "h1": 14.3,
+   "ts": "2026-10-17 21:00 UTC"
   },
   {
    "symbol": "Ventrion",
    "tag": "WATCH",
    "h1": 62.1,
    "ts": "2026-10-17 19:30 UTC"
+  },
+  {
+   "symbol": "VOLLEY",
+   "tag": "WATCH",
+   "h1": 109.0,
+   "ts": "2026-10-17 21:00 UTC"
   }
  ],
  "live_closes": [
