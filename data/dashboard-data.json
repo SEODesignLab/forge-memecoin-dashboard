@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T23:04:15.448192+00:00",
+ "generated": "2026-10-17T23:34:15.568119+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 978,
-  "cohort_wallets": 1759,
+  "cohort_runs": 979,
+  "cohort_wallets": 1779,
   "cohort_qualified": 72,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 72
+   "count": 73
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T23:30:24.001210+00:00",
+   "symbol": "SUKI",
+   "mint": "DhPxf37F5fH5CiBEagy7gNKaTG27yHaPc1ikQ67Mpump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002063,
+   "mcap": 206245,
+   "liq": 37765.15,
+   "h1": 333,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T23:00:30.662049+00:00",
    "symbol": "MrBeast",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T19:30:35.930459+00:00",
-   "symbol": "Grok",
-   "mint": "3mKxdXUvdaEW9sDJK9vHuguD6mptrzjVGkW1vq46pump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0004479,
-   "mcap": 447993,
-   "liq": 55447.72,
-   "h1": 937,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -744,7 +744,7 @@
     "Satoshi",
     "GLITCH"
    ],
-   "last": "2026-10-17 23:00 UTC"
+   "last": "2026-10-17 23:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -804,7 +804,7 @@
     "GLITCH",
     "Ventrion"
    ],
-   "last": "2026-10-17 23:00 UTC"
+   "last": "2026-10-17 23:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -975,15 +975,15 @@
   },
   {
    "symbol": "Satoshi",
-   "tag": "WATCH",
-   "h1": -8.7,
-   "ts": "2026-10-17 23:00 UTC"
+   "tag": "FADING",
+   "h1": -23.4,
+   "ts": "2026-10-17 23:30 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": 5.5,
-   "ts": "2026-10-17 23:00 UTC"
+   "h1": 4.6,
+   "ts": "2026-10-17 23:30 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -994,26 +994,26 @@
   {
    "symbol": "VOLLEY",
    "tag": "WATCH",
-   "h1": -10.9,
-   "ts": "2026-10-17 23:00 UTC"
+   "h1": -0.1,
+   "ts": "2026-10-17 23:30 UTC"
   },
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": -1.1,
-   "ts": "2026-10-17 23:00 UTC"
+   "h1": 10.1,
+   "ts": "2026-10-17 23:30 UTC"
   },
   {
    "symbol": "Chaton",
-   "tag": "WATCH",
-   "h1": 95.7,
-   "ts": "2026-10-17 23:00 UTC"
+   "tag": "FADING",
+   "h1": -33.2,
+   "ts": "2026-10-17 23:30 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": 16.3,
-   "ts": "2026-10-17 23:00 UTC"
+   "h1": 15.3,
+   "ts": "2026-10-17 23:30 UTC"
   }
  ],
  "live_closes": [
