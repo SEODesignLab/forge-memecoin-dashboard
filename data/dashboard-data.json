@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T08:04:10.606848+00:00",
+ "generated": "2026-10-17T08:34:10.744981+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 948,
-  "cohort_wallets": 1921,
+  "cohort_runs": 949,
+  "cohort_wallets": 1931,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "Mint/freeze not renounced",
-   "count": 75
+   "count": 72
   },
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T08:30:27.836848+00:00",
+   "symbol": "inumask",
+   "mint": "9rS42P1UYS6rjZLNFQQ5HmaknAxsU1phcVHTQ3dgpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 17.5% > 12% gate",
+   "entry_price": 7.534e-05,
+   "mcap": 75344,
+   "liq": 21884.43,
+   "h1": 73.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T08:30:27.828411+00:00",
+   "symbol": "AE",
+   "mint": "AeLonprCt3y4dZEWEeRTkPqnUPW2FngSD2YeUmPP6GDk",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 14.4% > 12% gate",
+   "entry_price": 9.73e-05,
+   "mcap": 97156,
+   "liq": 25561.86,
+   "h1": 126,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T08:30:27.822795+00:00",
+   "symbol": "sBTC",
+   "mint": "An3Gu8P9vXm6repPai75zWskEmwM8EV4G2T4dd8Ppump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 23.3% > 12% gate",
+   "entry_price": 4.067e-05,
+   "mcap": 40672,
+   "liq": 16371.2,
+   "h1": -16.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T08:00:27.446149+00:00",
    "symbol": "Google",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T04:00:25.578913+00:00",
-   "symbol": "SEX",
-   "mint": "7PNU6tf3zoGoTAS2JecEByKgZwx4sA5aGBt4z3kMpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001153,
-   "mcap": 115209,
-   "liq": 30822.85,
-   "h1": 59.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T04:00:25.574340+00:00",
-   "symbol": "HORNY",
-   "mint": "D7orGL5t9d4eJNcjFoabSKapGLQkeDTFEY3KQ1rHpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 39.1% > 12% gate",
-   "entry_price": 1.612e-05,
-   "mcap": 16097,
-   "liq": 9235.71,
-   "h1": -62.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T04:00:25.569331+00:00",
-   "symbol": "EGG",
-   "mint": "219ZL89b7TSRSv8bqf7Fy2WrU5BJJVCntg1srHnypurp",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 23.9% > 12% gate",
-   "entry_price": 3.454e-05,
-   "mcap": 34548,
-   "liq": 14376.41,
-   "h1": -21.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "AKITA",
     "XSTOK"
    ],
-   "last": "2026-10-17 03:30 UTC"
+   "last": "2026-10-17 08:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -981,8 +981,8 @@
   {
    "symbol": "illusion",
    "tag": "WATCH",
-   "h1": 7.0,
-   "ts": "2026-10-17 08:00 UTC"
+   "h1": -8.0,
+   "ts": "2026-10-17 08:30 UTC"
   },
   {
    "symbol": "SR",
@@ -998,15 +998,15 @@
   },
   {
    "symbol": "NUBI",
-   "tag": "FADING",
-   "h1": -25.1,
-   "ts": "2026-10-17 08:00 UTC"
+   "tag": "WATCH",
+   "h1": -2.1,
+   "ts": "2026-10-17 08:30 UTC"
   },
   {
    "symbol": "XSTOK",
    "tag": "WATCH",
-   "h1": -2.6,
-   "ts": "2026-10-17 08:00 UTC"
+   "h1": 4.4,
+   "ts": "2026-10-17 08:30 UTC"
   },
   {
    "symbol": "Satoshi",
