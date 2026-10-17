@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T15:04:12.890347+00:00",
+ "generated": "2026-10-17T15:34:13.037291+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 962,
-  "cohort_wallets": 1568,
+  "cohort_runs": 963,
+  "cohort_wallets": 1573,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 65
+   "count": 64
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 27
+   "count": 28
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T15:30:29.708924+00:00",
+   "symbol": "MILLY",
+   "mint": "udeUfqtPT7GwQ8nAbRMsBUgJsrWMVcWKeYXBiY5pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 56.9% > 12% gate",
+   "entry_price": 6.017e-05,
+   "mcap": 60094,
+   "liq": 19612.52,
+   "h1": 29.36,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T15:30:29.703849+00:00",
+   "symbol": "ChatGPT",
+   "mint": "C85g84YUYTC3uCWz4V1A7deEbf14r4Zt3z3K2m3pump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 0.0001366,
+   "mcap": 136669,
+   "liq": 29887.76,
+   "h1": 216,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T15:00:34.364119+00:00",
    "symbol": "21M",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T10:00:27.499044+00:00",
-   "symbol": "MOGPEPE",
-   "mint": "8awaK1eoxDkVB7HkTNEiVdkMucZyWTRwu4TRLPiJpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 14.9% > 12% gate",
-   "entry_price": 6.866e-05,
-   "mcap": 68664,
-   "liq": 20949.57,
-   "h1": 57.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T10:00:27.493084+00:00",
-   "symbol": "Muse AI",
-   "mint": "myBc3J7VPm4LdUtsmPCBw2BaLVNXY3CvxtmBxynpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001457,
-   "mcap": 145788,
-   "liq": 31015.07,
-   "h1": 235,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "XSTOK",
     "illusion"
    ],
-   "last": "2026-10-17 15:00 UTC"
+   "last": "2026-10-17 15:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "XSTOK",
    "tag": "WATCH",
-   "h1": -12.4,
-   "ts": "2026-10-17 15:00 UTC"
+   "h1": 17.3,
+   "ts": "2026-10-17 15:30 UTC"
   },
   {
    "symbol": "Satoshi",
-   "tag": "WATCH",
-   "h1": -2.2,
-   "ts": "2026-10-17 07:30 UTC"
+   "tag": "FADING",
+   "h1": -20.4,
+   "ts": "2026-10-17 15:30 UTC"
   }
  ],
  "live_closes": [
