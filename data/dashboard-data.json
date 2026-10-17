@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T22:04:15.131793+00:00",
+ "generated": "2026-10-17T22:34:15.269153+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 976,
-  "cohort_wallets": 1726,
+  "cohort_runs": 977,
+  "cohort_wallets": 1738,
   "cohort_qualified": 72,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T22:30:36.627067+00:00",
+   "symbol": "FOMO",
+   "mint": "5ysJEixX8AFdkp3pLJs4TcW6qpP2Rad2wpCQeaXVpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 15.9% > 12% gate",
+   "entry_price": 7.084e-05,
+   "mcap": 70833,
+   "liq": 20865.37,
+   "h1": 66.06,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T22:30:36.622694+00:00",
+   "symbol": "koinu",
+   "mint": "DfBJCoLnaF75GaKPWB4c3TFyMHcXmAShiuWm3dHNpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 17.5% > 12% gate",
+   "entry_price": 6.48e-05,
+   "mcap": 64697,
+   "liq": 20390.44,
+   "h1": 51.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-17T22:30:36.610665+00:00",
+   "symbol": "sc",
+   "mint": "721co7BJpcwRsiDmPeXwaACM5sY7RmPzuakNHrnbpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 57>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.374e-05,
+   "mcap": 23711,
+   "liq": 10021.73,
+   "h1": -15.39,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T22:00:38.535687+00:00",
    "symbol": "Inuvestor",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T18:30:29.656115+00:00",
-   "symbol": "omg",
-   "mint": "BXAC8VDBmjGrn7RskXqQ27RTWg7auTznWDzf3QC4pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001614,
-   "mcap": 161352,
-   "liq": 32751.65,
-   "h1": 256,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T18:30:29.646781+00:00",
-   "symbol": "Taylor",
-   "mint": "VbGvMFX6pXBG78sx325xe8wQoH7AMJRyexEofSypump",
-   "score": 82,
-   "decision": "SKIP",
-   "reason": "Score 82 below threshold 85",
-   "entry_price": 0.0003722,
-   "mcap": 372221,
-   "liq": 50337.61,
-   "h1": 763,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T18:30:29.641441+00:00",
-   "symbol": "Gemini",
-   "mint": "BbTSc37A2uKbHy4qyUMrK1eADEfroy4R4KtgYWyVpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004321,
-   "mcap": 432059,
-   "liq": 54388.95,
-   "h1": 902,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -733,18 +733,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 52,
+   "hits": 53,
    "symbols": [
-    "Bear",
     "Pumpoween",
     "WALTJR",
     "SDR",
     "GOMO",
     "PONK",
     "CBUCKS",
-    "Satoshi"
+    "Satoshi",
+    "GLITCH"
    ],
-   "last": "2026-10-17 22:00 UTC"
+   "last": "2026-10-17 22:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -777,6 +777,36 @@
    "last": "2026-10-15 21:30 UTC"
   },
   {
+   "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
+   "hits": 19,
+   "symbols": [
+    "ZNT",
+    "AIRFROG",
+    "swordcat",
+    "XTO",
+    "SDR",
+    "CBUCKS",
+    "PONK",
+    "VOLLEY"
+   ],
+   "last": "2026-10-17 22:30 UTC"
+  },
+  {
+   "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
+   "hits": 19,
+   "symbols": [
+    "Bear",
+    "CHONK",
+    "WALTJR",
+    "SDR",
+    "PONK",
+    "AKITA",
+    "GLITCH",
+    "Ventrion"
+   ],
+   "last": "2026-10-17 22:30 UTC"
+  },
+  {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
    "hits": 18,
    "symbols": [
@@ -792,21 +822,6 @@
    "last": "2026-10-15 20:30 UTC"
   },
   {
-   "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 18,
-   "symbols": [
-    "moin",
-    "ZNT",
-    "AIRFROG",
-    "swordcat",
-    "XTO",
-    "SDR",
-    "CBUCKS",
-    "PONK"
-   ],
-   "last": "2026-10-17 03:00 UTC"
-  },
-  {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
    "hits": 18,
    "symbols": [
@@ -820,21 +835,6 @@
     "Ventrion"
    ],
    "last": "2026-10-17 19:30 UTC"
-  },
-  {
-   "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 17,
-   "symbols": [
-    "SUB-01",
-    "100xbroker",
-    "Bear",
-    "CHONK",
-    "WALTJR",
-    "SDR",
-    "PONK",
-    "AKITA"
-   ],
-   "last": "2026-10-17 20:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "Audaster",
-   "tag": "FADING",
-   "h1": -81.4,
-   "ts": "2026-10-16 15:00 UTC"
-  },
-  {
    "symbol": "illusion",
    "tag": "WATCH",
    "h1": 4.9,
@@ -982,38 +976,44 @@
   {
    "symbol": "Satoshi",
    "tag": "WATCH",
-   "h1": 3.3,
-   "ts": "2026-10-17 22:00 UTC"
+   "h1": -12.8,
+   "ts": "2026-10-17 22:30 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": -15.0,
-   "ts": "2026-10-17 22:00 UTC"
+   "h1": 6.1,
+   "ts": "2026-10-17 22:30 UTC"
   },
   {
    "symbol": "Ventrion",
    "tag": "WATCH",
-   "h1": 62.1,
-   "ts": "2026-10-17 19:30 UTC"
+   "h1": 70.4,
+   "ts": "2026-10-17 22:30 UTC"
   },
   {
    "symbol": "VOLLEY",
    "tag": "WATCH",
-   "h1": 68.0,
-   "ts": "2026-10-17 22:00 UTC"
+   "h1": -4.5,
+   "ts": "2026-10-17 22:30 UTC"
   },
   {
    "symbol": "MINTER",
    "tag": "CHASE",
-   "h1": 9374.0,
-   "ts": "2026-10-17 22:00 UTC"
+   "h1": 682.0,
+   "ts": "2026-10-17 22:30 UTC"
   },
   {
    "symbol": "Chaton",
+   "tag": "CHASE",
+   "h1": 265.0,
+   "ts": "2026-10-17 22:30 UTC"
+  },
+  {
+   "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": 118.0,
-   "ts": "2026-10-17 22:00 UTC"
+   "h1": -1.8,
+   "ts": "2026-10-17 22:30 UTC"
   }
  ],
  "live_closes": [
