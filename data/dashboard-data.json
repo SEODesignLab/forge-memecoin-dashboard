@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T12:34:12.117701+00:00",
+ "generated": "2026-10-17T13:04:12.302721+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 957,
-  "cohort_wallets": 1531,
+  "cohort_runs": 958,
+  "cohort_wallets": 1541,
   "cohort_qualified": 71,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,11 +30,11 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 52
+   "count": 51
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 23
+   "count": 24
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-17T13:00:30.267084+00:00",
+   "symbol": "onboard",
+   "mint": "HS1f1HPbCWtpvAVrxucXwrMaWQQL59Dsib65S5VRpump",
+   "score": 82,
+   "decision": "SKIP",
+   "reason": "Score 82 below threshold 85",
+   "entry_price": 4.373e-05,
+   "mcap": 43734,
+   "liq": 16123.15,
+   "h1": -6.38,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T12:30:32.357905+00:00",
    "symbol": "Rockstar",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T07:00:36.639473+00:00",
-   "symbol": "Anthropic",
-   "mint": "N9dw7WPRG4e7ewzZJWYaz2tHXE4emVZQovaauhTpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002921,
-   "mcap": 292170,
-   "liq": 44698.94,
-   "h1": 571,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -833,7 +833,7 @@
     "PONK",
     "CBUCKS"
    ],
-   "last": "2026-10-16 17:30 UTC"
+   "last": "2026-10-17 13:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -998,15 +998,15 @@
   },
   {
    "symbol": "NUBI",
-   "tag": "FADING",
-   "h1": -60.1,
-   "ts": "2026-10-17 12:30 UTC"
+   "tag": "WATCH",
+   "h1": -14.6,
+   "ts": "2026-10-17 13:00 UTC"
   },
   {
    "symbol": "XSTOK",
-   "tag": "WATCH",
-   "h1": 4.9,
-   "ts": "2026-10-17 12:30 UTC"
+   "tag": "FADING",
+   "h1": -21.3,
+   "ts": "2026-10-17 13:00 UTC"
   },
   {
    "symbol": "Satoshi",
