@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T06:04:17.765340+00:00",
+ "generated": "2026-10-18T06:34:17.977628+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 992,
-  "cohort_wallets": 1564,
+  "cohort_runs": 993,
+  "cohort_wallets": 1594,
   "cohort_qualified": 75,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 77
+   "count": 79
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -38,11 +38,11 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 25
+   "count": 24
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 23
+   "count": 22
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T06:30:32.205648+00:00",
+   "symbol": "Madbara",
+   "mint": "HriUBXx76HVMWKVmnexG52sV4avPGr2kMzcu2tazpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 12.6% > 12% gate",
+   "entry_price": 8.28e-05,
+   "mcap": 82655,
+   "liq": 22837.86,
+   "h1": 94.64,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T06:30:32.201433+00:00",
+   "symbol": "MASSIVE",
+   "mint": "7UAWdJjrBykopzco6bCBmMLdggaiec6bd4bTKmQqpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001755,
+   "mcap": 173649,
+   "liq": 36397.55,
+   "h1": -10.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T06:30:32.195531+00:00",
+   "symbol": "Ponzi",
+   "mint": "PonziBtgwfemdft5ch9Rj9pKcSPSx5cJbgPiGJNAxz7",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001759,
+   "mcap": 169810,
+   "liq": 35492.15,
+   "h1": 298,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T05:30:34.732321+00:00",
    "symbol": "NVIDIA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T23:00:30.652847+00:00",
-   "symbol": "BroomCat",
-   "mint": "AJ7XD2tSoCb32kERgqsDJotRg5cGq1uXmoPd7kQZpump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 1.507e-05,
-   "mcap": 15078,
-   "liq": 8813.33,
-   "h1": -64.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T23:00:30.648476+00:00",
-   "symbol": "Broomcat",
-   "mint": "BNot1PaDzqF1pu3aQuAQuUu9rEdyhikZ6SWDoBeQpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 21.6% > 12% gate",
-   "entry_price": 3.985e-05,
-   "mcap": 39814,
-   "liq": 15201.43,
-   "h1": -6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T23:00:30.644142+00:00",
-   "symbol": "Bill Gates",
-   "mint": "YwEhzsSwaFXh2976U5Csddo9z6Z41VCXHCgxbd1pump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 9.568e-05,
-   "mcap": 95685,
-   "liq": 24576.15,
-   "h1": 123,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 55,
+   "hits": 56,
    "symbols": [
-    "SDR",
     "GOMO",
     "PONK",
     "CBUCKS",
     "Satoshi",
     "GLITCH",
     "iMolest ",
-    "koinu"
+    "koinu",
+    "AFC"
    ],
-   "last": "2026-10-18 06:00 UTC"
+   "last": "2026-10-18 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -956,9 +956,9 @@
   },
   {
    "symbol": "PROINU",
-   "tag": "FADING",
-   "h1": -22.3,
-   "ts": "2026-10-18 06:00 UTC"
+   "tag": "WATCH",
+   "h1": -5.8,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -975,32 +975,32 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": -7.3,
-   "ts": "2026-10-18 06:00 UTC"
+   "h1": -9.1,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "Chaton",
-   "tag": "FADING",
-   "h1": -29.1,
-   "ts": "2026-10-18 06:00 UTC"
+   "tag": "WATCH",
+   "h1": -18.3,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": -8.6,
-   "ts": "2026-10-18 06:00 UTC"
+   "h1": -12.6,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": -6.1,
-   "ts": "2026-10-18 06:00 UTC"
+   "h1": -2.3,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": 3.8,
-   "ts": "2026-10-18 06:00 UTC"
+   "h1": -16.3,
+   "ts": "2026-10-18 06:30 UTC"
   },
   {
    "symbol": "koinu",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "AFC",
-   "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-10-18 06:00 UTC"
+   "tag": "FADING",
+   "h1": -34.5,
+   "ts": "2026-10-18 06:30 UTC"
   }
  ],
  "live_closes": [
