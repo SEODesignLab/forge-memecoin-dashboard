@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T07:34:18.376256+00:00",
+ "generated": "2026-10-18T08:04:18.567431+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 995,
-  "cohort_wallets": 1637,
+  "cohort_runs": 996,
+  "cohort_wallets": 1658,
   "cohort_qualified": 75,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 29
+   "count": 28
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -57,23 +57,53 @@
    "count": 9
   },
   {
-   "reason": "Mint/freeze not renounced",
+   "reason": "Top holder 13.6% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 13.6% > 12% gate",
-   "count": 7
+   "reason": "Mint/freeze not renounced",
+   "count": 6
   },
   {
    "reason": "Top holder 12.9% > 12% gate",
    "count": 5
   },
   {
-   "reason": "Top holder 13.5% > 12% gate",
+   "reason": "Top holder 19.7% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T08:00:41.290382+00:00",
+   "symbol": "ANSEME",
+   "mint": "58bEjLJQEvL5eGrzPH5zrDtqBMwTfVWX4gfqVqAopump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 9.124e-05,
+   "mcap": 91157,
+   "liq": 24223.98,
+   "h1": 90.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T08:00:41.280819+00:00",
+   "symbol": "REBONDIT",
+   "mint": "B8RppSzriLgRehHRJ5mMRVwFKwdD2gymAqUBuVUxpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 17.0% > 12% gate",
+   "entry_price": 7.96e-05,
+   "mcap": 79607,
+   "liq": 23049.01,
+   "h1": 80.48,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T07:30:26.754685+00:00",
    "symbol": "Scotty",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T00:30:36.861353+00:00",
-   "symbol": "Catcoin",
-   "mint": "68yywen51ppvR2zWptcpvmc5H5a5SC6tsz8evAP2pump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001556,
-   "mcap": 155601,
-   "liq": 32353.55,
-   "h1": 210,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T00:00:37.578279+00:00",
-   "symbol": "fun",
-   "mint": "GNA7ztNeHzUdrTFMSAfLr1Dinnw97KAXrwkNnNbxpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 32.2% > 12% gate",
-   "entry_price": 2.628e-05,
-   "mcap": 26253,
-   "liq": 12876.4,
-   "h1": -40.62,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "XSTOK",
-   "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-10-17 21:00 UTC"
-  },
-  {
    "symbol": "Satoshi",
    "tag": "WATCH",
    "h1": 11.7,
@@ -957,8 +951,8 @@
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-10-18 07:30 UTC"
+   "h1": -1.0,
+   "ts": "2026-10-18 08:00 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -975,14 +969,14 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": 18.6,
-   "ts": "2026-10-18 07:30 UTC"
+   "h1": 7.2,
+   "ts": "2026-10-18 08:00 UTC"
   },
   {
    "symbol": "Chaton",
-   "tag": "WATCH",
-   "h1": 10.7,
-   "ts": "2026-10-18 07:30 UTC"
+   "tag": "FADING",
+   "h1": -63.0,
+   "ts": "2026-10-18 08:00 UTC"
   },
   {
    "symbol": "GLITCH",
@@ -993,14 +987,14 @@
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": -10.1,
-   "ts": "2026-10-18 07:30 UTC"
+   "h1": -11.6,
+   "ts": "2026-10-18 08:00 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": 66.5,
-   "ts": "2026-10-18 07:30 UTC"
+   "h1": 17.1,
+   "ts": "2026-10-18 08:00 UTC"
   },
   {
    "symbol": "koinu",
@@ -1013,6 +1007,12 @@
    "tag": "WATCH",
    "h1": 14.5,
    "ts": "2026-10-18 07:30 UTC"
+  },
+  {
+   "symbol": "PIPS",
+   "tag": "WATCH",
+   "h1": 35.3,
+   "ts": "2026-10-18 08:00 UTC"
   }
  ],
  "live_closes": [
