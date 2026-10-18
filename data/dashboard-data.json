@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T02:34:16.568992+00:00",
+ "generated": "2026-10-18T03:04:16.765592+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 985,
-  "cohort_wallets": 1922,
+  "cohort_runs": 986,
+  "cohort_wallets": 1943,
   "cohort_qualified": 74,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 77
+   "count": 78
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -49,12 +49,12 @@
    "count": 21
   },
   {
-   "reason": "Mint/freeze not renounced",
+   "reason": "Top holder 13.3% > 12% gate",
    "count": 13
   },
   {
-   "reason": "Top holder 13.3% > 12% gate",
-   "count": 13
+   "reason": "Mint/freeze not renounced",
+   "count": 12
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T03:00:29.354384+00:00",
+   "symbol": "chill guy ",
+   "mint": "ALx1KL9rQbrjuutVj5odn7xeufDVzZ19mzi5Twq6pump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 15.0% > 12% gate",
+   "entry_price": 0.0001135,
+   "mcap": 113562,
+   "liq": 28094.66,
+   "h1": 162,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T03:00:29.349663+00:00",
+   "symbol": "ESI",
+   "mint": "CfAqdHXiSbbCTVaxUdddujSUwh3V11DwbPs58fHbpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0006706,
+   "mcap": 670483,
+   "liq": 70214.92,
+   "h1": 1132,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T02:30:41.303176+00:00",
    "symbol": "SEGUMI",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T21:30:36.018074+00:00",
-   "symbol": "Mao",
-   "mint": "AFqbJbqNiFfJbAYP75RFX74DHoE53UPTaodLFg2Ppump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 7.409e-05,
-   "mcap": 74097,
-   "liq": 21980.63,
-   "h1": 63.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T21:30:36.010940+00:00",
-   "symbol": "FCT",
-   "mint": "ARCArkoi2ENSmDj274XeWYCAPQG7W2ZBSvMYJQHepump",
-   "score": 117,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 5.785e-05,
-   "mcap": 57855,
-   "liq": 18701.1,
-   "h1": 34.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "iMolest ",
     "koinu"
    ],
-   "last": "2026-10-18 02:30 UTC"
+   "last": "2026-10-18 03:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -803,7 +803,7 @@
     "Ventrion",
     "koinu"
    ],
-   "last": "2026-10-18 02:00 UTC"
+   "last": "2026-10-18 03:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -957,14 +957,14 @@
   {
    "symbol": "Satoshi",
    "tag": "WATCH",
-   "h1": -9.8,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 11.7,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-10-18 02:30 UTC"
+   "h1": -1.1,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -981,32 +981,32 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": 40.9,
-   "ts": "2026-10-18 02:30 UTC"
+   "h1": 38.6,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "WATCH",
-   "h1": -6.6,
-   "ts": "2026-10-18 02:30 UTC"
+   "h1": -6.2,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": 4.1,
-   "ts": "2026-10-18 02:30 UTC"
+   "h1": 9.8,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": 14.6,
-   "ts": "2026-10-18 02:30 UTC"
+   "h1": 20.4,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "iMolest ",
-   "tag": "FADING",
-   "h1": -57.8,
-   "ts": "2026-10-18 02:30 UTC"
+   "tag": "WATCH",
+   "h1": -4.6,
+   "ts": "2026-10-18 03:00 UTC"
   },
   {
    "symbol": "koinu",
