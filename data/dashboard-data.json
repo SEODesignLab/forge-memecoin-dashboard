@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T23:34:15.568119+00:00",
+ "generated": "2026-10-18T00:04:15.744927+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 979,
-  "cohort_wallets": 1779,
+  "cohort_runs": 980,
+  "cohort_wallets": 1805,
   "cohort_qualified": 72,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T00:00:37.578279+00:00",
+   "symbol": "fun",
+   "mint": "GNA7ztNeHzUdrTFMSAfLr1Dinnw97KAXrwkNnNbxpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 32.2% > 12% gate",
+   "entry_price": 2.628e-05,
+   "mcap": 26253,
+   "liq": 12876.4,
+   "h1": -40.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:00:37.573854+00:00",
+   "symbol": "BARRON",
+   "mint": "du68aCi6BdvkrcvoGc5W5LiibwaAe6hvXsDF1t5pump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 16.0% > 12% gate",
+   "entry_price": 6.458e-05,
+   "mcap": 64575,
+   "liq": 19889.3,
+   "h1": 50.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:00:37.561663+00:00",
+   "symbol": "QTITS",
+   "mint": "6JVe4NQPab3NkKxE6vaKcEiJVsz8hpSZYvdHh54hpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002612,
+   "mcap": 261227,
+   "liq": 42252.38,
+   "h1": 478,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-17T23:30:24.001210+00:00",
    "symbol": "SUKI",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:00:32.194086+00:00",
-   "symbol": "VOLLEY",
-   "mint": "Crp1ceeVfN9STCA6rSu9sxAYpjimXApS3wam2cifkfog",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 2.705e-05,
-   "mcap": 27053,
-   "liq": 12966.27,
-   "h1": 15.54,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T19:30:35.940108+00:00",
-   "symbol": "INSTA",
-   "mint": "MUrXeSpzSPFrnMhdVxPjQKjahQqFeqo9fhM16uvpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 14.3% > 12% gate",
-   "entry_price": 0.0001049,
-   "mcap": 104929,
-   "liq": 26750.21,
-   "h1": 83.02,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T19:30:35.934698+00:00",
-   "symbol": "TRUUP",
-   "mint": "HuHEQrLTk6rqGofZwWb4xycWWxYJTyCCszTszfMYpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 1.224e-05,
-   "mcap": 12247,
-   "liq": 7857.92,
-   "h1": -71.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -744,7 +744,7 @@
     "Satoshi",
     "GLITCH"
    ],
-   "last": "2026-10-17 23:30 UTC"
+   "last": "2026-10-18 00:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -778,18 +778,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 19,
+   "hits": 20,
    "symbols": [
-    "ZNT",
     "AIRFROG",
     "swordcat",
     "XTO",
     "SDR",
     "CBUCKS",
     "PONK",
-    "VOLLEY"
+    "VOLLEY",
+    "GLITCH"
    ],
-   "last": "2026-10-17 22:30 UTC"
+   "last": "2026-10-18 00:00 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "illusion",
-   "tag": "WATCH",
-   "h1": 4.9,
-   "ts": "2026-10-17 12:30 UTC"
-  },
-  {
    "symbol": "SR",
    "tag": "WATCH",
    "h1": 63.1,
@@ -975,15 +969,15 @@
   },
   {
    "symbol": "Satoshi",
-   "tag": "FADING",
-   "h1": -23.4,
-   "ts": "2026-10-17 23:30 UTC"
+   "tag": "WATCH",
+   "h1": 21.4,
+   "ts": "2026-10-18 00:00 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-10-17 23:30 UTC"
+   "h1": -0.7,
+   "ts": "2026-10-18 00:00 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -993,27 +987,33 @@
   },
   {
    "symbol": "VOLLEY",
-   "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-10-17 23:30 UTC"
+   "tag": "FADING",
+   "h1": -23.7,
+   "ts": "2026-10-18 00:00 UTC"
   },
   {
    "symbol": "MINTER",
-   "tag": "WATCH",
-   "h1": 10.1,
-   "ts": "2026-10-17 23:30 UTC"
+   "tag": "FADING",
+   "h1": -23.6,
+   "ts": "2026-10-18 00:00 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "FADING",
-   "h1": -33.2,
-   "ts": "2026-10-17 23:30 UTC"
+   "h1": -27.1,
+   "ts": "2026-10-18 00:00 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": 15.3,
-   "ts": "2026-10-17 23:30 UTC"
+   "h1": -10.6,
+   "ts": "2026-10-18 00:00 UTC"
+  },
+  {
+   "symbol": "FTR",
+   "tag": "WATCH",
+   "h1": -8.1,
+   "ts": "2026-10-18 00:00 UTC"
   }
  ],
  "live_closes": [
