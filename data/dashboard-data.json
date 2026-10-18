@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T10:04:19.285139+00:00",
+ "generated": "2026-10-18T10:34:19.399277+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1000,
-  "cohort_wallets": 1753,
+  "cohort_runs": 1001,
+  "cohort_wallets": 1774,
   "cohort_qualified": 75,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T10:30:39.784039+00:00",
+   "symbol": "Coinbase",
+   "mint": "hBUQLUbxnZgty3H76kTeMMUMVnHpN9i5nHNy8wnpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 0.0004075,
+   "mcap": 407532,
+   "liq": 52850.42,
+   "h1": 842,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T10:30:39.775791+00:00",
+   "symbol": "Jimmy",
+   "mint": "7X667CTtpSpL1ziTmoAYWrGYbX6tgAjz3YDG7v3opump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 34.9% > 12% gate",
+   "entry_price": 1.74e-05,
+   "mcap": 17378,
+   "liq": 9735.97,
+   "h1": -59.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T10:00:37.181230+00:00",
    "symbol": "Grok",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T02:30:41.292317+00:00",
-   "symbol": "pair",
-   "mint": "CNw4CqqPz2W1wGHzFQU5LXu6QabnVf7pVxGGZ9Hjpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 8.711e-05,
-   "mcap": 87116,
-   "liq": 25200.91,
-   "h1": 87.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T02:00:25.633601+00:00",
-   "symbol": "MarsCoin",
-   "mint": "53y1shyqwpMWY1thY9yptFC3WgJyYKH6ouvjC4wPpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 28.5% > 12% gate",
-   "entry_price": 2.646e-05,
-   "mcap": 26410,
-   "liq": 12481.15,
-   "h1": -42.87,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "koinu",
     "AFC"
    ],
-   "last": "2026-10-18 10:00 UTC"
+   "last": "2026-10-18 10:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -866,6 +866,21 @@
    "last": "2026-10-17 20:30 UTC"
   },
   {
+   "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
+   "hits": 14,
+   "symbols": [
+    "SNDWITCH",
+    "FIGHT",
+    "SEAN",
+    "XTO",
+    "SYCAMORE",
+    "Groklet",
+    "GLITCH",
+    "FTR"
+   ],
+   "last": "2026-10-18 10:30 UTC"
+  },
+  {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
    "hits": 13,
    "symbols": [
@@ -879,21 +894,6 @@
     "ZNT"
    ],
    "last": "2026-10-12 04:00 UTC"
-  },
-  {
-   "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
-   "hits": 13,
-   "symbols": [
-    "PAYR",
-    "SNDWITCH",
-    "FIGHT",
-    "SEAN",
-    "XTO",
-    "SYCAMORE",
-    "Groklet",
-    "GLITCH"
-   ],
-   "last": "2026-10-18 07:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -963,14 +963,14 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": -17.9,
-   "ts": "2026-10-18 10:00 UTC"
+   "h1": -19.8,
+   "ts": "2026-10-18 10:30 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "WATCH",
-   "h1": 15.2,
-   "ts": "2026-10-18 10:00 UTC"
+   "h1": 43.6,
+   "ts": "2026-10-18 10:30 UTC"
   },
   {
    "symbol": "GLITCH",
@@ -980,15 +980,15 @@
   },
   {
    "symbol": "FTR",
-   "tag": "FADING",
-   "h1": -22.8,
-   "ts": "2026-10-18 10:00 UTC"
+   "tag": "WATCH",
+   "h1": -18.0,
+   "ts": "2026-10-18 10:30 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": -7.3,
-   "ts": "2026-10-18 10:00 UTC"
+   "h1": 6.2,
+   "ts": "2026-10-18 10:30 UTC"
   },
   {
    "symbol": "koinu",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "CATSZN",
    "tag": "WATCH",
-   "h1": 120.0,
-   "ts": "2026-10-18 10:00 UTC"
+   "h1": 75.1,
+   "ts": "2026-10-18 10:30 UTC"
   }
  ],
  "live_closes": [
