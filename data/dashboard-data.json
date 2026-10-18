@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T11:04:19.599956+00:00",
+ "generated": "2026-10-18T11:34:19.737983+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1002,
-  "cohort_wallets": 1796,
+  "cohort_runs": 1003,
+  "cohort_wallets": 1817,
   "cohort_qualified": 75,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 77
+   "count": 78
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T11:30:31.771922+00:00",
+   "symbol": "\ud83e\udd17",
+   "mint": "7rwLENa5Mkx1PRbLzSARQ3Gd9X3AzdeH4oR97RYnpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 20.3% > 12% gate",
+   "entry_price": 5.741e-05,
+   "mcap": 54944,
+   "liq": 20493.76,
+   "h1": -38.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T11:30:31.767173+00:00",
+   "symbol": "Tortue",
+   "mint": "7kASdbzxWLdioHhzYvXwtM3tRztAbFmeLKF4bDW8pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001675,
+   "mcap": 167583,
+   "liq": 35762.75,
+   "h1": 297,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T11:00:29.019561+00:00",
    "symbol": "Siri",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T03:30:33.009255+00:00",
-   "symbol": "GBTC",
-   "mint": "H3b85fxKT6DRDjkkAetJtcv24o3qSUr3JvNzjogkpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.1% > 12% gate",
-   "entry_price": 6.563e-05,
-   "mcap": 65551,
-   "liq": 20666.4,
-   "h1": 45.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T03:00:29.354384+00:00",
-   "symbol": "chill guy ",
-   "mint": "ALx1KL9rQbrjuutVj5odn7xeufDVzZ19mzi5Twq6pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 15.0% > 12% gate",
-   "entry_price": 0.0001135,
-   "mcap": 113562,
-   "liq": 28094.66,
-   "h1": 162,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "PROINU",
-   "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-10-18 10:00 UTC"
-  },
-  {
    "symbol": "Ventrion",
    "tag": "WATCH",
    "h1": 70.4,
@@ -962,15 +956,15 @@
   },
   {
    "symbol": "MINTER",
-   "tag": "FADING",
-   "h1": -24.2,
-   "ts": "2026-10-18 11:00 UTC"
+   "tag": "WATCH",
+   "h1": -0.1,
+   "ts": "2026-10-18 11:30 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "WATCH",
-   "h1": 5.6,
-   "ts": "2026-10-18 11:00 UTC"
+   "h1": -4.7,
+   "ts": "2026-10-18 11:30 UTC"
   },
   {
    "symbol": "GLITCH",
@@ -981,14 +975,14 @@
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-10-18 11:00 UTC"
+   "h1": -1.8,
+   "ts": "2026-10-18 11:30 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-10-18 11:00 UTC"
+   "h1": 7.7,
+   "ts": "2026-10-18 11:30 UTC"
   },
   {
    "symbol": "koinu",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "CATSZN",
    "tag": "WATCH",
-   "h1": -11.2,
-   "ts": "2026-10-18 11:00 UTC"
+   "h1": -2.5,
+   "ts": "2026-10-18 11:30 UTC"
+  },
+  {
+   "symbol": "mucron",
+   "tag": "CHASE",
+   "h1": 222.0,
+   "ts": "2026-10-18 11:30 UTC"
   }
  ],
  "live_closes": [
