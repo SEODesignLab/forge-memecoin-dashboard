@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T04:34:17.216800+00:00",
+ "generated": "2026-10-18T05:04:17.412043+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 989,
-  "cohort_wallets": 1500,
+  "cohort_runs": 990,
+  "cohort_wallets": 1521,
   "cohort_qualified": 75,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 77
+   "count": 78
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T05:00:32.479834+00:00",
+   "symbol": "Haaland",
+   "mint": "12tMd6ARwpPWHnWWwgSwKtt4FwhB7qj4FVzTD36Wpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001821,
+   "mcap": 182172,
+   "liq": 34662.16,
+   "h1": 322,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T04:30:32.716081+00:00",
    "symbol": "Coca Cola",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T22:30:36.622694+00:00",
-   "symbol": "koinu",
-   "mint": "DfBJCoLnaF75GaKPWB4c3TFyMHcXmAShiuWm3dHNpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 17.5% > 12% gate",
-   "entry_price": 6.48e-05,
-   "mcap": 64697,
-   "liq": 20390.44,
-   "h1": 51.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "iMolest ",
     "koinu"
    ],
-   "last": "2026-10-18 04:00 UTC"
+   "last": "2026-10-18 05:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -893,7 +893,7 @@
     "Groklet",
     "GLITCH"
    ],
-   "last": "2026-10-18 04:30 UTC"
+   "last": "2026-10-18 05:00 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -957,8 +957,8 @@
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": -7.6,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -975,32 +975,32 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": 71.0,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": 25.5,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "WATCH",
-   "h1": 11.7,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": -6.6,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": -0.7,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": 26.3,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": 12.4,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-10-18 04:30 UTC"
+   "h1": 40.1,
+   "ts": "2026-10-18 05:00 UTC"
   },
   {
    "symbol": "koinu",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "AFC",
-   "tag": "WATCH",
-   "h1": -14.9,
-   "ts": "2026-10-18 04:30 UTC"
+   "tag": "FADING",
+   "h1": -52.6,
+   "ts": "2026-10-18 05:00 UTC"
   }
  ],
  "live_closes": [
