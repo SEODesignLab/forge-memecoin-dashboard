@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T01:04:16.082326+00:00",
+ "generated": "2026-10-18T01:34:16.222171+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 982,
-  "cohort_wallets": 1853,
-  "cohort_qualified": 72,
+  "cohort_runs": 983,
+  "cohort_wallets": 1873,
+  "cohort_qualified": 73,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 75
+   "count": 76
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -50,11 +50,11 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 18
+   "count": 17
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T01:30:36.002531+00:00",
+   "symbol": "Gemini",
+   "mint": "7Vmv2vsdrPhiiS6YkfMgrNsHwnkdVA7KErpt5nVppump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 13.3% > 12% gate",
+   "entry_price": 0.00043,
+   "mcap": 429965,
+   "liq": 54203.06,
+   "h1": 899,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T01:30:35.997572+00:00",
+   "symbol": "FOMO",
+   "mint": "7VYjypfkPeMCpKVdUbCeFBUpeAj1qPLKr8fkBeBpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002617,
+   "mcap": 261794,
+   "liq": 41886.38,
+   "h1": 508,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T01:30:35.988158+00:00",
+   "symbol": "Bill Gates",
+   "mint": "rX7gXeCWc1RrHU5D9JzzLWvmGS2YnvMo9SWudYipump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003809,
+   "mcap": 380932,
+   "liq": 50890.61,
+   "h1": 785,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T01:00:37.125891+00:00",
    "symbol": "TRENCHER",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:30:36.607843+00:00",
-   "symbol": "FOMO",
-   "mint": "5PE8D8nhyvQqhu29Jc1NuqBCqPjHmCgc1dUHnXUGpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0004497,
-   "mcap": 449725,
-   "liq": 55589.72,
-   "h1": 940,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:30:36.603549+00:00",
-   "symbol": "Speed",
-   "mint": "iARKmuXPd3MqEra4ECSvXM4SCMnMj3gAomcDD7opump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001597,
-   "mcap": 159750,
-   "liq": 32472.07,
-   "h1": 270,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:30:36.597106+00:00",
-   "symbol": "X",
-   "mint": "3dBUGi86PdHBdSXqcEyRiqwauyHi3wKUboL9WcRSpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0004949,
-   "mcap": 494994,
-   "liq": 58446.71,
-   "h1": 1046,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 53,
+   "hits": 55,
    "symbols": [
-    "Pumpoween",
-    "WALTJR",
     "SDR",
     "GOMO",
     "PONK",
     "CBUCKS",
     "Satoshi",
-    "GLITCH"
+    "GLITCH",
+    "iMolest ",
+    "koinu"
    ],
-   "last": "2026-10-18 01:00 UTC"
+   "last": "2026-10-18 01:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -788,7 +788,22 @@
     "VOLLEY",
     "GLITCH"
    ],
-   "last": "2026-10-18 00:30 UTC"
+   "last": "2026-10-18 01:30 UTC"
+  },
+  {
+   "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
+   "hits": 20,
+   "symbols": [
+    "CHONK",
+    "WALTJR",
+    "SDR",
+    "PONK",
+    "AKITA",
+    "GLITCH",
+    "Ventrion",
+    "koinu"
+   ],
+   "last": "2026-10-18 01:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -804,21 +819,6 @@
     "PONK"
    ],
    "last": "2026-10-18 01:00 UTC"
-  },
-  {
-   "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 19,
-   "symbols": [
-    "Bear",
-    "CHONK",
-    "WALTJR",
-    "SDR",
-    "PONK",
-    "AKITA",
-    "GLITCH",
-    "Ventrion"
-   ],
-   "last": "2026-10-17 23:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -893,7 +893,7 @@
     "Groklet",
     "GLITCH"
    ],
-   "last": "2026-10-18 01:00 UTC"
+   "last": "2026-10-18 01:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "ROADSTER",
-   "tag": "WATCH",
-   "h1": 30.1,
-   "ts": "2026-10-16 19:00 UTC"
-  },
-  {
    "symbol": "NUBI",
    "tag": "WATCH",
    "h1": -16.2,
@@ -969,8 +963,8 @@
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": 8.7,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 5.0,
+   "ts": "2026-10-18 01:30 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -987,32 +981,38 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": -5.0,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 13.7,
+   "ts": "2026-10-18 01:30 UTC"
   },
   {
    "symbol": "Chaton",
    "tag": "WATCH",
-   "h1": 38.3,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 9.9,
+   "ts": "2026-10-18 01:30 UTC"
   },
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": -2.5,
+   "ts": "2026-10-18 01:30 UTC"
   },
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": 29.1,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 4.0,
+   "ts": "2026-10-18 01:30 UTC"
   },
   {
    "symbol": "iMolest ",
    "tag": "WATCH",
-   "h1": 25.1,
-   "ts": "2026-10-18 01:00 UTC"
+   "h1": 29.7,
+   "ts": "2026-10-18 01:30 UTC"
+  },
+  {
+   "symbol": "koinu",
+   "tag": "FADING",
+   "h1": -71.2,
+   "ts": "2026-10-18 01:30 UTC"
   }
  ],
  "live_closes": [
