@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T21:04:23.180731+00:00",
+ "generated": "2026-10-18T21:34:23.318430+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1022,
-  "cohort_wallets": 1688,
+  "cohort_runs": 1023,
+  "cohort_wallets": 1709,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T21:30:48.634195+00:00",
+   "symbol": "EZECK",
+   "mint": "3oUzvv3ftAx8b3xefMmFNgeJCgPy8Q5GMNEeRzjspump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001728,
+   "mcap": 172796,
+   "liq": 33856.85,
+   "h1": 224,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T21:30:48.626708+00:00",
+   "symbol": "safufun",
+   "mint": "HBa1MeHra7mBrebq3JXxPRKEMM6aeRbGtjQusuyWpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 4.878e-05,
+   "mcap": 48786,
+   "liq": 18912.02,
+   "h1": 13.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T21:30:48.621584+00:00",
+   "symbol": "safufun",
+   "mint": "GWR6tUtAuRQG4GT387SLMFqjBbD6uQvdWgXEm3DUC3LK",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 35.4% > 12% gate",
+   "entry_price": 1.645e-05,
+   "mcap": 16435,
+   "liq": 10063.72,
+   "h1": -59.99,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T21:00:46.968394+00:00",
    "symbol": "godspeed",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T17:00:37.185980+00:00",
-   "symbol": "PROPEX",
-   "mint": "5HXHq4HQ3WJjAGFcyAg2tThrdNXnBJPt8phhk8xApump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 5.714e-05,
-   "mcap": 56576,
-   "liq": 18779.17,
-   "h1": 34.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T17:00:37.180142+00:00",
-   "symbol": "REPT",
-   "mint": "DkoXZcfbuzJoxHWm2CQ5D8osofha3gUAaUZy7Kx4pump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 6.717e-05,
-   "mcap": 67176,
-   "liq": 20316.09,
-   "h1": 58.83,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T16:30:40.966272+00:00",
-   "symbol": "bananacoin",
-   "mint": "CY5XBueABtzKkRNzpeLLNVg8MQqtQRZGFEYDwT7pj4CY",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 22.8% > 12% gate",
-   "entry_price": 3.497e-05,
-   "mcap": 34976,
-   "liq": 14053.89,
-   "h1": -18.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "koinu",
     "AFC"
    ],
-   "last": "2026-10-18 17:30 UTC"
+   "last": "2026-10-18 21:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -951,8 +951,8 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": 18.7,
-   "ts": "2026-10-18 21:00 UTC"
+   "h1": 46.2,
+   "ts": "2026-10-18 21:30 UTC"
   },
   {
    "symbol": "Chaton",
@@ -963,8 +963,8 @@
   {
    "symbol": "GLITCH",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-10-18 21:00 UTC"
+   "h1": -0.6,
+   "ts": "2026-10-18 21:30 UTC"
   },
   {
    "symbol": "FTR",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "mucron",
-   "tag": "FADING",
-   "h1": -48.4,
-   "ts": "2026-10-18 21:00 UTC"
+   "tag": "WATCH",
+   "h1": 12.0,
+   "ts": "2026-10-18 21:30 UTC"
   },
   {
    "symbol": "CATONICE",
-   "tag": "FADING",
-   "h1": -21.7,
-   "ts": "2026-10-18 21:00 UTC"
+   "tag": "WATCH",
+   "h1": -7.8,
+   "ts": "2026-10-18 21:30 UTC"
   }
  ],
  "live_closes": [
