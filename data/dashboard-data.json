@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T00:04:15.744927+00:00",
+ "generated": "2026-10-18T00:34:15.890170+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 980,
-  "cohort_wallets": 1805,
+  "cohort_runs": 981,
+  "cohort_wallets": 1831,
   "cohort_qualified": 72,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 73
+   "count": 75
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -45,12 +45,12 @@
    "count": 24
   },
   {
-   "reason": "Mint/freeze not renounced",
+   "reason": "Score 81 below threshold 85",
    "count": 21
   },
   {
-   "reason": "Score 81 below threshold 85",
-   "count": 21
+   "reason": "Mint/freeze not renounced",
+   "count": 18
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,96 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T00:30:36.894612+00:00",
+   "symbol": "DPWG",
+   "mint": "7DD5HYkrCN2yGhELfPygcW6VvG79iGRxhMZtZjS9pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 35.7% > 12% gate",
+   "entry_price": 1.778e-05,
+   "mcap": 17790,
+   "liq": 9783.62,
+   "h1": -58.32,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:30:36.887143+00:00",
+   "symbol": "HISOCIETY",
+   "mint": "Hoxw5QZavJWePbGKFjLCqnAyaXB6VZZc3FTAUfALpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003796,
+   "mcap": 379649,
+   "liq": 50997.24,
+   "h1": 466,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:30:36.877178+00:00",
+   "symbol": "CAT-K",
+   "mint": "5As9iWk82ftLzhLF3uKyaiLcPYDexNugbUJGLAb2pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 24.1% > 12% gate",
+   "entry_price": 3.383e-05,
+   "mcap": 33766,
+   "liq": 14325.98,
+   "h1": -26.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:30:36.870374+00:00",
+   "symbol": "harold",
+   "mint": "5129dcnhFVHW4bZ2CVjw4n61TCGAwYKuMJKcYBXpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 21.4% > 12% gate",
+   "entry_price": 4.224e-05,
+   "mcap": 42246,
+   "liq": 16149.95,
+   "h1": -5.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:30:36.866038+00:00",
+   "symbol": "Interim",
+   "mint": "H416oBu1655KR9BnyxRmiYs7bjYUSrzetNqsfBFTpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 15.7% > 12% gate",
+   "entry_price": 7.565e-05,
+   "mcap": 75628,
+   "liq": 22071.17,
+   "h1": 81.75,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-18T00:30:36.861353+00:00",
+   "symbol": "Catcoin",
+   "mint": "68yywen51ppvR2zWptcpvmc5H5a5SC6tsz8evAP2pump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001556,
+   "mcap": 155601,
+   "liq": 32353.55,
+   "h1": 210,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T00:00:37.578279+00:00",
    "symbol": "fun",
@@ -583,97 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:30:36.588222+00:00",
-   "symbol": "YILONGMA",
-   "mint": "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump",
-   "score": 92,
-   "decision": "PAPER_BUY",
-   "reason": "OK study:holder6%full,unlockedLP\u00d70.85,band85-99",
-   "entry_price": 0.000634,
-   "mcap": 631463,
-   "liq": 69410.8,
-   "h1": -29.8,
-   "settled": true,
-   "exit_price": 0.0007949,
-   "pnl_pct": 0.2538,
-   "settled_ts": "2026-10-17T21:34:14.918639+00:00"
-  },
-  {
-   "ts": "2026-10-17T20:00:32.224958+00:00",
-   "symbol": "iCat",
-   "mint": "4z4XzS6a8yTxNkcEFnX1YUqbBtcRthjUP42GNz7Ppump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 33.2% > 12% gate",
-   "entry_price": 3.007e-05,
-   "mcap": 30079,
-   "liq": 13462.11,
-   "h1": -34.47,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:00:32.220430+00:00",
-   "symbol": "FOMO",
-   "mint": "E8oNEpiLKfTFBu1TsafeYh6A7VfJrZXiXLhT8tH7pump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0004672,
-   "mcap": 467174,
-   "liq": 56683.7,
-   "h1": 981,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:00:32.216133+00:00",
-   "symbol": "Chaton",
-   "mint": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001646,
-   "mcap": 164554,
-   "liq": 33084.61,
-   "h1": 242,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:00:32.209667+00:00",
-   "symbol": "MASKITTEN",
-   "mint": "8FrKxcvj3Hn4KATMwfAFkrEb146sHj2wtAtxU61npump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002121,
-   "mcap": 212074,
-   "liq": 37813.5,
-   "h1": 239,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-17T20:00:32.203211+00:00",
-   "symbol": "AI",
-   "mint": "5n5zgWMkX3sYELNkXUjLKRstiNPnv9y525FCQ5mdpump",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001615,
-   "mcap": 161505,
-   "liq": 33389.98,
-   "h1": 185,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -729,7 +728,7 @@
     "Satoshi",
     "VOLLEY"
    ],
-   "last": "2026-10-17 22:00 UTC"
+   "last": "2026-10-18 00:30 UTC"
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
@@ -789,7 +788,7 @@
     "VOLLEY",
     "GLITCH"
    ],
-   "last": "2026-10-18 00:00 UTC"
+   "last": "2026-10-18 00:30 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -894,22 +893,22 @@
     "Groklet",
     "GLITCH"
    ],
-   "last": "2026-10-17 23:00 UTC"
+   "last": "2026-10-18 00:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
-   "hits": 12,
+   "hits": 13,
    "symbols": [
-    "DEGEN",
     "HI",
     "PARASITE",
     "catius",
     "SI276",
     "qOMPUTE",
     "Bumo",
-    "SR"
+    "SR",
+    "GLITCH"
    ],
-   "last": "2026-10-17 00:00 UTC"
+   "last": "2026-10-18 00:30 UTC"
   },
   {
    "wallet": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
@@ -944,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "SR",
-   "tag": "WATCH",
-   "h1": 63.1,
-   "ts": "2026-10-17 00:00 UTC"
-  },
-  {
    "symbol": "ROADSTER",
    "tag": "WATCH",
    "h1": 30.1,
@@ -970,14 +963,14 @@
   {
    "symbol": "Satoshi",
    "tag": "WATCH",
-   "h1": 21.4,
-   "ts": "2026-10-18 00:00 UTC"
+   "h1": 18.8,
+   "ts": "2026-10-18 00:30 UTC"
   },
   {
    "symbol": "PROINU",
    "tag": "WATCH",
-   "h1": -0.7,
-   "ts": "2026-10-18 00:00 UTC"
+   "h1": -2.8,
+   "ts": "2026-10-18 00:30 UTC"
   },
   {
    "symbol": "Ventrion",
@@ -994,26 +987,32 @@
   {
    "symbol": "MINTER",
    "tag": "FADING",
-   "h1": -23.6,
-   "ts": "2026-10-18 00:00 UTC"
+   "h1": -32.9,
+   "ts": "2026-10-18 00:30 UTC"
   },
   {
    "symbol": "Chaton",
-   "tag": "FADING",
-   "h1": -27.1,
-   "ts": "2026-10-18 00:00 UTC"
+   "tag": "WATCH",
+   "h1": -1.8,
+   "ts": "2026-10-18 00:30 UTC"
   },
   {
    "symbol": "GLITCH",
-   "tag": "WATCH",
-   "h1": -10.6,
-   "ts": "2026-10-18 00:00 UTC"
+   "tag": "FADING",
+   "h1": -21.5,
+   "ts": "2026-10-18 00:30 UTC"
   },
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": -8.1,
-   "ts": "2026-10-18 00:00 UTC"
+   "h1": 25.3,
+   "ts": "2026-10-18 00:30 UTC"
+  },
+  {
+   "symbol": "iMolest ",
+   "tag": "FADING",
+   "h1": -65.6,
+   "ts": "2026-10-18 00:30 UTC"
   }
  ],
  "live_closes": [
