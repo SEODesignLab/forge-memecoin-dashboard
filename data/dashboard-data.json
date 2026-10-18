@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T14:04:20.630994+00:00",
+ "generated": "2026-10-18T14:34:20.800719+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1008,
-  "cohort_wallets": 1918,
+  "cohort_runs": 1009,
+  "cohort_wallets": 1939,
   "cohort_qualified": 78,
   "live_closes": 18,
   "live_wins": 4,
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 22
+   "count": 21
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-18T14:30:28.250419+00:00",
+   "symbol": "Solana",
+   "mint": "9r48Hr5PPVNnzsqtntGe63YRBnNoaWmiyBWA2LmCpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 22.9% > 12% gate",
+   "entry_price": 3.792e-05,
+   "mcap": 37890,
+   "liq": 14975.53,
+   "h1": -10.95,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-18T14:00:42.511319+00:00",
    "symbol": "Pooliticians",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T07:00:39.323960+00:00",
-   "symbol": "PIPS",
-   "mint": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 9.486e-05,
-   "mcap": 94703,
-   "liq": 24838.16,
-   "h1": 116,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -822,18 +822,18 @@
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 18,
+   "hits": 19,
    "symbols": [
-    "Bear",
     "YILONGMA",
     "swordcat",
     "XTO",
     "PONK",
     "CBUCKS",
     "XSTOK",
-    "Ventrion"
+    "Ventrion",
+    "koinu"
    ],
-   "last": "2026-10-17 19:30 UTC"
+   "last": "2026-10-18 14:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -866,6 +866,21 @@
    "last": "2026-10-17 20:30 UTC"
   },
   {
+   "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
+   "hits": 14,
+   "symbols": [
+    "HI",
+    "SK",
+    "SI276",
+    "GOMO",
+    "LMAO!",
+    "Slime",
+    "ZNT",
+    "koinu"
+   ],
+   "last": "2026-10-18 14:30 UTC"
+  },
+  {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
    "hits": 14,
    "symbols": [
@@ -879,21 +894,6 @@
     "FTR"
    ],
    "last": "2026-10-18 10:30 UTC"
-  },
-  {
-   "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
-   "hits": 13,
-   "symbols": [
-    "SHIBO",
-    "HI",
-    "SK",
-    "SI276",
-    "GOMO",
-    "LMAO!",
-    "Slime",
-    "ZNT"
-   ],
-   "last": "2026-10-12 04:00 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -957,8 +957,8 @@
   {
    "symbol": "MINTER",
    "tag": "WATCH",
-   "h1": 13.6,
-   "ts": "2026-10-18 14:00 UTC"
+   "h1": -15.1,
+   "ts": "2026-10-18 14:30 UTC"
   },
   {
    "symbol": "Chaton",
@@ -975,8 +975,8 @@
   {
    "symbol": "FTR",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-10-18 14:00 UTC"
+   "h1": 14.1,
+   "ts": "2026-10-18 14:30 UTC"
   },
   {
    "symbol": "iMolest ",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "koinu",
-   "tag": "CHASE",
-   "h1": 162.0,
-   "ts": "2026-10-18 14:00 UTC"
+   "tag": "WATCH",
+   "h1": 41.2,
+   "ts": "2026-10-18 14:30 UTC"
   },
   {
    "symbol": "AFC",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "CATSZN",
    "tag": "WATCH",
-   "h1": 7.5,
-   "ts": "2026-10-18 14:00 UTC"
+   "h1": -2.8,
+   "ts": "2026-10-18 14:30 UTC"
   },
   {
    "symbol": "mucron",
    "tag": "FADING",
-   "h1": -25.3,
-   "ts": "2026-10-18 14:00 UTC"
+   "h1": -50.1,
+   "ts": "2026-10-18 14:30 UTC"
   }
  ],
  "live_closes": [
