@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T09:34:27.764867+00:00",
+ "generated": "2026-10-19T10:04:28.011601+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1047,
-  "cohort_wallets": 1792,
+  "cohort_runs": 1048,
+  "cohort_wallets": 1815,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 69
+   "count": 70
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T10:00:38.161679+00:00",
+   "symbol": "GTA VI",
+   "mint": "MT6Jcx4NkkQqnZ4xrMwyQiXqRVhxXZr3ctv1iTvpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0004726,
+   "mcap": 472642,
+   "liq": 57406.11,
+   "h1": 976,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T10:00:38.157005+00:00",
+   "symbol": "Mimi",
+   "mint": "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004789,
+   "mcap": 458074,
+   "liq": 62591.19,
+   "h1": 1416,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T09:30:49.010488+00:00",
    "symbol": "FOMO",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T03:00:40.312555+00:00",
-   "symbol": "CATGPT",
-   "mint": "672KGJCguSdSrnLjU8SGdbPgmHTbFbeooZ4arSpNpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0001313,
-   "mcap": 131355,
-   "liq": 29412.09,
-   "h1": 179,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T03:00:40.308061+00:00",
-   "symbol": "FOMO",
-   "mint": "f1qYDRWv72prGQ9N3gPotzNitzHmMd61PcZ7hNrpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 6.576e-05,
-   "mcap": 65766,
-   "liq": 20281.17,
-   "h1": 50.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,20 +975,20 @@
   {
    "symbol": "mucron",
    "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-10-19 09:30 UTC"
+   "h1": 29.6,
+   "ts": "2026-10-19 10:00 UTC"
   },
   {
    "symbol": "CATONICE",
    "tag": "FADING",
-   "h1": -70.2,
-   "ts": "2026-10-19 09:30 UTC"
+   "h1": -51.2,
+   "ts": "2026-10-19 10:00 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-10-19 09:30 UTC"
+   "h1": 5.3,
+   "ts": "2026-10-19 10:00 UTC"
   },
   {
    "symbol": "sir",
@@ -999,8 +999,8 @@
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": -5.4,
-   "ts": "2026-10-19 09:30 UTC"
+   "h1": 40.2,
+   "ts": "2026-10-19 10:00 UTC"
   },
   {
    "symbol": "Echo",
