@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T06:04:26.374285+00:00",
+ "generated": "2026-10-19T06:34:26.556794+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1040,
-  "cohort_wallets": 1588,
+  "cohort_runs": 1041,
+  "cohort_wallets": 1621,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,19 +26,19 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 70
+   "count": 69
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 47
+   "count": 50
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 25
+   "count": 26
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 20
+   "count": 19
   },
   {
    "reason": "Score 84 below threshold 85",
@@ -49,12 +49,12 @@
    "count": 16
   },
   {
-   "reason": "Top holder 13.3% > 12% gate",
+   "reason": "Score 83 below threshold 85",
    "count": 13
   },
   {
-   "reason": "Score 83 below threshold 85",
-   "count": 13
+   "reason": "Top holder 13.3% > 12% gate",
+   "count": 12
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T06:30:44.443183+00:00",
+   "symbol": "ELON",
+   "mint": "gR5vN9KQ6v5BotN9zjQqf4c2skjNQ7rVw7Sn3VQpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0003584,
+   "mcap": 358435,
+   "liq": 49789,
+   "h1": 718,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T06:30:44.438888+00:00",
+   "symbol": "REPE",
+   "mint": "yiqZ1bjDdRiTaPxaWsun6dN8wR2LfBdNfwfUxhDpump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 7.339e-05,
+   "mcap": 73396,
+   "liq": 21612.42,
+   "h1": 51.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T06:30:44.434645+00:00",
+   "symbol": "XBT",
+   "mint": "8CWcpcJ7Eijw6gekdqAbCs3CEtpGCHpDRMYZZtgyETCH",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 1.163e-05,
+   "mcap": 11631,
+   "liq": 7650.58,
+   "h1": -74.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T06:30:44.425839+00:00",
+   "symbol": "BTC",
+   "mint": "6egnUtUBgpELcjwBmzuSGHGiLA8Ch21o1v59wozypump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.7e-05,
+   "mcap": 37009,
+   "liq": 15217.87,
+   "h1": -19.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T06:00:42.925796+00:00",
    "symbol": "KIBI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T01:00:37.950598+00:00",
-   "symbol": "MrBeast",
-   "mint": "CP6SxRL4y9oZufSD7AvmMQTtM8uxPiZDmoyyH4YDpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0004821,
-   "mcap": 482110,
-   "liq": 57675.35,
-   "h1": 1011,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T01:00:37.946223+00:00",
-   "symbol": "AIRDROP",
-   "mint": "3Appnhh6vBBx4FBnp8nscyLdHrTMspeCxYPx61Ugpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 2.785e-05,
-   "mcap": 27855,
-   "liq": 12038.9,
-   "h1": -20.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T01:00:37.941971+00:00",
-   "symbol": "Mr Beast",
-   "mint": "jHPKyedQYh2pQidU2RoKE2jr9WDz7sNHSb8FGxMpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0003883,
-   "mcap": 388333,
-   "liq": 51555.02,
-   "h1": 797,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T01:00:37.937680+00:00",
-   "symbol": "HOOT",
-   "mint": "J4dyfXc8EY3TXAeFdpAKZqWyW4S8XpdoABib7JMnpump",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 0.0001517,
-   "mcap": 151735,
-   "liq": 35652.26,
-   "h1": 260,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -911,6 +911,21 @@
    "last": "2026-10-18 23:00 UTC"
   },
   {
+   "wallet": "Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK",
+   "hits": 12,
+   "symbols": [
+    "SDR",
+    "Groklet",
+    "PONK",
+    "CBUCKS",
+    "GLITCH",
+    "koinu",
+    "mucron",
+    "sir"
+   ],
+   "last": "2026-10-19 06:30 UTC"
+  },
+  {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
    "hits": 11,
    "symbols": [
@@ -924,21 +939,6 @@
     "mucron"
    ],
    "last": "2026-10-19 05:00 UTC"
-  },
-  {
-   "wallet": "wJDv8gqP8TFqUJdLGdrVpEA1vJ8sdMWiqkHT9ubCEmn",
-   "hits": 11,
-   "symbols": [
-    "HIM",
-    "AGENTCAT",
-    "CARNAGE",
-    "SK",
-    "HI",
-    "PONK",
-    "illusion",
-    "AFC"
-   ],
-   "last": "2026-10-18 07:30 UTC"
   }
  ],
  "mints": [
@@ -975,32 +975,32 @@
   {
    "symbol": "mucron",
    "tag": "WATCH",
-   "h1": 20.3,
-   "ts": "2026-10-19 06:00 UTC"
+   "h1": 16.1,
+   "ts": "2026-10-19 06:30 UTC"
   },
   {
    "symbol": "CATONICE",
-   "tag": "FADING",
-   "h1": -24.9,
-   "ts": "2026-10-19 06:00 UTC"
+   "tag": "WATCH",
+   "h1": -9.4,
+   "ts": "2026-10-19 06:30 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-10-19 06:00 UTC"
+   "h1": 43.2,
+   "ts": "2026-10-19 06:30 UTC"
   },
   {
    "symbol": "sir",
    "tag": "WATCH",
-   "h1": -13.4,
-   "ts": "2026-10-19 06:00 UTC"
+   "h1": -11.8,
+   "ts": "2026-10-19 06:30 UTC"
   },
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": -3.6,
-   "ts": "2026-10-19 06:00 UTC"
+   "h1": 20.9,
+   "ts": "2026-10-19 06:30 UTC"
   },
   {
    "symbol": "Echo",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "LSCW",
    "tag": "WATCH",
-   "h1": 38.6,
-   "ts": "2026-10-19 06:00 UTC"
+   "h1": -3.4,
+   "ts": "2026-10-19 06:30 UTC"
   }
  ],
  "live_closes": [
