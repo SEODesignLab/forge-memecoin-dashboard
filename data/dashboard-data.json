@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T08:34:27.390120+00:00",
+ "generated": "2026-10-19T09:04:27.599931+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1045,
-  "cohort_wallets": 1743,
+  "cohort_runs": 1046,
+  "cohort_wallets": 1771,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 57
+   "count": 58
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T09:00:36.677878+00:00",
+   "symbol": "SPSI",
+   "mint": "BVpFpksfdEwDgaUhZxdG8kSyfAekeYfKV4BdUfNJpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 9.168e-05,
+   "mcap": 91547,
+   "liq": 25251.73,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T08:30:53.941033+00:00",
    "symbol": "MEM",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T03:00:40.298780+00:00",
-   "symbol": "COINU",
-   "mint": "DaAbbS4zUNggwS3Ue3SGvKWen6DpaekbPtrxEkjypump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 5.581e-06,
-   "mcap": 5581,
-   "liq": 4769.04,
-   "h1": -87.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -974,33 +974,33 @@
   },
   {
    "symbol": "mucron",
-   "tag": "WATCH",
-   "h1": 7.6,
-   "ts": "2026-10-19 08:30 UTC"
+   "tag": "FADING",
+   "h1": -23.5,
+   "ts": "2026-10-19 09:00 UTC"
   },
   {
    "symbol": "CATONICE",
-   "tag": "WATCH",
-   "h1": -12.4,
-   "ts": "2026-10-19 08:30 UTC"
+   "tag": "FADING",
+   "h1": -40.2,
+   "ts": "2026-10-19 09:00 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": -5.9,
-   "ts": "2026-10-19 08:30 UTC"
+   "h1": 11.3,
+   "ts": "2026-10-19 09:00 UTC"
   },
   {
    "symbol": "sir",
    "tag": "WATCH",
-   "h1": -1.3,
-   "ts": "2026-10-19 08:30 UTC"
+   "h1": -4.8,
+   "ts": "2026-10-19 09:00 UTC"
   },
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": 9.1,
-   "ts": "2026-10-19 08:30 UTC"
+   "h1": -10.5,
+   "ts": "2026-10-19 09:00 UTC"
   },
   {
    "symbol": "Echo",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "LSCW",
-   "tag": "FADING",
-   "h1": -22.3,
-   "ts": "2026-10-19 08:30 UTC"
+   "tag": "WATCH",
+   "h1": -18.9,
+   "ts": "2026-10-19 09:00 UTC"
   }
  ],
  "live_closes": [
