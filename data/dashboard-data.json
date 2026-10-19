@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T02:04:24.943693+00:00",
+ "generated": "2026-10-19T02:34:25.105323+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1032,
-  "cohort_wallets": 1907,
+  "cohort_runs": 1033,
+  "cohort_wallets": 1933,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 24
+   "count": 25
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T02:30:42.908621+00:00",
+   "symbol": "Hypurr",
+   "mint": "4Z7vcfssq4r8v14wfb653P4MPKMwL6JcNoE796S2gUsH",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.08e-05,
+   "mcap": 30767,
+   "liq": 13457.41,
+   "h1": -29.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T02:00:30.456413+00:00",
    "symbol": "Apple",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-18T22:30:53.875082+00:00",
-   "symbol": "Nike",
-   "mint": "JD8xNSYD58hG9yt4mrUau2mcDvknPpn3gjgMvg7Lpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004116,
-   "mcap": 411681,
-   "liq": 52854.39,
-   "h1": 861,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 56,
+   "hits": 57,
    "symbols": [
-    "GOMO",
     "PONK",
     "CBUCKS",
     "Satoshi",
     "GLITCH",
     "iMolest ",
     "koinu",
-    "AFC"
+    "AFC",
+    "mucron"
    ],
-   "last": "2026-10-18 21:30 UTC"
+   "last": "2026-10-19 02:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -987,32 +987,32 @@
   {
    "symbol": "mucron",
    "tag": "WATCH",
-   "h1": -5.9,
-   "ts": "2026-10-19 02:00 UTC"
+   "h1": -7.1,
+   "ts": "2026-10-19 02:30 UTC"
   },
   {
    "symbol": "CATONICE",
    "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-10-19 02:00 UTC"
+   "h1": -10.8,
+   "ts": "2026-10-19 02:30 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": 42.7,
-   "ts": "2026-10-19 02:00 UTC"
+   "h1": 12.7,
+   "ts": "2026-10-19 02:30 UTC"
   },
   {
    "symbol": "sir",
    "tag": "WATCH",
-   "h1": 5.5,
-   "ts": "2026-10-19 02:00 UTC"
+   "h1": -6.3,
+   "ts": "2026-10-19 02:30 UTC"
   },
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": 5.9,
-   "ts": "2026-10-19 02:00 UTC"
+   "h1": -0.0,
+   "ts": "2026-10-19 02:30 UTC"
   }
  ],
  "live_closes": [
