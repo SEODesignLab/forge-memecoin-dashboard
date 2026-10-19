@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T05:04:26.007945+00:00",
+ "generated": "2026-10-19T05:34:26.161293+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1038,
-  "cohort_wallets": 1530,
+  "cohort_runs": 1039,
+  "cohort_wallets": 1557,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 41
+   "count": 44
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -58,7 +58,7 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 9
+   "count": 8
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T05:30:32.721081+00:00",
+   "symbol": "Tofu",
+   "mint": "egFPsJwZAAdTFMU5NrxMVjGbFboKb55kVi1H116pump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 6.475e-05,
+   "mcap": 64653,
+   "liq": 20192.71,
+   "h1": 47.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T05:30:32.716832+00:00",
+   "symbol": "NET",
+   "mint": "FjtgJS6Ea8W9qs5G58LtzEhh4JfmYvKZUEyxErzkpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 1.963e-05,
+   "mcap": 19633,
+   "liq": 10578.49,
+   "h1": -59.04,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T05:30:32.711976+00:00",
+   "symbol": "Faucet",
+   "mint": "8PDdpHqRavHphRYw6dauzidnx7M83g2gi4gbLn3wpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.413e-05,
+   "mcap": 34136,
+   "liq": 14661.41,
+   "h1": -25.72,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T05:00:44.344996+00:00",
    "symbol": "BTC",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T00:30:34.849839+00:00",
-   "symbol": "NVIDIA",
-   "mint": "8HLccNdQmkVeEBBh8ndVHPQxyEmrKmoeCr4hwVKHpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0003621,
-   "mcap": 362115,
-   "liq": 49645.88,
-   "h1": 738,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T00:30:34.845621+00:00",
-   "symbol": "TNUT",
-   "mint": "6mosQx7PJFRRLAkidpfDLBiAR9WNfofQA8AbGnuBpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 7.791e-05,
-   "mcap": 77919,
-   "liq": 23036.56,
-   "h1": 81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T00:30:34.840763+00:00",
-   "symbol": "GRAIL",
-   "mint": "3mmJxTGRKSWNMikyG3o6VHrZxFj3LFbEJzcpvT6Qpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 2.714e-05,
-   "mcap": 27111,
-   "liq": 12576.64,
-   "h1": -41.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -866,6 +866,21 @@
    "last": "2026-10-17 20:30 UTC"
   },
   {
+   "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
+   "hits": 15,
+   "symbols": [
+    "FIGHT",
+    "SEAN",
+    "XTO",
+    "SYCAMORE",
+    "Groklet",
+    "GLITCH",
+    "FTR",
+    "CATONICE"
+   ],
+   "last": "2026-10-19 05:30 UTC"
+  },
+  {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
    "hits": 14,
    "symbols": [
@@ -879,21 +894,6 @@
     "koinu"
    ],
    "last": "2026-10-18 14:30 UTC"
-  },
-  {
-   "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
-   "hits": 14,
-   "symbols": [
-    "SNDWITCH",
-    "FIGHT",
-    "SEAN",
-    "XTO",
-    "SYCAMORE",
-    "Groklet",
-    "GLITCH",
-    "FTR"
-   ],
-   "last": "2026-10-18 10:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -981,32 +981,32 @@
   {
    "symbol": "mucron",
    "tag": "WATCH",
-   "h1": 16.5,
-   "ts": "2026-10-19 05:00 UTC"
+   "h1": 10.1,
+   "ts": "2026-10-19 05:30 UTC"
   },
   {
    "symbol": "CATONICE",
    "tag": "WATCH",
-   "h1": -13.1,
-   "ts": "2026-10-19 05:00 UTC"
+   "h1": -19.9,
+   "ts": "2026-10-19 05:30 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": 10.8,
-   "ts": "2026-10-19 05:00 UTC"
+   "h1": 0.5,
+   "ts": "2026-10-19 05:30 UTC"
   },
   {
    "symbol": "sir",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-10-19 05:00 UTC"
+   "h1": -14.0,
+   "ts": "2026-10-19 05:30 UTC"
   },
   {
    "symbol": "Doomsday",
-   "tag": "WATCH",
-   "h1": -12.1,
-   "ts": "2026-10-19 05:00 UTC"
+   "tag": "FADING",
+   "h1": -23.4,
+   "ts": "2026-10-19 05:30 UTC"
   },
   {
    "symbol": "Echo",
