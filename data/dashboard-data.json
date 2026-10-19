@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T09:04:27.599931+00:00",
+ "generated": "2026-10-19T09:34:27.764867+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1046,
-  "cohort_wallets": 1771,
+  "cohort_runs": 1047,
+  "cohort_wallets": 1792,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -50,7 +50,7 @@
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T09:30:49.010488+00:00",
+   "symbol": "FOMO",
+   "mint": "LeQkWqLeGazaAG9ccHf7EaPgRdrZe8aqxrxHj2Lpump",
+   "score": 83,
+   "decision": "SKIP",
+   "reason": "Score 83 below threshold 85",
+   "entry_price": 0.0003864,
+   "mcap": 386475,
+   "liq": 51807.28,
+   "h1": 779,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T09:00:36.677878+00:00",
    "symbol": "SPSI",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T03:00:40.303389+00:00",
-   "symbol": "PCAT",
-   "mint": "2obGYb3b6nHFNetu9Kka92vhuks5wX2kVGeUGmZjzsqu",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 4.015e-05,
-   "mcap": 38522,
-   "liq": 16600.8,
-   "h1": -20.59,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "FTR",
     "mucron"
    ],
-   "last": "2026-10-19 07:30 UTC"
+   "last": "2026-10-19 09:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -878,7 +878,7 @@
     "FTR",
     "CATONICE"
    ],
-   "last": "2026-10-19 05:30 UTC"
+   "last": "2026-10-19 09:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -974,21 +974,21 @@
   },
   {
    "symbol": "mucron",
-   "tag": "FADING",
-   "h1": -23.5,
-   "ts": "2026-10-19 09:00 UTC"
+   "tag": "WATCH",
+   "h1": 3.2,
+   "ts": "2026-10-19 09:30 UTC"
   },
   {
    "symbol": "CATONICE",
    "tag": "FADING",
-   "h1": -40.2,
-   "ts": "2026-10-19 09:00 UTC"
+   "h1": -70.2,
+   "ts": "2026-10-19 09:30 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": 11.3,
-   "ts": "2026-10-19 09:00 UTC"
+   "h1": -5.8,
+   "ts": "2026-10-19 09:30 UTC"
   },
   {
    "symbol": "sir",
@@ -999,8 +999,8 @@
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": -10.5,
-   "ts": "2026-10-19 09:00 UTC"
+   "h1": -5.4,
+   "ts": "2026-10-19 09:30 UTC"
   },
   {
    "symbol": "Echo",
