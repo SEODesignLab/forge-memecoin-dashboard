@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T04:34:25.795903+00:00",
+ "generated": "2026-10-19T05:04:26.007945+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1037,
-  "cohort_wallets": 1500,
+  "cohort_runs": 1038,
+  "cohort_wallets": 1530,
   "cohort_qualified": 79,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 24
+   "count": 25
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -49,11 +49,11 @@
    "count": 16
   },
   {
-   "reason": "Score 83 below threshold 85",
-   "count": 14
+   "reason": "Top holder 13.3% > 12% gate",
+   "count": 13
   },
   {
-   "reason": "Top holder 13.3% > 12% gate",
+   "reason": "Score 83 below threshold 85",
    "count": 13
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T05:00:44.344996+00:00",
+   "symbol": "BTC",
+   "mint": "TZvHZtD9Xvsq5CT18pCAjPvn3UZ9jfY5Xn5bSxspump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 6.15e-06,
+   "mcap": 6151,
+   "liq": 5024.23,
+   "h1": -86.43,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T04:30:38.987031+00:00",
    "symbol": "XBT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T00:00:45.598016+00:00",
-   "symbol": "CHAIN",
-   "mint": "47huugjVa2m9qva38hDSKofpqSQ7Vg3e7MTRf1Ugpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 5.084e-05,
-   "mcap": 50844,
-   "liq": 17796.63,
-   "h1": 9.67,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -923,7 +923,7 @@
     "Pumpoween",
     "mucron"
    ],
-   "last": "2026-10-19 03:30 UTC"
+   "last": "2026-10-19 05:00 UTC"
   },
   {
    "wallet": "wJDv8gqP8TFqUJdLGdrVpEA1vJ8sdMWiqkHT9ubCEmn",
@@ -942,12 +942,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "GLITCH",
-   "tag": "WATCH",
-   "h1": 5.3,
-   "ts": "2026-10-18 22:00 UTC"
-  },
   {
    "symbol": "FTR",
    "tag": "WATCH",
@@ -987,32 +981,38 @@
   {
    "symbol": "mucron",
    "tag": "WATCH",
-   "h1": -16.2,
-   "ts": "2026-10-19 04:30 UTC"
+   "h1": 16.5,
+   "ts": "2026-10-19 05:00 UTC"
   },
   {
    "symbol": "CATONICE",
-   "tag": "FADING",
-   "h1": -41.4,
-   "ts": "2026-10-19 04:30 UTC"
+   "tag": "WATCH",
+   "h1": -13.1,
+   "ts": "2026-10-19 05:00 UTC"
   },
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": -12.9,
-   "ts": "2026-10-19 04:30 UTC"
+   "h1": 10.8,
+   "ts": "2026-10-19 05:00 UTC"
   },
   {
    "symbol": "sir",
    "tag": "WATCH",
-   "h1": 8.6,
-   "ts": "2026-10-19 04:30 UTC"
+   "h1": -5.2,
+   "ts": "2026-10-19 05:00 UTC"
   },
   {
    "symbol": "Doomsday",
    "tag": "WATCH",
-   "h1": 34.9,
-   "ts": "2026-10-19 04:30 UTC"
+   "h1": -12.1,
+   "ts": "2026-10-19 05:00 UTC"
+  },
+  {
+   "symbol": "Echo",
+   "tag": "WATCH",
+   "h1": -2.0,
+   "ts": "2026-10-19 05:00 UTC"
   }
  ],
  "live_closes": [
