@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T18:04:40.851078+00:00",
+ "generated": "2026-10-19T18:34:40.999061+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1064,
-  "cohort_wallets": 1606,
-  "cohort_qualified": 79,
+  "cohort_runs": 1065,
+  "cohort_wallets": 1627,
+  "cohort_qualified": 80,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 27
+   "count": 26
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -54,15 +54,15 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 11
+   "count": 12
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 10
+   "count": 9
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
-   "count": 7
+   "count": 8
   },
   {
    "reason": "Top holder 18.7% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-19T18:30:51.756289+00:00",
+   "symbol": "USI",
+   "mint": "7VHZeQTTbSgnVSeqTfhazoz5C8WVTFLqsSwz1D2xpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 12.2% > 12% gate",
+   "entry_price": 0.0001338,
+   "mcap": 133885,
+   "liq": 29890.29,
+   "h1": 200,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T18:30:51.751731+00:00",
+   "symbol": "MrBeast",
+   "mint": "DGKm8RYiuBtFFLRYWY8tqC8nbmPuhVGNJtC3BVwepump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 13.3% > 12% gate",
+   "entry_price": 0.0004336,
+   "mcap": 433642,
+   "liq": 54435.05,
+   "h1": 906,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-19T18:30:51.746754+00:00",
+   "symbol": "YouTube",
+   "mint": "3mgGN6ehHuVZE6oTMs83BfWGNSZihAVs2zabYU68pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.0004264,
+   "mcap": 426438,
+   "liq": 53951.75,
+   "h1": 891,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-19T18:01:16.878108+00:00",
    "symbol": "Claude AI",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T15:31:10.298670+00:00",
-   "symbol": "supertrilly",
-   "mint": "7qej4kzq5hD6WXnwhqt8DF9aDKQJJKQYB6K6kq1mpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 4.781e-05,
-   "mcap": 47778,
-   "liq": 16956.44,
-   "h1": 9.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T15:31:10.290995+00:00",
-   "symbol": "BAGUETTE",
-   "mint": "DURNeFdg7ws8ZVGrQBstxGeRRECYV9Jn3PLwLkFpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 23.1% > 12% gate",
-   "entry_price": 3.813e-05,
-   "mcap": 38065,
-   "liq": 14968.77,
-   "h1": -11.25,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-19T15:31:10.286313+00:00",
-   "symbol": "TOGI",
-   "mint": "1qV5QEr1DXFUHPTP5uMZaJvrBGnNGEccoRy4CUvpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 15.1% > 12% gate",
-   "entry_price": 5.661e-05,
-   "mcap": 56512,
-   "liq": 18969.5,
-   "h1": 28.9,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 59,
+   "hits": 60,
    "symbols": [
-    "Satoshi",
     "GLITCH",
     "iMolest ",
     "koinu",
     "AFC",
     "mucron",
     "startupSI",
-    "Groklet"
+    "Groklet",
+    "ELONDOG"
    ],
-   "last": "2026-10-19 18:00 UTC"
+   "last": "2026-10-19 18:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,8 +981,8 @@
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-10-19 18:00 UTC"
+   "h1": 8.7,
+   "ts": "2026-10-19 18:30 UTC"
   },
   {
    "symbol": "sir",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "Doomsday",
-   "tag": "FADING",
-   "h1": -72.8,
-   "ts": "2026-10-19 18:00 UTC"
+   "tag": "WATCH",
+   "h1": -5.1,
+   "ts": "2026-10-19 18:30 UTC"
   },
   {
    "symbol": "Echo",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "ELONDOG",
    "tag": "WATCH",
-   "h1": -2.3,
-   "ts": "2026-10-19 18:00 UTC"
+   "h1": -15.0,
+   "ts": "2026-10-19 18:30 UTC"
   }
  ],
  "live_closes": [
