@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T21:04:50.274345+00:00",
+ "generated": "2026-10-20T21:34:50.395283+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1118,
-  "cohort_wallets": 1940,
+  "cohort_runs": 1119,
+  "cohort_wallets": 1961,
   "cohort_qualified": 84,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 66
+   "count": 67
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -61,19 +61,94 @@
    "count": 9
   },
   {
+   "reason": "Top holder 13.5% > 12% gate",
+   "count": 7
+  },
+  {
    "reason": "Top holder 13.6% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 13.5% > 12% gate",
-   "count": 6
-  },
-  {
-   "reason": "Top holder 17.8% > 12% gate",
+   "reason": "Top holder 14.7% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-20T21:31:12.508686+00:00",
+   "symbol": "SpaceX AI",
+   "mint": "8mJXikSA9sx5pnuvx9EzNXPVTYDM1G9CcPkeAwkkpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.0004082,
+   "mcap": 408243,
+   "liq": 53495.94,
+   "h1": 821,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T21:31:12.504422+00:00",
+   "symbol": "nano",
+   "mint": "4ArpMBUQj7Ypygd6wAheNuBcmooFiaefxbepfUkupump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 5.749e-05,
+   "mcap": 57492,
+   "liq": 19265.69,
+   "h1": 32.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T21:31:12.499430+00:00",
+   "symbol": "BULLRUN",
+   "mint": "8pMi9vFFdkVgKgVjTBhVfwwY3qch3mPgpAxcVmE4pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 21.2% > 12% gate",
+   "entry_price": 4.114e-05,
+   "mcap": 41144,
+   "liq": 15732.93,
+   "h1": -7.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T21:31:12.495023+00:00",
+   "symbol": "DACAT",
+   "mint": "2gJBAZVtxFcQzj3NQDKgqKbpECh6epSoq8Mzu4Fupump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002203,
+   "mcap": 220318,
+   "liq": 38942.26,
+   "h1": 312,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T21:31:12.488483+00:00",
+   "symbol": "X",
+   "mint": "pam1VM2Y1Syi8Vj36sWLsAyYwav325DdxYcECZUpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0003332,
+   "mcap": 333228,
+   "liq": 48147.04,
+   "h1": 652,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-20T21:01:41.764980+00:00",
    "symbol": "SXSI",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T19:01:23.529555+00:00",
-   "symbol": "ILLUSTRATOR",
-   "mint": "ETVsGFnykwYerYw2UY4t28G4mkkgAhtG4h6uyiqMpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 17.3% > 12% gate",
-   "entry_price": 6.666e-05,
-   "mcap": 66664,
-   "liq": 21752.8,
-   "h1": 41.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T19:01:23.521995+00:00",
-   "symbol": "SpaceX AI",
-   "mint": "4gTidDBE6oGhvrSLQizttLFdrzJZehiuBdx2aFhLpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 0.0004553,
-   "mcap": 455305,
-   "liq": 56432.15,
-   "h1": 934,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T19:01:23.515768+00:00",
-   "symbol": "CHADRIC",
-   "mint": "8Hav2gKt4jZqxwdA39WfmzUyNYB9B1Q9wY9rV5aEungX",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 23.7% > 12% gate",
-   "entry_price": 3.62e-05,
-   "mcap": 36202,
-   "liq": 16460.83,
-   "h1": -18.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T19:01:23.511490+00:00",
-   "symbol": "API",
-   "mint": "ES3C6PQNaRLhTw8sPJMz9K67PXHDxYpMJ4ZDBjYpump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 3.592e-05,
-   "mcap": 35873,
-   "liq": 14823.11,
-   "h1": -21.19,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T19:01:23.507172+00:00",
-   "symbol": "DACITY",
-   "mint": "F6Kw7crAAXQp4hjXVSe8ZuyvnaLyjvJDVBpcxGUFpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002101,
-   "mcap": 210128,
-   "liq": 39001.12,
-   "h1": 277,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 61,
+   "hits": 62,
    "symbols": [
-    "iMolest ",
     "koinu",
     "AFC",
     "mucron",
     "startupSI",
     "Groklet",
     "ELONDOG",
-    "DUST"
+    "DUST",
+    "texcat"
    ],
-   "last": "2026-10-20 19:30 UTC"
+   "last": "2026-10-20 21:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Doomsday",
-   "tag": "WATCH",
-   "h1": -5.1,
-   "ts": "2026-10-19 18:30 UTC"
-  },
-  {
    "symbol": "Echo",
    "tag": "WATCH",
    "h1": -2.0,
@@ -993,8 +987,8 @@
   {
    "symbol": "DUST",
    "tag": "WATCH",
-   "h1": -14.9,
-   "ts": "2026-10-20 21:00 UTC"
+   "h1": -7.8,
+   "ts": "2026-10-20 21:30 UTC"
   },
   {
    "symbol": "Twyne",
@@ -1005,14 +999,20 @@
   {
    "symbol": "pika",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-10-20 21:00 UTC"
+   "h1": 4.5,
+   "ts": "2026-10-20 21:30 UTC"
   },
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-10-20 21:00 UTC"
+   "h1": 19.8,
+   "ts": "2026-10-20 21:30 UTC"
+  },
+  {
+   "symbol": "texcat",
+   "tag": "WATCH",
+   "h1": -3.7,
+   "ts": "2026-10-20 21:30 UTC"
   }
  ],
  "live_closes": [
