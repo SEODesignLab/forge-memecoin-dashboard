@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T16:04:48.639318+00:00",
+ "generated": "2026-10-20T16:34:48.765013+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1108,
-  "cohort_wallets": 1748,
+  "cohort_runs": 1109,
+  "cohort_wallets": 1765,
   "cohort_qualified": 83,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 68
+   "count": 67
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 21
+   "count": 22
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -54,7 +54,7 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 9
+   "count": 8
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -62,7 +62,7 @@
   },
   {
    "reason": "Top holder 17.8% > 12% gate",
-   "count": 5
+   "count": 6
   },
   {
    "reason": "Top holder 18.1% > 12% gate",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-20T16:31:00.338147+00:00",
+   "symbol": "playpve",
+   "mint": "bJPCXNhKLTeu99NzAhx5mz2AMAsJGUk2bxr67bZpump",
+   "score": 81,
+   "decision": "SKIP",
+   "reason": "Score 81 below threshold 85",
+   "entry_price": 0.000349,
+   "mcap": 349001,
+   "liq": 49093.48,
+   "h1": 695,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T16:31:00.333872+00:00",
+   "symbol": "ARTEMI",
+   "mint": "7gUDvf45et6627atavR45Md4BjgYqJHMZe9EPqeR9Sya",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001691,
+   "mcap": 169160,
+   "liq": 36856.08,
+   "h1": 287,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T16:31:00.327366+00:00",
+   "symbol": "Pok\u00e9pad",
+   "mint": "5UHVgDgSJtwBexyypLqoaSnDRh5KfH5kUXPd8oxopump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 24.0% > 12% gate",
+   "entry_price": 3.056e-05,
+   "mcap": 30527,
+   "liq": 13294.09,
+   "h1": -30.8,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T16:31:00.323081+00:00",
+   "symbol": "PACKMON",
+   "mint": "HdZQD8Q6AhJUzLx1Tx4xdftRXqC9qQ6WtR4N6N8Ppump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 22.7% > 12% gate",
+   "entry_price": 4.373e-05,
+   "mcap": 43732,
+   "liq": 16261.41,
+   "h1": -0.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T16:31:00.318220+00:00",
+   "symbol": "PROTECT",
+   "mint": "5NqtT3jdHXSZ6bHjyZ1X8edg1vUoMPovqJH8gkHYpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 17.8% > 12% gate",
+   "entry_price": 5.73e-05,
+   "mcap": 57256,
+   "liq": 19850.64,
+   "h1": 16.84,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-20T16:01:09.979983+00:00",
    "symbol": "GATGPT",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T12:01:04.396379+00:00",
-   "symbol": "PI",
-   "mint": "6VLqhqGmwDJP9xSK6G2dyHmhWs87HJb2ndTRhGkKpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 6.514e-05,
-   "mcap": 65141,
-   "liq": 20895.11,
-   "h1": 40.23,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T11:31:04.779780+00:00",
-   "symbol": "Pump\u00e9mon",
-   "mint": "6KQA67U7YpwkCUwpXCNj5YUYyF29fHfrLPGRAQ7zpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 18.5% > 12% gate",
-   "entry_price": 5.158e-05,
-   "mcap": 51585,
-   "liq": 18999.23,
-   "h1": 16.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T11:31:04.775288+00:00",
-   "symbol": "LAIFU",
-   "mint": "AWPwtMJf8UFpqJWuV5kyY5RyiXC4RrPNwSsd2Ng7pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 42.0% > 12% gate",
-   "entry_price": 1.734e-05,
-   "mcap": 17349,
-   "liq": 9691.92,
-   "h1": -59.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T11:31:04.770926+00:00",
-   "symbol": "LIFA",
-   "mint": "Fxg6uAWLm7HTyDvhSwz8FX7yvdaSPGKzzijuBW1hpump",
-   "score": 83,
-   "decision": "SKIP",
-   "reason": "Score 83 below threshold 85",
-   "entry_price": 2.667e-05,
-   "mcap": 26675,
-   "liq": 12385.14,
-   "h1": -40.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T11:31:04.765932+00:00",
-   "symbol": "ONION",
-   "mint": "669Df9CmNckBxf3jAx6F7rS8XsAXATcS8dPXjqwXpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 14.7% > 12% gate",
-   "entry_price": 0.00012,
-   "mcap": 120063,
-   "liq": 28471.08,
-   "h1": 180,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -878,22 +878,22 @@
     "CATONICE",
     "DUST"
    ],
-   "last": "2026-10-20 16:00 UTC"
+   "last": "2026-10-20 16:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
-   "hits": 15,
+   "hits": 16,
    "symbols": [
-    "catius",
     "SI276",
     "qOMPUTE",
     "Bumo",
     "SR",
     "GLITCH",
     "mucron",
-    "Doomsday"
+    "Doomsday",
+    "DUST"
    ],
-   "last": "2026-10-19 08:30 UTC"
+   "last": "2026-10-20 16:30 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "DUST",
-   "tag": "WATCH",
-   "h1": -17.8,
-   "ts": "2026-10-20 16:00 UTC"
+   "tag": "FADING",
+   "h1": -38.5,
+   "ts": "2026-10-20 16:30 UTC"
   },
   {
    "symbol": "Twyne",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": -10.8,
-   "ts": "2026-10-20 16:00 UTC"
+   "h1": -13.9,
+   "ts": "2026-10-20 16:30 UTC"
   }
  ],
  "live_closes": [
