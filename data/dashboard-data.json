@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T09:04:46.264356+00:00",
+ "generated": "2026-10-20T09:34:46.392385+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1094,
-  "cohort_wallets": 1583,
+  "cohort_runs": 1095,
+  "cohort_wallets": 1604,
   "cohort_qualified": 81,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 75
+   "count": 73
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 23
+   "count": 24
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -70,10 +70,55 @@
   },
   {
    "reason": "Top holder 15.2% > 12% gate",
-   "count": 5
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-20T09:31:05.759074+00:00",
+   "symbol": "Pok\u00e9mon",
+   "mint": "ESsWeueSNdzRFcRcDBo136uoXDpCbDC6Ky5bkgYtpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 9.213e-05,
+   "mcap": 92136,
+   "liq": 24822.51,
+   "h1": 104,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T09:31:05.747800+00:00",
+   "symbol": "Haiku",
+   "mint": "CRWCzAr2CmHmqfNTFfJFpNVF1jtuw1WMGSnhAL6ypump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 21.9% > 12% gate",
+   "entry_price": 3.761e-05,
+   "mcap": 37612,
+   "liq": 14799.78,
+   "h1": -13.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-20T09:31:05.742869+00:00",
+   "symbol": "Pump",
+   "mint": "DxwELAuxJ4bCNEGkpmnB3VGhfD8XdgCKf2LaJ5v6pump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 7.385e-06,
+   "mcap": 7385,
+   "liq": 6945.79,
+   "h1": -83,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-20T09:01:07.511783+00:00",
    "symbol": "NVIDIA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T05:01:07.916612+00:00",
-   "symbol": "Grok",
-   "mint": "CrrPh5gmJ1NafJen2ub8Wd2WnmytCBuxGB9MoRsapump",
-   "score": 80,
-   "decision": "SKIP",
-   "reason": "Score 80 below threshold 85",
-   "entry_price": 0.0004493,
-   "mcap": 449378,
-   "liq": 55837.33,
-   "h1": 929,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T05:01:07.912343+00:00",
-   "symbol": "Apple",
-   "mint": "qx6Rq47mr1eEsdrHDsUFEqxb9CS2FBdSTufqNs6pump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.6% > 12% gate",
-   "entry_price": 0.0004001,
-   "mcap": 400176,
-   "liq": 52563.94,
-   "h1": 816,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-20T05:01:07.906663+00:00",
-   "symbol": "Lucia",
-   "mint": "cTHXie8bzQerPPgzPQYfknksFhT8dXX9rXyU7dspump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 7.131e-05,
-   "mcap": 71316,
-   "liq": 21880.06,
-   "h1": 53.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "startupSI",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-10-20 09:00 UTC"
+   "h1": 3.5,
+   "ts": "2026-10-20 09:30 UTC"
   },
   {
    "symbol": "sir",
@@ -988,7 +988,7 @@
    "symbol": "broomy",
    "tag": "WATCH",
    "h1": 3.2,
-   "ts": "2026-10-20 09:00 UTC"
+   "ts": "2026-10-20 09:30 UTC"
   },
   {
    "symbol": "Un",
@@ -999,20 +999,20 @@
   {
    "symbol": "aDOGymous",
    "tag": "WATCH",
-   "h1": 10.5,
-   "ts": "2026-10-20 09:00 UTC"
+   "h1": 4.1,
+   "ts": "2026-10-20 09:30 UTC"
   },
   {
    "symbol": "DUST",
    "tag": "WATCH",
-   "h1": 5.9,
-   "ts": "2026-10-20 09:00 UTC"
+   "h1": 10.8,
+   "ts": "2026-10-20 09:30 UTC"
   },
   {
    "symbol": "Twyne",
    "tag": "FADING",
-   "h1": -30.8,
-   "ts": "2026-10-20 09:00 UTC"
+   "h1": -35.0,
+   "ts": "2026-10-20 09:30 UTC"
   }
  ],
  "live_closes": [
