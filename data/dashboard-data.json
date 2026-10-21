@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T05:34:52.950112+00:00",
+ "generated": "2026-10-21T06:04:53.137542+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1135,
-  "cohort_wallets": 1769,
+  "cohort_runs": 1136,
+  "cohort_wallets": 1793,
   "cohort_qualified": 86,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 70
+   "count": 71
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 25
+   "count": 24
   },
   {
    "reason": "Score 81 below threshold 85",
@@ -50,11 +50,11 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 15
+   "count": 16
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 14
+   "count": 10
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-21T06:01:24.303752+00:00",
+   "symbol": "XHOLDINGS",
+   "mint": "HjwGH7fpag8KrKQDGrGKitWgJPaTmH7JQtVbrca2pump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "Top holder 19.0% > 12% gate",
+   "entry_price": 5.513e-05,
+   "mcap": 55086,
+   "liq": 18534.97,
+   "h1": 22.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T06:01:24.299574+00:00",
+   "symbol": "DeepSeek",
+   "mint": "aA4Y9jpKH67ociZBZGFCxkr8oQ16zMwbUfRx21Qpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.000459,
+   "mcap": 459026,
+   "liq": 56585.04,
+   "h1": 943,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T06:01:24.295325+00:00",
+   "symbol": "KIMCHINU",
+   "mint": "F1g55qmPRKUEbPZAykKQyiV6VjLBg9mTb513Eknqpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003506,
+   "mcap": 350680,
+   "liq": 49394.26,
+   "h1": 476,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T06:01:24.289608+00:00",
+   "symbol": "SKIB",
+   "mint": "BsHJwwhVqLc6BD5HXktEXbBVvKvxdVzuu8Wy2SrWpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.964e-05,
+   "mcap": 49645,
+   "liq": 17353.19,
+   "h1": 14.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T06:01:24.285106+00:00",
+   "symbol": "TESLA SI",
+   "mint": "6j8T33cEnhJSKcfp2mDJ4iFapJcDi4jQpr2CSkmGpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 28.0% > 12% gate",
+   "entry_price": 5.567e-05,
+   "mcap": 55665,
+   "liq": 18544.3,
+   "h1": 26.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-21T05:31:12.045721+00:00",
    "symbol": "kimchi/acc",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T02:01:12.299002+00:00",
-   "symbol": "CPU",
-   "mint": "cpuxtvVNNVGDHpk1MHyv4cC6d1rFmHBf7xAJCPHF3NY",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 12.1% > 12% gate",
-   "entry_price": 0.0001457,
-   "mcap": 145726,
-   "liq": 37139.8,
-   "h1": 254,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T02:01:12.293114+00:00",
-   "symbol": "ORANGIE",
-   "mint": "CdXHgb7CboQfbTRZwH2AFnmVnDKuwkrPUFp4jt53pump",
-   "score": 84,
-   "decision": "SKIP",
-   "reason": "Score 84 below threshold 85",
-   "entry_price": 6.156e-05,
-   "mcap": 61478,
-   "liq": 20344.47,
-   "h1": 42.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T01:31:17.431156+00:00",
-   "symbol": "pill",
-   "mint": "3cGgc12WozQfKJMg9g4Xbe34QugpcXc1UXfBVjT6pump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 14.9% > 12% gate",
-   "entry_price": 8.4e-05,
-   "mcap": 83886,
-   "liq": 24021.33,
-   "h1": 93.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T01:31:17.423563+00:00",
-   "symbol": "Kimchi",
-   "mint": "H65AR2uc7ayWuoHHHuKVVDz28xBkeBBzrvYmN5x2pump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Liquidity $19459 < $25000",
-   "entry_price": 5.935e-05,
-   "mcap": 59334,
-   "liq": 19458.89,
-   "h1": 5.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T01:31:17.416206+00:00",
-   "symbol": "Apple",
-   "mint": "9CE9Rw1fxBVG3iECbQhoQm2XdsrMkG8zCmXXncy1pump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004342,
-   "mcap": 434257,
-   "liq": 55248.83,
-   "h1": 881,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -806,6 +806,21 @@
    "last": "2026-10-21 05:30 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 21,
+   "symbols": [
+    "XTO",
+    "PONK",
+    "CBUCKS",
+    "XSTOK",
+    "Ventrion",
+    "koinu",
+    "DUST",
+    "GATO"
+   ],
+   "last": "2026-10-21 06:00 UTC"
+  },
+  {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
    "hits": 20,
    "symbols": [
@@ -819,21 +834,6 @@
     "GLITCH"
    ],
    "last": "2026-10-18 05:30 UTC"
-  },
-  {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 20,
-   "symbols": [
-    "swordcat",
-    "XTO",
-    "PONK",
-    "CBUCKS",
-    "XSTOK",
-    "Ventrion",
-    "koinu",
-    "DUST"
-   ],
-   "last": "2026-10-21 00:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -923,7 +923,7 @@
     "DUST",
     "texcat"
    ],
-   "last": "2026-10-21 05:30 UTC"
+   "last": "2026-10-21 06:00 UTC"
   },
   {
    "wallet": "wJDv8gqP8TFqUJdLGdrVpEA1vJ8sdMWiqkHT9ubCEmn",
@@ -987,32 +987,32 @@
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": 29.6,
-   "ts": "2026-10-21 05:30 UTC"
+   "h1": -4.2,
+   "ts": "2026-10-21 06:00 UTC"
   },
   {
    "symbol": "texcat",
    "tag": "WATCH",
-   "h1": -12.9,
-   "ts": "2026-10-21 05:30 UTC"
+   "h1": -15.2,
+   "ts": "2026-10-21 06:00 UTC"
   },
   {
    "symbol": "KIMCHI",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-10-21 05:30 UTC"
+   "h1": 28.4,
+   "ts": "2026-10-21 06:00 UTC"
   },
   {
    "symbol": "Pokecity",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-10-21 05:30 UTC"
+   "h1": 20.7,
+   "ts": "2026-10-21 06:00 UTC"
   },
   {
    "symbol": "GATO",
    "tag": "WATCH",
-   "h1": 17.3,
-   "ts": "2026-10-21 05:30 UTC"
+   "h1": 27.2,
+   "ts": "2026-10-21 06:00 UTC"
   }
  ],
  "live_closes": [
