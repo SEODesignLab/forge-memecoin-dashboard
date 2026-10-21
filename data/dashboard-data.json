@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T08:04:53.773477+00:00",
+ "generated": "2026-10-21T08:34:53.911323+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1140,
-  "cohort_wallets": 1899,
+  "cohort_runs": 1141,
+  "cohort_wallets": 1926,
   "cohort_qualified": 86,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Score 80 below threshold 85",
-   "count": 30
+   "count": 31
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -42,15 +42,15 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 23
+   "count": 22
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 17
+   "count": 19
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 15
+   "count": 14
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-21T08:31:14.085745+00:00",
+   "symbol": "visioner",
+   "mint": "HizwEB1ywB4wrHBYtBf5R7hotsuidonJPAiHCGxpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0004531,
+   "mcap": 453040,
+   "liq": 56449.87,
+   "h1": 924,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T08:31:14.080034+00:00",
+   "symbol": "LARRY",
+   "mint": "36PbfTZdV73dzv8oQD9J8CHQuYgnybH7xnFmKKaLpump",
+   "score": 80,
+   "decision": "SKIP",
+   "reason": "Score 80 below threshold 85",
+   "entry_price": 1.613e-05,
+   "mcap": 16132,
+   "liq": 9622.66,
+   "h1": -63.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T08:31:14.072748+00:00",
+   "symbol": "MEME",
+   "mint": "65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump",
+   "score": 106,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0001179,
+   "mcap": 117922,
+   "liq": 29040.71,
+   "h1": 177,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-21T08:01:10.506085+00:00",
    "symbol": "Gemini",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T04:01:15.050330+00:00",
-   "symbol": "smol",
-   "mint": "8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 20.9% > 12% gate",
-   "entry_price": 4.61e-05,
-   "mcap": 46105,
-   "liq": 17948.47,
-   "h1": 4.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T04:01:15.045362+00:00",
-   "symbol": "SYLPH",
-   "mint": "AW8Eo7c6ZxvPQ2LadTydjS6q4wG7ixVkGSn6pX9mpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 66>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001473,
-   "mcap": 147084,
-   "liq": 31870.8,
-   "h1": 236,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T03:31:17.858625+00:00",
-   "symbol": "CHILLS",
-   "mint": "5GHF6TfrLsuErtey1aRDqsWpY97EmzjCLZ4YC7GJpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 25.1% > 12% gate",
-   "entry_price": 8.692e-05,
-   "mcap": 86782,
-   "liq": 23637.44,
-   "h1": 99.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "DUST",
     "texcat"
    ],
-   "last": "2026-10-21 08:00 UTC"
+   "last": "2026-10-21 08:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -987,32 +987,32 @@
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": -2.4,
-   "ts": "2026-10-21 08:00 UTC"
+   "h1": -18.4,
+   "ts": "2026-10-21 08:30 UTC"
   },
   {
    "symbol": "texcat",
    "tag": "WATCH",
-   "h1": -0.4,
-   "ts": "2026-10-21 08:00 UTC"
+   "h1": 0.8,
+   "ts": "2026-10-21 08:30 UTC"
   },
   {
    "symbol": "KIMCHI",
    "tag": "WATCH",
-   "h1": 5.4,
-   "ts": "2026-10-21 08:00 UTC"
+   "h1": 18.1,
+   "ts": "2026-10-21 08:30 UTC"
   },
   {
    "symbol": "Pokecity",
    "tag": "WATCH",
-   "h1": 20.0,
-   "ts": "2026-10-21 08:00 UTC"
+   "h1": 18.2,
+   "ts": "2026-10-21 08:30 UTC"
   },
   {
    "symbol": "GATO",
    "tag": "WATCH",
-   "h1": 2.8,
-   "ts": "2026-10-21 08:00 UTC"
+   "h1": -2.2,
+   "ts": "2026-10-21 08:30 UTC"
   }
  ],
  "live_closes": [
