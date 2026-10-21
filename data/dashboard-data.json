@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T11:04:54.765674+00:00",
+ "generated": "2026-10-21T11:34:54.916387+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1146,
-  "cohort_wallets": 1552,
+  "cohort_runs": 1147,
+  "cohort_wallets": 1576,
   "cohort_qualified": 87,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 72
+   "count": 73
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -38,7 +38,7 @@
   },
   {
    "reason": "Score 81 below threshold 85",
-   "count": 26
+   "count": 25
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Score 84 below threshold 85",
-   "count": 20
+   "count": 21
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -70,10 +70,55 @@
   },
   {
    "reason": "Top holder 15.2% > 12% gate",
-   "count": 5
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-21T11:31:19.082255+00:00",
+   "symbol": "Lovot",
+   "mint": "DKbvQ8qfePSZ2s58hrh5rDeWQrT5xvGe7VqWjMZHpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 0.0001038,
+   "mcap": 103851,
+   "liq": 26665.53,
+   "h1": 76.97,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T11:31:19.077857+00:00",
+   "symbol": "KIMCHINU",
+   "mint": "CKZ33iJPCk2EYA6tjDkEi3FujHTQuzrKtHcdUZPnpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0006657,
+   "mcap": 665702,
+   "liq": 69173.02,
+   "h1": 983,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-21T11:31:19.064538+00:00",
+   "symbol": "TRUMP",
+   "mint": "3JEe9dCTw17NCGzeKS5ZApv4qGQTjp6TJahGkndcpump",
+   "score": 84,
+   "decision": "SKIP",
+   "reason": "Score 84 below threshold 85",
+   "entry_price": 8.328e-05,
+   "mcap": 83281,
+   "liq": 23477.71,
+   "h1": 83.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-21T11:01:14.148875+00:00",
    "symbol": "KIMCHINU",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T07:31:10.704840+00:00",
-   "symbol": "CLAUSOTC",
-   "mint": "vi2zUPHQQvwsDCykmmQ8eYNf4ngA9z29dycaku3pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002057,
-   "mcap": 205751,
-   "liq": 39448.85,
-   "h1": 372,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T07:31:10.697217+00:00",
-   "symbol": "OpenAI",
-   "mint": "GZ3x3gkQE7spCYyYaoDNpgLAQYdUZgLvmvcrRtFNpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0005952,
-   "mcap": 595216,
-   "liq": 65006.69,
-   "h1": 1250,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T07:31:10.692277+00:00",
-   "symbol": "PUFF",
-   "mint": "7gRRpstZGRHpVdBE67VQJ9yjEd66MUCdsFcdrecwpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 9.805e-05,
-   "mcap": 98052,
-   "liq": 26565.38,
-   "h1": 125,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": 14.3,
-   "ts": "2026-10-21 11:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-10-21 11:30 UTC"
   },
   {
    "symbol": "texcat",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-10-21 11:00 UTC"
+   "h1": -8.9,
+   "ts": "2026-10-21 11:30 UTC"
   },
   {
    "symbol": "KIMCHI",
    "tag": "FADING",
-   "h1": -44.9,
-   "ts": "2026-10-21 11:00 UTC"
+   "h1": -84.9,
+   "ts": "2026-10-21 11:30 UTC"
   },
   {
    "symbol": "Pokecity",
    "tag": "WATCH",
-   "h1": 26.1,
-   "ts": "2026-10-21 11:00 UTC"
+   "h1": 78.5,
+   "ts": "2026-10-21 11:30 UTC"
   },
   {
    "symbol": "GATO",
    "tag": "WATCH",
-   "h1": 1.3,
-   "ts": "2026-10-21 11:00 UTC"
+   "h1": -1.0,
+   "ts": "2026-10-21 11:30 UTC"
   }
  ],
  "live_closes": [
