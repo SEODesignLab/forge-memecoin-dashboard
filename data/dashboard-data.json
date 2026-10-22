@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T01:04:59.345999+00:00",
+ "generated": "2026-10-22T01:34:59.493697+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1174,
-  "cohort_wallets": 1607,
+  "cohort_runs": 1175,
+  "cohort_wallets": 1627,
   "cohort_qualified": 89,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-22T01:31:20.071251+00:00",
+   "symbol": "fAu",
+   "mint": "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 15.6% > 12% gate",
+   "entry_price": 9.771e-05,
+   "mcap": 97719,
+   "liq": 26382.12,
+   "h1": 121,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-22T01:01:14.407003+00:00",
    "symbol": "fomo",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-21T21:31:24.985273+00:00",
-   "symbol": "BARRON",
-   "mint": "DFNRpTZFzgLZxJNnoj3czyMUokj13Mpzx4yCjQKpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0003779,
-   "mcap": 377909,
-   "liq": 51752.96,
-   "h1": 741,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 65,
+   "hits": 66,
    "symbols": [
-    "startupSI",
     "Groklet",
     "ELONDOG",
     "DUST",
     "texcat",
     "TRUMP",
     "GLITCH",
-    "GATO"
+    "GATO",
+    "SHADOW"
    ],
-   "last": "2026-10-22 01:00 UTC"
+   "last": "2026-10-22 01:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -776,6 +776,21 @@
    "last": "2026-10-21 02:30 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 22,
+   "symbols": [
+    "PONK",
+    "CBUCKS",
+    "XSTOK",
+    "Ventrion",
+    "koinu",
+    "DUST",
+    "GATO",
+    "GLITCH"
+   ],
+   "last": "2026-10-22 01:30 UTC"
+  },
+  {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
    "hits": 21,
    "symbols": [
@@ -804,21 +819,6 @@
     "GATO"
    ],
    "last": "2026-10-21 18:30 UTC"
-  },
-  {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 21,
-   "symbols": [
-    "XTO",
-    "PONK",
-    "CBUCKS",
-    "XSTOK",
-    "Ventrion",
-    "koinu",
-    "DUST",
-    "GATO"
-   ],
-   "last": "2026-10-21 20:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -950,9 +950,9 @@
   },
   {
    "symbol": "MONEYBIZ",
-   "tag": "WATCH",
-   "h1": 8.3,
-   "ts": "2026-10-22 01:00 UTC"
+   "tag": "FADING",
+   "h1": -72.0,
+   "ts": "2026-10-22 01:30 UTC"
   },
   {
    "symbol": "texcat",
@@ -975,8 +975,8 @@
   {
    "symbol": "GATO",
    "tag": "WATCH",
-   "h1": -18.9,
-   "ts": "2026-10-22 01:00 UTC"
+   "h1": -11.7,
+   "ts": "2026-10-22 01:30 UTC"
   },
   {
    "symbol": "TRUMP",
@@ -999,20 +999,20 @@
   {
    "symbol": "KimchiWeen",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-10-22 01:00 UTC"
+   "h1": 4.6,
+   "ts": "2026-10-22 01:30 UTC"
   },
   {
    "symbol": "SHADOW",
    "tag": "WATCH",
-   "h1": 18.9,
-   "ts": "2026-10-22 01:00 UTC"
+   "h1": 0.2,
+   "ts": "2026-10-22 01:30 UTC"
   },
   {
    "symbol": "KIMCHIBULL",
-   "tag": "FADING",
-   "h1": -33.3,
-   "ts": "2026-10-22 01:00 UTC"
+   "tag": "WATCH",
+   "h1": -12.7,
+   "ts": "2026-10-22 01:30 UTC"
   }
  ],
  "live_closes": [
