@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T07:04:01.294695+00:00",
+ "generated": "2026-10-22T07:34:01.444038+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1186,
-  "cohort_wallets": 1841,
-  "cohort_qualified": 92,
+  "cohort_runs": 1187,
+  "cohort_wallets": 1858,
+  "cohort_qualified": 93,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 79
+   "count": 80
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-22T07:30:16.627286+00:00",
+   "symbol": "TIB",
+   "mint": "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003061,
+   "mcap": 292095,
+   "liq": 48053.03,
+   "h1": 244,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-22T07:30:16.621499+00:00",
+   "symbol": "UberChad",
+   "mint": "3GsH56aE5TYHiDjxqdDmLZKpwVwMJHscgsDPyCAVpump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "Top holder 23.0% > 12% gate",
+   "entry_price": 3.531e-05,
+   "mcap": 35310,
+   "liq": 14602.93,
+   "h1": -27.03,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-22T07:30:16.616701+00:00",
+   "symbol": "PHP",
+   "mint": "7BZqbAWt4mSfm9xDeZ3VaRkbhzD7g17mSfBbz87hpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 26.0% > 12% gate",
+   "entry_price": 2.927e-05,
+   "mcap": 29271,
+   "liq": 12920.69,
+   "h1": -36.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-22T07:00:24.378816+00:00",
    "symbol": "AURACHI",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T02:31:21.079181+00:00",
-   "symbol": "OA",
-   "mint": "LwvhStw6Nv7qnmASe6RNoaFe1oMKEmqC4LFsnxcpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002452,
-   "mcap": 245249,
-   "liq": 41629.53,
-   "h1": 322,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T02:31:21.072478+00:00",
-   "symbol": "Pilly",
-   "mint": "2CvGN3ynUisRVdgeycFS6GrZZtyjxwtTPr9U1XPhpump",
-   "score": 81,
-   "decision": "SKIP",
-   "reason": "Score 81 below threshold 85",
-   "entry_price": 4.178e-05,
-   "mcap": 41784,
-   "liq": 16181,
-   "h1": -6.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T02:31:21.067831+00:00",
-   "symbol": "CYBERCOIN",
-   "mint": "F7q6cGpDRHewRpbGJ5P6e5pd1KGhv9gMbEYMmHPEpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001989,
-   "mcap": 198994,
-   "liq": 36832.7,
-   "h1": 328,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "GATO",
     "SHADOW"
    ],
-   "last": "2026-10-22 06:30 UTC"
+   "last": "2026-10-22 07:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -945,8 +945,8 @@
   {
    "symbol": "MONEYBIZ",
    "tag": "WATCH",
-   "h1": 10.8,
-   "ts": "2026-10-22 07:00 UTC"
+   "h1": 0.1,
+   "ts": "2026-10-22 07:30 UTC"
   },
   {
    "symbol": "texcat",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "SHADOW",
-   "tag": "FADING",
-   "h1": -21.4,
-   "ts": "2026-10-22 04:00 UTC"
+   "tag": "WATCH",
+   "h1": -15.0,
+   "ts": "2026-10-22 07:30 UTC"
   },
   {
    "symbol": "KIMCHIBULL",
    "tag": "WATCH",
-   "h1": 5.0,
-   "ts": "2026-10-22 07:00 UTC"
+   "h1": 7.4,
+   "ts": "2026-10-22 07:30 UTC"
   },
   {
    "symbol": "NOOX",
    "tag": "WATCH",
-   "h1": 14.3,
-   "ts": "2026-10-22 07:00 UTC"
+   "h1": -4.3,
+   "ts": "2026-10-22 07:30 UTC"
   }
  ],
  "live_closes": [
