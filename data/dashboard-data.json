@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:04:14.193152+00:00",
+ "generated": "2026-10-23T23:34:14.318203+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1266,
-  "cohort_wallets": 1679,
+  "cohort_runs": 1267,
+  "cohort_wallets": 1696,
   "cohort_qualified": 98,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 93
+   "count": 92
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T23:30:31.521081+00:00",
+   "symbol": "ENES",
+   "mint": "9ucwvjLyN25PoQVe98LYLrKjxfkA98sx1tzdNLNeNeS",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 34.0% > 12% gate",
+   "entry_price": 1.582e-05,
+   "mcap": 15821,
+   "liq": 10526.53,
+   "h1": -50.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T23:30:31.516765+00:00",
+   "symbol": "HTTP2Shell",
+   "mint": "AXjGazJbahWa9B2v5EcoTnQoRzPGCXW8U3tpLDvppump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 32.9% > 12% gate",
+   "entry_price": 1.617e-05,
+   "mcap": 16175,
+   "liq": 9097.31,
+   "h1": -61.95,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T23:30:31.512504+00:00",
+   "symbol": "RETURN",
+   "mint": "4f7UgLCxDKXB48FLp4hrM8TSfQpvvikeaeb3UByupump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 34.7% > 12% gate",
+   "entry_price": 1.721e-05,
+   "mcap": 17200,
+   "liq": 9524.45,
+   "h1": -59.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T23:30:31.507559+00:00",
+   "symbol": "KURIBO",
+   "mint": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 15.8% > 12% gate",
+   "entry_price": 8.673e-05,
+   "mcap": 86740,
+   "liq": 24138.71,
+   "h1": 104,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T23:00:41.461683+00:00",
    "symbol": "Grok",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T20:00:45.055107+00:00",
-   "symbol": "pilled",
-   "mint": "AVKYgzccwrWTNtW2ejz3VRthG3UYsVMmJ5piVEhzpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 8.392e-05,
-   "mcap": 83784,
-   "liq": 23769.21,
-   "h1": 83.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T19:30:28.092041+00:00",
-   "symbol": "KIMCHICITY",
-   "mint": "Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 16.5% > 12% gate",
-   "entry_price": 5.796e-05,
-   "mcap": 57968,
-   "liq": 19251.25,
-   "h1": 34.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T19:30:28.085438+00:00",
-   "symbol": "TRUMP2",
-   "mint": "5xF3SsxcWEBuZbD9ynHyUr5w73AbBjmaMYbZcD2opump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 19.9% > 12% gate",
-   "entry_price": 4.915e-05,
-   "mcap": 49155,
-   "liq": 17163.39,
-   "h1": 14.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T19:30:28.080051+00:00",
-   "symbol": "YMB",
-   "mint": "9HCJfz2LwkmQieYCyApuk6dVJRr6zX4nGbqnPV5Rpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004161,
-   "mcap": 416067,
-   "liq": 53301.94,
-   "h1": 866,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,20 +987,20 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": -14.3,
-   "ts": "2026-10-23 23:00 UTC"
+   "h1": -14.6,
+   "ts": "2026-10-23 23:30 UTC"
   },
   {
    "symbol": "ODIE",
-   "tag": "WATCH",
-   "h1": -17.2,
-   "ts": "2026-10-23 23:00 UTC"
+   "tag": "FADING",
+   "h1": -42.1,
+   "ts": "2026-10-23 23:30 UTC"
   },
   {
    "symbol": "PHP",
    "tag": "WATCH",
-   "h1": 15.9,
-   "ts": "2026-10-23 23:00 UTC"
+   "h1": -6.1,
+   "ts": "2026-10-23 23:30 UTC"
   },
   {
    "symbol": "McNugget",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "BITCHES",
    "tag": "WATCH",
-   "h1": 36.8,
-   "ts": "2026-10-23 23:00 UTC"
+   "h1": -6.5,
+   "ts": "2026-10-23 23:30 UTC"
   }
  ],
  "live_closes": [
