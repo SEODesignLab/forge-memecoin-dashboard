@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T08:04:09.538622+00:00",
+ "generated": "2026-10-23T08:34:09.660355+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1236,
-  "cohort_wallets": 1651,
+  "cohort_runs": 1237,
+  "cohort_wallets": 1670,
   "cohort_qualified": 95,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,12 +37,12 @@
    "count": 29
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Top holder 13.2% > 12% gate",
    "count": 26
   },
   {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 26
+   "reason": "Score 81 below threshold 85",
+   "count": 24
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T08:31:02.010587+00:00",
+   "symbol": "PULP",
+   "mint": "9xJtKxAcipy5K11nDgEAokNQ3AgGMGNT36zXebNipump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Top holder 18.5% > 12% gate",
+   "entry_price": 5.754e-05,
+   "mcap": 57542,
+   "liq": 20658.78,
+   "h1": 30.61,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T08:31:02.005751+00:00",
+   "symbol": "DeepSeek",
+   "mint": "PDQAy9cgdbw9VVbBKt1QY5pczEdKo8gmbaXnju9pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 15.3% > 12% gate",
+   "entry_price": 7.026e-05,
+   "mcap": 70264,
+   "liq": 20976.85,
+   "h1": 61.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T08:00:17.830134+00:00",
    "symbol": "GAINZY",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T02:00:24.937217+00:00",
-   "symbol": "Claude AI",
-   "mint": "iMjheLWDgyCzUaEbfNT83xBVXBxQyPKeMXZX9Hvpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 0.0007188,
-   "mcap": 718893,
-   "liq": 70735.93,
-   "h1": 1563,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T02:00:24.932889+00:00",
-   "symbol": "YouTube",
-   "mint": "FNJbLFK5S9279G5zhnp1yS3kRzet8dnpmeHBEd4pump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0003259,
-   "mcap": 325927,
-   "liq": 47009.42,
-   "h1": 655,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "SHADOW",
    "tag": "WATCH",
-   "h1": 8.8,
-   "ts": "2026-10-23 08:00 UTC"
+   "h1": 4.3,
+   "ts": "2026-10-23 08:30 UTC"
   },
   {
    "symbol": "KIMCHIBULL",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "VIRTUAL",
    "tag": "WATCH",
-   "h1": 3.7,
-   "ts": "2026-10-23 08:00 UTC"
+   "h1": 4.7,
+   "ts": "2026-10-23 08:30 UTC"
   },
   {
    "symbol": "zonki",
-   "tag": "WATCH",
-   "h1": -18.2,
-   "ts": "2026-10-23 08:00 UTC"
+   "tag": "FADING",
+   "h1": -26.6,
+   "ts": "2026-10-23 08:30 UTC"
   }
  ],
  "live_closes": [
