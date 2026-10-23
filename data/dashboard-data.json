@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T05:04:08.564323+00:00",
+ "generated": "2026-10-23T05:34:08.693325+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1230,
-  "cohort_wallets": 1553,
-  "cohort_qualified": 94,
+  "cohort_runs": 1231,
+  "cohort_wallets": 1570,
+  "cohort_qualified": 95,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -42,7 +42,7 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 26
+   "count": 27
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T05:30:19.947365+00:00",
+   "symbol": "Grok",
+   "mint": "U22mYGf12XuqXsWQBP5wruoepSExjny3csCWN4rpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0006002,
+   "mcap": 600260,
+   "liq": 64619.91,
+   "h1": 1285,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T05:00:26.466401+00:00",
    "symbol": "Robinhood",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T23:30:21.761716+00:00",
-   "symbol": "SUKI",
-   "mint": "8JUmK89f7v4m3LxcfHdpGhEoGjrEFpkvkx9XGJnjpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002253,
-   "mcap": 225350,
-   "liq": 39492.85,
-   "h1": 336,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 55,
+   "hits": 56,
    "symbols": [
-    "DUST",
     "Twyne",
     "texcat",
     "TRUMP",
     "GATO",
     "GLITCH",
     "SHADOW",
-    "CYBERCAT"
+    "CYBERCAT",
+    "TRENCHERS"
    ],
-   "last": "2026-10-22 22:30 UTC"
+   "last": "2026-10-23 05:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "TRUMP",
-   "tag": "CHASE",
-   "h1": 804.0,
-   "ts": "2026-10-21 20:30 UTC"
-  },
-  {
    "symbol": "chud",
    "tag": "WATCH",
    "h1": 0.0,
@@ -987,8 +981,8 @@
   {
    "symbol": "TRENCHERS",
    "tag": "WATCH",
-   "h1": 0.8,
-   "ts": "2026-10-23 05:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-10-23 05:30 UTC"
   },
   {
    "symbol": "MI",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "VIRTUAL",
    "tag": "WATCH",
-   "h1": -0.0,
-   "ts": "2026-10-23 05:00 UTC"
+   "h1": 2.6,
+   "ts": "2026-10-23 05:30 UTC"
+  },
+  {
+   "symbol": "zonki",
+   "tag": "WATCH",
+   "h1": 25.1,
+   "ts": "2026-10-23 05:30 UTC"
   }
  ],
  "live_closes": [
