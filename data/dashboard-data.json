@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:34:08.996452+00:00",
+ "generated": "2026-10-23T07:04:09.192733+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1233,
-  "cohort_wallets": 1603,
+  "cohort_runs": 1234,
+  "cohort_wallets": 1616,
   "cohort_qualified": 95,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 93
+   "count": 92
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -37,11 +37,11 @@
    "count": 29
   },
   {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 27
+   "reason": "Score 81 below threshold 85",
+   "count": 26
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Top holder 13.2% > 12% gate",
    "count": 26
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T07:00:22.324411+00:00",
+   "symbol": "ogkimchi",
+   "mint": "HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 14.8% > 12% gate",
+   "entry_price": 7.26e-05,
+   "mcap": 72605,
+   "liq": 22763.63,
+   "h1": 57.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T07:00:22.319190+00:00",
+   "symbol": "Rosalind",
+   "mint": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 0.0001631,
+   "mcap": 163124,
+   "liq": 3173.84,
+   "h1": 314,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T06:30:24.014176+00:00",
    "symbol": "\u30e4\u30ae",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T00:30:24.478093+00:00",
-   "symbol": "Grok",
-   "mint": "2FVtoHQWiDTzuinck8i9copYW8Gxxy4gXy7zKkxwpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0003668,
-   "mcap": 366813,
-   "liq": 49924.76,
-   "h1": 752,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T00:30:24.470708+00:00",
-   "symbol": "GTA6",
-   "mint": "vmysGy1RzaoSeigav6vVGavX151ujARRDPmhxPHpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 6.619e-05,
-   "mcap": 66192,
-   "liq": 20242.81,
-   "h1": 53.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -848,7 +848,7 @@
     "MONEYBIZ",
     "CYBERCAT"
    ],
-   "last": "2026-10-22 23:00 UTC"
+   "last": "2026-10-23 07:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -963,8 +963,8 @@
   {
    "symbol": "SHADOW",
    "tag": "WATCH",
-   "h1": -15.4,
-   "ts": "2026-10-23 05:00 UTC"
+   "h1": 5.2,
+   "ts": "2026-10-23 07:00 UTC"
   },
   {
    "symbol": "KIMCHIBULL",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "VIRTUAL",
    "tag": "WATCH",
-   "h1": -0.4,
-   "ts": "2026-10-23 06:30 UTC"
+   "h1": 3.2,
+   "ts": "2026-10-23 07:00 UTC"
   },
   {
    "symbol": "zonki",
-   "tag": "FADING",
-   "h1": -26.8,
-   "ts": "2026-10-23 06:30 UTC"
+   "tag": "WATCH",
+   "h1": 17.5,
+   "ts": "2026-10-23 07:00 UTC"
   }
  ],
  "live_closes": [
