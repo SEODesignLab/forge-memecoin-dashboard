@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:34:06.787794+00:00",
+ "generated": "2026-10-23T00:04:06.990108+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1219,
-  "cohort_wallets": 1867,
+  "cohort_runs": 1220,
+  "cohort_wallets": 1879,
   "cohort_qualified": 94,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 90
+   "count": 91
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T00:00:28.719412+00:00",
+   "symbol": "COINBASE",
+   "mint": "k2Dy1dLWNMngcB7Wfha7GZMdeSh5mpjmzs86JY7pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001206,
+   "mcap": 120694,
+   "liq": 27965.23,
+   "h1": 181,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-22T23:30:21.808168+00:00",
    "symbol": "NOODLELANA\\",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T21:00:38.687410+00:00",
-   "symbol": "OpenAI",
-   "mint": "Dfs7mk5wxKXes4nmjZdbWMZDdVdJKt9t5syTLxrpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0004833,
-   "mcap": 483201,
-   "liq": 57474.31,
-   "h1": 1028,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -867,18 +867,18 @@
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
-   "hits": 18,
+   "hits": 19,
    "symbols": [
-    "SYCAMORE",
     "Groklet",
     "GLITCH",
     "FTR",
     "CATONICE",
     "DUST",
     "MONEYBIZ",
-    "GATO"
+    "GATO",
+    "VIRTUAL"
    ],
-   "last": "2026-10-22 17:00 UTC"
+   "last": "2026-10-23 00:00 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -999,20 +999,20 @@
   {
    "symbol": "CYBERCAT",
    "tag": "WATCH",
-   "h1": -3.8,
-   "ts": "2026-10-22 23:30 UTC"
+   "h1": -3.5,
+   "ts": "2026-10-23 00:00 UTC"
   },
   {
    "symbol": "BTC",
    "tag": "CHASE",
-   "h1": 157.0,
-   "ts": "2026-10-22 23:30 UTC"
+   "h1": 360.0,
+   "ts": "2026-10-23 00:00 UTC"
   },
   {
    "symbol": "VIRTUAL",
-   "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-10-22 23:30 UTC"
+   "tag": "FADING",
+   "h1": -30.8,
+   "ts": "2026-10-23 00:00 UTC"
   }
  ],
  "live_closes": [
