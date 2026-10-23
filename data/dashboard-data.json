@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T03:04:07.962696+00:00",
+ "generated": "2026-10-23T03:34:08.101167+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1226,
-  "cohort_wallets": 1989,
+  "cohort_runs": 1227,
+  "cohort_wallets": 1500,
   "cohort_qualified": 94,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 91
+   "count": 92
   },
   {
    "reason": "Score 83 below threshold 85",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T03:30:26.985792+00:00",
+   "symbol": "GOBOSS",
+   "mint": "7jrwLDG1YqiH5CVyejMGHrSoyXVLtHS5SGmyvaAjpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000279,
+   "mcap": 279062,
+   "liq": 46394.4,
+   "h1": 534,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T03:00:25.609845+00:00",
    "symbol": "CAPYGLOW",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-22T22:30:33.438855+00:00",
-   "symbol": "PayPad",
-   "mint": "EjrZY3KpiHPp8qqMgiLSqhqEBmrwbjWGjM6qjheHpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 21.6% > 12% gate",
-   "entry_price": 3.544e-05,
-   "mcap": 35397,
-   "liq": 14358.38,
-   "h1": -17.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "TRENCHERS",
    "tag": "WATCH",
-   "h1": 5.6,
-   "ts": "2026-10-23 03:00 UTC"
+   "h1": 9.4,
+   "ts": "2026-10-23 03:30 UTC"
   },
   {
    "symbol": "MI",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "VIRTUAL",
    "tag": "WATCH",
-   "h1": -1.0,
-   "ts": "2026-10-23 03:00 UTC"
+   "h1": -2.3,
+   "ts": "2026-10-23 03:30 UTC"
   }
  ],
  "live_closes": [
