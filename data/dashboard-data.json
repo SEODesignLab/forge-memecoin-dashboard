@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T07:04:09.192733+00:00",
+ "generated": "2026-10-23T07:34:09.336603+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1234,
-  "cohort_wallets": 1616,
+  "cohort_runs": 1235,
+  "cohort_wallets": 1636,
   "cohort_qualified": 95,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 93
   },
   {
    "reason": "Score 83 below threshold 85",
-   "count": 32
+   "count": 31
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -57,10 +57,6 @@
    "count": 8
   },
   {
-   "reason": "Top holder 13.6% > 12% gate",
-   "count": 7
-  },
-  {
    "reason": "Top holder 13.5% > 12% gate",
    "count": 7
   },
@@ -69,11 +65,60 @@
    "count": 6
   },
   {
+   "reason": "Top holder 13.6% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 17.8% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-23T07:30:29.970953+00:00",
+   "symbol": "GUST",
+   "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 18.3% > 12% gate",
+   "entry_price": 6.16e-05,
+   "mcap": 61608,
+   "liq": 19751.23,
+   "h1": 39.95,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T07:30:29.966459+00:00",
+   "symbol": "Rosalind",
+   "mint": "8rw77Zt4UTrgUvpYNKt1bbZLfg8Ebr4jRKBtL1qipump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005027,
+   "mcap": 502739,
+   "liq": 59829.99,
+   "h1": 783,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-23T07:30:29.959286+00:00",
+   "symbol": "OI",
+   "mint": "CmoAaGFrJfLTysDfjt3q7NY4ExCL8Vd1CxDbuZA6pump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 45.9% > 12% gate",
+   "entry_price": 6.234e-06,
+   "mcap": 5875,
+   "liq": 4946.34,
+   "h1": 29.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-23T07:00:22.324411+00:00",
    "symbol": "ogkimchi",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T01:30:27.032400+00:00",
-   "symbol": "SSP",
-   "mint": "fWTGFAbnhgUt7jUfHM7gYapNJBfsMnU3WFcNv4X47Lc",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 16.6% > 12% gate",
-   "entry_price": 9.008e-05,
-   "mcap": 90088,
-   "liq": 25021.58,
-   "h1": 107,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T01:00:28.527950+00:00",
-   "symbol": "Crackdown",
-   "mint": "i1Vmmj2sBfoD9nCbP1vf2MeWpGHbS4dAGkLZ5b3pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0006099,
-   "mcap": 609916,
-   "liq": 65022.88,
-   "h1": 1314,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T00:30:24.484396+00:00",
-   "symbol": "Claude AI",
-   "mint": "ncWL78jBmGAQwskqD3hLwhcY9FgfMep7K6xanicpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 6.49e-05,
-   "mcap": 64909,
-   "liq": 20005.04,
-   "h1": 50.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "SHADOW",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-10-23 07:00 UTC"
+   "h1": 7.1,
+   "ts": "2026-10-23 07:30 UTC"
   },
   {
    "symbol": "KIMCHIBULL",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "VIRTUAL",
    "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-10-23 07:00 UTC"
+   "h1": 6.4,
+   "ts": "2026-10-23 07:30 UTC"
   },
   {
    "symbol": "zonki",
    "tag": "WATCH",
-   "h1": 17.5,
-   "ts": "2026-10-23 07:00 UTC"
+   "h1": 2.5,
+   "ts": "2026-10-23 07:30 UTC"
   }
  ],
  "live_closes": [
