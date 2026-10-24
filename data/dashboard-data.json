@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T02:04:15.132436+00:00",
+ "generated": "2026-10-24T02:34:15.260281+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1272,
-  "cohort_wallets": 1780,
+  "cohort_runs": 1273,
+  "cohort_wallets": 1796,
   "cohort_qualified": 99,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 93
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -49,12 +49,12 @@
    "count": 13
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Score 80 below threshold 85",
    "count": 11
   },
   {
-   "reason": "Score 80 below threshold 85",
-   "count": 11
+   "reason": "Score 81 below threshold 85",
+   "count": 10
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T02:30:34.497140+00:00",
+   "symbol": "fomo",
+   "mint": "CU83eHvFcuKjfPmbABezM5uMakoNqvEGoBec7Etepump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 0.000534,
+   "mcap": 534011,
+   "liq": 60275.86,
+   "h1": 1154,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T02:30:34.492608+00:00",
+   "symbol": "ELONCHI",
+   "mint": "GXkBz6vke39BJjVgXP7SvdLw6cWJWFhNx9CypfXApump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 21.6% > 12% gate",
+   "entry_price": 5.134e-05,
+   "mcap": 51343,
+   "liq": 17490.56,
+   "h1": 10.01,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T02:30:34.485412+00:00",
+   "symbol": "PRIVACY",
+   "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001635,
+   "mcap": 163491,
+   "liq": 34403.27,
+   "h1": 282,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T02:00:33.595906+00:00",
    "symbol": "STOCK",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T21:30:35.393818+00:00",
-   "symbol": "YMBCOIN",
-   "mint": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004574,
-   "mcap": 457417,
-   "liq": 57066.8,
-   "h1": 745,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T21:30:35.383923+00:00",
-   "symbol": "SEED",
-   "mint": "SEEDmqvNitzZZ3Q8LpjgAoQRaR4uq1Qt2GrnHxjvh3A",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 20.1% > 12% gate",
-   "entry_price": 4.984e-05,
-   "mcap": 49754,
-   "liq": 17517.82,
-   "h1": 4.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T21:00:54.734860+00:00",
-   "symbol": "Peekhole",
-   "mint": "4ENChxtQbo1JCGPZYdeU4uuicLp3Gg3xSGfMpGcXpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 17.9% > 12% gate",
-   "entry_price": 5.864e-05,
-   "mcap": 58573,
-   "liq": 18951.29,
-   "h1": 34.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "ARCTIS",
     "PHP"
    ],
-   "last": "2026-10-24 01:30 UTC"
+   "last": "2026-10-24 02:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -758,7 +758,7 @@
     "PHP",
     "ARCTIS"
    ],
-   "last": "2026-10-24 01:30 UTC"
+   "last": "2026-10-24 02:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -848,7 +848,7 @@
     "MONEYBIZ",
     "CYBERCAT"
    ],
-   "last": "2026-10-23 09:00 UTC"
+   "last": "2026-10-24 02:30 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -951,8 +951,8 @@
   {
    "symbol": "TRENCHERS",
    "tag": "WATCH",
-   "h1": -0.0,
-   "ts": "2026-10-23 22:30 UTC"
+   "h1": -2.3,
+   "ts": "2026-10-24 02:30 UTC"
   },
   {
    "symbol": "MI",
@@ -987,14 +987,14 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": 1.0,
-   "ts": "2026-10-24 02:00 UTC"
+   "h1": 9.4,
+   "ts": "2026-10-24 02:30 UTC"
   },
   {
    "symbol": "ODIE",
    "tag": "WATCH",
-   "h1": 24.3,
-   "ts": "2026-10-24 02:00 UTC"
+   "h1": 14.1,
+   "ts": "2026-10-24 02:30 UTC"
   },
   {
    "symbol": "PHP",
