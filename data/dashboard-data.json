@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:04:20.433507+00:00",
+ "generated": "2026-10-24T19:34:20.605596+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1306,
-  "cohort_wallets": 1982,
+  "cohort_runs": 1307,
+  "cohort_wallets": 1500,
   "cohort_qualified": 103,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 103
+   "count": 104
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -46,7 +46,7 @@
   },
   {
    "reason": "RugCheck risk 59>45",
-   "count": 9
+   "count": 10
   },
   {
    "reason": "Score 82 below threshold 85",
@@ -69,11 +69,71 @@
    "count": 6
   },
   {
-   "reason": "Score 81 below threshold 85",
+   "reason": "Top holder 18.7% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T19:30:40.782066+00:00",
+   "symbol": "swordlon",
+   "mint": "58dhikS1m2BRCxjbAGQKCFzaRyujgP3MyKntX3hTpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001383,
+   "mcap": 138247,
+   "liq": 30131.29,
+   "h1": 201,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T19:30:40.775208+00:00",
+   "symbol": "TESLA SI",
+   "mint": "GzxsV9ttSTgeQPR8a5KPGwfJkuzn7A77ftkoTiG3pump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0004706,
+   "mcap": 470616,
+   "liq": 56075.84,
+   "h1": 1022,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T19:30:40.769609+00:00",
+   "symbol": "MOONERO",
+   "mint": "5urtZSdyA4NreUvNatq4ZV14djo5ohuWNG415YxBpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 16.7% > 12% gate",
+   "entry_price": 7.71e-05,
+   "mcap": 73709,
+   "liq": 22788.94,
+   "h1": 72.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T19:30:40.764217+00:00",
+   "symbol": "TACITY",
+   "mint": "8EWs5XXw3eh8y2GmFCKsE67R6r6YBD2HrvyT5WFSpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 13.4% > 12% gate",
+   "entry_price": 0.0001157,
+   "mcap": 115728,
+   "liq": 27447.63,
+   "h1": 148,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T19:00:38.644049+00:00",
    "symbol": "WHE",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T14:30:34.540813+00:00",
-   "symbol": "$MRLY",
-   "mint": "Ap9VJCDz3QMHM2Ef93cmJ5fkz3UDjSh6YDAGhgPdpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 8.117e-05,
-   "mcap": 81054,
-   "liq": 24001.2,
-   "h1": 93.8,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T14:30:34.536534+00:00",
-   "symbol": "TRUMPE",
-   "mint": "3CQpA59r3Tw9qpwiVHEcDxj2HGoHXiX1gsn7YNEapump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002179,
-   "mcap": 217908,
-   "liq": 37749.43,
-   "h1": 382,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T14:30:34.530806+00:00",
-   "symbol": "DWS",
-   "mint": "p74KNN7996robNSMBzZqcHkZXxZHhwcS27aiJbQpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 21.4% > 12% gate",
-   "entry_price": 7.217e-05,
-   "mcap": 72178,
-   "liq": 29978.27,
-   "h1": 89.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T14:30:34.524080+00:00",
-   "symbol": "DESSA",
-   "mint": "47BEPymz62VkATGCTcepnAqG1viorhBZXyDTpQGdpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000151,
-   "mcap": 150873,
-   "liq": 32104.57,
-   "h1": 255,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,20 +981,20 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 15.6,
-   "ts": "2026-10-24 19:00 UTC"
+   "h1": 7.8,
+   "ts": "2026-10-24 19:30 UTC"
   },
   {
    "symbol": "MI",
    "tag": "WATCH",
-   "h1": 21.2,
-   "ts": "2026-10-24 19:00 UTC"
+   "h1": -13.5,
+   "ts": "2026-10-24 19:30 UTC"
   },
   {
    "symbol": "GDC",
    "tag": "FADING",
-   "h1": -34.3,
-   "ts": "2026-10-24 19:00 UTC"
+   "h1": -33.0,
+   "ts": "2026-10-24 19:30 UTC"
   },
   {
    "symbol": "PRIVACY",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "\u304b\u307c\u3059",
-   "tag": "FADING",
-   "h1": -34.9,
-   "ts": "2026-10-24 19:00 UTC"
+   "tag": "WATCH",
+   "h1": -4.6,
+   "ts": "2026-10-24 19:30 UTC"
   },
   {
    "symbol": "swordtrump",
-   "tag": "FADING",
-   "h1": -22.5,
-   "ts": "2026-10-24 19:00 UTC"
+   "tag": "WATCH",
+   "h1": -4.7,
+   "ts": "2026-10-24 19:30 UTC"
   }
  ],
  "live_closes": [
