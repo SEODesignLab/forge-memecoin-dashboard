@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-24T04:34:15.915240+00:00",
+ "generated": "2026-10-24T05:04:16.152519+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
   "paper_skips": 499,
   "paper_buys": 1,
-  "paper_settled": 0,
+  "paper_settled": 1,
   "paper_wins": 0,
-  "paper_win_rate": null,
+  "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1277,
-  "cohort_wallets": 1860,
-  "cohort_qualified": 99,
+  "cohort_runs": 1278,
+  "cohort_wallets": 1883,
+  "cohort_qualified": 100,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T05:00:34.553588+00:00",
+   "symbol": "Shh",
+   "mint": "CACbKus5h8iEpncWfLafR2bPcYB8tvTyokPwA6CFpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 22.7% > 12% gate",
+   "entry_price": 2.808e-05,
+   "mcap": 28037,
+   "liq": 12952.29,
+   "h1": -36.84,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T04:30:35.989342+00:00",
    "symbol": "DPM",
@@ -190,9 +205,10 @@
    "mcap": 956380,
    "liq": 85369.28,
    "h1": 15.87,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
+   "settled": true,
+   "exit_price": 0.0006928,
+   "pnl_pct": -0.2784,
+   "settled_ts": "2026-10-24T05:04:16.067193+00:00"
   },
   {
    "ts": "2026-10-24T03:30:39.616416+00:00",
@@ -658,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T00:00:45.866554+00:00",
-   "symbol": "ChatGPT",
-   "mint": "5x9DGAyrDqePNn9D96Aa5L9WzZAkzPEU2j6xG3jRpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0003832,
-   "mcap": 383229,
-   "liq": 50855.12,
-   "h1": 798,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +744,7 @@
     "ARCTIS",
     "PHP"
    ],
-   "last": "2026-10-24 04:30 UTC"
+   "last": "2026-10-24 05:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -848,7 +849,7 @@
     "MONEYBIZ",
     "CYBERCAT"
    ],
-   "last": "2026-10-24 02:30 UTC"
+   "last": "2026-10-24 05:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -975,14 +976,14 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": -8.7,
-   "ts": "2026-10-24 04:30 UTC"
+   "h1": 3.0,
+   "ts": "2026-10-24 05:00 UTC"
   },
   {
    "symbol": "ODIE",
    "tag": "FADING",
-   "h1": -52.3,
-   "ts": "2026-10-24 04:30 UTC"
+   "h1": -86.2,
+   "ts": "2026-10-24 05:00 UTC"
   },
   {
    "symbol": "PHP",
@@ -1005,14 +1006,14 @@
   {
    "symbol": "TRUMP",
    "tag": "FADING",
-   "h1": -62.6,
-   "ts": "2026-10-24 04:30 UTC"
+   "h1": -26.1,
+   "ts": "2026-10-24 05:00 UTC"
   },
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 15.2,
-   "ts": "2026-10-24 04:30 UTC"
+   "h1": 6.7,
+   "ts": "2026-10-24 05:00 UTC"
   }
  ],
  "live_closes": [
