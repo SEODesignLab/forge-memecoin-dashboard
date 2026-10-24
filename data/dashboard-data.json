@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T22:04:21.351719+00:00",
+ "generated": "2026-10-24T22:34:21.481227+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1312,
-  "cohort_wallets": 1601,
+  "cohort_runs": 1313,
+  "cohort_wallets": 1612,
   "cohort_qualified": 104,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,11 +61,11 @@
    "count": 7
   },
   {
-   "reason": "Score 82 below threshold 85",
+   "reason": "Top holder 14.3% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
+   "reason": "Top holder 15.8% > 12% gate",
    "count": 6
   },
   {
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T22:30:51.155638+00:00",
+   "symbol": "kimchifomo",
+   "mint": "AuMjFJW7EWYfZWHgxogjBTHqZF17CbpfKA17tweGpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 15.7% > 12% gate",
+   "entry_price": 8.318e-05,
+   "mcap": 83181,
+   "liq": 24802.78,
+   "h1": 87.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T22:30:51.151079+00:00",
+   "symbol": "ChatGPT",
+   "mint": "C36emcQdt7BPvkhn77uvic1TX8CWHmWw2bkVyDYqpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.587e-05,
+   "mcap": 55875,
+   "liq": 18235.19,
+   "h1": 32.48,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T22:30:51.146531+00:00",
+   "symbol": "LUCIA",
+   "mint": "2QMiTLqkaNsdSZdDxnxpVLSgrPEyKzPLr6BKWFCLpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000198,
+   "mcap": 198030,
+   "liq": 35929.45,
+   "h1": 294,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T22:30:51.140106+00:00",
+   "symbol": "Claude AI",
+   "mint": "ThoeKgwWrX4DzkHdDxBQxop5L4Cgcs8YXXDtQgDpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 15.8% > 12% gate",
+   "entry_price": 6.689e-05,
+   "mcap": 66897,
+   "liq": 20120.58,
+   "h1": 58.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T22:00:42.878028+00:00",
    "symbol": "BPUMP",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T18:30:45.111209+00:00",
-   "symbol": "PIGDEAL",
-   "mint": "uD5TW2H5U2JDViTmLpZMxbLgiynohGABUN79Lu1pump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003571,
-   "mcap": 357161,
-   "liq": 49865.43,
-   "h1": 410,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T18:30:45.104311+00:00",
-   "symbol": "Bot",
-   "mint": "7grLXmnkU6gY5xUaz9i69Rv3h8jfVyJVcaprPhtRpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 22.4% > 12% gate",
-   "entry_price": 3.623e-05,
-   "mcap": 36209,
-   "liq": 14297.61,
-   "h1": -13.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T18:30:45.099498+00:00",
-   "symbol": "CONTRAIL",
-   "mint": "7tbv65vYhZHUbiG2iwAstrr59uqYjrXXg38xmqPpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 21.6% > 12% gate",
-   "entry_price": 3.816e-05,
-   "mcap": 38166,
-   "liq": 14929.3,
-   "h1": -10.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T18:00:44.407438+00:00",
-   "symbol": "Fomo",
-   "mint": "FkuwhFRS8LLk9qvexJSk8eV2xKBgLtdLKF3N6sfpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001542,
-   "mcap": 154225,
-   "liq": 31369.84,
-   "h1": 271,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,8 +975,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-10-24 22:00 UTC"
+   "h1": 7.6,
+   "ts": "2026-10-24 22:30 UTC"
   },
   {
    "symbol": "MI",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "GDC",
-   "tag": "WATCH",
-   "h1": -0.7,
-   "ts": "2026-10-24 22:00 UTC"
+   "tag": "FADING",
+   "h1": -32.2,
+   "ts": "2026-10-24 22:30 UTC"
   },
   {
    "symbol": "PRIVACY",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "SWORDOPE",
    "tag": "WATCH",
-   "h1": 88.6,
-   "ts": "2026-10-24 22:00 UTC"
+   "h1": 61.3,
+   "ts": "2026-10-24 22:30 UTC"
   }
  ],
  "live_closes": [
