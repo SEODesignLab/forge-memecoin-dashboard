@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T23:04:21.670706+00:00",
+ "generated": "2026-10-24T23:34:21.955959+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1314,
-  "cohort_wallets": 1623,
+  "cohort_runs": 1315,
+  "cohort_wallets": 1636,
   "cohort_qualified": 104,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 103
+   "count": 102
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -41,12 +41,12 @@
    "count": 15
   },
   {
-   "reason": "Score 83 below threshold 85",
-   "count": 9
+   "reason": "RugCheck risk 59>45",
+   "count": 10
   },
   {
-   "reason": "RugCheck risk 59>45",
-   "count": 9
+   "reason": "Score 83 below threshold 85",
+   "count": 8
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -61,19 +61,64 @@
    "count": 7
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 6
-  },
-  {
    "reason": "Top holder 15.8% > 12% gate",
    "count": 6
   },
   {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 6
+  },
+  {
+   "reason": "Top holder 14.8% > 12% gate",
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T23:30:42.017087+00:00",
+   "symbol": "GTA6 Coin",
+   "mint": "3P4ypijb97Au72gBbFob9zUgeDCGUkmuX8wXEthdpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0003532,
+   "mcap": 353222,
+   "liq": 48566.33,
+   "h1": 734,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T23:30:42.012635+00:00",
+   "symbol": "kimchipoop",
+   "mint": "EBXKhWLJCJCPWHAWTvon6Eqg2t4FSFCPXBa6XjqRpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 15.3% > 12% gate",
+   "entry_price": 7.84e-05,
+   "mcap": 78403,
+   "liq": 23414.46,
+   "h1": 84.06,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T23:30:42.005070+00:00",
+   "symbol": "WAKARU",
+   "mint": "4nDxirjCvf7XhaGfz3LfEKNDZtdz9YQSzGTSqFUmpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 14.8% > 12% gate",
+   "entry_price": 8.711e-05,
+   "mcap": 87116,
+   "liq": 24636.05,
+   "h1": 112,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T23:00:44.235260+00:00",
    "symbol": "ChatGPT",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T19:30:40.769609+00:00",
-   "symbol": "MOONERO",
-   "mint": "5urtZSdyA4NreUvNatq4ZV14djo5ohuWNG415YxBpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 7.71e-05,
-   "mcap": 73709,
-   "liq": 22788.94,
-   "h1": 72.35,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T19:30:40.764217+00:00",
-   "symbol": "TACITY",
-   "mint": "8EWs5XXw3eh8y2GmFCKsE67R6r6YBD2HrvyT5WFSpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0001157,
-   "mcap": 115728,
-   "liq": 27447.63,
-   "h1": 148,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T19:00:38.644049+00:00",
-   "symbol": "WHE",
-   "mint": "7BMarUctS6YnE68BEPob1f2U6efpkLDFfeb9UoHqpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 5.695e-05,
-   "mcap": 56955,
-   "liq": 19578.64,
-   "h1": 36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,8 +975,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 28.7,
-   "ts": "2026-10-24 23:00 UTC"
+   "h1": 9.2,
+   "ts": "2026-10-24 23:30 UTC"
   },
   {
    "symbol": "MI",
@@ -987,8 +987,8 @@
   {
    "symbol": "GDC",
    "tag": "FADING",
-   "h1": -41.7,
-   "ts": "2026-10-24 23:00 UTC"
+   "h1": -47.1,
+   "ts": "2026-10-24 23:30 UTC"
   },
   {
    "symbol": "PRIVACY",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "SWORDOPE",
    "tag": "WATCH",
-   "h1": 37.6,
-   "ts": "2026-10-24 23:00 UTC"
+   "h1": 17.2,
+   "ts": "2026-10-24 23:30 UTC"
   }
  ],
  "live_closes": [
