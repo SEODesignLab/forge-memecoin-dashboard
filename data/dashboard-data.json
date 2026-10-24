@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T15:34:19.315850+00:00",
+ "generated": "2026-10-24T16:04:19.469993+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1299,
-  "cohort_wallets": 1792,
+  "cohort_runs": 1300,
+  "cohort_wallets": 1818,
   "cohort_qualified": 103,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,12 +61,12 @@
    "count": 7
   },
   {
-   "reason": "Top holder 12.4% > 12% gate",
+   "reason": "Top holder 14.3% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 6
+   "reason": "Top holder 12.4% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 13.7% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T16:00:35.940768+00:00",
+   "symbol": "swordinu",
+   "mint": "DAdHkaH6QSXhE3Ls3UAxLdrSgPYYu1Q3Ta2Pir3vpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001285,
+   "mcap": 128545,
+   "liq": 28594.03,
+   "h1": 138,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T16:00:35.934908+00:00",
+   "symbol": "DEADRICH",
+   "mint": "DExDNSLdF87CwQrM9fxotNXmw6tYTKPsyJstb7NCpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 7.538e-05,
+   "mcap": 75386,
+   "liq": 21828.35,
+   "h1": 79.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T16:00:35.929978+00:00",
+   "symbol": "ber",
+   "mint": "CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 16.9% > 12% gate",
+   "entry_price": 8.253e-05,
+   "mcap": 82536,
+   "liq": 23012.47,
+   "h1": 97.77,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T15:30:45.946746+00:00",
    "symbol": "Leonida",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:30:42.642764+00:00",
-   "symbol": "Friendship",
-   "mint": "3W8a85XwdjusBKnVUoLyzwWbgxvwk7B3EDbabfbQpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.4% > 12% gate",
-   "entry_price": 6.361e-05,
-   "mcap": 63593,
-   "liq": 19760.02,
-   "h1": 50.98,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:00:33.275344+00:00",
-   "symbol": "FOMO",
-   "mint": "RXsz5hFts8uz9u5HGHpj7RbvY4adN6E91sF2JXCpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 14.6% > 12% gate",
-   "entry_price": 8.202e-05,
-   "mcap": 82021,
-   "liq": 22506.01,
-   "h1": 94.84,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:00:33.270165+00:00",
-   "symbol": "PUMP",
-   "mint": "D4vfg5KMtASAKYXWsV6onBTfwE1Z9YvNaECDcpWEpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004036,
-   "mcap": 403663,
-   "liq": 52247.67,
-   "h1": 851,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "TRUMP",
    "tag": "WATCH",
-   "h1": -11.2,
-   "ts": "2026-10-24 15:30 UTC"
+   "h1": -2.9,
+   "ts": "2026-10-24 16:00 UTC"
   },
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -10.3,
-   "ts": "2026-10-24 15:30 UTC"
+   "h1": 5.2,
+   "ts": "2026-10-24 16:00 UTC"
   },
   {
    "symbol": "MI",
-   "tag": "WATCH",
-   "h1": -11.0,
-   "ts": "2026-10-24 15:30 UTC"
+   "tag": "FADING",
+   "h1": -37.4,
+   "ts": "2026-10-24 16:00 UTC"
   },
   {
    "symbol": "GDC",
    "tag": "WATCH",
-   "h1": 105.0,
-   "ts": "2026-10-24 15:30 UTC"
+   "h1": 15.2,
+   "ts": "2026-10-24 16:00 UTC"
   },
   {
    "symbol": "PRIVACY",
-   "tag": "CHASE",
-   "h1": 167.0,
-   "ts": "2026-10-24 15:30 UTC"
+   "tag": "FADING",
+   "h1": -63.4,
+   "ts": "2026-10-24 16:00 UTC"
   }
  ],
  "live_closes": [
