@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T16:04:19.469993+00:00",
+ "generated": "2026-10-24T16:34:19.617392+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1300,
-  "cohort_wallets": 1818,
+  "cohort_runs": 1301,
+  "cohort_wallets": 1841,
   "cohort_qualified": 103,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 99
+   "count": 100
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Score 82 below threshold 85",
-   "count": 10
+   "count": 8
   },
   {
    "reason": "RugCheck risk 59>45",
@@ -57,10 +57,6 @@
    "count": 8
   },
   {
-   "reason": "Score 81 below threshold 85",
-   "count": 7
-  },
-  {
    "reason": "Top holder 14.3% > 12% gate",
    "count": 7
   },
@@ -69,11 +65,60 @@
    "count": 7
   },
   {
+   "reason": "Score 81 below threshold 85",
+   "count": 6
+  },
+  {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T16:31:12.889910+00:00",
+   "symbol": "RIP",
+   "mint": "BqGqS2yh1kmp1girtMGtF726v6ugEZxUZhy2aHqCpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 40.8% > 12% gate",
+   "entry_price": 6.307e-05,
+   "mcap": 63075,
+   "liq": 19278.01,
+   "h1": 52.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T16:31:12.885607+00:00",
+   "symbol": "YouTube",
+   "mint": "XZ6ZJnSKooD8C9fwdDftWEbz43GQwLGeWfsjEK8pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001866,
+   "mcap": 186609,
+   "liq": 34507.3,
+   "h1": 350,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T16:31:12.879129+00:00",
+   "symbol": "LONGDOG",
+   "mint": "8S3prJNrvNsy6qD84TaGBZsBnUdrBpGWdmJmssumpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 18.7% > 12% gate",
+   "entry_price": 0.0002166,
+   "mcap": 216415,
+   "liq": 54341.98,
+   "h1": 392,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T16:00:35.940768+00:00",
    "symbol": "swordinu",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:30:42.664370+00:00",
-   "symbol": "GTA6",
-   "mint": "qzMsp1J7xTWHfszTp4eebQzNS4VYGHLrrsKfe4epump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0004312,
-   "mcap": 431281,
-   "liq": 53748.26,
-   "h1": 923,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:30:42.659876+00:00",
-   "symbol": "HUG",
-   "mint": "4NR41C8JrtYXtWGrs1jja89zLozM9XC5g7F3oKkxpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 14.1% > 12% gate",
-   "entry_price": 8.569e-05,
-   "mcap": 85695,
-   "liq": 24044.51,
-   "h1": 97.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T12:30:42.654840+00:00",
-   "symbol": "Rockstar",
-   "mint": "6vVX613aNCW246ZaLd8kprj1JvjmJ9xQMCRHwUzpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 16.9% > 12% gate",
-   "entry_price": 6.143e-05,
-   "mcap": 61431,
-   "liq": 19224.36,
-   "h1": 45.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "TRUMP",
    "tag": "WATCH",
-   "h1": -2.9,
-   "ts": "2026-10-24 16:00 UTC"
+   "h1": -1.2,
+   "ts": "2026-10-24 16:30 UTC"
   },
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-10-24 16:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-10-24 16:30 UTC"
   },
   {
    "symbol": "MI",
    "tag": "FADING",
-   "h1": -37.4,
-   "ts": "2026-10-24 16:00 UTC"
+   "h1": -28.9,
+   "ts": "2026-10-24 16:30 UTC"
   },
   {
    "symbol": "GDC",
    "tag": "WATCH",
-   "h1": 15.2,
-   "ts": "2026-10-24 16:00 UTC"
+   "h1": 38.6,
+   "ts": "2026-10-24 16:30 UTC"
   },
   {
    "symbol": "PRIVACY",
    "tag": "FADING",
-   "h1": -63.4,
-   "ts": "2026-10-24 16:00 UTC"
+   "h1": -76.9,
+   "ts": "2026-10-24 16:30 UTC"
   }
  ],
  "live_closes": [
