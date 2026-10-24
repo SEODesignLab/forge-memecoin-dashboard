@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:34:14.644355+00:00",
+ "generated": "2026-10-24T01:04:14.810915+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1269,
-  "cohort_wallets": 1732,
+  "cohort_runs": 1270,
+  "cohort_wallets": 1750,
   "cohort_qualified": 99,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T01:00:31.515547+00:00",
+   "symbol": "STANLEY",
+   "mint": "HJcPYoVCbJM3mqMNRMNUDu4h7DiC7tb7WfJZfumvpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002141,
+   "mcap": 214140,
+   "liq": 37914.77,
+   "h1": 319,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T01:00:31.509718+00:00",
+   "symbol": "ELON",
+   "mint": "EtNammaXzyysWzE55gkiYiKdhBjqV1x3XtZj3Rngpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 4.904e-05,
+   "mcap": 49036,
+   "liq": 17243.97,
+   "h1": -11.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T01:00:31.504620+00:00",
+   "symbol": "ELIZABETH",
+   "mint": "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 21.6% > 12% gate",
+   "entry_price": 4.247e-05,
+   "mcap": 42472,
+   "liq": 16158.62,
+   "h1": 5.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T00:30:43.887943+00:00",
    "symbol": "YOUNO",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T20:30:41.357991+00:00",
-   "symbol": "Jail Milei",
-   "mint": "9fwf3RPun431QKfFrTp3W9PacVhEsD6AW4TXgs5wpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001433,
-   "mcap": 143330,
-   "liq": 30720.89,
-   "h1": 233,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T20:30:41.347489+00:00",
-   "symbol": "TRUTH",
-   "mint": "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 14.8% > 12% gate",
-   "entry_price": 6.038e-05,
-   "mcap": 60389,
-   "liq": 21256.32,
-   "h1": 44.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-23T20:30:41.340095+00:00",
-   "symbol": "TRUMPON",
-   "mint": "A5noEw97BJcZH5XaQ9X9FF9n5WFsHjAPeEqsvUwNpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 18.7% > 12% gate",
-   "entry_price": 4.18e-05,
-   "mcap": 41808,
-   "liq": 15652.81,
-   "h1": -2.99,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,20 +987,20 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": 2.1,
-   "ts": "2026-10-24 00:30 UTC"
+   "h1": -0.1,
+   "ts": "2026-10-24 01:00 UTC"
   },
   {
    "symbol": "ODIE",
-   "tag": "WATCH",
-   "h1": -5.0,
-   "ts": "2026-10-24 00:30 UTC"
+   "tag": "FADING",
+   "h1": -21.7,
+   "ts": "2026-10-24 01:00 UTC"
   },
   {
    "symbol": "PHP",
    "tag": "WATCH",
-   "h1": 4.8,
-   "ts": "2026-10-24 00:30 UTC"
+   "h1": 0.9,
+   "ts": "2026-10-24 01:00 UTC"
   },
   {
    "symbol": "McNugget",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "BITCHES",
-   "tag": "WATCH",
-   "h1": 24.9,
-   "ts": "2026-10-24 00:30 UTC"
+   "tag": "FADING",
+   "h1": -28.3,
+   "ts": "2026-10-24 01:00 UTC"
   }
  ],
  "live_closes": [
