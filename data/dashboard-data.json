@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T07:34:16.851131+00:00",
+ "generated": "2026-10-24T08:04:17.034166+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1283,
-  "cohort_wallets": 1988,
-  "cohort_qualified": 101,
+  "cohort_runs": 1284,
+  "cohort_wallets": 1500,
+  "cohort_qualified": 102,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T08:00:25.841701+00:00",
+   "symbol": "BYD",
+   "mint": "GjD3uV4MRUMiPWiWnPGh1NLNMYvkgF5T5FztoYXSpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 0.000542,
+   "mcap": 542059,
+   "liq": 60754.72,
+   "h1": 1170,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T07:30:44.446692+00:00",
    "symbol": "darwin",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T03:00:35.223106+00:00",
-   "symbol": "MCAT",
-   "mint": "CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003903,
-   "mcap": 390368,
-   "liq": 52677.61,
-   "h1": 659,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -733,18 +733,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 71,
+   "hits": 72,
    "symbols": [
-    "GLITCH",
     "GATO",
     "SHADOW",
     "RIBBIT",
     "TRENCHERS",
     "CYBERCAT",
     "ARCTIS",
-    "PHP"
+    "PHP",
+    "REMUS"
    ],
-   "last": "2026-10-24 06:30 UTC"
+   "last": "2026-10-24 08:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -976,14 +976,14 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-10-24 07:30 UTC"
+   "h1": 3.4,
+   "ts": "2026-10-24 08:00 UTC"
   },
   {
    "symbol": "ODIE",
-   "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-10-24 07:30 UTC"
+   "tag": "FADING",
+   "h1": -21.2,
+   "ts": "2026-10-24 08:00 UTC"
   },
   {
    "symbol": "PHP",
@@ -1006,14 +1006,14 @@
   {
    "symbol": "TRUMP",
    "tag": "WATCH",
-   "h1": 18.0,
-   "ts": "2026-10-24 07:30 UTC"
+   "h1": -3.6,
+   "ts": "2026-10-24 08:00 UTC"
   },
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -11.9,
-   "ts": "2026-10-24 07:30 UTC"
+   "h1": 1.2,
+   "ts": "2026-10-24 08:00 UTC"
   }
  ],
  "live_closes": [
