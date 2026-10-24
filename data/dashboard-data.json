@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:04:17.034166+00:00",
+ "generated": "2026-10-24T08:34:17.157362+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1284,
-  "cohort_wallets": 1500,
-  "cohort_qualified": 102,
+  "cohort_runs": 1285,
+  "cohort_wallets": 1523,
+  "cohort_qualified": 103,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -46,7 +46,7 @@
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
-   "count": 14
+   "count": 15
   },
   {
    "reason": "Score 80 below threshold 85",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-24T08:30:31.656651+00:00",
+   "symbol": "AI",
+   "mint": "atuyxPFsZC2PKF74mCGthD2ovyMwR94KLPmc4Lgpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.0004783,
+   "mcap": 478348,
+   "liq": 56833.75,
+   "h1": 1029,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T08:30:31.652233+00:00",
+   "symbol": "swordcat",
+   "mint": "9wSVpVK8SxdRqdPvATgK2khhtQkRjYpPjG2RBQtVpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Liquidity $22669 < $25000",
+   "entry_price": 8.163e-05,
+   "mcap": 81639,
+   "liq": 22668.56,
+   "h1": 91.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-24T08:30:31.647198+00:00",
+   "symbol": "COIL",
+   "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 0.0001132,
+   "mcap": 108924,
+   "liq": 28285.36,
+   "h1": 22.56,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-24T08:00:25.841701+00:00",
    "symbol": "BYD",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T03:00:35.236139+00:00",
-   "symbol": "LOLSHOES",
-   "mint": "CHSSBJXpKcptQUMyeGYF8XhtCHSZBZ8ARjKwtbnjpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 4.5e-05,
-   "mcap": 44956,
-   "liq": 16231.03,
-   "h1": 5.61,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T03:00:35.231828+00:00",
-   "symbol": "SNOWT",
-   "mint": "AuRrdM53LM83knCqCzcPp8XWDSMU1YFWpKFTm2aspump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 0.0001795,
-   "mcap": 179328,
-   "liq": 35624.54,
-   "h1": 322,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T03:00:35.227514+00:00",
-   "symbol": "E888",
-   "mint": "7Sbgdkhi2xvpioNXQTjbxfCozQapQDq2Azg7CJZgpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 13.8% > 12% gate",
-   "entry_price": 0.0001147,
-   "mcap": 114734,
-   "liq": 29579.11,
-   "h1": 159,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -879,7 +879,7 @@
     "VIRTUAL",
     "ODIE"
    ],
-   "last": "2026-10-24 07:00 UTC"
+   "last": "2026-10-24 08:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -976,14 +976,14 @@
   {
    "symbol": "ARCTIS",
    "tag": "WATCH",
-   "h1": 3.4,
-   "ts": "2026-10-24 08:00 UTC"
+   "h1": -4.9,
+   "ts": "2026-10-24 08:30 UTC"
   },
   {
    "symbol": "ODIE",
-   "tag": "FADING",
-   "h1": -21.2,
-   "ts": "2026-10-24 08:00 UTC"
+   "tag": "WATCH",
+   "h1": -15.4,
+   "ts": "2026-10-24 08:30 UTC"
   },
   {
    "symbol": "PHP",
@@ -1006,14 +1006,14 @@
   {
    "symbol": "TRUMP",
    "tag": "WATCH",
-   "h1": -3.6,
-   "ts": "2026-10-24 08:00 UTC"
+   "h1": -4.7,
+   "ts": "2026-10-24 08:30 UTC"
   },
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 1.2,
-   "ts": "2026-10-24 08:00 UTC"
+   "h1": 30.7,
+   "ts": "2026-10-24 08:30 UTC"
   }
  ],
  "live_closes": [
