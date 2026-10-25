@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T05:34:23.919154+00:00",
+ "generated": "2026-10-25T06:04:24.115085+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1327,
-  "cohort_wallets": 1802,
+  "cohort_runs": 1328,
+  "cohort_wallets": 1822,
   "cohort_qualified": 104,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T06:00:43.395648+00:00",
+   "symbol": "YouTube",
+   "mint": "MKzAMExSooHhfTBSeC7ToFxjJwPRa8gp4FCWTfApump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003039,
+   "mcap": 303960,
+   "liq": 44876.1,
+   "h1": 618,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T05:30:37.682908+00:00",
    "symbol": "NVIDIA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T00:00:37.605228+00:00",
-   "symbol": "GLITCH",
-   "mint": "EYEVmZQ5eQPrqQ6ZFfDTTZMqC3eTR3GeByjqGmvZpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 15.5% > 12% gate",
-   "entry_price": 7.705e-05,
-   "mcap": 77051,
-   "liq": 23146.74,
-   "h1": 64.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 60,
+   "hits": 61,
    "symbols": [
-    "GLITCH",
     "SHADOW",
     "CYBERCAT",
     "TRENCHERS",
     "McNugget",
     "PHP",
     "ARCTIS",
-    "REMUS"
+    "REMUS",
+    "SWORDOPE"
    ],
-   "last": "2026-10-24 11:00 UTC"
+   "last": "2026-10-25 06:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -788,7 +788,7 @@
     "ARCTIS",
     "REMUS"
    ],
-   "last": "2026-10-25 04:00 UTC"
+   "last": "2026-10-25 06:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "McNugget",
-   "tag": "FADING",
-   "h1": -38.4,
-   "ts": "2026-10-23 21:00 UTC"
-  },
-  {
    "symbol": "BITCHES",
    "tag": "FADING",
    "h1": -28.3,
@@ -963,8 +957,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-10-25 05:30 UTC"
+   "h1": 0.8,
+   "ts": "2026-10-25 06:00 UTC"
   },
   {
    "symbol": "MI",
@@ -998,21 +992,27 @@
   },
   {
    "symbol": "SWORDOPE",
-   "tag": "WATCH",
-   "h1": -7.4,
-   "ts": "2026-10-25 05:30 UTC"
+   "tag": "FADING",
+   "h1": -27.0,
+   "ts": "2026-10-25 06:00 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 4.9,
-   "ts": "2026-10-25 05:30 UTC"
+   "h1": -5.0,
+   "ts": "2026-10-25 06:00 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "WATCH",
-   "h1": -3.3,
-   "ts": "2026-10-25 05:30 UTC"
+   "h1": -3.2,
+   "ts": "2026-10-25 06:00 UTC"
+  },
+  {
+   "symbol": "WRHND",
+   "tag": "FADING",
+   "h1": -31.6,
+   "ts": "2026-10-25 06:00 UTC"
   }
  ],
  "live_closes": [
