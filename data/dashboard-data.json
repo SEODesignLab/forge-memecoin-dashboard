@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T03:04:23.120018+00:00",
+ "generated": "2026-10-25T03:34:23.232381+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1322,
-  "cohort_wallets": 1718,
+  "cohort_runs": 1323,
+  "cohort_wallets": 1733,
   "cohort_qualified": 104,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 100
+   "count": 99
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T03:30:38.395512+00:00",
+   "symbol": "Marvin",
+   "mint": "2Qm9Pgq23GNAdxZRpzb5WHCNxRNLMjeWSr6uULvwpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001353,
+   "mcap": 135319,
+   "liq": 30251.98,
+   "h1": 214,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T03:30:38.388828+00:00",
+   "symbol": "TRUMP",
+   "mint": "FDsVJ9b5FHnDqEbC1u7ZQifhBi8MjNzkd1fE3j1Kpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Chase filter: +178% in 1h > 40% cap",
+   "entry_price": 0.000221,
+   "mcap": 221066,
+   "liq": 38734.1,
+   "h1": 178,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T03:30:38.382292+00:00",
+   "symbol": "Marvin",
+   "mint": "4eZxnVygJcETMH2HMPjn5wCeRL45XusTFnLpbEKmpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 22.0% > 12% gate",
+   "entry_price": 4.288e-05,
+   "mcap": 42882,
+   "liq": 16065.07,
+   "h1": 0.56,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T03:00:45.762537+00:00",
    "symbol": "NVIDIA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T22:30:51.140106+00:00",
-   "symbol": "Claude AI",
-   "mint": "ThoeKgwWrX4DzkHdDxBQxop5L4Cgcs8YXXDtQgDpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 15.8% > 12% gate",
-   "entry_price": 6.689e-05,
-   "mcap": 66897,
-   "liq": 20120.58,
-   "h1": 58.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T22:00:42.878028+00:00",
-   "symbol": "BPUMP",
-   "mint": "7KoWHUheKoLyn7Z5BDm3aJHwoFXYBd9kvvuVc1wypump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 9.32e-05,
-   "mcap": 93204,
-   "liq": 27255.96,
-   "h1": 105,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-24T22:00:42.873740+00:00",
-   "symbol": "GTA6",
-   "mint": "BqMfWsCnAsfAoTtduXMc2Rcf8VVAGgJUeThSyohpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 15.2% > 12% gate",
-   "entry_price": 7.574e-05,
-   "mcap": 75740,
-   "liq": 21522.88,
-   "h1": 79.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "PHP",
-   "tag": "WATCH",
-   "h1": -14.6,
-   "ts": "2026-10-24 02:00 UTC"
-  },
-  {
    "symbol": "McNugget",
    "tag": "FADING",
    "h1": -38.4,
@@ -969,8 +963,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 4.4,
-   "ts": "2026-10-25 03:00 UTC"
+   "h1": 0.5,
+   "ts": "2026-10-25 03:30 UTC"
   },
   {
    "symbol": "MI",
@@ -1005,14 +999,20 @@
   {
    "symbol": "SWORDOPE",
    "tag": "WATCH",
-   "h1": -11.1,
-   "ts": "2026-10-25 03:00 UTC"
+   "h1": -10.8,
+   "ts": "2026-10-25 03:30 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 9.3,
-   "ts": "2026-10-25 03:00 UTC"
+   "h1": 44.1,
+   "ts": "2026-10-25 03:30 UTC"
+  },
+  {
+   "symbol": "MAYA",
+   "tag": "WATCH",
+   "h1": 15.2,
+   "ts": "2026-10-25 03:30 UTC"
   }
  ],
  "live_closes": [
