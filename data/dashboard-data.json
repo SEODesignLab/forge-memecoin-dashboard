@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T16:04:27.492679+00:00",
+ "generated": "2026-10-25T16:34:27.650816+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1348,
-  "cohort_wallets": 1635,
+  "cohort_runs": 1349,
+  "cohort_wallets": 1647,
   "cohort_qualified": 105,
   "live_closes": 18,
   "live_wins": 4,
@@ -29,12 +29,12 @@
    "count": 99
   },
   {
-   "reason": "Top holder 13.2% > 12% gate",
+   "reason": "Top holder 13.5% > 12% gate",
    "count": 20
   },
   {
-   "reason": "Top holder 13.5% > 12% gate",
-   "count": 20
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 19
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T16:31:02.013777+00:00",
+   "symbol": "BLOB",
+   "mint": "Hy9t2MVAGVtf42b88QeyqXB7NoCkRj34UkGZXptBpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 56>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.423e-05,
+   "mcap": 54234,
+   "liq": 17907.56,
+   "h1": 28.99,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T16:31:02.009455+00:00",
+   "symbol": "TRUMP",
+   "mint": "HHDG5RDzasVTtM5PxwgbegzKkouB9esAjhYWMMFapump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Chase filter: +275% in 1h > 40% cap",
+   "entry_price": 0.0002008,
+   "mcap": 200733,
+   "liq": 36180.01,
+   "h1": 275,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T16:31:02.003279+00:00",
+   "symbol": "LMAO!",
+   "mint": "13oMb1i2tTNo9Vj3Z9BWgoRjHwZygQ1xWXEa4DoCpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Chase filter: +338% in 1h > 40% cap",
+   "entry_price": 0.0002236,
+   "mcap": 219913,
+   "liq": 39115.63,
+   "h1": 338,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T16:00:55.552001+00:00",
    "symbol": "ChatGPT",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:30:50.077427+00:00",
-   "symbol": "SPCX",
-   "mint": "5kPuDh6YVwCxY1xVTe4gz6cFPkvov2GD7i83kbyjpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 15.8% > 12% gate",
-   "entry_price": 7.077e-05,
-   "mcap": 70776,
-   "liq": 20738.21,
-   "h1": 66.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:30:50.073073+00:00",
-   "symbol": "SOL",
-   "mint": "DrCvVw1LbNoNEbp7fC9giPxKuuMfrP8RJhvANGS2pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.425e-05,
-   "mcap": 34253,
-   "liq": 15240.95,
-   "h1": -37.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:30:50.068700+00:00",
-   "symbol": "GTA6",
-   "mint": "UsoN9rTZQKU2B3UnkEuUdznvX6zpCsv7NjqXguZpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001233,
-   "mcap": 122826,
-   "liq": 27949.03,
-   "h1": 195,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "ARCTIS",
     "REMUS"
    ],
-   "last": "2026-10-25 06:00 UTC"
+   "last": "2026-10-25 16:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -951,8 +951,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -9.8,
-   "ts": "2026-10-25 16:00 UTC"
+   "h1": -15.0,
+   "ts": "2026-10-25 16:30 UTC"
   },
   {
    "symbol": "MI",
@@ -986,15 +986,15 @@
   },
   {
    "symbol": "SWORDOPE",
-   "tag": "FADING",
-   "h1": -35.0,
-   "ts": "2026-10-25 16:00 UTC"
+   "tag": "WATCH",
+   "h1": 15.7,
+   "ts": "2026-10-25 16:30 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 8.3,
-   "ts": "2026-10-25 16:00 UTC"
+   "h1": -0.7,
+   "ts": "2026-10-25 16:30 UTC"
   },
   {
    "symbol": "MAYA",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "LTC",
-   "tag": "WATCH",
-   "h1": 5.3,
-   "ts": "2026-10-25 16:00 UTC"
+   "tag": "FADING",
+   "h1": -31.5,
+   "ts": "2026-10-25 16:30 UTC"
   }
  ],
  "live_closes": [
