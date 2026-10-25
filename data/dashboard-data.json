@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T22:04:29.458104+00:00",
+ "generated": "2026-10-25T22:34:29.615027+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1360,
-  "cohort_wallets": 1793,
+  "cohort_runs": 1361,
+  "cohort_wallets": 1806,
   "cohort_qualified": 106,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
-   "count": 21
+   "count": 20
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T22:30:53.622752+00:00",
+   "symbol": "BARRON",
+   "mint": "Ds2JDKxWVKqAa2h4wqCTQgQNk7mUGbzEMR1nFENzpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.756e-05,
+   "mcap": 57567,
+   "liq": 18549.8,
+   "h1": 36.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T22:30:53.616134+00:00",
+   "symbol": "Spidoge",
+   "mint": "57efDh62UeTXKidU6v9qhp8JUyGrgKiy2jB8twmpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 16.7% > 12% gate",
+   "entry_price": 7.464e-05,
+   "mcap": 74650,
+   "liq": 21584.13,
+   "h1": 77.28,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T22:30:53.611814+00:00",
+   "symbol": "Goon",
+   "mint": "GpxRDGMPz81fMDyNucFKpvbhLKBG1GYnWEbBW8oqpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 18.3% > 12% gate",
+   "entry_price": 6.2e-05,
+   "mcap": 62003,
+   "liq": 20346.09,
+   "h1": 50.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T22:30:53.607044+00:00",
+   "symbol": "LINKR",
+   "mint": "8U4hUSfL4PEjz5DbXmsSfaRJwrb4tW65FQn7jZAdLnZF",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 24.3% > 12% gate",
+   "entry_price": 3.816e-05,
+   "mcap": 38161,
+   "liq": 16753.6,
+   "h1": -7.2,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T22:00:50.111616+00:00",
    "symbol": "STT",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T19:00:58.234473+00:00",
-   "symbol": "AMC",
-   "mint": "B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001737,
-   "mcap": 173732,
-   "liq": 33924.97,
-   "h1": 240,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T19:00:58.228288+00:00",
-   "symbol": "LAUNCH",
-   "mint": "97qwHhzWsjhaKpiHMxwMVJsGqG1xc2um4sE7ApgPpump",
-   "score": 112,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000353,
-   "mcap": 352979,
-   "liq": 48859.58,
-   "h1": 566,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T18:30:40.072278+00:00",
-   "symbol": "CURED",
-   "mint": "2ZQAyjB8N3ZY1hoAjxtw2FmHXhbZo4SdFJYNBDjqpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 4.25e-05,
-   "mcap": 42443,
-   "liq": 15682.32,
-   "h1": -6.41,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T18:30:40.067725+00:00",
-   "symbol": "Grok",
-   "mint": "Fh8GGfj6QjBC9HuV97zgMjCRT55TmZc2S7UAgAfspump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0003523,
-   "mcap": 352349,
-   "liq": 48468.42,
-   "h1": 733,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": -15.9,
-   "ts": "2026-10-25 22:00 UTC"
+   "h1": -7.2,
+   "ts": "2026-10-25 22:30 UTC"
   },
   {
    "symbol": "MAYA",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "NETWORK",
    "tag": "WATCH",
-   "h1": -0.6,
-   "ts": "2026-10-25 22:00 UTC"
+   "h1": -16.0,
+   "ts": "2026-10-25 22:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 9.0,
-   "ts": "2026-10-25 22:00 UTC"
+   "h1": 1.9,
+   "ts": "2026-10-25 22:30 UTC"
   }
  ],
  "live_closes": [
