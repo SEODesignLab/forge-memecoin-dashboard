@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T10:34:25.607079+00:00",
+ "generated": "2026-10-25T11:04:25.807718+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1337,
-  "cohort_wallets": 1985,
-  "cohort_qualified": 104,
+  "cohort_runs": 1338,
+  "cohort_wallets": 1500,
+  "cohort_qualified": 105,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -42,7 +42,7 @@
   },
   {
    "reason": "RugCheck risk 59>45",
-   "count": 11
+   "count": 12
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T11:00:30.025560+00:00",
+   "symbol": "BNB",
+   "mint": "NegrodowdjV5X7KoFUw2oEneEbmJcPz4EwAKRA1nC3p",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.425e-05,
+   "mcap": 34258,
+   "liq": 13378.54,
+   "h1": -7.65,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T10:30:50.085997+00:00",
    "symbol": "Bear",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T04:30:45.459840+00:00",
-   "symbol": "CHOMPO",
-   "mint": "7BfS2n1C3VHf2tjpcRuyPnwnJzhp52QKk1m7vcompump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.6% > 12% gate",
-   "entry_price": 4.894e-05,
-   "mcap": 48949,
-   "liq": 17373.29,
-   "h1": 14.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 31.6,
-   "ts": "2026-10-25 10:30 UTC"
+   "h1": 8.2,
+   "ts": "2026-10-25 11:00 UTC"
   },
   {
    "symbol": "MI",
@@ -992,21 +992,21 @@
   },
   {
    "symbol": "SWORDOPE",
-   "tag": "WATCH",
-   "h1": 2.6,
-   "ts": "2026-10-25 10:30 UTC"
+   "tag": "FADING",
+   "h1": -37.8,
+   "ts": "2026-10-25 11:00 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": -1.5,
-   "ts": "2026-10-25 10:30 UTC"
+   "h1": 30.9,
+   "ts": "2026-10-25 11:00 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "WATCH",
-   "h1": -1.2,
-   "ts": "2026-10-25 10:30 UTC"
+   "h1": 2.1,
+   "ts": "2026-10-25 11:00 UTC"
   },
   {
    "symbol": "WRHND",
