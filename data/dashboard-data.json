@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:04:26.847137+00:00",
+ "generated": "2026-10-25T14:34:26.979911+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1344,
-  "cohort_wallets": 1583,
+  "cohort_runs": 1345,
+  "cohort_wallets": 1594,
   "cohort_qualified": 105,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 99
+   "count": 100
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -42,11 +42,7 @@
   },
   {
    "reason": "RugCheck risk 59>45",
-   "count": 13
-  },
-  {
-   "reason": "Top holder 13.7% > 12% gate",
-   "count": 8
+   "count": 12
   },
   {
    "reason": "Top holder 13.6% > 12% gate",
@@ -54,6 +50,10 @@
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
+   "count": 7
+  },
+  {
+   "reason": "Top holder 13.7% > 12% gate",
    "count": 7
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T14:30:59.556979+00:00",
+   "symbol": "GTA",
+   "mint": "HHQgMsb2ZcQieyVc6dD2Bpskom97wzth8d1B29ukpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 24.1% > 12% gate",
+   "entry_price": 4.054e-05,
+   "mcap": 40543,
+   "liq": 15766.46,
+   "h1": -10.19,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T14:30:59.552353+00:00",
+   "symbol": "ASSETS",
+   "mint": "45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002069,
+   "mcap": 206925,
+   "liq": 37063.13,
+   "h1": 290,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T14:30:59.544982+00:00",
+   "symbol": "TRANSOM",
+   "mint": "EUkJycHeCUkHTPbLC8LdHWvNndnVDKPHBBJVMAPrpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 22.7% > 12% gate",
+   "entry_price": 3.465e-05,
+   "mcap": 34204,
+   "liq": 13912.73,
+   "h1": -15.71,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T14:00:43.802860+00:00",
    "symbol": "Rockstar",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T07:30:40.992106+00:00",
-   "symbol": "MERGE",
-   "mint": "fwphSGZVuFpdUPsB8K8YFtC9DpZB6xzTjso7A4Zpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.9% > 12% gate",
-   "entry_price": 9.115e-05,
-   "mcap": 91160,
-   "liq": 23890.32,
-   "h1": 69.29,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T07:30:40.986457+00:00",
-   "symbol": "WHITEWHALE",
-   "mint": "4PAPJyck7pCwLnXtBNSu1b5APLyLhDp9upQFgYJrpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 12.5% > 12% gate",
-   "entry_price": 0.0001226,
-   "mcap": 122624,
-   "liq": 29373.23,
-   "h1": 186,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T07:30:40.981943+00:00",
-   "symbol": "WHITEWHALE",
-   "mint": "5uzhR58hbDSUGwsyrc5onNvPG3t2kmCMZF9BSi4Apump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002247,
-   "mcap": 224772,
-   "liq": 38669.18,
-   "h1": 237,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -4.9,
-   "ts": "2026-10-25 14:00 UTC"
+   "h1": -10.2,
+   "ts": "2026-10-25 14:30 UTC"
   },
   {
    "symbol": "MI",
@@ -993,14 +993,14 @@
   {
    "symbol": "SWORDOPE",
    "tag": "WATCH",
-   "h1": 13.7,
-   "ts": "2026-10-25 14:00 UTC"
+   "h1": 18.4,
+   "ts": "2026-10-25 14:30 UTC"
   },
   {
    "symbol": "CATTLEAXE",
-   "tag": "WATCH",
-   "h1": -4.5,
-   "ts": "2026-10-25 14:00 UTC"
+   "tag": "FADING",
+   "h1": -21.0,
+   "ts": "2026-10-25 14:30 UTC"
   },
   {
    "symbol": "MAYA",
