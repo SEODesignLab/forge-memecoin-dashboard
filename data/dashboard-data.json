@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T15:34:27.303287+00:00",
+ "generated": "2026-10-25T16:04:27.492679+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1347,
-  "cohort_wallets": 1623,
+  "cohort_runs": 1348,
+  "cohort_wallets": 1635,
   "cohort_qualified": 105,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 98
+   "count": 99
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -45,24 +45,20 @@
    "count": 12
   },
   {
-   "reason": "Top holder 13.6% > 12% gate",
+   "reason": "Top holder 13.7% > 12% gate",
    "count": 8
+  },
+  {
+   "reason": "Top holder 13.6% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
-   "count": 7
-  },
-  {
    "reason": "Top holder 15.3% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 17.8% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 17.5% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 15.8% > 12% gate",
    "count": 6
+  },
+  {
+   "reason": "Top holder 19.8% > 12% gate",
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T16:00:55.552001+00:00",
+   "symbol": "ChatGPT",
+   "mint": "X57MZj7pbfwWrW4tD9oEyaLfxUkV1pSWji5j6d7pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 0.0005754,
+   "mcap": 575280,
+   "liq": 62341.48,
+   "h1": 1264,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T16:00:55.547055+00:00",
+   "symbol": "GTA",
+   "mint": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001453,
+   "mcap": 145365,
+   "liq": 30897.74,
+   "h1": 209,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T16:00:55.539588+00:00",
+   "symbol": "MrBeast",
+   "mint": "C3rdkKnAkqjmKm4bNtD8r4eKjCeJkwC8cg9u1qd7pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 29.5% > 12% gate",
+   "entry_price": 0.000393,
+   "mcap": 393042,
+   "liq": 51202.52,
+   "h1": 832,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T15:30:48.737329+00:00",
    "symbol": "CONFUSED",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:30:50.064115+00:00",
-   "symbol": "Bugmageddon",
-   "mint": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 17.0% > 12% gate",
-   "entry_price": 7.306e-05,
-   "mcap": 70601,
-   "liq": 22637.86,
-   "h1": -28.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:00:42.363886+00:00",
-   "symbol": "BTCM",
-   "mint": "9A4ciVdqBX8a8JWwSaLEDnhMG1Nj1R8uPAeMYCB8pump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 43.1% > 12% gate",
-   "entry_price": 1.135e-05,
-   "mcap": 11355,
-   "liq": 8887.09,
-   "h1": -72.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T10:00:42.359638+00:00",
-   "symbol": "Speed",
-   "mint": "2nryo7sWFERRb6vR559fgF96EoHmnaAKrho9R2FKpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 0.0004255,
-   "mcap": 425561,
-   "liq": 53208.83,
-   "h1": 916,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -951,8 +951,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": 4.2,
-   "ts": "2026-10-25 15:30 UTC"
+   "h1": -9.8,
+   "ts": "2026-10-25 16:00 UTC"
   },
   {
    "symbol": "MI",
@@ -987,14 +987,14 @@
   {
    "symbol": "SWORDOPE",
    "tag": "FADING",
-   "h1": -53.9,
-   "ts": "2026-10-25 15:30 UTC"
+   "h1": -35.0,
+   "ts": "2026-10-25 16:00 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 6.3,
-   "ts": "2026-10-25 15:30 UTC"
+   "h1": 8.3,
+   "ts": "2026-10-25 16:00 UTC"
   },
   {
    "symbol": "MAYA",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "LTC",
    "tag": "WATCH",
-   "h1": 7.2,
-   "ts": "2026-10-25 15:30 UTC"
+   "h1": 5.3,
+   "ts": "2026-10-25 16:00 UTC"
   }
  ],
  "live_closes": [
