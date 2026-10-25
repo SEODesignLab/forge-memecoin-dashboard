@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T05:04:23.751791+00:00",
+ "generated": "2026-10-25T05:34:23.919154+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1326,
-  "cohort_wallets": 1785,
+  "cohort_runs": 1327,
+  "cohort_wallets": 1802,
   "cohort_qualified": 104,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 20
+   "count": 21
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -53,10 +53,6 @@
    "count": 7
   },
   {
-   "reason": "Score 83 below threshold 85",
-   "count": 6
-  },
-  {
    "reason": "Top holder 15.8% > 12% gate",
    "count": 6
   },
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 6
+  },
+  {
+   "reason": "Top holder 13.7% > 12% gate",
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-25T05:30:37.682908+00:00",
+   "symbol": "NVIDIA",
+   "mint": "WBcYncQym6AJhxPwT18EXPkAm6ABg9n9US9jBqmpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0004305,
+   "mcap": 430582,
+   "liq": 53895.7,
+   "h1": 912,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T05:30:37.678636+00:00",
+   "symbol": "NOBRAIN",
+   "mint": "4b49ETm5tXEX8HKtpZz4cSJQ6cPh3qk2uLWq137Lpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 19.4% > 12% gate",
+   "entry_price": 4.761e-05,
+   "mcap": 47618,
+   "liq": 16924.31,
+   "h1": 12.01,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-25T05:30:37.673595+00:00",
+   "symbol": "PUMPGOBLIN",
+   "mint": "8xKLYtVsFTzbiHTSywSahKjrfDFLtzCDdgwN4SJqpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 31.9% > 12% gate",
+   "entry_price": 1.806e-05,
+   "mcap": 18069,
+   "liq": 9732.48,
+   "h1": -57.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T05:00:50.446557+00:00",
    "symbol": "PLOOMY",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T00:00:37.600500+00:00",
-   "symbol": "FOMO",
-   "mint": "qVUwGRZPwxTr3GWVBvG89ngAfRDQ2Ys9mgSLbNQpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 17.4% > 12% gate",
-   "entry_price": 5.675e-05,
-   "mcap": 56759,
-   "liq": 18509.01,
-   "h1": 33.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T00:00:37.595475+00:00",
-   "symbol": "Apple",
-   "mint": "3zB6YC4r5AhQZBfQE8BHKBhPueXKsnCcxHuUoi2Qpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 14.3% > 12% gate",
-   "entry_price": 0.0005586,
-   "mcap": 558679,
-   "liq": 61609.93,
-   "h1": 1214,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T00:00:37.589349+00:00",
-   "symbol": "pumpfun",
-   "mint": "46MjHjwCnu47ySpCC32rfUZ5jYqnbxrhdT9HPJhKpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 18.9% > 12% gate",
-   "entry_price": 6.572e-05,
-   "mcap": 65602,
-   "liq": 22101.05,
-   "h1": 46.1,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "REMUS",
    "tag": "WATCH",
-   "h1": -4.9,
-   "ts": "2026-10-25 05:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-10-25 05:30 UTC"
   },
   {
    "symbol": "MI",
@@ -999,20 +999,20 @@
   {
    "symbol": "SWORDOPE",
    "tag": "WATCH",
-   "h1": 13.6,
-   "ts": "2026-10-25 05:00 UTC"
+   "h1": -7.4,
+   "ts": "2026-10-25 05:30 UTC"
   },
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 7.1,
-   "ts": "2026-10-25 05:00 UTC"
+   "h1": 4.9,
+   "ts": "2026-10-25 05:30 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "WATCH",
-   "h1": 4.1,
-   "ts": "2026-10-25 05:00 UTC"
+   "h1": -3.3,
+   "ts": "2026-10-25 05:30 UTC"
   }
  ],
  "live_closes": [
