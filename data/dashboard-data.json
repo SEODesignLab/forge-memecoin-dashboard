@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T05:04:31.771737+00:00",
+ "generated": "2026-10-26T05:34:31.923864+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1374,
-  "cohort_wallets": 1529,
+  "cohort_runs": 1375,
+  "cohort_wallets": 1557,
   "cohort_qualified": 107,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 105
+   "count": 104
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -38,19 +38,19 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 16
+   "count": 15
   },
   {
    "reason": "RugCheck risk 59>45",
    "count": 15
   },
   {
-   "reason": "Top holder 13.4% > 12% gate",
+   "reason": "Top holder 13.7% > 12% gate",
    "count": 9
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
-   "count": 8
+   "reason": "Top holder 13.4% > 12% gate",
+   "count": 9
   },
   {
    "reason": "Top holder 16.1% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-26T05:30:52.315201+00:00",
+   "symbol": "TFOMO",
+   "mint": "hJfZT5YVfEDG2WjEwTxeKro2skB1CHhj97xXX4Bpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 18.2% > 12% gate",
+   "entry_price": 0.0001208,
+   "mcap": 120869,
+   "liq": 44301.57,
+   "h1": 187,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T05:30:52.304883+00:00",
+   "symbol": "ApeLax",
+   "mint": "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 9.944e-05,
+   "mcap": 95790,
+   "liq": 25154.17,
+   "h1": 101,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-26T05:00:46.084351+00:00",
    "symbol": "Speed",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T23:30:51.674237+00:00",
-   "symbol": "GTA6 Coin",
-   "mint": "BXVCaJYNobDsRJjakwchiG6brS8HE4jpiQDhRUCpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 0.0003608,
-   "mcap": 360899,
-   "liq": 48876.34,
-   "h1": 760,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T23:30:51.669943+00:00",
-   "symbol": "BTC",
-   "mint": "Ef1msGuVNfbKY6AzVM25SHEJWuEFSscKxTR2TazZpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002265,
-   "mcap": 226501,
-   "liq": 38825.49,
-   "h1": 347,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-10-26 05:00 UTC"
+   "h1": 2.4,
+   "ts": "2026-10-26 05:30 UTC"
   },
   {
    "symbol": "MAYA",
@@ -987,20 +987,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -7.7,
-   "ts": "2026-10-26 05:00 UTC"
+   "h1": -11.7,
+   "ts": "2026-10-26 05:30 UTC"
   },
   {
    "symbol": "Chop",
    "tag": "WATCH",
-   "h1": 24.7,
-   "ts": "2026-10-26 05:00 UTC"
+   "h1": 32.4,
+   "ts": "2026-10-26 05:30 UTC"
   },
   {
    "symbol": "TIT",
    "tag": "WATCH",
-   "h1": 18.8,
-   "ts": "2026-10-26 05:00 UTC"
+   "h1": 29.9,
+   "ts": "2026-10-26 05:30 UTC"
   },
   {
    "symbol": "Hellcat",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "GIGATITS",
    "tag": "WATCH",
-   "h1": 1.5,
-   "ts": "2026-10-26 05:00 UTC"
+   "h1": -18.6,
+   "ts": "2026-10-26 05:30 UTC"
   }
  ],
  "live_closes": [
