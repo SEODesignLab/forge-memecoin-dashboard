@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:04:12.242134+00:00",
+ "generated": "2026-10-26T16:34:12.376661+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1396,
-  "cohort_wallets": 1921,
+  "cohort_runs": 1397,
+  "cohort_wallets": 1939,
   "cohort_qualified": 107,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 97
+   "count": 98
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -38,7 +38,7 @@
   },
   {
    "reason": "RugCheck risk 59>45",
-   "count": 15
+   "count": 14
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -54,26 +54,71 @@
   },
   {
    "reason": "Top holder 13.8% > 12% gate",
-   "count": 9
-  },
-  {
-   "reason": "Top holder 16.1% > 12% gate",
-   "count": 7
+   "count": 8
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
    "count": 7
   },
   {
-   "reason": "Top holder 14.0% > 12% gate",
-   "count": 5
+   "reason": "Top holder 16.9% > 12% gate",
+   "count": 6
   },
   {
-   "reason": "Top holder 16.9% > 12% gate",
+   "reason": "Top holder 16.1% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 14.0% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-26T16:30:43.224998+00:00",
+   "symbol": "XD",
+   "mint": "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Top holder 16.9% > 12% gate",
+   "entry_price": 0.000303,
+   "mcap": 302671,
+   "liq": 56362.41,
+   "h1": 581,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T16:30:43.219488+00:00",
+   "symbol": "ANT",
+   "mint": "8WXp8KJRLSSQChp8URbq8xtbnp3w73A21F8cgRDTpump",
+   "score": 117,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002484,
+   "mcap": 248491,
+   "liq": 40413.97,
+   "h1": 394,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T16:30:43.212851+00:00",
+   "symbol": "RoundHead",
+   "mint": "HaN5BxkS3YEVbQQftzFnqdoLvvafYit3fFNhXR3tpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 17.2% > 12% gate",
+   "entry_price": 6.298e-05,
+   "mcap": 62988,
+   "liq": 20699.3,
+   "h1": 49.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-26T16:00:37.602974+00:00",
    "symbol": "MFORGE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T13:31:00.669771+00:00",
-   "symbol": "L1-79",
-   "mint": "3bzqGFeB9ik8owLqSLgnhdTVVMwNN4UW1KLPxb63pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 14.9% > 12% gate",
-   "entry_price": 8.388e-05,
-   "mcap": 83782,
-   "liq": 23101.44,
-   "h1": 95.11,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T13:31:00.665442+00:00",
-   "symbol": "$ANT",
-   "mint": "5J8aJC8uANR55H28WJXk12J6hdZtX9Pos5aytfFkpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 18.7% > 12% gate",
-   "entry_price": 5.852e-05,
-   "mcap": 58524,
-   "liq": 18797.9,
-   "h1": 33.19,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T13:31:00.660624+00:00",
-   "symbol": "SWENEE",
-   "mint": "B3kDyG4nHLozetZZ1TFAsZsEMoZHbLaUEDEuF2Rspump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001981,
-   "mcap": 198081,
-   "liq": 35996.13,
-   "h1": 256,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "CATTLEAXE",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-10-26 16:00 UTC"
+   "h1": 1.7,
+   "ts": "2026-10-26 16:30 UTC"
   },
   {
    "symbol": "MAYA",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "ANT",
-   "tag": "FADING",
-   "h1": -21.2,
-   "ts": "2026-10-26 16:00 UTC"
+   "tag": "WATCH",
+   "h1": 25.4,
+   "ts": "2026-10-26 16:30 UTC"
   }
  ],
  "live_closes": [
