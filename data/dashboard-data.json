@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T23:34:29.921627+00:00",
+ "generated": "2026-10-26T00:04:30.099693+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1363,
-  "cohort_wallets": 1837,
+  "cohort_runs": 1364,
+  "cohort_wallets": 1851,
   "cohort_qualified": 106,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 108
+   "count": 107
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
@@ -57,6 +57,10 @@
    "count": 6
   },
   {
+   "reason": "Top holder 14.3% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 14.0% > 12% gate",
    "count": 6
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 19.8% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 12.9% > 12% gate",
-   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-26T00:00:44.582329+00:00",
+   "symbol": "NVIDIA",
+   "mint": "kbb9gRi8Zn8mXHojuSd2KzfpT6dgw9gjMj1jnLVpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 7.918e-05,
+   "mcap": 79184,
+   "liq": 22074.99,
+   "h1": 88.48,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T00:00:44.574476+00:00",
+   "symbol": "GTONK",
+   "mint": "9qyUWAY2LsccnYxNh5UCF8pybsbjru7nZLP59SMfpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 12.1% > 12% gate",
+   "entry_price": 0.0001322,
+   "mcap": 132291,
+   "liq": 29564.27,
+   "h1": 181,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-25T23:30:51.683007+00:00",
    "symbol": "AMAZON",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T20:00:55.485299+00:00",
-   "symbol": "Br\u00fcnnhilde",
-   "mint": "HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 26.7% > 12% gate",
-   "entry_price": 2.487e-05,
-   "mcap": 24853,
-   "liq": 11610.7,
-   "h1": -37.84,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T20:00:55.479396+00:00",
-   "symbol": "FORK",
-   "mint": "4k6LLFTBh7SWDE5wrqZEpae95A4zTrWJ2VcKGRNWpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 26.1% > 12% gate",
-   "entry_price": 2.475e-05,
-   "mcap": 24752,
-   "liq": 11604.87,
-   "h1": -42.35,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "NETWORK",
    "tag": "WATCH",
-   "h1": 4.4,
-   "ts": "2026-10-25 23:30 UTC"
+   "h1": -3.8,
+   "ts": "2026-10-26 00:00 UTC"
   },
   {
    "symbol": "GTA",
-   "tag": "FADING",
-   "h1": -57.4,
-   "ts": "2026-10-25 23:30 UTC"
+   "tag": "WATCH",
+   "h1": 7.1,
+   "ts": "2026-10-26 00:00 UTC"
   },
   {
    "symbol": "Chop",
    "tag": "WATCH",
-   "h1": 28.2,
-   "ts": "2026-10-25 23:30 UTC"
+   "h1": 24.0,
+   "ts": "2026-10-26 00:00 UTC"
   }
  ],
  "live_closes": [
