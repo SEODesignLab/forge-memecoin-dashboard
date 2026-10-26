@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T02:34:30.915687+00:00",
+ "generated": "2026-10-26T03:04:31.120517+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": 0.0,
   "need_settled": 50,
-  "cohort_runs": 1369,
-  "cohort_wallets": 1926,
+  "cohort_runs": 1370,
+  "cohort_wallets": 1946,
   "cohort_qualified": 107,
   "live_closes": 18,
   "live_wins": 4,
@@ -57,8 +57,8 @@
    "count": 7
   },
   {
-   "reason": "Top holder 15.6% > 12% gate",
-   "count": 6
+   "reason": "Top holder 14.8% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 15.3% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-26T03:00:57.796539+00:00",
+   "symbol": "CocaCola",
+   "mint": "8Z8xKLhx9cppHsQeBaYETkDNrKJSqHSpMzfA4HRpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 14.8% > 12% gate",
+   "entry_price": 7.786e-05,
+   "mcap": 77862,
+   "liq": 21817.32,
+   "h1": 86.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T03:00:57.790913+00:00",
+   "symbol": "ROFLAMP",
+   "mint": "5br4iKsSRKQCamaqBPUgPsYSDYsTjFjFFBEj1oJPpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 64>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.425e-05,
+   "mcap": 54260,
+   "liq": 17880.67,
+   "h1": 28.93,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-26T03:00:57.772933+00:00",
+   "symbol": "pumpkinu",
+   "mint": "RJB5xnuPgknw87mP6cuREVAjU9UyGmnFe2o4kBjpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 17.0% > 12% gate",
+   "entry_price": 6.9e-05,
+   "mcap": 69000,
+   "liq": 20433.9,
+   "h1": 69.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-26T02:30:57.931827+00:00",
    "symbol": "PONS",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T22:00:50.102952+00:00",
-   "symbol": "TSLA",
-   "mint": "9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002892,
-   "mcap": 289239,
-   "liq": 46117.46,
-   "h1": 468,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T22:00:50.095717+00:00",
-   "symbol": "kimback",
-   "mint": "FcqKM8X2Fme8GLkPsyRpsbXZhLkRSbuaorrnheu5pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 9.143e-05,
-   "mcap": 91432,
-   "liq": 24315.4,
-   "h1": 79.53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-25T21:30:52.364363+00:00",
-   "symbol": "ChatGPT",
-   "mint": "6RYVmnUQKjVmHpzY6KqGDgPDbZkxEaPmr9m8Uejmpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0003533,
-   "mcap": 353382,
-   "liq": 48452.1,
-   "h1": 739,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "SWORDOPE",
     "GATO"
    ],
-   "last": "2026-10-26 02:00 UTC"
+   "last": "2026-10-26 03:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "\u304b\u307c\u3059",
-   "tag": "WATCH",
-   "h1": 37.9,
-   "ts": "2026-10-24 20:30 UTC"
-  },
-  {
    "symbol": "swordtrump",
    "tag": "WATCH",
    "h1": -13.9,
@@ -993,26 +987,32 @@
   {
    "symbol": "GTA",
    "tag": "FADING",
-   "h1": -25.8,
-   "ts": "2026-10-26 02:30 UTC"
+   "h1": -51.9,
+   "ts": "2026-10-26 03:00 UTC"
   },
   {
    "symbol": "Chop",
    "tag": "WATCH",
-   "h1": -8.5,
-   "ts": "2026-10-26 02:30 UTC"
+   "h1": -6.6,
+   "ts": "2026-10-26 03:00 UTC"
   },
   {
    "symbol": "TIT",
    "tag": "FADING",
-   "h1": -63.5,
-   "ts": "2026-10-26 02:30 UTC"
+   "h1": -57.6,
+   "ts": "2026-10-26 03:00 UTC"
   },
   {
    "symbol": "Hellcat",
    "tag": "WATCH",
    "h1": -1.3,
    "ts": "2026-10-26 01:30 UTC"
+  },
+  {
+   "symbol": "GIGATITS",
+   "tag": "CHASE",
+   "h1": 1641.0,
+   "ts": "2026-10-26 03:00 UTC"
   }
  ],
  "live_closes": [
