@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T03:04:15.642844+00:00",
+ "generated": "2026-10-27T03:34:15.775666+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1418,
-  "cohort_wallets": 1732,
+  "cohort_runs": 1419,
+  "cohort_wallets": 1747,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,23 +26,23 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 95
+   "count": 94
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
-   "count": 21
+   "count": 22
+  },
+  {
+   "reason": "Top holder 13.5% > 12% gate",
+   "count": 16
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
    "count": 16
   },
   {
-   "reason": "Top holder 13.5% > 12% gate",
-   "count": 15
-  },
-  {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 15
+   "count": 16
   },
   {
    "reason": "RugCheck risk 59>45",
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-27T03:30:49.654161+00:00",
+   "symbol": "Robinhood",
+   "mint": "b7EDLmMJH7QnnmxdsLNZCCFmzG3q1hB4wV7peQxpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0004798,
+   "mcap": 479800,
+   "liq": 56420.97,
+   "h1": 1056,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T03:30:49.649708+00:00",
+   "symbol": "DeepSeek",
+   "mint": "ueEpEooGcRGMvhGkU2BZR1mq386WFHYjM9TqwHMpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 13.3% > 12% gate",
+   "entry_price": 0.0003393,
+   "mcap": 339366,
+   "liq": 47156.03,
+   "h1": 716,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T03:30:49.644928+00:00",
+   "symbol": "OpenAI",
+   "mint": "2yyawNwUdxGdK1DEncfJQyQEoFrvG1WjLY1dUhoCpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.0003939,
+   "mcap": 393857,
+   "liq": 50943.94,
+   "h1": 848,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T03:30:49.639155+00:00",
+   "symbol": "Leverage",
+   "mint": "CufvRbdcYz3zRHYhAp4efhYu7TA3KkoqAFWqnzsVuh9V",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 13.0% > 12% gate",
+   "entry_price": 0.0001348,
+   "mcap": 132083,
+   "liq": 31734.43,
+   "h1": 233,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T03:30:49.633023+00:00",
+   "symbol": "Rape ",
+   "mint": "2BS3r41ma2cJMFBVhXCpcbwhEko4LuYqGdjAh9fLpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 20.1% > 12% gate",
+   "entry_price": 5.304e-05,
+   "mcap": 53041,
+   "liq": 18321.69,
+   "h1": 18.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-27T03:00:36.440017+00:00",
    "symbol": "PSYTOAD",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T22:00:26.922339+00:00",
-   "symbol": "NOMO",
-   "mint": "DNjwxV2UiBhqhDjUkcr7NtktH7uocJfW9DPGQ2Mcpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 19.5% > 12% gate",
-   "entry_price": 4.852e-05,
-   "mcap": 48523,
-   "liq": 17519.72,
-   "h1": 1.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T22:00:26.917829+00:00",
-   "symbol": "OBUMA",
-   "mint": "A53C2LNuZ8kxi7FFhxHXrZbCAzYxPYeMD1tADs2pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 24.1% > 12% gate",
-   "entry_price": 3.16e-05,
-   "mcap": 31550,
-   "liq": 13200.01,
-   "h1": -24.38,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T22:00:26.913242+00:00",
-   "symbol": "Muskjak",
-   "mint": "DyWT6BtMzg2NLyusD1Yig4g7HrsotDjubcBw6Tvepump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 6.859e-05,
-   "mcap": 68594,
-   "liq": 20472.53,
-   "h1": 63.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T22:00:26.908526+00:00",
-   "symbol": "ASQUAD",
-   "mint": "Jmy7SAPywD5eUtgfxCQRhUqAPAaN1kegh7G3JssQuAD",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 34.9% > 12% gate",
-   "entry_price": 2.214e-05,
-   "mcap": 22107,
-   "liq": 11307.78,
-   "h1": -46.43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T22:00:26.903284+00:00",
-   "symbol": "KANE",
-   "mint": "6FQrcfh9HGPrdiyTxcVd3RtSNXVp7vWwBv1LafGgnke6",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.9% > 12% gate",
-   "entry_price": 3.701e-05,
-   "mcap": 36964,
-   "liq": 14626.17,
-   "h1": -22.17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -773,7 +773,7 @@
     "REMUS",
     "Wifoween"
    ],
-   "last": "2026-10-27 02:30 UTC"
+   "last": "2026-10-27 03:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Wifoween",
    "tag": "WATCH",
-   "h1": 25.5,
-   "ts": "2026-10-27 03:00 UTC"
+   "h1": 35.9,
+   "ts": "2026-10-27 03:30 UTC"
   },
   {
    "symbol": "ELON2028",
    "tag": "WATCH",
-   "h1": -19.3,
-   "ts": "2026-10-27 03:00 UTC"
+   "h1": -17.0,
+   "ts": "2026-10-27 03:30 UTC"
   }
  ],
  "live_closes": [
