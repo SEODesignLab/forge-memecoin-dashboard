@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T04:04:15.943694+00:00",
+ "generated": "2026-10-27T04:34:16.092679+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1420,
-  "cohort_wallets": 1763,
+  "cohort_runs": 1421,
+  "cohort_wallets": 1774,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 91
+   "count": 90
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
-   "count": 16
+   "count": 18
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -42,19 +42,15 @@
   },
   {
    "reason": "Top holder 13.5% > 12% gate",
-   "count": 15
+   "count": 16
   },
   {
    "reason": "RugCheck risk 59>45",
    "count": 14
   },
   {
-   "reason": "Top holder 13.7% > 12% gate",
-   "count": 8
-  },
-  {
    "reason": "Top holder 14.8% > 12% gate",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Top holder 16.1% > 12% gate",
@@ -62,6 +58,10 @@
   },
   {
    "reason": "Top holder 15.7% > 12% gate",
+   "count": 7
+  },
+  {
+   "reason": "Top holder 13.7% > 12% gate",
    "count": 7
   },
   {
@@ -74,6 +74,111 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-27T04:30:35.642913+00:00",
+   "symbol": "YouTube",
+   "mint": "sJ83Xmc4AA1yXJnY6yXZUkzdgVVP5Mrek5mah18pump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Top holder 13.4% > 12% gate",
+   "entry_price": 0.0006177,
+   "mcap": 617778,
+   "liq": 64236.91,
+   "h1": 1387,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.634891+00:00",
+   "symbol": "Apple",
+   "mint": "2ogGWVYDRtaY4ZNs6G8p38tGFudoPEieKeio9bxnpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.0003908,
+   "mcap": 390830,
+   "liq": 50718.8,
+   "h1": 840,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.627728+00:00",
+   "symbol": "GTA 6 Coin",
+   "mint": "13hHMvfnFDx4yK16uJfEbR8A7xX41TzVLj7yzc7Ppump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 13.4% > 12% gate",
+   "entry_price": 0.0007917,
+   "mcap": 791512,
+   "liq": 72963.77,
+   "h1": 1806,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.623240+00:00",
+   "symbol": "Grok",
+   "mint": "HhC5zxr2mbQJVu6WsxQU7u2avXHomkUj3qzbJGygpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 14.8% > 12% gate",
+   "entry_price": 7.691e-05,
+   "mcap": 76919,
+   "liq": 21587.64,
+   "h1": 85.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.618774+00:00",
+   "symbol": "Robinhood",
+   "mint": "HtBWXsHgoshyCfk4j9EDfNSRssRSWiQc7xmuw4qpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0003163,
+   "mcap": 316302,
+   "liq": 45444.4,
+   "h1": 661,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.614172+00:00",
+   "symbol": "OSSO",
+   "mint": "EJKhmYRGbymfCnH9E3qU3Ai7Zkcp2yNZx1hw1THJpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 18.7% > 12% gate",
+   "entry_price": 4.999e-05,
+   "mcap": 49991,
+   "liq": 18803.77,
+   "h1": 19.98,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T04:30:35.609023+00:00",
+   "symbol": "CAT",
+   "mint": "E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 17.4% > 12% gate",
+   "entry_price": 7.36e-05,
+   "mcap": 73607,
+   "liq": 22132.68,
+   "h1": 78.71,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-27T04:00:39.899099+00:00",
    "symbol": "Grok",
@@ -568,111 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T00:00:39.733752+00:00",
-   "symbol": "Haaland",
-   "mint": "zcWVoGBP8QxjGpx7eERJCfMaSTvuzmNq7cGWh6gpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.000701,
-   "mcap": 701008,
-   "liq": 68817.59,
-   "h1": 1574,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T00:00:39.729217+00:00",
-   "symbol": "CHICO",
-   "mint": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000774,
-   "mcap": 774009,
-   "liq": 72814.53,
-   "h1": 1637,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T00:00:39.722470+00:00",
-   "symbol": "Claude",
-   "mint": "6VzvSbXsBkGY2c7i3KC7cD8ETyJYjrf6RhUxJ52pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0004967,
-   "mcap": 496715,
-   "liq": 57631.61,
-   "h1": 1087,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T23:30:45.400688+00:00",
-   "symbol": "Robinhood",
-   "mint": "wfWVrxkcC23vmaL4ao5kPKwiSSwgRMofTd1MZvCpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.0004638,
-   "mcap": 463821,
-   "liq": 55545.9,
-   "h1": 1011,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T23:30:45.395871+00:00",
-   "symbol": "STONK",
-   "mint": "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003645,
-   "mcap": 364464,
-   "liq": 49111.01,
-   "h1": 634,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T23:00:38.203932+00:00",
-   "symbol": "\u2588\u2588\u2588WIF",
-   "mint": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001663,
-   "mcap": 166374,
-   "liq": 32690.11,
-   "h1": 279,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-26T23:00:38.197773+00:00",
-   "symbol": "DeepSeek",
-   "mint": "nUivyzwdqiknpfcZHXHRtWPsLGtqDg8ZQrtCqg1pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0005223,
-   "mcap": 522364,
-   "liq": 58887.06,
-   "h1": 1154,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "GATO",
     "Shitcoin"
    ],
-   "last": "2026-10-27 04:00 UTC"
+   "last": "2026-10-27 04:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -776,6 +776,21 @@
    "last": "2026-10-27 04:00 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 25,
+   "symbols": [
+    "Ventrion",
+    "koinu",
+    "DUST",
+    "GATO",
+    "GLITCH",
+    "ODIE",
+    "NETWORK",
+    "Wifoween"
+   ],
+   "last": "2026-10-27 04:30 UTC"
+  },
+  {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
    "hits": 24,
    "symbols": [
@@ -789,21 +804,6 @@
     "texcat"
    ],
    "last": "2026-10-21 02:30 UTC"
-  },
-  {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 24,
-   "symbols": [
-    "XSTOK",
-    "Ventrion",
-    "koinu",
-    "DUST",
-    "GATO",
-    "GLITCH",
-    "ODIE",
-    "NETWORK"
-   ],
-   "last": "2026-10-25 23:30 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -822,18 +822,18 @@
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 21,
+   "hits": 22,
    "symbols": [
-    "WALTJR",
     "SDR",
     "PONK",
     "AKITA",
     "GLITCH",
     "Ventrion",
     "koinu",
-    "PIPS"
+    "PIPS",
+    "Wifoween"
    ],
-   "last": "2026-10-22 13:30 UTC"
+   "last": "2026-10-27 04:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "Shitcoin",
-   "tag": "FADING",
-   "h1": -20.6,
-   "ts": "2026-10-27 04:00 UTC"
+   "tag": "WATCH",
+   "h1": 8.2,
+   "ts": "2026-10-27 04:30 UTC"
   },
   {
    "symbol": "ANT",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Wifoween",
    "tag": "WATCH",
-   "h1": 29.2,
-   "ts": "2026-10-27 04:00 UTC"
+   "h1": 10.4,
+   "ts": "2026-10-27 04:30 UTC"
   },
   {
    "symbol": "ELON2028",
    "tag": "WATCH",
-   "h1": -5.9,
-   "ts": "2026-10-27 04:00 UTC"
+   "h1": 0.4,
+   "ts": "2026-10-27 04:30 UTC"
   }
  ],
  "live_closes": [
