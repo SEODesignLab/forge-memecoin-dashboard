@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T06:34:16.696540+00:00",
+ "generated": "2026-10-27T07:04:16.877995+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1425,
-  "cohort_wallets": 1841,
+  "cohort_runs": 1426,
+  "cohort_wallets": 1858,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 88
+   "count": 87
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-27T07:00:29.527394+00:00",
+   "symbol": "SpaceX",
+   "mint": "9J4DssWdQ7jVMkMSMLJVJqw4m3wQLfWVnCrVZrV4pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 60>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0003728,
+   "mcap": 372886,
+   "liq": 49341.59,
+   "h1": 802,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T07:00:29.519287+00:00",
+   "symbol": "nocat",
+   "mint": "2KH3rv7PoDa3nwyzRqd7Tfq365aGRSzb8vEujRWrpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 23.6% > 12% gate",
+   "entry_price": 3.421e-05,
+   "mcap": 34216,
+   "liq": 13755.88,
+   "h1": -17.66,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-27T06:30:48.150296+00:00",
    "symbol": "OpenAI",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T02:00:39.935953+00:00",
-   "symbol": "Robinhood",
-   "mint": "cjmE4AtKsNUrsrQxtmQrR1m693nLJzGvgqrHGXYpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 0.0003677,
-   "mcap": 367774,
-   "liq": 49257.06,
-   "h1": 781,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T02:00:39.930971+00:00",
-   "symbol": "DMAGA2028",
-   "mint": "2HCFjYaKu79BdZ11nEhe7f3WRmjt2nFUT8vFv7zMpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 12.5% > 12% gate",
-   "entry_price": 0.0001363,
-   "mcap": 136370,
-   "liq": 29338.47,
-   "h1": 171,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": 35.0,
-   "ts": "2026-10-27 06:30 UTC"
+   "h1": 79.7,
+   "ts": "2026-10-27 07:00 UTC"
   },
   {
    "symbol": "ANT",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Wifoween",
    "tag": "WATCH",
-   "h1": 21.2,
-   "ts": "2026-10-27 06:30 UTC"
+   "h1": 15.2,
+   "ts": "2026-10-27 07:00 UTC"
   },
   {
    "symbol": "ELON2028",
-   "tag": "FADING",
-   "h1": -20.7,
-   "ts": "2026-10-27 06:30 UTC"
+   "tag": "WATCH",
+   "h1": 24.6,
+   "ts": "2026-10-27 07:00 UTC"
   }
  ],
  "live_closes": [
