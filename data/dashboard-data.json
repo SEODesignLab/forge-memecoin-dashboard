@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T04:34:16.092679+00:00",
+ "generated": "2026-10-27T05:04:16.257481+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1421,
-  "cohort_wallets": 1774,
+  "cohort_runs": 1422,
+  "cohort_wallets": 1788,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-27T05:00:41.343800+00:00",
+   "symbol": "CRAZYROLL",
+   "mint": "Az5naRCqYLfMi9KT92QCzJwR74BR5X33nZtMkXyvpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001437,
+   "mcap": 138582,
+   "liq": 31127.75,
+   "h1": -26.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T05:00:41.336058+00:00",
+   "symbol": "ELUN",
+   "mint": "GVKcQQurZKZxV2pQG5MvkCnuMxgqTiup3d1azCiCpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 30.5% > 12% gate",
+   "entry_price": 2.091e-05,
+   "mcap": 20914,
+   "liq": 10814.24,
+   "h1": -48.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-27T04:30:35.642913+00:00",
    "symbol": "YouTube",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T00:30:26.391897+00:00",
-   "symbol": "FLOAT",
-   "mint": "8fsziCyXFgtX3NjkzLifanRkSidhfYFsdGftHuEhpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 5.633e-05,
-   "mcap": 55749,
-   "liq": 18492.27,
-   "h1": 35.98,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T00:30:26.387036+00:00",
-   "symbol": "AP2028",
-   "mint": "Dh9NSMKWEp2DozGQXDvpf8U9JimL8swjaVc6bCafpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002393,
-   "mcap": 239331,
-   "liq": 40299.98,
-   "h1": 374,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -852,18 +852,18 @@
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
-   "hits": 20,
+   "hits": 21,
    "symbols": [
-    "UNKNOWN",
     "PONK",
     "CBUCKS",
     "broomy",
     "texcat",
     "GATO",
     "MONEYBIZ",
-    "CYBERCAT"
+    "CYBERCAT",
+    "Wifoween"
    ],
-   "last": "2026-10-24 09:30 UTC"
+   "last": "2026-10-27 05:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -908,7 +908,7 @@
     "PHP",
     "Shitcoin"
    ],
-   "last": "2026-10-27 04:00 UTC"
+   "last": "2026-10-27 05:00 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "Shitcoin",
-   "tag": "WATCH",
-   "h1": 8.2,
-   "ts": "2026-10-27 04:30 UTC"
+   "tag": "FADING",
+   "h1": -25.1,
+   "ts": "2026-10-27 05:00 UTC"
   },
   {
    "symbol": "ANT",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Wifoween",
    "tag": "WATCH",
-   "h1": 10.4,
-   "ts": "2026-10-27 04:30 UTC"
+   "h1": -1.2,
+   "ts": "2026-10-27 05:00 UTC"
   },
   {
    "symbol": "ELON2028",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-10-27 04:30 UTC"
+   "h1": 10.2,
+   "ts": "2026-10-27 05:00 UTC"
   }
  ],
  "live_closes": [
