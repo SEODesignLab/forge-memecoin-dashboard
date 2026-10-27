@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T13:34:18.824846+00:00",
+ "generated": "2026-10-27T14:04:19.019067+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1439,
-  "cohort_wallets": 1574,
+  "cohort_runs": 1440,
+  "cohort_wallets": 1592,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 83
+   "count": 84
   },
   {
    "reason": "Top holder 13.2% > 12% gate",
@@ -46,15 +46,15 @@
   },
   {
    "reason": "RugCheck risk 59>45",
-   "count": 11
-  },
-  {
-   "reason": "Top holder 14.8% > 12% gate",
-   "count": 8
+   "count": 10
   },
   {
    "reason": "Top holder 13.8% > 12% gate",
    "count": 8
+  },
+  {
+   "reason": "Top holder 14.8% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 16.1% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-27T14:00:30.068235+00:00",
+   "symbol": "\u718a",
+   "mint": "FWDjmUB7saWe1tb6ttp6eJzWtoHtutwVKkDL5Rdipump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 35.2% > 12% gate",
+   "entry_price": 1.607e-05,
+   "mcap": 16075,
+   "liq": 9044.53,
+   "h1": -59.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T14:00:30.062350+00:00",
+   "symbol": "FILET",
+   "mint": "BCLiZgKGMwPqZkf791vG2Xah8Bsz3ge6oEtQ7dEXpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003496,
+   "mcap": 349411,
+   "liq": 49910.85,
+   "h1": 701,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-27T14:00:30.055622+00:00",
+   "symbol": "Darla",
+   "mint": "26cfppyAgj7e1XHkgPwaYv4L8QuDTwrVyD1mAquhpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 12.9% > 12% gate",
+   "entry_price": 0.0001204,
+   "mcap": 120401,
+   "liq": 29194.59,
+   "h1": 185,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-27T13:30:38.491345+00:00",
    "symbol": "ANTS",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T08:00:41.253861+00:00",
-   "symbol": "Claude",
-   "mint": "fpDuJf4bkHc5v2eBva9oaYh3oUCSQcNgzdHCy6tpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004448,
-   "mcap": 444814,
-   "liq": 54254.16,
-   "h1": 969,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T08:00:41.243365+00:00",
-   "symbol": "BLUNTS",
-   "mint": "9AwWUFAqz9AyoxBjfKysYLpdUVD9aJN5HyjcMBTApump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 22.3% > 12% gate",
-   "entry_price": 4.071e-05,
-   "mcap": 38552,
-   "liq": 15214.81,
-   "h1": -0.3,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T08:00:41.238521+00:00",
-   "symbol": "wiener",
-   "mint": "E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002128,
-   "mcap": 207582,
-   "liq": 38919.88,
-   "h1": 408,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,26 +993,26 @@
   {
    "symbol": "Wifoween",
    "tag": "WATCH",
-   "h1": 4.2,
-   "ts": "2026-10-27 13:30 UTC"
+   "h1": 13.8,
+   "ts": "2026-10-27 14:00 UTC"
   },
   {
    "symbol": "ELON2028",
    "tag": "WATCH",
-   "h1": 10.6,
-   "ts": "2026-10-27 13:30 UTC"
+   "h1": -15.1,
+   "ts": "2026-10-27 14:00 UTC"
   },
   {
    "symbol": "DOAS",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-10-27 13:30 UTC"
+   "h1": 1.5,
+   "ts": "2026-10-27 14:00 UTC"
   },
   {
    "symbol": "TRUMP2028",
    "tag": "WATCH",
-   "h1": 41.8,
-   "ts": "2026-10-27 13:30 UTC"
+   "h1": 20.7,
+   "ts": "2026-10-27 14:00 UTC"
   }
  ],
  "live_closes": [
