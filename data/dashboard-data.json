@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:04:25.345289+00:00",
+ "generated": "2026-10-28T11:34:25.475579+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1482,
-  "cohort_wallets": 1802,
+  "cohort_runs": 1483,
+  "cohort_wallets": 1825,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -69,11 +69,26 @@
    "count": 6
   },
   {
-   "reason": "RugCheck risk 59>45",
+   "reason": "Top holder 12.1% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T11:30:41.267704+00:00",
+   "symbol": "JAS",
+   "mint": "FwY1zPT2JxMA6a9oD6SsVUKK62p8XUQWyZwGQSDqpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 18.3% > 12% gate",
+   "entry_price": 7.39e-05,
+   "mcap": 73905,
+   "liq": 23872.6,
+   "h1": 73.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T11:00:42.774543+00:00",
    "symbol": "Stonker",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T02:30:35.380141+00:00",
-   "symbol": "PRIVACY",
-   "mint": "J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 24.4% > 12% gate",
-   "entry_price": 4.554e-05,
-   "mcap": 45537,
-   "liq": 17953.64,
-   "h1": 9.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,26 +993,26 @@
   {
    "symbol": "N64",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-10-28 11:00 UTC"
+   "h1": -2.0,
+   "ts": "2026-10-28 11:30 UTC"
   },
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": 12.4,
-   "ts": "2026-10-28 11:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-10-28 11:30 UTC"
   },
   {
    "symbol": "Rapport",
    "tag": "FADING",
-   "h1": -49.0,
-   "ts": "2026-10-28 11:00 UTC"
+   "h1": -47.6,
+   "ts": "2026-10-28 11:30 UTC"
   },
   {
    "symbol": "JOB",
    "tag": "WATCH",
-   "h1": -3.9,
-   "ts": "2026-10-28 11:00 UTC"
+   "h1": 1.4,
+   "ts": "2026-10-28 11:30 UTC"
   }
  ],
  "live_closes": [
