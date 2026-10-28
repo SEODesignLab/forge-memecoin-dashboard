@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:04:28.347352+00:00",
+ "generated": "2026-10-28T21:34:28.472454+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1502,
-  "cohort_wallets": 1692,
+  "cohort_runs": 1503,
+  "cohort_wallets": 1706,
   "cohort_qualified": 112,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 88
+   "count": 89
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T21:30:50.134116+00:00",
+   "symbol": "BE",
+   "mint": "5v9tX5crrvtCp1d9j7B2auBpZuzm7Hbs8zUoX21Tpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 14.9% > 12% gate",
+   "entry_price": 7.182e-05,
+   "mcap": 71828,
+   "liq": 21288.61,
+   "h1": 68.32,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T21:30:50.129879+00:00",
+   "symbol": "HARRO",
+   "mint": "BaY29FNTiDazRXkk3NdPpYggxwxo5YgbU1nyrigLpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 18.5% > 12% gate",
+   "entry_price": 5.617e-05,
+   "mcap": 56171,
+   "liq": 18370.68,
+   "h1": 30.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T21:30:50.125493+00:00",
+   "symbol": "CATCULUS",
+   "mint": "AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002842,
+   "mcap": 284261,
+   "liq": 43614.4,
+   "h1": 327,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T21:30:50.115493+00:00",
+   "symbol": "Ecosystem",
+   "mint": "B8PTCNYFJDrWmjdH8jrBZb9pteBe1AwkrhTKCqtA5ckU",
+   "score": 113,
+   "decision": "SKIP",
+   "reason": "Top holder 15.3% > 12% gate",
+   "entry_price": 7.356e-05,
+   "mcap": 71361,
+   "liq": 23618.47,
+   "h1": 75.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T21:01:00.748210+00:00",
    "symbol": "WHITETARD",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T16:30:54.015919+00:00",
-   "symbol": "E/ACC",
-   "mint": "7TPsbAostCJwwusc8XeXE6Vd9E1sLbC6owjhjGrQpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 12.1% > 12% gate",
-   "entry_price": 0.0001265,
-   "mcap": 126581,
-   "liq": 30274.24,
-   "h1": 198,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T16:30:54.011678+00:00",
-   "symbol": "BURNOUT",
-   "mint": "32qCKoLXDRFKq8JCvwWpfSRjVQjWwVyFTA9sW91Lpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 8.295e-05,
-   "mcap": 82955,
-   "liq": 24063.79,
-   "h1": 98.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T16:30:54.007333+00:00",
-   "symbol": "EVILQWEN",
-   "mint": "DbVuPekCtVZdQYGXu5vtA5oBu1RAdnMn5xjSBstwpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 21.2% > 12% gate",
-   "entry_price": 5.19e-05,
-   "mcap": 51909,
-   "liq": 17579.72,
-   "h1": 23.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T16:30:54.002917+00:00",
-   "symbol": "PUMPCAT",
-   "mint": "GsSkEDrG726h3um4J3gLH6XwMnx16thysgyccLGfpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Top holder 15.7% > 12% gate",
-   "entry_price": 6.587e-05,
-   "mcap": 65873,
-   "liq": 20145.21,
-   "h1": 47.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 25,
+   "hits": 26,
    "symbols": [
-    "PONK",
     "VOLLEY",
     "GLITCH",
     "GATO",
     "SHADOW",
     "ARCTIS",
     "REMUS",
-    "Wifoween"
+    "Wifoween",
+    "JOB"
    ],
-   "last": "2026-10-28 01:00 UTC"
+   "last": "2026-10-28 21:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -863,7 +863,7 @@
     "Wifoween",
     "Rapport"
    ],
-   "last": "2026-10-28 18:00 UTC"
+   "last": "2026-10-28 21:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -986,27 +986,27 @@
   },
   {
    "symbol": "Something",
-   "tag": "FADING",
-   "h1": -31.9,
-   "ts": "2026-10-28 21:00 UTC"
+   "tag": "WATCH",
+   "h1": -0.5,
+   "ts": "2026-10-28 21:30 UTC"
   },
   {
    "symbol": "Rapport",
    "tag": "WATCH",
-   "h1": 18.8,
-   "ts": "2026-10-28 21:00 UTC"
+   "h1": 12.4,
+   "ts": "2026-10-28 21:30 UTC"
   },
   {
    "symbol": "JOB",
    "tag": "WATCH",
-   "h1": -10.3,
-   "ts": "2026-10-28 21:00 UTC"
+   "h1": -2.9,
+   "ts": "2026-10-28 21:30 UTC"
   },
   {
    "symbol": "DUBBLE",
    "tag": "WATCH",
-   "h1": -7.7,
-   "ts": "2026-10-28 21:00 UTC"
+   "h1": 7.5,
+   "ts": "2026-10-28 21:30 UTC"
   },
   {
    "symbol": "STONKLANA",
