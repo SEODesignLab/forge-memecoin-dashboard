@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T07:04:24.161336+00:00",
+ "generated": "2026-10-28T07:34:24.281674+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1474,
-  "cohort_wallets": 1656,
+  "cohort_runs": 1475,
+  "cohort_wallets": 1668,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 91
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T07:30:36.449446+00:00",
+   "symbol": "NOTJAK",
+   "mint": "GW12Y7SuPn6578ZU1tdhqJYfkmoCpBZ6XF3vmJympump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 27.3% > 12% gate",
+   "entry_price": 0.0001234,
+   "mcap": 123463,
+   "liq": 57929.47,
+   "h1": 188,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T07:00:39.306443+00:00",
    "symbol": "Grokbot",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T23:30:43.512745+00:00",
-   "symbol": "AMAZON",
-   "mint": "TZjr48yhN126TafChxdDdHRtUVpxWeA2VZk8VmEpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0001279,
-   "mcap": 127997,
-   "liq": 28410.87,
-   "h1": 204,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "LMAO",
-   "tag": "FADING",
-   "h1": -81.9,
-   "ts": "2026-10-27 02:00 UTC"
-  },
-  {
    "symbol": "Wifoween",
    "tag": "FADING",
    "h1": -25.8,
@@ -987,8 +981,8 @@
   {
    "symbol": "SI",
    "tag": "WATCH",
-   "h1": -19.7,
-   "ts": "2026-10-28 07:00 UTC"
+   "h1": 20.9,
+   "ts": "2026-10-28 07:30 UTC"
   },
   {
    "symbol": "RTC ",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-10-28 07:00 UTC"
+   "h1": -7.5,
+   "ts": "2026-10-28 07:30 UTC"
+  },
+  {
+   "symbol": "Rapport",
+   "tag": "WATCH",
+   "h1": 1.4,
+   "ts": "2026-10-28 07:30 UTC"
   }
  ],
  "live_closes": [
