@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T08:34:24.606411+00:00",
+ "generated": "2026-10-28T09:04:24.755102+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1477,
-  "cohort_wallets": 1698,
+  "cohort_runs": 1478,
+  "cohort_wallets": 1720,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -57,23 +57,83 @@
    "count": 7
   },
   {
-   "reason": "Top holder 18.6% > 12% gate",
+   "reason": "Top holder 15.7% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 14.4% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 20.5% > 12% gate",
    "count": 6
   },
   {
    "reason": "Top holder 16.1% > 12% gate",
-   "count": 6
-  },
-  {
-   "reason": "RugCheck risk 59>45",
-   "count": 6
-  },
-  {
-   "reason": "Top holder 15.7% > 12% gate",
-   "count": 6
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T09:00:39.971036+00:00",
+   "symbol": "LAUNCHOORS",
+   "mint": "AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 72>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001733,
+   "mcap": 153008,
+   "liq": 36885.63,
+   "h1": 270,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T09:00:39.966640+00:00",
+   "symbol": "DAYDREAM",
+   "mint": "BoE8kzCqnX4BnEUYdWh9A9tWfjbFKhnMrA5cWPvNpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 19.3% > 12% gate",
+   "entry_price": 0.0002081,
+   "mcap": 208131,
+   "liq": 81523.51,
+   "h1": 348,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T09:00:39.962161+00:00",
+   "symbol": "CA",
+   "mint": "HfPVTUsSd55Aab6BACWCy6dXo5pQgTUFnyGzgspFpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 27.7% > 12% gate",
+   "entry_price": 1.967e-05,
+   "mcap": 19672,
+   "liq": 10475.05,
+   "h1": -52.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T09:00:39.954592+00:00",
+   "symbol": "ORGANIC",
+   "mint": "4YjH28rjUTL9uD5qmNyHeV5trgxvHteC5WC9MKZopump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 27.2% > 12% gate",
+   "entry_price": 3.289e-05,
+   "mcap": 32897,
+   "liq": 17527.77,
+   "h1": 1.01,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T08:30:36.694601+00:00",
    "symbol": "Floki",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T00:30:49.678991+00:00",
-   "symbol": "zPepe",
-   "mint": "6By4iwLRAj2QfufgxgFBo6JPU448Jrd1E9JFuP6Spump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 21.3% > 12% gate",
-   "entry_price": 4.781e-05,
-   "mcap": 45913,
-   "liq": 17581.89,
-   "h1": 6.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T00:30:49.674755+00:00",
-   "symbol": "INVISIBLE",
-   "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 19.4% > 12% gate",
-   "entry_price": 4.703e-05,
-   "mcap": 47036,
-   "liq": 17972.61,
-   "h1": 3.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T00:30:49.670502+00:00",
-   "symbol": "SENDR",
-   "mint": "7JbU6AqB7WpvS852FvvPb48dXXuprf7gii6RYW1Kvg1Q",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 22.7% > 12% gate",
-   "entry_price": 3.686e-05,
-   "mcap": 35579,
-   "liq": 16282.1,
-   "h1": -8.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T00:30:49.666195+00:00",
-   "symbol": "SHEEP",
-   "mint": "9tVNgpiLGvGoZWyGCu4fQDD93XCw8pmdLRmPxTWapump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "Top holder 17.2% > 12% gate",
-   "entry_price": 6.803e-05,
-   "mcap": 68034,
-   "liq": 20483.06,
-   "h1": 63.34,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Wifoween",
-   "tag": "FADING",
-   "h1": -25.8,
-   "ts": "2026-10-27 22:00 UTC"
-  },
-  {
    "symbol": "ELON2028",
    "tag": "WATCH",
    "h1": -6.8,
@@ -998,21 +992,27 @@
   },
   {
    "symbol": "N64",
-   "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-10-27 23:00 UTC"
+   "tag": "FADING",
+   "h1": -22.4,
+   "ts": "2026-10-28 09:00 UTC"
   },
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-10-28 08:30 UTC"
+   "h1": -3.2,
+   "ts": "2026-10-28 09:00 UTC"
   },
   {
    "symbol": "Rapport",
    "tag": "WATCH",
-   "h1": -19.7,
-   "ts": "2026-10-28 08:30 UTC"
+   "h1": 80.5,
+   "ts": "2026-10-28 09:00 UTC"
+  },
+  {
+   "symbol": "JOB",
+   "tag": "WATCH",
+   "h1": 6.5,
+   "ts": "2026-10-28 09:00 UTC"
   }
  ],
  "live_closes": [
