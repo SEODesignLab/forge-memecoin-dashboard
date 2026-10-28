@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T06:04:23.869003+00:00",
+ "generated": "2026-10-28T06:34:23.988078+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1472,
-  "cohort_wallets": 1624,
+  "cohort_runs": 1473,
+  "cohort_wallets": 1641,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 93
+   "count": 92
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T06:30:48.783584+00:00",
+   "symbol": "Hoppy",
+   "mint": "EHV54j673mBybFzpHUjjU58J8GrVExjLX1zGQ4Rppump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 26.1% > 12% gate",
+   "entry_price": 5.863e-05,
+   "mcap": 58640,
+   "liq": 18790.63,
+   "h1": 33.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T06:30:48.776945+00:00",
+   "symbol": "IMAGINE",
+   "mint": "835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 6.394e-05,
+   "mcap": 63948,
+   "liq": 21453.29,
+   "h1": 52.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T06:00:41.541775+00:00",
    "symbol": "ANTS",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T23:30:43.496453+00:00",
-   "symbol": "GOOGLE",
-   "mint": "Qur3Q8N2BbU2eD299hdmPRcPquozuAidMiWPke4pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002989,
-   "mcap": 298977,
-   "liq": 44389.47,
-   "h1": 610,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T23:30:43.487842+00:00",
-   "symbol": "MINED",
-   "mint": "FaLXL6YefTp2hspxH95bTexSkVGrcv7e4rhma5zBpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 20.8% > 12% gate",
-   "entry_price": 5.614e-05,
-   "mcap": 56068,
-   "liq": 19190.13,
-   "h1": 20.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Wifoween",
     "RTC "
    ],
-   "last": "2026-10-28 04:00 UTC"
+   "last": "2026-10-28 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -986,15 +986,15 @@
   },
   {
    "symbol": "SI",
-   "tag": "WATCH",
-   "h1": 28.8,
-   "ts": "2026-10-28 06:00 UTC"
+   "tag": "FADING",
+   "h1": -37.0,
+   "ts": "2026-10-28 06:30 UTC"
   },
   {
    "symbol": "RTC ",
    "tag": "WATCH",
-   "h1": 18.2,
-   "ts": "2026-10-28 04:00 UTC"
+   "h1": 11.4,
+   "ts": "2026-10-28 06:30 UTC"
   },
   {
    "symbol": "FRONGUS",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": 22.9,
-   "ts": "2026-10-28 06:00 UTC"
+   "h1": 6.1,
+   "ts": "2026-10-28 06:30 UTC"
   }
  ],
  "live_closes": [
