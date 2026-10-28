@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T01:04:22.341505+00:00",
+ "generated": "2026-10-28T01:34:22.472374+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1462,
-  "cohort_wallets": 1959,
+  "cohort_runs": 1463,
+  "cohort_wallets": 1979,
   "cohort_qualified": 109,
   "live_closes": 18,
   "live_wins": 4,
@@ -42,7 +42,7 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 13
+   "count": 12
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T01:30:40.703299+00:00",
+   "symbol": "RECEIPT",
+   "mint": "5UacnLntJtiuee3i2QtEyLuFgrgFrozXgxQMEVkpG4mz",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 35.5% > 12% gate",
+   "entry_price": 1.41e-05,
+   "mcap": 14058,
+   "liq": 10122.73,
+   "h1": -65.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T01:00:33.268874+00:00",
    "symbol": "FRNLY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T21:00:49.176485+00:00",
-   "symbol": "DOGEKIN",
-   "mint": "8Md9nHbwGxbLnuNTCKNwfbqWqdtykD715PhcZynwpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 17.4% > 12% gate",
-   "entry_price": 7.575e-05,
-   "mcap": 75669,
-   "liq": 22034.58,
-   "h1": 81.56,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -806,6 +806,21 @@
    "last": "2026-10-21 02:30 UTC"
   },
   {
+   "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
+   "hits": 23,
+   "symbols": [
+    "XTO",
+    "CBUCKS",
+    "Groklet",
+    "PONK",
+    "GLITCH",
+    "GATO",
+    "Wifoween",
+    "Something"
+   ],
+   "last": "2026-10-28 01:30 UTC"
+  },
+  {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
    "hits": 22,
    "symbols": [
@@ -834,21 +849,6 @@
     "Wifoween"
    ],
    "last": "2026-10-27 18:30 UTC"
-  },
-  {
-   "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 22,
-   "symbols": [
-    "KILOS",
-    "XTO",
-    "CBUCKS",
-    "Groklet",
-    "PONK",
-    "GLITCH",
-    "GATO",
-    "Wifoween"
-   ],
-   "last": "2026-10-27 19:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Fartcoin",
-   "tag": "WATCH",
-   "h1": 1.2,
-   "ts": "2026-10-26 18:30 UTC"
-  },
-  {
    "symbol": "LMAO",
    "tag": "FADING",
    "h1": -81.9,
@@ -993,8 +987,8 @@
   {
    "symbol": "SI",
    "tag": "WATCH",
-   "h1": -5.7,
-   "ts": "2026-10-28 01:00 UTC"
+   "h1": -11.6,
+   "ts": "2026-10-28 01:30 UTC"
   },
   {
    "symbol": "RTC ",
@@ -1004,15 +998,21 @@
   },
   {
    "symbol": "FRONGUS",
-   "tag": "FADING",
-   "h1": -28.6,
-   "ts": "2026-10-28 01:00 UTC"
+   "tag": "WATCH",
+   "h1": -2.6,
+   "ts": "2026-10-28 01:30 UTC"
   },
   {
    "symbol": "N64",
    "tag": "WATCH",
    "h1": 7.8,
    "ts": "2026-10-27 23:00 UTC"
+  },
+  {
+   "symbol": "Something",
+   "tag": "WATCH",
+   "h1": 43.9,
+   "ts": "2026-10-28 01:30 UTC"
   }
  ],
  "live_closes": [
