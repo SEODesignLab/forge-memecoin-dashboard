@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T06:34:23.988078+00:00",
+ "generated": "2026-10-28T07:04:24.161336+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1473,
-  "cohort_wallets": 1641,
+  "cohort_runs": 1474,
+  "cohort_wallets": 1656,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T07:00:39.306443+00:00",
+   "symbol": "Grokbot",
+   "mint": "4bjMPgeJYCUD1A44RJ4DHFY188SCd9vrMd6u71PDpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 27.3% > 12% gate",
+   "entry_price": 2.807e-05,
+   "mcap": 28072,
+   "liq": 12975.75,
+   "h1": -41.98,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T07:00:39.297992+00:00",
+   "symbol": "Grokbot",
+   "mint": "6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 76>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 9.802e-05,
+   "mcap": 93421,
+   "liq": 26187.7,
+   "h1": 121,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T06:30:48.783584+00:00",
    "symbol": "Hoppy",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T23:30:43.508353+00:00",
-   "symbol": "MOTHADO",
-   "mint": "BtM6yvMeqZ9ZHdeEJRcep9EnaZm6qGWCEwz9t8hapump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002802,
-   "mcap": 280235,
-   "liq": 43991.04,
-   "h1": 326,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T23:30:43.502348+00:00",
-   "symbol": "Haaland",
-   "mint": "yfkGEuzcaxp5mKs5PjzivBV43vxUW4BjWeC3rWxpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001321,
-   "mcap": 132106,
-   "liq": 28939.13,
-   "h1": 214,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Wifoween",
     "RTC "
    ],
-   "last": "2026-10-28 06:30 UTC"
+   "last": "2026-10-28 07:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -986,15 +986,15 @@
   },
   {
    "symbol": "SI",
-   "tag": "FADING",
-   "h1": -37.0,
-   "ts": "2026-10-28 06:30 UTC"
+   "tag": "WATCH",
+   "h1": -19.7,
+   "ts": "2026-10-28 07:00 UTC"
   },
   {
    "symbol": "RTC ",
    "tag": "WATCH",
-   "h1": 11.4,
-   "ts": "2026-10-28 06:30 UTC"
+   "h1": 12.1,
+   "ts": "2026-10-28 07:00 UTC"
   },
   {
    "symbol": "FRONGUS",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": 6.1,
-   "ts": "2026-10-28 06:30 UTC"
+   "h1": -8.2,
+   "ts": "2026-10-28 07:00 UTC"
   }
  ],
  "live_closes": [
