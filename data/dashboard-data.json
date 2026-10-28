@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T04:04:23.257954+00:00",
+ "generated": "2026-10-28T04:34:23.391619+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1468,
-  "cohort_wallets": 1554,
+  "cohort_runs": 1469,
+  "cohort_wallets": 1572,
   "cohort_qualified": 110,
   "live_closes": 18,
   "live_wins": 4,
@@ -42,7 +42,7 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 12
+   "count": 11
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
@@ -51,6 +51,10 @@
   {
    "reason": "Top holder 17.1% > 12% gate",
    "count": 8
+  },
+  {
+   "reason": "Top holder 13.8% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -67,13 +71,54 @@
   {
    "reason": "Top holder 15.7% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 20.5% > 12% gate",
-   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T04:30:35.550612+00:00",
+   "symbol": "TESLA SI",
+   "mint": "CkRtxnN9gWSCTh5sFxudjQfN6ML41w3MAXretHgFpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 0.0004867,
+   "mcap": 486728,
+   "liq": 57304.97,
+   "h1": 1052,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T04:30:35.542579+00:00",
+   "symbol": "JIANGBAPE",
+   "mint": "AuwrksVpKiMKURa4NasQd8NCFs4Qju8aZyzHY829pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 14.4% > 12% gate",
+   "entry_price": 9.461e-05,
+   "mcap": 94612,
+   "liq": 24255.75,
+   "h1": 124,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T04:30:35.536824+00:00",
+   "symbol": "ETH",
+   "mint": "CbFQMeEFCtRPGoEMHWjKGKH5AM3eGEH7mfKtAnNpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000285,
+   "mcap": 274483,
+   "liq": 44343.61,
+   "h1": -7.19,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T04:00:46.095963+00:00",
    "symbol": "Rapport",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T22:30:41.461493+00:00",
-   "symbol": "Claude",
-   "mint": "QyjXN4CcmnDZpkXw1ZyJoQTVFygDeYXKggLBFL2pump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 71.5% > 12% gate",
-   "entry_price": 5.433e-06,
-   "mcap": 5433,
-   "liq": 4976.48,
-   "h1": -87.08,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T22:30:41.453432+00:00",
-   "symbol": "LEGO",
-   "mint": "KaL4Dty996oZc5aHETc2XHqdwAp1ASrnwtRfjTopump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001461,
-   "mcap": 146150,
-   "liq": 30508.22,
-   "h1": 247,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-27T22:30:41.441689+00:00",
-   "symbol": "Rollcage",
-   "mint": "J94PgjyfMdzgzNQjCcfFQRmaPCmoc8MyhHet8Vdkpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 12.6% > 12% gate",
-   "entry_price": 0.0001303,
-   "mcap": 130326,
-   "liq": 29066.61,
-   "h1": 211,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "SI",
-   "tag": "WATCH",
-   "h1": 4.5,
-   "ts": "2026-10-28 04:00 UTC"
+   "tag": "FADING",
+   "h1": -27.6,
+   "ts": "2026-10-28 04:30 UTC"
   },
   {
    "symbol": "RTC ",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "FRONGUS",
-   "tag": "FADING",
-   "h1": -26.0,
-   "ts": "2026-10-28 04:00 UTC"
+   "tag": "WATCH",
+   "h1": 17.6,
+   "ts": "2026-10-28 04:30 UTC"
   },
   {
    "symbol": "N64",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Something",
    "tag": "WATCH",
-   "h1": 16.9,
-   "ts": "2026-10-28 04:00 UTC"
+   "h1": 13.3,
+   "ts": "2026-10-28 04:30 UTC"
   }
  ],
  "live_closes": [
