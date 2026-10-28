@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:34:25.475579+00:00",
+ "generated": "2026-10-28T12:04:25.659197+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1483,
-  "cohort_wallets": 1825,
+  "cohort_runs": 1484,
+  "cohort_wallets": 1848,
   "cohort_qualified": 111,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 87
+   "count": 86
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -65,15 +65,45 @@
    "count": 6
   },
   {
-   "reason": "Top holder 20.5% > 12% gate",
+   "reason": "Top holder 12.1% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 12.1% > 12% gate",
-   "count": 5
+   "reason": "Top holder 20.5% > 12% gate",
+   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-28T12:00:38.441463+00:00",
+   "symbol": "FAP",
+   "mint": "EFLwx1cVeLoFx15eRzfei3yCYBHXFZefuzwi4R7Cpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 12.1% > 12% gate",
+   "entry_price": 0.0002142,
+   "mcap": 214227,
+   "liq": 52960.71,
+   "h1": 363,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-28T12:00:38.436181+00:00",
+   "symbol": "QUBIT",
+   "mint": "HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 0.0001016,
+   "mcap": 101477,
+   "liq": 27188.65,
+   "h1": 120,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-28T11:30:41.267704+00:00",
    "symbol": "JAS",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T02:30:35.391396+00:00",
-   "symbol": "STFD",
-   "mint": "Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 14.2% > 12% gate",
-   "entry_price": 9.081e-05,
-   "mcap": 90820,
-   "liq": 23789.02,
-   "h1": 79.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-28T02:30:35.385697+00:00",
-   "symbol": "Pumpkin",
-   "mint": "7sD23H7mwbd8AJ3MWEG3ZBe6r8XKoqCkkiu7GGzYpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 20.6% > 12% gate",
-   "entry_price": 4.162e-05,
-   "mcap": 41575,
-   "liq": 15620.42,
-   "h1": -2.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,26 +993,26 @@
   {
    "symbol": "N64",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-10-28 11:30 UTC"
+   "h1": -3.5,
+   "ts": "2026-10-28 12:00 UTC"
   },
   {
    "symbol": "Something",
-   "tag": "WATCH",
-   "h1": 3.9,
-   "ts": "2026-10-28 11:30 UTC"
+   "tag": "FADING",
+   "h1": -33.8,
+   "ts": "2026-10-28 12:00 UTC"
   },
   {
    "symbol": "Rapport",
-   "tag": "FADING",
-   "h1": -47.6,
-   "ts": "2026-10-28 11:30 UTC"
+   "tag": "WATCH",
+   "h1": 5.2,
+   "ts": "2026-10-28 12:00 UTC"
   },
   {
    "symbol": "JOB",
    "tag": "WATCH",
-   "h1": 1.4,
-   "ts": "2026-10-28 11:30 UTC"
+   "h1": -0.4,
+   "ts": "2026-10-28 12:00 UTC"
   }
  ],
  "live_closes": [
