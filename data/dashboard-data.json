@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T09:04:32.107071+00:00",
+ "generated": "2026-10-29T09:34:32.224986+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1526,
-  "cohort_wallets": 1688,
-  "cohort_qualified": 113,
+  "cohort_runs": 1527,
+  "cohort_wallets": 1711,
+  "cohort_qualified": 114,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 94
+   "count": 93
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -57,6 +57,10 @@
    "count": 7
   },
   {
+   "reason": "Top holder 16.5% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 17.1% > 12% gate",
    "count": 6
   },
@@ -67,13 +71,54 @@
   {
    "reason": "Top holder 20.5% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 18.5% > 12% gate",
-   "count": 6
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-29T09:30:49.522136+00:00",
+   "symbol": "Lingo",
+   "mint": "D1kVFsf3cLN8CWv1Zmz6H3ZSWsB1jGrWxaqgJxcQpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 18.8% > 12% gate",
+   "entry_price": 4.943e-05,
+   "mcap": 49433,
+   "liq": 16916.77,
+   "h1": 19.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-29T09:30:49.515285+00:00",
+   "symbol": "BaggedCat",
+   "mint": "TvChZ1PnP2QwDqdhJvLAfPsQdAAcjx5SnktDm3jpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 16.5% > 12% gate",
+   "entry_price": 6.752e-05,
+   "mcap": 67527,
+   "liq": 20099.7,
+   "h1": -34.47,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-29T09:30:49.507696+00:00",
+   "symbol": "peldier",
+   "mint": "F42D7ook2WQb2Jq3qWTz19wmzLVCuTWH9MGdmqnqpump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001565,
+   "mcap": 156600,
+   "liq": 37521.78,
+   "h1": 276,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-29T09:00:45.221610+00:00",
    "symbol": "Bu",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T02:30:50.041790+00:00",
-   "symbol": "PODCAT",
-   "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 21.4% > 12% gate",
-   "entry_price": 4.09e-05,
-   "mcap": 40842,
-   "liq": 16026.29,
-   "h1": 1.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T02:00:52.848485+00:00",
-   "symbol": "BMUS",
-   "mint": "95GsaK5Ygx3sbA1X6E99i8yaE84VL9Y2qo5id2HSpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 34.8% > 12% gate",
-   "entry_price": 8.072e-05,
-   "mcap": 80727,
-   "liq": 22868.34,
-   "h1": 94.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T02:00:52.843893+00:00",
-   "symbol": "BIO",
-   "mint": "7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 6.007e-05,
-   "mcap": 58113,
-   "liq": 20299.32,
-   "h1": 81.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,20 +987,20 @@
   {
    "symbol": "DUBBLE",
    "tag": "WATCH",
-   "h1": 28.3,
-   "ts": "2026-10-29 09:00 UTC"
+   "h1": 4.5,
+   "ts": "2026-10-29 09:30 UTC"
   },
   {
    "symbol": "STONKLANA",
    "tag": "WATCH",
-   "h1": -2.6,
-   "ts": "2026-10-29 09:00 UTC"
+   "h1": 14.3,
+   "ts": "2026-10-29 09:30 UTC"
   },
   {
    "symbol": "CATBOT",
    "tag": "WATCH",
-   "h1": 0.7,
-   "ts": "2026-10-29 09:00 UTC"
+   "h1": 8.3,
+   "ts": "2026-10-29 09:30 UTC"
   },
   {
    "symbol": "Dacity",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "shibana",
    "tag": "WATCH",
-   "h1": 9.0,
-   "ts": "2026-10-29 09:00 UTC"
+   "h1": 18.3,
+   "ts": "2026-10-29 09:30 UTC"
   }
  ],
  "live_closes": [
