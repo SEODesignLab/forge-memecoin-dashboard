@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:04:31.793732+00:00",
+ "generated": "2026-10-29T08:34:31.926775+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1524,
-  "cohort_wallets": 1640,
+  "cohort_runs": 1525,
+  "cohort_wallets": 1663,
   "cohort_qualified": 113,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-29T08:30:49.126768+00:00",
+   "symbol": "OTC",
+   "mint": "Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 49>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001059,
+   "mcap": 99526,
+   "liq": 26423.2,
+   "h1": 165,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-29T08:30:49.120784+00:00",
+   "symbol": "cat3",
+   "mint": "2HhAf32vdmbKWXJcBhTLR4GarkwocJvfJhqBPFv6fkW1",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.787e-05,
+   "mcap": 47879,
+   "liq": 16610.86,
+   "h1": 16.4,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-29T08:00:45.197893+00:00",
    "symbol": "PODCAT",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T01:00:56.187442+00:00",
-   "symbol": "Pedos",
-   "mint": "6EpA82fNTLFy1czykWKJFk497AbqFtSYPJJgknzQpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 79>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 5.131e-05,
-   "mcap": 51233,
-   "liq": 17618.43,
-   "h1": 22.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T01:00:56.182401+00:00",
-   "symbol": "RDOG",
-   "mint": "5kUxYJi5ekgoYTHNxSkTtKRC5cntYBWhCbwpc6GEnbwo",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 30.2% > 12% gate",
-   "entry_price": 1.086e-05,
-   "mcap": 10862,
-   "liq": 6614.23,
-   "h1": 899,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "JOB",
     "GLITCH"
    ],
-   "last": "2026-10-29 08:00 UTC"
+   "last": "2026-10-29 08:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -986,21 +986,21 @@
   },
   {
    "symbol": "DUBBLE",
-   "tag": "FADING",
-   "h1": -42.3,
-   "ts": "2026-10-29 08:00 UTC"
+   "tag": "WATCH",
+   "h1": -16.9,
+   "ts": "2026-10-29 08:30 UTC"
   },
   {
    "symbol": "STONKLANA",
    "tag": "WATCH",
-   "h1": 9.3,
-   "ts": "2026-10-29 08:00 UTC"
+   "h1": 15.3,
+   "ts": "2026-10-29 08:30 UTC"
   },
   {
    "symbol": "CATBOT",
    "tag": "WATCH",
-   "h1": 3.4,
-   "ts": "2026-10-29 08:00 UTC"
+   "h1": -1.2,
+   "ts": "2026-10-29 08:30 UTC"
   },
   {
    "symbol": "Dacity",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "shibana",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-10-29 08:00 UTC"
+   "h1": 1.6,
+   "ts": "2026-10-29 08:30 UTC"
   }
  ],
  "live_closes": [
