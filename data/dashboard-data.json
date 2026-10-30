@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T00:34:36.787503+00:00",
+ "generated": "2026-10-30T01:04:36.964121+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1557,
-  "cohort_wallets": 1762,
+  "cohort_runs": 1558,
+  "cohort_wallets": 1781,
   "cohort_qualified": 119,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 93
+   "count": 94
   },
   {
    "reason": "Top holder 14.8% > 12% gate",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 12.1% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 15.8% > 12% gate",
@@ -61,6 +57,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 18.7% > 12% gate",
    "count": 5
   },
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T01:00:49.766177+00:00",
+   "symbol": "FRY",
+   "mint": "AD9hp8UTQtvkRoaCsudzWS8AwommAx2FV8XyMD2tpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 5.483e-05,
+   "mcap": 54840,
+   "liq": 17792.15,
+   "h1": 38.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T01:00:49.760375+00:00",
+   "symbol": "FOMO",
+   "mint": "dYuu2dt6SszBvGMrW7iNZodhFc8gaKKfdq5QoL7pump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001793,
+   "mcap": 179361,
+   "liq": 32922.45,
+   "h1": 359,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T00:30:59.936224+00:00",
    "symbol": "YouTube",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T20:01:04.244862+00:00",
-   "symbol": "joe",
-   "mint": "5N6KR4tnvsnpo94woXsgPNFei33J4CZEJMdH66z192m6",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 50.0% > 12% gate",
-   "entry_price": 1.627e-05,
-   "mcap": 16273,
-   "liq": 6143.83,
-   "h1": 46.62,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-29T20:01:04.240452+00:00",
-   "symbol": "Hypers",
-   "mint": "7Pti8RvCmszyyEU5CFUb3n8siQAFFq5KyoDytXZ8pump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 25.5% > 12% gate",
-   "entry_price": 3.002e-05,
-   "mcap": 30024,
-   "liq": 13436.39,
-   "h1": -34.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 66,
+   "hits": 67,
    "symbols": [
-    "ARCTIS",
     "REMUS",
     "SWORDOPE",
     "GATO",
     "Shitcoin",
     "STONKLANA",
     "shibana",
-    "STANK"
+    "STANK",
+    "SENSE"
    ],
-   "last": "2026-10-30 00:00 UTC"
+   "last": "2026-10-30 01:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -974,9 +974,9 @@
   },
   {
    "symbol": "SENSE",
-   "tag": "FADING",
-   "h1": -25.9,
-   "ts": "2026-10-30 00:30 UTC"
+   "tag": "WATCH",
+   "h1": 15.7,
+   "ts": "2026-10-30 01:00 UTC"
   },
   {
    "symbol": "VI",
@@ -987,8 +987,8 @@
   {
    "symbol": "STANK",
    "tag": "WATCH",
-   "h1": 36.6,
-   "ts": "2026-10-30 00:30 UTC"
+   "h1": 71.2,
+   "ts": "2026-10-30 01:00 UTC"
   },
   {
    "symbol": "AgenC",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": 5.7,
-   "ts": "2026-10-30 00:30 UTC"
+   "h1": 19.3,
+   "ts": "2026-10-30 01:00 UTC"
   },
   {
    "symbol": "calm",
    "tag": "WATCH",
-   "h1": 46.3,
-   "ts": "2026-10-30 00:30 UTC"
+   "h1": 72.5,
+   "ts": "2026-10-30 01:00 UTC"
   }
  ],
  "live_closes": [
