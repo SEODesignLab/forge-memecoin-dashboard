@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T07:34:38.884947+00:00",
+ "generated": "2026-10-30T08:04:39.072658+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1571,
-  "cohort_wallets": 1522,
+  "cohort_runs": 1572,
+  "cohort_wallets": 1537,
   "cohort_qualified": 122,
   "live_closes": 18,
   "live_wins": 4,
@@ -57,6 +57,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 17.1% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 18.5% > 12% gate",
    "count": 5
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 21.2% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 18.8% > 12% gate",
-   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T08:00:48.041469+00:00",
+   "symbol": "SAFU",
+   "mint": "EjbgFA8vFhswojnNLxQVKYKiDsm3PgM6w7JuehfPpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001818,
+   "mcap": 181895,
+   "liq": 36074.15,
+   "h1": 342,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T08:00:48.035160+00:00",
+   "symbol": "Stonka",
+   "mint": "3UrbFtErj4FYspTupgAfKqztrMYNVQA2GocpT97Q3ray",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 17.1% > 12% gate",
+   "entry_price": 7.635e-05,
+   "mcap": 76353,
+   "liq": 22800.66,
+   "h1": 85.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T07:30:56.449741+00:00",
    "symbol": "YouTube",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.875925+00:00",
-   "symbol": "laptop",
-   "mint": "FrE4wkPwzZ5Sxif28oabQD4P5ZbDT7oehBmZLm1Gpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 47.5% > 12% gate",
-   "entry_price": 1.041e-05,
-   "mcap": 10419,
-   "liq": 6815.79,
-   "h1": -71.79,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T02:30:59.206068+00:00",
-   "symbol": "LAPTOP",
-   "mint": "AFBERijW6tth3ShpHfBNZk1RVDnnmwrZ8Kypc96ipump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 9.552e-05,
-   "mcap": 95526,
-   "liq": 25609.62,
-   "h1": 133,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "SENSE",
     "HEXN"
    ],
-   "last": "2026-10-30 07:00 UTC"
+   "last": "2026-10-30 08:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-10-30 07:30 UTC"
+   "h1": 6.1,
+   "ts": "2026-10-30 08:00 UTC"
   },
   {
    "symbol": "VI",
@@ -993,8 +993,8 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": 18.2,
-   "ts": "2026-10-30 07:30 UTC"
+   "h1": -2.1,
+   "ts": "2026-10-30 08:00 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 9.7,
-   "ts": "2026-10-30 07:30 UTC"
+   "h1": 11.8,
+   "ts": "2026-10-30 08:00 UTC"
   },
   {
    "symbol": "Foxii",
    "tag": "WATCH",
-   "h1": 36.1,
-   "ts": "2026-10-30 07:30 UTC"
+   "h1": 117.0,
+   "ts": "2026-10-30 08:00 UTC"
   }
  ],
  "live_closes": [
