@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T09:04:39.396644+00:00",
+ "generated": "2026-10-30T09:34:39.540450+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1574,
-  "cohort_wallets": 1580,
+  "cohort_runs": 1575,
+  "cohort_wallets": 1601,
   "cohort_qualified": 123,
   "live_closes": 18,
   "live_wins": 4,
@@ -49,10 +49,6 @@
    "count": 6
   },
   {
-   "reason": "Top holder 13.4% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 14.3% > 12% gate",
    "count": 5
   },
@@ -71,9 +67,43 @@
   {
    "reason": "Top holder 21.2% > 12% gate",
    "count": 5
+  },
+  {
+   "reason": "Top holder 18.8% > 12% gate",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T09:30:57.084420+00:00",
+   "symbol": "YouTube",
+   "mint": "irVpDdzEDTNMKEVFwKVFHVxfMNNvDXTnxcr1j7Tpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001284,
+   "mcap": 128477,
+   "liq": 27888.7,
+   "h1": 219,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T09:30:57.079339+00:00",
+   "symbol": "CTO",
+   "mint": "9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 16.8% > 12% gate",
+   "entry_price": 7.7e-05,
+   "mcap": 77004,
+   "liq": 24092.32,
+   "h1": 73.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T09:01:07.018142+00:00",
    "symbol": "ZERODAY",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.908983+00:00",
-   "symbol": "Gemini",
-   "mint": "sBnwiYPJAC58cdr2byp8ZbmCnoeWdYdXRbcHbk9pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 0.0001145,
-   "mcap": 114599,
-   "liq": 26042.41,
-   "h1": 190,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.904127+00:00",
-   "symbol": "Claude AI",
-   "mint": "oVjPCkp2u9azJng88d3NFy1ujsmyEkhGwd7o7f3pump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001725,
-   "mcap": 172572,
-   "liq": 32350.16,
-   "h1": 337,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "SENSE",
     "HEXN"
    ],
-   "last": "2026-10-30 08:00 UTC"
+   "last": "2026-10-30 09:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -773,7 +773,7 @@
     "JOB",
     "SENSE"
    ],
-   "last": "2026-10-30 09:00 UTC"
+   "last": "2026-10-30 09:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": -3.8,
-   "ts": "2026-10-30 09:00 UTC"
+   "h1": -2.2,
+   "ts": "2026-10-30 09:30 UTC"
   },
   {
    "symbol": "VI",
@@ -993,8 +993,8 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-10-30 09:00 UTC"
+   "h1": 18.8,
+   "ts": "2026-10-30 09:30 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-10-30 09:00 UTC"
+   "h1": 2.5,
+   "ts": "2026-10-30 09:30 UTC"
   },
   {
    "symbol": "Foxii",
    "tag": "FADING",
-   "h1": -34.3,
-   "ts": "2026-10-30 09:00 UTC"
+   "h1": -59.8,
+   "ts": "2026-10-30 09:30 UTC"
   }
  ],
  "live_closes": [
