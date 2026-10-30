@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T05:04:38.148026+00:00",
+ "generated": "2026-10-30T05:34:38.282892+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1566,
-  "cohort_wallets": 1922,
+  "cohort_runs": 1567,
+  "cohort_wallets": 1945,
   "cohort_qualified": 122,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 103
+   "count": 104
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T05:30:49.310671+00:00",
+   "symbol": "Coca Cola",
+   "mint": "K71zDhuaHoAH9MRKDzJnUgaht4sD7a4dWGJhjB3pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002499,
+   "mcap": 249907,
+   "liq": 39838.65,
+   "h1": 515,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T05:00:55.452177+00:00",
    "symbol": "GTA 6 Coin",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T00:30:59.909083+00:00",
-   "symbol": "ZERODAY",
-   "mint": "7fR4hpUuHYaUTnnUeVLWke2GvMZdZtaeM8yFwu92pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001384,
-   "mcap": 138427,
-   "liq": 29555.99,
-   "h1": 244,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": -0.5,
-   "ts": "2026-10-30 05:00 UTC"
+   "h1": -8.5,
+   "ts": "2026-10-30 05:30 UTC"
   },
   {
    "symbol": "VI",
@@ -987,14 +987,14 @@
   {
    "symbol": "PEPEween",
    "tag": "WATCH",
-   "h1": 2.6,
-   "ts": "2026-10-30 05:00 UTC"
+   "h1": 7.2,
+   "ts": "2026-10-30 05:30 UTC"
   },
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": -13.3,
-   "ts": "2026-10-30 05:00 UTC"
+   "h1": -5.1,
+   "ts": "2026-10-30 05:30 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 123.0,
-   "ts": "2026-10-30 05:00 UTC"
+   "h1": 5.7,
+   "ts": "2026-10-30 05:30 UTC"
   },
   {
    "symbol": "Foxii",
-   "tag": "CHASE",
-   "h1": 523.0,
-   "ts": "2026-10-30 05:00 UTC"
+   "tag": "FADING",
+   "h1": -50.9,
+   "ts": "2026-10-30 05:30 UTC"
   }
  ],
  "live_closes": [
