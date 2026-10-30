@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T09:34:39.540450+00:00",
+ "generated": "2026-10-30T10:04:39.731233+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1575,
-  "cohort_wallets": 1601,
+  "cohort_runs": 1576,
+  "cohort_wallets": 1619,
   "cohort_qualified": 123,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,10 +26,14 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 107
+   "count": 108
   },
   {
    "reason": "Top holder 12.1% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 12.5% > 12% gate",
    "count": 6
   },
   {
@@ -53,10 +57,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 12.5% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 17.1% > 12% gate",
    "count": 5
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T10:00:55.619292+00:00",
+   "symbol": "Haaland",
+   "mint": "gymsqxXCwRcs1xogAKVLxvwjCh33yHmaN3M8z2Qpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000164,
+   "mcap": 164029,
+   "liq": 31718.62,
+   "h1": 308,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T10:00:55.612301+00:00",
+   "symbol": "PFT6",
+   "mint": "BZsc3v9AGQJ6JnKxkgj7TqeKiymHERQNyyXt9aLKpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 12.5% > 12% gate",
+   "entry_price": 0.0001111,
+   "mcap": 111118,
+   "liq": 25893.22,
+   "h1": 160,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T10:00:55.603678+00:00",
+   "symbol": "CZ",
+   "mint": "DZPEJunsXpwprRQffkMi4q23ZtsLhtLujHCSztyx786z",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.402e-05,
+   "mcap": 24022,
+   "liq": 12883.35,
+   "h1": -40.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T09:30:57.084420+00:00",
    "symbol": "YouTube",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:31:00.726525+00:00",
-   "symbol": "BITCAT",
-   "mint": "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002661,
-   "mcap": 266159,
-   "liq": 41026.5,
-   "h1": 539,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.918413+00:00",
-   "symbol": "LAPTOP",
-   "mint": "2vk31WofkrWKQPrWxhYpdobDRS29EESJ59xbjcHtpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $24828 < $25000",
-   "entry_price": 9.259e-05,
-   "mcap": 92599,
-   "liq": 24828.5,
-   "h1": 130,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.913821+00:00",
-   "symbol": "OV",
-   "mint": "893vJcLg8GssiMQuJ5iY28E7kAoVZnBNXmJHzTmKqCes",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.7% > 12% gate",
-   "entry_price": 7.843e-05,
-   "mcap": 78435,
-   "liq": 23199.19,
-   "h1": 71.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "SENSE",
     "HEXN"
    ],
-   "last": "2026-10-30 09:30 UTC"
+   "last": "2026-10-30 10:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": -2.2,
-   "ts": "2026-10-30 09:30 UTC"
+   "h1": 5.3,
+   "ts": "2026-10-30 10:00 UTC"
   },
   {
    "symbol": "VI",
@@ -993,8 +993,8 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": 18.8,
-   "ts": "2026-10-30 09:30 UTC"
+   "h1": 19.2,
+   "ts": "2026-10-30 10:00 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-10-30 09:30 UTC"
+   "h1": -5.4,
+   "ts": "2026-10-30 10:00 UTC"
   },
   {
    "symbol": "Foxii",
-   "tag": "FADING",
-   "h1": -59.8,
-   "ts": "2026-10-30 09:30 UTC"
+   "tag": "WATCH",
+   "h1": -17.2,
+   "ts": "2026-10-30 10:00 UTC"
   }
  ],
  "live_closes": [
