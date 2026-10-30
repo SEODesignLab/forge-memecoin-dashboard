@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T08:34:39.220909+00:00",
+ "generated": "2026-10-30T09:04:39.396644+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1573,
-  "cohort_wallets": 1558,
+  "cohort_runs": 1574,
+  "cohort_wallets": 1580,
   "cohort_qualified": 123,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T09:01:07.018142+00:00",
+   "symbol": "ZERODAY",
+   "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 47>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 7.182e-05,
+   "mcap": 71827,
+   "liq": 20491.44,
+   "h1": 75.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T08:30:56.076989+00:00",
    "symbol": "YouTube",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T03:00:57.897741+00:00",
-   "symbol": "USDF",
-   "mint": "5V8Ue6CNCMdaRdozLXjxK3Jg2QS7oFz7vCxVPrtgpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 4.716e-05,
-   "mcap": 47163,
-   "liq": 17968.78,
-   "h1": 18.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 26,
+   "hits": 27,
    "symbols": [
-    "VOLLEY",
     "GLITCH",
     "GATO",
     "SHADOW",
     "ARCTIS",
     "REMUS",
     "Wifoween",
-    "JOB"
+    "JOB",
+    "SENSE"
    ],
-   "last": "2026-10-29 09:00 UTC"
+   "last": "2026-10-30 09:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": 0.8,
-   "ts": "2026-10-30 08:30 UTC"
+   "h1": -3.8,
+   "ts": "2026-10-30 09:00 UTC"
   },
   {
    "symbol": "VI",
@@ -993,8 +993,8 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": -14.5,
-   "ts": "2026-10-30 08:30 UTC"
+   "h1": -8.2,
+   "ts": "2026-10-30 09:00 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 6.9,
-   "ts": "2026-10-30 08:30 UTC"
+   "h1": 2.2,
+   "ts": "2026-10-30 09:00 UTC"
   },
   {
    "symbol": "Foxii",
-   "tag": "WATCH",
-   "h1": 140.0,
-   "ts": "2026-10-30 08:30 UTC"
+   "tag": "FADING",
+   "h1": -34.3,
+   "ts": "2026-10-30 09:00 UTC"
   }
  ],
  "live_closes": [
