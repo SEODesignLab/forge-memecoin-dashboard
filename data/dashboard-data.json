@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T22:04:43.340394+00:00",
+ "generated": "2026-10-30T22:34:43.481806+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1600,
-  "cohort_wallets": 1575,
+  "cohort_runs": 1601,
+  "cohort_wallets": 1592,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 123
+   "count": 122
   },
   {
    "reason": "Top holder 15.8% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T22:31:06.195432+00:00",
+   "symbol": "STAN",
+   "mint": "A79ZrT6t8thikjJHZpC8dL3SvGB3iPRdJPgZJ66Wpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 14.1% > 12% gate",
+   "entry_price": 8.305e-05,
+   "mcap": 83053,
+   "liq": 22310.23,
+   "h1": 110,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T22:00:56.967073+00:00",
    "symbol": "iCoin",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T18:00:57.311036+00:00",
-   "symbol": "TYGR",
-   "mint": "5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003399,
-   "mcap": 339969,
-   "liq": 56527.04,
-   "h1": 666,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "$CHIMP",
-   "tag": "WATCH",
-   "h1": -7.8,
-   "ts": "2026-10-29 15:30 UTC"
-  },
-  {
    "symbol": "SENSE",
    "tag": "WATCH",
    "h1": -6.5,
@@ -993,14 +987,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 2.4,
-   "ts": "2026-10-30 22:00 UTC"
+   "h1": 8.1,
+   "ts": "2026-10-30 22:30 UTC"
   },
   {
    "symbol": "Foxii",
-   "tag": "FADING",
-   "h1": -39.8,
-   "ts": "2026-10-30 17:00 UTC"
+   "tag": "CHASE",
+   "h1": 43803.0,
+   "ts": "2026-10-30 22:30 UTC"
   },
   {
    "symbol": "CATPAD",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": -10.3,
-   "ts": "2026-10-30 22:00 UTC"
+   "h1": -9.8,
+   "ts": "2026-10-30 22:30 UTC"
+  },
+  {
+   "symbol": "HELL",
+   "tag": "WATCH",
+   "h1": 16.4,
+   "ts": "2026-10-30 22:30 UTC"
   }
  ],
  "live_closes": [
