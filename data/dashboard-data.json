@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T06:34:38.597363+00:00",
+ "generated": "2026-10-30T07:04:38.762128+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1569,
-  "cohort_wallets": 1989,
+  "cohort_runs": 1570,
+  "cohort_wallets": 1500,
   "cohort_qualified": 122,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 104
+   "count": 105
   },
   {
    "reason": "Top holder 13.4% > 12% gate",
-   "count": 7
+   "count": 6
   },
   {
    "reason": "Top holder 12.1% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-30T07:00:57.420135+00:00",
+   "symbol": "SI",
+   "mint": "E5pZM5GH1WaCWxNnDvhtWVjvzR7P5iUqXU8epki2pump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 15.0% > 12% gate",
+   "entry_price": 8.229e-05,
+   "mcap": 82297,
+   "liq": 23294.6,
+   "h1": 99.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-30T07:00:57.412778+00:00",
+   "symbol": "GTA 6 Coin",
+   "mint": "t2ZvdWpn4CF4cXMjgZYHakacZdHAUJjn8UcbPGgpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004826,
+   "mcap": 482613,
+   "liq": 56094.31,
+   "h1": 1085,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-30T06:31:02.123857+00:00",
    "symbol": "Grok",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T02:00:51.180392+00:00",
-   "symbol": "HYPERPAD",
-   "mint": "31FZ9fnK5NqFrymDmNdwKZmrnVvYtpKoVdWXDeXTpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001671,
-   "mcap": 167138,
-   "liq": 36018.98,
-   "h1": 278,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T02:00:51.173645+00:00",
-   "symbol": "GRID",
-   "mint": "DwGRhEKzgLb6su8sSdhXYTpvnmEmdtddmDEukXHhpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 24.7% > 12% gate",
-   "entry_price": 2.227e-05,
-   "mcap": 22238,
-   "liq": 10610.74,
-   "h1": -43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 67,
+   "hits": 68,
    "symbols": [
-    "REMUS",
     "SWORDOPE",
     "GATO",
     "Shitcoin",
     "STONKLANA",
     "shibana",
     "STANK",
-    "SENSE"
+    "SENSE",
+    "HEXN"
    ],
-   "last": "2026-10-30 03:30 UTC"
+   "last": "2026-10-30 07:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -963,8 +963,8 @@
   {
    "symbol": "SENSE",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-10-30 06:30 UTC"
+   "h1": 6.0,
+   "ts": "2026-10-30 07:00 UTC"
   },
   {
    "symbol": "VI",
@@ -993,8 +993,8 @@
   {
    "symbol": "HEXN",
    "tag": "WATCH",
-   "h1": 21.4,
-   "ts": "2026-10-30 06:30 UTC"
+   "h1": 48.1,
+   "ts": "2026-10-30 07:00 UTC"
   },
   {
    "symbol": "calm",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HYPERCHAN",
    "tag": "WATCH",
-   "h1": 9.5,
-   "ts": "2026-10-30 06:30 UTC"
+   "h1": 12.0,
+   "ts": "2026-10-30 07:00 UTC"
   },
   {
    "symbol": "Foxii",
-   "tag": "WATCH",
-   "h1": 47.1,
-   "ts": "2026-10-30 06:30 UTC"
+   "tag": "FADING",
+   "h1": -27.7,
+   "ts": "2026-10-30 07:00 UTC"
   }
  ],
  "live_closes": [
