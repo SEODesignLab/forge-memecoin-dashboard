@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:04:45.791919+00:00",
+ "generated": "2026-10-31T06:34:45.944583+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1616,
-  "cohort_wallets": 1979,
+  "cohort_runs": 1617,
+  "cohort_wallets": 1500,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 17
+   "count": 18
   },
   {
    "reason": "Top holder 14.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T06:31:06.595184+00:00",
+   "symbol": "BOAR",
+   "mint": "GG2EKq1VseznqEsBzaa9egJYw69jpgfWnZCLWDHgpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 7.282e-05,
+   "mcap": 72826,
+   "liq": 21451.9,
+   "h1": 80.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T06:00:58.716964+00:00",
    "symbol": "OpenAI",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T23:01:04.792911+00:00",
-   "symbol": "ONBOARD",
-   "mint": "CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 14.7% > 12% gate",
-   "entry_price": 0.0001138,
-   "mcap": 110175,
-   "liq": 30382.57,
-   "h1": -51.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "CATPAD",
     "Jason"
    ],
-   "last": "2026-10-31 06:00 UTC"
+   "last": "2026-10-31 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,38 +981,38 @@
   {
    "symbol": "CATPAD",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-10-31 06:00 UTC"
+   "h1": 12.4,
+   "ts": "2026-10-31 06:30 UTC"
   },
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 26.2,
-   "ts": "2026-10-31 06:00 UTC"
+   "h1": 6.4,
+   "ts": "2026-10-31 06:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -11.0,
-   "ts": "2026-10-31 06:00 UTC"
+   "h1": -4.1,
+   "ts": "2026-10-31 06:30 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "FADING",
-   "h1": -44.0,
-   "ts": "2026-10-31 06:00 UTC"
+   "h1": -24.8,
+   "ts": "2026-10-31 06:30 UTC"
   },
   {
    "symbol": "AgenC",
-   "tag": "FADING",
-   "h1": -61.6,
-   "ts": "2026-10-31 06:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.6,
+   "ts": "2026-10-31 06:30 UTC"
   },
   {
    "symbol": "Leverhedge",
    "tag": "WATCH",
-   "h1": 10.5,
-   "ts": "2026-10-31 06:00 UTC"
+   "h1": 10.6,
+   "ts": "2026-10-31 06:30 UTC"
   }
  ],
  "live_closes": [
