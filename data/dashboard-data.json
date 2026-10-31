@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T21:04:50.248229+00:00",
+ "generated": "2026-10-31T21:34:50.366566+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1646,
-  "cohort_wallets": 1812,
+  "cohort_runs": 1647,
+  "cohort_wallets": 1836,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T21:31:07.738812+00:00",
+   "symbol": "KIM",
+   "mint": "J6d7bCZtE7wKJ6Sz2q3qExYLbERCCkMDH48akTYSpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001281,
+   "mcap": 128140,
+   "liq": 27693.66,
+   "h1": 222,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T21:31:07.729506+00:00",
+   "symbol": "ACT P",
+   "mint": "7V29hYuM834c7ZYQj7V2rj83F2AzFbZfFcraRjM1pump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.345e-05,
+   "mcap": 43458,
+   "liq": 15415.56,
+   "h1": 8.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T21:01:13.921428+00:00",
    "symbol": "KIM",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T16:31:10.636343+00:00",
-   "symbol": "DAVID",
-   "mint": "C9vrs1K4C9rVbcDZVJHrwSnuMspnz1R4TUNdMuLYpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004297,
-   "mcap": 429765,
-   "liq": 55921.17,
-   "h1": 715,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T16:31:10.630091+00:00",
-   "symbol": "X",
-   "mint": "uFp2mFRw6mhGtYf6UK3eP222CxqqzuGiquhJrWapump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001237,
-   "mcap": 123799,
-   "liq": 27229.67,
-   "h1": 211,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -969,20 +969,20 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 14.4,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": 0.4,
+   "ts": "2026-10-31 21:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -6.4,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": -7.9,
+   "ts": "2026-10-31 21:30 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "WATCH",
-   "h1": -15.9,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": 51.2,
+   "ts": "2026-10-31 21:30 UTC"
   },
   {
    "symbol": "AgenC",
@@ -993,14 +993,14 @@
   {
    "symbol": "Leverhedge",
    "tag": "WATCH",
-   "h1": 39.2,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": 50.9,
+   "ts": "2026-10-31 21:30 UTC"
   },
   {
    "symbol": "SIS",
    "tag": "WATCH",
-   "h1": -16.6,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": -17.8,
+   "ts": "2026-10-31 21:30 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "CHASE",
-   "h1": 759.0,
-   "ts": "2026-10-31 21:00 UTC"
+   "h1": 939.0,
+   "ts": "2026-10-31 21:30 UTC"
   }
  ],
  "live_closes": [
