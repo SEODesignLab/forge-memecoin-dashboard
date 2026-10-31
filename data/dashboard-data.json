@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T03:34:45.032440+00:00",
+ "generated": "2026-10-31T04:04:45.241772+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1611,
-  "cohort_wallets": 1835,
+  "cohort_runs": 1612,
+  "cohort_wallets": 1856,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -29,6 +29,10 @@
    "count": 125
   },
   {
+   "reason": "Mint/freeze not renounced",
+   "count": 8
+  },
+  {
    "reason": "Top holder 14.3% > 12% gate",
    "count": 7
   },
@@ -42,10 +46,6 @@
   },
   {
    "reason": "Top holder 20.0% > 12% gate",
-   "count": 6
-  },
-  {
-   "reason": "Mint/freeze not renounced",
    "count": 6
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T04:01:31.384662+00:00",
+   "symbol": "Fomo",
+   "mint": "9RDRBf7rK9wYxwYsiqi7N1da2yH3ZEBrYSTeJZjqpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0001061,
+   "mcap": 106142,
+   "liq": 25115.2,
+   "h1": 166,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T04:01:31.379222+00:00",
+   "symbol": "YouTube",
+   "mint": "sC8ZiawJ8HTw679yz1N8gtFqXjWyMoTqTu3taJCpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0001238,
+   "mcap": 123802,
+   "liq": 27244.16,
+   "h1": 210,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T03:31:04.326654+00:00",
    "symbol": "Halloweenu",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T21:01:07.077778+00:00",
-   "symbol": "BNB",
-   "mint": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004138,
-   "mcap": 413806,
-   "liq": 51721.11,
-   "h1": 666,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T21:01:07.071541+00:00",
-   "symbol": "TUSKcoin",
-   "mint": "E7enuoDfZrCyerELkrZPZT15sSHWWdL3VwZYGgcepump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 3.593e-05,
-   "mcap": 35933,
-   "liq": 14021.45,
-   "h1": -8.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "CATPAD",
     "Jason"
    ],
-   "last": "2026-10-31 03:30 UTC"
+   "last": "2026-10-31 04:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -993,26 +993,26 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-10-31 03:30 UTC"
+   "h1": -8.3,
+   "ts": "2026-10-31 04:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -16.2,
-   "ts": "2026-10-31 03:30 UTC"
+   "h1": 18.4,
+   "ts": "2026-10-31 04:00 UTC"
   },
   {
    "symbol": "BNB",
-   "tag": "FADING",
-   "h1": -40.2,
-   "ts": "2026-10-31 03:30 UTC"
+   "tag": "WATCH",
+   "h1": 5.6,
+   "ts": "2026-10-31 04:00 UTC"
   },
   {
    "symbol": "AgenC",
    "tag": "WATCH",
-   "h1": 14.4,
-   "ts": "2026-10-31 03:30 UTC"
+   "h1": -16.3,
+   "ts": "2026-10-31 04:00 UTC"
   }
  ],
  "live_closes": [
