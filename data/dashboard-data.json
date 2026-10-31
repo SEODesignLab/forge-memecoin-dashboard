@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T17:04:49.088315+00:00",
+ "generated": "2026-10-31T17:34:49.214200+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1638,
-  "cohort_wallets": 1615,
+  "cohort_runs": 1639,
+  "cohort_wallets": 1635,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T17:31:00.636250+00:00",
+   "symbol": "HUSS",
+   "mint": "7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 17.8% > 12% gate",
+   "entry_price": 6.614e-05,
+   "mcap": 66040,
+   "liq": 20075.53,
+   "h1": 72.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T17:31:00.631879+00:00",
+   "symbol": "GTA 6 Coin",
+   "mint": "EXNjFBYSYMFGUErvKpoBtigDTmMHNQcG5F9MeroNpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001375,
+   "mcap": 137509,
+   "liq": 28780.93,
+   "h1": 245,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T17:31:00.622321+00:00",
+   "symbol": "ROYALE",
+   "mint": "8e7rkycmmQLyAvULWA3x37N18RHo1kdQSTpPxnuhpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 53>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.408e-05,
+   "mcap": 34083,
+   "liq": 13508.85,
+   "h1": -14.09,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T17:01:16.121230+00:00",
    "symbol": "BARRON",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T15:01:18.942805+00:00",
-   "symbol": "whitepaper",
-   "mint": "ENtDQHaQk7n6pTdAvVLJpsLXduC896ioSjFURb21pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0001055,
-   "mcap": 105525,
-   "liq": 25059.71,
-   "h1": 180,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T15:01:18.937156+00:00",
-   "symbol": "HALLOCAT",
-   "mint": "F1V2xduQjpsymUpEgFm2mThwEzA6uDnQtXicnmQSpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 0.0001223,
-   "mcap": 122318,
-   "liq": 27330.51,
-   "h1": 172,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T14:31:07.767303+00:00",
-   "symbol": "MTGA",
-   "mint": "EDM8ynBGuaxXex6Lx78Q4WYDNtH6F6ANPvmi72Mspump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 3.991e-05,
-   "mcap": 39915,
-   "liq": 14735.71,
-   "h1": 0.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Jason",
     "HELL"
    ],
-   "last": "2026-10-31 16:30 UTC"
+   "last": "2026-10-31 17:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -986,33 +986,33 @@
   },
   {
    "symbol": "Jason",
-   "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-10-31 17:00 UTC"
+   "tag": "FADING",
+   "h1": -22.5,
+   "ts": "2026-10-31 17:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-10-31 17:00 UTC"
+   "h1": 1.3,
+   "ts": "2026-10-31 17:30 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "WATCH",
-   "h1": -2.7,
-   "ts": "2026-10-31 17:00 UTC"
+   "h1": 12.5,
+   "ts": "2026-10-31 17:30 UTC"
   },
   {
    "symbol": "AgenC",
-   "tag": "FADING",
-   "h1": -29.4,
-   "ts": "2026-10-31 16:00 UTC"
+   "tag": "CHASE",
+   "h1": 34980.0,
+   "ts": "2026-10-31 17:30 UTC"
   },
   {
    "symbol": "Leverhedge",
    "tag": "WATCH",
-   "h1": -14.3,
-   "ts": "2026-10-31 17:00 UTC"
+   "h1": -19.1,
+   "ts": "2026-10-31 17:30 UTC"
   }
  ],
  "live_closes": [
