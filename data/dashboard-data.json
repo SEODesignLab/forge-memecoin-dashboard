@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:04:44.544115+00:00",
+ "generated": "2026-10-31T02:34:44.678410+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1608,
-  "cohort_wallets": 1761,
+  "cohort_runs": 1609,
+  "cohort_wallets": 1783,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 126
+   "count": 125
   },
   {
    "reason": "Top holder 14.3% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T02:31:08.761994+00:00",
+   "symbol": "Lumi",
+   "mint": "7EjoUqfyy5zZJ9ARWrVVt8XY62P3vQDzRuZNEtqrpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 7.587e-06,
+   "mcap": 7238,
+   "liq": 5597.13,
+   "h1": 157,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T02:31:08.756874+00:00",
+   "symbol": "DTS02",
+   "mint": "F6iU9i9948gDQHS4hTbe2tJbCBgYTpWfqToVqYmspump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 1.576e-05,
+   "mcap": 15766,
+   "liq": 9271,
+   "h1": -61.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T01:01:11.405478+00:00",
    "symbol": "Lumi",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T20:31:06.282608+00:00",
-   "symbol": "Kreo",
-   "mint": "FUiVjVSD8ASUTZbXVN2u1ZzbejuVo2GRzJCHjQqmpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 23.3% > 12% gate",
-   "entry_price": 3.43e-05,
-   "mcap": 34307,
-   "liq": 13494.81,
-   "h1": -13.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T20:31:06.277735+00:00",
-   "symbol": "BEAST",
-   "mint": "HRJPbDu8h4cH2gT1rKcmzNcvzX1M7jHKogS7zRJkpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 46>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001206,
-   "mcap": 120664,
-   "liq": 26740.66,
-   "h1": 206,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -974,9 +974,9 @@
   },
   {
    "symbol": "HYPERCHAN",
-   "tag": "FADING",
-   "h1": -76.5,
-   "ts": "2026-10-31 02:00 UTC"
+   "tag": "WATCH",
+   "h1": 5.4,
+   "ts": "2026-10-31 02:30 UTC"
   },
   {
    "symbol": "Foxii",
@@ -993,26 +993,26 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 14.3,
-   "ts": "2026-10-31 02:00 UTC"
+   "h1": -4.5,
+   "ts": "2026-10-31 02:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -11.3,
-   "ts": "2026-10-31 02:00 UTC"
+   "h1": -3.6,
+   "ts": "2026-10-31 02:30 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "WATCH",
-   "h1": 23.1,
-   "ts": "2026-10-31 02:00 UTC"
+   "h1": 118.0,
+   "ts": "2026-10-31 02:30 UTC"
   },
   {
    "symbol": "AgenC",
    "tag": "WATCH",
-   "h1": 29.2,
-   "ts": "2026-10-31 02:00 UTC"
+   "h1": 21.4,
+   "ts": "2026-10-31 02:30 UTC"
   }
  ],
  "live_closes": [
