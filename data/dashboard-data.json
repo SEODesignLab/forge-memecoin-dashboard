@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T04:34:45.352710+00:00",
+ "generated": "2026-10-31T05:04:45.512479+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1613,
-  "cohort_wallets": 1883,
+  "cohort_runs": 1614,
+  "cohort_wallets": 1916,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Top holder 14.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T05:00:59.726639+00:00",
+   "symbol": "offline",
+   "mint": "F7ZQtqwJjwQs4VRUAnxg6KRZWPzMvLpKKmUsx4x9pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.166e-05,
+   "mcap": 31662,
+   "liq": 13383.38,
+   "h1": -22.06,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T04:31:01.979879+00:00",
    "symbol": "ChatGPT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-30T22:00:56.962720+00:00",
-   "symbol": "GTA 6 Coin",
-   "mint": "b9kfQ9ZmUV5wQeFCKXU5HwAC3FWeH6eUDd6xSjepump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.00024,
-   "mcap": 239964,
-   "liq": 38473.46,
-   "h1": 506,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,22 +743,22 @@
     "CATPAD",
     "Jason"
    ],
-   "last": "2026-10-31 04:30 UTC"
+   "last": "2026-10-31 05:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 68,
+   "hits": 69,
    "symbols": [
-    "SWORDOPE",
     "GATO",
     "Shitcoin",
     "STONKLANA",
     "shibana",
     "STANK",
     "SENSE",
-    "HEXN"
+    "HEXN",
+    "CATPAD"
    ],
-   "last": "2026-10-30 18:30 UTC"
+   "last": "2026-10-31 05:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -981,38 +981,38 @@
   {
    "symbol": "CATPAD",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-10-30 22:00 UTC"
+   "h1": -0.6,
+   "ts": "2026-10-31 05:00 UTC"
   },
   {
    "symbol": "Jason",
    "tag": "FADING",
-   "h1": -22.5,
-   "ts": "2026-10-31 04:30 UTC"
+   "h1": -21.0,
+   "ts": "2026-10-31 05:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-10-31 04:30 UTC"
+   "h1": 2.2,
+   "ts": "2026-10-31 05:00 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "WATCH",
-   "h1": 21.3,
-   "ts": "2026-10-31 04:30 UTC"
+   "h1": -5.8,
+   "ts": "2026-10-31 05:00 UTC"
   },
   {
    "symbol": "AgenC",
-   "tag": "WATCH",
-   "h1": -9.2,
-   "ts": "2026-10-31 04:30 UTC"
+   "tag": "FADING",
+   "h1": -33.8,
+   "ts": "2026-10-31 05:00 UTC"
   },
   {
    "symbol": "Leverhedge",
-   "tag": "FADING",
-   "h1": -38.5,
-   "ts": "2026-10-31 04:30 UTC"
+   "tag": "WATCH",
+   "h1": -15.0,
+   "ts": "2026-10-31 05:00 UTC"
   }
  ],
  "live_closes": [
