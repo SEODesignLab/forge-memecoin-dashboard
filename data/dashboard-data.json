@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:04:47.020822+00:00",
+ "generated": "2026-10-31T10:34:47.142621+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1624,
-  "cohort_wallets": 1723,
+  "cohort_runs": 1625,
+  "cohort_wallets": 1757,
   "cohort_qualified": 125,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,11 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 29
-  },
-  {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 7
+   "count": 34
   },
   {
    "reason": "Top holder 15.0% > 12% gate",
@@ -45,12 +41,12 @@
    "count": 6
   },
   {
-   "reason": "Top holder 20.0% > 12% gate",
+   "reason": "Top holder 14.3% > 12% gate",
    "count": 6
   },
   {
-   "reason": "Top holder 16.5% > 12% gate",
-   "count": 5
+   "reason": "Top holder 20.0% > 12% gate",
+   "count": 6
   },
   {
    "reason": "Top holder 15.8% > 12% gate",
@@ -71,9 +67,88 @@
   {
    "reason": "Top holder 15.6% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 21.2% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-10-31T10:31:08.092392+00:00",
+   "symbol": "BLOB",
+   "mint": "s2fKKsSfZqb2zHVVeFpvAqQr5wkZD7zQoFyJ765pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0001104,
+   "mcap": 110494,
+   "liq": 25610.97,
+   "h1": -10.84,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T10:31:08.087662+00:00",
+   "symbol": "BAGPAD",
+   "mint": "CSGpbt6CiLxmDGKUSHEQZgTen12hQpVddfoE5SbQpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 4.52e-05,
+   "mcap": 45201,
+   "liq": 15800.76,
+   "h1": 14.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T10:31:08.082427+00:00",
+   "symbol": "AMAZON",
+   "mint": "9L2FD9gNEu8h9NdD9VqRWCqhNgh1UznG8Ve7VZWpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0002452,
+   "mcap": 245217,
+   "liq": 38984.19,
+   "h1": 518,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T10:31:08.077680+00:00",
+   "symbol": "VAMPCAT",
+   "mint": "4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 3.28e-05,
+   "mcap": 32804,
+   "liq": 13223.97,
+   "h1": -17.42,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-10-31T10:31:08.072395+00:00",
+   "symbol": "FUN",
+   "mint": "FcZuu76twm89BKVN6WoWhFwfCmAVFPx24NkT8hKvpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 0.0001573,
+   "mcap": 157381,
+   "liq": 31813.57,
+   "h1": 292,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-10-31T10:01:08.459252+00:00",
    "symbol": "FUN",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T00:30:59.963456+00:00",
-   "symbol": "MONEKO",
-   "mint": "49t765AnJMQAzSUutr9T7rC4QAtGxbqiL374qxsHpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 17.9% > 12% gate",
-   "entry_price": 7.413e-05,
-   "mcap": 74137,
-   "liq": 22799.09,
-   "h1": 77.53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T00:30:59.955669+00:00",
-   "symbol": "iCat",
-   "mint": "BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000151,
-   "mcap": 151088,
-   "liq": 30380.79,
-   "h1": 263,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T00:30:59.947593+00:00",
-   "symbol": "iWould",
-   "mint": "AZfKuArxqjPLJoADpRBMxUsbD9mE5Wvwtji9hPaYpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 33.5% > 12% gate",
-   "entry_price": 2.749e-05,
-   "mcap": 27495,
-   "liq": 12884.32,
-   "h1": -39.1,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T00:30:59.942060+00:00",
-   "symbol": "$1",
-   "mint": "dKySSjXqXMrnAaXwjEJibNq7okM4zPGudayi3vjpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 15.4% > 12% gate",
-   "entry_price": 8.408e-05,
-   "mcap": 84089,
-   "liq": 25377.92,
-   "h1": 80.42,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T00:01:06.735539+00:00",
-   "symbol": "AXIO",
-   "mint": "3mUcXkpVVkQ5ZJMctz2f1VBk4rwu3NRfNwVQZtDzpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 43.7% > 12% gate",
-   "entry_price": 2.199e-05,
-   "mcap": 21998,
-   "liq": 10760.22,
-   "h1": -44.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,38 +981,38 @@
   {
    "symbol": "CATPAD",
    "tag": "WATCH",
-   "h1": 7.7,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": -3.5,
+   "ts": "2026-10-31 10:30 UTC"
   },
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 36.9,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": -2.1,
+   "ts": "2026-10-31 10:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -5.4,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": 12.3,
+   "ts": "2026-10-31 10:30 UTC"
   },
   {
    "symbol": "BNB",
    "tag": "WATCH",
-   "h1": -16.8,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": -18.4,
+   "ts": "2026-10-31 10:30 UTC"
   },
   {
    "symbol": "AgenC",
    "tag": "FADING",
-   "h1": -57.4,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": -43.0,
+   "ts": "2026-10-31 10:30 UTC"
   },
   {
    "symbol": "Leverhedge",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-10-31 10:00 UTC"
+   "h1": -14.3,
+   "ts": "2026-10-31 10:30 UTC"
   }
  ],
  "live_closes": [
