@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T03:34:52.150965+00:00",
+ "generated": "2026-11-01T04:04:52.308098+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1659,
-  "cohort_wallets": 1688,
+  "cohort_runs": 1660,
+  "cohort_wallets": 1711,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 136
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 9
+   "count": 10
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T04:01:14.181122+00:00",
+   "symbol": "fomo",
+   "mint": "6eFDk182J6jbZnyGGqiTk8qFGExH7NS8b27ApxC3pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 8.61e-05,
+   "mcap": 86105,
+   "liq": 22394.18,
+   "h1": 117,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T04:01:14.172058+00:00",
+   "symbol": "tipr",
+   "mint": "3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 20.3% > 12% gate",
+   "entry_price": 4.328e-05,
+   "mcap": 43240,
+   "liq": 15717.26,
+   "h1": 11.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T04:01:14.167113+00:00",
+   "symbol": "Mamesuke",
+   "mint": "EddrjeVVAor8uvMbwRKyB9N4Kx8WVVeFJxLTcUVDpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Top holder 23.0% > 12% gate",
+   "entry_price": 3.42e-05,
+   "mcap": 34206,
+   "liq": 13944.51,
+   "h1": -17.13,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T03:31:14.637107+00:00",
    "symbol": "LEGO",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:01:14.005945+00:00",
-   "symbol": "LumiBot",
-   "mint": "DEQJomTSGiJSXafXV2Xkb7Un3ZfZrHt9p4zQUDPkpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001402,
-   "mcap": 140276,
-   "liq": 29275.24,
-   "h1": 233,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:01:13.999820+00:00",
-   "symbol": "RISK",
-   "mint": "8EhTdaZcFf7kZcrSaJ5PGUEeL5DGEokFJERZxDW5pump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 20.3% > 12% gate",
-   "entry_price": 4.391e-05,
-   "mcap": 43916,
-   "liq": 15519.02,
-   "h1": 10.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:01:13.994875+00:00",
-   "symbol": "Grok",
-   "mint": "6pgiWipaRjqLKBWrv5dm2dT8zjZhUh94hpGkH2ipump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001615,
-   "mcap": 161573,
-   "liq": 31256.5,
-   "h1": 309,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Jason",
     "HELL"
    ],
-   "last": "2026-11-01 03:00 UTC"
+   "last": "2026-11-01 04:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 2.0,
-   "ts": "2026-11-01 03:30 UTC"
+   "h1": 14.5,
+   "ts": "2026-11-01 04:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -12.5,
-   "ts": "2026-11-01 03:30 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-01 04:00 UTC"
   },
   {
    "symbol": "BNB",
@@ -987,8 +987,8 @@
   {
    "symbol": "SIS",
    "tag": "WATCH",
-   "h1": 18.5,
-   "ts": "2026-11-01 03:30 UTC"
+   "h1": 9.4,
+   "ts": "2026-11-01 04:00 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "WATCH",
-   "h1": -7.5,
-   "ts": "2026-11-01 03:30 UTC"
+   "h1": 4.1,
+   "ts": "2026-11-01 04:00 UTC"
   },
   {
    "symbol": "NNN",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "AAPLCAT",
    "tag": "WATCH",
-   "h1": 5.5,
-   "ts": "2026-11-01 03:30 UTC"
+   "h1": -7.3,
+   "ts": "2026-11-01 04:00 UTC"
   }
  ],
  "live_closes": [
