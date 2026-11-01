@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T05:34:52.707646+00:00",
+ "generated": "2026-11-01T06:04:52.889457+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1663,
-  "cohort_wallets": 1787,
+  "cohort_runs": 1664,
+  "cohort_wallets": 1809,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 138
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T06:01:03.461730+00:00",
+   "symbol": "YUME",
+   "mint": "GHp743PVaKYg7EkNmpDzHabKNUrzhUxpKzvn7UTspump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 3.873e-05,
+   "mcap": 38731,
+   "liq": 14548.68,
+   "h1": -3.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T05:31:12.092968+00:00",
    "symbol": "NVIDIA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T00:31:15.145303+00:00",
-   "symbol": "NNN",
-   "mint": "7ZHjQAQWEMkMps6YM4J95x1Xnh9FjySP1dxteWyMpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 24.1% > 12% gate",
-   "entry_price": 3.686e-05,
-   "mcap": 36863,
-   "liq": 14097.5,
-   "h1": -19.58,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -837,18 +837,18 @@
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
-   "hits": 23,
+   "hits": 24,
    "symbols": [
-    "broomy",
     "texcat",
     "GATO",
     "MONEYBIZ",
     "CYBERCAT",
     "Wifoween",
     "Rapport",
-    "GLITCH"
+    "GLITCH",
+    "Jason"
    ],
-   "last": "2026-10-31 23:30 UTC"
+   "last": "2026-11-01 06:00 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 14.9,
-   "ts": "2026-11-01 05:30 UTC"
+   "h1": 10.6,
+   "ts": "2026-11-01 06:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-11-01 05:30 UTC"
+   "h1": 4.3,
+   "ts": "2026-11-01 06:00 UTC"
   },
   {
    "symbol": "BNB",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "SIS",
-   "tag": "WATCH",
-   "h1": -17.1,
-   "ts": "2026-11-01 05:30 UTC"
+   "tag": "FADING",
+   "h1": -56.1,
+   "ts": "2026-11-01 06:00 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "WATCH",
-   "h1": -14.2,
-   "ts": "2026-11-01 05:30 UTC"
+   "h1": 1.9,
+   "ts": "2026-11-01 06:00 UTC"
   },
   {
    "symbol": "NNN",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "AAPLCAT",
    "tag": "WATCH",
-   "h1": -9.0,
-   "ts": "2026-11-01 05:30 UTC"
+   "h1": 1.4,
+   "ts": "2026-11-01 06:00 UTC"
   }
  ],
  "live_closes": [
