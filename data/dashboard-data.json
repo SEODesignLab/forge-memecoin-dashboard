@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T15:34:55.740630+00:00",
+ "generated": "2026-11-01T16:04:55.903984+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1683,
-  "cohort_wallets": 1704,
+  "cohort_runs": 1684,
+  "cohort_wallets": 1727,
   "cohort_qualified": 128,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 143
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T16:01:19.835564+00:00",
+   "symbol": "pairless",
+   "mint": "DvFiCjUe7kQsj8okUfu6qSegVAa4BvKnbX2jTgMSpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 8.575e-05,
+   "mcap": 85756,
+   "liq": 22984.36,
+   "h1": 115,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T16:01:19.825428+00:00",
+   "symbol": "VETO",
+   "mint": "EM6awuXD9bFZfbchFFioeNpHyKur9bmD5kj3svHpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 20.9% > 12% gate",
+   "entry_price": 5.412e-05,
+   "mcap": 54121,
+   "liq": 17753.84,
+   "h1": 35.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T16:01:19.816697+00:00",
+   "symbol": "PEAKY",
+   "mint": "2EQxezWgXPRU6V3UD7DKr5m12mxqeFGPWNRx9wbqy9fC",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 18.0% > 12% gate",
+   "entry_price": 4.386e-05,
+   "mcap": 43695,
+   "liq": 17214.09,
+   "h1": 12.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T15:31:14.260675+00:00",
    "symbol": "0DAY",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T12:31:18.258761+00:00",
-   "symbol": "MARS",
-   "mint": "5p9uveeVPZgK3K7t8uyo4SnabSj4T1DzpQvCJZx3pump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 17.8% > 12% gate",
-   "entry_price": 5.433e-05,
-   "mcap": 54275,
-   "liq": 17360.16,
-   "h1": 36.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T12:31:18.250685+00:00",
-   "symbol": "P2P",
-   "mint": "8ANLUXihz9FrSy6Jbg85CGsuPCpPjf5S9ZUXNRG5pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001327,
-   "mcap": 132775,
-   "liq": 28602.71,
-   "h1": 230,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T12:31:18.242479+00:00",
-   "symbol": "SOLSTARS",
-   "mint": "EfB1tdCYLcseZBywfojYyo3sJwuUGxa26LGzCLvFpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 19.9% > 12% gate",
-   "entry_price": 5.157e-05,
-   "mcap": 51462,
-   "liq": 16916.62,
-   "h1": 36.17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": -8.7,
-   "ts": "2026-11-01 15:30 UTC"
+   "h1": -7.0,
+   "ts": "2026-11-01 16:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": 1.9,
-   "ts": "2026-11-01 15:30 UTC"
+   "h1": 2.7,
+   "ts": "2026-11-01 16:00 UTC"
   },
   {
    "symbol": "BNB",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "SIS",
-   "tag": "FADING",
-   "h1": -49.4,
-   "ts": "2026-11-01 15:30 UTC"
+   "tag": "WATCH",
+   "h1": -17.5,
+   "ts": "2026-11-01 16:00 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "FADING",
-   "h1": -39.6,
-   "ts": "2026-11-01 15:30 UTC"
+   "h1": -33.3,
+   "ts": "2026-11-01 16:00 UTC"
   },
   {
    "symbol": "NNN",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "AAPLCAT",
-   "tag": "FADING",
-   "h1": -29.1,
-   "ts": "2026-11-01 15:30 UTC"
+   "tag": "WATCH",
+   "h1": -16.9,
+   "ts": "2026-11-01 16:00 UTC"
   }
  ],
  "live_closes": [
