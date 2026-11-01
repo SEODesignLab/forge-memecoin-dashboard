@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T04:34:52.411988+00:00",
+ "generated": "2026-11-01T05:04:52.597460+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1661,
-  "cohort_wallets": 1738,
+  "cohort_runs": 1662,
+  "cohort_wallets": 1764,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 140
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -37,15 +37,15 @@
    "count": 11
   },
   {
-   "reason": "Top holder 12.8% > 12% gate",
-   "count": 8
-  },
-  {
    "reason": "Top holder 13.3% > 12% gate",
    "count": 7
   },
   {
    "reason": "Top holder 15.0% > 12% gate",
+   "count": 7
+  },
+  {
+   "reason": "Top holder 12.8% > 12% gate",
    "count": 7
   },
   {
@@ -74,6 +74,81 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T05:01:10.953674+00:00",
+   "symbol": "MrBeast",
+   "mint": "6itLkygnC57L9hKQA2CaBhf7SYaShhi3L58sqdoqpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001597,
+   "mcap": 159717,
+   "liq": 31150.28,
+   "h1": 300,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T05:01:10.947741+00:00",
+   "symbol": "ANTS",
+   "mint": "wMHBD2B8KbDagvXUEapginhtJdrH4QSvSezBM8Tpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001311,
+   "mcap": 1293618,
+   "liq": 95098.64,
+   "h1": -9.04,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T05:01:10.939192+00:00",
+   "symbol": "BRB",
+   "mint": "BRBxbQjafbMc1p24AUxLQpMmmuekKiQKi8PyNquLnbrb",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001421,
+   "mcap": 142159,
+   "liq": 31641.72,
+   "h1": 271,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T05:01:10.933100+00:00",
+   "symbol": "TIND",
+   "mint": "7sgu7H7zP2xt1AXqRzjcWMrZYvip3ML1fH7vhixDpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 40.0% > 12% gate",
+   "entry_price": 2.728e-05,
+   "mcap": 54578,
+   "liq": 16018.74,
+   "h1": 147,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T05:01:10.924665+00:00",
+   "symbol": "ELON",
+   "mint": "J84L4fxm3WwKvxWYzcRwV1fgLyTTUGHZomX7VurSpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 24.5% > 12% gate",
+   "entry_price": 2.783e-05,
+   "mcap": 27830,
+   "liq": 12336.92,
+   "h1": -29.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T04:31:08.172079+00:00",
    "symbol": "GTA 6 Coin",
@@ -598,81 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T00:01:12.566904+00:00",
-   "symbol": "Fomo",
-   "mint": "BiW7cpbBu7SibEQohQHLzMT867GAb7rXG78je2Rpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 0.000126,
-   "mcap": 126078,
-   "liq": 27409.7,
-   "h1": 218,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T00:01:12.561194+00:00",
-   "symbol": "Rockstar",
-   "mint": "BADVzdHiBVD3N7MN5RzTpdMRjFkyK4r5YMm5Xsq6pump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 9.39e-05,
-   "mcap": 93905,
-   "liq": 23432.72,
-   "h1": 137,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:31:18.640786+00:00",
-   "symbol": "fomo",
-   "mint": "8sz1pPak1J6ynFbDJ1we8nRjiAWcbxyZvPiEjAfrpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 84.6% > 12% gate",
-   "entry_price": 4.496e-05,
-   "mcap": 44962,
-   "liq": 15746.82,
-   "h1": 13.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:31:18.636581+00:00",
-   "symbol": "Batcat",
-   "mint": "B4Fbb3ifAgUB2fmn3yrUPcff42GdDfYtMuuovGwBpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 9.839e-05,
-   "mcap": 98393,
-   "liq": 24217.54,
-   "h1": 151,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-10-31T23:31:18.632096+00:00",
-   "symbol": "Pumpcoin",
-   "mint": "CnRNy8i7XeG1a547WY9nxeErb6N6fgAYqLRXuvV4pump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 6.636e-05,
-   "mcap": 66289,
-   "liq": 20541.17,
-   "h1": 58.48,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Jason",
     "HELL"
    ],
-   "last": "2026-11-01 04:00 UTC"
+   "last": "2026-11-01 05:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 12.9,
-   "ts": "2026-11-01 04:30 UTC"
+   "h1": 2.5,
+   "ts": "2026-11-01 05:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": -0.8,
-   "ts": "2026-11-01 04:30 UTC"
+   "h1": -11.1,
+   "ts": "2026-11-01 05:00 UTC"
   },
   {
    "symbol": "BNB",
@@ -987,8 +987,8 @@
   {
    "symbol": "SIS",
    "tag": "WATCH",
-   "h1": 1.2,
-   "ts": "2026-11-01 04:30 UTC"
+   "h1": 56.7,
+   "ts": "2026-11-01 05:00 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "WATCH",
-   "h1": 13.1,
-   "ts": "2026-11-01 04:30 UTC"
+   "h1": -9.6,
+   "ts": "2026-11-01 05:00 UTC"
   },
   {
    "symbol": "NNN",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "AAPLCAT",
    "tag": "WATCH",
-   "h1": -2.8,
-   "ts": "2026-11-01 04:30 UTC"
+   "h1": 0.9,
+   "ts": "2026-11-01 05:00 UTC"
   }
  ],
  "live_closes": [
