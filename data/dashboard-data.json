@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T18:04:56.512939+00:00",
+ "generated": "2026-11-01T18:34:56.665196+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1688,
-  "cohort_wallets": 1834,
+  "cohort_runs": 1689,
+  "cohort_wallets": 1853,
   "cohort_qualified": 128,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -49,11 +49,11 @@
    "count": 6
   },
   {
-   "reason": "Top holder 12.5% > 12% gate",
-   "count": 5
+   "reason": "Top holder 13.3% > 12% gate",
+   "count": 6
   },
   {
-   "reason": "Top holder 13.3% > 12% gate",
+   "reason": "Top holder 12.5% > 12% gate",
    "count": 5
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T18:31:20.689879+00:00",
+   "symbol": "Robinhood",
+   "mint": "XhNvpz9f2ZD8KRzWWX1bcUCpmtySENMorY8vhUApump",
+   "score": 106,
+   "decision": "SKIP",
+   "reason": "Top holder 13.3% > 12% gate",
+   "entry_price": 0.000118,
+   "mcap": 118049,
+   "liq": 26358.01,
+   "h1": 201,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T18:31:20.685247+00:00",
+   "symbol": "NVIDIA",
+   "mint": "Pa53SaZ2RA7CT6pJrkD2KLTsMqykw6MXSp6tw23pump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002501,
+   "mcap": 250158,
+   "liq": 39230.94,
+   "h1": 536,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T18:31:20.676327+00:00",
+   "symbol": "EVOLVE",
+   "mint": "1f3soMcKyii7AFPNDCq9XWcgB8oEzCp4XMuZBzs7evo",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 45.9% > 12% gate",
+   "entry_price": 1.178e-05,
+   "mcap": 11789,
+   "liq": 10409.06,
+   "h1": -70.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T18:01:10.597632+00:00",
    "symbol": "YouTube",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.070391+00:00",
-   "symbol": "urmom",
-   "mint": "7iUM4NqpJMXbjTa6yX5biPQxs3Fi7KXEjLt3PBNDpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 18.3% > 12% gate",
-   "entry_price": 5.922e-05,
-   "mcap": 59229,
-   "liq": 18288.34,
-   "h1": 50.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.063040+00:00",
-   "symbol": "ChatGPT",
-   "mint": "7TKQgMRhfJtS8vKA4HMWjLdWMPUyuzBszW3sTcYgpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 9.483e-05,
-   "mcap": 94832,
-   "liq": 23492.24,
-   "h1": 141,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.055782+00:00",
-   "symbol": "MrBeast",
-   "mint": "DihEAeG7WcuyQwVcFccaRhvnGkdo5F6fmttmBfxopump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 13.1% > 12% gate",
-   "entry_price": 9.848e-05,
-   "mcap": 98484,
-   "liq": 23980.93,
-   "h1": 150,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": -9.8,
-   "ts": "2026-11-01 18:00 UTC"
+   "h1": -3.2,
+   "ts": "2026-11-01 18:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-11-01 18:00 UTC"
+   "h1": -5.8,
+   "ts": "2026-11-01 18:30 UTC"
   },
   {
    "symbol": "BNB",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "FADING",
-   "h1": -64.8,
-   "ts": "2026-11-01 18:00 UTC"
+   "h1": -86.0,
+   "ts": "2026-11-01 18:30 UTC"
   },
   {
    "symbol": "NNN",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "AAPLCAT",
    "tag": "FADING",
-   "h1": -25.6,
-   "ts": "2026-11-01 18:00 UTC"
+   "h1": -28.3,
+   "ts": "2026-11-01 18:30 UTC"
   }
  ],
  "live_closes": [
