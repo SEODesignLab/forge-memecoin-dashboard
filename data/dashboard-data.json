@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T06:04:52.889457+00:00",
+ "generated": "2026-11-01T06:34:53.011971+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1664,
-  "cohort_wallets": 1809,
+  "cohort_runs": 1665,
+  "cohort_wallets": 1834,
   "cohort_qualified": 127,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Top holder 15.0% > 12% gate",
@@ -65,15 +65,30 @@
    "count": 5
   },
   {
-   "reason": "Top holder 18.4% > 12% gate",
+   "reason": "Top holder 14.3% > 12% gate",
    "count": 4
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
+   "reason": "Top holder 19.7% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T06:31:11.571380+00:00",
+   "symbol": "MrBeast",
+   "mint": "5oFzQ4Z7haWP4ASbLwa1TTufyRnjRv4k7mEqc1zZpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.000116,
+   "mcap": 116006,
+   "liq": 26278.51,
+   "h1": 192,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T06:01:03.461730+00:00",
    "symbol": "YUME",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T00:31:15.152378+00:00",
-   "symbol": "MrBeast",
-   "mint": "6o8qa3HrnH6ppPveCcWnxVyQ7U1ay5qcyxttvaNPpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002064,
-   "mcap": 206453,
-   "liq": 35616.39,
-   "h1": 421,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,22 +743,22 @@
     "Jason",
     "HELL"
    ],
-   "last": "2026-11-01 05:30 UTC"
+   "last": "2026-11-01 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 71,
+   "hits": 72,
    "symbols": [
-    "STONKLANA",
     "shibana",
     "STANK",
     "SENSE",
     "HEXN",
     "CATPAD",
     "GLITCH",
-    "GATO"
+    "GATO",
+    "Dacity"
    ],
-   "last": "2026-10-31 23:00 UTC"
+   "last": "2026-11-01 06:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 10.6,
-   "ts": "2026-11-01 06:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-01 06:30 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": 4.3,
-   "ts": "2026-11-01 06:00 UTC"
+   "h1": -10.3,
+   "ts": "2026-11-01 06:30 UTC"
   },
   {
    "symbol": "BNB",
@@ -987,8 +987,8 @@
   {
    "symbol": "SIS",
    "tag": "FADING",
-   "h1": -56.1,
-   "ts": "2026-11-01 06:00 UTC"
+   "h1": -35.6,
+   "ts": "2026-11-01 06:30 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,8 +999,8 @@
   {
    "symbol": "PAWCAT",
    "tag": "WATCH",
-   "h1": 1.9,
-   "ts": "2026-11-01 06:00 UTC"
+   "h1": -7.3,
+   "ts": "2026-11-01 06:30 UTC"
   },
   {
    "symbol": "NNN",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "AAPLCAT",
-   "tag": "WATCH",
-   "h1": 1.4,
-   "ts": "2026-11-01 06:00 UTC"
+   "tag": "FADING",
+   "h1": -22.9,
+   "ts": "2026-11-01 06:30 UTC"
   }
  ],
  "live_closes": [
