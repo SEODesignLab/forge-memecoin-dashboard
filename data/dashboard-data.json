@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T17:34:56.342399+00:00",
+ "generated": "2026-11-01T18:04:56.512939+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1687,
-  "cohort_wallets": 1807,
+  "cohort_runs": 1688,
+  "cohort_wallets": 1834,
   "cohort_qualified": 128,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 141
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -65,15 +65,60 @@
    "count": 5
   },
   {
-   "reason": "Top holder 19.3% > 12% gate",
+   "reason": "Top holder 19.2% > 12% gate",
    "count": 4
   },
   {
-   "reason": "Top holder 19.2% > 12% gate",
+   "reason": "Top holder 13.4% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-01T18:01:10.597632+00:00",
+   "symbol": "YouTube",
+   "mint": "BMzkXAzS1Ddm8ZdLwpmsdExBZ7QUVLMTJb3w1Z9pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 18.3% > 12% gate",
+   "entry_price": 0.0001259,
+   "mcap": 125981,
+   "liq": 27272.59,
+   "h1": 221,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T18:01:10.593027+00:00",
+   "symbol": "RETIREVI",
+   "mint": "GciMcnFpG5sepJpLX756MCoC1M8Ww5qMHR2P4YUppump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.751e-05,
+   "mcap": 47518,
+   "liq": 16105.92,
+   "h1": 8.77,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-01T18:01:10.588051+00:00",
+   "symbol": "RAYDOG",
+   "mint": "7Y6QNhQ2FxL6JEqZHooqgkXQubeQNC6N9emJxytdWp65",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 19.4% > 12% gate",
+   "entry_price": 4.339e-05,
+   "mcap": 43343,
+   "liq": 16853.8,
+   "h1": 9.89,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-01T17:31:18.439271+00:00",
    "symbol": "YouTube",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.048648+00:00",
-   "symbol": "BUTTDUMP",
-   "mint": "3cofai7cdLv7jJNBHcAisp8cEhJmWGGcUkhuAQtepump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 21.4% > 12% gate",
-   "entry_price": 6.932e-05,
-   "mcap": 69264,
-   "liq": 24801.46,
-   "h1": 70.08,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.044042+00:00",
-   "symbol": "GTA 6 Coin",
-   "mint": "3Q7wmeh2DSxwxRsHRyKeYqdLxPCy67u4Avqp7Pwxpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 12.1% > 12% gate",
-   "entry_price": 0.0001176,
-   "mcap": 117633,
-   "liq": 26419.97,
-   "h1": 196,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-01T14:01:17.039213+00:00",
-   "symbol": "GTA1s",
-   "mint": "JCPAaUXNnHjFWFG69HcdVh4QNWS1Ec5B1DYwZgsqpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 17.5% > 12% gate",
-   "entry_price": 5.876e-05,
-   "mcap": 58767,
-   "liq": 19188.7,
-   "h1": 53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,14 +957,14 @@
   {
    "symbol": "Jason",
    "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-11-01 17:00 UTC"
+   "h1": -9.8,
+   "ts": "2026-11-01 18:00 UTC"
   },
   {
    "symbol": "HELL",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-11-01 17:30 UTC"
+   "h1": 4.6,
+   "ts": "2026-11-01 18:00 UTC"
   },
   {
    "symbol": "BNB",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "SIS",
-   "tag": "FADING",
-   "h1": -23.7,
-   "ts": "2026-11-01 17:30 UTC"
+   "tag": "WATCH",
+   "h1": 37.5,
+   "ts": "2026-11-01 18:00 UTC"
   },
   {
    "symbol": "ANSEM",
@@ -999,20 +999,20 @@
   {
    "symbol": "PAWCAT",
    "tag": "FADING",
-   "h1": -42.1,
-   "ts": "2026-11-01 17:30 UTC"
+   "h1": -64.8,
+   "ts": "2026-11-01 18:00 UTC"
   },
   {
    "symbol": "NNN",
-   "tag": "WATCH",
-   "h1": -3.9,
-   "ts": "2026-11-01 02:00 UTC"
+   "tag": "CHASE",
+   "h1": 39084.0,
+   "ts": "2026-11-01 18:00 UTC"
   },
   {
    "symbol": "AAPLCAT",
-   "tag": "WATCH",
-   "h1": 36.5,
-   "ts": "2026-11-01 17:30 UTC"
+   "tag": "FADING",
+   "h1": -25.6,
+   "ts": "2026-11-01 18:00 UTC"
   }
  ],
  "live_closes": [
