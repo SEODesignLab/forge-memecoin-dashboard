@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:34:22.905847+00:00",
+ "generated": "2026-11-02T22:04:23.174881+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1741,
-  "cohort_wallets": 1875,
+  "cohort_runs": 1742,
+  "cohort_wallets": 1892,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 132
+   "count": 131
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T22:00:36.919227+00:00",
+   "symbol": "HEDGE",
+   "mint": "wDSAqt4tEZpDAwB9XY6ejkZvMFuT1zUMjUh67txeYhf",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 0.0002934,
+   "mcap": 293433,
+   "liq": 112962.21,
+   "h1": 18.28,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T21:30:41.292250+00:00",
    "symbol": "Daisuke",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T14:00:14.295577+00:00",
-   "symbol": "BEAST",
-   "mint": "cRgpnFniV8WMvMsmyp7PdKNGHPGyj7LxsLQs4k6pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001727,
-   "mcap": 172788,
-   "liq": 32200.2,
-   "h1": 344,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,14 +963,14 @@
   {
    "symbol": "ANAKIN",
    "tag": "FADING",
-   "h1": -73.2,
-   "ts": "2026-11-02 21:30 UTC"
+   "h1": -52.0,
+   "ts": "2026-11-02 22:00 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": -9.4,
-   "ts": "2026-11-02 21:30 UTC"
+   "h1": 0.3,
+   "ts": "2026-11-02 22:00 UTC"
   },
   {
    "symbol": "TIND",
@@ -981,8 +981,8 @@
   {
    "symbol": "MAMESUKE",
    "tag": "FADING",
-   "h1": -30.8,
-   "ts": "2026-11-02 21:30 UTC"
+   "h1": -37.3,
+   "ts": "2026-11-02 22:00 UTC"
   },
   {
    "symbol": "WWIII",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "RICO",
-   "tag": "WATCH",
-   "h1": 32.9,
-   "ts": "2026-11-02 21:30 UTC"
+   "tag": "FADING",
+   "h1": -35.5,
+   "ts": "2026-11-02 22:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": 133.0,
-   "ts": "2026-11-02 21:30 UTC"
+   "h1": 18.3,
+   "ts": "2026-11-02 22:00 UTC"
   }
  ],
  "live_closes": [
