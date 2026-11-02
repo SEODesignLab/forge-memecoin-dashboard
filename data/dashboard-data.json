@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T22:04:23.174881+00:00",
+ "generated": "2026-11-02T22:34:23.329451+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1742,
-  "cohort_wallets": 1892,
+  "cohort_runs": 1743,
+  "cohort_wallets": 1910,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 129
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -69,11 +69,56 @@
    "count": 5
   },
   {
-   "reason": "Top holder 20.3% > 12% gate",
+   "reason": "Top holder 12.4% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T22:30:38.334177+00:00",
+   "symbol": "iNu",
+   "mint": "ExoA74hEH7Bjby9X5VPsj3xtUgVzZCLXr1AvJMMRKVj1",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 26.5% > 12% gate",
+   "entry_price": 0.0001514,
+   "mcap": 151454,
+   "liq": 79144.84,
+   "h1": 0.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T22:30:38.329731+00:00",
+   "symbol": "KOI",
+   "mint": "4pCsF8nrv5qdGUj3sUWqYwKAomFUNXupWJvbGYk13koi",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 23.2% > 12% gate",
+   "entry_price": 6.341e-05,
+   "mcap": 63416,
+   "liq": 27981.07,
+   "h1": 27.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T22:30:38.324897+00:00",
+   "symbol": "\u1453\u0b39\ua6a1\u0908",
+   "mint": "7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 0.0001405,
+   "mcap": 140243,
+   "liq": 32491.73,
+   "h1": 214,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T22:00:36.919227+00:00",
    "symbol": "HEDGE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T14:30:17.734390+00:00",
-   "symbol": "SHORTCAT",
-   "mint": "8R7NCmCW4BM6fAFhjb6BVYrvmRseUhuDVpNCqZf6Ks3W",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 4.526e-05,
-   "mcap": 45263,
-   "liq": 15718.18,
-   "h1": 16.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T14:30:17.729278+00:00",
-   "symbol": "MAYA",
-   "mint": "G9r7CoaAEKzsFudkAhSWmuFi2huQpAqZ7w7TMfYqpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000125,
-   "mcap": 125014,
-   "liq": 27556.85,
-   "h1": 166,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T14:00:14.300040+00:00",
-   "symbol": "VICECITY",
-   "mint": "8cGKGiSUiwm1KDqUzqYtQnsSRCJw4WcyoyW74LHspump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 15.3% > 12% gate",
-   "entry_price": 7.536e-05,
-   "mcap": 75366,
-   "liq": 21712.67,
-   "h1": 89.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -962,15 +962,15 @@
   },
   {
    "symbol": "ANAKIN",
-   "tag": "FADING",
-   "h1": -52.0,
-   "ts": "2026-11-02 22:00 UTC"
+   "tag": "WATCH",
+   "h1": -9.3,
+   "ts": "2026-11-02 22:30 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-02 22:00 UTC"
+   "h1": -9.8,
+   "ts": "2026-11-02 22:30 UTC"
   },
   {
    "symbol": "TIND",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "MAMESUKE",
-   "tag": "FADING",
-   "h1": -37.3,
-   "ts": "2026-11-02 22:00 UTC"
+   "tag": "WATCH",
+   "h1": -17.1,
+   "ts": "2026-11-02 22:30 UTC"
   },
   {
    "symbol": "WWIII",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "RICO",
-   "tag": "FADING",
-   "h1": -35.5,
-   "ts": "2026-11-02 22:00 UTC"
+   "tag": "WATCH",
+   "h1": 6.6,
+   "ts": "2026-11-02 22:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": 18.3,
-   "ts": "2026-11-02 22:00 UTC"
+   "h1": -2.6,
+   "ts": "2026-11-02 22:30 UTC"
   }
  ],
  "live_closes": [
