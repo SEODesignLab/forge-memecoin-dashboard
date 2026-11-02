@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:04:01.662674+00:00",
+ "generated": "2026-11-02T11:34:01.775103+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1722,
-  "cohort_wallets": 1982,
+  "cohort_runs": 1723,
+  "cohort_wallets": 1998,
   "cohort_qualified": 131,
   "live_closes": 18,
   "live_wins": 4,
@@ -42,7 +42,7 @@
   },
   {
    "reason": "RugCheck risk 46>45",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T11:30:18.747946+00:00",
+   "symbol": "MUSKX",
+   "mint": "8PheFapWY4XFKzSTMpAMBfg2eVgbghxiQvJFPS4pump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003978,
+   "mcap": 397819,
+   "liq": 49651.91,
+   "h1": 918,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T11:30:18.741460+00:00",
+   "symbol": "wen",
+   "mint": "GGLZzgVssSaW7zKrtNveFYyp2zrkfVTce1TjgPfNpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 46>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 8.55e-05,
+   "mcap": 85508,
+   "liq": 22187.89,
+   "h1": 116,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T11:30:18.736488+00:00",
+   "symbol": "0DAY",
+   "mint": "FKwHYovU8paVeLimcN9oESdfvyFEqY8q6B1HuoUpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001794,
+   "mcap": 179408,
+   "liq": 32789.18,
+   "h1": 48.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T11:30:18.725713+00:00",
+   "symbol": "SPERM",
+   "mint": "8mCBqQsvLtyaW93PGWFGZrj7ZjWn395TBZ9TCsvipump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.238e-05,
+   "mcap": 41928,
+   "liq": 15303.06,
+   "h1": 2.21,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T11:00:17.516186+00:00",
    "symbol": "OpenAI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T04:31:19.093776+00:00",
-   "symbol": "YouTube",
-   "mint": "C5wNa8dQ4RqxKki6tkJgLVx676eX9BmQLPUbfQePpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 51>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 0.0001849,
-   "mcap": 184925,
-   "liq": 33582.33,
-   "h1": 367,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T04:31:19.086742+00:00",
-   "symbol": "BARRON",
-   "mint": "E6uPVaTBkycs9EuUsijDXdJqwMB9CbLpkiAoV6hpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 0.0003588,
-   "mcap": 358804,
-   "liq": 47486.96,
-   "h1": 805,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T04:31:19.078986+00:00",
-   "symbol": "NA",
-   "mint": "9ZmdP8q22ebRhEkcwd5EDkitu7ypeDFXTQXpv2kUpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001238,
-   "mcap": 123805,
-   "liq": 28562.9,
-   "h1": 206,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T04:31:19.072305+00:00",
-   "symbol": "INU",
-   "mint": "F3q2mwxMz4bieoDgZDKbKdHJVVEUTBM2a1yGeQiHpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Chase filter: +251% in 1h > 40% cap",
-   "entry_price": 0.0001412,
-   "mcap": 141266,
-   "liq": 30785.12,
-   "h1": 251,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,20 +993,20 @@
   {
    "symbol": "DogBoy",
    "tag": "WATCH",
-   "h1": -0.7,
-   "ts": "2026-11-02 11:00 UTC"
+   "h1": 0.2,
+   "ts": "2026-11-02 11:30 UTC"
   },
   {
    "symbol": "ANAKIN",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-11-02 11:00 UTC"
+   "h1": -13.9,
+   "ts": "2026-11-02 11:30 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": -9.1,
-   "ts": "2026-11-02 11:00 UTC"
+   "h1": -6.9,
+   "ts": "2026-11-02 11:30 UTC"
   },
   {
    "symbol": "TIND",
