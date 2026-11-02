@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T17:30:35.855673+00:00",
+ "generated": "2026-11-02T18:04:21.529230+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1733,
-  "cohort_wallets": 1681,
+  "cohort_runs": 1734,
+  "cohort_wallets": 1707,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 67
+   "count": 68
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -69,11 +69,26 @@
    "count": 5
   },
   {
-   "reason": "Top holder 17.0% > 12% gate",
+   "reason": "Top holder 20.3% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T18:01:18.271989+00:00",
+   "symbol": "NULL",
+   "mint": "5LoukJze454D696R3nGUiUQDGvsTaaakbmC3kQTcpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 6.373e-05,
+   "mcap": 63740,
+   "liq": 19049.06,
+   "h1": 67.23,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T17:11:36.406026+00:00",
    "symbol": "FEAR",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T12:30:24.457664+00:00",
-   "symbol": "Speed",
-   "mint": "SutDtmscySJ7vazbk9xT73TDLV9EKvxcnGA4dqgpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 14.1% > 12% gate",
-   "entry_price": 0.0001868,
-   "mcap": 186887,
-   "liq": 33596.73,
-   "h1": 378,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,14 +975,14 @@
   {
    "symbol": "ANAKIN",
    "tag": "FADING",
-   "h1": -43.5,
-   "ts": "2026-11-02 17:30 UTC"
+   "h1": -27.4,
+   "ts": "2026-11-02 18:00 UTC"
   },
   {
    "symbol": "Anakin",
-   "tag": "FADING",
-   "h1": -30.1,
-   "ts": "2026-11-02 17:30 UTC"
+   "tag": "WATCH",
+   "h1": -17.9,
+   "ts": "2026-11-02 18:00 UTC"
   },
   {
    "symbol": "TIND",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "MAMESUKE",
-   "tag": "FADING",
-   "h1": -36.8,
-   "ts": "2026-11-02 17:30 UTC"
+   "tag": "WATCH",
+   "h1": -8.6,
+   "ts": "2026-11-02 18:00 UTC"
   },
   {
    "symbol": "WWIII",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "DIGS",
    "tag": "WATCH",
-   "h1": 17.2,
-   "ts": "2026-11-02 17:30 UTC"
+   "h1": 14.1,
+   "ts": "2026-11-02 18:00 UTC"
   },
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 39.2,
-   "ts": "2026-11-02 17:30 UTC"
+   "h1": 79.3,
+   "ts": "2026-11-02 18:00 UTC"
   }
  ],
  "live_closes": [
