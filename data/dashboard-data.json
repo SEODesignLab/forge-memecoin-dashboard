@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T08:04:00.766537+00:00",
+ "generated": "2026-11-02T08:34:00.904383+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1716,
-  "cohort_wallets": 1864,
+  "cohort_runs": 1717,
+  "cohort_wallets": 1880,
   "cohort_qualified": 131,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 133
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T08:30:16.918466+00:00",
+   "symbol": "PEACE",
+   "mint": "8X9d6AqTWTNbuzXXuukWA6sq2pDruyuLnjrxLZZTpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 13.6% > 12% gate",
+   "entry_price": 0.0001243,
+   "mcap": 124376,
+   "liq": 29457.2,
+   "h1": 219,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T08:30:16.910586+00:00",
+   "symbol": "WWIII",
+   "mint": "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 79>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 7.077e-05,
+   "mcap": 70773,
+   "liq": 20661.47,
+   "h1": 69.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T08:00:19.451638+00:00",
    "symbol": "Tumulun",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T02:31:22.136154+00:00",
-   "symbol": "OpenAI",
-   "mint": "At9Gs7nDo69KRjQgHN2oCej3z1QKbb5McRvtb2XZpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 14.8% > 12% gate",
-   "entry_price": 7.956e-05,
-   "mcap": 79568,
-   "liq": 21527.32,
-   "h1": 99.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T02:31:22.131602+00:00",
-   "symbol": "MUSKX",
-   "mint": "LYj2mMtueqihfBQ66g2pJAt3QZsVNsq5ptZ1zFjpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002278,
-   "mcap": 227842,
-   "liq": 37389.81,
-   "h1": 477,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "DogBoy",
     "TIND"
    ],
-   "last": "2026-11-02 08:00 UTC"
+   "last": "2026-11-02 08:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -993,26 +993,26 @@
   {
    "symbol": "DogBoy",
    "tag": "WATCH",
-   "h1": -0.5,
-   "ts": "2026-11-02 08:00 UTC"
+   "h1": -0.2,
+   "ts": "2026-11-02 08:30 UTC"
   },
   {
    "symbol": "ANAKIN",
    "tag": "WATCH",
-   "h1": 17.0,
-   "ts": "2026-11-02 08:00 UTC"
+   "h1": 4.5,
+   "ts": "2026-11-02 08:30 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": 3.6,
-   "ts": "2026-11-02 08:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-11-02 08:30 UTC"
   },
   {
    "symbol": "TIND",
    "tag": "WATCH",
-   "h1": -6.2,
-   "ts": "2026-11-02 08:00 UTC"
+   "h1": -1.3,
+   "ts": "2026-11-02 08:30 UTC"
   }
  ],
  "live_closes": [
