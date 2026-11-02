@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T07:04:00.480042+00:00",
+ "generated": "2026-11-02T07:34:00.614491+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1714,
-  "cohort_wallets": 1829,
+  "cohort_runs": 1715,
+  "cohort_wallets": 1844,
   "cohort_qualified": 131,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 25
+   "count": 26
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T07:30:20.271781+00:00",
+   "symbol": "ELON",
+   "mint": "9B3dSWFHgazfp9ZfvJkCBigrLwxighth2LjqAeg7pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 8.546e-05,
+   "mcap": 85464,
+   "liq": 22160.97,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T07:30:20.264418+00:00",
+   "symbol": "Apple",
+   "mint": "DepgW1T4qkCPYFgabSkJ2jwuy1gH95CKykBkk5Utpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 50>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001139,
+   "mcap": 113934,
+   "liq": 25832.5,
+   "h1": 191,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T07:30:20.256449+00:00",
+   "symbol": "TripleH",
+   "mint": "ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001497,
+   "mcap": 149770,
+   "liq": 31916.32,
+   "h1": 277,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T07:00:13.583198+00:00",
    "symbol": "CI",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T02:31:22.119455+00:00",
-   "symbol": "NVIDIA",
-   "mint": "m3qDasmjYTVsi9UaDhLxdFwoLCgkMugvu43i9nEpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001969,
-   "mcap": 196907,
-   "liq": 34634.23,
-   "h1": 399,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T02:31:22.111019+00:00",
-   "symbol": "BLOBBO",
-   "mint": "E2Y6k3e6LauUoMS11vVz3k2toXmh77n8HGicZygRpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 20.2% > 12% gate",
-   "entry_price": 3.968e-05,
-   "mcap": 39682,
-   "liq": 15694.47,
-   "h1": -11.32,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T02:31:22.105238+00:00",
-   "symbol": "Nuts",
-   "mint": "APH9FRoKst66E4a7uZXcEfE8NjtwybUC8Jq7ue8upump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001431,
-   "mcap": 143145,
-   "liq": 31095.47,
-   "h1": 258,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "DogBoy",
     "TIND"
    ],
-   "last": "2026-11-02 07:00 UTC"
+   "last": "2026-11-02 07:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -938,7 +938,7 @@
     "Dacity",
     "Anakin"
    ],
-   "last": "2026-11-02 07:00 UTC"
+   "last": "2026-11-02 07:30 UTC"
   }
  ],
  "mints": [
@@ -993,26 +993,26 @@
   {
    "symbol": "DogBoy",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-11-02 07:00 UTC"
+   "h1": -2.1,
+   "ts": "2026-11-02 07:30 UTC"
   },
   {
    "symbol": "ANAKIN",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-02 07:00 UTC"
+   "h1": 12.0,
+   "ts": "2026-11-02 07:30 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": 9.5,
-   "ts": "2026-11-02 07:00 UTC"
+   "h1": 20.9,
+   "ts": "2026-11-02 07:30 UTC"
   },
   {
    "symbol": "TIND",
    "tag": "WATCH",
-   "h1": 2.1,
-   "ts": "2026-11-02 07:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-11-02 07:30 UTC"
   }
  ],
  "live_closes": [
