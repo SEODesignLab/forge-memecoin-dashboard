@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:04:22.738206+00:00",
+ "generated": "2026-11-02T21:34:22.905847+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1740,
-  "cohort_wallets": 1851,
+  "cohort_runs": 1741,
+  "cohort_wallets": 1875,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 132
   },
   {
    "reason": "Mint/freeze not renounced",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T21:30:41.292250+00:00",
+   "symbol": "Daisuke",
+   "mint": "3oEMST7PYBrJs6KcXddeuqaSsLYs8qZpEPWaUGdgpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 16.3% > 12% gate",
+   "entry_price": 6.47e-05,
+   "mcap": 64703,
+   "liq": 19661.42,
+   "h1": 68.36,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-02T21:30:41.287156+00:00",
+   "symbol": "ANSEMKIN",
+   "mint": "zD3jimD97YkcjMucBEmwZ6fUV7N4wjzz8Revkwmpump",
+   "score": 113,
+   "decision": "SKIP",
+   "reason": "Top holder 17.6% > 12% gate",
+   "entry_price": 5.03e-05,
+   "mcap": 50305,
+   "liq": 16412.6,
+   "h1": 32.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T21:00:28.216897+00:00",
    "symbol": "Decoy",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T14:00:14.288724+00:00",
-   "symbol": "vBTC",
-   "mint": "2rNEjyNAMhVnyqHtvpdz7h7Cxs7eDA6YSSzMjNrZHBTC",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 2.813e-05,
-   "mcap": 28139,
-   "liq": 11569.35,
-   "h1": -17.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T13:30:28.282300+00:00",
-   "symbol": "BARRON",
-   "mint": "SMmwb5fBLyLfCbqMCbNnZ7ZjngHDvpcFiBRi3qnpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 13.1% > 12% gate",
-   "entry_price": 0.0002739,
-   "mcap": 273902,
-   "liq": 40954.39,
-   "h1": 603,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -923,7 +923,7 @@
     "Anakin",
     "MAMESUKE"
    ],
-   "last": "2026-11-02 21:00 UTC"
+   "last": "2026-11-02 21:30 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -942,12 +942,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "NNN",
-   "tag": "FADING",
-   "h1": -93.0,
-   "ts": "2026-11-01 19:00 UTC"
-  },
   {
    "symbol": "AAPLCAT",
    "tag": "FADING",
@@ -969,14 +963,14 @@
   {
    "symbol": "ANAKIN",
    "tag": "FADING",
-   "h1": -40.9,
-   "ts": "2026-11-02 21:00 UTC"
+   "h1": -73.2,
+   "ts": "2026-11-02 21:30 UTC"
   },
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": -1.1,
-   "ts": "2026-11-02 21:00 UTC"
+   "h1": -9.4,
+   "ts": "2026-11-02 21:30 UTC"
   },
   {
    "symbol": "TIND",
@@ -987,8 +981,8 @@
   {
    "symbol": "MAMESUKE",
    "tag": "FADING",
-   "h1": -34.7,
-   "ts": "2026-11-02 21:00 UTC"
+   "h1": -30.8,
+   "ts": "2026-11-02 21:30 UTC"
   },
   {
    "symbol": "WWIII",
@@ -1004,15 +998,21 @@
   },
   {
    "symbol": "RICO",
-   "tag": "CHASE",
-   "h1": 175.0,
-   "ts": "2026-11-02 21:00 UTC"
+   "tag": "WATCH",
+   "h1": 32.9,
+   "ts": "2026-11-02 21:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
-   "tag": "CHASE",
-   "h1": 328.0,
-   "ts": "2026-11-02 21:00 UTC"
+   "tag": "WATCH",
+   "h1": -12.3,
+   "ts": "2026-11-02 21:30 UTC"
+  },
+  {
+   "symbol": "1WIN",
+   "tag": "WATCH",
+   "h1": 133.0,
+   "ts": "2026-11-02 21:30 UTC"
   }
  ],
  "live_closes": [
