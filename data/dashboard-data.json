@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T23:04:23.589055+00:00",
+ "generated": "2026-11-02T23:34:23.751279+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1744,
-  "cohort_wallets": 1926,
+  "cohort_runs": 1745,
+  "cohort_wallets": 1941,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 66
+   "count": 65
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-02T23:30:33.902784+00:00",
+   "symbol": "walter",
+   "mint": "CHjgAurRkfkcoJpiFCVhpU7uxbm1jKkDcNcnG64xpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 24.3% > 12% gate",
+   "entry_price": 1.946e-05,
+   "mcap": 19464,
+   "liq": 10139.43,
+   "h1": -49.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-02T23:00:48.545076+00:00",
    "symbol": "ZERO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T15:00:46.352157+00:00",
-   "symbol": "MameStonk",
-   "mint": "57eJSmN1ecANrnZjGPrXzWUMyGhQsQgMS9eHdxM3pump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001213,
-   "mcap": 121303,
-   "liq": 27117.18,
-   "h1": 161,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -897,18 +897,18 @@
   },
   {
    "wallet": "Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK",
-   "hits": 19,
+   "hits": 20,
    "symbols": [
-    "sir",
     "DUST",
     "texcat",
     "GATO",
     "PHP",
     "Shitcoin",
     "Wifoween",
-    "CBUCKS"
+    "CBUCKS",
+    "RICO"
    ],
-   "last": "2026-11-01 22:30 UTC"
+   "last": "2026-11-02 23:30 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -923,7 +923,7 @@
     "Anakin",
     "MAMESUKE"
    ],
-   "last": "2026-11-02 21:30 UTC"
+   "last": "2026-11-02 23:30 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -951,8 +951,8 @@
   {
    "symbol": "WASTED",
    "tag": "WATCH",
-   "h1": 1.1,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": 21.3,
+   "ts": "2026-11-02 23:30 UTC"
   },
   {
    "symbol": "DogBoy",
@@ -969,8 +969,8 @@
   {
    "symbol": "Anakin",
    "tag": "WATCH",
-   "h1": -8.3,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": 3.5,
+   "ts": "2026-11-02 23:30 UTC"
   },
   {
    "symbol": "TIND",
@@ -981,8 +981,8 @@
   {
    "symbol": "MAMESUKE",
    "tag": "WATCH",
-   "h1": 32.3,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": 44.4,
+   "ts": "2026-11-02 23:30 UTC"
   },
   {
    "symbol": "WWIII",
@@ -993,14 +993,14 @@
   {
    "symbol": "DIGS",
    "tag": "WATCH",
-   "h1": -6.2,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": -6.0,
+   "ts": "2026-11-02 23:30 UTC"
   },
   {
    "symbol": "RICO",
    "tag": "FADING",
-   "h1": -56.8,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": -59.2,
+   "ts": "2026-11-02 23:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -9.4,
-   "ts": "2026-11-02 23:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-02 23:30 UTC"
   }
  ],
  "live_closes": [
