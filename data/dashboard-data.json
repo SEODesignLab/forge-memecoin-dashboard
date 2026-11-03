@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T16:04:30.301231+00:00",
+ "generated": "2026-11-03T16:34:30.484173+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1778,
-  "cohort_wallets": 1584,
-  "cohort_qualified": 136,
+  "cohort_runs": 1779,
+  "cohort_wallets": 1612,
+  "cohort_qualified": 137,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 19
+   "count": 18
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T16:30:39.806457+00:00",
+   "symbol": "CYBRLK",
+   "mint": "Farisr1LVuzWrHBhLmcRwjdAaZAstTnXtRfifFbwLEEK",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001419,
+   "mcap": 141975,
+   "liq": 30798.27,
+   "h1": 235,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T16:00:50.754183+00:00",
    "symbol": "FUN",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T01:31:18.542968+00:00",
-   "symbol": "USDC",
-   "mint": "DLsvm8VGQMucYFjagmv6j7WAr1NZiX2qMFVtGz8pump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002396,
-   "mcap": 234461,
-   "liq": 47140.08,
-   "h1": 275,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "RICO",
-   "tag": "FADING",
-   "h1": -31.7,
-   "ts": "2026-11-03 16:00 UTC"
+   "tag": "WATCH",
+   "h1": 19.1,
+   "ts": "2026-11-03 16:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,14 +993,14 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-03 16:00 UTC"
+   "h1": 0.8,
+   "ts": "2026-11-03 16:30 UTC"
   },
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": 2.1,
-   "ts": "2026-11-03 16:00 UTC"
+   "h1": -15.9,
+   "ts": "2026-11-03 16:30 UTC"
   },
   {
    "symbol": "Wanted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "ANONVOYAGE",
    "tag": "WATCH",
-   "h1": 22.2,
-   "ts": "2026-11-03 16:00 UTC"
+   "h1": 15.2,
+   "ts": "2026-11-03 16:30 UTC"
   }
  ],
  "live_closes": [
