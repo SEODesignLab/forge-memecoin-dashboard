@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T21:04:32.405914+00:00",
+ "generated": "2026-11-03T21:34:32.571280+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1788,
-  "cohort_wallets": 1819,
+  "cohort_runs": 1789,
+  "cohort_wallets": 1843,
   "cohort_qualified": 138,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 145
+   "count": 149
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -57,23 +57,113 @@
    "count": 6
   },
   {
-   "reason": "Mint/freeze not renounced",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 13.8% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 13.0% > 12% gate",
    "count": 5
   },
   {
    "reason": "Top holder 20.3% > 12% gate",
    "count": 5
+  },
+  {
+   "reason": "Top holder 13.7% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "RugCheck risk 51>45",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T21:30:52.902213+00:00",
+   "symbol": "SEXYANSEM",
+   "mint": "7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004702,
+   "mcap": 465197,
+   "liq": 55755.95,
+   "h1": 857,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T21:30:52.894859+00:00",
+   "symbol": "CHATCOIN",
+   "mint": "ChatbxK32pGJ3Gm6ga36aHzXiJ1w2EmhJ3m8jA5UCoiN",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 56>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 7.605e-05,
+   "mcap": 72908,
+   "liq": 21513.32,
+   "h1": 84.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T21:30:52.890542+00:00",
+   "symbol": "MSTRT",
+   "mint": "2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001351,
+   "mcap": 132777,
+   "liq": 28902.75,
+   "h1": 189,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T21:30:52.883423+00:00",
+   "symbol": "STONKCAT",
+   "mint": "7135AgJW8Qqh8sDveTGdVZhjSAjeBsbw8tpeVb38pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002561,
+   "mcap": 256159,
+   "liq": 40221.38,
+   "h1": 517,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T21:30:52.877416+00:00",
+   "symbol": "MEMECOIN",
+   "mint": "H4PfRntmvem1jeZiSFGZThmzXoakHXCiSCCdV8ybpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Top holder 32.0% > 12% gate",
+   "entry_price": 2.828e-05,
+   "mcap": 28285,
+   "liq": 12070.64,
+   "h1": -28.46,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T21:30:52.872488+00:00",
+   "symbol": "SA",
+   "mint": "3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005467,
+   "mcap": 543948,
+   "liq": 60343.31,
+   "h1": 18.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T21:00:49.542691+00:00",
    "symbol": "meganfox",
@@ -583,96 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T10:00:52.181549+00:00",
-   "symbol": "GENESIS",
-   "mint": "9W7Dyv9CV9UhwKfW9gCuYoPncAY8M3EScLiD8ZHemDAr",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 19.2% > 12% gate",
-   "entry_price": 4.586e-05,
-   "mcap": 45861,
-   "liq": 17604.56,
-   "h1": 21.27,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T09:30:33.399479+00:00",
-   "symbol": "RATIO",
-   "mint": "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 20.1% > 12% gate",
-   "entry_price": 4.864e-05,
-   "mcap": 47112,
-   "liq": 16542.03,
-   "h1": -4.47,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T09:30:33.394476+00:00",
-   "symbol": "OMBRO",
-   "mint": "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002364,
-   "mcap": 229448,
-   "liq": 42994.8,
-   "h1": 217,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T09:00:43.271668+00:00",
-   "symbol": "PRESSURE",
-   "mint": "7gQTgzd8BakkYhEKACiDGQrzERnvsQNFN1Vkj3w5pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 26.7% > 12% gate",
-   "entry_price": 3.163e-05,
-   "mcap": 31639,
-   "liq": 12737.88,
-   "h1": -14.06,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T09:00:43.267125+00:00",
-   "symbol": "FBI",
-   "mint": "EAqmgSTREypN7rgsPinZzzzG8NwtqwZAvbgMhnxmpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001324,
-   "mcap": 132418,
-   "liq": 29028.41,
-   "h1": 242,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T07:30:39.706887+00:00",
-   "symbol": "UNPOOLED",
-   "mint": "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 12.6% > 12% gate",
-   "entry_price": 0.0001218,
-   "mcap": 115030,
-   "liq": 27808.13,
-   "h1": 226,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "ANAKIN",
-   "tag": "WATCH",
-   "h1": -9.3,
-   "ts": "2026-11-02 22:30 UTC"
-  },
-  {
    "symbol": "Anakin",
    "tag": "WATCH",
    "h1": 9.4,
@@ -980,9 +974,9 @@
   },
   {
    "symbol": "RICO",
-   "tag": "FADING",
-   "h1": -21.9,
-   "ts": "2026-11-03 21:00 UTC"
+   "tag": "WATCH",
+   "h1": -4.6,
+   "ts": "2026-11-03 21:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -999,8 +993,8 @@
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": -13.6,
-   "ts": "2026-11-03 21:00 UTC"
+   "h1": -6.5,
+   "ts": "2026-11-03 21:30 UTC"
   },
   {
    "symbol": "Wanted",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "ANONVOYAGE",
    "tag": "WATCH",
-   "h1": 14.7,
-   "ts": "2026-11-03 21:00 UTC"
+   "h1": 5.7,
+   "ts": "2026-11-03 21:30 UTC"
+  },
+  {
+   "symbol": "5STAR",
+   "tag": "WATCH",
+   "h1": 9.1,
+   "ts": "2026-11-03 21:30 UTC"
   }
  ],
  "live_closes": [
