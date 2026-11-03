@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T14:04:29.474831+00:00",
+ "generated": "2026-11-03T14:34:29.635223+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1774,
-  "cohort_wallets": 1500,
+  "cohort_runs": 1775,
+  "cohort_wallets": 1512,
   "cohort_qualified": 136,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 141
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 30
+   "count": 29
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T14:30:45.233219+00:00",
+   "symbol": "ANONVOYAGE",
+   "mint": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0009565,
+   "mcap": 951917,
+   "liq": 80048.5,
+   "h1": 1483,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T14:00:42.368453+00:00",
    "symbol": "MOMOTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T22:30:38.334177+00:00",
-   "symbol": "iNu",
-   "mint": "ExoA74hEH7Bjby9X5VPsj3xtUgVzZCLXr1AvJMMRKVj1",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 26.5% > 12% gate",
-   "entry_price": 0.0001514,
-   "mcap": 151454,
-   "liq": 79144.84,
-   "h1": 0.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -8.8,
-   "ts": "2026-11-03 14:00 UTC"
+   "h1": 15.5,
+   "ts": "2026-11-03 14:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -999,14 +999,14 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -0.7,
-   "ts": "2026-11-03 14:00 UTC"
+   "h1": 0.6,
+   "ts": "2026-11-03 14:30 UTC"
   },
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": 44.8,
-   "ts": "2026-11-03 14:00 UTC"
+   "h1": 11.9,
+   "ts": "2026-11-03 14:30 UTC"
   },
   {
    "symbol": "Wanted",
