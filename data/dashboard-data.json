@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T03:34:25.301958+00:00",
+ "generated": "2026-11-03T04:04:25.532474+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1753,
-  "cohort_wallets": 1610,
+  "cohort_runs": 1754,
+  "cohort_wallets": 1628,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 136
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 50
+   "count": 48
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T04:00:48.374111+00:00",
+   "symbol": "SMUGLY",
+   "mint": "DayjoyjxCA2SVTApEW7oBFG3WMvrYZRMjAnqsetLpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004588,
+   "mcap": 446552,
+   "liq": 54629.01,
+   "h1": -10.04,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T04:00:48.366091+00:00",
+   "symbol": "Memestock",
+   "mint": "DhXAELNFyJP74Qv6CGZsGgvcdDQbTVeNPnK3P2yhpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 24.4% > 12% gate",
+   "entry_price": 2.947e-05,
+   "mcap": 29475,
+   "liq": 12384.02,
+   "h1": -28.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T03:30:36.539168+00:00",
    "symbol": "DRIPSTOCK",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T17:11:36.406026+00:00",
-   "symbol": "FEAR",
-   "mint": "3Z8mK9QRy3ZphSTqoi1Duzok8an4WCND9XrHWfgKpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 0.0001335,
-   "mcap": 130072,
-   "liq": 29311.29,
-   "h1": 120,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T17:11:36.401597+00:00",
-   "symbol": "Slingoor",
-   "mint": "AYDL7DTa6AidQ1nUSAEAnzVAFDDewDXbSyy8Hh2wpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002191,
-   "mcap": 216035,
-   "liq": 36842.42,
-   "h1": 374,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,22 +743,22 @@
     "RICO",
     "GLITCH"
    ],
-   "last": "2026-11-03 03:00 UTC"
+   "last": "2026-11-03 04:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 74,
+   "hits": 75,
    "symbols": [
-    "SENSE",
     "HEXN",
     "CATPAD",
     "GLITCH",
     "GATO",
     "Dacity",
     "RICO",
-    "MAMESUKE"
+    "MAMESUKE",
+    "1WIN"
    ],
-   "last": "2026-11-03 02:00 UTC"
+   "last": "2026-11-03 04:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -945,8 +945,8 @@
   {
    "symbol": "WASTED",
    "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": -9.1,
+   "ts": "2026-11-03 04:00 UTC"
   },
   {
    "symbol": "DogBoy",
@@ -975,8 +975,8 @@
   {
    "symbol": "MAMESUKE",
    "tag": "WATCH",
-   "h1": -11.6,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": 1.0,
+   "ts": "2026-11-03 04:00 UTC"
   },
   {
    "symbol": "WWIII",
@@ -987,14 +987,14 @@
   {
    "symbol": "DIGS",
    "tag": "WATCH",
-   "h1": -5.9,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": 11.5,
+   "ts": "2026-11-03 04:00 UTC"
   },
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 19.8,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": 6.4,
+   "ts": "2026-11-03 04:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -1.1,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-03 04:00 UTC"
   },
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": 135.0,
-   "ts": "2026-11-03 03:30 UTC"
+   "h1": -15.6,
+   "ts": "2026-11-03 04:00 UTC"
   }
  ],
  "live_closes": [
