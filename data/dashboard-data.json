@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T23:04:33.246307+00:00",
+ "generated": "2026-11-03T23:34:33.457322+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1792,
-  "cohort_wallets": 1917,
+  "cohort_runs": 1793,
+  "cohort_wallets": 1932,
   "cohort_qualified": 139,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 147
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -45,20 +45,12 @@
    "count": 7
   },
   {
-   "reason": "Top holder 12.4% > 12% gate",
-   "count": 6
-  },
-  {
    "reason": "Top holder 13.3% > 12% gate",
    "count": 6
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 13.0% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 20.3% > 12% gate",
@@ -71,9 +63,47 @@
   {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 5
+  },
+  {
+   "reason": "Top holder 20.4% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "RugCheck risk 51>45",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T23:30:42.324547+00:00",
+   "symbol": "Pekka",
+   "mint": "BQ3yawMJwU7RCoFagJ3Go7AYMBDxzeNAKiRC2qTbpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 20.4% > 12% gate",
+   "entry_price": 3.853e-05,
+   "mcap": 38455,
+   "liq": 14374.9,
+   "h1": -0.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-03T23:30:42.319620+00:00",
+   "symbol": "AMD",
+   "mint": "3MfZ4URVxmB4mfPuy4AxUxpcC5U7aXe7TDA7XVoGpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000354,
+   "mcap": 354070,
+   "liq": 47710.12,
+   "h1": 751,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T23:00:55.580043+00:00",
    "symbol": "ANSEM",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T15:00:59.562070+00:00",
-   "symbol": "1CURVE",
-   "mint": "9UjP7V9gq3Zj3i6JPpxPCNKXxZpvXpy97aHq8oVQQDQY",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 23.2% > 12% gate",
-   "entry_price": 3.403e-05,
-   "mcap": 34030,
-   "liq": 15450.06,
-   "h1": 1.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T15:00:59.557447+00:00",
-   "symbol": "GTAMAS",
-   "mint": "BeUYUVw2n3hPVoKd65mUxpDCDE9eGxdbUVDNGoUPpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001844,
-   "mcap": 184443,
-   "liq": 33555.52,
-   "h1": 276,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -881,6 +881,21 @@
    "last": "2026-10-30 10:30 UTC"
   },
   {
+   "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
+   "hits": 21,
+   "symbols": [
+    "SENSE",
+    "Dacity",
+    "Anakin",
+    "MAMESUKE",
+    "WASTED",
+    "1WIN",
+    "GATO",
+    "RICO"
+   ],
+   "last": "2026-11-03 23:30 UTC"
+  },
+  {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
    "hits": 20,
    "symbols": [
@@ -909,21 +924,6 @@
     "RICO"
    ],
    "last": "2026-11-03 01:30 UTC"
-  },
-  {
-   "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
-   "hits": 20,
-   "symbols": [
-    "REMUS",
-    "SENSE",
-    "Dacity",
-    "Anakin",
-    "MAMESUKE",
-    "WASTED",
-    "1WIN",
-    "GATO"
-   ],
-   "last": "2026-11-03 20:30 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -975,8 +975,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -8.7,
-   "ts": "2026-11-03 23:00 UTC"
+   "h1": -16.6,
+   "ts": "2026-11-03 23:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "SPHERE",
-   "tag": "WATCH",
-   "h1": -0.9,
-   "ts": "2026-11-03 23:00 UTC"
+   "tag": "FADING",
+   "h1": -39.0,
+   "ts": "2026-11-03 23:30 UTC"
   },
   {
    "symbol": "Wanted",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "ANONVOYAGE",
    "tag": "WATCH",
-   "h1": -13.3,
-   "ts": "2026-11-03 23:00 UTC"
+   "h1": 1.6,
+   "ts": "2026-11-03 23:30 UTC"
   },
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": -3.8,
-   "ts": "2026-11-03 23:00 UTC"
+   "h1": 10.9,
+   "ts": "2026-11-03 23:30 UTC"
   }
  ],
  "live_closes": [
