@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T04:04:25.532474+00:00",
+ "generated": "2026-11-03T04:34:25.694865+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1754,
-  "cohort_wallets": 1628,
+  "cohort_runs": 1755,
+  "cohort_wallets": 1648,
   "cohort_qualified": 132,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 48
+   "count": 47
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T04:30:35.066626+00:00",
+   "symbol": "LeTwerk",
+   "mint": "GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 9.285e-05,
+   "mcap": 92850,
+   "liq": 23846.34,
+   "h1": 139,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T04:00:48.374111+00:00",
    "symbol": "SMUGLY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T18:01:18.271989+00:00",
-   "symbol": "NULL",
-   "mint": "5LoukJze454D696R3nGUiUQDGvsTaaakbmC3kQTcpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 6.373e-05,
-   "mcap": 63740,
-   "liq": 19049.06,
-   "h1": 67.23,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 32,
+   "hits": 33,
    "symbols": [
-    "Wifoween",
     "JOB",
     "SENSE",
     "CATPAD",
     "GLITCH",
     "Dacity",
     "CBUCKS",
-    "WASTED"
+    "WASTED",
+    "RICO"
    ],
-   "last": "2026-11-02 21:00 UTC"
+   "last": "2026-11-03 04:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -923,7 +923,7 @@
     "MAMESUKE",
     "WASTED"
    ],
-   "last": "2026-11-03 02:00 UTC"
+   "last": "2026-11-03 04:30 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -945,8 +945,8 @@
   {
    "symbol": "WASTED",
    "tag": "WATCH",
-   "h1": -9.1,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": 1.3,
+   "ts": "2026-11-03 04:30 UTC"
   },
   {
    "symbol": "DogBoy",
@@ -975,8 +975,8 @@
   {
    "symbol": "MAMESUKE",
    "tag": "WATCH",
-   "h1": 1.0,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": 6.6,
+   "ts": "2026-11-03 04:30 UTC"
   },
   {
    "symbol": "WWIII",
@@ -987,14 +987,14 @@
   {
    "symbol": "DIGS",
    "tag": "WATCH",
-   "h1": 11.5,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": 6.4,
+   "ts": "2026-11-03 04:30 UTC"
   },
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 6.4,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": -2.9,
+   "ts": "2026-11-03 04:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -2.7,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": -3.3,
+   "ts": "2026-11-03 04:30 UTC"
   },
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": -15.6,
-   "ts": "2026-11-03 04:00 UTC"
+   "h1": -7.7,
+   "ts": "2026-11-03 04:30 UTC"
   }
  ],
  "live_closes": [
