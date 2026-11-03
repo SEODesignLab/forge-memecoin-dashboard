@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T09:34:27.645868+00:00",
+ "generated": "2026-11-03T10:04:27.892275+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1765,
-  "cohort_wallets": 1852,
+  "cohort_runs": 1766,
+  "cohort_wallets": 1875,
   "cohort_qualified": 134,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 35
+   "count": 34
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T10:00:52.181549+00:00",
+   "symbol": "GENESIS",
+   "mint": "9W7Dyv9CV9UhwKfW9gCuYoPncAY8M3EScLiD8ZHemDAr",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 4.586e-05,
+   "mcap": 45861,
+   "liq": 17604.56,
+   "h1": 21.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T09:30:33.399479+00:00",
    "symbol": "RATIO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-02T21:30:41.287156+00:00",
-   "symbol": "ANSEMKIN",
-   "mint": "zD3jimD97YkcjMucBEmwZ6fUV7N4wjzz8Revkwmpump",
-   "score": 113,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 5.03e-05,
-   "mcap": 50305,
-   "liq": 16412.6,
-   "h1": 32.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -773,7 +773,7 @@
     "WASTED",
     "RICO"
    ],
-   "last": "2026-11-03 04:30 UTC"
+   "last": "2026-11-03 10:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -923,7 +923,7 @@
     "WASTED",
     "1WIN"
    ],
-   "last": "2026-11-03 08:30 UTC"
+   "last": "2026-11-03 10:00 UTC"
   },
   {
    "wallet": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
@@ -968,9 +968,9 @@
   },
   {
    "symbol": "MAMESUKE",
-   "tag": "FADING",
-   "h1": -21.3,
-   "ts": "2026-11-03 09:30 UTC"
+   "tag": "WATCH",
+   "h1": 0.6,
+   "ts": "2026-11-03 10:00 UTC"
   },
   {
    "symbol": "WWIII",
@@ -987,8 +987,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -2.4,
-   "ts": "2026-11-03 09:30 UTC"
+   "h1": -3.2,
+   "ts": "2026-11-03 10:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -999,20 +999,20 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -0.2,
-   "ts": "2026-11-03 09:30 UTC"
+   "h1": 2.3,
+   "ts": "2026-11-03 10:00 UTC"
   },
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": -10.7,
-   "ts": "2026-11-03 09:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-03 10:00 UTC"
   },
   {
    "symbol": "Wanted",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-03 09:30 UTC"
+   "h1": 0.5,
+   "ts": "2026-11-03 10:00 UTC"
   }
  ],
  "live_closes": [
