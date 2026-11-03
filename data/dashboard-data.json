@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T18:04:31.127349+00:00",
+ "generated": "2026-11-03T18:34:31.338309+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1782,
-  "cohort_wallets": 1682,
+  "cohort_runs": 1783,
+  "cohort_wallets": 1704,
   "cohort_qualified": 138,
   "live_closes": 18,
   "live_wins": 4,
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Mint/freeze not renounced",
-   "count": 13
+   "count": 12
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-03T18:30:42.404512+00:00",
+   "symbol": "$DCYC ",
+   "mint": "9iFR4DuinJ96rUHdf7uRutJYbdAPZKrFbkRzVzSepump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 16.3% > 12% gate",
+   "entry_price": 8.59e-05,
+   "mcap": 85901,
+   "liq": 24023.06,
+   "h1": 41.75,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-03T18:00:50.246904+00:00",
    "symbol": "LUCIA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T03:00:45.366537+00:00",
-   "symbol": "MAGACREW",
-   "mint": "9LAu2WFQGV2FDSoa36S25LMmQSg5E2yUPT33j519pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001256,
-   "mcap": 125691,
-   "liq": 27884.05,
-   "h1": 224,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 0.7,
-   "ts": "2026-11-03 18:00 UTC"
+   "h1": -8.4,
+   "ts": "2026-11-03 18:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,14 +993,14 @@
   {
    "symbol": "1WIN",
    "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-11-03 18:00 UTC"
+   "h1": -3.6,
+   "ts": "2026-11-03 18:30 UTC"
   },
   {
    "symbol": "SPHERE",
-   "tag": "FADING",
-   "h1": -25.9,
-   "ts": "2026-11-03 18:00 UTC"
+   "tag": "WATCH",
+   "h1": 33.4,
+   "ts": "2026-11-03 18:30 UTC"
   },
   {
    "symbol": "Wanted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "ANONVOYAGE",
    "tag": "WATCH",
-   "h1": -1.4,
-   "ts": "2026-11-03 18:00 UTC"
+   "h1": -11.8,
+   "ts": "2026-11-03 18:30 UTC"
   }
  ],
  "live_closes": [
