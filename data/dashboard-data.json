@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T01:04:34.159774+00:00",
+ "generated": "2026-11-04T01:34:34.334821+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 1796,
-  "cohort_wallets": 1993,
+  "cohort_runs": 1797,
+  "cohort_wallets": 1500,
   "cohort_qualified": 139,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 147
+   "count": 146
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T01:30:44.751635+00:00",
+   "symbol": "Other",
+   "mint": "6i3oFRo48Xbnu7B9YH5DgypHRvsr47GagoJhSvs4pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Liquidity $7818 < $25000",
+   "entry_price": 0.0001812,
+   "mcap": 179349,
+   "liq": 7817.8,
+   "h1": 237,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T01:30:44.746759+00:00",
+   "symbol": "YETI",
+   "mint": "FDGdzwKowt4hLkgMFtNik3dL5JeCrvFQqkgxJyGgSG6x",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 18.8% > 12% gate",
+   "entry_price": 4.76e-05,
+   "mcap": 47603,
+   "liq": 17571.42,
+   "h1": 28.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T01:00:39.486948+00:00",
    "symbol": "LUCKPAD",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T16:00:50.749020+00:00",
-   "symbol": "HUND ",
-   "mint": "HAjc6B1MfdjnYPiB2xcETPb25kb85Pxg9nq9i4D5pump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 26.1% > 12% gate",
-   "entry_price": 3.677e-05,
-   "mcap": 36776,
-   "liq": 13958.65,
-   "h1": -3.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T16:00:50.744619+00:00",
-   "symbol": "NALA",
-   "mint": "Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001675,
-   "mcap": 167546,
-   "liq": 32193.69,
-   "h1": 260,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,8 +975,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 39.6,
-   "ts": "2026-11-04 01:00 UTC"
+   "h1": 28.8,
+   "ts": "2026-11-04 01:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,8 +993,8 @@
   {
    "symbol": "SPHERE",
    "tag": "WATCH",
-   "h1": -16.8,
-   "ts": "2026-11-04 01:00 UTC"
+   "h1": -4.5,
+   "ts": "2026-11-04 01:30 UTC"
   },
   {
    "symbol": "Wanted",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "ANONVOYAGE",
-   "tag": "FADING",
-   "h1": -28.6,
-   "ts": "2026-11-04 01:00 UTC"
+   "tag": "WATCH",
+   "h1": -1.4,
+   "ts": "2026-11-04 01:30 UTC"
   },
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": -13.2,
-   "ts": "2026-11-04 01:00 UTC"
+   "h1": -6.0,
+   "ts": "2026-11-04 01:30 UTC"
   }
  ],
  "live_closes": [
