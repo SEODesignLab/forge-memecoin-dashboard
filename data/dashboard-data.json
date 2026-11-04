@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:34:43.168348+00:00",
+ "generated": "2026-11-04T22:04:43.399055+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1837,
-  "cohort_wallets": 1897,
+  "cohort_runs": 1838,
+  "cohort_wallets": 1923,
   "cohort_qualified": 146,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,11 +30,15 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 23
+   "count": 22
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
    "count": 9
+  },
+  {
+   "reason": "RugCheck risk 46>45",
+   "count": 8
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -42,10 +46,6 @@
   },
   {
    "reason": "Top holder 13.3% > 12% gate",
-   "count": 7
-  },
-  {
-   "reason": "RugCheck risk 46>45",
    "count": 7
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T22:00:59.707348+00:00",
+   "symbol": "Bunker",
+   "mint": "5yLUeverEkoA9UxS538qiA7RovBmzjBJKSjWjkAZpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 46>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 1.029e-05,
+   "mcap": 9826,
+   "liq": 6631.95,
+   "h1": -43.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T22:00:59.700770+00:00",
+   "symbol": "FED",
+   "mint": "88JgZHVfWtdfhXqZbgb4ZniwSQ3UWnGh2Qv882mxmece",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 21.9% > 12% gate",
+   "entry_price": 3.554e-05,
+   "mcap": 35516,
+   "liq": 15507.65,
+   "h1": -8.32,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T22:00:59.692706+00:00",
+   "symbol": "PI",
+   "mint": "G4bjr2e9BwqkPxfjUfpsk3B8ySvNYq4rBu2RrQMJpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 20.1% > 12% gate",
+   "entry_price": 5.461e-05,
+   "mcap": 54557,
+   "liq": 19330.32,
+   "h1": 15.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T21:30:47.411871+00:00",
    "symbol": "nuLL",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T09:30:51.451740+00:00",
-   "symbol": "Doge",
-   "mint": "9CRbVZxQshb9dMkh3yGvyARJRAHMGVuxiQRGhUsppump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 20.3% > 12% gate",
-   "entry_price": 5.286e-05,
-   "mcap": 52776,
-   "liq": 18703.15,
-   "h1": 10.24,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T09:00:50.001596+00:00",
-   "symbol": "POOLS",
-   "mint": "Fu9n4TS5QkEKzMW66djz6T6fUspAbTuYsb7gcHSApump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 15.6% > 12% gate",
-   "entry_price": 9.911e-05,
-   "mcap": 99119,
-   "liq": 26628.84,
-   "h1": 110,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T08:30:46.285746+00:00",
-   "symbol": "CHATBLT",
-   "mint": "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 13.6% > 12% gate",
-   "entry_price": 8.774e-05,
-   "mcap": 87742,
-   "liq": 23163.69,
-   "h1": 124,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -951,8 +951,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 4.3,
-   "ts": "2026-11-04 21:30 UTC"
+   "h1": -12.1,
+   "ts": "2026-11-04 22:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -987,14 +987,14 @@
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": 27.7,
-   "ts": "2026-11-04 21:30 UTC"
+   "h1": 27.2,
+   "ts": "2026-11-04 22:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -14.6,
-   "ts": "2026-11-04 21:30 UTC"
+   "h1": -1.7,
+   "ts": "2026-11-04 22:00 UTC"
   },
   {
    "symbol": "CHILLCATS",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "GTA",
-   "tag": "CHASE",
-   "h1": 429.0,
-   "ts": "2026-11-04 21:30 UTC"
+   "tag": "WATCH",
+   "h1": 79.6,
+   "ts": "2026-11-04 22:00 UTC"
   }
  ],
  "live_closes": [
