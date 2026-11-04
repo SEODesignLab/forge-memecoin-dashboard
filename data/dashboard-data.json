@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:34:40.040965+00:00",
+ "generated": "2026-11-04T15:04:40.331366+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1823,
-  "cohort_wallets": 1617,
+  "cohort_runs": 1824,
+  "cohort_wallets": 1644,
   "cohort_qualified": 145,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 142
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T15:00:43.585818+00:00",
+   "symbol": "LEOMAN",
+   "mint": "CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001403,
+   "mcap": 138460,
+   "liq": 29713.65,
+   "h1": 10.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T14:30:56.168290+00:00",
    "symbol": "MONKAI",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T02:00:47.828660+00:00",
-   "symbol": "AMD",
-   "mint": "GCEEdGYx17shhJyudBTAHYAgcTEpKzntyiiqysmUpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 12.7% > 12% gate",
-   "entry_price": 0.0001003,
-   "mcap": 100291,
-   "liq": 24956.49,
-   "h1": 159,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -744,22 +744,22 @@
     "LTC",
     "CHILLCATS"
    ],
-   "last": "2026-11-04 14:30 UTC"
+   "last": "2026-11-04 15:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 76,
+   "hits": 77,
    "symbols": [
-    "CATPAD",
     "GLITCH",
     "GATO",
     "Dacity",
     "RICO",
     "MAMESUKE",
     "1WIN",
-    "WASTED"
+    "WASTED",
+    "CHILLCATS"
    ],
-   "last": "2026-11-04 10:30 UTC"
+   "last": "2026-11-04 15:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -964,8 +964,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-11-04 14:30 UTC"
+   "h1": 2.1,
+   "ts": "2026-11-04 15:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -994,26 +994,26 @@
   {
    "symbol": "ANONVOYAGE",
    "tag": "FADING",
-   "h1": -41.9,
-   "ts": "2026-11-04 14:30 UTC"
+   "h1": -27.9,
+   "ts": "2026-11-04 15:00 UTC"
   },
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": 20.6,
-   "ts": "2026-11-04 14:30 UTC"
+   "h1": 6.5,
+   "ts": "2026-11-04 15:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": 46.3,
-   "ts": "2026-11-04 14:30 UTC"
+   "h1": 22.9,
+   "ts": "2026-11-04 15:00 UTC"
   },
   {
    "symbol": "CHILLCATS",
    "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-11-04 14:30 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-04 15:00 UTC"
   }
  ],
  "live_closes": [
