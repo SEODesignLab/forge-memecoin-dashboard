@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:04:41.667568+00:00",
+ "generated": "2026-11-04T18:34:41.845848+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1830,
-  "cohort_wallets": 1766,
+  "cohort_runs": 1831,
+  "cohort_wallets": 1789,
   "cohort_qualified": 145,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T18:31:00.780302+00:00",
+   "symbol": "FIX",
+   "mint": "LWSYx94hV8NaFujStsqRZNsd1V8PkasADLTfiWjbfix",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 9.756e-05,
+   "mcap": 97562,
+   "liq": 29905.83,
+   "h1": 148,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T18:31:00.775892+00:00",
+   "symbol": "AMD",
+   "mint": "FLbYxpsdE1PaZrvDjUZHPYUf7m1Xn9TJiHRrzSe4pump",
+   "score": 111,
+   "decision": "SKIP",
+   "reason": "Top holder 12.2% > 12% gate",
+   "entry_price": 0.0001099,
+   "mcap": 109915,
+   "liq": 25810.75,
+   "h1": 131,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T18:31:00.770819+00:00",
+   "symbol": "Rialto",
+   "mint": "8h88ucUAF5o6CEr8rphy9rwNPD7gt2qBEmCv81SCpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 14.8% > 12% gate",
+   "entry_price": 8.552e-05,
+   "mcap": 85440,
+   "liq": 24973.15,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T18:00:56.775919+00:00",
    "symbol": "SAGAS",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T05:00:55.819836+00:00",
-   "symbol": "CHILLCATS",
-   "mint": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Top holder 15.1% > 12% gate",
-   "entry_price": 7.691e-05,
-   "mcap": 76913,
-   "liq": 20874.37,
-   "h1": 102,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T05:00:55.814757+00:00",
-   "symbol": "TTPRO",
-   "mint": "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 0.0001507,
-   "mcap": 150743,
-   "liq": 30270.4,
-   "h1": 299,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T04:30:47.341267+00:00",
-   "symbol": "Fuck",
-   "mint": "DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001959,
-   "mcap": 189683,
-   "liq": 35588.21,
-   "h1": 412,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-04 18:00 UTC"
+   "last": "2026-11-04 18:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -758,7 +758,7 @@
     "WASTED",
     "CHILLCATS"
    ],
-   "last": "2026-11-04 18:00 UTC"
+   "last": "2026-11-04 18:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -956,9 +956,9 @@
   },
   {
    "symbol": "RICO",
-   "tag": "WATCH",
-   "h1": -9.4,
-   "ts": "2026-11-04 18:00 UTC"
+   "tag": "FADING",
+   "h1": -20.6,
+   "ts": "2026-11-04 18:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,20 +993,20 @@
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": 16.8,
-   "ts": "2026-11-04 18:00 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-04 18:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -0.8,
-   "ts": "2026-11-04 18:00 UTC"
+   "h1": -9.1,
+   "ts": "2026-11-04 18:30 UTC"
   },
   {
    "symbol": "CHILLCATS",
    "tag": "WATCH",
-   "h1": 0.1,
-   "ts": "2026-11-04 18:00 UTC"
+   "h1": -0.8,
+   "ts": "2026-11-04 18:30 UTC"
   },
   {
    "symbol": "PREFIRE",
