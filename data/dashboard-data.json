@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:04:39.859781+00:00",
+ "generated": "2026-11-04T14:34:40.040965+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1822,
-  "cohort_wallets": 1593,
+  "cohort_runs": 1823,
+  "cohort_wallets": 1617,
   "cohort_qualified": 145,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T14:30:56.168290+00:00",
+   "symbol": "MONKAI",
+   "mint": "3jXeQDkmM1N7gAS3iubWwmZTaAS4hdMDJ5e5B2uswWaK",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 8.825e-05,
+   "mcap": 83987,
+   "liq": 22478.58,
+   "h1": 54.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-04T14:30:56.162618+00:00",
+   "symbol": "AI",
+   "mint": "2f6TQQHxce6DuaoRD5U4V621KAFjMaWCvgAJ363bpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 32.2% > 12% gate",
+   "entry_price": 1.34e-05,
+   "mcap": 13382,
+   "liq": 7884.25,
+   "h1": -65.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T14:00:53.461791+00:00",
    "symbol": "TOLY",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T02:00:47.819733+00:00",
-   "symbol": "DELUSIONAL",
-   "mint": "5uY4RXyTkkHBkhatNzCmTphAhBS3LU6yaLd9b9uAhQAb",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 28.1% > 12% gate",
-   "entry_price": 3.324e-05,
-   "mcap": 33245,
-   "liq": 14848.05,
-   "h1": -9.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T01:30:44.751635+00:00",
-   "symbol": "Other",
-   "mint": "6i3oFRo48Xbnu7B9YH5DgypHRvsr47GagoJhSvs4pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Liquidity $7818 < $25000",
-   "entry_price": 0.0001812,
-   "mcap": 179349,
-   "liq": 7817.8,
-   "h1": 237,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -733,18 +733,18 @@
   },
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 89,
+   "hits": 90,
    "symbols": [
-    "HELL",
     "DogBoy",
     "TIND",
     "DIGS",
     "RICO",
     "GLITCH",
     "WASTED",
-    "LTC"
+    "LTC",
+    "CHILLCATS"
    ],
-   "last": "2026-11-04 14:00 UTC"
+   "last": "2026-11-04 14:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -808,18 +808,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 27,
+   "hits": 28,
    "symbols": [
-    "GLITCH",
     "GATO",
     "Wifoween",
     "Something",
     "Jason",
     "HELL",
     "WASTED",
-    "RICO"
+    "RICO",
+    "CHILLCATS"
    ],
-   "last": "2026-11-04 13:30 UTC"
+   "last": "2026-11-04 14:30 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -894,7 +894,7 @@
     "GATO",
     "RICO"
    ],
-   "last": "2026-11-04 00:00 UTC"
+   "last": "2026-11-04 14:30 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -964,8 +964,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": 9.9,
-   "ts": "2026-11-04 14:00 UTC"
+   "h1": -6.3,
+   "ts": "2026-11-04 14:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,27 +993,27 @@
   },
   {
    "symbol": "ANONVOYAGE",
-   "tag": "WATCH",
-   "h1": 12.4,
-   "ts": "2026-11-04 14:00 UTC"
+   "tag": "FADING",
+   "h1": -41.9,
+   "ts": "2026-11-04 14:30 UTC"
   },
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": 5.0,
-   "ts": "2026-11-04 14:00 UTC"
+   "h1": 20.6,
+   "ts": "2026-11-04 14:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -1.0,
-   "ts": "2026-11-04 14:00 UTC"
+   "h1": 46.3,
+   "ts": "2026-11-04 14:30 UTC"
   },
   {
    "symbol": "CHILLCATS",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-04 14:00 UTC"
+   "h1": -3.7,
+   "ts": "2026-11-04 14:30 UTC"
   }
  ],
  "live_closes": [
