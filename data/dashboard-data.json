@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T08:34:37.442823+00:00",
+ "generated": "2026-11-04T09:04:37.672259+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1811,
-  "cohort_wallets": 1805,
+  "cohort_runs": 1812,
+  "cohort_wallets": 1830,
   "cohort_qualified": 143,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 143
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T09:00:50.001596+00:00",
+   "symbol": "POOLS",
+   "mint": "Fu9n4TS5QkEKzMW66djz6T6fUspAbTuYsb7gcHSApump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 15.6% > 12% gate",
+   "entry_price": 9.911e-05,
+   "mcap": 99119,
+   "liq": 26628.84,
+   "h1": 110,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T08:30:46.285746+00:00",
    "symbol": "CHATBLT",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-03T22:00:45.362826+00:00",
-   "symbol": "GTA",
-   "mint": "GyGtUAKA4vzAB5w7wMwcPm6xFpdnEHLPa77gTD7ipump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 14.7% > 12% gate",
-   "entry_price": 9.015e-05,
-   "mcap": 88943,
-   "liq": 23115.75,
-   "h1": 94.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -744,7 +744,7 @@
     "WASTED",
     "LTC"
    ],
-   "last": "2026-11-04 08:30 UTC"
+   "last": "2026-11-04 09:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -964,8 +964,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -11.1,
-   "ts": "2026-11-04 08:30 UTC"
+   "h1": -17.2,
+   "ts": "2026-11-04 09:00 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -993,27 +993,27 @@
   },
   {
    "symbol": "ANONVOYAGE",
-   "tag": "FADING",
-   "h1": -26.0,
-   "ts": "2026-11-04 08:30 UTC"
+   "tag": "WATCH",
+   "h1": 1.8,
+   "ts": "2026-11-04 09:00 UTC"
   },
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-11-04 08:30 UTC"
+   "h1": -19.5,
+   "ts": "2026-11-04 09:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": 22.9,
-   "ts": "2026-11-04 08:30 UTC"
+   "h1": 83.4,
+   "ts": "2026-11-04 09:00 UTC"
   },
   {
    "symbol": "CHILLCATS",
-   "tag": "FADING",
-   "h1": -53.3,
-   "ts": "2026-11-04 08:30 UTC"
+   "tag": "WATCH",
+   "h1": 3.9,
+   "ts": "2026-11-04 09:00 UTC"
   }
  ],
  "live_closes": [
