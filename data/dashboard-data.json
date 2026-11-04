@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:04:42.981538+00:00",
+ "generated": "2026-11-04T21:34:43.168348+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1836,
-  "cohort_wallets": 1881,
+  "cohort_runs": 1837,
+  "cohort_wallets": 1897,
   "cohort_qualified": 146,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 142
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-04T21:30:47.411871+00:00",
+   "symbol": "nuLL",
+   "mint": "A72sK9mPWTvU4f5RQFy7upBCeJi9HZx3Q2Wgr7QBnuLL",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002273,
+   "mcap": 223704,
+   "liq": 38560.38,
+   "h1": 24.66,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T21:00:57.031162+00:00",
    "symbol": "GTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T08:00:48.112022+00:00",
-   "symbol": "COIN",
-   "mint": "AJJjNsEfEKRtTfoGBVzwZh7j2PBYwtNpRWFFDjCwpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 72.3% > 12% gate",
-   "entry_price": 3.826e-05,
-   "mcap": 36897,
-   "liq": 15491.65,
-   "h1": -10.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-04 21:00 UTC"
+   "last": "2026-11-04 21:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -951,8 +951,8 @@
   {
    "symbol": "RICO",
    "tag": "WATCH",
-   "h1": -6.7,
-   "ts": "2026-11-04 21:00 UTC"
+   "h1": 4.3,
+   "ts": "2026-11-04 21:30 UTC"
   },
   {
    "symbol": "\u8c46\u52a9",
@@ -987,14 +987,14 @@
   {
    "symbol": "5STAR",
    "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-11-04 21:00 UTC"
+   "h1": 27.7,
+   "ts": "2026-11-04 21:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -14.2,
-   "ts": "2026-11-04 21:00 UTC"
+   "h1": -14.6,
+   "ts": "2026-11-04 21:30 UTC"
   },
   {
    "symbol": "CHILLCATS",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "GTA",
    "tag": "CHASE",
-   "h1": 2527.0,
-   "ts": "2026-11-04 21:00 UTC"
+   "h1": 429.0,
+   "ts": "2026-11-04 21:30 UTC"
   }
  ],
  "live_closes": [
