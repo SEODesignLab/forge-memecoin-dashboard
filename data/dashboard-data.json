@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T04:04:46.093019+00:00",
+ "generated": "2026-11-05T04:34:46.276477+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1850,
-  "cohort_wallets": 1695,
+  "cohort_runs": 1851,
+  "cohort_wallets": 1719,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -53,6 +53,10 @@
    "count": 7
   },
   {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 15.3% > 12% gate",
    "count": 6
   },
@@ -67,13 +71,24 @@
   {
    "reason": "RugCheck risk 51>45",
    "count": 5
-  },
-  {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T04:30:51.968567+00:00",
+   "symbol": "FURAX",
+   "mint": "6xfCD17nTqpVtDwwALjFnchqxzQMMhocF7wELxC3pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0001004,
+   "mcap": 100477,
+   "liq": 24728.31,
+   "h1": 151,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T04:01:03.637670+00:00",
    "symbol": "Look",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T18:00:56.775919+00:00",
-   "symbol": "SAGAS",
-   "mint": "FED4vFx3rAxmPNrf9i9cy53rrEEwCaX6UFkbsGL7pump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.3% > 12% gate",
-   "entry_price": 4.074e-05,
-   "mcap": 38460,
-   "liq": 14986.92,
-   "h1": 4.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 17.0,
-   "ts": "2026-11-05 04:00 UTC"
+   "h1": -19.7,
+   "ts": "2026-11-05 04:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
-   "tag": "FADING",
-   "h1": -23.1,
-   "ts": "2026-11-05 04:00 UTC"
+   "tag": "WATCH",
+   "h1": 4.6,
+   "ts": "2026-11-05 04:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 27.6,
-   "ts": "2026-11-05 04:00 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-05 04:30 UTC"
   }
  ],
  "live_closes": [
