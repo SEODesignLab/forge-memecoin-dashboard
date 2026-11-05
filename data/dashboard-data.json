@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T10:00:54.192666+00:00",
+ "generated": "2026-11-05T10:34:48.855286+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1862,
-  "cohort_wallets": 1973,
+  "cohort_runs": 1863,
+  "cohort_wallets": 1996,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 138
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T10:30:57.319011+00:00",
+   "symbol": "INDEX",
+   "mint": "EESvU4BaTq6yGfaCUbNVC8HCDtrsfnoecmrSpKzuVxDu",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 34.2% > 12% gate",
+   "entry_price": 1.507e-05,
+   "mcap": 15072,
+   "liq": 10782.67,
+   "h1": -62.03,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T09:30:58.611849+00:00",
    "symbol": "Mei",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T22:00:59.707348+00:00",
-   "symbol": "Bunker",
-   "mint": "5yLUeverEkoA9UxS538qiA7RovBmzjBJKSjWjkAZpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 46>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.029e-05,
-   "mcap": 9826,
-   "liq": 6631.95,
-   "h1": -43.79,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 8.6,
-   "ts": "2026-11-05 10:00 UTC"
+   "h1": -8.6,
+   "ts": "2026-11-05 10:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 37.3,
-   "ts": "2026-11-05 10:00 UTC"
+   "h1": -0.1,
+   "ts": "2026-11-05 10:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 21.5,
-   "ts": "2026-11-05 10:00 UTC"
+   "h1": 1.7,
+   "ts": "2026-11-05 10:30 UTC"
   }
  ],
  "live_closes": [
