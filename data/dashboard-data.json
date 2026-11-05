@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:04:49.519658+00:00",
+ "generated": "2026-11-05T12:34:49.761093+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1866,
-  "cohort_wallets": 1556,
+  "cohort_runs": 1867,
+  "cohort_wallets": 1588,
   "cohort_qualified": 148,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 138
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T12:31:04.116860+00:00",
+   "symbol": "WOKE",
+   "mint": "F7CSEdSHM4jxhqN8fS6o1SUDagnZUhaC4ZTfbvBJpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 6.661e-05,
+   "mcap": 64303,
+   "liq": 20260.99,
+   "h1": 64.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T12:00:54.011096+00:00",
    "symbol": "UMBRA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T23:01:05.991100+00:00",
-   "symbol": "clippy",
-   "mint": "33CW4Q8xLSBYKmA55rQfEWPA8DSGVwSRQfo2pSs1pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 15.8% > 12% gate",
-   "entry_price": 8.055e-05,
-   "mcap": 80414,
-   "liq": 24714.2,
-   "h1": 75.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 83.8,
-   "ts": "2026-11-05 12:00 UTC"
+   "h1": -11.0,
+   "ts": "2026-11-05 12:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "FADING",
-   "h1": -28.2,
-   "ts": "2026-11-05 12:00 UTC"
+   "h1": -30.5,
+   "ts": "2026-11-05 12:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": -18.7,
-   "ts": "2026-11-05 12:00 UTC"
+   "h1": 33.1,
+   "ts": "2026-11-05 12:30 UTC"
   }
  ],
  "live_closes": [
