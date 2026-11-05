@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:34:49.761093+00:00",
+ "generated": "2026-11-05T13:04:49.958022+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1867,
-  "cohort_wallets": 1588,
+  "cohort_runs": 1868,
+  "cohort_wallets": 1615,
   "cohort_qualified": 148,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 18
+   "count": 17
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T13:00:58.619765+00:00",
+   "symbol": "ELYSIUM",
+   "mint": "LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 16.3% > 12% gate",
+   "entry_price": 7.649e-05,
+   "mcap": 76381,
+   "liq": 22604.5,
+   "h1": 65.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T13:00:58.614890+00:00",
+   "symbol": "TOPLESS",
+   "mint": "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 8.498e-05,
+   "mcap": 84984,
+   "liq": 23685.5,
+   "h1": 106,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T12:31:04.116860+00:00",
    "symbol": "WOKE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T00:00:57.447077+00:00",
-   "symbol": "GAVELDROP",
-   "mint": "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0005653,
-   "mcap": 562655,
-   "liq": 62973.75,
-   "h1": 28.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T23:30:53.325573+00:00",
-   "symbol": "PIKACHINU",
-   "mint": "Enn6dABdpAt4sXv2QaCqRUdJuR5ihK3PP8zoReVVpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "Top holder 18.5% > 12% gate",
-   "entry_price": 4.845e-05,
-   "mcap": 48399,
-   "liq": 16420.83,
-   "h1": 20.79,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -11.0,
-   "ts": "2026-11-05 12:30 UTC"
+   "h1": -3.9,
+   "ts": "2026-11-05 13:00 UTC"
   },
   {
    "symbol": "GAVELDROP",
-   "tag": "FADING",
-   "h1": -30.5,
-   "ts": "2026-11-05 12:30 UTC"
+   "tag": "WATCH",
+   "h1": 0.3,
+   "ts": "2026-11-05 13:00 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 33.1,
-   "ts": "2026-11-05 12:30 UTC"
+   "h1": 20.2,
+   "ts": "2026-11-05 13:00 UTC"
   }
  ],
  "live_closes": [
