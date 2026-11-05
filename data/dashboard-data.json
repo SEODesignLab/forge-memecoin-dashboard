@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T00:34:44.537656+00:00",
+ "generated": "2026-11-05T01:04:44.798342+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1843,
-  "cohort_wallets": 1532,
+  "cohort_runs": 1844,
+  "cohort_wallets": 1558,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 141
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -37,12 +37,12 @@
    "count": 9
   },
   {
-   "reason": "RugCheck risk 46>45",
+   "reason": "Top holder 12.8% > 12% gate",
    "count": 8
   },
   {
-   "reason": "Top holder 12.8% > 12% gate",
-   "count": 8
+   "reason": "RugCheck risk 46>45",
+   "count": 7
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T01:00:55.964528+00:00",
+   "symbol": "NUTS",
+   "mint": "6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 18.8% > 12% gate",
+   "entry_price": 6.244e-05,
+   "mcap": 58396,
+   "liq": 20531.39,
+   "h1": 13.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T01:00:55.959485+00:00",
+   "symbol": "SLOP",
+   "mint": "3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 29.3% > 12% gate",
+   "entry_price": 0.0001168,
+   "mcap": 116844,
+   "liq": 68935.79,
+   "h1": -17.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T00:30:48.784105+00:00",
    "symbol": "CALL",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T14:30:56.162618+00:00",
-   "symbol": "AI",
-   "mint": "2f6TQQHxce6DuaoRD5U4V621KAFjMaWCvgAJ363bpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 32.2% > 12% gate",
-   "entry_price": 1.34e-05,
-   "mcap": 13382,
-   "liq": 7884.25,
-   "h1": -65.16,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T14:00:53.461791+00:00",
-   "symbol": "TOLY",
-   "mint": "CttHJahfpRU3V1cAMKDCPcN3L8sNikgLWREWYg6Cpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 18.2% > 12% gate",
-   "entry_price": 4.292e-05,
-   "mcap": 42922,
-   "liq": 15322.18,
-   "h1": 15.32,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-04 23:30 UTC"
+   "last": "2026-11-05 01:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -16.8,
-   "ts": "2026-11-05 00:30 UTC"
+   "h1": -7.4,
+   "ts": "2026-11-05 01:00 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 1.4,
-   "ts": "2026-11-05 00:30 UTC"
+   "h1": 4.5,
+   "ts": "2026-11-05 01:00 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 20.8,
-   "ts": "2026-11-05 00:30 UTC"
+   "h1": 15.7,
+   "ts": "2026-11-05 01:00 UTC"
   }
  ],
  "live_closes": [
