@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T06:04:46.939747+00:00",
+ "generated": "2026-11-05T06:34:47.111648+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1854,
-  "cohort_wallets": 1803,
+  "cohort_runs": 1855,
+  "cohort_wallets": 1824,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 21
+   "count": 20
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -61,19 +61,64 @@
    "count": 6
   },
   {
-   "reason": "Top holder 20.3% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 20.4% > 12% gate",
    "count": 5
   },
   {
    "reason": "RugCheck risk 51>45",
    "count": 5
+  },
+  {
+   "reason": "Top holder 13.3% > 12% gate",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T06:30:59.306934+00:00",
+   "symbol": "ZELDA",
+   "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 14.5% > 12% gate",
+   "entry_price": 0.0001163,
+   "mcap": 116217,
+   "liq": 27614.95,
+   "h1": 192,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T06:30:59.302629+00:00",
+   "symbol": "BOTTEGA",
+   "mint": "zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 27.9% > 12% gate",
+   "entry_price": 3.231e-05,
+   "mcap": 32312,
+   "liq": 14059.78,
+   "h1": -29.21,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T06:30:59.297984+00:00",
+   "symbol": "ASOL",
+   "mint": "An2r9uFsEeHDhxhbkzFWVNtKB7LwHuEkCRUqqNTJpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001152,
+   "mcap": 115156,
+   "liq": 27236.81,
+   "h1": 185,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T06:01:01.748629+00:00",
    "symbol": "LEEROY",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T20:30:57.453610+00:00",
-   "symbol": "PAD",
-   "mint": "2qTqXQ4vB72PEn7JTwa2N4k8puX7AsxHXUnMwLngwvPY",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.3% > 12% gate",
-   "entry_price": 3.608e-05,
-   "mcap": 36081,
-   "liq": 15638.81,
-   "h1": -7.3,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T20:30:57.448329+00:00",
-   "symbol": "ABTC",
-   "mint": "ERs7y4nMGLFVmHcXyDxiS7iDKpp4jWHz2VUuE2gxpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.935e-05,
-   "mcap": 39285,
-   "liq": 14609.85,
-   "h1": -5.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T19:31:04.104637+00:00",
-   "symbol": "thesis",
-   "mint": "GMzGxFt4tUBKuoinLkbhGLjbzgLmG3B8Q423w9ycpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 26.8% > 12% gate",
-   "entry_price": 2.65e-05,
-   "mcap": 25536,
-   "liq": 11898.65,
-   "h1": -31.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-05 05:00 UTC"
+   "last": "2026-11-05 06:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-11-05 06:00 UTC"
+   "h1": 0.4,
+   "ts": "2026-11-05 06:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 14.7,
-   "ts": "2026-11-05 06:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-11-05 06:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": -11.0,
-   "ts": "2026-11-05 06:00 UTC"
+   "h1": 6.8,
+   "ts": "2026-11-05 06:30 UTC"
   }
  ],
  "live_closes": [
