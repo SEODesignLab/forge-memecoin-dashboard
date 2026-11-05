@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T16:04:51.156462+00:00",
+ "generated": "2026-11-05T16:34:51.337765+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1874,
-  "cohort_wallets": 1788,
+  "cohort_runs": 1875,
+  "cohort_wallets": 1818,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 139
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -49,10 +49,6 @@
    "count": 7
   },
   {
-   "reason": "Top holder 15.3% > 12% gate",
-   "count": 6
-  },
-  {
    "reason": "Top holder 12.8% > 12% gate",
    "count": 6
   },
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 13.7% > 12% gate",
    "count": 5
+  },
+  {
+   "reason": "Top holder 15.3% > 12% gate",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T16:31:07.179681+00:00",
+   "symbol": "BTC",
+   "mint": "GMXYEB8JfRRPxxLCBxWWxFePjMfSfdQUVmd8YHsupump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001417,
+   "mcap": 141695,
+   "liq": 28899.43,
+   "h1": 249,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T16:31:07.173659+00:00",
+   "symbol": "GOODTIME",
+   "mint": "Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 21.1% > 12% gate",
+   "entry_price": 3.958e-05,
+   "mcap": 39539,
+   "liq": 14321.21,
+   "h1": 4.9,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T16:31:07.168780+00:00",
+   "symbol": "SWAN",
+   "mint": "HJTB9zW3vodjqUsmXXsEfewZoWPa6LjT8RCA1j7mpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 77>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.022e-05,
+   "mcap": 20222,
+   "liq": 10079.17,
+   "h1": -46.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T15:31:06.416496+00:00",
    "symbol": "AMD",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T03:30:57.164752+00:00",
-   "symbol": "CI",
-   "mint": "2z1XKwy3yBujFujGAztZubTEtayhYSaGfjM39uVMpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002105,
-   "mcap": 210411,
-   "liq": 37654.32,
-   "h1": 417,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T03:30:57.158671+00:00",
-   "symbol": "MOSQUE",
-   "mint": "9FCjRfsuH4ziTqE39dH2wjcpRF5necYUKYpoNtCFdwKE",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001766,
-   "mcap": 176508,
-   "liq": 34725.43,
-   "h1": 326,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T03:01:18.653222+00:00",
-   "symbol": "CALLINU",
-   "mint": "79zuA7obQuVMdCWTdkS7uEY7KkctYyZF9nSjaFPVpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 5.945e-05,
-   "mcap": 59455,
-   "liq": 19893.9,
-   "h1": 30,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-05 09:30 UTC"
+   "last": "2026-11-05 16:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -992,27 +992,27 @@
   },
   {
    "symbol": "GTA",
-   "tag": "FADING",
-   "h1": -46.0,
-   "ts": "2026-11-05 16:00 UTC"
+   "tag": "WATCH",
+   "h1": -17.4,
+   "ts": "2026-11-05 16:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "FADING",
-   "h1": -37.8,
-   "ts": "2026-11-05 16:00 UTC"
+   "h1": -35.9,
+   "ts": "2026-11-05 16:30 UTC"
   },
   {
    "symbol": "Democat",
-   "tag": "FADING",
-   "h1": -29.1,
-   "ts": "2026-11-05 16:00 UTC"
+   "tag": "WATCH",
+   "h1": -19.4,
+   "ts": "2026-11-05 16:30 UTC"
   },
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": 29.8,
-   "ts": "2026-11-05 16:00 UTC"
+   "h1": 60.9,
+   "ts": "2026-11-05 16:30 UTC"
   }
  ],
  "live_closes": [
