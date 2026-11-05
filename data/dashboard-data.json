@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T02:04:45.218801+00:00",
+ "generated": "2026-11-05T02:34:45.407952+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1846,
-  "cohort_wallets": 1604,
+  "cohort_runs": 1847,
+  "cohort_wallets": 1623,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T02:30:53.224596+00:00",
+   "symbol": "PUMP2",
+   "mint": "24KaBFmjyvPyvjaWfnSsvJBbSaAiAD57TPvxngzpump2",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 19.3% > 12% gate",
+   "entry_price": 7.221e-05,
+   "mcap": 72216,
+   "liq": 23238.45,
+   "h1": 80.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T02:01:00.202609+00:00",
    "symbol": "Tanisha",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T16:00:50.714699+00:00",
-   "symbol": "Donkey",
-   "mint": "APj59xtb4dRp49bXwKSq5E1XWKLrFbtaYfoQZ9Arpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001458,
-   "mcap": 143286,
-   "liq": 31305.11,
-   "h1": 256,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 35.2,
-   "ts": "2026-11-05 02:00 UTC"
+   "h1": -3.5,
+   "ts": "2026-11-05 02:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 14.7,
-   "ts": "2026-11-05 02:00 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-05 02:30 UTC"
   },
   {
    "symbol": "Democat",
-   "tag": "FADING",
-   "h1": -24.7,
-   "ts": "2026-11-05 02:00 UTC"
+   "tag": "WATCH",
+   "h1": -6.4,
+   "ts": "2026-11-05 02:30 UTC"
   }
  ],
  "live_closes": [
