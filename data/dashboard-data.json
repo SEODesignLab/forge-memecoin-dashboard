@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T17:01:00.218629+00:00",
+ "generated": "2026-11-05T17:34:51.790901+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1876,
-  "cohort_wallets": 1853,
+  "cohort_runs": 1877,
+  "cohort_wallets": 1885,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 138
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -69,11 +69,26 @@
    "count": 5
   },
   {
-   "reason": "Top holder 15.3% > 12% gate",
+   "reason": "Top holder 12.2% > 12% gate",
    "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T17:31:03.484465+00:00",
+   "symbol": "GTA",
+   "mint": "HR8a1erQ4LyTKW5XYrHzPy9na5Gd6GHhccXhQywzpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 12.2% > 12% gate",
+   "entry_price": 0.0001022,
+   "mcap": 102257,
+   "liq": 24065.86,
+   "h1": 129,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T16:31:07.179681+00:00",
    "symbol": "BTC",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T04:01:03.625288+00:00",
-   "symbol": "Look",
-   "mint": "8LE65NsUJk3QfR385RLZKwTC2DRmX65CVRKmDkvvpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 18.5% > 12% gate",
-   "entry_price": 5.614e-05,
-   "mcap": 56149,
-   "liq": 18176.79,
-   "h1": 40.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 91,
+   "hits": 92,
    "symbols": [
-    "TIND",
     "DIGS",
     "RICO",
     "GLITCH",
     "WASTED",
     "LTC",
     "CHILLCATS",
-    "CATPAD"
+    "CATPAD",
+    "bul"
    ],
-   "last": "2026-11-05 16:30 UTC"
+   "last": "2026-11-05 17:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,26 +993,26 @@
   {
    "symbol": "GTA",
    "tag": "FADING",
-   "h1": -26.3,
-   "ts": "2026-11-05 17:00 UTC"
+   "h1": -30.9,
+   "ts": "2026-11-05 17:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
-   "tag": "FADING",
-   "h1": -27.8,
-   "ts": "2026-11-05 17:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.8,
+   "ts": "2026-11-05 17:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": -4.6,
-   "ts": "2026-11-05 17:00 UTC"
+   "h1": -17.4,
+   "ts": "2026-11-05 17:30 UTC"
   },
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": 38.2,
-   "ts": "2026-11-05 17:00 UTC"
+   "h1": 9.5,
+   "ts": "2026-11-05 17:30 UTC"
   }
  ],
  "live_closes": [
