@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T23:34:44.048709+00:00",
+ "generated": "2026-11-05T00:04:44.327588+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1841,
-  "cohort_wallets": 1988,
+  "cohort_runs": 1842,
+  "cohort_wallets": 1500,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T00:00:57.447077+00:00",
+   "symbol": "GAVELDROP",
+   "mint": "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005653,
+   "mcap": 562655,
+   "liq": 62973.75,
+   "h1": 28.94,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-04T23:30:53.325573+00:00",
    "symbol": "PIKACHINU",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T13:30:50.078672+00:00",
-   "symbol": "Dumocrats",
-   "mint": "4eEDTyors4YReX5fBoRFBYNkKs6w66oyQ5CvPcckpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 23.6% > 12% gate",
-   "entry_price": 3.416e-05,
-   "mcap": 34092,
-   "liq": 13373.73,
-   "h1": -8.53,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,18 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "DIGS",
-   "tag": "WATCH",
-   "h1": 10.1,
-   "ts": "2026-11-03 12:30 UTC"
-  },
-  {
-   "symbol": "RICO",
-   "tag": "WATCH",
-   "h1": 12.2,
-   "ts": "2026-11-04 23:30 UTC"
-  },
-  {
    "symbol": "\u8c46\u52a9",
    "tag": "WATCH",
    "h1": -12.3,
@@ -993,8 +981,8 @@
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -6.5,
-   "ts": "2026-11-04 23:30 UTC"
+   "h1": 1.8,
+   "ts": "2026-11-05 00:00 UTC"
   },
   {
    "symbol": "CHILLCATS",
@@ -1011,8 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 30.2,
-   "ts": "2026-11-04 23:30 UTC"
+   "h1": 18.0,
+   "ts": "2026-11-05 00:00 UTC"
+  },
+  {
+   "symbol": "GAVELDROP",
+   "tag": "WATCH",
+   "h1": 28.9,
+   "ts": "2026-11-05 00:00 UTC"
+  },
+  {
+   "symbol": "Democat",
+   "tag": "WATCH",
+   "h1": 50.5,
+   "ts": "2026-11-05 00:00 UTC"
   }
  ],
  "live_closes": [
