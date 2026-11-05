@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T14:34:50.533267+00:00",
+ "generated": "2026-11-05T15:04:50.764292+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1871,
-  "cohort_wallets": 1699,
+  "cohort_runs": 1872,
+  "cohort_wallets": 1728,
   "cohort_qualified": 149,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,6 +37,10 @@
    "count": 9
   },
   {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 7
+  },
+  {
    "reason": "RugCheck risk 46>45",
    "count": 7
   },
@@ -47,10 +51,6 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 13.2% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 15.3% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T15:01:06.558083+00:00",
+   "symbol": "\u30ad\u30e9",
+   "mint": "Ad8jHhxVsAJ1DHecFuZc2usXdKFJCPcgQhdiq2JYpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 30.6% > 12% gate",
+   "entry_price": 1.869e-05,
+   "mcap": 17986,
+   "liq": 9499.55,
+   "h1": -3.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T15:01:06.553029+00:00",
+   "symbol": "titcoin",
+   "mint": "3RWWrY7FcyikEb9V2PFxR7PCBJU6ZW9kkE6pTSYqpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 13.2% > 12% gate",
+   "entry_price": 0.0001015,
+   "mcap": 101583,
+   "liq": 25525.26,
+   "h1": 155,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T14:01:05.131357+00:00",
    "symbol": "SOUNDER",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T01:30:58.930133+00:00",
-   "symbol": "inu",
-   "mint": "Bid8i1ocWssjRmKh2kcUfHxD1K6Sk7E5pV2PSVdepump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 3.833e-05,
-   "mcap": 38340,
-   "liq": 14503.65,
-   "h1": -9.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T01:30:58.925675+00:00",
-   "symbol": "MOGE",
-   "mint": "Dc8qw7K8ohS74ZS1rHknvsuxnxV9hkJBCYNzX3gdpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 0.00012,
-   "mcap": 118302,
-   "liq": 27253.54,
-   "h1": 194,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 14.2,
-   "ts": "2026-11-05 14:30 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-05 15:00 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 15.9,
-   "ts": "2026-11-05 14:30 UTC"
+   "h1": 107.0,
+   "ts": "2026-11-05 15:00 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-11-05 14:30 UTC"
+   "h1": 21.5,
+   "ts": "2026-11-05 15:00 UTC"
   }
  ],
  "live_closes": [
