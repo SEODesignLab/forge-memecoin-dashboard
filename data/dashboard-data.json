@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T20:34:37.107841+00:00",
+ "generated": "2026-11-05T21:04:37.390146+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1880,
-  "cohort_wallets": 1987,
+  "cohort_runs": 1881,
+  "cohort_wallets": 1500,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T21:00:54.688312+00:00",
+   "symbol": "penguin",
+   "mint": "Ge9u2FUrrcDVZmEpQgyRqPhcxXABWDz4kJWQ2KQBpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004805,
+   "mcap": 480264,
+   "liq": 56107.65,
+   "h1": 723,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T21:00:54.681820+00:00",
+   "symbol": "GTA",
+   "mint": "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001993,
+   "mcap": 199266,
+   "liq": 34280.2,
+   "h1": 348,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T20:30:45.246301+00:00",
    "symbol": "GIVEST",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T06:30:59.306934+00:00",
-   "symbol": "ZELDA",
-   "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 0.0001163,
-   "mcap": 116217,
-   "liq": 27614.95,
-   "h1": 192,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T06:30:59.302629+00:00",
-   "symbol": "BOTTEGA",
-   "mint": "zKag3PGuq5RYvN8z3KxwtX9ujmGckUKSJqdUr7sn7PQ",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 27.9% > 12% gate",
-   "entry_price": 3.231e-05,
-   "mcap": 32312,
-   "liq": 14059.78,
-   "h1": -29.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CATPAD",
     "bul"
    ],
-   "last": "2026-11-05 20:00 UTC"
+   "last": "2026-11-05 21:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "GAVELDROP",
-   "tag": "FADING",
-   "h1": -44.4,
-   "ts": "2026-11-05 20:30 UTC"
+   "tag": "WATCH",
+   "h1": 27.3,
+   "ts": "2026-11-05 21:00 UTC"
   },
   {
    "symbol": "Democat",
-   "tag": "WATCH",
-   "h1": 57.6,
-   "ts": "2026-11-05 20:30 UTC"
+   "tag": "FADING",
+   "h1": -70.0,
+   "ts": "2026-11-05 21:00 UTC"
   },
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": 3.9,
-   "ts": "2026-11-05 20:30 UTC"
+   "h1": -6.1,
+   "ts": "2026-11-05 21:00 UTC"
   }
  ],
  "live_closes": [
