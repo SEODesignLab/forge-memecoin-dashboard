@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:04:37.778480+00:00",
+ "generated": "2026-11-05T22:34:38.029470+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1883,
-  "cohort_wallets": 1564,
+  "cohort_runs": 1884,
+  "cohort_wallets": 1598,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 142
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -37,16 +37,16 @@
    "count": 9
   },
   {
-   "reason": "RugCheck risk 46>45",
-   "count": 7
-  },
-  {
    "reason": "Top holder 13.1% > 12% gate",
    "count": 7
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 7
+  },
+  {
+   "reason": "RugCheck risk 46>45",
+   "count": 6
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T22:30:51.003810+00:00",
+   "symbol": "VETO",
+   "mint": "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 22.9% > 12% gate",
+   "entry_price": 3.53e-05,
+   "mcap": 33496,
+   "liq": 13856.06,
+   "h1": 39.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T22:30:50.999137+00:00",
+   "symbol": "Bubbles",
+   "mint": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001395,
+   "mcap": 136689,
+   "liq": 31059.2,
+   "h1": 197,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T22:00:52.226532+00:00",
    "symbol": "COGE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T09:00:57.462721+00:00",
-   "symbol": "ZELDA",
-   "mint": "9okwT7syLTFXDv4W64Xp7QUgTx6yKE82SDjzitHNpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 12.5% > 12% gate",
-   "entry_price": 0.0001218,
-   "mcap": 117641,
-   "liq": 28079.64,
-   "h1": 199,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T08:00:53.058977+00:00",
-   "symbol": "I",
-   "mint": "6sSkbS324Qu7xHT7YCMxrCfBXdXWzGzFNpawepzypump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 19.5% > 12% gate",
-   "entry_price": 4.095e-05,
-   "mcap": 40889,
-   "liq": 15385.64,
-   "h1": 1.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CATPAD",
     "bul"
    ],
-   "last": "2026-11-05 21:30 UTC"
+   "last": "2026-11-05 22:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,26 +993,26 @@
   {
    "symbol": "GAVELDROP",
    "tag": "FADING",
-   "h1": -55.6,
-   "ts": "2026-11-05 22:00 UTC"
+   "h1": -48.5,
+   "ts": "2026-11-05 22:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 36.2,
-   "ts": "2026-11-05 22:00 UTC"
+   "h1": 38.4,
+   "ts": "2026-11-05 22:30 UTC"
   },
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-11-05 22:00 UTC"
+   "h1": -14.8,
+   "ts": "2026-11-05 22:30 UTC"
   },
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 108.0,
-   "ts": "2026-11-05 22:00 UTC"
+   "h1": 80.8,
+   "ts": "2026-11-05 22:30 UTC"
   }
  ],
  "live_closes": [
