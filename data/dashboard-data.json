@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T01:34:44.971511+00:00",
+ "generated": "2026-11-05T02:04:45.218801+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1845,
-  "cohort_wallets": 1581,
+  "cohort_runs": 1846,
+  "cohort_wallets": 1604,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 22
+   "count": 21
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T02:01:00.202609+00:00",
+   "symbol": "Tanisha",
+   "mint": "9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 80.6% > 12% gate",
+   "entry_price": 7.143e-05,
+   "mcap": 70479,
+   "liq": 20452.69,
+   "h1": -49.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T02:01:00.196501+00:00",
+   "symbol": "Pinocoin",
+   "mint": "ESNwY7rzR2PAbzKywBe7K6nqqZLFBEtSnzKSh7g4pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 26.3% > 12% gate",
+   "entry_price": 2.845e-05,
+   "mcap": 28458,
+   "liq": 13499.79,
+   "h1": -35.39,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T01:30:58.930133+00:00",
    "symbol": "inu",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T16:00:50.708821+00:00",
-   "symbol": "tremp",
-   "mint": "82BH9WFmtsJGRCdW147cM24K6X8kAkUx2jSd2NyRLfv6",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 19.3% > 12% gate",
-   "entry_price": 5.387e-05,
-   "mcap": 53870,
-   "liq": 17673.92,
-   "h1": 28.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T16:00:50.704284+00:00",
-   "symbol": "AMD",
-   "mint": "5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0007071,
-   "mcap": 700591,
-   "liq": 69338.53,
-   "h1": 32.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "CHILLCATS",
     "CATPAD"
    ],
-   "last": "2026-11-05 01:00 UTC"
+   "last": "2026-11-05 02:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 27.6,
-   "ts": "2026-11-05 01:30 UTC"
+   "h1": 35.2,
+   "ts": "2026-11-05 02:00 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 18.3,
-   "ts": "2026-11-05 01:30 UTC"
+   "h1": 14.7,
+   "ts": "2026-11-05 02:00 UTC"
   },
   {
    "symbol": "Democat",
-   "tag": "WATCH",
-   "h1": 32.9,
-   "ts": "2026-11-05 01:30 UTC"
+   "tag": "FADING",
+   "h1": -24.7,
+   "ts": "2026-11-05 02:00 UTC"
   }
  ],
  "live_closes": [
