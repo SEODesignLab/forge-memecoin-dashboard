@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T06:34:47.111648+00:00",
+ "generated": "2026-11-05T07:04:47.327692+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1855,
-  "cohort_wallets": 1824,
+  "cohort_runs": 1856,
+  "cohort_wallets": 1845,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,11 +61,11 @@
    "count": 6
   },
   {
-   "reason": "Top holder 20.4% > 12% gate",
+   "reason": "RugCheck risk 51>45",
    "count": 5
   },
   {
-   "reason": "RugCheck risk 51>45",
+   "reason": "Top holder 19.2% > 12% gate",
    "count": 5
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T07:01:04.838803+00:00",
+   "symbol": "PIKACOIN",
+   "mint": "9KASpPXxyL8DnV4Wrayg5dbae7GyV76YyJGpSK82pump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 5.576e-05,
+   "mcap": 55763,
+   "liq": 20312.65,
+   "h1": 3.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T06:30:59.306934+00:00",
    "symbol": "ZELDA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T21:00:57.020059+00:00",
-   "symbol": "ABTC",
-   "mint": "DRVhtx9ktSecBXRVD35RkQQHo8ugcSz9gYmxjevnpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 14.9% > 12% gate",
-   "entry_price": 9.317e-05,
-   "mcap": 92986,
-   "liq": 25046.32,
-   "h1": 137,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1000,19 +1000,19 @@
    "symbol": "GTA",
    "tag": "WATCH",
    "h1": 0.4,
-   "ts": "2026-11-05 06:30 UTC"
+   "ts": "2026-11-05 07:00 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 3.9,
-   "ts": "2026-11-05 06:30 UTC"
+   "h1": 1.7,
+   "ts": "2026-11-05 07:00 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 6.8,
-   "ts": "2026-11-05 06:30 UTC"
+   "h1": 4.6,
+   "ts": "2026-11-05 07:00 UTC"
   }
  ],
  "live_closes": [
