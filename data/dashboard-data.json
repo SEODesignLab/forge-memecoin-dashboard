@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T11:04:49.064347+00:00",
+ "generated": "2026-11-05T11:34:49.291319+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1864,
-  "cohort_wallets": 1500,
-  "cohort_qualified": 147,
+  "cohort_runs": 1865,
+  "cohort_wallets": 1528,
+  "cohort_qualified": 148,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 139
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 19
+   "count": 18
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T11:30:57.275649+00:00",
+   "symbol": "Ronaldinu",
+   "mint": "Af62u9MBXbAEknD2VRR6pjF8FYdk1toXP6Hg9qAopump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001782,
+   "mcap": 177943,
+   "liq": 35234.64,
+   "h1": 334,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T11:01:03.404394+00:00",
    "symbol": "CR",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T22:30:59.907312+00:00",
-   "symbol": "Democat",
-   "mint": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0006272,
-   "mcap": 624375,
-   "liq": 65431.65,
-   "h1": 1105,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -8.6,
-   "ts": "2026-11-05 11:00 UTC"
+   "h1": 72.0,
+   "ts": "2026-11-05 11:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-05 11:00 UTC"
+   "h1": 17.6,
+   "ts": "2026-11-05 11:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "FADING",
-   "h1": -31.4,
-   "ts": "2026-11-05 11:00 UTC"
+   "h1": -44.2,
+   "ts": "2026-11-05 11:30 UTC"
   }
  ],
  "live_closes": [
