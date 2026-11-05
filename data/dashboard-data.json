@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T21:34:37.535151+00:00",
+ "generated": "2026-11-05T22:04:37.778480+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1882,
-  "cohort_wallets": 1534,
+  "cohort_runs": 1883,
+  "cohort_wallets": 1564,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 141
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T22:00:52.226532+00:00",
+   "symbol": "COGE",
+   "mint": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.002318,
+   "mcap": 2308132,
+   "liq": 124133.21,
+   "h1": 108,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T22:00:52.219449+00:00",
+   "symbol": "COGE",
+   "mint": "ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump",
+   "score": 114,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001917,
+   "mcap": 191662,
+   "liq": 33763.19,
+   "h1": 325,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T21:30:48.879835+00:00",
    "symbol": "COPE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T07:31:41.257119+00:00",
-   "symbol": "\u20bd",
-   "mint": "5uevEv4hxPoohvdr6rXE7wba2DNW9L8uQRR4FWGxpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 5.1e-05,
-   "mcap": 51005,
-   "liq": 20402.74,
-   "h1": -7.41,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T07:31:41.252156+00:00",
-   "symbol": "JACOBITA",
-   "mint": "7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 0.0001082,
-   "mcap": 102136,
-   "liq": 25709.47,
-   "h1": 171,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "CHILLCATS",
     "JOB"
    ],
-   "last": "2026-11-05 14:30 UTC"
+   "last": "2026-11-05 22:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "1WIN",
-   "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-03 21:00 UTC"
-  },
-  {
    "symbol": "SPHERE",
    "tag": "WATCH",
    "h1": 32.2,
@@ -999,20 +993,26 @@
   {
    "symbol": "GAVELDROP",
    "tag": "FADING",
-   "h1": -21.8,
-   "ts": "2026-11-05 21:30 UTC"
+   "h1": -55.6,
+   "ts": "2026-11-05 22:00 UTC"
   },
   {
    "symbol": "Democat",
-   "tag": "FADING",
-   "h1": -65.1,
-   "ts": "2026-11-05 21:30 UTC"
+   "tag": "WATCH",
+   "h1": 36.2,
+   "ts": "2026-11-05 22:00 UTC"
   },
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": -9.1,
-   "ts": "2026-11-05 21:30 UTC"
+   "h1": -2.1,
+   "ts": "2026-11-05 22:00 UTC"
+  },
+  {
+   "symbol": "COGE",
+   "tag": "WATCH",
+   "h1": 108.0,
+   "ts": "2026-11-05 22:00 UTC"
   }
  ],
  "live_closes": [
