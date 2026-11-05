@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:04:47.327692+00:00",
+ "generated": "2026-11-05T07:34:47.505849+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1856,
-  "cohort_wallets": 1845,
+  "cohort_runs": 1857,
+  "cohort_wallets": 1862,
   "cohort_qualified": 147,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 20
+   "count": 19
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-05T07:31:41.257119+00:00",
+   "symbol": "\u20bd",
+   "mint": "5uevEv4hxPoohvdr6rXE7wba2DNW9L8uQRR4FWGxpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 21.7% > 12% gate",
+   "entry_price": 5.1e-05,
+   "mcap": 51005,
+   "liq": 20402.74,
+   "h1": -7.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-05T07:31:41.252156+00:00",
+   "symbol": "JACOBITA",
+   "mint": "7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.0% > 12% gate",
+   "entry_price": 0.0001082,
+   "mcap": 102136,
+   "liq": 25709.47,
+   "h1": 171,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-05T07:01:04.838803+00:00",
    "symbol": "PIKACOIN",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T21:00:57.031162+00:00",
-   "symbol": "GTA",
-   "mint": "7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001373,
-   "mcap": 1366711,
-   "liq": 96512.12,
-   "h1": 2527,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-04T21:00:57.025097+00:00",
-   "symbol": "SUPERBOWL",
-   "mint": "92j5cWKjdVKDC7skBw1HjvYtrTU8nMM1zKjC4dqmpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 22.1% > 12% gate",
-   "entry_price": 3.926e-05,
-   "mcap": 38953,
-   "liq": 14647.33,
-   "h1": 2.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-05 07:00 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-05 07:30 UTC"
   },
   {
    "symbol": "GAVELDROP",
    "tag": "WATCH",
-   "h1": 1.7,
-   "ts": "2026-11-05 07:00 UTC"
+   "h1": 4.0,
+   "ts": "2026-11-05 07:30 UTC"
   },
   {
    "symbol": "Democat",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-11-05 07:00 UTC"
+   "h1": -10.1,
+   "ts": "2026-11-05 07:30 UTC"
   }
  ],
  "live_closes": [
