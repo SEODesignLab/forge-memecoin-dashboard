@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T04:04:40.741527+00:00",
+ "generated": "2026-11-06T04:34:40.974165+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1895,
-  "cohort_wallets": 1871,
+  "cohort_runs": 1896,
+  "cohort_wallets": 1892,
   "cohort_qualified": 153,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T04:30:48.382605+00:00",
+   "symbol": "token",
+   "mint": "FzTKun7HZds4mnx1sgayLNjnTyM9AjG6X16KGNZepump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 30.2% > 12% gate",
+   "entry_price": 1.906e-05,
+   "mcap": 19042,
+   "liq": 9775.24,
+   "h1": -49.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T03:30:56.920476+00:00",
    "symbol": "ELIZUBETH",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T14:01:05.110614+00:00",
-   "symbol": "Fischer",
-   "mint": "ESWuXHiwswpkfhQtA6A1tAtiBJh9A5hUDYj5fEYhigh",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 24.9% > 12% gate",
-   "entry_price": 3.267e-05,
-   "mcap": 32671,
-   "liq": 14540.59,
-   "h1": -20.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,20 +987,20 @@
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": 6.2,
-   "ts": "2026-11-06 04:00 UTC"
+   "h1": 6.3,
+   "ts": "2026-11-06 04:30 UTC"
   },
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": -11.7,
-   "ts": "2026-11-06 04:00 UTC"
+   "h1": 2.5,
+   "ts": "2026-11-06 04:30 UTC"
   },
   {
    "symbol": "Bubbles",
-   "tag": "FADING",
-   "h1": -27.5,
-   "ts": "2026-11-06 04:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.5,
+   "ts": "2026-11-06 04:30 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "RETIRE",
    "tag": "WATCH",
-   "h1": 82.3,
-   "ts": "2026-11-06 04:00 UTC"
+   "h1": 110.0,
+   "ts": "2026-11-06 04:30 UTC"
   }
  ],
  "live_closes": [
