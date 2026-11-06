@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T18:34:53.135984+00:00",
+ "generated": "2026-11-06T19:04:53.306775+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1924,
-  "cohort_wallets": 1582,
+  "cohort_runs": 1925,
+  "cohort_wallets": 1601,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T19:01:21.487039+00:00",
+   "symbol": "Laura",
+   "mint": "Hbgvqrk9UJLQZQSsdxMugyTY8jTR5RBKWgaQNYkEpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0007259,
+   "mcap": 717330,
+   "liq": 69851.26,
+   "h1": 1161,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T18:31:09.608433+00:00",
    "symbol": "BORDERLESS",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T05:00:57.559518+00:00",
-   "symbol": "bracket",
-   "mint": "EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001524,
-   "mcap": 152222,
-   "liq": 34421.21,
-   "h1": 237,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 94,
+   "hits": 95,
    "symbols": [
-    "GLITCH",
     "WASTED",
     "LTC",
     "CHILLCATS",
     "CATPAD",
     "bul",
     "$Gatto",
-    "Bubbles"
+    "Bubbles",
+    "Gobbler"
    ],
-   "last": "2026-11-06 15:30 UTC"
+   "last": "2026-11-06 19:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -975,14 +975,14 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 12.3,
-   "ts": "2026-11-06 18:30 UTC"
+   "h1": 10.2,
+   "ts": "2026-11-06 19:00 UTC"
   },
   {
    "symbol": "Bubbles",
    "tag": "WATCH",
-   "h1": 20.2,
-   "ts": "2026-11-06 18:30 UTC"
+   "h1": 14.4,
+   "ts": "2026-11-06 19:00 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -992,15 +992,15 @@
   },
   {
    "symbol": "RETIRE",
-   "tag": "FADING",
-   "h1": -23.7,
-   "ts": "2026-11-06 18:30 UTC"
+   "tag": "WATCH",
+   "h1": -9.1,
+   "ts": "2026-11-06 19:00 UTC"
   },
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": -18.3,
-   "ts": "2026-11-06 18:30 UTC"
+   "h1": -16.5,
+   "ts": "2026-11-06 19:00 UTC"
   },
   {
    "symbol": "POMBERT",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Gobbler",
    "tag": "WATCH",
-   "h1": 8.7,
-   "ts": "2026-11-06 18:30 UTC"
+   "h1": -0.1,
+   "ts": "2026-11-06 19:00 UTC"
   }
  ],
  "live_closes": [
