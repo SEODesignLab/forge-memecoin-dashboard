@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T11:04:44.238588+00:00",
+ "generated": "2026-11-06T11:34:44.445999+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1909,
-  "cohort_wallets": 1783,
+  "cohort_runs": 1910,
+  "cohort_wallets": 1809,
   "cohort_qualified": 155,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T11:31:02.576266+00:00",
+   "symbol": "ATM",
+   "mint": "rAxD9RpFienq6zfq8yZSakZXjewZqTXD9jRd2UEpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 21.4% > 12% gate",
+   "entry_price": 5.836e-05,
+   "mcap": 58310,
+   "liq": 22396.86,
+   "h1": 56.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T10:30:55.220734+00:00",
    "symbol": "HALO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T17:31:03.484465+00:00",
-   "symbol": "GTA",
-   "mint": "HR8a1erQ4LyTKW5XYrHzPy9na5Gd6GHhccXhQywzpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 0.0001022,
-   "mcap": 102257,
-   "liq": 24065.86,
-   "h1": 129,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 79,
+   "hits": 80,
    "symbols": [
-    "Dacity",
     "RICO",
     "MAMESUKE",
     "1WIN",
     "WASTED",
     "CHILLCATS",
     "JOB",
-    "$Gatto"
+    "$Gatto",
+    "Bubbles"
    ],
-   "last": "2026-11-06 11:00 UTC"
+   "last": "2026-11-06 11:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -981,20 +981,20 @@
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": 4.7,
-   "ts": "2026-11-06 11:00 UTC"
+   "h1": -9.6,
+   "ts": "2026-11-06 11:30 UTC"
   },
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 16.9,
-   "ts": "2026-11-06 11:00 UTC"
+   "h1": -10.6,
+   "ts": "2026-11-06 11:30 UTC"
   },
   {
    "symbol": "Bubbles",
    "tag": "WATCH",
-   "h1": -2.7,
-   "ts": "2026-11-06 11:00 UTC"
+   "h1": 8.4,
+   "ts": "2026-11-06 11:30 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "RETIRE",
    "tag": "WATCH",
-   "h1": 9.0,
-   "ts": "2026-11-06 11:00 UTC"
+   "h1": -4.2,
+   "ts": "2026-11-06 11:30 UTC"
   },
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": -11.5,
-   "ts": "2026-11-06 11:00 UTC"
+   "h1": 11.2,
+   "ts": "2026-11-06 11:30 UTC"
   }
  ],
  "live_closes": [
