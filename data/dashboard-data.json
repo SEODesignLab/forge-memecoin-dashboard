@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T13:34:45.382056+00:00",
+ "generated": "2026-11-06T14:04:45.679594+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1914,
-  "cohort_wallets": 1894,
+  "cohort_runs": 1915,
+  "cohort_wallets": 1928,
   "cohort_qualified": 156,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T14:00:53.431730+00:00",
+   "symbol": "LABS",
+   "mint": "4FHEBKNYy6BZ1QFMKj1xL8HDTM12rdXLRYw8DgiCUnQn",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 25.5% > 12% gate",
+   "entry_price": 2.452e-05,
+   "mcap": 24496,
+   "liq": 11205.15,
+   "h1": -35.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T13:00:51.248833+00:00",
    "symbol": "DNUT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T21:00:54.681820+00:00",
-   "symbol": "GTA",
-   "mint": "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001993,
-   "mcap": 199266,
-   "liq": 34280.2,
-   "h1": 348,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "$Gatto",
     "Bubbles"
    ],
-   "last": "2026-11-06 13:30 UTC"
+   "last": "2026-11-06 14:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "VI",
-   "tag": "WATCH",
-   "h1": 29.8,
-   "ts": "2026-11-05 00:30 UTC"
-  },
-  {
    "symbol": "CHILLCATS",
    "tag": "WATCH",
    "h1": -0.2,
@@ -981,20 +975,20 @@
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": -2.4,
-   "ts": "2026-11-06 13:30 UTC"
+   "h1": -7.2,
+   "ts": "2026-11-06 14:00 UTC"
   },
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-11-06 13:30 UTC"
+   "h1": -9.0,
+   "ts": "2026-11-06 14:00 UTC"
   },
   {
    "symbol": "Bubbles",
-   "tag": "FADING",
-   "h1": -23.5,
-   "ts": "2026-11-06 13:30 UTC"
+   "tag": "WATCH",
+   "h1": 13.3,
+   "ts": "2026-11-06 14:00 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -1005,14 +999,20 @@
   {
    "symbol": "RETIRE",
    "tag": "WATCH",
-   "h1": -18.3,
-   "ts": "2026-11-06 13:30 UTC"
+   "h1": -19.2,
+   "ts": "2026-11-06 14:00 UTC"
   },
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": 18.1,
-   "ts": "2026-11-06 13:30 UTC"
+   "h1": 10.8,
+   "ts": "2026-11-06 14:00 UTC"
+  },
+  {
+   "symbol": "POMBERT",
+   "tag": "WATCH",
+   "h1": 28.0,
+   "ts": "2026-11-06 14:00 UTC"
   }
  ],
  "live_closes": [
