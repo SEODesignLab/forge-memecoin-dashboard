@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T00:34:38.966942+00:00",
+ "generated": "2026-11-06T01:04:39.247136+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1888,
-  "cohort_wallets": 1700,
+  "cohort_runs": 1889,
+  "cohort_wallets": 1724,
   "cohort_qualified": 150,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 141
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T01:00:48.898511+00:00",
+   "symbol": "Chika",
+   "mint": "9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 16.5% > 12% gate",
+   "entry_price": 6.731e-05,
+   "mcap": 67317,
+   "liq": 21090.78,
+   "h1": 79.83,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T00:00:52.387348+00:00",
    "symbol": "COPE",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T12:00:54.006023+00:00",
-   "symbol": "CR",
-   "mint": "EbFJbnAMyf1hHHd2QNvHFRoKFntj1GZWHnFR2JYYpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.1% > 12% gate",
-   "entry_price": 9.78e-05,
-   "mcap": 97747,
-   "liq": 25052.83,
-   "h1": 140,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "bul",
     "$Gatto"
    ],
-   "last": "2026-11-06 00:30 UTC"
+   "last": "2026-11-06 01:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 78,
+   "hits": 79,
    "symbols": [
-    "GATO",
     "Dacity",
     "RICO",
     "MAMESUKE",
     "1WIN",
     "WASTED",
     "CHILLCATS",
-    "JOB"
+    "JOB",
+    "$Gatto"
    ],
-   "last": "2026-11-05 23:30 UTC"
+   "last": "2026-11-06 01:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -993,26 +993,26 @@
   {
    "symbol": "bul",
    "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-11-06 00:30 UTC"
+   "h1": 2.1,
+   "ts": "2026-11-06 01:00 UTC"
   },
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 18.1,
-   "ts": "2026-11-06 00:30 UTC"
+   "h1": 13.6,
+   "ts": "2026-11-06 01:00 UTC"
   },
   {
    "symbol": "Bubbles",
    "tag": "WATCH",
-   "h1": -12.7,
-   "ts": "2026-11-06 00:30 UTC"
+   "h1": 5.1,
+   "ts": "2026-11-06 01:00 UTC"
   },
   {
    "symbol": "$Gatto",
    "tag": "WATCH",
-   "h1": 44.6,
-   "ts": "2026-11-06 00:30 UTC"
+   "h1": 17.1,
+   "ts": "2026-11-06 01:00 UTC"
   }
  ],
  "live_closes": [
