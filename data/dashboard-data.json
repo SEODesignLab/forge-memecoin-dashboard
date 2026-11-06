@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T15:34:46.383061+00:00",
+ "generated": "2026-11-06T16:04:46.629502+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1918,
-  "cohort_wallets": 1993,
+  "cohort_runs": 1919,
+  "cohort_wallets": 1500,
   "cohort_qualified": 159,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 143
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 14.8% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 12.8% > 12% gate",
@@ -71,9 +67,43 @@
   {
    "reason": "RugCheck risk 46>45",
    "count": 5
+  },
+  {
+   "reason": "Top holder 14.8% > 12% gate",
+   "count": 5
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T16:00:51.275038+00:00",
+   "symbol": "401kat",
+   "mint": "BNHAfUV21odrcFDKrqLmBDr6JREXE7c3yhuWBSNJpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002143,
+   "mcap": 214210,
+   "liq": 37633.06,
+   "h1": 462,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-06T16:00:51.268558+00:00",
+   "symbol": "POPO",
+   "mint": "4SrWPnMz2SzP4sVxgFiB9Fk8d3iwJLn6AEs3RNPLpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 20.7% > 12% gate",
+   "entry_price": 5.046e-05,
+   "mcap": 50399,
+   "liq": 16872.43,
+   "h1": 17.23,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T15:31:01.460124+00:00",
    "symbol": "St\u0435ve",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T23:00:51.099072+00:00",
-   "symbol": "TOYS4KIDS",
-   "mint": "FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.4% > 12% gate",
-   "entry_price": 3.391e-05,
-   "mcap": 33861,
-   "liq": 13418.8,
-   "h1": -10.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-05T22:30:51.003810+00:00",
-   "symbol": "VETO",
-   "mint": "HQstiRVdp2cB6s6p3v6WWe23r8K4EP9wnx9gS3yLpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 22.9% > 12% gate",
-   "entry_price": 3.53e-05,
-   "mcap": 33496,
-   "liq": 13856.06,
-   "h1": 39.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,14 +981,14 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 8.6,
-   "ts": "2026-11-06 15:30 UTC"
+   "h1": 8.8,
+   "ts": "2026-11-06 16:00 UTC"
   },
   {
    "symbol": "Bubbles",
    "tag": "WATCH",
-   "h1": -8.0,
-   "ts": "2026-11-06 15:30 UTC"
+   "h1": -11.3,
+   "ts": "2026-11-06 16:00 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -999,14 +999,14 @@
   {
    "symbol": "RETIRE",
    "tag": "WATCH",
-   "h1": -9.7,
-   "ts": "2026-11-06 15:30 UTC"
+   "h1": -6.2,
+   "ts": "2026-11-06 16:00 UTC"
   },
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": -14.4,
-   "ts": "2026-11-06 15:30 UTC"
+   "h1": 7.1,
+   "ts": "2026-11-06 16:00 UTC"
   },
   {
    "symbol": "POMBERT",
