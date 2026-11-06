@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:04:53.937063+00:00",
+ "generated": "2026-11-06T21:34:54.037744+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1929,
-  "cohort_wallets": 1660,
+  "cohort_runs": 1930,
+  "cohort_wallets": 1671,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 13
+   "count": 12
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-06T21:31:07.719957+00:00",
+   "symbol": "pip",
+   "mint": "4VyS1DWXDEbu8jVyJUjqNJN3SXGgZYf2uo3YZ6QLpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005138,
+   "mcap": 495830,
+   "liq": 59264.92,
+   "h1": 1281,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-06T21:31:07.709321+00:00",
+   "symbol": "LEAPCAT",
+   "mint": "8nFy4Hw9VAy3NQjwNVVbfNi1HM96VKodNMf5zFt1PhJ8",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 20.5% > 12% gate",
+   "entry_price": 3.832e-05,
+   "mcap": 38326,
+   "liq": 15642.46,
+   "h1": 3.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-06T21:01:07.387596+00:00",
    "symbol": "GLITCHPEPE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T08:00:55.004887+00:00",
-   "symbol": "RED",
-   "mint": "HuqKMcaEojnp4qRReE1dr5ed5TQhhMcjEn6wskRppump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 5.88e-05,
-   "mcap": 58742,
-   "liq": 18434.21,
-   "h1": 54.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T06:30:54.067235+00:00",
-   "symbol": "fun",
-   "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000196,
-   "mcap": 187510,
-   "liq": 39594.47,
-   "h1": 324,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,14 +975,14 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 7.3,
-   "ts": "2026-11-06 21:00 UTC"
+   "h1": 6.6,
+   "ts": "2026-11-06 21:30 UTC"
   },
   {
    "symbol": "Bubbles",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-11-06 21:00 UTC"
+   "h1": -7.7,
+   "ts": "2026-11-06 21:30 UTC"
   },
   {
    "symbol": "$Gatto",
@@ -999,8 +999,8 @@
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": -7.8,
-   "ts": "2026-11-06 21:00 UTC"
+   "h1": -13.2,
+   "ts": "2026-11-06 21:30 UTC"
   },
   {
    "symbol": "POMBERT",
