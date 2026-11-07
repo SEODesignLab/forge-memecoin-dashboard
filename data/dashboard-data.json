@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T14:34:59.163965+00:00",
+ "generated": "2026-11-07T15:04:59.327008+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1964,
-  "cohort_wallets": 1661,
+  "cohort_runs": 1965,
+  "cohort_wallets": 1677,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 138
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -37,11 +37,11 @@
    "count": 7
   },
   {
-   "reason": "Top holder 13.1% > 12% gate",
-   "count": 6
+   "reason": "Top holder 12.4% > 12% gate",
+   "count": 7
   },
   {
-   "reason": "Top holder 12.4% > 12% gate",
+   "reason": "Top holder 13.1% > 12% gate",
    "count": 6
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T15:01:23.890053+00:00",
+   "symbol": "SHANE",
+   "mint": "5CVJ8W52Z41KRfAYHnpJTSMx4eP5ZThGDZ5tW7R8pump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 30.0% > 12% gate",
+   "entry_price": 2.031e-05,
+   "mcap": 20279,
+   "liq": 10109.87,
+   "h1": -45.39,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T15:01:23.885617+00:00",
+   "symbol": "debtdog",
+   "mint": "FkCsLU7TVDFBex8oubEau2iq1wdLQiagjdBMqv8jpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 0.0001035,
+   "mcap": 103533,
+   "liq": 24751.59,
+   "h1": 174,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T15:01:23.879938+00:00",
+   "symbol": "TRUMPCOIN",
+   "mint": "EZr3zaL9oojKAtpNUYEihk4zWoZxbcKrNUM6SjEeBAGS",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Liquidity $22543 < $25000",
+   "entry_price": 9.522e-05,
+   "mcap": 95225,
+   "liq": 22542.64,
+   "h1": 115,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T14:31:23.701251+00:00",
    "symbol": "NOPANIC",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T23:31:05.854353+00:00",
-   "symbol": "HODL",
-   "mint": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001027,
-   "mcap": 1027419,
-   "liq": 81236.96,
-   "h1": 1973,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T23:01:00.797250+00:00",
-   "symbol": "HATCH",
-   "mint": "46r5vJSK4vZWvU4roBXoQYoBZE8d4nmN3b6wRa6Gpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 20.7% > 12% gate",
-   "entry_price": 3.622e-05,
-   "mcap": 36180,
-   "liq": 13592.81,
-   "h1": -7.01,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T22:31:00.301414+00:00",
-   "symbol": "Billy",
-   "mint": "GyDhpYYXPPaAgrjpDpVCxubaFrBNht4byXzS8Kv8pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 15.9% > 12% gate",
-   "entry_price": 7.189e-05,
-   "mcap": 71771,
-   "liq": 21319.62,
-   "h1": 83.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 82,
+   "hits": 83,
    "symbols": [
-    "1WIN",
     "WASTED",
     "CHILLCATS",
     "JOB",
     "$Gatto",
     "Bubbles",
     "bul",
-    "GATO"
+    "GATO",
+    "CBUCKS"
    ],
-   "last": "2026-11-06 22:00 UTC"
+   "last": "2026-11-07 15:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -803,7 +803,7 @@
     "GLITCH",
     "CBUCKS"
    ],
-   "last": "2026-11-07 12:30 UTC"
+   "last": "2026-11-07 15:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,14 +993,14 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": 43.6,
-   "ts": "2026-11-07 14:30 UTC"
+   "h1": 14.4,
+   "ts": "2026-11-07 15:00 UTC"
   },
   {
    "symbol": "Busted",
    "tag": "WATCH",
-   "h1": 0.1,
-   "ts": "2026-11-07 14:30 UTC"
+   "h1": -0.1,
+   "ts": "2026-11-07 15:00 UTC"
   },
   {
    "symbol": "MEME",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 11.8,
-   "ts": "2026-11-07 14:30 UTC"
+   "h1": 41.4,
+   "ts": "2026-11-07 15:00 UTC"
   }
  ],
  "live_closes": [
