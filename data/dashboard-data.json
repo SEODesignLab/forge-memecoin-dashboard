@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T19:04:00.550929+00:00",
+ "generated": "2026-11-07T19:34:00.709198+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1973,
-  "cohort_wallets": 1806,
+  "cohort_runs": 1974,
+  "cohort_wallets": 1819,
   "cohort_qualified": 164,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 139
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -65,15 +65,60 @@
    "count": 5
   },
   {
-   "reason": "Top holder 15.5% > 12% gate",
+   "reason": "Top holder 20.3% > 12% gate",
    "count": 4
   },
   {
-   "reason": "Top holder 20.3% > 12% gate",
+   "reason": "Top holder 15.3% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T19:30:11.738334+00:00",
+   "symbol": "Millioners",
+   "mint": "EyvmSJy7z7VLj8158NNnJizKSH1rekfbnx1wSgMVpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 61>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 1.349e-05,
+   "mcap": 13482,
+   "liq": 8206.21,
+   "h1": -64.26,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T19:30:11.733643+00:00",
+   "symbol": "Whitehouse",
+   "mint": "5UWfbqWEcLqDSrA2SwNXQpvbqEhZ2kPyh3LaPEmzpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 20.2% > 12% gate",
+   "entry_price": 6.24e-05,
+   "mcap": 62406,
+   "liq": 20165.2,
+   "h1": 31.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T19:30:11.728876+00:00",
+   "symbol": "Jos\u00e9",
+   "mint": "FTrbc3sUPbTsKiNK3e5wWeAaGBuLwmY9RWtKJCSpump",
+   "score": 113,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001537,
+   "mcap": 153648,
+   "liq": 29992.9,
+   "h1": 269,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T18:30:14.393412+00:00",
    "symbol": "POOKIE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T05:31:09.584912+00:00",
-   "symbol": "SLINGFOLIO",
-   "mint": "GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 15.1% > 12% gate",
-   "entry_price": 6.616e-05,
-   "mcap": 62775,
-   "liq": 19835.14,
-   "h1": 42.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T05:01:12.828864+00:00",
-   "symbol": "PALICO",
-   "mint": "GsZANz2KPDJdrQgcdmmYdmCUkxRWFfhkukcYeMSvpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 6.274e-05,
-   "mcap": 59954,
-   "liq": 18426.66,
-   "h1": 82.75,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T05:01:12.824238+00:00",
-   "symbol": "Capiboo",
-   "mint": "3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 75>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 7.844e-05,
-   "mcap": 78354,
-   "liq": 20842.69,
-   "h1": 94.01,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "MEME",
     "Busted"
    ],
-   "last": "2026-11-07 18:30 UTC"
+   "last": "2026-11-07 19:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,8 +993,8 @@
   {
    "symbol": "HODL",
    "tag": "FADING",
-   "h1": -24.0,
-   "ts": "2026-11-07 19:00 UTC"
+   "h1": -46.8,
+   "ts": "2026-11-07 19:30 UTC"
   },
   {
    "symbol": "Busted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": -0.9,
-   "ts": "2026-11-07 19:00 UTC"
+   "h1": 19.1,
+   "ts": "2026-11-07 19:30 UTC"
   }
  ],
  "live_closes": [
