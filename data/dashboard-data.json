@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T02:04:55.366319+00:00",
+ "generated": "2026-11-07T02:34:55.494504+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1939,
-  "cohort_wallets": 1816,
+  "cohort_runs": 1940,
+  "cohort_wallets": 1835,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -37,15 +37,15 @@
    "count": 9
   },
   {
-   "reason": "Top holder 12.4% > 12% gate",
-   "count": 7
-  },
-  {
    "reason": "Top holder 12.8% > 12% gate",
    "count": 6
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 12.4% > 12% gate",
    "count": 6
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T02:31:00.493674+00:00",
+   "symbol": "BTC",
+   "mint": "C1w2cSCc4GmXfUL2y5amkGLhDPsJT7Ts7VyS71inpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001394,
+   "mcap": 137582,
+   "liq": 28496.7,
+   "h1": 258,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T02:01:08.138080+00:00",
    "symbol": "LKY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T12:30:59.832545+00:00",
-   "symbol": "Vutomi",
-   "mint": "AnDQPGonTwufBrqXSDZNo4czEsedUaaNX3j6LW4Lpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 31.4% > 12% gate",
-   "entry_price": 1.606e-05,
-   "mcap": 14711,
-   "liq": 8572.38,
-   "h1": -57.06,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 95,
+   "hits": 96,
    "symbols": [
-    "WASTED",
     "LTC",
     "CHILLCATS",
     "CATPAD",
     "bul",
     "$Gatto",
     "Bubbles",
-    "Gobbler"
+    "Gobbler",
+    "GLITCH"
    ],
-   "last": "2026-11-06 20:30 UTC"
+   "last": "2026-11-07 02:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -987,8 +987,8 @@
   {
    "symbol": "AMD",
    "tag": "WATCH",
-   "h1": 6.8,
-   "ts": "2026-11-07 02:00 UTC"
+   "h1": -16.3,
+   "ts": "2026-11-07 02:30 UTC"
   },
   {
    "symbol": "POMBERT",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": -4.6,
-   "ts": "2026-11-07 02:00 UTC"
+   "h1": 21.5,
+   "ts": "2026-11-07 02:30 UTC"
   },
   {
    "symbol": "Busted",
