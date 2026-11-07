@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T08:34:57.279015+00:00",
+ "generated": "2026-11-07T09:04:57.477045+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1952,
-  "cohort_wallets": 1500,
+  "cohort_runs": 1953,
+  "cohort_wallets": 1515,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 144
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -65,15 +65,30 @@
    "count": 5
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
+   "reason": "Top holder 13.8% > 12% gate",
    "count": 4
   },
   {
-   "reason": "Top holder 13.8% > 12% gate",
+   "reason": "Top holder 17.6% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T09:01:00.752296+00:00",
+   "symbol": "lucky",
+   "mint": "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002407,
+   "mcap": 240756,
+   "liq": 40019.6,
+   "h1": 534,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T07:31:05.788356+00:00",
    "symbol": "notion",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T17:30:58.164873+00:00",
-   "symbol": "Degen",
-   "mint": "AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "Top holder 15.5% > 12% gate",
-   "entry_price": 8.618e-05,
-   "mcap": 85996,
-   "liq": 25072.9,
-   "h1": 92.35,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -851,6 +851,21 @@
    "last": "2026-10-21 02:30 UTC"
   },
   {
+   "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
+   "hits": 23,
+   "symbols": [
+    "DUST",
+    "SHADOW",
+    "Hellcat",
+    "REMUS",
+    "Wifoween",
+    "N64",
+    "GATO",
+    "GLITCH"
+   ],
+   "last": "2026-11-07 09:00 UTC"
+  },
+  {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
    "hits": 22,
    "symbols": [
@@ -864,21 +879,6 @@
     "Wifoween"
    ],
    "last": "2026-10-27 18:30 UTC"
-  },
-  {
-   "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
-   "hits": 22,
-   "symbols": [
-    "Doomsday",
-    "DUST",
-    "SHADOW",
-    "Hellcat",
-    "REMUS",
-    "Wifoween",
-    "N64",
-    "GATO"
-   ],
-   "last": "2026-10-30 10:30 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -999,8 +999,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-11-07 08:30 UTC"
+   "h1": -0.4,
+   "ts": "2026-11-07 09:00 UTC"
   },
   {
    "symbol": "Busted",
