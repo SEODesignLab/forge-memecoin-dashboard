@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T19:34:00.709198+00:00",
+ "generated": "2026-11-07T20:04:00.894972+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1974,
-  "cohort_wallets": 1819,
-  "cohort_qualified": 164,
+  "cohort_runs": 1975,
+  "cohort_wallets": 1834,
+  "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T20:00:22.225593+00:00",
+   "symbol": "GIGAHUG",
+   "mint": "FHSB5iPopaLZxUubiQsyHiaEuXu5Hne7uqMYvtzhpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003843,
+   "mcap": 384228,
+   "liq": 48509.15,
+   "h1": 561,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T20:00:22.217861+00:00",
+   "symbol": "DEMWOJAK",
+   "mint": "F7PuP5Typwuv3P6dtbB7N6fBVmqYSWu7We7S4wT1pump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "Top holder 38.8% > 12% gate",
+   "entry_price": 4.972e-05,
+   "mcap": 49682,
+   "liq": 16260.34,
+   "h1": 34.19,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T19:30:11.738334+00:00",
    "symbol": "Millioners",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T06:01:03.510720+00:00",
-   "symbol": "Hakutaku",
-   "mint": "21azpu32qfuNZR6TkKdUZKVnDtmvTUSBrXxhRFE5pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 16.4% > 12% gate",
-   "entry_price": 7.387e-05,
-   "mcap": 73801,
-   "liq": 20943.22,
-   "h1": 96.44,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T06:01:03.505974+00:00",
-   "symbol": "meme",
-   "mint": "CuDaiesYbXQgAJsMowt61k6EhhS2sjbao3g9i3GMpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Chase filter: +221% in 1h > 40% cap",
-   "entry_price": 0.0001222,
-   "mcap": 122271,
-   "liq": 27806.09,
-   "h1": 221,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "$Gatto",
     "GATO"
    ],
-   "last": "2026-11-07 13:00 UTC"
+   "last": "2026-11-07 20:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "HODL",
-   "tag": "FADING",
-   "h1": -46.8,
-   "ts": "2026-11-07 19:30 UTC"
+   "tag": "WATCH",
+   "h1": -10.5,
+   "ts": "2026-11-07 20:00 UTC"
   },
   {
    "symbol": "Busted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 19.1,
-   "ts": "2026-11-07 19:30 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-07 20:00 UTC"
   }
  ],
  "live_closes": [
