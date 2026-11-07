@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T07:04:56.852678+00:00",
+ "generated": "2026-11-07T07:34:56.956832+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1949,
-  "cohort_wallets": 1976,
+  "cohort_runs": 1950,
+  "cohort_wallets": 1991,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 143
   },
   {
    "reason": "RugCheck risk 50>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T07:31:05.788356+00:00",
+   "symbol": "notion",
+   "mint": "4C6LMX3q8iwShzW6j6A71NAUCgZ9G72T93hh4bKDpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 18.2% > 12% gate",
+   "entry_price": 5.467e-05,
+   "mcap": 54611,
+   "liq": 17099.75,
+   "h1": 32.2,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T07:31:05.783172+00:00",
+   "symbol": "trauma ",
+   "mint": "FFgnd8bifG8zGBE7dij7g3HWp4gveJS4gDyjdk5epump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 17.7% > 12% gate",
+   "entry_price": 5.753e-05,
+   "mcap": 57519,
+   "liq": 18056.44,
+   "h1": 52.28,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T07:01:00.529568+00:00",
    "symbol": "Alice",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T17:30:58.159297+00:00",
-   "symbol": "HODL",
-   "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001093,
-   "mcap": 109269,
-   "liq": 25112.54,
-   "h1": 144,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T17:01:09.320248+00:00",
-   "symbol": "FI",
-   "mint": "4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 26.8% > 12% gate",
-   "entry_price": 0.0003402,
-   "mcap": 340287,
-   "liq": 116412.07,
-   "h1": 155,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,8 +999,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": 3.4,
-   "ts": "2026-11-07 07:00 UTC"
+   "h1": 1.1,
+   "ts": "2026-11-07 07:30 UTC"
   },
   {
    "symbol": "Busted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "MEME",
    "tag": "FADING",
-   "h1": -43.1,
-   "ts": "2026-11-07 07:00 UTC"
+   "h1": -45.0,
+   "ts": "2026-11-07 07:30 UTC"
   }
  ],
  "live_closes": [
