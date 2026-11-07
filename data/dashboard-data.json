@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T12:34:58.525065+00:00",
+ "generated": "2026-11-07T13:04:58.708450+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1960,
-  "cohort_wallets": 1604,
+  "cohort_runs": 1961,
+  "cohort_wallets": 1615,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 141
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T13:01:04.889999+00:00",
+   "symbol": "cig",
+   "mint": "X7vvi2scAYDftprhfRf2ij2YHHbaL3Noenpzmrypump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 21.2% > 12% gate",
+   "entry_price": 3.648e-05,
+   "mcap": 36446,
+   "liq": 13668.93,
+   "h1": -1.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T13:01:04.884403+00:00",
+   "symbol": "PROPFUN",
+   "mint": "FoufDb9hXygVYT58SVDAFhbd98k3D93xYHtd9eCewQPk",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 19.9% > 12% gate",
+   "entry_price": 4.104e-05,
+   "mcap": 41046,
+   "liq": 16396.3,
+   "h1": 11.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T12:01:03.189148+00:00",
    "symbol": "duge",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T19:31:01.591343+00:00",
-   "symbol": "CEILING",
-   "mint": "EFCLz5dNa7kjsGqEZ3QhaKNozcAgJChNP78koKyppump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 23.9% > 12% gate",
-   "entry_price": 3.067e-05,
-   "mcap": 30652,
-   "liq": 12773.04,
-   "h1": -26.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T19:01:21.487039+00:00",
-   "symbol": "Laura",
-   "mint": "Hbgvqrk9UJLQZQSsdxMugyTY8jTR5RBKWgaQNYkEpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0007259,
-   "mcap": 717330,
-   "liq": 69851.26,
-   "h1": 1161,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -776,6 +776,21 @@
    "last": "2026-11-07 10:30 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 33,
+   "symbols": [
+    "Dacity",
+    "Jason",
+    "CBUCKS",
+    "MAMESUKE",
+    "GATO",
+    "RICO",
+    "Bubbles",
+    "GLITCH"
+   ],
+   "last": "2026-11-07 13:00 UTC"
+  },
+  {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
    "hits": 33,
    "symbols": [
@@ -791,21 +806,6 @@
    "last": "2026-11-07 12:30 UTC"
   },
   {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 32,
-   "symbols": [
-    "Wifoween",
-    "Dacity",
-    "Jason",
-    "CBUCKS",
-    "MAMESUKE",
-    "GATO",
-    "RICO",
-    "Bubbles"
-   ],
-   "last": "2026-11-07 05:00 UTC"
-  },
-  {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
    "hits": 31,
    "symbols": [
@@ -818,7 +818,7 @@
     "$Gatto",
     "GATO"
    ],
-   "last": "2026-11-06 21:00 UTC"
+   "last": "2026-11-07 13:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -999,14 +999,14 @@
   {
    "symbol": "HODL",
    "tag": "FADING",
-   "h1": -21.6,
-   "ts": "2026-11-07 12:30 UTC"
+   "h1": -38.0,
+   "ts": "2026-11-07 13:00 UTC"
   },
   {
    "symbol": "Busted",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-11-07 12:30 UTC"
+   "h1": -15.6,
+   "ts": "2026-11-07 13:00 UTC"
   },
   {
    "symbol": "MEME",
