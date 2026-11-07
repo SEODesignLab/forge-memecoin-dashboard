@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T23:04:01.841139+00:00",
+ "generated": "2026-11-07T23:34:01.964888+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1981,
-  "cohort_wallets": 1925,
+  "cohort_runs": 1982,
+  "cohort_wallets": 1939,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 143
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -45,14 +45,6 @@
    "count": 6
   },
   {
-   "reason": "RugCheck risk 50>45",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 14.8% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 12.8% > 12% gate",
    "count": 5
   },
@@ -65,15 +57,83 @@
    "count": 5
   },
   {
-   "reason": "Top holder 20.3% > 12% gate",
+   "reason": "Top holder 14.8% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 15.3% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 12.2% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "RugCheck risk 46>45",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T23:30:18.832844+00:00",
+   "symbol": "ClaudiaGI",
+   "mint": "AtsxeXEVGCSJFDQKFpxucEjxk5vk9SUkU21mrCSFpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004734,
+   "mcap": 473366,
+   "liq": 54017.91,
+   "h1": 864,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T23:30:18.825438+00:00",
+   "symbol": "fun",
+   "mint": "2Vyn71PUv4t9dDcA6dDDRSgmS4eeq7kBr93MPfkzbfun",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 26.0% > 12% gate",
+   "entry_price": 3.145e-05,
+   "mcap": 31426,
+   "liq": 13776.09,
+   "h1": -30.47,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T23:30:18.819448+00:00",
+   "symbol": "GTA",
+   "mint": "Ch6cxwpSbEgUDW1hrhC1JDLVmCUZaTCxDfUoY3Sepump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002451,
+   "mcap": 245059,
+   "liq": 37936.78,
+   "h1": 455,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T23:30:18.808454+00:00",
+   "symbol": "CLAUDIA",
+   "mint": "HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002184,
+   "mcap": 218356,
+   "liq": 36064.3,
+   "h1": 447,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T23:00:21.343111+00:00",
    "symbol": "TAOLF",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T11:31:07.039071+00:00",
-   "symbol": "Burn",
-   "mint": "4LHAeHbziM2KAcdmsiaWPSgz2oMdiHAqPhpB68xbpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 6.14e-05,
-   "mcap": 60640,
-   "liq": 18265.23,
-   "h1": 62.59,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T10:01:47.660145+00:00",
-   "symbol": "PODS",
-   "mint": "LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 0.0001631,
-   "mcap": 163019,
-   "liq": 46491.93,
-   "h1": 338,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T09:31:02.664036+00:00",
-   "symbol": "gooner",
-   "mint": "2aTYTMEpcDQpSaXt3dYPmDX2ogSoZu5EXT6FyAcVpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Mint/freeze not renounced",
-   "entry_price": 4.221e-05,
-   "mcap": 42161,
-   "liq": 14974.45,
-   "h1": 11.12,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T09:01:00.752296+00:00",
-   "symbol": "lucky",
-   "mint": "7jpQyywZm2KD9NTZX7DoZkcvETWCEf56wb1nmfJmpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002407,
-   "mcap": 240756,
-   "liq": 40019.6,
-   "h1": 534,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -773,7 +773,7 @@
     "bul",
     "HOPE"
    ],
-   "last": "2026-11-07 23:00 UTC"
+   "last": "2026-11-07 23:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": -6.0,
-   "ts": "2026-11-07 23:00 UTC"
+   "h1": -10.1,
+   "ts": "2026-11-07 23:30 UTC"
   },
   {
    "symbol": "GIGAHUG",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-11-07 23:00 UTC"
+   "h1": -2.0,
+   "ts": "2026-11-07 23:30 UTC"
   }
  ],
  "live_closes": [
