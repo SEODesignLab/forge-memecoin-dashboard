@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T06:34:56.673651+00:00",
+ "generated": "2026-11-07T07:04:56.852678+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1948,
-  "cohort_wallets": 1962,
+  "cohort_runs": 1949,
+  "cohort_wallets": 1976,
   "cohort_qualified": 160,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 144
   },
   {
    "reason": "RugCheck risk 50>45",
-   "count": 10
+   "count": 9
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T07:01:00.529568+00:00",
+   "symbol": "Alice",
+   "mint": "7tSMEsYfx2vdPSmnmqBRbFuaPUMmVuiCVsmpFtfLpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001265,
+   "mcap": 126449,
+   "liq": 28469.98,
+   "h1": 234,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T07:01:00.521617+00:00",
+   "symbol": "BRUH",
+   "mint": "Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001558,
+   "mcap": 155732,
+   "liq": 31071.77,
+   "h1": 311,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T06:31:17.439779+00:00",
    "symbol": "CASHDOG",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T17:01:09.316009+00:00",
-   "symbol": "Chicxu",
-   "mint": "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0006234,
-   "mcap": 614868,
-   "liq": 65619.6,
-   "h1": 962,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-06T17:01:09.308478+00:00",
-   "symbol": "KoriMu",
-   "mint": "8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002497,
-   "mcap": 246302,
-   "liq": 38953.51,
-   "h1": 551,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "GLITCH",
     "MEME"
    ],
-   "last": "2026-11-07 06:30 UTC"
+   "last": "2026-11-07 07:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -999,8 +999,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-11-07 06:30 UTC"
+   "h1": 3.4,
+   "ts": "2026-11-07 07:00 UTC"
   },
   {
    "symbol": "Busted",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "MEME",
-   "tag": "WATCH",
-   "h1": -9.5,
-   "ts": "2026-11-07 06:30 UTC"
+   "tag": "FADING",
+   "h1": -43.1,
+   "ts": "2026-11-07 07:00 UTC"
   }
  ],
  "live_closes": [
