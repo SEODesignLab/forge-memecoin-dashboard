@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T17:04:59.966102+00:00",
+ "generated": "2026-11-07T17:35:00.084568+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1969,
-  "cohort_wallets": 1743,
+  "cohort_runs": 1970,
+  "cohort_wallets": 1760,
   "cohort_qualified": 162,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T17:31:06.178535+00:00",
+   "symbol": "HERO",
+   "mint": "B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004196,
+   "mcap": 414431,
+   "liq": 52838.85,
+   "h1": 633,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-07T17:31:06.171736+00:00",
+   "symbol": "LUCIA",
+   "mint": "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 6.018e-05,
+   "mcap": 60130,
+   "liq": 28323,
+   "h1": 69.33,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T17:01:30.051336+00:00",
    "symbol": "piLL",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T04:01:01.643098+00:00",
-   "symbol": "SCAMCHI",
-   "mint": "FhtLRwmMfuZAghT8HQ3hhvFYBV3Cw7duGyvjnU7Apump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000236,
-   "mcap": 229797,
-   "liq": 40706.68,
-   "h1": 146,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T03:01:18.977036+00:00",
-   "symbol": "STM",
-   "mint": "C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 22.2% > 12% gate",
-   "entry_price": 3.569e-05,
-   "mcap": 35691,
-   "liq": 15295.43,
-   "h1": -2.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "GLITCH",
     "CBUCKS"
    ],
-   "last": "2026-11-07 15:00 UTC"
+   "last": "2026-11-07 17:31 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,8 +993,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": -2.1,
-   "ts": "2026-11-07 17:00 UTC"
+   "h1": -6.3,
+   "ts": "2026-11-07 17:31 UTC"
   },
   {
    "symbol": "Busted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 2.8,
-   "ts": "2026-11-07 17:00 UTC"
+   "h1": 5.9,
+   "ts": "2026-11-07 17:31 UTC"
   }
  ],
  "live_closes": [
