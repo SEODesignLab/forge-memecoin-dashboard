@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T17:35:00.084568+00:00",
+ "generated": "2026-11-07T18:04:00.279111+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1970,
-  "cohort_wallets": 1760,
-  "cohort_qualified": 162,
+  "cohort_runs": 1971,
+  "cohort_wallets": 1775,
+  "cohort_qualified": 163,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T18:00:10.036544+00:00",
+   "symbol": "ECAT",
+   "mint": "C891rB7xCUAztoAinptQFbDiDnDhJf3NQWALP98fpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001818,
+   "mcap": 181744,
+   "liq": 32778.28,
+   "h1": 305,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T17:31:06.178535+00:00",
    "symbol": "HERO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T04:31:08.067646+00:00",
-   "symbol": "Slingfolio",
-   "mint": "Bhe7zAmLTxsV2JiiibujUX4yHJbKjPFYTLSGTQUzpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001547,
-   "mcap": 154586,
-   "liq": 31137.4,
-   "h1": 315,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,8 +993,8 @@
   {
    "symbol": "HODL",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-11-07 17:31 UTC"
+   "h1": 5.7,
+   "ts": "2026-11-07 18:00 UTC"
   },
   {
    "symbol": "Busted",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 5.9,
-   "ts": "2026-11-07 17:31 UTC"
+   "h1": 1.7,
+   "ts": "2026-11-07 18:00 UTC"
   }
  ],
  "live_closes": [
