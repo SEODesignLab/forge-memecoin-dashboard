@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T22:34:01.645982+00:00",
+ "generated": "2026-11-07T23:04:01.841139+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1980,
-  "cohort_wallets": 1909,
+  "cohort_runs": 1981,
+  "cohort_wallets": 1925,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-07T23:00:21.343111+00:00",
+   "symbol": "TAOLF",
+   "mint": "3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 15.4% > 12% gate",
+   "entry_price": 0.000415,
+   "mcap": 415069,
+   "liq": 127402.18,
+   "h1": 64.37,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-07T22:30:08.443690+00:00",
    "symbol": "HINT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T07:31:05.788356+00:00",
-   "symbol": "notion",
-   "mint": "4C6LMX3q8iwShzW6j6A71NAUCgZ9G72T93hh4bKDpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 18.2% > 12% gate",
-   "entry_price": 5.467e-05,
-   "mcap": 54611,
-   "liq": 17099.75,
-   "h1": 32.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 34,
+   "hits": 35,
    "symbols": [
-    "SENSE",
     "CATPAD",
     "GLITCH",
     "Dacity",
     "CBUCKS",
     "WASTED",
     "RICO",
-    "bul"
+    "bul",
+    "HOPE"
    ],
-   "last": "2026-11-07 22:00 UTC"
+   "last": "2026-11-07 23:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 4.7,
-   "ts": "2026-11-07 22:30 UTC"
+   "h1": -6.0,
+   "ts": "2026-11-07 23:00 UTC"
   },
   {
    "symbol": "GIGAHUG",
    "tag": "WATCH",
-   "h1": 0.7,
-   "ts": "2026-11-07 22:30 UTC"
+   "h1": -4.3,
+   "ts": "2026-11-07 23:00 UTC"
   }
  ],
  "live_closes": [
