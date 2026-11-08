@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T21:34:08.640961+00:00",
+ "generated": "2026-11-08T22:04:08.831354+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2026,
-  "cohort_wallets": 1989,
-  "cohort_qualified": 167,
+  "cohort_runs": 2027,
+  "cohort_wallets": 1500,
+  "cohort_qualified": 168,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -29,12 +29,12 @@
    "count": 146
   },
   {
-   "reason": "Top holder 14.6% > 12% gate",
+   "reason": "Top holder 12.4% > 12% gate",
    "count": 8
   },
   {
-   "reason": "Top holder 12.4% > 12% gate",
-   "count": 8
+   "reason": "Top holder 14.6% > 12% gate",
+   "count": 7
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T22:00:33.680271+00:00",
+   "symbol": "EARN",
+   "mint": "ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 12.2% > 12% gate",
+   "entry_price": 0.0001102,
+   "mcap": 110065,
+   "liq": 25473.48,
+   "h1": 205,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-08T22:00:33.672774+00:00",
+   "symbol": "GPU",
+   "mint": "FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Liquidity $24756 < $25000",
+   "entry_price": 0.0001114,
+   "mcap": 110141,
+   "liq": 24755.94,
+   "h1": 153,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T21:30:21.485645+00:00",
    "symbol": "JensenAlice",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T02:00:21.746081+00:00",
-   "symbol": "FLOAT",
-   "mint": "4QmzE5EiVqGmy6UYA6gv7cQFKqZvhT8rHkbqYt5vpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004039,
-   "mcap": 403893,
-   "liq": 49474.48,
-   "h1": 805,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T02:00:21.739480+00:00",
-   "symbol": "Respect",
-   "mint": "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003375,
-   "mcap": 334740,
-   "liq": 45502.77,
-   "h1": 65.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 99,
+   "hits": 100,
    "symbols": [
-    "bul",
     "$Gatto",
     "Bubbles",
     "Gobbler",
     "GLITCH",
     "MEME",
     "Busted",
-    "WASTED"
+    "WASTED",
+    "JASON"
    ],
-   "last": "2026-11-08 16:30 UTC"
+   "last": "2026-11-08 22:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -803,7 +803,7 @@
     "GLITCH",
     "CBUCKS"
    ],
-   "last": "2026-11-08 16:30 UTC"
+   "last": "2026-11-08 22:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,26 +993,26 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -19.0,
-   "ts": "2026-11-08 21:30 UTC"
+   "h1": 8.7,
+   "ts": "2026-11-08 22:00 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "WATCH",
-   "h1": 11.6,
-   "ts": "2026-11-08 21:30 UTC"
+   "h1": 0.7,
+   "ts": "2026-11-08 22:00 UTC"
   },
   {
    "symbol": "HEREWEGO",
    "tag": "WATCH",
-   "h1": 2.4,
-   "ts": "2026-11-08 21:30 UTC"
+   "h1": 8.2,
+   "ts": "2026-11-08 22:00 UTC"
   },
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -0.5,
-   "ts": "2026-11-08 21:30 UTC"
+   "h1": -1.3,
+   "ts": "2026-11-08 22:00 UTC"
   }
  ],
  "live_closes": [
