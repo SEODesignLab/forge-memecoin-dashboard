@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:34:08.331142+00:00",
+ "generated": "2026-11-08T21:04:08.508447+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2024,
-  "cohort_wallets": 1927,
+  "cohort_runs": 2025,
+  "cohort_wallets": 1959,
   "cohort_qualified": 167,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,19 +61,34 @@
    "count": 5
   },
   {
+   "reason": "RugCheck risk 80>45",
+   "count": 4
+  },
+  {
    "reason": "Top holder 22.3% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 14.2% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 12.7% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T21:00:30.257178+00:00",
+   "symbol": "FI",
+   "mint": "9SXjHAYXgoaCUPnSVo4sKVwaL5XpEEm2LGwzk2sYpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.008e-06,
+   "mcap": 3004,
+   "liq": 7894.29,
+   "h1": -91.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T20:30:23.251201+00:00",
    "symbol": "DAISY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T01:30:21.961406+00:00",
-   "symbol": "MAGGIE",
-   "mint": "4QhwAw8ituDjJbMMJG3zLLgHmrhL74WZ2BximAYYBAGS",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 29.4% > 12% gate",
-   "entry_price": 1.866e-05,
-   "mcap": 18666,
-   "liq": 9826.97,
-   "h1": -58.25,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "GIGAHUG",
-   "tag": "FADING",
-   "h1": -31.8,
-   "ts": "2026-11-08 20:30 UTC"
+   "tag": "WATCH",
+   "h1": 24.1,
+   "ts": "2026-11-08 21:00 UTC"
   },
   {
    "symbol": "Respect",
@@ -999,20 +999,20 @@
   {
    "symbol": "JASON",
    "tag": "FADING",
-   "h1": -35.6,
-   "ts": "2026-11-08 20:30 UTC"
+   "h1": -25.2,
+   "ts": "2026-11-08 21:00 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "WATCH",
-   "h1": 27.0,
-   "ts": "2026-11-08 20:30 UTC"
+   "h1": 46.9,
+   "ts": "2026-11-08 21:00 UTC"
   },
   {
    "symbol": "HEREWEGO",
    "tag": "WATCH",
-   "h1": 35.2,
-   "ts": "2026-11-08 20:30 UTC"
+   "h1": 28.2,
+   "ts": "2026-11-08 21:00 UTC"
   }
  ],
  "live_closes": [
