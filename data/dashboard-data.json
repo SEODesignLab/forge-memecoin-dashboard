@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T00:34:02.294213+00:00",
+ "generated": "2026-11-08T01:04:02.472085+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 1984,
-  "cohort_wallets": 1976,
+  "cohort_runs": 1985,
+  "cohort_wallets": 1994,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T01:00:15.321022+00:00",
+   "symbol": "Job",
+   "mint": "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 79>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 7.758e-05,
+   "mcap": 77484,
+   "liq": 20812.26,
+   "h1": 110,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T00:30:15.419194+00:00",
    "symbol": "FOLD",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T13:01:04.889999+00:00",
-   "symbol": "cig",
-   "mint": "X7vvi2scAYDftprhfRf2ij2YHHbaL3Noenpzmrypump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 21.2% > 12% gate",
-   "entry_price": 3.648e-05,
-   "mcap": 36446,
-   "liq": 13668.93,
-   "h1": -1.78,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "GATO",
     "CBUCKS"
    ],
-   "last": "2026-11-07 21:30 UTC"
+   "last": "2026-11-08 01:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -897,18 +897,18 @@
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
-   "hits": 20,
+   "hits": 21,
    "symbols": [
-    "INU",
     "XSTOK",
     "Satoshi",
     "CATONICE",
     "Groklet",
     "SHADOW",
     "MONEYBIZ",
-    "PHP"
+    "PHP",
+    "WASTED"
    ],
-   "last": "2026-10-23 16:30 UTC"
+   "last": "2026-11-08 01:00 UTC"
   },
   {
    "wallet": "Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK",
@@ -945,8 +945,8 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-11-08 00:30 UTC"
+   "h1": -1.5,
+   "ts": "2026-11-08 01:00 UTC"
   },
   {
    "symbol": "Bubbles",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": 0.6,
-   "ts": "2026-11-08 00:30 UTC"
+   "h1": -5.7,
+   "ts": "2026-11-08 01:00 UTC"
   },
   {
    "symbol": "GIGAHUG",
    "tag": "WATCH",
-   "h1": -0.0,
-   "ts": "2026-11-08 00:30 UTC"
+   "h1": 1.4,
+   "ts": "2026-11-08 01:00 UTC"
   }
  ],
  "live_closes": [
