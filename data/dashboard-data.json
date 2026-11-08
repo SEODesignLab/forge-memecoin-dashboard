@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T11:04:05.442043+00:00",
+ "generated": "2026-11-08T11:34:05.589679+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2005,
-  "cohort_wallets": 1982,
+  "cohort_runs": 2006,
+  "cohort_wallets": 1500,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 145
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T11:30:14.484535+00:00",
+   "symbol": "coby",
+   "mint": "SErvtWoP3S38q6EY9tFwth9ttuBnk8TnC74QXcwpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 37.0% > 12% gate",
+   "entry_price": 2.094e-05,
+   "mcap": 20945,
+   "liq": 10137.43,
+   "h1": -43.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T11:00:29.986331+00:00",
    "symbol": "fiat",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T21:00:08.489481+00:00",
-   "symbol": "Jos\u00e9",
-   "mint": "HgRk5aPDzwDCrdcuD2KoavBHBrNYbUdmUPXusnyapump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001764,
-   "mcap": 176488,
-   "liq": 32281.83,
-   "h1": 338,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -777,18 +777,18 @@
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 34,
+   "hits": 35,
    "symbols": [
-    "Jason",
     "CBUCKS",
     "MAMESUKE",
     "GATO",
     "RICO",
     "Bubbles",
     "GLITCH",
-    "WASTED"
+    "WASTED",
+    "GIGAHUG"
    ],
-   "last": "2026-11-08 07:00 UTC"
+   "last": "2026-11-08 11:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "HOPE",
-   "tag": "WATCH",
-   "h1": 96.8,
-   "ts": "2026-11-08 11:00 UTC"
+   "tag": "CHASE",
+   "h1": 171.0,
+   "ts": "2026-11-08 11:30 UTC"
   },
   {
    "symbol": "GIGAHUG",
    "tag": "WATCH",
-   "h1": -5.0,
-   "ts": "2026-11-08 11:00 UTC"
+   "h1": -9.2,
+   "ts": "2026-11-08 11:30 UTC"
   },
   {
    "symbol": "Respect",
    "tag": "FADING",
-   "h1": -53.2,
-   "ts": "2026-11-08 11:00 UTC"
+   "h1": -34.6,
+   "ts": "2026-11-08 11:30 UTC"
   }
  ],
  "live_closes": [
