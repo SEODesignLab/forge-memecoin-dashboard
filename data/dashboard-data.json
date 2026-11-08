@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T10:34:05.271177+00:00",
+ "generated": "2026-11-08T11:04:05.442043+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2004,
-  "cohort_wallets": 1961,
+  "cohort_runs": 2005,
+  "cohort_wallets": 1982,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,19 +61,64 @@
    "count": 5
   },
   {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 12.8% > 12% gate",
    "count": 4
   },
   {
    "reason": "RugCheck risk 50>45",
    "count": 4
+  },
+  {
+   "reason": "Top holder 22.3% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T11:00:29.986331+00:00",
+   "symbol": "fiat",
+   "mint": "AKeCyQBKmKRTekyvv5eC4sTkrrMwcPdzMYqxzGbQPUTS",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 22.7% > 12% gate",
+   "entry_price": 5.03e-05,
+   "mcap": 50300,
+   "liq": 20014.67,
+   "h1": -13.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-08T11:00:29.981758+00:00",
+   "symbol": "MarsX",
+   "mint": "B7up5gMt5GGjWH1EgAUzpFoRsTnxFqJtiyuPzfQKREZN",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 29.3% > 12% gate",
+   "entry_price": 5.871e-05,
+   "mcap": 58717,
+   "liq": 17812.96,
+   "h1": 59.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-08T11:00:29.976548+00:00",
+   "symbol": "PMUSI",
+   "mint": "HsXo7d9bFQZTbhAquXJBmykCJoPnzZVnx92GNrZTpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 18.4% > 12% gate",
+   "entry_price": 8.162e-05,
+   "mcap": 81521,
+   "liq": 28191.63,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T10:00:14.161106+00:00",
    "symbol": "StonksPair",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T20:00:22.225593+00:00",
-   "symbol": "GIGAHUG",
-   "mint": "FHSB5iPopaLZxUubiQsyHiaEuXu5Hne7uqMYvtzhpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003843,
-   "mcap": 384228,
-   "liq": 48509.15,
-   "h1": 561,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T20:00:22.217861+00:00",
-   "symbol": "DEMWOJAK",
-   "mint": "F7PuP5Typwuv3P6dtbB7N6fBVmqYSWu7We7S4wT1pump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Top holder 38.8% > 12% gate",
-   "entry_price": 4.972e-05,
-   "mcap": 49682,
-   "liq": 16260.34,
-   "h1": 34.19,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T19:30:11.738334+00:00",
-   "symbol": "Millioners",
-   "mint": "EyvmSJy7z7VLj8158NNnJizKSH1rekfbnx1wSgMVpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 61>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.349e-05,
-   "mcap": 13482,
-   "liq": 8206.21,
-   "h1": -64.26,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "HOPE",
-   "tag": "FADING",
-   "h1": -26.3,
-   "ts": "2026-11-08 10:30 UTC"
+   "tag": "WATCH",
+   "h1": 96.8,
+   "ts": "2026-11-08 11:00 UTC"
   },
   {
    "symbol": "GIGAHUG",
-   "tag": "FADING",
-   "h1": -22.4,
-   "ts": "2026-11-08 10:30 UTC"
+   "tag": "WATCH",
+   "h1": -5.0,
+   "ts": "2026-11-08 11:00 UTC"
   },
   {
    "symbol": "Respect",
    "tag": "FADING",
-   "h1": -38.2,
-   "ts": "2026-11-08 10:30 UTC"
+   "h1": -53.2,
+   "ts": "2026-11-08 11:00 UTC"
   }
  ],
  "live_closes": [
