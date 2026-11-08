@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T09:34:04.985506+00:00",
+ "generated": "2026-11-08T10:04:05.155041+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2002,
-  "cohort_wallets": 1909,
+  "cohort_runs": 2003,
+  "cohort_wallets": 1934,
   "cohort_qualified": 165,
   "live_closes": 18,
   "live_wins": 4,
@@ -53,6 +53,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 14.7% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 19.2% > 12% gate",
    "count": 5
   },
@@ -67,13 +71,24 @@
   {
    "reason": "RugCheck risk 50>45",
    "count": 4
-  },
-  {
-   "reason": "Top holder 22.3% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-08T10:00:14.161106+00:00",
+   "symbol": "StonksPair",
+   "mint": "7pVL46MuwmQn3bYM3DBKSS1ddNtRur6wEyS54pGPrAiJ",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 14.7% > 12% gate",
+   "entry_price": 7.42e-05,
+   "mcap": 74205,
+   "liq": 22121.96,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T09:30:23.124197+00:00",
    "symbol": "Puddgy",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-07T19:30:11.733643+00:00",
-   "symbol": "Whitehouse",
-   "mint": "5UWfbqWEcLqDSrA2SwNXQpvbqEhZ2kPyh3LaPEmzpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 20.2% > 12% gate",
-   "entry_price": 6.24e-05,
-   "mcap": 62406,
-   "liq": 20165.2,
-   "h1": 31.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "HOPE",
    "tag": "WATCH",
-   "h1": -0.9,
-   "ts": "2026-11-08 09:30 UTC"
+   "h1": 10.2,
+   "ts": "2026-11-08 10:00 UTC"
   },
   {
    "symbol": "GIGAHUG",
    "tag": "WATCH",
-   "h1": 27.4,
-   "ts": "2026-11-08 09:30 UTC"
+   "h1": -6.7,
+   "ts": "2026-11-08 10:00 UTC"
   },
   {
    "symbol": "Respect",
    "tag": "WATCH",
-   "h1": 27.8,
-   "ts": "2026-11-08 09:30 UTC"
+   "h1": 18.8,
+   "ts": "2026-11-08 10:00 UTC"
   }
  ],
  "live_closes": [
