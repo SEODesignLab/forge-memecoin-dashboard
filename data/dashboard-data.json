@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:34:12.265620+00:00",
+ "generated": "2026-11-09T10:04:12.458398+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2050,
-  "cohort_wallets": 1557,
-  "cohort_qualified": 172,
+  "cohort_runs": 2051,
+  "cohort_wallets": 1577,
+  "cohort_qualified": 173,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T10:00:40.550124+00:00",
+   "symbol": "Anchor",
+   "mint": "27iaWc5qjQAubC7ENwqD2zYGmm1UWJyMpXNz3DFQpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 66>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 1.49e-05,
+   "mcap": 14874,
+   "liq": 8501.71,
+   "h1": -58.52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T08:00:26.648990+00:00",
    "symbol": "BTC",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T15:30:26.954785+00:00",
-   "symbol": "ELYSION",
-   "mint": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001523,
-   "mcap": 1523107,
-   "liq": 100104.58,
-   "h1": 2857,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,14 +987,14 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -9.1,
-   "ts": "2026-11-09 09:30 UTC"
+   "h1": -8.7,
+   "ts": "2026-11-09 10:00 UTC"
   },
   {
    "symbol": "ELYSION",
-   "tag": "FADING",
-   "h1": -47.3,
-   "ts": "2026-11-09 09:30 UTC"
+   "tag": "WATCH",
+   "h1": 15.1,
+   "ts": "2026-11-09 10:00 UTC"
   },
   {
    "symbol": "HEREWEGO",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-11-09 09:30 UTC"
+   "h1": -13.8,
+   "ts": "2026-11-09 10:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "WATCH",
-   "h1": -14.6,
-   "ts": "2026-11-09 09:30 UTC"
+   "tag": "FADING",
+   "h1": -21.6,
+   "ts": "2026-11-09 10:00 UTC"
   }
  ],
  "live_closes": [
