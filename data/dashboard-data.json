@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:04:12.810620+00:00",
+ "generated": "2026-11-09T11:34:12.909855+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2053,
-  "cohort_wallets": 1619,
+  "cohort_runs": 2054,
+  "cohort_wallets": 1638,
   "cohort_qualified": 173,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 139
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 16.3% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 18.2% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -71,9 +67,43 @@
   {
    "reason": "Top holder 20.7% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 12.7% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T11:30:41.788597+00:00",
+   "symbol": "BANK",
+   "mint": "5vF6GKASqDF5iNKAyEwbimhivXPW32bACEe4WXfapump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 18.4% > 12% gate",
+   "entry_price": 7.652e-05,
+   "mcap": 76524,
+   "liq": 23199.75,
+   "h1": 68.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T11:30:41.783510+00:00",
+   "symbol": "CURVD",
+   "mint": "AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 23.8% > 12% gate",
+   "entry_price": 3.754e-05,
+   "mcap": 37549,
+   "liq": 16989.03,
+   "h1": 6.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T11:00:50.115687+00:00",
    "symbol": "SOLGATO",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T20:00:18.448760+00:00",
-   "symbol": "GROKIA",
-   "mint": "HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 19.3% > 12% gate",
-   "entry_price": 6.379e-05,
-   "mcap": 63703,
-   "liq": 21135.66,
-   "h1": 31.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T19:30:29.766055+00:00",
-   "symbol": "GROKIA",
-   "mint": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Top holder 18.5% > 12% gate",
-   "entry_price": 4.44e-05,
-   "mcap": 44409,
-   "liq": 16793.46,
-   "h1": 0.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "WASTED",
     "JASON"
    ],
-   "last": "2026-11-09 11:00 UTC"
+   "last": "2026-11-09 11:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -758,7 +758,7 @@
     "CBUCKS",
     "JASON"
    ],
-   "last": "2026-11-09 10:30 UTC"
+   "last": "2026-11-09 11:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -987,14 +987,14 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -6.0,
-   "ts": "2026-11-09 11:00 UTC"
+   "h1": 8.1,
+   "ts": "2026-11-09 11:30 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "FADING",
-   "h1": -25.9,
-   "ts": "2026-11-09 11:00 UTC"
+   "h1": -44.7,
+   "ts": "2026-11-09 11:30 UTC"
   },
   {
    "symbol": "HEREWEGO",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-11-09 11:00 UTC"
+   "h1": -0.9,
+   "ts": "2026-11-09 11:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "WATCH",
-   "h1": 19.8,
-   "ts": "2026-11-09 11:00 UTC"
+   "tag": "FADING",
+   "h1": -20.6,
+   "ts": "2026-11-09 11:30 UTC"
   }
  ],
  "live_closes": [
