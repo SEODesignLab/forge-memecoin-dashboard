@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:04:16.574032+00:00",
+ "generated": "2026-11-09T23:34:16.714243+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2077,
-  "cohort_wallets": 1500,
-  "cohort_qualified": 176,
+  "cohort_runs": 2078,
+  "cohort_wallets": 1521,
+  "cohort_qualified": 177,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 141
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T23:30:28.781745+00:00",
+   "symbol": "TOGO",
+   "mint": "3S4y78b14PRp1e71JNu5rZ2dvP2rwixTc45UE4zWpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003778,
+   "mcap": 377738,
+   "liq": 47268.53,
+   "h1": 768,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T23:00:27.127763+00:00",
    "symbol": "GPU",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T10:00:40.550124+00:00",
-   "symbol": "Anchor",
-   "mint": "27iaWc5qjQAubC7ENwqD2zYGmm1UWJyMpXNz3DFQpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 66>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.49e-05,
-   "mcap": 14874,
-   "liq": 8501.71,
-   "h1": -58.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -969,8 +969,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 8.2,
-   "ts": "2026-11-09 23:00 UTC"
+   "h1": 12.1,
+   "ts": "2026-11-09 23:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -999,20 +999,20 @@
   {
    "symbol": "HWAN",
    "tag": "WATCH",
-   "h1": 12.9,
-   "ts": "2026-11-09 23:00 UTC"
+   "h1": 66.5,
+   "ts": "2026-11-09 23:30 UTC"
   },
   {
    "symbol": "MAYA",
-   "tag": "CHASE",
-   "h1": 99947.0,
-   "ts": "2026-11-09 23:00 UTC"
+   "tag": "WATCH",
+   "h1": 0.1,
+   "ts": "2026-11-09 23:30 UTC"
   },
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": 48.3,
-   "ts": "2026-11-09 23:00 UTC"
+   "h1": 12.7,
+   "ts": "2026-11-09 23:30 UTC"
   }
  ],
  "live_closes": [
