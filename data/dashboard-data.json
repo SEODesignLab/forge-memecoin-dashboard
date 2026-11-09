@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T05:34:11.109952+00:00",
+ "generated": "2026-11-09T06:04:11.266107+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2042,
-  "cohort_wallets": 1884,
-  "cohort_qualified": 171,
+  "cohort_runs": 2043,
+  "cohort_wallets": 1910,
+  "cohort_qualified": 172,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 144
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 8
-  },
-  {
-   "reason": "Top holder 14.6% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
@@ -46,6 +42,10 @@
   },
   {
    "reason": "Top holder 18.2% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
    "count": 5
   },
   {
@@ -69,11 +69,41 @@
    "count": 4
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
+   "reason": "Top holder 13.6% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T06:00:31.755224+00:00",
+   "symbol": "BUIDL",
+   "mint": "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001704,
+   "mcap": 170479,
+   "liq": 36678.35,
+   "h1": 377,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T06:00:31.748373+00:00",
+   "symbol": "HUNG",
+   "mint": "CJ88vgZxFcaKwwTNktXK48wAi9fNHxrvKfwK1N9pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 13.6% > 12% gate",
+   "entry_price": 8.424e-05,
+   "mcap": 84175,
+   "liq": 23044.55,
+   "h1": 130,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T05:30:20.224705+00:00",
    "symbol": "LIMEKUMA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T13:30:31.149411+00:00",
-   "symbol": "MELT",
-   "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 18.2% > 12% gate",
-   "entry_price": 9.424e-05,
-   "mcap": 94246,
-   "liq": 32477.83,
-   "h1": 154,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T12:30:26.511501+00:00",
-   "symbol": "HIGHER",
-   "mint": "AqGetUdivPrpvsLH1fEfu3ted2mHMsjXv99cMcTEpump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 40.6% > 12% gate",
-   "entry_price": 1.175e-05,
-   "mcap": 11740,
-   "liq": 7322.09,
-   "h1": -74.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -4.9,
-   "ts": "2026-11-09 05:30 UTC"
+   "h1": -6.4,
+   "ts": "2026-11-09 06:00 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-11-09 05:30 UTC"
+   "h1": 14.7,
+   "ts": "2026-11-09 06:00 UTC"
   },
   {
    "symbol": "HEREWEGO",
-   "tag": "FADING",
-   "h1": -39.7,
-   "ts": "2026-11-09 05:30 UTC"
+   "tag": "WATCH",
+   "h1": -5.7,
+   "ts": "2026-11-09 06:00 UTC"
   },
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -6.8,
-   "ts": "2026-11-09 05:30 UTC"
+   "h1": -0.4,
+   "ts": "2026-11-09 06:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-09 05:30 UTC"
+   "h1": 2.8,
+   "ts": "2026-11-09 06:00 UTC"
   }
  ],
  "live_closes": [
