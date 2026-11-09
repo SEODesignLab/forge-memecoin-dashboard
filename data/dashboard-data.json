@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T23:34:09.319310+00:00",
+ "generated": "2026-11-09T00:04:09.476358+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2030,
-  "cohort_wallets": 1587,
-  "cohort_qualified": 168,
+  "cohort_runs": 2031,
+  "cohort_wallets": 1612,
+  "cohort_qualified": 169,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 144
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -34,7 +34,7 @@
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
-   "count": 7
+   "count": 6
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
@@ -69,11 +69,56 @@
    "count": 4
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
+   "reason": "Top holder 12.8% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T00:00:22.564530+00:00",
+   "symbol": "BabyAnsem",
+   "mint": "AMYoWtJRHFJyu9EvK7v8Z8aZXzwefUMBimCG8tZEpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 24.7% > 12% gate",
+   "entry_price": 4.017e-05,
+   "mcap": 40172,
+   "liq": 15888.01,
+   "h1": -21.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T00:00:22.556729+00:00",
+   "symbol": "CLANKER",
+   "mint": "8cp6EY2bZck2JU5MrfVyQuRBzdaYtb9cBTfjPwn5krHX",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 33.5% > 12% gate",
+   "entry_price": 8.906e-05,
+   "mcap": 89057,
+   "liq": 59561.08,
+   "h1": -33.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T00:00:22.548122+00:00",
+   "symbol": "NIVI",
+   "mint": "6odokGfZAeEm667cRiE3H7sLEhctKYaxPUTmE514pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 12.8% > 12% gate",
+   "entry_price": 0.000145,
+   "mcap": 145045,
+   "liq": 28679.79,
+   "h1": 232,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-08T23:30:16.113775+00:00",
    "symbol": "DEBT",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T03:30:17.768159+00:00",
-   "symbol": "SOLC",
-   "mint": "EXgMnKTGimrSSkZKdiZnm86jNqrJGgWeXFRUy1uWsoLc",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "Top holder 18.0% > 12% gate",
-   "entry_price": 6.56e-05,
-   "mcap": 65484,
-   "liq": 18979.14,
-   "h1": 77.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T03:00:23.299826+00:00",
-   "symbol": "ORBIT",
-   "mint": "DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0007029,
-   "mcap": 699307,
-   "liq": 68041.91,
-   "h1": 20.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T03:00:23.290995+00:00",
-   "symbol": "SINK",
-   "mint": "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001841,
-   "mcap": 179891,
-   "liq": 36025.74,
-   "h1": 112,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "WASTED",
     "JASON"
    ],
-   "last": "2026-11-08 23:30 UTC"
+   "last": "2026-11-09 00:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,26 +993,26 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-08 23:30 UTC"
+   "h1": -13.0,
+   "ts": "2026-11-09 00:00 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-08 23:30 UTC"
+   "h1": -10.2,
+   "ts": "2026-11-09 00:00 UTC"
   },
   {
    "symbol": "HEREWEGO",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-08 23:30 UTC"
+   "h1": 15.5,
+   "ts": "2026-11-09 00:00 UTC"
   },
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 9.1,
-   "ts": "2026-11-08 23:30 UTC"
+   "h1": -6.1,
+   "ts": "2026-11-09 00:00 UTC"
   }
  ],
  "live_closes": [
