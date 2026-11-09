@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T18:34:15.095287+00:00",
+ "generated": "2026-11-09T19:04:15.268328+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2068,
-  "cohort_wallets": 1910,
+  "cohort_runs": 2069,
+  "cohort_wallets": 1922,
   "cohort_qualified": 173,
   "live_closes": 18,
   "live_wins": 4,
@@ -57,10 +57,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 14.6% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 20.7% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,28 @@
   {
    "reason": "Mint/freeze not renounced",
    "count": 4
+  },
+  {
+   "reason": "Top holder 13.2% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T19:00:23.525073+00:00",
+   "symbol": "ATLAS",
+   "mint": "23oAPknpn7kyURwb85dHM1qUBj624WJrp5vF2Xgspump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 28.4% > 12% gate",
+   "entry_price": 2.535e-05,
+   "mcap": 25313,
+   "liq": 11045.73,
+   "h1": -29.28,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T18:30:30.667639+00:00",
    "symbol": "GTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T03:00:31.688887+00:00",
-   "symbol": "JENSEN",
-   "mint": "GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 13.6% > 12% gate",
-   "entry_price": 0.0001198,
-   "mcap": 119741,
-   "liq": 30625.42,
-   "h1": 166,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 100,
+   "hits": 101,
    "symbols": [
-    "$Gatto",
     "Bubbles",
     "Gobbler",
     "GLITCH",
     "MEME",
     "Busted",
     "WASTED",
-    "JASON"
+    "JASON",
+    "MILES"
    ],
-   "last": "2026-11-09 11:30 UTC"
+   "last": "2026-11-09 19:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -758,7 +758,7 @@
     "WASTED",
     "forg"
    ],
-   "last": "2026-11-09 18:30 UTC"
+   "last": "2026-11-09 19:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -818,7 +818,7 @@
     "CBUCKS",
     "JASON"
    ],
-   "last": "2026-11-09 17:30 UTC"
+   "last": "2026-11-09 19:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -993,8 +993,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 17.9,
-   "ts": "2026-11-09 18:30 UTC"
+   "h1": 14.9,
+   "ts": "2026-11-09 19:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "MILES",
    "tag": "FADING",
-   "h1": -42.1,
-   "ts": "2026-11-09 18:30 UTC"
+   "h1": -36.5,
+   "ts": "2026-11-09 19:00 UTC"
   }
  ],
  "live_closes": [
