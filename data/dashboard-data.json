@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T22:04:16.239828+00:00",
+ "generated": "2026-11-09T22:34:16.393749+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2075,
-  "cohort_wallets": 1986,
+  "cohort_runs": 2076,
+  "cohort_wallets": 1997,
   "cohort_qualified": 176,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -53,10 +53,6 @@
    "count": 5
   },
   {
-   "reason": "Mint/freeze not renounced",
-   "count": 4
-  },
-  {
    "reason": "Top holder 13.2% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 14.7% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 13.6% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T22:30:27.315947+00:00",
+   "symbol": "MERLYN",
+   "mint": "XeaWBDDBxj5Qf6S6TshMC1SKaxSccJfRZUDj26opump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 28.4% > 12% gate",
+   "entry_price": 4.867e-05,
+   "mcap": 46320,
+   "liq": 15818.93,
+   "h1": -14.98,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T22:30:27.311447+00:00",
+   "symbol": "PMURT",
+   "mint": "6D62Zh47ATUb7Cf3ZkZ2CqyX7haSL6j9CsaP7kWHmGi2",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 23.3% > 12% gate",
+   "entry_price": 0.0001375,
+   "mcap": 137574,
+   "liq": 63851.82,
+   "h1": -17.61,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T22:30:27.305667+00:00",
+   "symbol": "zuzu",
+   "mint": "Dbnum5j8Dvchiu3vHehgZQhr9hVpBPBseMWMMNMKpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 23.8% > 12% gate",
+   "entry_price": 4.348e-05,
+   "mcap": 43486,
+   "liq": 17022.91,
+   "h1": -5.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T21:30:29.114349+00:00",
    "symbol": "Unison",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T07:30:21.648756+00:00",
-   "symbol": "GPU",
-   "mint": "FhXXfmMcLLCnyVEU91QJVeQMBKGmbQQ2Y3pM2XL7pump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 19.6% > 12% gate",
-   "entry_price": 3.589e-05,
-   "mcap": 35893,
-   "liq": 13595.98,
-   "h1": 1.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T07:00:27.192665+00:00",
-   "symbol": "hoss",
-   "mint": "CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 14.9% > 12% gate",
-   "entry_price": 8.054e-05,
-   "mcap": 77743,
-   "liq": 20907.69,
-   "h1": 338,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T07:00:27.184993+00:00",
-   "symbol": "heng",
-   "mint": "9w2NEtTt22o1LG3sSTQ9QB6T5AkszF5m177XYeJjpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 54.8% > 12% gate",
-   "entry_price": 7.274e-06,
-   "mcap": 7266,
-   "liq": 5432.54,
-   "h1": -78.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "GIGAHUG",
-   "tag": "WATCH",
-   "h1": 24.1,
-   "ts": "2026-11-08 21:00 UTC"
-  },
-  {
    "symbol": "Respect",
    "tag": "FADING",
    "h1": -28.6,
@@ -975,8 +969,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 18.5,
-   "ts": "2026-11-09 22:00 UTC"
+   "h1": 18.8,
+   "ts": "2026-11-09 22:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -1005,14 +999,20 @@
   {
    "symbol": "HWAN",
    "tag": "FADING",
-   "h1": -57.1,
-   "ts": "2026-11-09 22:00 UTC"
+   "h1": -58.9,
+   "ts": "2026-11-09 22:30 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "CHASE",
-   "h1": 234.0,
-   "ts": "2026-11-09 21:30 UTC"
+   "h1": 235.0,
+   "ts": "2026-11-09 22:30 UTC"
+  },
+  {
+   "symbol": "THUG",
+   "tag": "WATCH",
+   "h1": 25.4,
+   "ts": "2026-11-09 22:30 UTC"
   }
  ],
  "live_closes": [
