@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:04:12.458398+00:00",
+ "generated": "2026-11-09T10:34:12.574985+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2051,
-  "cohort_wallets": 1577,
+  "cohort_runs": 2052,
+  "cohort_wallets": 1598,
   "cohort_qualified": 173,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T10:30:28.827407+00:00",
+   "symbol": "BRUNO",
+   "mint": "Ewhy4f2tPLfHuaBdvsAK1DWB7SbD2aGEDuhz7nc7pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 78>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.23e-05,
+   "mcap": 52309,
+   "liq": 19288.9,
+   "h1": 42.39,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T10:00:40.550124+00:00",
    "symbol": "Anchor",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T15:30:26.959232+00:00",
-   "symbol": "CREAM",
-   "mint": "HYSQ3jfTF3gW4WKkNh62cszwaKeThamQYQAhoEL3BAGS",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 5.413e-05,
-   "mcap": 54135,
-   "liq": 17666.12,
-   "h1": 59.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "CBUCKS",
     "JASON"
    ],
-   "last": "2026-11-09 08:00 UTC"
+   "last": "2026-11-09 10:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -773,7 +773,7 @@
     "JASON",
     "HEREWEGO"
    ],
-   "last": "2026-11-09 07:00 UTC"
+   "last": "2026-11-09 10:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -987,14 +987,14 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -8.7,
-   "ts": "2026-11-09 10:00 UTC"
+   "h1": -8.5,
+   "ts": "2026-11-09 10:30 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "WATCH",
-   "h1": 15.1,
-   "ts": "2026-11-09 10:00 UTC"
+   "h1": 4.0,
+   "ts": "2026-11-09 10:30 UTC"
   },
   {
    "symbol": "HEREWEGO",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -13.8,
-   "ts": "2026-11-09 10:00 UTC"
+   "h1": -5.9,
+   "ts": "2026-11-09 10:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "FADING",
-   "h1": -21.6,
-   "ts": "2026-11-09 10:00 UTC"
+   "tag": "WATCH",
+   "h1": 9.2,
+   "ts": "2026-11-09 10:30 UTC"
   }
  ],
  "live_closes": [
