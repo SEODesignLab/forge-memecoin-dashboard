@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T01:04:09.792122+00:00",
+ "generated": "2026-11-09T01:34:09.932419+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2033,
-  "cohort_wallets": 1654,
+  "cohort_runs": 2034,
+  "cohort_wallets": 1675,
   "cohort_qualified": 169,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 8
-  },
-  {
-   "reason": "Top holder 14.6% > 12% gate",
-   "count": 6
   },
   {
    "reason": "Top holder 13.1% > 12% gate",
@@ -46,6 +42,10 @@
   },
   {
    "reason": "RugCheck risk 80>45",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
    "count": 5
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T01:30:20.501835+00:00",
+   "symbol": "BAWSAQ",
+   "mint": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002856,
+   "mcap": 282888,
+   "liq": 41352.15,
+   "h1": 80.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T01:30:20.493871+00:00",
+   "symbol": "TITTYVERSE",
+   "mint": "AxWd7zsqNmgcPyt8evEzycPAAgfAPNdZh8nToP1bpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002098,
+   "mcap": 207292,
+   "liq": 34860.68,
+   "h1": 388,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-09T01:30:20.486334+00:00",
+   "symbol": "QUINN",
+   "mint": "B32gQ1hRs6ZHG2Tv6N8PLtESBa1rcKufatp8gb38pump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 16.2% > 12% gate",
+   "entry_price": 6.007e-05,
+   "mcap": 60074,
+   "liq": 19108.94,
+   "h1": 72.37,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T01:00:31.616397+00:00",
    "symbol": "SPY",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T08:30:16.542343+00:00",
-   "symbol": "yarl",
-   "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 6.04e-05,
-   "mcap": 60400,
-   "liq": 18458.01,
-   "h1": 63.79,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T08:30:16.537842+00:00",
-   "symbol": "pilly",
-   "mint": "AB8EV4Q7jBijf3e9ZyST7WguXs3rEda6TPgBoNmXpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 30.6% > 12% gate",
-   "entry_price": 1.576e-05,
-   "mcap": 15752,
-   "liq": 8634.36,
-   "h1": -61.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T08:30:16.531522+00:00",
-   "symbol": "KimMani",
-   "mint": "BRKJMgL8McCUSHH6JjjbMUYYq7CVi26AKsezNZeVpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 21.6% > 12% gate",
-   "entry_price": 3.808e-05,
-   "mcap": 38033,
-   "liq": 14126.14,
-   "h1": -4.48,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "CBUCKS",
     "JASON"
    ],
-   "last": "2026-11-08 19:30 UTC"
+   "last": "2026-11-09 01:30 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -993,26 +993,26 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": 18.5,
-   "ts": "2026-11-09 01:00 UTC"
+   "h1": 7.1,
+   "ts": "2026-11-09 01:30 UTC"
   },
   {
    "symbol": "ELYSION",
    "tag": "FADING",
-   "h1": -29.5,
-   "ts": "2026-11-09 01:00 UTC"
+   "h1": -29.0,
+   "ts": "2026-11-09 01:30 UTC"
   },
   {
    "symbol": "HEREWEGO",
    "tag": "WATCH",
-   "h1": 21.4,
-   "ts": "2026-11-09 01:00 UTC"
+   "h1": 30.2,
+   "ts": "2026-11-09 01:30 UTC"
   },
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-09 01:00 UTC"
+   "h1": 6.6,
+   "ts": "2026-11-09 01:30 UTC"
   }
  ],
  "live_closes": [
