@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:34:15.738801+00:00",
+ "generated": "2026-11-09T21:04:15.927178+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2072,
-  "cohort_wallets": 1956,
-  "cohort_qualified": 174,
+  "cohort_runs": 2073,
+  "cohort_wallets": 1966,
+  "cohort_qualified": 175,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T21:00:32.007593+00:00",
+   "symbol": "MAYA",
+   "mint": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001106,
+   "mcap": 1097900,
+   "liq": 82000.95,
+   "h1": 2444,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T20:30:32.012012+00:00",
    "symbol": "HWAN",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T05:30:20.224705+00:00",
-   "symbol": "LIMEKUMA",
-   "mint": "JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 14.1% > 12% gate",
-   "entry_price": 7.66e-05,
-   "mcap": 73899,
-   "liq": 20258.86,
-   "h1": 110,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "MILES",
     "HODLER"
    ],
-   "last": "2026-11-09 20:30 UTC"
+   "last": "2026-11-09 21:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -807,18 +807,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 33,
+   "hits": 34,
    "symbols": [
-    "WASTED",
     "RICO",
     "CHILLCATS",
     "bul",
     "$Gatto",
     "GATO",
     "CBUCKS",
-    "JASON"
+    "JASON",
+    "MILES"
    ],
-   "last": "2026-11-09 19:00 UTC"
+   "last": "2026-11-09 21:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "MEME",
-   "tag": "WATCH",
-   "h1": -4.6,
-   "ts": "2026-11-07 12:00 UTC"
-  },
-  {
    "symbol": "HOPE",
    "tag": "WATCH",
    "h1": -0.0,
@@ -987,8 +981,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-11-09 20:30 UTC"
+   "h1": -12.5,
+   "ts": "2026-11-09 21:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -1005,14 +999,20 @@
   {
    "symbol": "MILES",
    "tag": "WATCH",
-   "h1": -8.8,
-   "ts": "2026-11-09 20:30 UTC"
+   "h1": 17.4,
+   "ts": "2026-11-09 21:00 UTC"
   },
   {
    "symbol": "HODLER",
    "tag": "WATCH",
    "h1": 19.7,
    "ts": "2026-11-09 20:30 UTC"
+  },
+  {
+   "symbol": "HWAN",
+   "tag": "CHASE",
+   "h1": 480.0,
+   "ts": "2026-11-09 21:00 UTC"
   }
  ],
  "live_closes": [
