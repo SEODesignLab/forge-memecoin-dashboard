@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T22:34:16.393749+00:00",
+ "generated": "2026-11-09T23:04:16.574032+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2076,
-  "cohort_wallets": 1997,
+  "cohort_runs": 2077,
+  "cohort_wallets": 1500,
   "cohort_qualified": 176,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T23:00:27.127763+00:00",
+   "symbol": "GPU",
+   "mint": "8ycoXyqqPnkuL78CasFB4nk9t66FXdkfMsRgH8z4pump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002931,
+   "mcap": 293048,
+   "liq": 41493.71,
+   "h1": 627,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T22:30:27.315947+00:00",
    "symbol": "MERLYN",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T08:00:26.648990+00:00",
-   "symbol": "BTC",
-   "mint": "Big1krPP8QUkgg5fsfEZQmeuwAViNajzAxNhNYvXaSS1",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 15.2% > 12% gate",
-   "entry_price": 8.985e-05,
-   "mcap": 89688,
-   "liq": 24512.34,
-   "h1": 92.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -969,8 +969,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 18.8,
-   "ts": "2026-11-09 22:30 UTC"
+   "h1": 8.2,
+   "ts": "2026-11-09 23:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "HWAN",
-   "tag": "FADING",
-   "h1": -58.9,
-   "ts": "2026-11-09 22:30 UTC"
+   "tag": "WATCH",
+   "h1": 12.9,
+   "ts": "2026-11-09 23:00 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "CHASE",
-   "h1": 235.0,
-   "ts": "2026-11-09 22:30 UTC"
+   "h1": 99947.0,
+   "ts": "2026-11-09 23:00 UTC"
   },
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": 25.4,
-   "ts": "2026-11-09 22:30 UTC"
+   "h1": 48.3,
+   "ts": "2026-11-09 23:00 UTC"
   }
  ],
  "live_closes": [
