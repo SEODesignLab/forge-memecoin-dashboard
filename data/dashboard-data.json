@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:04:13.729820+00:00",
+ "generated": "2026-11-09T14:34:13.844223+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2059,
-  "cohort_wallets": 1742,
+  "cohort_runs": 2060,
+  "cohort_wallets": 1763,
   "cohort_qualified": 173,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 138
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -53,6 +53,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 18.8% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "RugCheck risk 80>45",
    "count": 5
   },
@@ -67,13 +71,24 @@
   {
    "reason": "Top holder 14.6% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 20.7% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-09T14:30:43.941269+00:00",
+   "symbol": "GASCOIN",
+   "mint": "GjTxRxE1YUxG1RHYAoZQghCU8oFCau35YjhHXFjVpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 18.8% > 12% gate",
+   "entry_price": 5.72e-05,
+   "mcap": 57119,
+   "liq": 19477.67,
+   "h1": 26.59,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-09T14:00:39.245208+00:00",
    "symbol": "Bruce",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-08T23:30:16.113775+00:00",
-   "symbol": "DEBT",
-   "mint": "GHLMKtZta7JMcRHXTXa65xS4ubXEzieM5rQvjc8Bpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.301e-05,
-   "mcap": 33013,
-   "liq": 17903.81,
-   "h1": -24.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,14 +987,14 @@
   {
    "symbol": "JASON",
    "tag": "WATCH",
-   "h1": -9.8,
-   "ts": "2026-11-09 14:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-09 14:30 UTC"
   },
   {
    "symbol": "ELYSION",
-   "tag": "WATCH",
-   "h1": -12.7,
-   "ts": "2026-11-09 14:00 UTC"
+   "tag": "FADING",
+   "h1": -30.4,
+   "ts": "2026-11-09 14:30 UTC"
   },
   {
    "symbol": "HEREWEGO",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 40.1,
-   "ts": "2026-11-09 14:00 UTC"
+   "h1": 62.3,
+   "ts": "2026-11-09 14:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
    "tag": "FADING",
-   "h1": -26.1,
-   "ts": "2026-11-09 14:00 UTC"
+   "h1": -21.9,
+   "ts": "2026-11-09 14:30 UTC"
   }
  ],
  "live_closes": [
