@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T04:34:18.347024+00:00",
+ "generated": "2026-11-10T05:04:18.523721+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2088,
-  "cohort_wallets": 1701,
+  "cohort_runs": 2089,
+  "cohort_wallets": 1719,
   "cohort_qualified": 179,
   "live_closes": 18,
   "live_wins": 4,
@@ -31,10 +31,6 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 19.2% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -65,6 +61,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 19.2% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 14.7% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T05:00:33.754757+00:00",
+   "symbol": "DINGA",
+   "mint": "AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 19.0% > 12% gate",
+   "entry_price": 4.449e-05,
+   "mcap": 44496,
+   "liq": 15494.28,
+   "h1": 22.4,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T05:00:33.750163+00:00",
+   "symbol": "KAWAENE",
+   "mint": "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001814,
+   "mcap": 179354,
+   "liq": 32066.3,
+   "h1": 384,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T05:00:33.740475+00:00",
+   "symbol": "Baibo",
+   "mint": "6G6p82ieTBmdg6GAdUaWAQSMZLKDhorwC1M9Czntpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 15.0% > 12% gate",
+   "entry_price": 6.735e-05,
+   "mcap": 67295,
+   "liq": 19004.69,
+   "h1": 89.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T04:30:26.120636+00:00",
    "symbol": "BREW",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T13:30:34.616856+00:00",
-   "symbol": "GINGATO",
-   "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 13.6% > 12% gate",
-   "entry_price": 9.517e-05,
-   "mcap": 95171,
-   "liq": 23255.99,
-   "h1": 157,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T12:30:44.996624+00:00",
-   "symbol": "shiken",
-   "mint": "BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 22.8% > 12% gate",
-   "entry_price": 3.565e-05,
-   "mcap": 35651,
-   "liq": 13948.3,
-   "h1": 0.98,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T12:30:44.987482+00:00",
-   "symbol": "SOBCAT",
-   "mint": "CDaGFSGPvKT5LEzz7gY2634jMnHSZSPVgJJegVM9pump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 8.577e-05,
-   "mcap": 85699,
-   "liq": 23978.59,
-   "h1": 139,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "forg",
     "HWAN"
    ],
-   "last": "2026-11-10 01:30 UTC"
+   "last": "2026-11-10 05:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -963,8 +963,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 2.0,
-   "ts": "2026-11-10 04:30 UTC"
+   "h1": -4.0,
+   "ts": "2026-11-10 05:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -993,8 +993,8 @@
   {
    "symbol": "HWAN",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-10 04:30 UTC"
+   "h1": -10.7,
+   "ts": "2026-11-10 05:00 UTC"
   },
   {
    "symbol": "MAYA",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-10 04:30 UTC"
+   "h1": 0.0,
+   "ts": "2026-11-10 05:00 UTC"
   },
   {
    "symbol": "OnlyCats",
    "tag": "WATCH",
-   "h1": 3.6,
-   "ts": "2026-11-10 04:30 UTC"
+   "h1": -2.0,
+   "ts": "2026-11-10 05:00 UTC"
   }
  ],
  "live_closes": [
