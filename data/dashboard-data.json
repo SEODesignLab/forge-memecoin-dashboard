@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T06:30:22.740074+00:00",
+ "generated": "2026-11-10T07:04:19.167894+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2091,
-  "cohort_wallets": 1765,
-  "cohort_qualified": 180,
+  "cohort_runs": 2093,
+  "cohort_wallets": 1808,
+  "cohort_qualified": 184,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -31,10 +31,6 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 7
-  },
-  {
-   "reason": "Top holder 19.5% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 18.8% > 12% gate",
@@ -65,6 +61,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 19.5% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 14.7% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T07:00:45.034908+00:00",
+   "symbol": "KEY404",
+   "mint": "7ux4vVTCkBAUdyEHB9axUyzKnbdCophQTGHTwYWMpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 28.1% > 12% gate",
+   "entry_price": 2.108e-05,
+   "mcap": 19973,
+   "liq": 9794.18,
+   "h1": 41.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T06:00:33.901717+00:00",
    "symbol": "MUBBO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T14:00:39.240545+00:00",
-   "symbol": "Elysium",
-   "mint": "1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001282,
-   "mcap": 128283,
-   "liq": 27166.71,
-   "h1": 252,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "ELYSION",
-   "tag": "WATCH",
-   "h1": 8.9,
-   "ts": "2026-11-09 16:30 UTC"
-  },
-  {
    "symbol": "HEREWEGO",
    "tag": "WATCH",
    "h1": 22.6,
@@ -957,8 +951,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-11-10 06:00 UTC"
+   "h1": -7.4,
+   "ts": "2026-11-10 07:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -987,8 +981,8 @@
   {
    "symbol": "HWAN",
    "tag": "WATCH",
-   "h1": 6.7,
-   "ts": "2026-11-10 06:00 UTC"
+   "h1": -7.3,
+   "ts": "2026-11-10 07:00 UTC"
   },
   {
    "symbol": "MAYA",
@@ -999,20 +993,26 @@
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-11-10 06:00 UTC"
+   "h1": 1.9,
+   "ts": "2026-11-10 07:00 UTC"
   },
   {
    "symbol": "OnlyCats",
    "tag": "WATCH",
-   "h1": 2.3,
-   "ts": "2026-11-10 06:00 UTC"
+   "h1": -0.2,
+   "ts": "2026-11-10 07:00 UTC"
   },
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": -1.9,
-   "ts": "2026-11-10 06:00 UTC"
+   "h1": -3.7,
+   "ts": "2026-11-10 06:30 UTC"
+  },
+  {
+   "symbol": "MUBBO",
+   "tag": "FADING",
+   "h1": -46.6,
+   "ts": "2026-11-10 07:00 UTC"
   }
  ],
  "live_closes": [
