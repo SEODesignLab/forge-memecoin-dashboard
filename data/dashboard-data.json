@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T20:34:23.537900+00:00",
+ "generated": "2026-11-10T21:04:23.732565+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2120,
-  "cohort_wallets": 1862,
+  "cohort_runs": 2121,
+  "cohort_wallets": 1880,
   "cohort_qualified": 196,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 143
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -45,15 +45,15 @@
    "count": 5
   },
   {
-   "reason": "Top holder 13.1% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 20.1% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 19.2% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T21:00:38.594105+00:00",
+   "symbol": "RWA",
+   "mint": "BK8ZXzXsVLJzsDdy1paM8Dbcd3qAhMQWcSWq3M6Ypump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 14.6% > 12% gate",
+   "entry_price": 0.000103,
+   "mcap": 100130,
+   "liq": 3611.77,
+   "h1": -5.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T21:00:38.585782+00:00",
+   "symbol": "pain",
+   "mint": "5yN3Q37FApEg6biqyNroRduAVCSiNuQMRaBVnrZPpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 44.2% > 12% gate",
+   "entry_price": 8.327e-06,
+   "mcap": 8314,
+   "liq": 5595.43,
+   "h1": -76.88,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T21:00:38.580699+00:00",
+   "symbol": "Origin",
+   "mint": "3wpzVVxuCjqJyMoif3Q5Ya6G5SUZF1riRCrFcyMnZW7M",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $15113 < $25000",
+   "entry_price": 4.005e-05,
+   "mcap": 40055,
+   "liq": 15113.41,
+   "h1": 32.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T20:30:32.393811+00:00",
    "symbol": "GTAX",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T02:30:51.979775+00:00",
-   "symbol": "GTA4",
-   "mint": "BCG1ksWvKySmgWEgy8BbYxqngMNYLH2JNrTcBVm5AESY",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "Top holder 17.9% > 12% gate",
-   "entry_price": 0.0002,
-   "mcap": 200079,
-   "liq": 71099.28,
-   "h1": 37.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T01:30:29.102302+00:00",
-   "symbol": "HABIBI",
-   "mint": "2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001323,
-   "mcap": 130631,
-   "liq": 27372.25,
-   "h1": 209,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T01:00:28.211633+00:00",
-   "symbol": "NVIDIOT",
-   "mint": "SuiKhqAXdSXmxtEyGMrysWs6Px9mLmFDi3fKcompump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 15.3% > 12% gate",
-   "entry_price": 7.297e-05,
-   "mcap": 72912,
-   "liq": 20962.08,
-   "h1": 101,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "WASTED",
     "GIGAHUG"
    ],
-   "last": "2026-11-10 02:30 UTC"
+   "last": "2026-11-10 21:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,8 +993,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 8.0,
-   "ts": "2026-11-10 20:30 UTC"
+   "h1": -7.4,
+   "ts": "2026-11-10 21:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -10.9,
-   "ts": "2026-11-10 20:30 UTC"
+   "h1": -18.9,
+   "ts": "2026-11-10 21:00 UTC"
   },
   {
    "symbol": "DACITY",
-   "tag": "CHASE",
-   "h1": 205.0,
-   "ts": "2026-11-10 20:30 UTC"
+   "tag": "WATCH",
+   "h1": 82.9,
+   "ts": "2026-11-10 21:00 UTC"
   }
  ],
  "live_closes": [
