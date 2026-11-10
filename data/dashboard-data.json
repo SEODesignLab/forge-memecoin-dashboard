@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T00:04:16.895811+00:00",
+ "generated": "2026-11-10T00:34:17.049536+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2079,
-  "cohort_wallets": 1537,
+  "cohort_runs": 2080,
+  "cohort_wallets": 1554,
   "cohort_qualified": 177,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T00:30:23.904808+00:00",
+   "symbol": "OnlyCats",
+   "mint": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0008505,
+   "mcap": 850322,
+   "liq": 71737.01,
+   "h1": 1857,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T00:00:35.644716+00:00",
    "symbol": "BORLY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T11:00:50.105662+00:00",
-   "symbol": "Sheep",
-   "mint": "B9mnvoCNLzxaz2EJsLwaSynAMxkrK49VXpFAYze5pump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 4.846e-05,
-   "mcap": 48378,
-   "liq": 16286.87,
-   "h1": 44.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Respect",
-   "tag": "FADING",
-   "h1": -28.6,
-   "ts": "2026-11-08 12:00 UTC"
-  },
-  {
    "symbol": "JASON",
    "tag": "FADING",
    "h1": -23.4,
@@ -969,8 +963,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": 9.3,
-   "ts": "2026-11-10 00:00 UTC"
+   "h1": -5.0,
+   "ts": "2026-11-10 00:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -999,20 +993,26 @@
   {
    "symbol": "HWAN",
    "tag": "FADING",
-   "h1": -33.3,
-   "ts": "2026-11-10 00:00 UTC"
+   "h1": -52.0,
+   "ts": "2026-11-10 00:30 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "WATCH",
    "h1": -0.3,
-   "ts": "2026-11-10 00:00 UTC"
+   "ts": "2026-11-10 00:30 UTC"
   },
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-11-10 00:00 UTC"
+   "h1": 2.7,
+   "ts": "2026-11-10 00:30 UTC"
+  },
+  {
+   "symbol": "OnlyCats",
+   "tag": "CHASE",
+   "h1": 1857.0,
+   "ts": "2026-11-10 00:30 UTC"
   }
  ],
  "live_closes": [
