@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:34:21.920141+00:00",
+ "generated": "2026-11-10T16:04:22.102346+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2110,
-  "cohort_wallets": 1683,
+  "cohort_runs": 2111,
+  "cohort_wallets": 1701,
   "cohort_qualified": 194,
   "live_closes": 18,
   "live_wins": 4,
@@ -45,6 +45,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 14.9% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 13.2% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,54 @@
   {
    "reason": "Top holder 19.5% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 14.7% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T16:00:38.075214+00:00",
+   "symbol": "DESSA",
+   "mint": "x9TW2UPX9rAPCkXVdy6Zv5E3H2Cc3Bek7uUyFoQpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 14.9% > 12% gate",
+   "entry_price": 6.722e-05,
+   "mcap": 67187,
+   "liq": 18310.48,
+   "h1": 93.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T16:00:38.070519+00:00",
+   "symbol": "RCAT",
+   "mint": "HiY945Q3QcFTipjzAySpSBgxvr6X1AMSXzqmmo5Epump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002685,
+   "mcap": 268314,
+   "liq": 39976.26,
+   "h1": 405,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T16:00:38.060446+00:00",
+   "symbol": "BEBE",
+   "mint": "B8dvdSHW8Ejgfh7yigevPRA6wgzxjxKttftXqcBEpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 56>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.454e-05,
+   "mcap": 44547,
+   "liq": 14651,
+   "h1": 26.04,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T15:30:36.241447+00:00",
    "symbol": "X",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T20:00:25.357660+00:00",
-   "symbol": "ORBIT",
-   "mint": "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003194,
-   "mcap": 319406,
-   "liq": 43790.66,
-   "h1": 457,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T19:00:23.525073+00:00",
-   "symbol": "ATLAS",
-   "mint": "23oAPknpn7kyURwb85dHM1qUBj624WJrp5vF2Xgspump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 28.4% > 12% gate",
-   "entry_price": 2.535e-05,
-   "mcap": 25313,
-   "liq": 11045.73,
-   "h1": -29.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T18:30:30.667639+00:00",
-   "symbol": "GTA",
-   "mint": "3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001612,
-   "mcap": 159344,
-   "liq": 30191.37,
-   "h1": 277,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -747,18 +747,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 87,
+   "hits": 88,
    "symbols": [
-    "Bubbles",
     "bul",
     "GATO",
     "CBUCKS",
     "JASON",
     "WASTED",
     "forg",
-    "HWAN"
+    "HWAN",
+    "GTA"
    ],
-   "last": "2026-11-10 15:30 UTC"
+   "last": "2026-11-10 16:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -975,8 +975,8 @@
   {
    "symbol": "HWAN",
    "tag": "WATCH",
-   "h1": 47.5,
-   "ts": "2026-11-10 15:30 UTC"
+   "h1": 29.7,
+   "ts": "2026-11-10 16:00 UTC"
   },
   {
    "symbol": "MAYA",
@@ -987,8 +987,8 @@
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": -8.6,
-   "ts": "2026-11-10 15:30 UTC"
+   "h1": -15.5,
+   "ts": "2026-11-10 16:00 UTC"
   },
   {
    "symbol": "OnlyCats",
@@ -999,8 +999,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": -1.6,
-   "ts": "2026-11-10 15:30 UTC"
+   "h1": 8.4,
+   "ts": "2026-11-10 16:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -10.6,
-   "ts": "2026-11-10 15:30 UTC"
+   "h1": 8.2,
+   "ts": "2026-11-10 16:00 UTC"
   }
  ],
  "live_closes": [
