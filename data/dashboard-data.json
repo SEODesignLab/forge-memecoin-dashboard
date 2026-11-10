@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:34:22.214653+00:00",
+ "generated": "2026-11-10T17:04:22.433185+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2112,
-  "cohort_wallets": 1719,
+  "cohort_runs": 2113,
+  "cohort_wallets": 1738,
   "cohort_qualified": 194,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 144
   },
   {
    "reason": "RugCheck risk 80>45",
    "count": 6
-  },
-  {
-   "reason": "Top holder 100.0% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -71,9 +67,73 @@
   {
    "reason": "Top holder 19.5% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 14.7% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T17:00:34.807394+00:00",
+   "symbol": "trust",
+   "mint": "NCwA7tiyCu5HhierYoiY2x5vqPBJpoPKFqSuAxgpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 19.0% > 12% gate",
+   "entry_price": 2.275e-05,
+   "mcap": 22750,
+   "liq": 10298.56,
+   "h1": -36.69,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T17:00:34.802900+00:00",
+   "symbol": "DacityCoin",
+   "mint": "wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002861,
+   "mcap": 286031,
+   "liq": 39230.8,
+   "h1": 741,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T17:00:34.795431+00:00",
+   "symbol": "DAKITTY",
+   "mint": "4HLzQoz5KkhXFrwKfX1Jb2iEFBd9QseFAEJvjqDdpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001707,
+   "mcap": 169054,
+   "liq": 30435.55,
+   "h1": 31.05,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-10T17:00:34.788348+00:00",
+   "symbol": "GALVANI",
+   "mint": "Ereedz94JPD19GHJpe3uPYsKYE4qBspNYeyHtUetpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 16.5% > 12% gate",
+   "entry_price": 6.306e-05,
+   "mcap": 57923,
+   "liq": 18576,
+   "h1": 89.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T16:00:38.075214+00:00",
    "symbol": "DESSA",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T21:00:32.007593+00:00",
-   "symbol": "MAYA",
-   "mint": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001106,
-   "mcap": 1097900,
-   "liq": 82000.95,
-   "h1": 2444,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T20:30:32.012012+00:00",
-   "symbol": "HWAN",
-   "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001768,
-   "mcap": 176739,
-   "liq": 41765.07,
-   "h1": 399,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T20:30:32.003749+00:00",
-   "symbol": "ALICE",
-   "mint": "HV18rA55qBXWmdy44AiEV58nkNb2qMLbRECfeB1fpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001428,
-   "mcap": 142790,
-   "liq": 28449.14,
-   "h1": 262,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-09T20:30:31.997059+00:00",
-   "symbol": "CAT",
-   "mint": "2HbbwKyQqRE2mhhPXd48ehYpGQufY2xGe5vTQaZTpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Chase filter: +251% in 1h > 40% cap",
-   "entry_price": 0.0001498,
-   "mcap": 149834,
-   "liq": 29008.81,
-   "h1": 251,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "forg",
    "tag": "WATCH",
-   "h1": -1.9,
-   "ts": "2026-11-10 14:30 UTC"
+   "h1": 33.3,
+   "ts": "2026-11-10 17:00 UTC"
   },
   {
    "symbol": "BAWSAQ",
@@ -975,8 +975,8 @@
   {
    "symbol": "HWAN",
    "tag": "WATCH",
-   "h1": 17.4,
-   "ts": "2026-11-10 16:30 UTC"
+   "h1": 4.6,
+   "ts": "2026-11-10 17:00 UTC"
   },
   {
    "symbol": "MAYA",
@@ -987,8 +987,8 @@
   {
    "symbol": "THUG",
    "tag": "WATCH",
-   "h1": 14.3,
-   "ts": "2026-11-10 16:30 UTC"
+   "h1": 23.4,
+   "ts": "2026-11-10 17:00 UTC"
   },
   {
    "symbol": "OnlyCats",
@@ -999,8 +999,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 13.1,
-   "ts": "2026-11-10 16:30 UTC"
+   "h1": 18.9,
+   "ts": "2026-11-10 17:00 UTC"
   },
   {
    "symbol": "MUBBO",
