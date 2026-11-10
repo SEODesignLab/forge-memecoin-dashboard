@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T22:04:24.068647+00:00",
+ "generated": "2026-11-10T22:34:24.200810+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2123,
-  "cohort_wallets": 1919,
-  "cohort_qualified": 196,
+  "cohort_runs": 2124,
+  "cohort_wallets": 1933,
+  "cohort_qualified": 197,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-10T22:30:28.951056+00:00",
+   "symbol": "HOLD",
+   "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002584,
+   "mcap": 243616,
+   "liq": 38957.52,
+   "h1": 600,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T21:00:38.594105+00:00",
    "symbol": "RWA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T04:00:28.734202+00:00",
-   "symbol": "AICoin",
-   "mint": "B9FgqHbtccsgcL6YPfUhNd81qveNtrTbsfLvcjxtpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003965,
-   "mcap": 389550,
-   "liq": 30337.06,
-   "h1": 26.99,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 16.1,
-   "ts": "2026-11-10 22:00 UTC"
+   "h1": 3.5,
+   "ts": "2026-11-10 22:30 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -999,20 +999,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 13.0,
-   "ts": "2026-11-10 22:00 UTC"
+   "h1": -8.2,
+   "ts": "2026-11-10 22:30 UTC"
   },
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": 5.1,
-   "ts": "2026-11-10 22:00 UTC"
+   "h1": 20.7,
+   "ts": "2026-11-10 22:30 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 1.5,
-   "ts": "2026-11-10 22:00 UTC"
+   "h1": 18.8,
+   "ts": "2026-11-10 22:30 UTC"
   }
  ],
  "live_closes": [
