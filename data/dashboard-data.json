@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T04:04:25.980218+00:00",
+ "generated": "2026-11-11T04:34:26.126166+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2135,
-  "cohort_wallets": 1678,
-  "cohort_qualified": 198,
+  "cohort_runs": 2136,
+  "cohort_wallets": 1706,
+  "cohort_qualified": 199,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 147
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 14.9% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 12.7% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 12.2% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 14.5% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T04:30:39.720641+00:00",
+   "symbol": "BLUQO",
+   "mint": "FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001871,
+   "mcap": 178417,
+   "liq": 32174.92,
+   "h1": 95.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T04:30:39.713571+00:00",
+   "symbol": "Konnichiwa",
+   "mint": "Dw9h2YJSWy3DkY6EhRvJjB6ncK613GCWrWmCyCrApump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Liquidity $10764 < $25000",
+   "entry_price": 2.539e-05,
+   "mcap": 25396,
+   "liq": 10764.41,
+   "h1": -26.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T04:30:39.708122+00:00",
+   "symbol": "CUCU",
+   "mint": "HMYdN4BD1rJZzgAiChzUZKk2cvVbxVgp3cubRUycpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001567,
+   "mcap": 156748,
+   "liq": 29068.87,
+   "h1": 312,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T04:00:53.925988+00:00",
    "symbol": "Bublublu",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T15:30:36.241447+00:00",
-   "symbol": "X",
-   "mint": "HzLVUNuPGfx8TFAxewquK6zE22WcJ4XwzLT2jPFupump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001649,
-   "mcap": 161566,
-   "liq": 32984.13,
-   "h1": 368,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T15:00:33.443303+00:00",
-   "symbol": "Bunzo",
-   "mint": "C7JpvPbaQZTYuWnCsKyPtTCnRSmmESWgZwxZrmthpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003006,
-   "mcap": 296767,
-   "liq": 41222.78,
-   "h1": 720,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T14:30:34.429378+00:00",
-   "symbol": "PUMPATARS",
-   "mint": "Au9qrs4fgSPmJz5SokRzMRu6SbM4TkDXnCHAV9BAvcR4",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 24.0% > 12% gate",
-   "entry_price": 2.812e-05,
-   "mcap": 28086,
-   "liq": 11476.26,
-   "h1": -20.01,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "HODLER",
-   "tag": "WATCH",
-   "h1": 19.7,
-   "ts": "2026-11-09 20:30 UTC"
-  },
-  {
    "symbol": "HWAN",
    "tag": "FADING",
    "h1": -36.8,
@@ -987,14 +981,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 7.4,
-   "ts": "2026-11-11 04:00 UTC"
+   "h1": -15.7,
+   "ts": "2026-11-11 04:30 UTC"
   },
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": 17.5,
-   "ts": "2026-11-11 04:00 UTC"
+   "h1": -1.5,
+   "ts": "2026-11-11 04:30 UTC"
   },
   {
    "symbol": "Leonida",
@@ -1005,14 +999,20 @@
   {
    "symbol": "NIHAO",
    "tag": "WATCH",
-   "h1": 19.0,
-   "ts": "2026-11-11 04:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-11 04:30 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
-   "h1": 0.9,
-   "ts": "2026-11-11 04:00 UTC"
+   "h1": 9.6,
+   "ts": "2026-11-11 04:30 UTC"
+  },
+  {
+   "symbol": "VEYL",
+   "tag": "WATCH",
+   "h1": 127.0,
+   "ts": "2026-11-11 04:30 UTC"
   }
  ],
  "live_closes": [
