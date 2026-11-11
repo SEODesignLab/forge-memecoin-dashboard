@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T23:34:24.510712+00:00",
+ "generated": "2026-11-11T00:04:24.698911+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2126,
-  "cohort_wallets": 1976,
+  "cohort_runs": 2127,
+  "cohort_wallets": 1997,
   "cohort_qualified": 197,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -43,14 +43,6 @@
   {
    "reason": "Top holder 14.9% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 20.1% > 12% gate",
-   "count": 4
-  },
-  {
-   "reason": "Top holder 19.2% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -71,9 +63,62 @@
   {
    "reason": "Top holder 13.6% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 18.2% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 12.2% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T00:00:41.551081+00:00",
+   "symbol": "vibeshift",
+   "mint": "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001279,
+   "mcap": 127790,
+   "liq": 33244.67,
+   "h1": 179,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T00:00:41.544599+00:00",
+   "symbol": "CHAIHAO",
+   "mint": "6zxPvMjsRny6BMQ9U4pRRn7pxpmU2DvaFsvxqPuNpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 58>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.24e-05,
+   "mcap": 22381,
+   "liq": 10896.78,
+   "h1": -32.93,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T00:00:41.539592+00:00",
+   "symbol": "KoriMu",
+   "mint": "CRhbTris4J34SXobaLFnrEv2RD3dD99ddGdiPPzgpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002061,
+   "mcap": 206088,
+   "liq": 33892.6,
+   "h1": 450,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-10T23:30:35.759172+00:00",
    "symbol": "icc",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T06:00:33.901717+00:00",
-   "symbol": "MUBBO",
-   "mint": "JBUe4NZu4rm4Ej5AsLZECZLHvnWpFRmhn9oPLXCVpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 13.4% > 12% gate",
-   "entry_price": 9.246e-05,
-   "mcap": 89259,
-   "liq": 22694.87,
-   "h1": 138,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T05:00:33.754757+00:00",
-   "symbol": "DINGA",
-   "mint": "AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 4.449e-05,
-   "mcap": 44496,
-   "liq": 15494.28,
-   "h1": 22.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T05:00:33.750163+00:00",
-   "symbol": "KAWAENE",
-   "mint": "Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001814,
-   "mcap": 179354,
-   "liq": 32066.3,
-   "h1": 384,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 5.1,
-   "ts": "2026-11-10 23:30 UTC"
+   "h1": 4.3,
+   "ts": "2026-11-11 00:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -999,14 +999,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 12.5,
-   "ts": "2026-11-10 23:30 UTC"
+   "h1": 3.2,
+   "ts": "2026-11-11 00:00 UTC"
   },
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": 25.7,
-   "ts": "2026-11-10 23:30 UTC"
+   "h1": 3.6,
+   "ts": "2026-11-11 00:00 UTC"
   },
   {
    "symbol": "Leonida",
