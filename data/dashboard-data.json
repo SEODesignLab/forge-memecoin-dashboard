@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:04:29.416975+00:00",
+ "generated": "2026-11-11T15:34:29.553535+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2157,
-  "cohort_wallets": 1726,
+  "cohort_runs": 2158,
+  "cohort_wallets": 1750,
   "cohort_qualified": 200,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T15:30:40.514300+00:00",
+   "symbol": "M\u0101o",
+   "mint": "AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.187e-05,
+   "mcap": 51804,
+   "liq": 16264.38,
+   "h1": 53.34,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T15:00:39.904817+00:00",
    "symbol": "Boris",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T00:00:41.551081+00:00",
-   "symbol": "vibeshift",
-   "mint": "85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001279,
-   "mcap": 127790,
-   "liq": 33244.67,
-   "h1": 179,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HODLER",
     "GTA"
    ],
-   "last": "2026-11-11 03:00 UTC"
+   "last": "2026-11-11 15:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -758,7 +758,7 @@
     "GTA",
     "X"
    ],
-   "last": "2026-11-11 15:00 UTC"
+   "last": "2026-11-11 15:30 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -969,14 +969,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -10.2,
-   "ts": "2026-11-11 15:00 UTC"
+   "h1": -5.7,
+   "ts": "2026-11-11 15:30 UTC"
   },
   {
    "symbol": "DACITY",
-   "tag": "FADING",
-   "h1": -28.4,
-   "ts": "2026-11-11 15:00 UTC"
+   "tag": "WATCH",
+   "h1": -14.9,
+   "ts": "2026-11-11 15:30 UTC"
   },
   {
    "symbol": "Leonida",
@@ -987,14 +987,14 @@
   {
    "symbol": "NIHAO",
    "tag": "FADING",
-   "h1": -96.9,
-   "ts": "2026-11-11 15:00 UTC"
+   "h1": -54.4,
+   "ts": "2026-11-11 15:30 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
-   "tag": "FADING",
-   "h1": -26.2,
-   "ts": "2026-11-11 15:00 UTC"
+   "tag": "WATCH",
+   "h1": 7.6,
+   "ts": "2026-11-11 15:30 UTC"
   },
   {
    "symbol": "VEYL",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": -5.5,
-   "ts": "2026-11-11 15:00 UTC"
+   "h1": 3.0,
+   "ts": "2026-11-11 15:30 UTC"
   },
   {
    "symbol": "woohao",
    "tag": "FADING",
-   "h1": -24.8,
-   "ts": "2026-11-11 15:00 UTC"
+   "h1": -24.6,
+   "ts": "2026-11-11 15:30 UTC"
   }
  ],
  "live_closes": [
