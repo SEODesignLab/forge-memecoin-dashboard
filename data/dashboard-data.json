@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:30:35.789678+00:00",
+ "generated": "2026-11-11T11:04:28.174476+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2147,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2149,
+  "cohort_wallets": 1552,
   "cohort_qualified": 199,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T11:00:42.439890+00:00",
+   "symbol": "woohao",
+   "mint": "BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 77>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 6.358e-05,
+   "mcap": 54426,
+   "liq": 18244.23,
+   "h1": 43.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T10:00:43.052888+00:00",
    "symbol": "TI",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T19:30:40.982326+00:00",
-   "symbol": "VEIL",
-   "mint": "ExjQ95yz1hadNHF9Qk2junAuNcySCo6Ttfyof7nooeeQ",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Liquidity $18562 < $25000",
-   "entry_price": 4.354e-05,
-   "mcap": 43544,
-   "liq": 18562.08,
-   "h1": -40.77,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "WASTED",
     "GIGAHUG"
    ],
-   "last": "2026-11-11 03:30 UTC"
+   "last": "2026-11-11 11:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -878,7 +878,7 @@
     "GTA",
     "GATO"
    ],
-   "last": "2026-11-11 09:30 UTC"
+   "last": "2026-11-11 11:00 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -975,14 +975,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -0.4,
-   "ts": "2026-11-11 10:00 UTC"
+   "h1": -10.0,
+   "ts": "2026-11-11 11:00 UTC"
   },
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": 5.1,
-   "ts": "2026-11-11 10:00 UTC"
+   "h1": 1.9,
+   "ts": "2026-11-11 11:00 UTC"
   },
   {
    "symbol": "Leonida",
@@ -992,27 +992,27 @@
   },
   {
    "symbol": "NIHAO",
-   "tag": "FADING",
-   "h1": -29.9,
-   "ts": "2026-11-11 10:00 UTC"
+   "tag": "WATCH",
+   "h1": 99.4,
+   "ts": "2026-11-11 11:00 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
-   "h1": 5.5,
-   "ts": "2026-11-11 10:00 UTC"
+   "h1": -9.1,
+   "ts": "2026-11-11 11:00 UTC"
   },
   {
    "symbol": "VEYL",
-   "tag": "FADING",
-   "h1": -58.6,
-   "ts": "2026-11-11 10:00 UTC"
+   "tag": "WATCH",
+   "h1": -2.9,
+   "ts": "2026-11-11 11:00 UTC"
   },
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": -9.2,
-   "ts": "2026-11-11 10:00 UTC"
+   "h1": 22.5,
+   "ts": "2026-11-11 11:00 UTC"
   }
  ],
  "live_closes": [
