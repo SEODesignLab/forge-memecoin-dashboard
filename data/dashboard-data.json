@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:04:27.559324+00:00",
+ "generated": "2026-11-11T09:34:27.679671+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2145,
-  "cohort_wallets": 1963,
+  "cohort_runs": 2146,
+  "cohort_wallets": 1989,
   "cohort_qualified": 199,
   "live_closes": 18,
   "live_wins": 4,
@@ -41,10 +41,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 19.5% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 14.7% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,28 @@
   {
    "reason": "Top holder 29.3% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 20.7% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T09:30:37.349525+00:00",
+   "symbol": "Utility",
+   "mint": "r9fkdXyGKrvgkXBzLNUJBYEFUUppZgK8wtetDampump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 61>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.045e-05,
+   "mcap": 20458,
+   "liq": 11496.8,
+   "h1": -44.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T08:00:55.074182+00:00",
    "symbol": "GTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T19:30:40.966538+00:00",
-   "symbol": "Catcity",
-   "mint": "9Uz1XmRQGjD2NspWH1FYAtVromkt74s45FXEwXpmpump",
-   "score": 113,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001601,
-   "mcap": 158082,
-   "liq": 29521.85,
-   "h1": 285,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -878,7 +878,7 @@
     "GTA",
     "GATO"
    ],
-   "last": "2026-11-11 02:00 UTC"
+   "last": "2026-11-11 09:30 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -975,14 +975,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 8.0,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": 3.1,
+   "ts": "2026-11-11 09:30 UTC"
   },
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": 11.3,
+   "ts": "2026-11-11 09:30 UTC"
   },
   {
    "symbol": "Leonida",
@@ -993,26 +993,26 @@
   {
    "symbol": "NIHAO",
    "tag": "WATCH",
-   "h1": 42.7,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": 6.9,
+   "ts": "2026-11-11 09:30 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": 23.2,
+   "ts": "2026-11-11 09:30 UTC"
   },
   {
    "symbol": "VEYL",
    "tag": "WATCH",
-   "h1": 75.4,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": -19.0,
+   "ts": "2026-11-11 09:30 UTC"
   },
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": -19.1,
-   "ts": "2026-11-11 09:00 UTC"
+   "h1": 17.8,
+   "ts": "2026-11-11 09:30 UTC"
   }
  ],
  "live_closes": [
