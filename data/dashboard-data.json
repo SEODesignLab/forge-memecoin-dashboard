@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:04:30.331424+00:00",
+ "generated": "2026-11-11T18:34:30.432196+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2163,
-  "cohort_wallets": 1853,
+  "cohort_runs": 2164,
+  "cohort_wallets": 1877,
   "cohort_qualified": 200,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 143
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T18:30:45.662113+00:00",
+   "symbol": "GACHAZ",
+   "mint": "bn5DhJnkB8EVDoAgV9qCV3Kbv7XmEEp7mxW4npDpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 13.7% > 12% gate",
+   "entry_price": 9.376e-05,
+   "mcap": 93642,
+   "liq": 22832.41,
+   "h1": 133,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T18:30:45.655725+00:00",
+   "symbol": "HAOGPT",
+   "mint": "823KzDWd5HTSkWWJe1yZbka79pGAU7ZR8FXB5fKhpump",
+   "score": 111,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001657,
+   "mcap": 165696,
+   "liq": 30311.74,
+   "h1": 304,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T18:00:40.922899+00:00",
    "symbol": "BURN",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T04:30:39.713571+00:00",
-   "symbol": "Konnichiwa",
-   "mint": "Dw9h2YJSWy3DkY6EhRvJjB6ncK613GCWrWmCyCrApump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Liquidity $10764 < $25000",
-   "entry_price": 2.539e-05,
-   "mcap": 25396,
-   "liq": 10764.41,
-   "h1": -26.12,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T04:30:39.708122+00:00",
-   "symbol": "CUCU",
-   "mint": "HMYdN4BD1rJZzgAiChzUZKk2cvVbxVgp3cubRUycpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001567,
-   "mcap": 156748,
-   "liq": 29068.87,
-   "h1": 312,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "X",
     "CBUCKS"
    ],
-   "last": "2026-11-11 18:00 UTC"
+   "last": "2026-11-11 18:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -957,8 +957,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-11 18:00 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-11 18:30 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -974,9 +974,9 @@
   },
   {
    "symbol": "DACITY",
-   "tag": "WATCH",
-   "h1": -0.3,
-   "ts": "2026-11-11 18:00 UTC"
+   "tag": "FADING",
+   "h1": -72.2,
+   "ts": "2026-11-11 18:30 UTC"
   },
   {
    "symbol": "Leonida",
@@ -987,14 +987,14 @@
   {
    "symbol": "NIHAO",
    "tag": "FADING",
-   "h1": -73.3,
-   "ts": "2026-11-11 18:00 UTC"
+   "h1": -59.2,
+   "ts": "2026-11-11 18:30 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
-   "h1": -2.9,
-   "ts": "2026-11-11 18:00 UTC"
+   "h1": 15.3,
+   "ts": "2026-11-11 18:30 UTC"
   },
   {
    "symbol": "VEYL",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "X",
-   "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-11-11 18:00 UTC"
+   "tag": "FADING",
+   "h1": -23.2,
+   "ts": "2026-11-11 18:30 UTC"
   },
   {
    "symbol": "woohao",
-   "tag": "FADING",
-   "h1": -71.5,
-   "ts": "2026-11-11 16:00 UTC"
+   "tag": "CHASE",
+   "h1": 1285.0,
+   "ts": "2026-11-11 18:30 UTC"
   }
  ],
  "live_closes": [
