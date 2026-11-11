@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T02:34:25.472968+00:00",
+ "generated": "2026-11-11T03:04:25.667143+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2132,
-  "cohort_wallets": 1602,
+  "cohort_runs": 2133,
+  "cohort_wallets": 1624,
   "cohort_qualified": 198,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 7
+   "count": 8
   },
   {
    "reason": "Top holder 18.8% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T03:00:53.661206+00:00",
+   "symbol": "BAGWORK",
+   "mint": "7GzR7bZK55eMdDYzuLFidsTmXVoJRkD2itucyMN4pump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.592e-05,
+   "mcap": 25895,
+   "liq": 11135.92,
+   "h1": -27.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T02:00:31.725160+00:00",
    "symbol": "Vicemas",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-10T10:00:31.585189+00:00",
-   "symbol": "DERP404",
-   "mint": "FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 100.0% > 12% gate",
-   "entry_price": 0.0003176,
-   "mcap": 310645,
-   "liq": 105857.89,
-   "h1": 799,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 102,
+   "hits": 103,
    "symbols": [
-    "Gobbler",
     "GLITCH",
     "MEME",
     "Busted",
     "WASTED",
     "JASON",
     "MILES",
-    "HODLER"
+    "HODLER",
+    "GTA"
    ],
-   "last": "2026-11-10 03:00 UTC"
+   "last": "2026-11-11 03:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "MILES",
-   "tag": "WATCH",
-   "h1": 17.4,
-   "ts": "2026-11-09 21:00 UTC"
-  },
-  {
    "symbol": "HODLER",
    "tag": "WATCH",
    "h1": 19.7,
@@ -981,8 +975,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-11-11 02:30 UTC"
+   "h1": -11.7,
+   "ts": "2026-11-11 03:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -993,8 +987,8 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -7.9,
-   "ts": "2026-11-11 02:30 UTC"
+   "h1": -18.2,
+   "ts": "2026-11-11 03:00 UTC"
   },
   {
    "symbol": "DACITY",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "NIHAO",
    "tag": "WATCH",
-   "h1": 15.4,
-   "ts": "2026-11-11 02:30 UTC"
+   "h1": 17.8,
+   "ts": "2026-11-11 03:00 UTC"
+  },
+  {
+   "symbol": "\u54aa\u597d",
+   "tag": "WATCH",
+   "h1": -15.3,
+   "ts": "2026-11-11 03:00 UTC"
   }
  ],
  "live_closes": [
