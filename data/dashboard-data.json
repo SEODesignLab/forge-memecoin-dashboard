@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:34:30.169546+00:00",
+ "generated": "2026-11-11T18:04:30.331424+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2162,
-  "cohort_wallets": 1832,
+  "cohort_runs": 2163,
+  "cohort_wallets": 1853,
   "cohort_qualified": 200,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 142
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -35,10 +35,6 @@
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 18.8% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 14.9% > 12% gate",
@@ -65,6 +61,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 18.8% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 20.7% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T18:00:40.922899+00:00",
+   "symbol": "BURN",
+   "mint": "AnHnaqCGxWjjybUn6qEa4kbwYu5nxTifRvJDa128pump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Liquidity $17043 < $25000",
+   "entry_price": 5.352e-05,
+   "mcap": 53452,
+   "liq": 17042.87,
+   "h1": 49.85,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T18:00:40.917980+00:00",
+   "symbol": "CHICAT",
+   "mint": "GYiLFfHeTgXiK5BKpHN6fvv68R6DKwK5rh3SGPvapump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001591,
+   "mcap": 159159,
+   "liq": 29927.36,
+   "h1": 272,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T17:30:47.464916+00:00",
    "symbol": "AIRDROP",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T04:00:53.925988+00:00",
-   "symbol": "Bublublu",
-   "mint": "C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 12.7% > 12% gate",
-   "entry_price": 0.0001022,
-   "mcap": 98568,
-   "liq": 23183.43,
-   "h1": 196,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T04:00:53.919200+00:00",
-   "symbol": "OPSEC",
-   "mint": "H1pqEkU7crMJg72jeMPwV273UGojcYJpPCUu1NNHopsc",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $15515 < $25000",
-   "entry_price": 3.121e-05,
-   "mcap": 31211,
-   "liq": 15514.96,
-   "h1": -37.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -776,6 +776,21 @@
    "last": "2026-11-11 17:00 UTC"
   },
   {
+   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "hits": 37,
+   "symbols": [
+    "GATO",
+    "RICO",
+    "Bubbles",
+    "GLITCH",
+    "WASTED",
+    "GIGAHUG",
+    "X",
+    "CBUCKS"
+   ],
+   "last": "2026-11-11 18:00 UTC"
+  },
+  {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
    "hits": 36,
    "symbols": [
@@ -789,21 +804,6 @@
     "X"
    ],
    "last": "2026-11-11 09:00 UTC"
-  },
-  {
-   "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 36,
-   "symbols": [
-    "MAMESUKE",
-    "GATO",
-    "RICO",
-    "Bubbles",
-    "GLITCH",
-    "WASTED",
-    "GIGAHUG",
-    "X"
-   ],
-   "last": "2026-11-11 14:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -957,8 +957,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": -10.6,
-   "ts": "2026-11-11 17:30 UTC"
+   "h1": 1.6,
+   "ts": "2026-11-11 18:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -975,8 +975,8 @@
   {
    "symbol": "DACITY",
    "tag": "WATCH",
-   "h1": -14.5,
-   "ts": "2026-11-11 17:30 UTC"
+   "h1": -0.3,
+   "ts": "2026-11-11 18:00 UTC"
   },
   {
    "symbol": "Leonida",
@@ -986,15 +986,15 @@
   },
   {
    "symbol": "NIHAO",
-   "tag": "WATCH",
-   "h1": -9.7,
-   "ts": "2026-11-11 17:30 UTC"
+   "tag": "FADING",
+   "h1": -73.3,
+   "ts": "2026-11-11 18:00 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
-   "tag": "FADING",
-   "h1": -21.9,
-   "ts": "2026-11-11 17:30 UTC"
+   "tag": "WATCH",
+   "h1": -2.9,
+   "ts": "2026-11-11 18:00 UTC"
   },
   {
    "symbol": "VEYL",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": -15.4,
-   "ts": "2026-11-11 16:30 UTC"
+   "h1": -4.2,
+   "ts": "2026-11-11 18:00 UTC"
   },
   {
    "symbol": "woohao",
