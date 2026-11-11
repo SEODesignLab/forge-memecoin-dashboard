@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:34:31.358570+00:00",
+ "generated": "2026-11-11T22:04:31.540470+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2170,
-  "cohort_wallets": 2000,
+  "cohort_runs": 2171,
+  "cohort_wallets": 1500,
   "cohort_qualified": 200,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 142
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-11T22:00:56.590534+00:00",
+   "symbol": "mesk",
+   "mint": "Gsj4msPvgEdDJ6UuYwoKT6uqfMzHUWS8B3pG5QNvpump",
+   "score": 87,
+   "decision": "SKIP",
+   "reason": "Top holder 29.6% > 12% gate",
+   "entry_price": 1.805e-05,
+   "mcap": 18058,
+   "liq": 9088.04,
+   "h1": -50.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T22:00:56.582798+00:00",
+   "symbol": "mibull",
+   "mint": "CgDpxjtoZoM2yWxN2FaRsZtfa9Tksep55AMbx56Apump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 20.9% > 12% gate",
+   "entry_price": 3.75e-05,
+   "mcap": 37500,
+   "liq": 13495.05,
+   "h1": 6.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-11T22:00:56.577189+00:00",
+   "symbol": "NIHAONOON",
+   "mint": "HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001882,
+   "mcap": 188223,
+   "liq": 32252.29,
+   "h1": 242,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-11T21:30:49.978225+00:00",
    "symbol": "SAXON",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T13:30:37.977634+00:00",
-   "symbol": "Lazarus",
-   "mint": "2ExUXedCdWQJNZmkuEuEBUcUggyaMJjxFPJM4a4dpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 12.4% > 12% gate",
-   "entry_price": 7.997e-05,
-   "mcap": 79975,
-   "liq": 22033.37,
-   "h1": 125,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T13:00:43.510497+00:00",
-   "symbol": "FLIPIF",
-   "mint": "5jLj1jr2BtTBL8czd6xdpYoFkEqyG89W3bz5Jq6Mpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 16.4% > 12% gate",
-   "entry_price": 5.726e-05,
-   "mcap": 57262,
-   "liq": 16973.28,
-   "h1": 64.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T13:00:43.503570+00:00",
-   "symbol": "tgcat",
-   "mint": "DqhyxZUgqcoJFqJF2ajW54gEXNsqUSNZc7PQ1SDJpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Liquidity $16312 < $25000",
-   "entry_price": 5.101e-05,
-   "mcap": 50974,
-   "liq": 16311.88,
-   "h1": 43.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 3.3,
-   "ts": "2026-11-11 21:30 UTC"
+   "h1": 3.0,
+   "ts": "2026-11-11 22:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -987,14 +987,14 @@
   {
    "symbol": "NIHAO",
    "tag": "WATCH",
-   "h1": 7.0,
-   "ts": "2026-11-11 21:30 UTC"
+   "h1": -5.3,
+   "ts": "2026-11-11 22:00 UTC"
   },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
-   "h1": 10.6,
-   "ts": "2026-11-11 21:30 UTC"
+   "h1": 12.1,
+   "ts": "2026-11-11 22:00 UTC"
   },
   {
    "symbol": "VEYL",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "X",
    "tag": "FADING",
-   "h1": -28.5,
-   "ts": "2026-11-11 21:30 UTC"
+   "h1": -37.2,
+   "ts": "2026-11-11 22:00 UTC"
   },
   {
    "symbol": "woohao",
    "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-11 21:00 UTC"
+   "h1": -0.4,
+   "ts": "2026-11-11 22:00 UTC"
   }
  ],
  "live_closes": [
