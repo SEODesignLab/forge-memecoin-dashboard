@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T16:34:37.553834+00:00",
+ "generated": "2026-11-12T17:04:37.738576+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2208,
-  "cohort_wallets": 1839,
+  "cohort_runs": 2209,
+  "cohort_wallets": 1851,
   "cohort_qualified": 204,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 141
   },
   {
    "reason": "RugCheck risk 80>45",
    "count": 9
-  },
-  {
-   "reason": "Top holder 14.5% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 14.7% > 12% gate",
@@ -71,9 +67,28 @@
   {
    "reason": "Top holder 15.5% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 14.9% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T17:00:58.987142+00:00",
+   "symbol": "BALLS",
+   "mint": "5ZA32FxzsxcSXZuYDbrxa9QVVvzkiLbisDb5VKmNpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003859,
+   "mcap": 381474,
+   "liq": 46263.96,
+   "h1": 942,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T16:31:30.386766+00:00",
    "symbol": "HUANG",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T02:00:56.354973+00:00",
-   "symbol": "X",
-   "mint": "3Pmrc9W82zF832W1pgTgUoPXvhufyrHueeJ2YgEspump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Chase filter: +322% in 1h > 40% cap",
-   "entry_price": 0.0001488,
-   "mcap": 148892,
-   "liq": 29675.76,
-   "h1": 322,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -731,6 +731,21 @@
    "last": "2026-11-11 15:30 UTC"
   },
   {
+   "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
+   "hits": 91,
+   "symbols": [
+    "JASON",
+    "WASTED",
+    "forg",
+    "HWAN",
+    "GTA",
+    "X",
+    "LuckyCoin",
+    "Shitcoin"
+   ],
+   "last": "2026-11-12 17:00 UTC"
+  },
+  {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
    "hits": 90,
    "symbols": [
@@ -744,21 +759,6 @@
     "GLITCH"
    ],
    "last": "2026-10-18 21:00 UTC"
-  },
-  {
-   "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 90,
-   "symbols": [
-    "CBUCKS",
-    "JASON",
-    "WASTED",
-    "forg",
-    "HWAN",
-    "GTA",
-    "X",
-    "LuckyCoin"
-   ],
-   "last": "2026-11-12 13:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -803,7 +803,7 @@
     "WASTED",
     "X"
    ],
-   "last": "2026-11-12 13:00 UTC"
+   "last": "2026-11-12 17:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -818,7 +818,7 @@
     "THUG",
     "BIG"
    ],
-   "last": "2026-11-12 12:00 UTC"
+   "last": "2026-11-12 17:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -893,7 +893,7 @@
     "woohao",
     "Shitcoin"
    ],
-   "last": "2026-11-12 14:00 UTC"
+   "last": "2026-11-12 17:00 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "LuckyCoin",
-   "tag": "CHASE",
-   "h1": 174.0,
-   "ts": "2026-11-12 16:30 UTC"
+   "tag": "WATCH",
+   "h1": -7.6,
+   "ts": "2026-11-12 17:00 UTC"
   },
   {
    "symbol": "AIB",
@@ -999,20 +999,20 @@
   {
    "symbol": "NOBUSHIBA",
    "tag": "FADING",
-   "h1": -31.8,
-   "ts": "2026-11-12 16:30 UTC"
+   "h1": -23.4,
+   "ts": "2026-11-12 17:00 UTC"
   },
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": 56.6,
-   "ts": "2026-11-12 15:30 UTC"
+   "h1": 51.4,
+   "ts": "2026-11-12 17:00 UTC"
   },
   {
    "symbol": "Huang",
-   "tag": "WATCH",
-   "h1": 15.7,
-   "ts": "2026-11-12 16:30 UTC"
+   "tag": "FADING",
+   "h1": -39.3,
+   "ts": "2026-11-12 17:00 UTC"
   }
  ],
  "live_closes": [
