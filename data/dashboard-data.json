@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:34:32.326392+00:00",
+ "generated": "2026-11-12T01:04:32.487956+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2176,
-  "cohort_wallets": 1579,
+  "cohort_runs": 2177,
+  "cohort_wallets": 1600,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 143
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T01:00:51.859347+00:00",
+   "symbol": "CHRISTMAX",
+   "mint": "gFjeLxZAjVLMjXxkeMZWTZDBxY4nPodxeNiaaunpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000124,
+   "mcap": 123993,
+   "liq": 25795.08,
+   "h1": 209,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T00:30:51.450712+00:00",
    "symbol": "CALLSCOUT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T16:30:45.348264+00:00",
-   "symbol": "duh",
-   "mint": "CRn1ovpUSYr2pJhvZqhjnUGKwY9hmvH1iPPUzyVMpump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Liquidity $8155 < $25000",
-   "entry_price": 1.396e-05,
-   "mcap": 13949,
-   "liq": 8155.02,
-   "h1": -62.59,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "forg",
     "THUG"
    ],
-   "last": "2026-11-11 15:00 UTC"
+   "last": "2026-11-12 01:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -951,8 +951,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": -15.4,
-   "ts": "2026-11-12 00:30 UTC"
+   "h1": -15.7,
+   "ts": "2026-11-12 01:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "\u54aa\u597d",
-   "tag": "FADING",
-   "h1": -24.3,
-   "ts": "2026-11-12 00:30 UTC"
+   "tag": "WATCH",
+   "h1": 36.5,
+   "ts": "2026-11-12 01:00 UTC"
   },
   {
    "symbol": "VEYL",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "X",
-   "tag": "FADING",
-   "h1": -24.0,
-   "ts": "2026-11-12 00:30 UTC"
+   "tag": "WATCH",
+   "h1": -12.0,
+   "ts": "2026-11-12 01:00 UTC"
   },
   {
    "symbol": "woohao",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "ape hao",
    "tag": "WATCH",
-   "h1": 22.1,
-   "ts": "2026-11-12 00:30 UTC"
+   "h1": 17.9,
+   "ts": "2026-11-12 01:00 UTC"
   }
  ],
  "live_closes": [
