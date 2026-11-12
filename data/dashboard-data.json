@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T16:04:37.383571+00:00",
+ "generated": "2026-11-12T16:34:37.553834+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2207,
-  "cohort_wallets": 1823,
+  "cohort_runs": 2208,
+  "cohort_wallets": 1839,
   "cohort_qualified": 204,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T16:31:30.386766+00:00",
+   "symbol": "HUANG",
+   "mint": "7z3QB6D8xge7GzKZCsajvnLt8zqT1SvFonY9vZZmpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Chase filter: +259% in 1h > 40% cap",
+   "entry_price": 0.0001226,
+   "mcap": 119833,
+   "liq": 26764.21,
+   "h1": 259,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T16:31:30.380536+00:00",
+   "symbol": "AMD",
+   "mint": "2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 14.4% > 12% gate",
+   "entry_price": 0.0001277,
+   "mcap": 127546,
+   "liq": 32101.22,
+   "h1": 177,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T16:31:30.375460+00:00",
+   "symbol": "JensnHung",
+   "mint": "AnWS6MN2i9kax3LKDT2KjgYZtauh6RCyGprpvqkhpump",
+   "score": 112,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001602,
+   "mcap": 160255,
+   "liq": 29432.55,
+   "h1": 290,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T15:31:06.066796+00:00",
    "symbol": "HUANG",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T01:30:56.700834+00:00",
-   "symbol": "Rex",
-   "mint": "H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0006131,
-   "mcap": 606120,
-   "liq": 59297.59,
-   "h1": 1548,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T01:30:56.694001+00:00",
-   "symbol": "ELONMAX",
-   "mint": "DnhM9c4Gdaabirg3W8Ks2c6g5hmMruErapxFRV7apump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000174,
-   "mcap": 174025,
-   "liq": 30847.72,
-   "h1": 318,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T01:00:51.859347+00:00",
-   "symbol": "CHRISTMAX",
-   "mint": "gFjeLxZAjVLMjXxkeMZWTZDBxY4nPodxeNiaaunpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000124,
-   "mcap": 123993,
-   "liq": 25795.08,
-   "h1": 209,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -923,7 +923,7 @@
     "RICO",
     "JASON"
    ],
-   "last": "2026-11-12 00:00 UTC"
+   "last": "2026-11-12 16:30 UTC"
   },
   {
    "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
@@ -942,12 +942,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "DACITY",
-   "tag": "FADING",
-   "h1": -72.2,
-   "ts": "2026-11-11 18:30 UTC"
-  },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
@@ -992,9 +986,9 @@
   },
   {
    "symbol": "LuckyCoin",
-   "tag": "WATCH",
-   "h1": 34.2,
-   "ts": "2026-11-12 16:00 UTC"
+   "tag": "CHASE",
+   "h1": 174.0,
+   "ts": "2026-11-12 16:30 UTC"
   },
   {
    "symbol": "AIB",
@@ -1004,15 +998,21 @@
   },
   {
    "symbol": "NOBUSHIBA",
-   "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-12 16:00 UTC"
+   "tag": "FADING",
+   "h1": -31.8,
+   "ts": "2026-11-12 16:30 UTC"
   },
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
    "h1": 56.6,
    "ts": "2026-11-12 15:30 UTC"
+  },
+  {
+   "symbol": "Huang",
+   "tag": "WATCH",
+   "h1": 15.7,
+   "ts": "2026-11-12 16:30 UTC"
   }
  ],
  "live_closes": [
