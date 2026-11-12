@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T13:34:36.534222+00:00",
+ "generated": "2026-11-12T14:04:36.726428+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2202,
-  "cohort_wallets": 1723,
+  "cohort_runs": 2203,
+  "cohort_wallets": 1747,
   "cohort_qualified": 204,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T14:01:02.489233+00:00",
+   "symbol": "GONE",
+   "mint": "642k1Nzoat9azqL87tmmRRuRbNjWX1jgNp2GzRQ1eUKf",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 18.2% > 12% gate",
+   "entry_price": 4.462e-05,
+   "mcap": 44565,
+   "liq": 14788.84,
+   "h1": 39.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T14:01:02.483923+00:00",
+   "symbol": "blackswan",
+   "mint": "Bbh2kpPTxuf3DxcutYq3DofKmeJm5ptCZUUMAF6kpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002425,
+   "mcap": 242471,
+   "liq": 38329.92,
+   "h1": 358,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T13:00:59.281947+00:00",
    "symbol": "Shitcoin",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T23:30:56.275917+00:00",
-   "symbol": "vibeshift",
-   "mint": "8xMxrxPTCYJRwumZEpMfkRjNry4UJoRy75J4B96eJTkM",
-   "score": 85,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 0.0003542,
-   "mcap": 354234,
-   "liq": 105193.4,
-   "h1": 120,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T22:31:02.853843+00:00",
-   "symbol": "Tilly",
-   "mint": "BFfrW2h5CuTMHbDmXeJL5sdKAZVQDHrShwCPf2Jrpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $15923 < $25000",
-   "entry_price": 3.893e-05,
-   "mcap": 38870,
-   "liq": 15922.58,
-   "h1": -11.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -852,18 +852,18 @@
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
-   "hits": 25,
+   "hits": 26,
    "symbols": [
-    "SHADOW",
     "MONEYBIZ",
     "PHP",
     "WASTED",
     "HELL",
     "GTA",
     "GATO",
-    "X"
+    "X",
+    "Shitcoin"
    ],
-   "last": "2026-11-12 07:30 UTC"
+   "last": "2026-11-12 14:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -893,7 +893,7 @@
     "woohao",
     "Shitcoin"
    ],
-   "last": "2026-11-12 13:00 UTC"
+   "last": "2026-11-12 14:00 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -993,26 +993,26 @@
   {
    "symbol": "LuckyCoin",
    "tag": "FADING",
-   "h1": -52.3,
-   "ts": "2026-11-12 13:30 UTC"
+   "h1": -52.0,
+   "ts": "2026-11-12 14:00 UTC"
   },
   {
    "symbol": "AIB",
-   "tag": "FADING",
-   "h1": -31.2,
-   "ts": "2026-11-12 13:30 UTC"
+   "tag": "WATCH",
+   "h1": 2.1,
+   "ts": "2026-11-12 14:00 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": -10.2,
-   "ts": "2026-11-12 13:30 UTC"
+   "h1": -17.7,
+   "ts": "2026-11-12 14:00 UTC"
   },
   {
    "symbol": "Shitcoin",
-   "tag": "WATCH",
-   "h1": 26.6,
-   "ts": "2026-11-12 13:30 UTC"
+   "tag": "FADING",
+   "h1": -44.3,
+   "ts": "2026-11-12 14:00 UTC"
   }
  ],
  "live_closes": [
