@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T07:04:34.492576+00:00",
+ "generated": "2026-11-12T07:34:34.620317+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2189,
-  "cohort_wallets": 1887,
-  "cohort_qualified": 201,
+  "cohort_runs": 2190,
+  "cohort_wallets": 1906,
+  "cohort_qualified": 202,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T07:30:44.203038+00:00",
+   "symbol": "Ricehat",
+   "mint": "7tg8gm8LPw6N6CsRZGDxnykABpBqfqxdbTAvFemHpump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Liquidity $9677 < $25000",
+   "entry_price": 2.113e-05,
+   "mcap": 21131,
+   "liq": 9676.94,
+   "h1": -38.65,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T07:30:44.197807+00:00",
+   "symbol": "\u5341\u4e03",
+   "mint": "A1xwre2K5WBQr5MwrBYDSHYjrvH8m8rbu1X3Nbg9pump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "Top holder 27.2% > 12% gate",
+   "entry_price": 2.575e-05,
+   "mcap": 25714,
+   "liq": 10916.37,
+   "h1": -25.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T07:00:58.662943+00:00",
    "symbol": "BITCOINU",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T21:00:55.491158+00:00",
-   "symbol": "AIB",
-   "mint": "7fNYfFkDefatZugpcgaHqGxQuwm6JzcRYDQrdajqpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 14.7% > 12% gate",
-   "entry_price": 0.0003299,
-   "mcap": 329848,
-   "liq": 43872.59,
-   "h1": 607,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T21:00:55.485903+00:00",
-   "symbol": "MIHAO VI",
-   "mint": "4Dgjitjn8br3LcdcBnkc9tYJ8d1cnCCJd2nsVgzZpump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001549,
-   "mcap": 154914,
-   "liq": 29251.67,
-   "h1": 280,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "WASTED",
     "X"
    ],
-   "last": "2026-11-11 09:00 UTC"
+   "last": "2026-11-12 07:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -863,7 +863,7 @@
     "GATO",
     "X"
    ],
-   "last": "2026-11-12 04:00 UTC"
+   "last": "2026-11-12 07:30 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -993,26 +993,26 @@
   {
    "symbol": "ape hao",
    "tag": "WATCH",
-   "h1": 1.2,
-   "ts": "2026-11-12 07:00 UTC"
+   "h1": 3.0,
+   "ts": "2026-11-12 07:30 UTC"
   },
   {
    "symbol": "LuckyCoin",
    "tag": "WATCH",
-   "h1": 1.9,
-   "ts": "2026-11-12 07:00 UTC"
+   "h1": -10.0,
+   "ts": "2026-11-12 07:30 UTC"
   },
   {
    "symbol": "AIB",
    "tag": "WATCH",
-   "h1": -11.3,
-   "ts": "2026-11-12 07:00 UTC"
+   "h1": -1.1,
+   "ts": "2026-11-12 07:30 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": -8.6,
-   "ts": "2026-11-12 07:00 UTC"
+   "h1": 6.7,
+   "ts": "2026-11-12 07:30 UTC"
   }
  ],
  "live_closes": [
