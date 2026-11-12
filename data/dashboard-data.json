@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T03:34:33.290454+00:00",
+ "generated": "2026-11-12T04:04:33.471066+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2182,
-  "cohort_wallets": 1708,
+  "cohort_runs": 2183,
+  "cohort_wallets": 1727,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 147
+   "count": 146
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,41 @@
    "count": 4
   },
   {
-   "reason": "Top holder 20.5% > 12% gate",
+   "reason": "Top holder 19.5% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T04:01:03.930994+00:00",
+   "symbol": "Hush",
+   "mint": "G89h1kFBfFMC18jfY26fQ6nMBmjH4u3jR8iNY3GmkCKC",
+   "score": 85,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 2.582e-05,
+   "mcap": 25822,
+   "liq": 10547.78,
+   "h1": 3.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T04:01:03.922945+00:00",
+   "symbol": "POPVAX",
+   "mint": "7TmeeJxBF3PFsbgzuy23XpWJzQsqVXjvgLTb8S2zpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 18.1% > 12% gate",
+   "entry_price": 5.194e-05,
+   "mcap": 51874,
+   "liq": 17303.2,
+   "h1": 50.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T03:30:36.736117+00:00",
    "symbol": "SAXON",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T19:00:43.232310+00:00",
-   "symbol": "Penthouse",
-   "mint": "DR6vDrGn4HSfmHouEjnm1Hu1eLWvgt61V63N7LYbpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003281,
-   "mcap": 320799,
-   "liq": 45585.78,
-   "h1": 502,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T18:30:45.662113+00:00",
-   "symbol": "GACHAZ",
-   "mint": "bn5DhJnkB8EVDoAgV9qCV3Kbv7XmEEp7mxW4npDpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 13.7% > 12% gate",
-   "entry_price": 9.376e-05,
-   "mcap": 93642,
-   "liq": 22832.41,
-   "h1": 133,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -851,6 +851,21 @@
    "last": "2026-11-12 00:30 UTC"
   },
   {
+   "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
+   "hits": 25,
+   "symbols": [
+    "SHADOW",
+    "MONEYBIZ",
+    "PHP",
+    "WASTED",
+    "HELL",
+    "GTA",
+    "GATO",
+    "X"
+   ],
+   "last": "2026-11-12 04:00 UTC"
+  },
+  {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
    "hits": 24,
    "symbols": [
@@ -864,21 +879,6 @@
     "texcat"
    ],
    "last": "2026-10-21 02:30 UTC"
-  },
-  {
-   "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
-   "hits": 24,
-   "symbols": [
-    "Groklet",
-    "SHADOW",
-    "MONEYBIZ",
-    "PHP",
-    "WASTED",
-    "HELL",
-    "GTA",
-    "GATO"
-   ],
-   "last": "2026-11-11 23:00 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -981,8 +981,8 @@
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": 30.7,
-   "ts": "2026-11-12 03:30 UTC"
+   "h1": -6.1,
+   "ts": "2026-11-12 04:00 UTC"
   },
   {
    "symbol": "woohao",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "AIB",
    "tag": "WATCH",
-   "h1": 63.8,
-   "ts": "2026-11-12 03:30 UTC"
+   "h1": -8.4,
+   "ts": "2026-11-12 04:00 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": 134.0,
-   "ts": "2026-11-12 03:30 UTC"
+   "h1": -0.7,
+   "ts": "2026-11-12 04:00 UTC"
   }
  ],
  "live_closes": [
