@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T06:34:34.312818+00:00",
+ "generated": "2026-11-12T07:04:34.492576+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2188,
-  "cohort_wallets": 1861,
+  "cohort_runs": 2189,
+  "cohort_wallets": 1887,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 143
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T07:00:58.662943+00:00",
+   "symbol": "BITCOINU",
+   "mint": "Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump",
+   "score": 89,
+   "decision": "SKIP",
+   "reason": "Liquidity $24027 < $25000",
+   "entry_price": 0.0001056,
+   "mcap": 104923,
+   "liq": 24026.88,
+   "h1": -88.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T07:00:58.652485+00:00",
+   "symbol": "arigato",
+   "mint": "HEDuqMZYBdQztyF1sj1gHz6BEFWRKVdBD87AdBfgpump",
+   "score": 88,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.933e-05,
+   "mcap": 59278,
+   "liq": 17510.87,
+   "h1": 78.45,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T06:31:00.791430+00:00",
    "symbol": "AudaCity",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T21:00:55.478564+00:00",
-   "symbol": "WORK",
-   "mint": "6y8kxaZvaBZYCVfdQGz9E3i9tjSX7AtCyyKXnaV8pump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Liquidity $10728 < $25000",
-   "entry_price": 2.472e-05,
-   "mcap": 24672,
-   "liq": 10727.94,
-   "h1": -33.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T20:30:53.149983+00:00",
-   "symbol": "BABYMIHAO",
-   "mint": "3YcG25TqE3LTn3LpmAoQoX8CJp8B9tpAm5fK9DJspump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $16570 < $25000",
-   "entry_price": 5.424e-05,
-   "mcap": 54194,
-   "liq": 16569.5,
-   "h1": 53.17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,26 +993,26 @@
   {
    "symbol": "ape hao",
    "tag": "WATCH",
-   "h1": -9.4,
-   "ts": "2026-11-12 06:30 UTC"
+   "h1": 1.2,
+   "ts": "2026-11-12 07:00 UTC"
   },
   {
    "symbol": "LuckyCoin",
    "tag": "WATCH",
-   "h1": 18.4,
-   "ts": "2026-11-12 06:30 UTC"
+   "h1": 1.9,
+   "ts": "2026-11-12 07:00 UTC"
   },
   {
    "symbol": "AIB",
    "tag": "WATCH",
-   "h1": 15.2,
-   "ts": "2026-11-12 06:30 UTC"
+   "h1": -11.3,
+   "ts": "2026-11-12 07:00 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": 52.7,
-   "ts": "2026-11-12 06:30 UTC"
+   "h1": -8.6,
+   "ts": "2026-11-12 07:00 UTC"
   }
  ],
  "live_closes": [
