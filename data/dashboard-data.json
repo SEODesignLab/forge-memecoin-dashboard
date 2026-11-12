@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T20:04:38.733934+00:00",
+ "generated": "2026-11-12T20:34:38.885196+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2215,
-  "cohort_wallets": 1947,
+  "cohort_runs": 2216,
+  "cohort_wallets": 1967,
   "cohort_qualified": 204,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 9
+   "count": 8
   },
   {
    "reason": "Top holder 15.5% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T20:30:56.519516+00:00",
+   "symbol": "WOULD",
+   "mint": "6DrxESz1eu5Ak4HnNYtRTCDZ5KzpkoxXS4GLyLLS5hMR",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Top holder 20.8% > 12% gate",
+   "entry_price": 4.985e-05,
+   "mcap": 48337,
+   "liq": 17799.56,
+   "h1": 17.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T20:30:56.514820+00:00",
+   "symbol": "DID",
+   "mint": "9rSaajQRUzmo1wZBeRKzof1CiBiw2FSDcQE8aiUSpump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002336,
+   "mcap": 233560,
+   "liq": 35479.7,
+   "h1": 471,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T20:00:52.219565+00:00",
    "symbol": "1JENSEN",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T06:31:00.791430+00:00",
-   "symbol": "AudaCity",
-   "mint": "DfeGETUvcSwR7h4S46EVKsEEi329uZXuXb9wWZjjpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 41.0% > 12% gate",
-   "entry_price": 1.41e-05,
-   "mcap": 14081,
-   "liq": 8650.16,
-   "h1": -68.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T06:31:00.786131+00:00",
-   "symbol": "fineshyt",
-   "mint": "9sRDQgAWDMjVLmtJfcF2dPC2YE3A3x597H8o4ketpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 9.638e-05,
-   "mcap": 96380,
-   "liq": 24798.4,
-   "h1": 176,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -893,7 +893,7 @@
     "woohao",
     "Shitcoin"
    ],
-   "last": "2026-11-12 17:30 UTC"
+   "last": "2026-11-12 20:30 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -993,26 +993,26 @@
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": -7.3,
-   "ts": "2026-11-12 20:00 UTC"
+   "h1": -6.0,
+   "ts": "2026-11-12 20:30 UTC"
   },
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": 32.0,
-   "ts": "2026-11-12 20:00 UTC"
+   "h1": 85.2,
+   "ts": "2026-11-12 20:30 UTC"
   },
   {
    "symbol": "Huang",
    "tag": "WATCH",
-   "h1": 19.2,
-   "ts": "2026-11-12 20:00 UTC"
+   "h1": 14.6,
+   "ts": "2026-11-12 20:30 UTC"
   },
   {
    "symbol": "jjaemu",
    "tag": "WATCH",
-   "h1": 30.0,
-   "ts": "2026-11-12 20:00 UTC"
+   "h1": 17.8,
+   "ts": "2026-11-12 20:30 UTC"
   }
  ],
  "live_closes": [
