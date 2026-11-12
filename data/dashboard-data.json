@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T01:34:32.662925+00:00",
+ "generated": "2026-11-12T02:04:32.838761+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2178,
-  "cohort_wallets": 1622,
+  "cohort_runs": 2179,
+  "cohort_wallets": 1642,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T02:00:56.364376+00:00",
+   "symbol": "GROKIE",
+   "mint": "9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 13.4% > 12% gate",
+   "entry_price": 8.86e-05,
+   "mcap": 86136,
+   "liq": 21594.13,
+   "h1": 53.4,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T02:00:56.354973+00:00",
+   "symbol": "X",
+   "mint": "3Pmrc9W82zF832W1pgTgUoPXvhufyrHueeJ2YgEspump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Chase filter: +322% in 1h > 40% cap",
+   "entry_price": 0.0001488,
+   "mcap": 148892,
+   "liq": 29675.76,
+   "h1": 322,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T01:30:56.700834+00:00",
    "symbol": "Rex",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T17:00:42.514247+00:00",
-   "symbol": "Aircoin",
-   "mint": "CnS4PyuViH6vd2UcsYKqrF4T72nQHKL7WX4xQtvPpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Liquidity $5216 < $25000",
-   "entry_price": 6.911e-06,
-   "mcap": 6906,
-   "liq": 5216.3,
-   "h1": -81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T17:00:42.507314+00:00",
-   "symbol": "WONDER",
-   "mint": "GLQdavjK9HvcuXYHriH1KcqQogGpjubQH8nzVzMPpump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001617,
-   "mcap": 161679,
-   "liq": 30553.23,
-   "h1": 352,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "BIG",
    "tag": "WATCH",
-   "h1": 3.8,
-   "ts": "2026-11-12 01:30 UTC"
+   "h1": 11.3,
+   "ts": "2026-11-12 02:00 UTC"
   },
   {
    "symbol": "MUBBO",
@@ -993,8 +993,8 @@
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": 6.5,
-   "ts": "2026-11-12 01:30 UTC"
+   "h1": 7.0,
+   "ts": "2026-11-12 02:00 UTC"
   },
   {
    "symbol": "woohao",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "ape hao",
    "tag": "WATCH",
-   "h1": -13.2,
-   "ts": "2026-11-12 01:30 UTC"
+   "h1": 0.1,
+   "ts": "2026-11-12 02:00 UTC"
   },
   {
    "symbol": "LuckyCoin",
    "tag": "WATCH",
-   "h1": 3.9,
-   "ts": "2026-11-12 01:30 UTC"
+   "h1": 29.5,
+   "ts": "2026-11-12 02:00 UTC"
   }
  ],
  "live_closes": [
