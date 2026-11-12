@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:34:36.210943+00:00",
+ "generated": "2026-11-12T13:04:36.382893+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2200,
-  "cohort_wallets": 1673,
+  "cohort_runs": 2201,
+  "cohort_wallets": 1697,
   "cohort_qualified": 203,
   "live_closes": 18,
   "live_wins": 4,
@@ -31,10 +31,6 @@
   {
    "reason": "RugCheck risk 80>45",
    "count": 9
-  },
-  {
-   "reason": "Top holder 14.9% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 14.5% > 12% gate",
@@ -71,9 +67,43 @@
   {
    "reason": "Top holder 17.6% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 15.5% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T13:00:59.281947+00:00",
+   "symbol": "Shitcoin",
+   "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+   "score": 86,
+   "decision": "SKIP",
+   "reason": "Chase filter: +103% in 1h > 40% cap",
+   "entry_price": 0.0001329,
+   "mcap": 123891,
+   "liq": 26763.25,
+   "h1": 103,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T13:00:59.274031+00:00",
+   "symbol": "GTA Six",
+   "mint": "oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 7.325e-05,
+   "mcap": 73214,
+   "liq": 19370.01,
+   "h1": 115,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T12:30:49.789170+00:00",
    "symbol": "GIGAPIG",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T22:31:02.849250+00:00",
-   "symbol": "SLAB",
-   "mint": "3e4KNV6aPTtGks2cd7HNN6UFxPC3u2PC93WyFFcSpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $13199 < $25000",
-   "entry_price": 3.603e-05,
-   "mcap": 36040,
-   "liq": 13199.07,
-   "h1": 6.65,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T22:31:02.843865+00:00",
-   "symbol": "TILLY",
-   "mint": "9RyENt3gJ1MEsFPiJAMyNerYYngLDuyZfVP4GBqepump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 71.5% > 12% gate",
-   "entry_price": 0.00018,
-   "mcap": 179800,
-   "liq": 31560.42,
-   "h1": 408,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -758,7 +758,7 @@
     "X",
     "LuckyCoin"
    ],
-   "last": "2026-11-12 12:00 UTC"
+   "last": "2026-11-12 13:00 UTC"
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
@@ -777,18 +777,18 @@
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
-   "hits": 38,
+   "hits": 39,
    "symbols": [
-    "RICO",
     "Bubbles",
     "GLITCH",
     "WASTED",
     "GIGAHUG",
     "X",
     "CBUCKS",
-    "BIG"
+    "BIG",
+    "GATO"
    ],
-   "last": "2026-11-12 00:00 UTC"
+   "last": "2026-11-12 13:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -803,7 +803,7 @@
     "WASTED",
     "X"
    ],
-   "last": "2026-11-12 07:30 UTC"
+   "last": "2026-11-12 13:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -882,18 +882,18 @@
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 23,
+   "hits": 24,
    "symbols": [
-    "PONK",
     "AKITA",
     "GLITCH",
     "Ventrion",
     "koinu",
     "PIPS",
     "Wifoween",
-    "woohao"
+    "woohao",
+    "Shitcoin"
    ],
-   "last": "2026-11-11 12:30 UTC"
+   "last": "2026-11-12 13:00 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -942,12 +942,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "GTA",
-   "tag": "WATCH",
-   "h1": 20.2,
-   "ts": "2026-11-11 17:30 UTC"
-  },
   {
    "symbol": "DACITY",
    "tag": "FADING",
@@ -998,21 +992,27 @@
   },
   {
    "symbol": "LuckyCoin",
-   "tag": "WATCH",
-   "h1": -1.0,
-   "ts": "2026-11-12 12:30 UTC"
+   "tag": "FADING",
+   "h1": -21.8,
+   "ts": "2026-11-12 13:00 UTC"
   },
   {
    "symbol": "AIB",
-   "tag": "WATCH",
-   "h1": 6.0,
-   "ts": "2026-11-12 12:30 UTC"
+   "tag": "FADING",
+   "h1": -43.2,
+   "ts": "2026-11-12 13:00 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": -7.4,
-   "ts": "2026-11-12 12:30 UTC"
+   "h1": -6.9,
+   "ts": "2026-11-12 13:00 UTC"
+  },
+  {
+   "symbol": "Shitcoin",
+   "tag": "WATCH",
+   "h1": 106.0,
+   "ts": "2026-11-12 13:00 UTC"
   }
  ],
  "live_closes": [
