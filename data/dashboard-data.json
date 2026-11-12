@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:34:32.966726+00:00",
+ "generated": "2026-11-12T03:04:33.151241+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2180,
-  "cohort_wallets": 1664,
+  "cohort_runs": 2181,
+  "cohort_wallets": 1685,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 147
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 14.9% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 18.2% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 12.2% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 20.7% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 20.5% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T03:01:27.226868+00:00",
+   "symbol": "XomoPay",
+   "mint": "3meC8jieZdSsB9nrmPdmoFZDXf1822aKaohMqARmpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 26.7% > 12% gate",
+   "entry_price": 1.982e-05,
+   "mcap": 19815,
+   "liq": 9477.4,
+   "h1": -42.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T03:01:27.222207+00:00",
+   "symbol": "FORKYU",
+   "mint": "8uLNcrFKzBJYKg8ZU1E8drWnA5o2vV82m6BsgYw9pump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001828,
+   "mcap": 175389,
+   "liq": 31825.82,
+   "h1": 429,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-12T03:01:27.214567+00:00",
+   "symbol": "Jewbots",
+   "mint": "2ipXjbKqQL8RLufxitX3WdPnw6JCVWKHfH8iqAWtpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $18008 < $25000",
+   "entry_price": 5.046e-05,
+   "mcap": 50465,
+   "liq": 18007.74,
+   "h1": 6.47,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T02:30:58.886043+00:00",
    "symbol": "AIB",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T18:00:40.922899+00:00",
-   "symbol": "BURN",
-   "mint": "AnHnaqCGxWjjybUn6qEa4kbwYu5nxTifRvJDa128pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Liquidity $17043 < $25000",
-   "entry_price": 5.352e-05,
-   "mcap": 53452,
-   "liq": 17042.87,
-   "h1": 49.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T18:00:40.917980+00:00",
-   "symbol": "CHICAT",
-   "mint": "GYiLFfHeTgXiK5BKpHN6fvv68R6DKwK5rh3SGPvapump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001591,
-   "mcap": 159159,
-   "liq": 29927.36,
-   "h1": 272,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T17:30:47.464916+00:00",
-   "symbol": "AIRDROP",
-   "mint": "CbmdFB7ruUfTHb1uRWC99knEni77CQKfFZL6qq2fLoat",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 21.5% > 12% gate",
-   "entry_price": 0.0002092,
-   "mcap": 209251,
-   "liq": 88405.15,
-   "h1": 94.95,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -773,7 +773,7 @@
     "woohao",
     "CBUCKS"
    ],
-   "last": "2026-11-11 17:00 UTC"
+   "last": "2026-11-12 03:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "MUBBO",
-   "tag": "FADING",
-   "h1": -46.6,
-   "ts": "2026-11-10 07:00 UTC"
-  },
-  {
    "symbol": "GTA",
    "tag": "WATCH",
    "h1": 20.2,
@@ -987,8 +981,8 @@
   {
    "symbol": "X",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-11-12 02:30 UTC"
+   "h1": 23.7,
+   "ts": "2026-11-12 03:00 UTC"
   },
   {
    "symbol": "woohao",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "AIB",
    "tag": "WATCH",
-   "h1": 44.6,
-   "ts": "2026-11-12 02:30 UTC"
+   "h1": 7.2,
+   "ts": "2026-11-12 03:00 UTC"
+  },
+  {
+   "symbol": "NOBUSHIBA",
+   "tag": "WATCH",
+   "h1": 121.0,
+   "ts": "2026-11-12 03:00 UTC"
   }
  ],
  "live_closes": [
