@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T04:04:33.471066+00:00",
+ "generated": "2026-11-12T04:34:33.604511+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2183,
-  "cohort_wallets": 1727,
+  "cohort_runs": 2184,
+  "cohort_wallets": 1752,
   "cohort_qualified": 201,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-12T04:31:07.218941+00:00",
+   "symbol": "would",
+   "mint": "6XE2QtpQjk9Ra9f3916uBve9X1vT6SB4DxKNGsX9pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000145,
+   "mcap": 144945,
+   "liq": 29429.35,
+   "h1": 312,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-12T04:01:03.930994+00:00",
    "symbol": "Hush",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-11T19:00:43.238331+00:00",
-   "symbol": "MihaoWif",
-   "mint": "DpByrfTANBAyV3eiBoBwX17G5wSJiD4fxMNUy6C7pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 14.2% > 12% gate",
-   "entry_price": 9.538e-05,
-   "mcap": 94174,
-   "liq": 22656.14,
-   "h1": 126,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 43,
+   "hits": 44,
    "symbols": [
-    "Respect",
     "GATO",
     "JASON",
     "HEREWEGO",
     "HWAN",
     "GTA",
     "woohao",
-    "CBUCKS"
+    "CBUCKS",
+    "X"
    ],
-   "last": "2026-11-12 03:00 UTC"
+   "last": "2026-11-12 04:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "X",
-   "tag": "WATCH",
-   "h1": -6.1,
-   "ts": "2026-11-12 04:00 UTC"
+   "tag": "FADING",
+   "h1": -20.5,
+   "ts": "2026-11-12 04:30 UTC"
   },
   {
    "symbol": "woohao",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "LuckyCoin",
-   "tag": "WATCH",
-   "h1": 29.5,
-   "ts": "2026-11-12 02:00 UTC"
+   "tag": "FADING",
+   "h1": -53.5,
+   "ts": "2026-11-12 04:30 UTC"
   },
   {
    "symbol": "AIB",
-   "tag": "WATCH",
-   "h1": -8.4,
-   "ts": "2026-11-12 04:00 UTC"
+   "tag": "FADING",
+   "h1": -22.9,
+   "ts": "2026-11-12 04:30 UTC"
   },
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": -0.7,
-   "ts": "2026-11-12 04:00 UTC"
+   "h1": 42.8,
+   "ts": "2026-11-12 04:30 UTC"
   }
  ],
  "live_closes": [
