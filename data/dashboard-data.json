@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T19:04:46.435567+00:00",
+ "generated": "2026-11-13T19:34:46.568984+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2261,
-  "cohort_wallets": 1569,
+  "cohort_runs": 2262,
+  "cohort_wallets": 1583,
   "cohort_qualified": 211,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 148
+   "count": 147
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T19:31:10.717796+00:00",
+   "symbol": "LUCIA",
+   "mint": "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001806,
+   "mcap": 180606,
+   "liq": 30876.96,
+   "h1": 361,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T19:31:10.710605+00:00",
+   "symbol": "FU",
+   "mint": "ELqVDLQhvnc5GojT6ZKYvSehkpkkhV3GcmtSDGKNpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 1.917e-05,
+   "mcap": 18414,
+   "liq": 10031.73,
+   "h1": 130,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T18:31:12.499208+00:00",
    "symbol": "DEFAULT",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T00:30:53.550648+00:00",
-   "symbol": "SHARKBUX",
-   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003943,
-   "mcap": 391330,
-   "liq": 49621.41,
-   "h1": 436,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T00:30:53.544221+00:00",
-   "symbol": "Food Cat",
-   "mint": "8mMKCKDpvHXbNsN9Dvp6paJtMU7Sf1SnVsVQY28kpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001941,
-   "mcap": 194054,
-   "liq": 32373.39,
-   "h1": 375,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -807,18 +807,18 @@
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
-   "hits": 36,
+   "hits": 37,
    "symbols": [
-    "GATO",
     "$Gatto",
     "RETIRE",
     "GLITCH",
     "CBUCKS",
     "forg",
     "THUG",
-    "BIG"
+    "BIG",
+    "Leonida"
    ],
-   "last": "2026-11-12 22:30 UTC"
+   "last": "2026-11-13 19:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -975,14 +975,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": 3.5,
-   "ts": "2026-11-13 19:00 UTC"
+   "h1": -1.3,
+   "ts": "2026-11-13 19:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -1.0,
-   "ts": "2026-11-13 19:00 UTC"
+   "h1": 4.4,
+   "ts": "2026-11-13 19:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,8 +999,8 @@
   {
    "symbol": "WANTED",
    "tag": "FADING",
-   "h1": -23.1,
-   "ts": "2026-11-13 19:00 UTC"
+   "h1": -21.6,
+   "ts": "2026-11-13 19:30 UTC"
   },
   {
    "symbol": "CHILL",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Nigghao",
    "tag": "WATCH",
-   "h1": 11.3,
-   "ts": "2026-11-13 19:00 UTC"
+   "h1": 10.5,
+   "ts": "2026-11-13 19:30 UTC"
   }
  ],
  "live_closes": [
