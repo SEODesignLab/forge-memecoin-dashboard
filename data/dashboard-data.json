@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:34:47.568193+00:00",
+ "generated": "2026-11-13T23:04:47.753543+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2268,
-  "cohort_wallets": 1676,
+  "cohort_runs": 2269,
+  "cohort_wallets": 1686,
   "cohort_qualified": 214,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 149
+   "count": 150
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T23:01:09.264623+00:00",
+   "symbol": "CSI",
+   "mint": "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0007121,
+   "mcap": 712009,
+   "liq": 62274.29,
+   "h1": 1550,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T23:01:09.257425+00:00",
+   "symbol": "WWZ",
+   "mint": "ErZcPNM8Zh2cY6qdvtEagBSg79SLixNdsMewg6mmpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 13.6% > 12% gate",
+   "entry_price": 7.461e-05,
+   "mcap": 74558,
+   "liq": 19168.88,
+   "h1": 129,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T23:01:09.252447+00:00",
+   "symbol": "securititty",
+   "mint": "EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001303,
+   "mcap": 130295,
+   "liq": 25738.41,
+   "h1": 235,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T22:31:19.491786+00:00",
    "symbol": "mihoe",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T08:00:55.937833+00:00",
-   "symbol": "WRENCHP",
-   "mint": "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 16.4% > 12% gate",
-   "entry_price": 5.595e-05,
-   "mcap": 53908,
-   "liq": 16532.2,
-   "h1": 58.93,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T08:00:55.932531+00:00",
-   "symbol": "Hugh",
-   "mint": "BYeDusCxeuzfZeBy8n6EVeH9yhYcVCn8xMfiGMakpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 3.412e-05,
-   "mcap": 34124,
-   "liq": 12703.5,
-   "h1": 6.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T07:30:53.600520+00:00",
-   "symbol": "ROCKY",
-   "mint": "7By4nMjyfbFHsWMqQikpcd4P1MZQMaRFo2Z3L6jZpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 18.9% > 12% gate",
-   "entry_price": 3.938e-05,
-   "mcap": 39331,
-   "liq": 13743.67,
-   "h1": 20.58,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -969,14 +969,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-11-13 22:30 UTC"
+   "h1": 2.5,
+   "ts": "2026-11-13 23:00 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -13.2,
-   "ts": "2026-11-13 22:30 UTC"
+   "h1": -7.8,
+   "ts": "2026-11-13 23:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "WANTED",
-   "tag": "WATCH",
-   "h1": -14.2,
-   "ts": "2026-11-13 22:30 UTC"
+   "tag": "FADING",
+   "h1": -34.2,
+   "ts": "2026-11-13 23:00 UTC"
   },
   {
    "symbol": "CHILL",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "AMC",
    "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-13 22:30 UTC"
+   "h1": 14.1,
+   "ts": "2026-11-13 23:00 UTC"
   }
  ],
  "live_closes": [
