@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:04:45.139494+00:00",
+ "generated": "2026-11-13T15:34:45.286031+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2253,
-  "cohort_wallets": 1957,
+  "cohort_runs": 2254,
+  "cohort_wallets": 1969,
   "cohort_qualified": 210,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T15:31:09.348856+00:00",
+   "symbol": "Speed",
+   "mint": "31gZHFr8SYpTUdTieUuiWD4cEcNRd9NaGyRguP76pump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Liquidity $22305 < $25000",
+   "entry_price": 9.764e-05,
+   "mcap": 96262,
+   "liq": 22304.93,
+   "h1": 161,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T15:31:09.343691+00:00",
+   "symbol": "JENSEN",
+   "mint": "F37BKMyLrJxpHAmLcsQxza4f1uwPyCAmMmaeA2C7pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000542,
+   "mcap": 541973,
+   "liq": 55866.81,
+   "h1": 489,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T15:01:14.827245+00:00",
    "symbol": "WANTED",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T21:00:56.840927+00:00",
-   "symbol": "JENSEN",
-   "mint": "F3fEfTxGhAfhkbAaxtiErdcDEMZdTrqssXbfMVKbpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001934,
-   "mcap": 192352,
-   "liq": 33062.38,
-   "h1": -63.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T21:00:56.834496+00:00",
-   "symbol": "CHRISTMAX",
-   "mint": "8GYHgd5vTYthyfjSeLTcgyj2hM4Gv6UTaV2zdK4hpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 13.9% > 12% gate",
-   "entry_price": 7.739e-05,
-   "mcap": 77325,
-   "liq": 20444.49,
-   "h1": 125,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "Huang",
-   "tag": "FADING",
-   "h1": -21.1,
-   "ts": "2026-11-13 15:00 UTC"
+   "tag": "WATCH",
+   "h1": 21.7,
+   "ts": "2026-11-13 15:30 UTC"
   },
   {
    "symbol": "jjaemu",
@@ -993,26 +993,26 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -18.4,
-   "ts": "2026-11-13 15:00 UTC"
+   "h1": 7.7,
+   "ts": "2026-11-13 15:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 9.2,
-   "ts": "2026-11-13 15:00 UTC"
+   "h1": 18.5,
+   "ts": "2026-11-13 15:30 UTC"
   },
   {
    "symbol": "FASTMOON",
    "tag": "FADING",
-   "h1": -30.6,
-   "ts": "2026-11-13 15:00 UTC"
+   "h1": -51.5,
+   "ts": "2026-11-13 15:30 UTC"
   },
   {
    "symbol": "ONE",
    "tag": "WATCH",
-   "h1": 45.0,
-   "ts": "2026-11-13 15:00 UTC"
+   "h1": 67.9,
+   "ts": "2026-11-13 15:30 UTC"
   }
  ],
  "live_closes": [
