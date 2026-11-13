@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:34:45.918264+00:00",
+ "generated": "2026-11-13T18:04:46.110320+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2258,
-  "cohort_wallets": 1514,
+  "cohort_runs": 2259,
+  "cohort_wallets": 1531,
   "cohort_qualified": 211,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 148
+   "count": 149
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T18:01:09.504239+00:00",
+   "symbol": "cashduck",
+   "mint": "FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWEQ67dGoWpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001741,
+   "mcap": 174036,
+   "liq": 30157.57,
+   "h1": 333,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T17:31:10.219933+00:00",
    "symbol": "DACAT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T23:00:51.736954+00:00",
-   "symbol": "Christmax",
-   "mint": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 15.2% > 12% gate",
-   "entry_price": 6.771e-05,
-   "mcap": 67589,
-   "liq": 18550.07,
-   "h1": 84.09,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "LuckyCoin",
-   "tag": "FADING",
-   "h1": -25.4,
-   "ts": "2026-11-12 18:30 UTC"
-  },
-  {
    "symbol": "AIB",
    "tag": "FADING",
    "h1": -58.0,
@@ -981,14 +975,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": 1.8,
-   "ts": "2026-11-13 17:30 UTC"
+   "h1": 15.4,
+   "ts": "2026-11-13 18:00 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 26.1,
-   "ts": "2026-11-13 17:30 UTC"
+   "h1": 14.7,
+   "ts": "2026-11-13 18:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -1005,14 +999,20 @@
   {
    "symbol": "WANTED",
    "tag": "FADING",
-   "h1": -27.0,
-   "ts": "2026-11-13 17:30 UTC"
+   "h1": -24.6,
+   "ts": "2026-11-13 18:00 UTC"
   },
   {
    "symbol": "CHILL",
    "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-13 17:30 UTC"
+   "h1": -12.6,
+   "ts": "2026-11-13 18:00 UTC"
+  },
+  {
+   "symbol": "Nigghao",
+   "tag": "WATCH",
+   "h1": 28.3,
+   "ts": "2026-11-13 18:00 UTC"
   }
  ],
  "live_closes": [
