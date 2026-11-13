@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T08:04:42.790326+00:00",
+ "generated": "2026-11-13T08:34:42.926568+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2239,
-  "cohort_wallets": 1778,
+  "cohort_runs": 2240,
+  "cohort_wallets": 1791,
   "cohort_qualified": 206,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 144
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -49,10 +49,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 14.1% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 20.5% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,28 @@
   {
    "reason": "Top holder 19.1% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 100.0% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T08:31:20.203391+00:00",
+   "symbol": "Sakura",
+   "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001263,
+   "mcap": 126216,
+   "liq": 27947.5,
+   "h1": 282,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T08:00:55.937833+00:00",
    "symbol": "WRENCHP",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T18:30:56.290151+00:00",
-   "symbol": "AMD",
-   "mint": "3WcR58Ba1Z82bSK77DsTqXj3cG5sbR5WXemW6Bqppump",
-   "score": 111,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001448,
-   "mcap": 144743,
-   "liq": 27681.25,
-   "h1": 253,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -938,7 +938,7 @@
     "HWAN",
     "Shitcoin"
    ],
-   "last": "2026-11-13 00:30 UTC"
+   "last": "2026-11-13 08:30 UTC"
   }
  ],
  "mints": [
@@ -987,32 +987,32 @@
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": -12.6,
-   "ts": "2026-11-13 08:00 UTC"
+   "h1": -17.4,
+   "ts": "2026-11-13 08:30 UTC"
   },
   {
    "symbol": "Huang",
    "tag": "WATCH",
-   "h1": -17.4,
-   "ts": "2026-11-13 08:00 UTC"
+   "h1": -16.9,
+   "ts": "2026-11-13 08:30 UTC"
   },
   {
    "symbol": "jjaemu",
    "tag": "WATCH",
-   "h1": 3.4,
-   "ts": "2026-11-13 08:00 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-13 08:30 UTC"
   },
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-11-13 08:00 UTC"
+   "h1": -3.6,
+   "ts": "2026-11-13 08:30 UTC"
   },
   {
    "symbol": "Christmax",
-   "tag": "FADING",
-   "h1": -22.2,
-   "ts": "2026-11-13 08:00 UTC"
+   "tag": "WATCH",
+   "h1": -3.9,
+   "ts": "2026-11-13 08:30 UTC"
   }
  ],
  "live_closes": [
