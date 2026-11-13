@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:04:45.779709+00:00",
+ "generated": "2026-11-13T17:34:45.918264+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2257,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2258,
+  "cohort_wallets": 1514,
   "cohort_qualified": 211,
   "live_closes": 18,
   "live_wins": 4,
@@ -33,8 +33,8 @@
    "count": 8
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
-   "count": 5
+   "reason": "Top holder 12.4% > 12% gate",
+   "count": 6
   },
   {
    "reason": "Top holder 15.5% > 12% gate",
@@ -46,10 +46,6 @@
   },
   {
    "reason": "Top holder 16.4% > 12% gate",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 12.4% > 12% gate",
    "count": 5
   },
   {
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 100.0% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 13.4% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T17:31:10.219933+00:00",
+   "symbol": "DACAT",
+   "mint": "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002215,
+   "mcap": 221435,
+   "liq": 34425.11,
+   "h1": 453,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T17:31:10.213874+00:00",
+   "symbol": "MAYA",
+   "mint": "4133mikhNVsXGtrJhJDEZGSfMRAS9AkGHHuuJCzCpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 9.339e-05,
+   "mcap": 93363,
+   "liq": 21922.28,
+   "h1": 135,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T17:31:10.207573+00:00",
+   "symbol": "HOMEBADGE",
+   "mint": "BdgruXDnBP4v7MQ7t5475vy9n9FSQyWWMFMz6QZxpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 4.194e-05,
+   "mcap": 41885,
+   "liq": 14153.27,
+   "h1": 19.84,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T17:01:07.044407+00:00",
    "symbol": "SI",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T23:00:51.732264+00:00",
-   "symbol": "CSI",
-   "mint": "2FbqgFEWTwTRqZCemnf4AaP9tmhHKha3oqMjCNmcpump",
-   "score": 113,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001582,
-   "mcap": 158093,
-   "liq": 29085,
-   "h1": 289,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T22:30:51.562532+00:00",
-   "symbol": "plumber",
-   "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Top holder 12.5% > 12% gate",
-   "entry_price": 0.0001145,
-   "mcap": 114456,
-   "liq": 29441.67,
-   "h1": 135,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T22:00:52.423666+00:00",
-   "symbol": "NekoNano",
-   "mint": "87e8w4G33sB6Nsmi8aSUUsYSYBXXAof8h38dKahNpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $10297 < $25000",
-   "entry_price": 2.377e-05,
-   "mcap": 22672,
-   "liq": 10296.57,
-   "h1": -29.99,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,14 +981,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-11-13 17:00 UTC"
+   "h1": 1.8,
+   "ts": "2026-11-13 17:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 13.8,
-   "ts": "2026-11-13 17:00 UTC"
+   "h1": 26.1,
+   "ts": "2026-11-13 17:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "WANTED",
-   "tag": "WATCH",
-   "h1": 13.7,
-   "ts": "2026-11-13 17:00 UTC"
+   "tag": "FADING",
+   "h1": -27.0,
+   "ts": "2026-11-13 17:30 UTC"
   },
   {
    "symbol": "CHILL",
    "tag": "WATCH",
-   "h1": 10.1,
-   "ts": "2026-11-13 17:00 UTC"
+   "h1": 0.0,
+   "ts": "2026-11-13 17:30 UTC"
   }
  ],
  "live_closes": [
