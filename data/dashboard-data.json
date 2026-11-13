@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T00:34:40.177127+00:00",
+ "generated": "2026-11-13T01:04:40.403427+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2224,
-  "cohort_wallets": 1605,
-  "cohort_qualified": 204,
+  "cohort_runs": 2225,
+  "cohort_wallets": 1616,
+  "cohort_qualified": 206,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -41,8 +41,8 @@
    "count": 5
   },
   {
-   "reason": "Top holder 19.5% > 12% gate",
-   "count": 4
+   "reason": "Top holder 12.4% > 12% gate",
+   "count": 5
   },
   {
    "reason": "Top holder 14.1% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T01:01:02.874637+00:00",
+   "symbol": "Timsen",
+   "mint": "2eBGQFFjmARa2kPECwLhMiuz7WZaSvgncH3nSruLpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 12.4% > 12% gate",
+   "entry_price": 0.0001078,
+   "mcap": 107799,
+   "liq": 26046.75,
+   "h1": 214,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T01:01:02.869778+00:00",
+   "symbol": "THRONG",
+   "mint": "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002069,
+   "mcap": 206711,
+   "liq": 35433.26,
+   "h1": 515,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T01:01:02.862455+00:00",
+   "symbol": "GTAINU",
+   "mint": "AY2P2J79jdLWib4yYwMDApCmq9GorZhddDXerca3pump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003317,
+   "mcap": 331575,
+   "liq": 42615.93,
+   "h1": 821,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T00:30:53.550648+00:00",
    "symbol": "SHARKBUX",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T15:31:06.066796+00:00",
-   "symbol": "HUANG",
-   "mint": "5v5zdVrnB15fCzpHmi5Zmp1a3t2BnMgDfCV6sehppump",
-   "score": 87,
-   "decision": "SKIP",
-   "reason": "Top holder 42.7% > 12% gate",
-   "entry_price": 8.599e-06,
-   "mcap": 8585,
-   "liq": 6801.43,
-   "h1": -73.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T15:01:14.643348+00:00",
-   "symbol": "Huang",
-   "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
-   "score": 88,
-   "decision": "SKIP",
-   "reason": "Liquidity $23772 < $25000",
-   "entry_price": 0.0001054,
-   "mcap": 105312,
-   "liq": 23771.99,
-   "h1": 230,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T15:01:14.636846+00:00",
-   "symbol": "OAI",
-   "mint": "947MHPRW1RLFko2nhCMcctrn61PMNSUdXsXDUqw1pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $15328 < $25000",
-   "entry_price": 4.867e-05,
-   "mcap": 48624,
-   "liq": 15327.95,
-   "h1": 45.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -893,7 +893,7 @@
     "woohao",
     "Shitcoin"
    ],
-   "last": "2026-11-13 00:00 UTC"
+   "last": "2026-11-13 01:00 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -987,32 +987,32 @@
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": 47.0,
-   "ts": "2026-11-13 00:30 UTC"
+   "h1": 6.9,
+   "ts": "2026-11-13 01:00 UTC"
   },
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": -9.3,
-   "ts": "2026-11-13 00:30 UTC"
+   "h1": 21.4,
+   "ts": "2026-11-13 01:00 UTC"
   },
   {
    "symbol": "Huang",
    "tag": "WATCH",
-   "h1": -18.6,
-   "ts": "2026-11-13 00:30 UTC"
+   "h1": 7.2,
+   "ts": "2026-11-13 01:00 UTC"
   },
   {
    "symbol": "jjaemu",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-11-13 00:30 UTC"
+   "h1": 2.6,
+   "ts": "2026-11-13 01:00 UTC"
   },
   {
    "symbol": "SHARKBUX",
-   "tag": "CHASE",
-   "h1": 436.0,
-   "ts": "2026-11-13 00:30 UTC"
+   "tag": "WATCH",
+   "h1": 61.0,
+   "ts": "2026-11-13 01:00 UTC"
   }
  ],
  "live_closes": [
