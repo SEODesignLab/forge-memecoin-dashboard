@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T19:34:46.568984+00:00",
+ "generated": "2026-11-13T20:04:46.753369+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2262,
-  "cohort_wallets": 1583,
+  "cohort_runs": 2263,
+  "cohort_wallets": 1596,
   "cohort_qualified": 211,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T20:01:18.671099+00:00",
+   "symbol": "Bull",
+   "mint": "Cnvorma84PSJQKHkoVbjAN4ibziFKdWUJnXB6bzZpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.286e-05,
+   "mcap": 32833,
+   "liq": 12410.07,
+   "h1": 7.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T20:01:18.664618+00:00",
+   "symbol": "punchhao",
+   "mint": "C5jaQ3sUjdKJLcyTS4tSnmj2PsiXkYWZXyA3gxm3pump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000142,
+   "mcap": 141993,
+   "liq": 27249.73,
+   "h1": 254,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T20:01:18.656700+00:00",
+   "symbol": "YUNA",
+   "mint": "BGWZHbRT6PekFcevoVGyxrDTwVqBBVFdjkxBi9znpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 23.2% > 12% gate",
+   "entry_price": 2.686e-05,
+   "mcap": 26829,
+   "liq": 11064.48,
+   "h1": -31.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T19:31:10.717796+00:00",
    "symbol": "LUCIA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T01:01:02.874637+00:00",
-   "symbol": "Timsen",
-   "mint": "2eBGQFFjmARa2kPECwLhMiuz7WZaSvgncH3nSruLpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 12.4% > 12% gate",
-   "entry_price": 0.0001078,
-   "mcap": 107799,
-   "liq": 26046.75,
-   "h1": 214,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T01:01:02.869778+00:00",
-   "symbol": "THRONG",
-   "mint": "FQbUZry4SJTzxS1GxAeZGLW2ngzDnwxv3XDNVXa4pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002069,
-   "mcap": 206711,
-   "liq": 35433.26,
-   "h1": 515,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T01:01:02.862455+00:00",
-   "symbol": "GTAINU",
-   "mint": "AY2P2J79jdLWib4yYwMDApCmq9GorZhddDXerca3pump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003317,
-   "mcap": 331575,
-   "liq": 42615.93,
-   "h1": 821,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "AIB",
-   "tag": "FADING",
-   "h1": -58.0,
-   "ts": "2026-11-12 15:00 UTC"
-  },
-  {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
    "h1": -2.5,
@@ -975,14 +969,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -1.3,
-   "ts": "2026-11-13 19:30 UTC"
+   "h1": -16.0,
+   "ts": "2026-11-13 20:00 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 4.4,
-   "ts": "2026-11-13 19:30 UTC"
+   "h1": 3.8,
+   "ts": "2026-11-13 20:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,8 +993,8 @@
   {
    "symbol": "WANTED",
    "tag": "FADING",
-   "h1": -21.6,
-   "ts": "2026-11-13 19:30 UTC"
+   "h1": -24.7,
+   "ts": "2026-11-13 20:00 UTC"
   },
   {
    "symbol": "CHILL",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "Nigghao",
    "tag": "WATCH",
-   "h1": 10.5,
-   "ts": "2026-11-13 19:30 UTC"
+   "h1": -5.1,
+   "ts": "2026-11-13 20:00 UTC"
+  },
+  {
+   "symbol": "AMC",
+   "tag": "CHASE",
+   "h1": 663.0,
+   "ts": "2026-11-13 20:00 UTC"
   }
  ],
  "live_closes": [
