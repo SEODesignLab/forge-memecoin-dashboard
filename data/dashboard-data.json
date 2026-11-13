@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T11:00:45.915483+00:00",
+ "generated": "2026-11-13T11:34:43.955018+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2244,
-  "cohort_wallets": 1846,
-  "cohort_qualified": 208,
+  "cohort_runs": 2246,
+  "cohort_wallets": 1873,
+  "cohort_qualified": 210,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T11:31:05.895269+00:00",
+   "symbol": "Sakura",
+   "mint": "BKn5Lbn8thpk4LKwBWFYfCQtDepGF1evjrro73oupump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 4.315e-05,
+   "mcap": 41377,
+   "liq": 14413.56,
+   "h1": 562,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T11:31:05.890569+00:00",
+   "symbol": "FASTMOON",
+   "mint": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002063,
+   "mcap": 206303,
+   "liq": 33401.54,
+   "h1": 475,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T08:31:20.203391+00:00",
    "symbol": "Sakura",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T18:30:56.300978+00:00",
-   "symbol": "GOAT",
-   "mint": "7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump",
-   "score": 89,
-   "decision": "SKIP",
-   "reason": "Liquidity $15610 < $25000",
-   "entry_price": 4.985e-05,
-   "mcap": 49851,
-   "liq": 15610.25,
-   "h1": 47.3,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T18:30:56.295040+00:00",
-   "symbol": "PEG",
-   "mint": "2cSFs3gQorz1pB9HtnnHbqtbsQoSPrjPGR9P1A1i7sf8",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Top holder 14.6% > 12% gate",
-   "entry_price": 7.859e-05,
-   "mcap": 78596,
-   "liq": 21760.85,
-   "h1": 139,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,26 +993,26 @@
   {
    "symbol": "Huang",
    "tag": "WATCH",
-   "h1": 72.7,
-   "ts": "2026-11-13 10:30 UTC"
+   "h1": 32.5,
+   "ts": "2026-11-13 11:30 UTC"
   },
   {
    "symbol": "jjaemu",
    "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-11-13 10:30 UTC"
+   "h1": 1.6,
+   "ts": "2026-11-13 11:30 UTC"
   },
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -2.3,
-   "ts": "2026-11-13 10:30 UTC"
+   "h1": -5.3,
+   "ts": "2026-11-13 11:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -14.7,
-   "ts": "2026-11-13 10:30 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-13 11:30 UTC"
   }
  ],
  "live_closes": [
