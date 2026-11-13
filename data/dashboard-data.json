@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T04:04:41.392952+00:00",
+ "generated": "2026-11-13T04:34:41.530341+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2231,
-  "cohort_wallets": 1683,
+  "cohort_runs": 2232,
+  "cohort_wallets": 1693,
   "cohort_qualified": 206,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T04:30:54.691912+00:00",
+   "symbol": "Dog",
+   "mint": "73DZB8tQWvxYU2gVD5rVsUMU271mdmuJCfYVxSNdpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 27.8% > 12% gate",
+   "entry_price": 3.798e-05,
+   "mcap": 37924,
+   "liq": 13305.16,
+   "h1": 15.72,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T03:30:56.007844+00:00",
    "symbol": "SID",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T17:31:07.373863+00:00",
-   "symbol": "GTA",
-   "mint": "73UpjVFTWj3ZpkiRxz8GKfYSX5xg8UXtWzxUSg9apump",
-   "score": 114,
-   "decision": "SKIP",
-   "reason": "Chase filter: +355% in 1h > 40% cap",
-   "entry_price": 0.0001861,
-   "mcap": 186137,
-   "liq": 31470.14,
-   "h1": 355,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 91,
+   "hits": 92,
    "symbols": [
-    "JASON",
     "WASTED",
     "forg",
     "HWAN",
     "GTA",
     "X",
     "LuckyCoin",
-    "Shitcoin"
+    "Shitcoin",
+    "Huang"
    ],
-   "last": "2026-11-12 17:00 UTC"
+   "last": "2026-11-13 04:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -987,32 +987,32 @@
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": 21.1,
-   "ts": "2026-11-13 04:00 UTC"
+   "h1": 27.0,
+   "ts": "2026-11-13 04:30 UTC"
   },
   {
    "symbol": "Huang",
-   "tag": "FADING",
-   "h1": -26.9,
-   "ts": "2026-11-13 04:00 UTC"
+   "tag": "WATCH",
+   "h1": -6.7,
+   "ts": "2026-11-13 04:30 UTC"
   },
   {
    "symbol": "jjaemu",
-   "tag": "FADING",
-   "h1": -20.1,
-   "ts": "2026-11-13 04:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.7,
+   "ts": "2026-11-13 04:30 UTC"
   },
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": 7.5,
-   "ts": "2026-11-13 04:00 UTC"
+   "h1": -2.0,
+   "ts": "2026-11-13 04:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 9.7,
-   "ts": "2026-11-13 04:00 UTC"
+   "h1": -2.4,
+   "ts": "2026-11-13 04:30 UTC"
   }
  ],
  "live_closes": [
