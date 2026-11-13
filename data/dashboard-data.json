@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T00:04:40.047335+00:00",
+ "generated": "2026-11-13T00:34:40.177127+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2223,
-  "cohort_wallets": 1590,
+  "cohort_runs": 2224,
+  "cohort_wallets": 1605,
   "cohort_qualified": 204,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 143
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-13T00:30:53.550648+00:00",
+   "symbol": "SHARKBUX",
+   "mint": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003943,
+   "mcap": 391330,
+   "liq": 49621.41,
+   "h1": 436,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T00:30:53.544221+00:00",
+   "symbol": "Food Cat",
+   "mint": "8mMKCKDpvHXbNsN9Dvp6paJtMU7Sf1SnVsVQY28kpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001941,
+   "mcap": 194054,
+   "liq": 32373.39,
+   "h1": 375,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-13T00:30:53.535885+00:00",
+   "symbol": "PETCOIN",
+   "mint": "3rpWpWhaTHjTGmV7fGsMegVEcwNZa6LGkhaaiErSpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $9447 < $25000",
+   "entry_price": 2.036e-05,
+   "mcap": 20349,
+   "liq": 9446.92,
+   "h1": -38.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-13T00:00:49.314525+00:00",
    "symbol": "REVIVE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T14:01:02.489233+00:00",
-   "symbol": "GONE",
-   "mint": "642k1Nzoat9azqL87tmmRRuRbNjWX1jgNp2GzRQ1eUKf",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Top holder 18.2% > 12% gate",
-   "entry_price": 4.462e-05,
-   "mcap": 44565,
-   "liq": 14788.84,
-   "h1": 39.27,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T14:01:02.483923+00:00",
-   "symbol": "blackswan",
-   "mint": "Bbh2kpPTxuf3DxcutYq3DofKmeJm5ptCZUUMAF6kpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002425,
-   "mcap": 242471,
-   "liq": 38329.92,
-   "h1": 358,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-12T13:00:59.281947+00:00",
-   "symbol": "Shitcoin",
-   "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-   "score": 86,
-   "decision": "SKIP",
-   "reason": "Chase filter: +103% in 1h > 40% cap",
-   "entry_price": 0.0001329,
-   "mcap": 123891,
-   "liq": 26763.25,
-   "h1": 103,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -927,27 +927,21 @@
   },
   {
    "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
-   "hits": 18,
+   "hits": 19,
    "symbols": [
-    "TIND",
     "MAMESUKE",
     "RICO",
     "bul",
     "MEME",
     "CBUCKS",
     "JASON",
-    "HWAN"
+    "HWAN",
+    "Shitcoin"
    ],
-   "last": "2026-11-12 23:30 UTC"
+   "last": "2026-11-13 00:30 UTC"
   }
  ],
  "mints": [
-  {
-   "symbol": "NIHAO",
-   "tag": "WATCH",
-   "h1": -5.3,
-   "ts": "2026-11-11 22:00 UTC"
-  },
   {
    "symbol": "\u54aa\u597d",
    "tag": "WATCH",
@@ -993,26 +987,32 @@
   {
    "symbol": "NOBUSHIBA",
    "tag": "WATCH",
-   "h1": 82.4,
-   "ts": "2026-11-13 00:00 UTC"
+   "h1": 47.0,
+   "ts": "2026-11-13 00:30 UTC"
   },
   {
    "symbol": "Shitcoin",
    "tag": "WATCH",
-   "h1": 11.2,
-   "ts": "2026-11-13 00:00 UTC"
+   "h1": -9.3,
+   "ts": "2026-11-13 00:30 UTC"
   },
   {
    "symbol": "Huang",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-13 00:00 UTC"
+   "h1": -18.6,
+   "ts": "2026-11-13 00:30 UTC"
   },
   {
    "symbol": "jjaemu",
    "tag": "WATCH",
-   "h1": -6.2,
-   "ts": "2026-11-13 00:00 UTC"
+   "h1": -2.0,
+   "ts": "2026-11-13 00:30 UTC"
+  },
+  {
+   "symbol": "SHARKBUX",
+   "tag": "CHASE",
+   "h1": 436.0,
+   "ts": "2026-11-13 00:30 UTC"
   }
  ],
  "live_closes": [
