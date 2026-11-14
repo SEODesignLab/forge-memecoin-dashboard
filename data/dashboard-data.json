@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T12:34:52.136245+00:00",
+ "generated": "2026-11-14T13:04:52.330741+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2296,
-  "cohort_wallets": 1573,
+  "cohort_runs": 2297,
+  "cohort_wallets": 1587,
   "cohort_qualified": 218,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 151
+   "count": 150
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T13:01:03.456257+00:00",
+   "symbol": "ZAPZEKE",
+   "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 17.3% > 12% gate",
+   "entry_price": 5.028e-05,
+   "mcap": 48447,
+   "liq": 15276.15,
+   "h1": 54.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T12:01:00.553878+00:00",
    "symbol": "GTA$",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T19:31:10.710605+00:00",
-   "symbol": "FU",
-   "mint": "ELqVDLQhvnc5GojT6ZKYvSehkpkkhV3GcmtSDGKNpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.917e-05,
-   "mcap": 18414,
-   "liq": 10031.73,
-   "h1": 130,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "Shitcoin",
     "Christmax"
    ],
-   "last": "2026-11-14 12:00 UTC"
+   "last": "2026-11-14 13:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -963,8 +963,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -4.5,
-   "ts": "2026-11-14 12:30 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-14 13:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,20 +999,20 @@
   {
    "symbol": "AMC",
    "tag": "WATCH",
-   "h1": 20.5,
-   "ts": "2026-11-14 12:30 UTC"
+   "h1": 5.0,
+   "ts": "2026-11-14 13:00 UTC"
   },
   {
    "symbol": "BLACKOUT",
    "tag": "WATCH",
-   "h1": -6.7,
-   "ts": "2026-11-14 12:30 UTC"
+   "h1": -2.1,
+   "ts": "2026-11-14 13:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-14 12:30 UTC"
+   "h1": 4.1,
+   "ts": "2026-11-14 13:00 UTC"
   }
  ],
  "live_closes": [
