@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T03:04:49.091049+00:00",
+ "generated": "2026-11-14T03:34:49.219915+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2277,
-  "cohort_wallets": 1803,
-  "cohort_qualified": 215,
+  "cohort_runs": 2278,
+  "cohort_wallets": 1819,
+  "cohort_qualified": 216,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -37,10 +37,6 @@
    "count": 6
   },
   {
-   "reason": "Top holder 15.5% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 18.2% > 12% gate",
    "count": 5
   },
@@ -57,6 +53,14 @@
    "count": 4
   },
   {
+   "reason": "Top holder 26.8% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 15.5% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 100.0% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,24 @@
   {
    "reason": "Top holder 13.4% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 14.3% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T03:31:00.392880+00:00",
+   "symbol": "turd",
+   "mint": "CgwGf5EjivsWMxut2zHdi4RXkdeEXgZQkAAdmeCnpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 26.8% > 12% gate",
+   "entry_price": 2.144e-05,
+   "mcap": 21417,
+   "liq": 9463.82,
+   "h1": -33.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T03:00:57.247660+00:00",
    "symbol": "WOHAIHAO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T15:01:14.805411+00:00",
-   "symbol": "PaperInu",
-   "mint": "Ej8JSHqEz3Z3eSLsZJjEv2Hd2c4iEMAENWbDcdQbpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.00035,
-   "mcap": 349796,
-   "liq": 43780.13,
-   "h1": 755,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,14 +957,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": 10.8,
-   "ts": "2026-11-14 03:00 UTC"
+   "h1": 9.1,
+   "ts": "2026-11-14 03:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -2.8,
-   "ts": "2026-11-14 03:00 UTC"
+   "h1": 8.8,
+   "ts": "2026-11-14 03:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,20 +999,20 @@
   {
    "symbol": "AMC",
    "tag": "WATCH",
-   "h1": 1.2,
-   "ts": "2026-11-14 03:00 UTC"
+   "h1": -10.7,
+   "ts": "2026-11-14 03:30 UTC"
   },
   {
    "symbol": "BLACKOUT",
-   "tag": "FADING",
-   "h1": -25.4,
-   "ts": "2026-11-14 03:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.3,
+   "ts": "2026-11-14 03:30 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 2.9,
-   "ts": "2026-11-14 03:00 UTC"
+   "h1": -17.9,
+   "ts": "2026-11-14 03:30 UTC"
   }
  ],
  "live_closes": [
