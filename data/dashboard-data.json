@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T22:34:55.386582+00:00",
+ "generated": "2026-11-14T23:04:55.554225+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2316,
-  "cohort_wallets": 1835,
+  "cohort_runs": 2317,
+  "cohort_wallets": 1847,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 10
+   "count": 11
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T23:01:04.848387+00:00",
+   "symbol": "CYBER",
+   "mint": "Gt1G6V5YEb9GyZzjq3wwxzDGU56BQwiK2eZP9dgFpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 18.1% > 12% gate",
+   "entry_price": 4.428e-05,
+   "mcap": 42662,
+   "liq": 13696,
+   "h1": 4.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T23:01:04.843981+00:00",
+   "symbol": "PumpMas",
+   "mint": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $8780 < $25000",
+   "entry_price": 2.038e-05,
+   "mcap": 19115,
+   "liq": 8779.5,
+   "h1": 339,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T23:01:04.839530+00:00",
+   "symbol": "LUCIA",
+   "mint": "GQBMCgxisVmdxxpu8r8fXeYmavWBG9fnHhGGGELwpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001499,
+   "mcap": 149852,
+   "liq": 26055.19,
+   "h1": 334,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T23:01:04.832757+00:00",
+   "symbol": "Burn",
+   "mint": "8q4tzRSPrXLn4dc4qMiewVC4z4QF8Wyih9FNqp7dpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 1.911e-05,
+   "mcap": 18872,
+   "liq": 8551.77,
+   "h1": -31.1,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T22:31:15.491330+00:00",
    "symbol": "Grok5",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T00:01:18.244195+00:00",
-   "symbol": "SCH",
-   "mint": "FuURNNJKHYwENbbiJ7ENLhgogPGh87w9ggrArgDtSCH",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 17.0% > 12% gate",
-   "entry_price": 4.471e-05,
-   "mcap": 44635,
-   "liq": 14567.78,
-   "h1": 36.56,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T23:31:20.446432+00:00",
-   "symbol": "AURA",
-   "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001163,
-   "mcap": 113049,
-   "liq": 25410.87,
-   "h1": 86.04,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T23:31:20.435855+00:00",
-   "symbol": "BREAD",
-   "mint": "DQPf7iyK3NoejBKkrXUvzqAeyodRdNtHNx9HByKFpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 22.3% > 12% gate",
-   "entry_price": 1.697e-05,
-   "mcap": 16952,
-   "liq": 8504.29,
-   "h1": -44.44,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T23:01:09.264623+00:00",
-   "symbol": "CSI",
-   "mint": "CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0007121,
-   "mcap": 712009,
-   "liq": 62274.29,
-   "h1": 1550,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "Christmax",
     "GLITCH"
    ],
-   "last": "2026-11-14 20:00 UTC"
+   "last": "2026-11-14 23:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -951,8 +951,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -1.7,
-   "ts": "2026-11-14 22:30 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-14 23:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "JENSEN",
-   "tag": "FADING",
-   "h1": -47.1,
-   "ts": "2026-11-14 22:30 UTC"
+   "tag": "WATCH",
+   "h1": 7.1,
+   "ts": "2026-11-14 23:00 UTC"
   },
   {
    "symbol": "ASTRALIS",
