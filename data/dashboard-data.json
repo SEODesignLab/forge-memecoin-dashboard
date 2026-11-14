@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T02:04:48.782664+00:00",
+ "generated": "2026-11-14T02:34:48.904227+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2275,
-  "cohort_wallets": 1775,
+  "cohort_runs": 2276,
+  "cohort_wallets": 1786,
   "cohort_qualified": 214,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 149
+   "count": 147
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -49,10 +49,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 17.6% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 14.9% > 12% gate",
    "count": 4
   },
@@ -65,6 +61,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 14.4% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 13.4% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T02:31:05.174192+00:00",
+   "symbol": "HARAMBE",
+   "mint": "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 14.6% > 12% gate",
+   "entry_price": 6.535e-05,
+   "mcap": 65302,
+   "liq": 18658.53,
+   "h1": 27.69,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T02:31:05.169694+00:00",
+   "symbol": "SWJ",
+   "mint": "4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 14.4% > 12% gate",
+   "entry_price": 7.177e-05,
+   "mcap": 71703,
+   "liq": 19688.66,
+   "h1": 122,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T02:31:05.164498+00:00",
+   "symbol": "Billie",
+   "mint": "4Ddbw3e44CDX8hokU186iTHJ2GpETz4eTvUGwU2Epump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Liquidity $12801 < $25000",
+   "entry_price": 3.706e-05,
+   "mcap": 37015,
+   "liq": 12801.04,
+   "h1": 21.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T02:01:03.577012+00:00",
    "symbol": "RARECOIN",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T14:31:05.062866+00:00",
-   "symbol": "PARANOID",
-   "mint": "12m4AufHNA6fxGF6z5dH1quWKrGHMEmVRKiuhRLepump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 16.4% > 12% gate",
-   "entry_price": 7.884e-05,
-   "mcap": 78684,
-   "liq": 23176.38,
-   "h1": 66.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T14:31:05.057782+00:00",
-   "symbol": "Speed",
-   "mint": "HPMha7L36iZvacktJWU32Kfft1q2sQHAXXmcL6xkpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001393,
-   "mcap": 139274,
-   "liq": 29646.35,
-   "h1": 306,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T14:01:02.064311+00:00",
-   "symbol": "JENSEN",
-   "mint": "3HNUBmfF33AkuYXB7vM9sP9UABJn3bwgZokjVeYDpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001977,
-   "mcap": 197687,
-   "liq": 33703.28,
-   "h1": 112,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Shitcoin",
-   "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-13 10:30 UTC"
-  },
-  {
    "symbol": "Huang",
    "tag": "WATCH",
    "h1": 19.9,
@@ -963,14 +957,14 @@
   {
    "symbol": "SHARKBUX",
    "tag": "WATCH",
-   "h1": -0.5,
-   "ts": "2026-11-14 02:00 UTC"
+   "h1": 7.2,
+   "ts": "2026-11-14 02:30 UTC"
   },
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -15.6,
-   "ts": "2026-11-14 02:00 UTC"
+   "h1": 1.1,
+   "ts": "2026-11-14 02:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -1005,14 +999,20 @@
   {
    "symbol": "AMC",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-11-14 02:00 UTC"
+   "h1": 1.7,
+   "ts": "2026-11-14 02:30 UTC"
   },
   {
    "symbol": "BLACKOUT",
-   "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-11-14 02:00 UTC"
+   "tag": "FADING",
+   "h1": -27.5,
+   "ts": "2026-11-14 02:30 UTC"
+  },
+  {
+   "symbol": "JENSEN",
+   "tag": "CHASE",
+   "h1": 199.0,
+   "ts": "2026-11-14 02:30 UTC"
   }
  ],
  "live_closes": [
