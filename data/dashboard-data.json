@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T20:04:54.523275+00:00",
+ "generated": "2026-11-14T20:34:54.694605+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2311,
-  "cohort_wallets": 1771,
+  "cohort_runs": 2312,
+  "cohort_wallets": 1782,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 9
+   "count": 10
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T20:31:09.703481+00:00",
+   "symbol": "greg",
+   "mint": "27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.501e-05,
+   "mcap": 34967,
+   "liq": 12188.62,
+   "h1": 16.85,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T20:01:15.311712+00:00",
    "symbol": "GTAification",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T22:01:14.105413+00:00",
-   "symbol": "GR00T2",
-   "mint": "EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 20.3% > 12% gate",
-   "entry_price": 5.323e-05,
-   "mcap": 51636,
-   "liq": 19066.65,
-   "h1": -61.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -12.5,
-   "ts": "2026-11-14 20:00 UTC"
+   "h1": -4.0,
+   "ts": "2026-11-14 20:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 21.0,
-   "ts": "2026-11-14 20:00 UTC"
+   "h1": 16.7,
+   "ts": "2026-11-14 20:30 UTC"
   },
   {
    "symbol": "ASTRALIS",
