@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T16:34:53.387682+00:00",
+ "generated": "2026-11-14T17:04:53.557575+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2304,
-  "cohort_wallets": 1682,
+  "cohort_runs": 2305,
+  "cohort_wallets": 1698,
   "cohort_qualified": 218,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 149
+   "count": 147
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T17:01:17.885063+00:00",
+   "symbol": "TRAIN",
+   "mint": "6bYMEsNWWtioQtBqEDqdvnxnHNTNcxdnftsVHhxUTYfj",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 5.217e-05,
+   "mcap": 52178,
+   "liq": 14355.04,
+   "h1": 93.2,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T17:01:17.878526+00:00",
+   "symbol": "gtacoin",
+   "mint": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.0001739,
+   "mcap": 173944,
+   "liq": 30192.14,
+   "h1": 438,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T14:31:14.518581+00:00",
    "symbol": "SLIDES",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T20:31:15.501988+00:00",
-   "symbol": "Ballfin",
-   "mint": "9jh6f2mEsoPMwrQ1XJA17Rzy3Y9VWmH4FvGXXhZJpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002485,
-   "mcap": 248458,
-   "liq": 38418.52,
-   "h1": 382,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T20:01:18.671099+00:00",
-   "symbol": "Bull",
-   "mint": "Cnvorma84PSJQKHkoVbjAN4ibziFKdWUJnXB6bzZpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.286e-05,
-   "mcap": 32833,
-   "liq": 12410.07,
-   "h1": 7.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -957,8 +957,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -4.0,
-   "ts": "2026-11-14 16:30 UTC"
+   "h1": 5.0,
+   "ts": "2026-11-14 17:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -993,20 +993,20 @@
   {
    "symbol": "AMC",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-11-14 16:30 UTC"
+   "h1": 8.6,
+   "ts": "2026-11-14 17:00 UTC"
   },
   {
    "symbol": "BLACKOUT",
    "tag": "WATCH",
-   "h1": -7.0,
-   "ts": "2026-11-14 16:30 UTC"
+   "h1": -13.0,
+   "ts": "2026-11-14 17:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": -11.8,
-   "ts": "2026-11-14 16:30 UTC"
+   "h1": -6.7,
+   "ts": "2026-11-14 17:00 UTC"
   },
   {
    "symbol": "ASTRALIS",
