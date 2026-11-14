@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T18:34:54.028019+00:00",
+ "generated": "2026-11-14T19:04:54.217470+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2308,
-  "cohort_wallets": 1735,
+  "cohort_runs": 2309,
+  "cohort_wallets": 1747,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 147
+   "count": 146
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,26 @@
    "count": 4
   },
   {
-   "reason": "Top holder 14.2% > 12% gate",
+   "reason": "Top holder 19.1% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T19:01:15.921481+00:00",
+   "symbol": "PROMETHEUS",
+   "mint": "GEppMmnXswv1cqJBMUU2t8QkB2FCRrQUQb1v7K3xpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Top holder 19.1% > 12% gate",
+   "entry_price": 4.469e-05,
+   "mcap": 44607,
+   "liq": 16771.86,
+   "h1": 0.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T18:31:10.095332+00:00",
    "symbol": "aura ",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-13T22:01:14.093149+00:00",
-   "symbol": "CWW",
-   "mint": "6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 21.9% > 12% gate",
-   "entry_price": 3.319e-05,
-   "mcap": 33169,
-   "liq": 13276.14,
-   "h1": 2.18,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -956,9 +956,9 @@
   },
   {
    "symbol": "Christmax",
-   "tag": "WATCH",
-   "h1": -15.2,
-   "ts": "2026-11-14 18:30 UTC"
+   "tag": "FADING",
+   "h1": -21.2,
+   "ts": "2026-11-14 19:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -993,8 +993,8 @@
   {
    "symbol": "AMC",
    "tag": "FADING",
-   "h1": -53.4,
-   "ts": "2026-11-14 18:30 UTC"
+   "h1": -36.4,
+   "ts": "2026-11-14 19:00 UTC"
   },
   {
    "symbol": "BLACKOUT",
@@ -1004,9 +1004,9 @@
   },
   {
    "symbol": "JENSEN",
-   "tag": "WATCH",
-   "h1": 51.2,
-   "ts": "2026-11-14 18:30 UTC"
+   "tag": "FADING",
+   "h1": -44.7,
+   "ts": "2026-11-14 19:00 UTC"
   },
   {
    "symbol": "ASTRALIS",
