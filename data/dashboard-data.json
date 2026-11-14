@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T23:04:55.554225+00:00",
+ "generated": "2026-11-14T23:34:55.701186+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2317,
-  "cohort_wallets": 1847,
+  "cohort_runs": 2318,
+  "cohort_wallets": 1855,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 11
+   "count": 12
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -38,6 +38,10 @@
   },
   {
    "reason": "Top holder 16.4% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 17.6% > 12% gate",
    "count": 5
   },
   {
@@ -67,13 +71,54 @@
   {
    "reason": "Top holder 14.2% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 13.6% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-14T23:31:20.128871+00:00",
+   "symbol": "JOB",
+   "mint": "7rBatsxwXiMLcz2PJjh8G45wZfHNHd4dvtBUMwsepump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 17.6% > 12% gate",
+   "entry_price": 4.73e-05,
+   "mcap": 47266,
+   "liq": 14095.51,
+   "h1": 68.44,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T23:31:20.124304+00:00",
+   "symbol": "Bear",
+   "mint": "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.759e-05,
+   "mcap": 27555,
+   "liq": 10685.39,
+   "h1": -0.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-14T23:31:20.118169+00:00",
+   "symbol": "SWIF",
+   "mint": "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Liquidity $23817 < $25000",
+   "entry_price": 0.0001264,
+   "mcap": 126404,
+   "liq": 23816.73,
+   "h1": 280,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T23:01:04.848387+00:00",
    "symbol": "CYBER",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T02:31:05.164498+00:00",
-   "symbol": "Billie",
-   "mint": "4Ddbw3e44CDX8hokU186iTHJ2GpETz4eTvUGwU2Epump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $12801 < $25000",
-   "entry_price": 3.706e-05,
-   "mcap": 37015,
-   "liq": 12801.04,
-   "h1": 21.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T02:01:03.577012+00:00",
-   "symbol": "RARECOIN",
-   "mint": "4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Liquidity $13555 < $25000",
-   "entry_price": 2.975e-05,
-   "mcap": 28524,
-   "liq": 13554.75,
-   "h1": -37.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T01:30:55.718739+00:00",
-   "symbol": "COINSIDE",
-   "mint": "7S5t7eZqrfef2dGjTLBGDDYE57Secf1rJS7fM3Vzpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Liquidity $18320 < $25000",
-   "entry_price": 5.065e-05,
-   "mcap": 50582,
-   "liq": 18319.93,
-   "h1": 2.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -791,6 +791,21 @@
    "last": "2026-11-14 22:30 UTC"
   },
   {
+   "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
+   "hits": 39,
+   "symbols": [
+    "CBUCKS",
+    "JASON",
+    "MILES",
+    "WASTED",
+    "X",
+    "Christmax",
+    "Shitcoin",
+    "GLITCH"
+   ],
+   "last": "2026-11-14 23:30 UTC"
+  },
+  {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
    "hits": 39,
    "symbols": [
@@ -804,21 +819,6 @@
     "GATO"
    ],
    "last": "2026-11-14 17:30 UTC"
-  },
-  {
-   "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 38,
-   "symbols": [
-    "GATO",
-    "CBUCKS",
-    "JASON",
-    "MILES",
-    "WASTED",
-    "X",
-    "Christmax",
-    "Shitcoin"
-   ],
-   "last": "2026-11-13 03:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -951,8 +951,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -2.7,
-   "ts": "2026-11-14 23:00 UTC"
+   "h1": -3.5,
+   "ts": "2026-11-14 23:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,8 +999,8 @@
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 7.1,
-   "ts": "2026-11-14 23:00 UTC"
+   "h1": 7.2,
+   "ts": "2026-11-14 23:30 UTC"
   },
   {
    "symbol": "ASTRALIS",
