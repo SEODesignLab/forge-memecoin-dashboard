@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:04:03.725539+00:00",
+ "generated": "2026-11-15T22:34:03.856781+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2363,
-  "cohort_wallets": 1857,
+  "cohort_runs": 2364,
+  "cohort_wallets": 1872,
   "cohort_qualified": 226,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 142
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T22:30:24.535738+00:00",
+   "symbol": "Retire",
+   "mint": "DQSHcUsHEKKz5gXzpj4Xp3ioEjmfNB5obb3saDFMpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Chase filter: +491% in 1h > 40% cap",
+   "entry_price": 0.000214,
+   "mcap": 209159,
+   "liq": 32201.26,
+   "h1": 491,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T22:30:24.528104+00:00",
+   "symbol": "WIGGLES",
+   "mint": "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Liquidity $15492 < $25000",
+   "entry_price": 5.285e-05,
+   "mcap": 52856,
+   "liq": 15491.56,
+   "h1": 76.32,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T22:00:10.594626+00:00",
    "symbol": "TITTYVERSE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T05:31:16.965926+00:00",
-   "symbol": "meme",
-   "mint": "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Liquidity $7880 < $25000",
-   "entry_price": 1.574e-05,
-   "mcap": 15741,
-   "liq": 7880.11,
-   "h1": -43.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T05:01:00.337568+00:00",
-   "symbol": "HODL",
-   "mint": "F63zJ8AM4RnHHxnHzGAPgM8Amv8KTSqG9knPd7yvpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 15.9% > 12% gate",
-   "entry_price": 4.527e-05,
-   "mcap": 45209,
-   "liq": 13918.74,
-   "h1": 50.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -773,7 +773,7 @@
     "GLITCH",
     "NINU"
    ],
-   "last": "2026-11-15 22:00 UTC"
+   "last": "2026-11-15 22:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,8 +993,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -1.4,
-   "ts": "2026-11-15 22:00 UTC"
+   "h1": 29.2,
+   "ts": "2026-11-15 22:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 34.0,
-   "ts": "2026-11-15 22:00 UTC"
+   "h1": 12.4,
+   "ts": "2026-11-15 22:30 UTC"
   }
  ],
  "live_closes": [
