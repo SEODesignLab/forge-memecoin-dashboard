@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T04:04:57.249035+00:00",
+ "generated": "2026-11-15T04:34:57.404296+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2327,
-  "cohort_wallets": 1958,
+  "cohort_runs": 2328,
+  "cohort_wallets": 1967,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 13
+   "count": 14
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T04:31:24.222184+00:00",
+   "symbol": "MIL",
+   "mint": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 8.489e-05,
+   "mcap": 84775,
+   "liq": 20135.68,
+   "h1": 188,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T03:31:27.739383+00:00",
    "symbol": "penny",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T10:01:04.023321+00:00",
-   "symbol": "Avatars",
-   "mint": "LP9FEB5TZZepT48qigsAJkdzB38R5hfFyJzerzxpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 15.1% > 12% gate",
-   "entry_price": 5.638e-05,
-   "mcap": 56303,
-   "liq": 16719.06,
-   "h1": 85.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UM",
    "tag": "WATCH",
-   "h1": -9.8,
-   "ts": "2026-11-15 04:00 UTC"
+   "h1": -8.1,
+   "ts": "2026-11-15 04:30 UTC"
   },
   {
    "symbol": "gta",
