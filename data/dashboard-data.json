@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T21:34:03.463103+00:00",
+ "generated": "2026-11-15T22:04:03.725539+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2362,
-  "cohort_wallets": 1845,
+  "cohort_runs": 2363,
+  "cohort_wallets": 1857,
   "cohort_qualified": 226,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,6 +37,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 12.1% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 17.6% > 12% gate",
    "count": 5
   },
@@ -46,10 +50,6 @@
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
-   "count": 4
-  },
-  {
-   "reason": "Top holder 12.1% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T22:00:10.594626+00:00",
+   "symbol": "TITTYVERSE",
+   "mint": "6SAFNdumKYNWVsuM116C7XQSVaJaxkFRbmrxHrNipump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 12.1% > 12% gate",
+   "entry_price": 8.655e-05,
+   "mcap": 86532,
+   "liq": 19920.84,
+   "h1": 144,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T21:30:34.573220+00:00",
    "symbol": "Brian",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T04:31:24.222184+00:00",
-   "symbol": "MIL",
-   "mint": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 8.489e-05,
-   "mcap": 84775,
-   "liq": 20135.68,
-   "h1": 188,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -762,18 +762,18 @@
   },
   {
    "wallet": "F7p3dFrjRTbtRp8FRF6qHLomXbKRBzpvBLjtQcfcgmNe",
-   "hits": 47,
+   "hits": 48,
    "symbols": [
-    "HWAN",
     "GTA",
     "woohao",
     "CBUCKS",
     "X",
     "Christmax",
     "Leonida",
-    "GLITCH"
+    "GLITCH",
+    "NINU"
    ],
-   "last": "2026-11-15 18:30 UTC"
+   "last": "2026-11-15 22:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -993,8 +993,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -10.4,
-   "ts": "2026-11-15 21:30 UTC"
+   "h1": -1.4,
+   "ts": "2026-11-15 22:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 12.8,
-   "ts": "2026-11-15 21:30 UTC"
+   "h1": 34.0,
+   "ts": "2026-11-15 22:00 UTC"
   }
  ],
  "live_closes": [
