@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T23:34:55.701186+00:00",
+ "generated": "2026-11-15T00:04:55.913714+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2318,
-  "cohort_wallets": 1855,
+  "cohort_runs": 2319,
+  "cohort_wallets": 1873,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 145
+   "count": 146
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T00:01:04.097208+00:00",
+   "symbol": "DOJE",
+   "mint": "7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001772,
+   "mcap": 177198,
+   "liq": 28843.17,
+   "h1": 420,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T00:01:04.090295+00:00",
+   "symbol": "RWA",
+   "mint": "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001643,
+   "mcap": 164359,
+   "liq": 27555.32,
+   "h1": 378,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-14T23:31:20.128871+00:00",
    "symbol": "JOB",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T02:31:05.174192+00:00",
-   "symbol": "HARAMBE",
-   "mint": "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 14.6% > 12% gate",
-   "entry_price": 6.535e-05,
-   "mcap": 65302,
-   "liq": 18658.53,
-   "h1": 27.69,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T02:31:05.169694+00:00",
-   "symbol": "SWJ",
-   "mint": "4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 14.4% > 12% gate",
-   "entry_price": 7.177e-05,
-   "mcap": 71703,
-   "liq": 19688.66,
-   "h1": 122,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "Christmax",
     "GATO"
    ],
-   "last": "2026-11-14 17:30 UTC"
+   "last": "2026-11-15 00:00 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,16 +943,10 @@
  ],
  "mints": [
   {
-   "symbol": "SHARKBUX",
-   "tag": "WATCH",
-   "h1": -14.7,
-   "ts": "2026-11-14 09:30 UTC"
-  },
-  {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-14 23:30 UTC"
+   "h1": -3.3,
+   "ts": "2026-11-15 00:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -999,8 +993,8 @@
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 7.2,
-   "ts": "2026-11-14 23:30 UTC"
+   "h1": -8.2,
+   "ts": "2026-11-15 00:00 UTC"
   },
   {
    "symbol": "ASTRALIS",
@@ -1013,6 +1007,12 @@
    "tag": "CHASE",
    "h1": 13986.0,
    "ts": "2026-11-14 22:00 UTC"
+  },
+  {
+   "symbol": "UM",
+   "tag": "WATCH",
+   "h1": 16.1,
+   "ts": "2026-11-15 00:00 UTC"
   }
  ],
  "live_closes": [
