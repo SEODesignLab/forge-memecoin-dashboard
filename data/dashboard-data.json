@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T14:34:00.909814+00:00",
+ "generated": "2026-11-15T15:04:01.118858+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2348,
-  "cohort_wallets": 1686,
+  "cohort_runs": 2349,
+  "cohort_wallets": 1691,
   "cohort_qualified": 224,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T15:00:06.000922+00:00",
+   "symbol": "SI",
+   "mint": "H2irVtPLfKoBJ69itZmhsedSPwBUTaubmUavc6Uapump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Top holder 25.1% > 12% gate",
+   "entry_price": 2.502e-05,
+   "mcap": 25025,
+   "liq": 10006.52,
+   "h1": -16.97,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T14:30:12.653011+00:00",
    "symbol": "WANTED",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T22:01:20.333744+00:00",
-   "symbol": "SEET",
-   "mint": "AJfKTj4gkMFWFaBdVrcHVrsNGauuGYo3Z2eJCnqZpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 24.8% > 12% gate",
-   "entry_price": 2.043e-05,
-   "mcap": 20437,
-   "liq": 9013.75,
-   "h1": -31.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "gtacoin",
-   "tag": "WATCH",
-   "h1": 73.9,
-   "ts": "2026-11-15 14:30 UTC"
+   "tag": "FADING",
+   "h1": -100.0,
+   "ts": "2026-11-15 15:00 UTC"
   }
  ],
  "live_closes": [
