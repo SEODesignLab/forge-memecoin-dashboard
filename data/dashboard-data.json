@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T15:04:01.118858+00:00",
+ "generated": "2026-11-15T15:34:01.248698+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2349,
-  "cohort_wallets": 1691,
+  "cohort_runs": 2350,
+  "cohort_wallets": 1703,
   "cohort_qualified": 224,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,6 +37,10 @@
    "count": 6
   },
   {
+   "reason": "Top holder 14.2% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 17.6% > 12% gate",
    "count": 5
   },
@@ -50,10 +54,6 @@
   },
   {
    "reason": "Top holder 19.1% > 12% gate",
-   "count": 4
-  },
-  {
-   "reason": "Top holder 14.2% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T15:30:16.120453+00:00",
+   "symbol": "Nyajira",
+   "mint": "4KK5kAhvBjU5RD2CXjCnxpdtedKmvpG4i3KbMvTqpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 14.2% > 12% gate",
+   "entry_price": 7.229e-05,
+   "mcap": 70886,
+   "liq": 18978.76,
+   "h1": 140,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T15:30:16.114201+00:00",
+   "symbol": "BUTTHOLE",
+   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 21.8% > 12% gate",
+   "entry_price": 0.0004441,
+   "mcap": 444181,
+   "liq": 11794.9,
+   "h1": 73.17,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T15:00:06.000922+00:00",
    "symbol": "SI",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T22:31:15.491330+00:00",
-   "symbol": "Grok5",
-   "mint": "FBAQACdDtHvc3m6YTSPTjQVJ6D7dzGj6XmtsWs2Ypump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 5.694e-05,
-   "mcap": 54697,
-   "liq": 18988.78,
-   "h1": 29.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T22:01:20.339149+00:00",
-   "symbol": "USSC",
-   "mint": "2jXTdUamxGAbs4XuxZKLZvaoqroMCVeapmnKtHLbpump",
-   "score": 110,
-   "decision": "SKIP",
-   "reason": "Top holder 26.7% > 12% gate",
-   "entry_price": 1.925e-05,
-   "mcap": 19228,
-   "liq": 8610.81,
-   "h1": -35.06,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1012,7 +1012,7 @@
    "symbol": "gtacoin",
    "tag": "FADING",
    "h1": -100.0,
-   "ts": "2026-11-15 15:00 UTC"
+   "ts": "2026-11-15 15:30 UTC"
   }
  ],
  "live_closes": [
