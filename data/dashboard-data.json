@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T07:34:58.497382+00:00",
+ "generated": "2026-11-15T08:04:58.675033+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2334,
-  "cohort_wallets": 1510,
+  "cohort_runs": 2335,
+  "cohort_wallets": 1520,
   "cohort_qualified": 221,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,15 +30,11 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 14
+   "count": 15
   },
   {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 16.4% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 17.6% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 13.6% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T08:01:18.790716+00:00",
+   "symbol": "GTA",
+   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 16.8% > 12% gate",
+   "entry_price": 9.732e-05,
+   "mcap": 93186,
+   "liq": 28988.74,
+   "h1": 13.21,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T08:01:18.785396+00:00",
+   "symbol": "OWED",
+   "mint": "Dpgt4i8AExpDcumBwpEJ8rUzZwuj2RLMq2B9b12vpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 23.1% > 12% gate",
+   "entry_price": 2.565e-05,
+   "mcap": 25619,
+   "liq": 10069.18,
+   "h1": -21.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T08:01:18.780075+00:00",
+   "symbol": "PumpBank",
+   "mint": "AGMRDpWgZoVjnBBTjPpye522dtcaBUwLyb5LhT23pump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.969e-05,
+   "mcap": 29693,
+   "liq": 10919.73,
+   "h1": 7.64,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T07:31:10.315988+00:00",
    "symbol": "TaoTao",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T14:31:14.518581+00:00",
-   "symbol": "SLIDES",
-   "mint": "8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 20.7% > 12% gate",
-   "entry_price": 4.892e-05,
-   "mcap": 46793,
-   "liq": 17623.82,
-   "h1": 3.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T14:31:14.511226+00:00",
-   "symbol": "VI",
-   "mint": "8HBgMHEZNFcVi2pMEb6mu2ii5TP4BGBvKxsm4s5Cpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Liquidity $14604 < $25000",
-   "entry_price": 3.215e-05,
-   "mcap": 32115,
-   "liq": 14604.14,
-   "h1": -28.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T14:31:14.503934+00:00",
-   "symbol": "VI",
-   "mint": "5wU7osGtkG6NP1Fxqv83mFL4uuDmjvggrkGwuZiYpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 7.269e-05,
-   "mcap": 72612,
-   "liq": 24310.43,
-   "h1": 61.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UM",
    "tag": "WATCH",
-   "h1": -6.2,
-   "ts": "2026-11-15 07:30 UTC"
+   "h1": 4.0,
+   "ts": "2026-11-15 08:00 UTC"
   },
   {
    "symbol": "gta",
