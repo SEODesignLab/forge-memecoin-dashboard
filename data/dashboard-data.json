@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T13:34:00.554818+00:00",
+ "generated": "2026-11-15T14:04:00.746555+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2346,
-  "cohort_wallets": 1663,
+  "cohort_runs": 2347,
+  "cohort_wallets": 1676,
   "cohort_qualified": 224,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 141
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T14:00:05.490147+00:00",
+   "symbol": "twert",
+   "mint": "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $22569 < $25000",
+   "entry_price": 0.0001042,
+   "mcap": 104059,
+   "liq": 22568.99,
+   "h1": 242,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T13:00:13.403622+00:00",
    "symbol": "SDEX",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T19:01:15.921481+00:00",
-   "symbol": "PROMETHEUS",
-   "mint": "GEppMmnXswv1cqJBMUU2t8QkB2FCRrQUQb1v7K3xpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 19.1% > 12% gate",
-   "entry_price": 4.469e-05,
-   "mcap": 44607,
-   "liq": 16771.86,
-   "h1": 0.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 97,
+   "hits": 98,
    "symbols": [
-    "LuckyCoin",
     "Shitcoin",
     "Huang",
     "Leonida",
     "CBUCKS",
     "FASTMOON",
     "GATO",
-    "UM"
+    "UM",
+    "gtacoin"
    ],
-   "last": "2026-11-15 10:00 UTC"
+   "last": "2026-11-15 14:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-11-15 13:30 UTC"
+   "h1": 2.8,
+   "ts": "2026-11-15 14:00 UTC"
   }
  ],
  "live_closes": [
