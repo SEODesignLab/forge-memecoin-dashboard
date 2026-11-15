@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T12:34:00.169224+00:00",
+ "generated": "2026-11-15T13:04:00.399326+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2344,
-  "cohort_wallets": 1633,
+  "cohort_runs": 2345,
+  "cohort_wallets": 1645,
   "cohort_qualified": 224,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 143
+   "count": 142
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T13:00:13.403622+00:00",
+   "symbol": "SDEX",
+   "mint": "J1sHNawTwQrRCga3w5uREEwTbrDZKT5j6WobLQKZSDEX",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 60>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 0.001114,
+   "mcap": 1114125,
+   "liq": 21823.82,
+   "h1": 5.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T13:00:13.395854+00:00",
+   "symbol": "PEER",
+   "mint": "B7kJAxdv9DsHzPNHKaKCnaEiUiEy7VYCeFbqiWoCpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 35.9% > 12% gate",
+   "entry_price": 1.319e-05,
+   "mcap": 13170,
+   "liq": 7145.63,
+   "h1": -54.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T12:01:14.548017+00:00",
    "symbol": "Gomez",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T18:31:10.095332+00:00",
-   "symbol": "aura ",
-   "mint": "HXW15JT4tbibJKS1LWhNovx4mhRjroPwur4ZeFeFpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003369,
-   "mcap": 336819,
-   "liq": 42817.01,
-   "h1": 615,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T18:31:10.088462+00:00",
-   "symbol": "capy",
-   "mint": "fX9dKa1DVdjSvYk3f2GAcj2RjQ5DFa54QTWAsXBpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 4.456e-05,
-   "mcap": 44562,
-   "liq": 14075.17,
-   "h1": 46.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UM",
    "tag": "CHASE",
-   "h1": 1749.0,
-   "ts": "2026-11-15 12:30 UTC"
+   "h1": 1846.0,
+   "ts": "2026-11-15 13:00 UTC"
   },
   {
    "symbol": "gta",
