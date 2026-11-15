@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T18:34:02.392352+00:00",
+ "generated": "2026-11-15T19:04:02.611979+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2356,
-  "cohort_wallets": 1772,
-  "cohort_qualified": 224,
+  "cohort_runs": 2357,
+  "cohort_wallets": 1783,
+  "cohort_qualified": 225,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -45,10 +45,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 19.1% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 13.6% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,28 @@
   {
    "reason": "RugCheck risk 57>45",
    "count": 3
+  },
+  {
+   "reason": "Top holder 15.5% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T19:00:24.868787+00:00",
+   "symbol": "ANSEM",
+   "mint": "mAWnfGt4EHpsicnZnynCuZbPcK7YmrN5dNjnVLipump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $22418 < $25000",
+   "entry_price": 7.331e-05,
+   "mcap": 73218,
+   "liq": 22417.71,
+   "h1": 36.05,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T18:00:36.171409+00:00",
    "symbol": "YIELD",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T23:31:20.128871+00:00",
-   "symbol": "JOB",
-   "mint": "7rBatsxwXiMLcz2PJjh8G45wZfHNHd4dvtBUMwsepump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 4.73e-05,
-   "mcap": 47266,
-   "liq": 14095.51,
-   "h1": 68.44,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "BIG",
     "GATO"
    ],
-   "last": "2026-11-14 22:30 UTC"
+   "last": "2026-11-15 19:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "gtacoin",
-   "tag": "FADING",
-   "h1": -25.8,
-   "ts": "2026-11-15 18:30 UTC"
+   "tag": "WATCH",
+   "h1": -12.4,
+   "ts": "2026-11-15 19:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "BEAR",
    "tag": "WATCH",
-   "h1": 78.5,
-   "ts": "2026-11-15 18:30 UTC"
+   "h1": 10.3,
+   "ts": "2026-11-15 19:00 UTC"
   }
  ],
  "live_closes": [
