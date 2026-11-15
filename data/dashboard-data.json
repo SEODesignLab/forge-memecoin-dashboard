@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T01:04:56.225880+00:00",
+ "generated": "2026-11-15T01:34:56.376087+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2321,
-  "cohort_wallets": 1902,
+  "cohort_runs": 2322,
+  "cohort_wallets": 1915,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 145
+   "count": 146
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -43,10 +43,6 @@
   {
    "reason": "Top holder 17.6% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 100.0% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 14.4% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 14.2% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 13.6% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T01:31:18.396798+00:00",
+   "symbol": "AMS",
+   "mint": "4b3ypv8i8vKUfCfETpbbPSLtvvW39eQVt5M41PxCpump",
+   "score": 116,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 4.962e-05,
+   "mcap": 49579,
+   "liq": 17704.58,
+   "h1": 7.69,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T01:31:18.392270+00:00",
+   "symbol": "nilf",
+   "mint": "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 16.8% > 12% gate",
+   "entry_price": 7.225e-05,
+   "mcap": 69684,
+   "liq": 21458.52,
+   "h1": 95.68,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T01:31:18.387510+00:00",
+   "symbol": "GTASZN",
+   "mint": "GWfkt89PP92cA1eg4NMRE2FqftZPwLgFyY2YRNLwpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001838,
+   "mcap": 183780,
+   "liq": 28960.73,
+   "h1": 409,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T01:01:07.492094+00:00",
    "symbol": "BUSTED",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T06:01:00.229820+00:00",
-   "symbol": "Popo",
-   "mint": "EnwpfgEPpQuXaA4TfvG1X8uTRo43DeWk7JjGKunWpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Liquidity $5198 < $25000",
-   "entry_price": 7.255e-06,
-   "mcap": 7241,
-   "liq": 5197.83,
-   "h1": -75.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T05:31:03.640884+00:00",
-   "symbol": "tinfoil",
-   "mint": "3D5nV4rQuNJezr6BGfxgQY3qqrtigmEnV2gqSi7ipump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $4169 < $25000",
-   "entry_price": 0.0002016,
-   "mcap": 197174,
-   "liq": 4168.69,
-   "h1": 1.87,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T05:31:03.636238+00:00",
-   "symbol": "ASTRALIS",
-   "mint": "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003577,
-   "mcap": 345402,
-   "liq": 43735.82,
-   "h1": 160,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 0.9,
-   "ts": "2026-11-15 01:00 UTC"
+   "h1": -9.0,
+   "ts": "2026-11-15 01:30 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -993,8 +993,8 @@
   {
    "symbol": "JENSEN",
    "tag": "FADING",
-   "h1": -31.7,
-   "ts": "2026-11-15 01:00 UTC"
+   "h1": -78.9,
+   "ts": "2026-11-15 01:30 UTC"
   },
   {
    "symbol": "ASTRALIS",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "UM",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-15 01:00 UTC"
+   "h1": -4.2,
+   "ts": "2026-11-15 01:30 UTC"
   }
  ],
  "live_closes": [
