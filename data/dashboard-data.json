@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T00:34:56.023828+00:00",
+ "generated": "2026-11-15T01:04:56.225880+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2320,
-  "cohort_wallets": 1887,
+  "cohort_runs": 2321,
+  "cohort_wallets": 1902,
   "cohort_qualified": 219,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 146
+   "count": 145
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T01:01:07.492094+00:00",
+   "symbol": "BUSTED",
+   "mint": "8p11yHxwiKtcFy1QZ68iec2xcFzpXJeMExXLFz8Hpump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "Liquidity $17313 < $25000",
+   "entry_price": 6.756e-05,
+   "mcap": 67528,
+   "liq": 17313.22,
+   "h1": 92.01,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T00:31:22.233115+00:00",
    "symbol": "Lucia",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T04:31:04.975162+00:00",
-   "symbol": "UP",
-   "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 17.7% > 12% gate",
-   "entry_price": 4.68e-05,
-   "mcap": 46808,
-   "liq": 15086.37,
-   "h1": 57.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -945,8 +945,8 @@
   {
    "symbol": "Christmax",
    "tag": "WATCH",
-   "h1": 1.8,
-   "ts": "2026-11-15 00:30 UTC"
+   "h1": 0.9,
+   "ts": "2026-11-15 01:00 UTC"
   },
   {
    "symbol": "FASTMOON",
@@ -992,9 +992,9 @@
   },
   {
    "symbol": "JENSEN",
-   "tag": "WATCH",
-   "h1": 5.9,
-   "ts": "2026-11-15 00:30 UTC"
+   "tag": "FADING",
+   "h1": -31.7,
+   "ts": "2026-11-15 01:00 UTC"
   },
   {
    "symbol": "ASTRALIS",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "UM",
    "tag": "WATCH",
-   "h1": 15.1,
-   "ts": "2026-11-15 00:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-15 01:00 UTC"
   }
  ],
  "live_closes": [
