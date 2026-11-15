@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T20:04:02.978749+00:00",
+ "generated": "2026-11-15T20:34:03.117111+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2359,
-  "cohort_wallets": 1811,
+  "cohort_runs": 2360,
+  "cohort_wallets": 1823,
   "cohort_qualified": 225,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T20:30:30.819157+00:00",
+   "symbol": "GTA",
+   "mint": "EwVUPKyysUxz1Ej2s6AczqqXjK8EwTNokCtvk38Xpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Liquidity $22199 < $25000",
+   "entry_price": 0.0001066,
+   "mcap": 106582,
+   "liq": 22198.82,
+   "h1": 210,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T20:00:17.348522+00:00",
    "symbol": "NINU",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T01:31:18.392270+00:00",
-   "symbol": "nilf",
-   "mint": "ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.8% > 12% gate",
-   "entry_price": 7.225e-05,
-   "mcap": 69684,
-   "liq": 21458.52,
-   "h1": 95.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "gtacoin",
     "NINU"
    ],
-   "last": "2026-11-15 19:30 UTC"
+   "last": "2026-11-15 20:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,8 +993,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -11.9,
-   "ts": "2026-11-15 20:00 UTC"
+   "h1": 15.8,
+   "ts": "2026-11-15 20:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "NINU",
-   "tag": "WATCH",
-   "h1": 18.0,
-   "ts": "2026-11-15 20:00 UTC"
+   "tag": "FADING",
+   "h1": -30.7,
+   "ts": "2026-11-15 20:30 UTC"
   }
  ],
  "live_closes": [
