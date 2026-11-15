@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T14:04:00.746555+00:00",
+ "generated": "2026-11-15T14:34:00.909814+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2347,
-  "cohort_wallets": 1676,
+  "cohort_runs": 2348,
+  "cohort_wallets": 1686,
   "cohort_qualified": 224,
   "live_closes": 18,
   "live_wins": 4,
@@ -41,10 +41,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 18.2% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 13.4% > 12% gate",
    "count": 4
   },
@@ -71,9 +67,43 @@
   {
    "reason": "Top holder 12.1% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 16.4% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T14:30:12.653011+00:00",
+   "symbol": "WANTED",
+   "mint": "GUkwiQYxXzutiaF1io6i1j67BDd7UzJsgMinLRQ8pump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Liquidity $23300 < $25000",
+   "entry_price": 0.0001166,
+   "mcap": 116591,
+   "liq": 23299.72,
+   "h1": 224,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T14:30:12.647870+00:00",
+   "symbol": "Nyajira",
+   "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 22.3% > 12% gate",
+   "entry_price": 2.503e-05,
+   "mcap": 24996,
+   "liq": 10019.7,
+   "h1": -14.39,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T14:00:05.490147+00:00",
    "symbol": "twert",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T20:31:09.703481+00:00",
-   "symbol": "greg",
-   "mint": "27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.501e-05,
-   "mcap": 34967,
-   "liq": 12188.62,
-   "h1": 16.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T20:01:15.311712+00:00",
-   "symbol": "GTAification",
-   "mint": "HMdus7YaVZ4c6aJ61bS7uuMWunH6icv4mpsE422Fpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 33.5% > 12% gate",
-   "entry_price": 6.13e-05,
-   "mcap": 61198,
-   "liq": 20293.18,
-   "h1": 32.61,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1011,8 +1011,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": 2.8,
-   "ts": "2026-11-15 14:00 UTC"
+   "h1": 73.9,
+   "ts": "2026-11-15 14:30 UTC"
   }
  ],
  "live_closes": [
