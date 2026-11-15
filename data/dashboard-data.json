@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T05:04:57.581154+00:00",
+ "generated": "2026-11-15T05:34:57.769661+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2329,
-  "cohort_wallets": 1975,
-  "cohort_qualified": 219,
+  "cohort_runs": 2330,
+  "cohort_wallets": 1982,
+  "cohort_qualified": 220,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 145
+   "count": 144
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T05:31:16.965926+00:00",
+   "symbol": "meme",
+   "mint": "4ed5SsUJeXaDCyM7aGHoA5LBjQjEx3xzVGpYEcMvpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $7880 < $25000",
+   "entry_price": 1.574e-05,
+   "mcap": 15741,
+   "liq": 7880.11,
+   "h1": -43.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T05:01:00.337568+00:00",
    "symbol": "HODL",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-14T11:01:10.595516+00:00",
-   "symbol": "LGND",
-   "mint": "GPiHbgbvWbZHKQiVf1v8AupAuST3mqSv3zb2SBJULGND",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 1.761e-06,
-   "mcap": 176118,
-   "liq": 36161.28,
-   "h1": 0.4,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UM",
    "tag": "WATCH",
-   "h1": -4.8,
-   "ts": "2026-11-15 05:00 UTC"
+   "h1": 13.5,
+   "ts": "2026-11-15 05:30 UTC"
   },
   {
    "symbol": "gta",
