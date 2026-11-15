@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T23:04:04.047389+00:00",
+ "generated": "2026-11-15T23:34:04.198935+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2365,
-  "cohort_wallets": 1881,
+  "cohort_runs": 2366,
+  "cohort_wallets": 1896,
   "cohort_qualified": 227,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 142
+   "count": 141
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -65,15 +65,60 @@
    "count": 4
   },
   {
-   "reason": "Top holder 35.9% > 12% gate",
+   "reason": "Top holder 20.2% > 12% gate",
    "count": 3
   },
   {
-   "reason": "Top holder 20.2% > 12% gate",
+   "reason": "RugCheck risk 61>45",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-15T23:30:20.983969+00:00",
+   "symbol": "ANIME",
+   "mint": "6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 15.6% > 12% gate",
+   "entry_price": 6.369e-05,
+   "mcap": 63694,
+   "liq": 18770.79,
+   "h1": 116,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T23:30:20.979492+00:00",
+   "symbol": "Rally",
+   "mint": "8uwWqV6a8HDmqGjhgY2WewRTKG2zJtznUL5hgTfHpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 30.9% > 12% gate",
+   "entry_price": 1.558e-05,
+   "mcap": 15568,
+   "liq": 7809.61,
+   "h1": -48.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-15T23:30:20.974708+00:00",
+   "symbol": "AI",
+   "mint": "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002021,
+   "mcap": 202016,
+   "liq": 31133.99,
+   "h1": 516,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T22:30:24.535738+00:00",
    "symbol": "Retire",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T07:01:09.877416+00:00",
-   "symbol": "HOGE",
-   "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 23.0% > 12% gate",
-   "entry_price": 6.101e-05,
-   "mcap": 60924,
-   "liq": 22589.53,
-   "h1": 4.96,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T06:01:21.638977+00:00",
-   "symbol": "PANICSELL",
-   "mint": "82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 36.9% > 12% gate",
-   "entry_price": 3.706e-05,
-   "mcap": 35754,
-   "liq": 16839.15,
-   "h1": -38.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T06:01:21.632875+00:00",
-   "symbol": "TAIL",
-   "mint": "2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $6779 < $25000",
-   "entry_price": 1.259e-05,
-   "mcap": 12163,
-   "liq": 6779.3,
-   "h1": -23.89,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Nigghao",
-   "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-11-13 22:00 UTC"
-  },
-  {
    "symbol": "AMC",
    "tag": "WATCH",
    "h1": 0.6,
@@ -993,8 +987,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": 31.7,
-   "ts": "2026-11-15 23:00 UTC"
+   "h1": 3.1,
+   "ts": "2026-11-15 23:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-15 23:00 UTC"
+   "h1": 12.0,
+   "ts": "2026-11-15 23:30 UTC"
+  },
+  {
+   "symbol": "Socks",
+   "tag": "WATCH",
+   "h1": -3.6,
+   "ts": "2026-11-15 23:30 UTC"
   }
  ],
  "live_closes": [
