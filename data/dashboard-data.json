@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T21:04:11.434427+00:00",
+ "generated": "2026-11-16T21:34:11.586565+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2409,
-  "cohort_wallets": 1920,
+  "cohort_runs": 2410,
+  "cohort_wallets": 1935,
   "cohort_qualified": 232,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 139
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T21:30:20.186411+00:00",
+   "symbol": "WORLDCRAFT",
+   "mint": "6ErRss728CstWJD9wHNeVEdVmKncYMRpsWHKLbxopump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 20.6% > 12% gate",
+   "entry_price": 3.712e-05,
+   "mcap": 33663,
+   "liq": 12524.44,
+   "h1": 20.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T21:30:20.181247+00:00",
+   "symbol": "VICE",
+   "mint": "6UcvWd4hHYz6FUE8LqDrrXvz6uXbvNtsp9LudEmnpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001718,
+   "mcap": 171795,
+   "liq": 28346.45,
+   "h1": 386,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T21:00:26.817469+00:00",
    "symbol": "Trader",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T05:30:14.464390+00:00",
-   "symbol": "KELPGUY",
-   "mint": "CiV5UJFf2dp87cymyPf3UaV8FLCiynYVZopgN5QSpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 32.1% > 12% gate",
-   "entry_price": 1.311e-05,
-   "mcap": 13115,
-   "liq": 7086.05,
-   "h1": -56.2,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T05:30:14.458417+00:00",
-   "symbol": "equity",
-   "mint": "HnNTiEwkmHezJBnvUa3QMZ97uS4jXf67NCXSAV8bpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 4.466e-05,
-   "mcap": 44660,
-   "liq": 14112.98,
-   "h1": 50.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 95.0,
-   "ts": "2026-11-16 21:00 UTC"
+   "h1": 103.0,
+   "ts": "2026-11-16 21:30 UTC"
   },
   {
    "symbol": "ROCCO",
    "tag": "CHASE",
-   "h1": 2275.0,
-   "ts": "2026-11-16 20:00 UTC"
+   "h1": 91912.0,
+   "ts": "2026-11-16 21:30 UTC"
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "CHASE",
-   "h1": 2827.0,
-   "ts": "2026-11-16 21:00 UTC"
+   "tag": "WATCH",
+   "h1": 135.0,
+   "ts": "2026-11-16 21:30 UTC"
   }
  ],
  "live_closes": [
