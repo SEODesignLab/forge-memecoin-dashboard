@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T10:34:08.053033+00:00",
+ "generated": "2026-11-16T11:04:08.245810+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2388,
-  "cohort_wallets": 1657,
+  "cohort_runs": 2389,
+  "cohort_wallets": 1667,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 138
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T11:00:20.208143+00:00",
+   "symbol": "1.0",
+   "mint": "42t61wPi41TwWtpqBVgZN1V4hjiKwZBKwq27xME9pump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001827,
+   "mcap": 182467,
+   "liq": 31581.54,
+   "h1": 505,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T10:00:16.887736+00:00",
    "symbol": "\u0926\u0947\u0938\u0940",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T17:00:13.029303+00:00",
-   "symbol": "Dollar",
-   "mint": "4JhX8T75P9z4gk91SBnQeAb7h7qCe7iWAiVgucVypump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.38e-05,
-   "mcap": 33801,
-   "liq": 11816.13,
-   "h1": 13.16,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -11.8,
-   "ts": "2026-11-16 10:30 UTC"
+   "h1": -1.6,
+   "ts": "2026-11-16 11:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "Anthropig",
-   "tag": "WATCH",
-   "h1": -11.1,
-   "ts": "2026-11-16 10:30 UTC"
+   "tag": "FADING",
+   "h1": -24.5,
+   "ts": "2026-11-16 11:00 UTC"
   }
  ],
  "live_closes": [
