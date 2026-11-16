@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:04:09.236531+00:00",
+ "generated": "2026-11-16T14:34:09.403573+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2395,
-  "cohort_wallets": 1752,
+  "cohort_runs": 2396,
+  "cohort_wallets": 1768,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T14:30:26.508636+00:00",
+   "symbol": "GIFT",
+   "mint": "tmZXn6N9rmPqh6LnU49jmAARqnmsPhyUKKNbvvkpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 18.7% > 12% gate",
+   "entry_price": 3.845e-05,
+   "mcap": 38385,
+   "liq": 12670.07,
+   "h1": 26.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T14:30:26.500321+00:00",
+   "symbol": "WATER",
+   "mint": "FV23gQJYmnqSZtEkVCzVAzwS5YmSQcp7UuYSLVepump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $14699 < $25000",
+   "entry_price": 4.81e-05,
+   "mcap": 48064,
+   "liq": 14698.98,
+   "h1": 67,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T14:00:20.025325+00:00",
    "symbol": "Stumpy",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T21:00:14.798140+00:00",
-   "symbol": "FRANK",
-   "mint": "52s4znkZ8Z6MSxMxNbssRedvEHUase3KSiLqKpzpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 6.707e-05,
-   "mcap": 67078,
-   "liq": 17818.15,
-   "h1": 125,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T20:30:30.819157+00:00",
-   "symbol": "GTA",
-   "mint": "EwVUPKyysUxz1Ej2s6AczqqXjK8EwTNokCtvk38Xpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Liquidity $22199 < $25000",
-   "entry_price": 0.0001066,
-   "mcap": 106582,
-   "liq": 22198.82,
-   "h1": 210,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "CBUCKS",
     "RESPECT"
    ],
-   "last": "2026-11-16 14:00 UTC"
+   "last": "2026-11-16 14:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -999,20 +999,20 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": 4.4,
-   "ts": "2026-11-16 14:00 UTC"
+   "h1": 20.1,
+   "ts": "2026-11-16 14:30 UTC"
   },
   {
    "symbol": "BLOB",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-16 14:00 UTC"
+   "h1": 13.7,
+   "ts": "2026-11-16 14:30 UTC"
   },
   {
    "symbol": "RESPECT",
-   "tag": "FADING",
-   "h1": -23.1,
-   "ts": "2026-11-16 14:00 UTC"
+   "tag": "WATCH",
+   "h1": -11.1,
+   "ts": "2026-11-16 14:30 UTC"
   }
  ],
  "live_closes": [
