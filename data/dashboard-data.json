@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:04:10.512162+00:00",
+ "generated": "2026-11-16T18:34:10.670763+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2403,
-  "cohort_wallets": 1847,
+  "cohort_runs": 2404,
+  "cohort_wallets": 1859,
   "cohort_qualified": 231,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T18:30:29.016699+00:00",
+   "symbol": "ETF",
+   "mint": "Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001819,
+   "mcap": 181917,
+   "liq": 30171.68,
+   "h1": 485,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T18:30:29.005025+00:00",
+   "symbol": "SI",
+   "mint": "AkPMD68BiWGmoGJc28kgvnc6fnzXsx99WT3SXsKLpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Liquidity $22926 < $25000",
+   "entry_price": 0.0001121,
+   "mcap": 110814,
+   "liq": 22926.2,
+   "h1": 254,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T18:30:28.999593+00:00",
+   "symbol": "LUCIA",
+   "mint": "BQ9fTrZwg5E9BY6nxbD7p5sv8uCWfxRUg9TLG6Xqpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 91.7% > 12% gate",
+   "entry_price": 0.000116,
+   "mcap": 116030,
+   "liq": 23098.53,
+   "h1": 230,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T18:30:28.991562+00:00",
+   "symbol": "001",
+   "mint": "EwbnNPZM2T8sbQs6FeEQWJGSwBniAq4LkDTrhY38cCfm",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $5396 < $25000",
+   "entry_price": 8.14e-06,
+   "mcap": 8140,
+   "liq": 5396.44,
+   "h1": -55.59,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T18:00:25.111368+00:00",
    "symbol": "GTAHUB",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T00:30:14.636169+00:00",
-   "symbol": "PercPools",
-   "mint": "EwLANuSwR7z9QNTXGwdsW7mFzXPiaucUBZjiXfw6pump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 17.6% > 12% gate",
-   "entry_price": 3.694e-05,
-   "mcap": 36905,
-   "liq": 13051.86,
-   "h1": 23.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T00:30:14.630512+00:00",
-   "symbol": "BAWSAQ",
-   "mint": "DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Chase filter: +496% in 1h > 40% cap",
-   "entry_price": 0.0005356,
-   "mcap": 535531,
-   "liq": 52480.78,
-   "h1": 496,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T23:30:20.983969+00:00",
-   "symbol": "ANIME",
-   "mint": "6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 15.6% > 12% gate",
-   "entry_price": 6.369e-05,
-   "mcap": 63694,
-   "liq": 18770.79,
-   "h1": 116,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T23:30:20.979492+00:00",
-   "symbol": "Rally",
-   "mint": "8uwWqV6a8HDmqGjhgY2WewRTKG2zJtznUL5hgTfHpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 30.9% > 12% gate",
-   "entry_price": 1.558e-05,
-   "mcap": 15568,
-   "liq": 7809.61,
-   "h1": -48.41,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "gta",
-   "tag": "WATCH",
-   "h1": 13.2,
-   "ts": "2026-11-15 02:30 UTC"
-  },
-  {
    "symbol": "gtacoin",
    "tag": "WATCH",
    "h1": 0.0,
@@ -1005,14 +999,20 @@
   {
    "symbol": "VIBED",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-16 18:00 UTC"
+   "h1": -10.2,
+   "ts": "2026-11-16 18:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": -4.2,
    "ts": "2026-11-16 18:00 UTC"
+  },
+  {
+   "symbol": "COGE",
+   "tag": "WATCH",
+   "h1": 112.0,
+   "ts": "2026-11-16 18:30 UTC"
   }
  ],
  "live_closes": [
