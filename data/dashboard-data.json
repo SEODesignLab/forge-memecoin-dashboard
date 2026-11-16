@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T05:34:06.250088+00:00",
+ "generated": "2026-11-16T06:04:06.488231+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2378,
-  "cohort_wallets": 1537,
+  "cohort_runs": 2379,
+  "cohort_wallets": 1553,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 138
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T06:00:14.970861+00:00",
+   "symbol": "6STAR",
+   "mint": "67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002661,
+   "mcap": 266096,
+   "liq": 35838.37,
+   "h1": 724,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T05:30:14.464390+00:00",
    "symbol": "KELPGUY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T15:30:16.120453+00:00",
-   "symbol": "Nyajira",
-   "mint": "4KK5kAhvBjU5RD2CXjCnxpdtedKmvpG4i3KbMvTqpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 14.2% > 12% gate",
-   "entry_price": 7.229e-05,
-   "mcap": 70886,
-   "liq": 18978.76,
-   "h1": 140,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -982,7 +982,7 @@
    "symbol": "gtacoin",
    "tag": "WATCH",
    "h1": 2.9,
-   "ts": "2026-11-16 05:30 UTC"
+   "ts": "2026-11-16 06:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -999,8 +999,8 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 4.3,
-   "ts": "2026-11-16 05:30 UTC"
+   "h1": 4.7,
+   "ts": "2026-11-16 06:00 UTC"
   },
   {
    "symbol": "Socks",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": -5.1,
-   "ts": "2026-11-16 05:30 UTC"
+   "h1": -13.0,
+   "ts": "2026-11-16 06:00 UTC"
   }
  ],
  "live_closes": [
