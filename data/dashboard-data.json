@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:34:10.670763+00:00",
+ "generated": "2026-11-16T19:04:10.843298+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2404,
-  "cohort_wallets": 1859,
+  "cohort_runs": 2405,
+  "cohort_wallets": 1869,
   "cohort_qualified": 231,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 135
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T19:00:28.216835+00:00",
+   "symbol": "EPIC",
+   "mint": "FVugTPW5CG2gvGthnaeDhJyBdwdQqcuzgFEFEAfhpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 21.4% > 12% gate",
+   "entry_price": 2.708e-05,
+   "mcap": 27084,
+   "liq": 10418.67,
+   "h1": -5.42,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T19:00:28.208940+00:00",
+   "symbol": "DACAT",
+   "mint": "8AzrbaGjACy5VZ4gyjaAGAueCYpvpUWKwpyeGp4wpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000253,
+   "mcap": 252980,
+   "liq": 34652.74,
+   "h1": 603,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T18:30:29.016699+00:00",
    "symbol": "ETF",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T00:30:14.647661+00:00",
-   "symbol": "CYBERDACITY",
-   "mint": "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001419,
-   "mcap": 140392,
-   "liq": 25907.29,
-   "h1": 16.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T00:30:14.641307+00:00",
-   "symbol": "nma",
-   "mint": "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 15.8% > 12% gate",
-   "entry_price": 5.901e-05,
-   "mcap": 58947,
-   "liq": 16611.71,
-   "h1": 80.61,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -908,7 +908,7 @@
     "Huang",
     "RESPECT"
    ],
-   "last": "2026-11-16 16:00 UTC"
+   "last": "2026-11-16 19:00 UTC"
   },
   {
    "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
@@ -942,12 +942,6 @@
   }
  ],
  "mints": [
-  {
-   "symbol": "gtacoin",
-   "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-16 13:00 UTC"
-  },
   {
    "symbol": "SLIDES",
    "tag": "WATCH",
@@ -998,9 +992,9 @@
   },
   {
    "symbol": "VIBED",
-   "tag": "WATCH",
-   "h1": -10.2,
-   "ts": "2026-11-16 18:30 UTC"
+   "tag": "FADING",
+   "h1": -33.6,
+   "ts": "2026-11-16 19:00 UTC"
   },
   {
    "symbol": "VI",
@@ -1013,6 +1007,12 @@
    "tag": "WATCH",
    "h1": 112.0,
    "ts": "2026-11-16 18:30 UTC"
+  },
+  {
+   "symbol": "COGE",
+   "tag": "WATCH",
+   "h1": 18.6,
+   "ts": "2026-11-16 19:00 UTC"
   }
  ],
  "live_closes": [
