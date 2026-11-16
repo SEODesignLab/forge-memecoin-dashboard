@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T12:34:08.735999+00:00",
+ "generated": "2026-11-16T13:04:08.918651+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2392,
-  "cohort_wallets": 1700,
+  "cohort_runs": 2393,
+  "cohort_wallets": 1716,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 136
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -49,6 +49,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 14.9% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 13.6% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 14.3% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 17.9% > 12% gate",
-   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T13:00:22.220756+00:00",
+   "symbol": "DOUG",
+   "mint": "CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 14.9% > 12% gate",
+   "entry_price": 9.657e-05,
+   "mcap": 96579,
+   "liq": 25852.81,
+   "h1": 107,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T13:00:22.215158+00:00",
+   "symbol": "Pumpkin",
+   "mint": "okUweUUY5DFGbxSCXSV6sH9neDArt5vJWNefnxKpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 20.0% > 12% gate",
+   "entry_price": 2.739e-05,
+   "mcap": 27356,
+   "liq": 10520.58,
+   "h1": -5.56,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T12:30:21.197230+00:00",
    "symbol": "WASTED6",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T19:30:28.034316+00:00",
-   "symbol": "ANT",
-   "mint": "BDPm9gPHCRyo2qjcRrYPsXexmbRwuuHQZo2qhhYXpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002621,
-   "mcap": 259909,
-   "liq": 35655.95,
-   "h1": 636,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T19:30:28.025669+00:00",
-   "symbol": "GTAVI",
-   "mint": "2anhKq7srLuvKDi63EyAPYyK71vSGeyTrVxTJRN4fc8N",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 28.8% > 12% gate",
-   "entry_price": 1.639e-05,
-   "mcap": 15763,
-   "liq": 7931.39,
-   "h1": 43.95,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "GATO",
     "NINU"
    ],
-   "last": "2026-11-16 05:00 UTC"
+   "last": "2026-11-16 13:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "BLACKOUT",
-   "tag": "CHASE",
-   "h1": 68479.0,
-   "ts": "2026-11-14 21:00 UTC"
-  },
-  {
    "symbol": "JENSEN",
    "tag": "FADING",
    "h1": -64.5,
@@ -982,7 +976,7 @@
    "symbol": "gtacoin",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-16 12:30 UTC"
+   "ts": "2026-11-16 13:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": 22.1,
-   "ts": "2026-11-16 12:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-16 13:00 UTC"
+  },
+  {
+   "symbol": "BLOB",
+   "tag": "WATCH",
+   "h1": -1.2,
+   "ts": "2026-11-16 13:00 UTC"
   }
  ],
  "live_closes": [
