@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T13:04:08.918651+00:00",
+ "generated": "2026-11-16T13:34:09.081468+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2393,
-  "cohort_wallets": 1716,
+  "cohort_runs": 2394,
+  "cohort_wallets": 1735,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 136
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T13:30:14.435022+00:00",
+   "symbol": "CLAUDEMOM",
+   "mint": "EyCE6g5w21D6PzH9BHFBxuWsLeHewZWMSf4ju3qPpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 3.611e-05,
+   "mcap": 36116,
+   "liq": 12237.12,
+   "h1": 27.22,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T13:30:14.429958+00:00",
+   "symbol": "Stumpy",
+   "mint": "83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 21.4% > 12% gate",
+   "entry_price": 3.642e-05,
+   "mcap": 36365,
+   "liq": 13200.1,
+   "h1": 28.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T13:00:22.220756+00:00",
    "symbol": "DOUG",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T20:00:17.334063+00:00",
-   "symbol": "ANT",
-   "mint": "7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Liquidity $21974 < $25000",
-   "entry_price": 0.0001039,
-   "mcap": 102593,
-   "liq": 21974.45,
-   "h1": 193,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T20:00:17.329008+00:00",
-   "symbol": "NCAT",
-   "mint": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 20.5% > 12% gate",
-   "entry_price": 5.196e-05,
-   "mcap": 51900,
-   "liq": 18819.87,
-   "h1": 16.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 108,
+   "hits": 109,
    "symbols": [
-    "MILES",
     "HODLER",
     "GTA",
     "Shitcoin",
     "Christmax",
     "GLITCH",
     "NINU",
-    "DIGS"
+    "DIGS",
+    "RESPECT"
    ],
-   "last": "2026-11-16 06:30 UTC"
+   "last": "2026-11-16 13:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -818,7 +818,7 @@
     "BIG",
     "GATO"
    ],
-   "last": "2026-11-15 19:00 UTC"
+   "last": "2026-11-16 13:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "JENSEN",
-   "tag": "FADING",
-   "h1": -64.5,
-   "ts": "2026-11-15 02:00 UTC"
-  },
-  {
    "symbol": "ASTRALIS",
    "tag": "CHASE",
    "h1": 499.0,
@@ -1005,14 +999,20 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-16 13:00 UTC"
+   "h1": -10.2,
+   "ts": "2026-11-16 13:30 UTC"
   },
   {
    "symbol": "BLOB",
    "tag": "WATCH",
-   "h1": -1.2,
-   "ts": "2026-11-16 13:00 UTC"
+   "h1": -8.3,
+   "ts": "2026-11-16 13:30 UTC"
+  },
+  {
+   "symbol": "RESPECT",
+   "tag": "WATCH",
+   "h1": 12.9,
+   "ts": "2026-11-16 13:30 UTC"
   }
  ],
  "live_closes": [
