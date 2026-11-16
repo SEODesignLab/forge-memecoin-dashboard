@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T02:34:05.200459+00:00",
+ "generated": "2026-11-16T03:04:05.384833+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2372,
-  "cohort_wallets": 1975,
+  "cohort_runs": 2373,
+  "cohort_wallets": 1986,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 140
+   "count": 139
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T03:00:11.248443+00:00",
+   "symbol": "POKE",
+   "mint": "6ZadZuzJ752xcUyWKnniwDyajYVJiKRhT4iyeUCvpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $10795 < $25000",
+   "entry_price": 2.853e-05,
+   "mcap": 28511,
+   "liq": 10795.03,
+   "h1": -1.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T02:30:28.474247+00:00",
    "symbol": "XRL",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T14:00:05.490147+00:00",
-   "symbol": "twert",
-   "mint": "8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $22569 < $25000",
-   "entry_price": 0.0001042,
-   "mcap": 104059,
-   "liq": 22568.99,
-   "h1": 242,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -867,18 +867,18 @@
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 25,
+   "hits": 26,
    "symbols": [
-    "GLITCH",
     "Ventrion",
     "koinu",
     "PIPS",
     "Wifoween",
     "woohao",
     "Shitcoin",
-    "Huang"
+    "Huang",
+    "Socks"
    ],
-   "last": "2026-11-13 08:00 UTC"
+   "last": "2026-11-16 03:00 UTC"
   },
   {
    "wallet": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
@@ -982,7 +982,7 @@
    "symbol": "gtacoin",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-16 02:30 UTC"
+   "ts": "2026-11-16 03:00 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Socks",
    "tag": "WATCH",
-   "h1": 6.3,
-   "ts": "2026-11-16 02:30 UTC"
+   "h1": 9.9,
+   "ts": "2026-11-16 03:00 UTC"
   },
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": -12.9,
-   "ts": "2026-11-16 02:30 UTC"
+   "h1": -4.1,
+   "ts": "2026-11-16 03:00 UTC"
   }
  ],
  "live_closes": [
