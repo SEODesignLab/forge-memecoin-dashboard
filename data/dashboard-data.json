@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T05:04:06.084766+00:00",
+ "generated": "2026-11-16T05:34:06.250088+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2377,
-  "cohort_wallets": 1522,
+  "cohort_runs": 2378,
+  "cohort_wallets": 1537,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -53,6 +53,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 18.1% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 16.4% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 29.3% > 12% gate",
    "count": 3
-  },
-  {
-   "reason": "Top holder 15.0% > 12% gate",
-   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T05:30:14.464390+00:00",
+   "symbol": "KELPGUY",
+   "mint": "CiV5UJFf2dp87cymyPf3UaV8FLCiynYVZopgN5QSpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 32.1% > 12% gate",
+   "entry_price": 1.311e-05,
+   "mcap": 13115,
+   "liq": 7086.05,
+   "h1": -56.2,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T05:30:14.458417+00:00",
+   "symbol": "equity",
+   "mint": "HnNTiEwkmHezJBnvUa3QMZ97uS4jXf67NCXSAV8bpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 18.1% > 12% gate",
+   "entry_price": 4.466e-05,
+   "mcap": 44660,
+   "liq": 14112.98,
+   "h1": 50.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T05:00:12.026427+00:00",
    "symbol": "PASSED",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T15:30:16.114201+00:00",
-   "symbol": "BUTTHOLE",
-   "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 21.8% > 12% gate",
-   "entry_price": 0.0004441,
-   "mcap": 444181,
-   "liq": 11794.9,
-   "h1": 73.17,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T15:00:06.000922+00:00",
-   "symbol": "SI",
-   "mint": "H2irVtPLfKoBJ69itZmhsedSPwBUTaubmUavc6Uapump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 25.1% > 12% gate",
-   "entry_price": 2.502e-05,
-   "mcap": 25025,
-   "liq": 10006.52,
-   "h1": -16.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "NINU",
     "DIGS"
    ],
-   "last": "2026-11-16 05:00 UTC"
+   "last": "2026-11-16 05:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,8 +981,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-16 05:00 UTC"
+   "h1": 2.9,
+   "ts": "2026-11-16 05:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -999,8 +999,8 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 5.6,
-   "ts": "2026-11-16 05:00 UTC"
+   "h1": 4.3,
+   "ts": "2026-11-16 05:30 UTC"
   },
   {
    "symbol": "Socks",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": 10.0,
-   "ts": "2026-11-16 05:00 UTC"
+   "h1": -5.1,
+   "ts": "2026-11-16 05:30 UTC"
   }
  ],
  "live_closes": [
