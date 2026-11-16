@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T16:34:10.033835+00:00",
+ "generated": "2026-11-16T17:04:10.207478+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2400,
-  "cohort_wallets": 1813,
+  "cohort_runs": 2401,
+  "cohort_wallets": 1823,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 130
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T17:00:24.898244+00:00",
+   "symbol": "VIBED",
+   "mint": "HrVrPuiccywXYvXRGemHxztdeHQRgr2V8qA5BkquAy6o",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 8.207e-05,
+   "mcap": 82074,
+   "liq": 31317.43,
+   "h1": 39.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T16:30:20.569873+00:00",
    "symbol": "\ud83d\udc60",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T21:30:34.573220+00:00",
-   "symbol": "Brian",
-   "mint": "9WGvvKDQSkzwmPoGmDCx42C8t1xyvrV3hFExCgkrpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002391,
-   "mcap": 237138,
-   "liq": 34018.72,
-   "h1": 626,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,14 +1005,14 @@
   {
    "symbol": "BLOB",
    "tag": "WATCH",
-   "h1": -5.7,
-   "ts": "2026-11-16 16:30 UTC"
+   "h1": 5.7,
+   "ts": "2026-11-16 17:00 UTC"
   },
   {
    "symbol": "RESPECT",
-   "tag": "WATCH",
-   "h1": 19.6,
-   "ts": "2026-11-16 16:30 UTC"
+   "tag": "FADING",
+   "h1": -21.3,
+   "ts": "2026-11-16 17:00 UTC"
   }
  ],
  "live_closes": [
