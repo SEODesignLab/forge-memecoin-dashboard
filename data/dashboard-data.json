@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T11:04:08.245810+00:00",
+ "generated": "2026-11-16T11:34:08.406631+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2389,
-  "cohort_wallets": 1667,
+  "cohort_runs": 2390,
+  "cohort_wallets": 1680,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T11:30:15.756004+00:00",
+   "symbol": "FIBDIP",
+   "mint": "3CacZc651RHTRk9weLRhoPCqADoqqEfgHTsyemRiFHzH",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 20.3% > 12% gate",
+   "entry_price": 2.83e-05,
+   "mcap": 28258,
+   "liq": 10683.55,
+   "h1": -6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T11:00:20.208143+00:00",
    "symbol": "1.0",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T18:00:36.166571+00:00",
-   "symbol": "Busted",
-   "mint": "G69C53wwbhRDCpAkkoqBGWjeBfPoUsRMbNg3jmU8pump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0006971,
-   "mcap": 695023,
-   "liq": 61271.63,
-   "h1": 26.67,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": -1.6,
-   "ts": "2026-11-16 11:00 UTC"
+   "h1": 11.5,
+   "ts": "2026-11-16 11:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "Anthropig",
-   "tag": "FADING",
-   "h1": -24.5,
-   "ts": "2026-11-16 11:00 UTC"
+   "tag": "WATCH",
+   "h1": -18.5,
+   "ts": "2026-11-16 11:30 UTC"
   }
  ],
  "live_closes": [
