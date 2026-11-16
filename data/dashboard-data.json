@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T07:04:06.815338+00:00",
+ "generated": "2026-11-16T07:34:06.961638+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2381,
-  "cohort_wallets": 1577,
+  "cohort_runs": 2382,
+  "cohort_wallets": 1590,
   "cohort_qualified": 230,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T07:30:12.737716+00:00",
+   "symbol": "SAP",
+   "mint": "9GwnR6ZGpaVmuoFep7ETH3YSDjmXjFq2GJqmMfGXpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 43.0% > 12% gate",
+   "entry_price": 1.405e-05,
+   "mcap": 14054,
+   "liq": 7191.98,
+   "h1": -53.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T06:00:14.970861+00:00",
    "symbol": "6STAR",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T16:00:09.755772+00:00",
-   "symbol": "SI",
-   "mint": "CmUoTvE986qgTB1Kvo4NVbHXBH5Qa2PyGhe7GMDepump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 25.3% > 12% gate",
-   "entry_price": 1.525e-05,
-   "mcap": 15231,
-   "liq": 7957.09,
-   "h1": -48.43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "gtacoin",
    "tag": "WATCH",
-   "h1": 83.0,
-   "ts": "2026-11-16 07:00 UTC"
+   "h1": -9.2,
+   "ts": "2026-11-16 07:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Anthropig",
    "tag": "WATCH",
-   "h1": 4.5,
-   "ts": "2026-11-16 07:00 UTC"
+   "h1": 8.0,
+   "ts": "2026-11-16 07:30 UTC"
   }
  ],
  "live_closes": [
