@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T00:04:04.438706+00:00",
+ "generated": "2026-11-16T00:34:04.552340+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 0,
   "paper_win_rate": null,
   "need_settled": 50,
-  "cohort_runs": 2367,
-  "cohort_wallets": 1907,
+  "cohort_runs": 2368,
+  "cohort_wallets": 1922,
   "cohort_qualified": 229,
   "live_closes": 18,
   "live_wins": 4,
@@ -33,15 +33,15 @@
    "count": 15
   },
   {
+   "reason": "Top holder 17.6% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 12.4% > 12% gate",
    "count": 5
   },
   {
    "reason": "Top holder 12.1% > 12% gate",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 17.6% > 12% gate",
    "count": 5
   },
   {
@@ -65,15 +65,75 @@
    "count": 4
   },
   {
-   "reason": "Top holder 20.2% > 12% gate",
+   "reason": "Top holder 26.2% > 12% gate",
    "count": 3
   },
   {
-   "reason": "RugCheck risk 61>45",
+   "reason": "Top holder 29.3% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-16T00:30:14.647661+00:00",
+   "symbol": "CYBERDACITY",
+   "mint": "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001419,
+   "mcap": 140392,
+   "liq": 25907.29,
+   "h1": 16.71,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T00:30:14.641307+00:00",
+   "symbol": "nma",
+   "mint": "Fvv62MhgjrXpvXmKcLci2HoiCAxFmSkUm1Niamvipump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 15.8% > 12% gate",
+   "entry_price": 5.901e-05,
+   "mcap": 58947,
+   "liq": 16611.71,
+   "h1": 80.61,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T00:30:14.636169+00:00",
+   "symbol": "PercPools",
+   "mint": "EwLANuSwR7z9QNTXGwdsW7mFzXPiaucUBZjiXfw6pump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 17.6% > 12% gate",
+   "entry_price": 3.694e-05,
+   "mcap": 36905,
+   "liq": 13051.86,
+   "h1": 23.22,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-16T00:30:14.630512+00:00",
+   "symbol": "BAWSAQ",
+   "mint": "DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Chase filter: +496% in 1h > 40% cap",
+   "entry_price": 0.0005356,
+   "mcap": 535531,
+   "liq": 52480.78,
+   "h1": 496,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-15T23:30:20.983969+00:00",
    "symbol": "ANIME",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T08:01:18.790716+00:00",
-   "symbol": "GTA",
-   "mint": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 16.8% > 12% gate",
-   "entry_price": 9.732e-05,
-   "mcap": 93186,
-   "liq": 28988.74,
-   "h1": 13.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T08:01:18.785396+00:00",
-   "symbol": "OWED",
-   "mint": "Dpgt4i8AExpDcumBwpEJ8rUzZwuj2RLMq2B9b12vpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 23.1% > 12% gate",
-   "entry_price": 2.565e-05,
-   "mcap": 25619,
-   "liq": 10069.18,
-   "h1": -21.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T08:01:18.780075+00:00",
-   "symbol": "PumpBank",
-   "mint": "AGMRDpWgZoVjnBBTjPpye522dtcaBUwLyb5LhT23pump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 2.969e-05,
-   "mcap": 29693,
-   "liq": 10919.73,
-   "h1": 7.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-15T07:31:10.315988+00:00",
-   "symbol": "TaoTao",
-   "mint": "G1KuEMuLrxWynFddQVnpdkQAhYFBwNJiuz1Lv7d9pump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Top holder 22.6% > 12% gate",
-   "entry_price": 2.548e-05,
-   "mcap": 25443,
-   "liq": 10024.36,
-   "h1": -10.87,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -988,7 +988,7 @@
    "symbol": "gtacoin",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-16 00:00 UTC"
+   "ts": "2026-11-16 00:30 UTC"
   },
   {
    "symbol": "SLIDES",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "NINU",
    "tag": "WATCH",
-   "h1": 10.3,
-   "ts": "2026-11-16 00:00 UTC"
+   "h1": -11.7,
+   "ts": "2026-11-16 00:30 UTC"
   },
   {
    "symbol": "Socks",
    "tag": "WATCH",
-   "h1": 12.4,
-   "ts": "2026-11-16 00:00 UTC"
+   "h1": 26.8,
+   "ts": "2026-11-16 00:30 UTC"
   }
  ],
  "live_closes": [
