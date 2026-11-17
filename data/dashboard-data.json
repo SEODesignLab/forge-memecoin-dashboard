@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T23:34:12.201533+00:00",
+ "generated": "2026-11-17T00:04:12.412594+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2414,
-  "cohort_wallets": 1995,
+  "cohort_runs": 2415,
+  "cohort_wallets": 1500,
   "cohort_qualified": 233,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 15
+   "count": 14
   },
   {
    "reason": "Top holder 17.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T00:00:29.845511+00:00",
+   "symbol": "LCN",
+   "mint": "HJELybxguLMcM1UrMVSdprgnU1cBC4DAAsnCCautpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 44.7% > 12% gate",
+   "entry_price": 6.936e-06,
+   "mcap": 6927,
+   "liq": 4871.86,
+   "h1": -76.66,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T00:00:29.839517+00:00",
+   "symbol": "GTA",
+   "mint": "6wYajafYWqMBrs1FpHJLAHciSjLr3gReQs5WYwbtpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Chase filter: +304% in 1h > 40% cap",
+   "entry_price": 0.000143,
+   "mcap": 141422,
+   "liq": 26017.93,
+   "h1": 304,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-16T23:30:28.158382+00:00",
    "symbol": "goldie",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T12:30:21.197230+00:00",
-   "symbol": "WASTED6",
-   "mint": "3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 5.652e-05,
-   "mcap": 54459,
-   "liq": 15915.15,
-   "h1": 70.95,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T12:30:21.190757+00:00",
-   "symbol": "GOSSIP",
-   "mint": "RDBH77f3ZvW6P7NVhV9CuZqrCXVTVoNRahbM9Ynpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 22.9% > 12% gate",
-   "entry_price": 2.741e-05,
-   "mcap": 25820,
-   "liq": 10624.52,
-   "h1": -4.84,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "NINU",
-   "tag": "WATCH",
-   "h1": -3.8,
-   "ts": "2026-11-16 06:30 UTC"
-  },
-  {
    "symbol": "Socks",
    "tag": "WATCH",
    "h1": -9.5,
@@ -1011,9 +1005,15 @@
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "WATCH",
-   "h1": -12.3,
-   "ts": "2026-11-16 23:30 UTC"
+   "tag": "FADING",
+   "h1": -36.4,
+   "ts": "2026-11-17 00:00 UTC"
+  },
+  {
+   "symbol": "LEOSTAR",
+   "tag": "CHASE",
+   "h1": 3286.0,
+   "ts": "2026-11-17 00:00 UTC"
   }
  ],
  "live_closes": [
