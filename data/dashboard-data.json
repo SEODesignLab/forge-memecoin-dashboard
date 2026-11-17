@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T02:04:13.020838+00:00",
+ "generated": "2026-11-17T02:34:13.123229+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2419,
-  "cohort_wallets": 1584,
+  "cohort_runs": 2420,
+  "cohort_wallets": 1608,
   "cohort_qualified": 233,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 14
+   "count": 13
   },
   {
    "reason": "Top holder 17.6% > 12% gate",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T02:30:28.124038+00:00",
+   "symbol": "BIGP",
+   "mint": "D3g7TDE64JvXDQkoVnswXPEv1i28kovsDYCvBs89pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 16.5% > 12% gate",
+   "entry_price": 5.685e-05,
+   "mcap": 54360,
+   "liq": 15858.55,
+   "h1": 55.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T02:30:28.119471+00:00",
+   "symbol": "CAT",
+   "mint": "2HVqzNisr463WMDpp6Q45ekuVfcjm8kEaiKd4ra8pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $15012 < $25000",
+   "entry_price": 4.889e-05,
+   "mcap": 46764,
+   "liq": 15011.58,
+   "h1": 65.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T02:30:28.114350+00:00",
+   "symbol": "CHAR",
+   "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 7.618e-05,
+   "mcap": 76097,
+   "liq": 19160.79,
+   "h1": 153,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T01:00:36.058288+00:00",
    "symbol": "LUCIA",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T14:00:20.025325+00:00",
-   "symbol": "Stumpy",
-   "mint": "4rip7LeGrTfA8WwXUQYvuXc41YwsVhzHb5bRXhbupump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Liquidity $12164 < $25000",
-   "entry_price": 3.507e-05,
-   "mcap": 35023,
-   "liq": 12164.26,
-   "h1": 23.42,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T14:00:20.019626+00:00",
-   "symbol": "TRUMPEDO",
-   "mint": "HFmQFi7w5WqdMfRrBob35WhZ5baEeRTzFhPgkkSTpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 21.9% > 12% gate",
-   "entry_price": 3.046e-05,
-   "mcap": 30430,
-   "liq": 11293.95,
-   "h1": 0.86,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T13:30:14.435022+00:00",
-   "symbol": "CLAUDEMOM",
-   "mint": "EyCE6g5w21D6PzH9BHFBxuWsLeHewZWMSf4ju3qPpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 3.611e-05,
-   "mcap": 36116,
-   "liq": 12237.12,
-   "h1": 27.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -988,8 +988,8 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-11-17 02:00 UTC"
+   "h1": -5.2,
+   "ts": "2026-11-17 02:30 UTC"
   },
   {
    "symbol": "ROCCO",
@@ -999,21 +999,21 @@
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "FADING",
-   "h1": -20.1,
-   "ts": "2026-11-17 02:00 UTC"
+   "tag": "WATCH",
+   "h1": -6.5,
+   "ts": "2026-11-17 02:30 UTC"
   },
   {
    "symbol": "LEOSTAR",
    "tag": "WATCH",
-   "h1": 38.2,
-   "ts": "2026-11-17 02:00 UTC"
+   "h1": 23.5,
+   "ts": "2026-11-17 02:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-17 02:00 UTC"
+   "h1": -13.4,
+   "ts": "2026-11-17 02:30 UTC"
   }
  ],
  "live_closes": [
