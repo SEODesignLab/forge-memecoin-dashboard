@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:04:16.748564+00:00",
+ "generated": "2026-11-17T14:34:16.893722+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2443,
-  "cohort_wallets": 1661,
+  "cohort_runs": 2444,
+  "cohort_wallets": 1684,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 135
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -37,15 +37,15 @@
    "count": 6
   },
   {
-   "reason": "Top holder 14.6% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 12.1% > 12% gate",
    "count": 5
   },
   {
    "reason": "Top holder 18.1% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T14:30:35.077413+00:00",
+   "symbol": "SUPERPLUMB",
+   "mint": "3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Top holder 16.9% > 12% gate",
+   "entry_price": 4.832e-05,
+   "mcap": 46563,
+   "liq": 14784.55,
+   "h1": 55.89,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T14:30:35.069082+00:00",
+   "symbol": "GEKKO",
+   "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001712,
+   "mcap": 162364,
+   "liq": 30469.26,
+   "h1": 4818,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T14:00:30.762946+00:00",
    "symbol": "FUNGI",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T19:30:27.691869+00:00",
-   "symbol": "GTA",
-   "mint": "Ugp1hEeDscu8RXkzd2teXLACYB4wrxVEht5mghDpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Chase filter: +379% in 1h > 40% cap",
-   "entry_price": 0.0001696,
-   "mcap": 169578,
-   "liq": 28133.2,
-   "h1": 379,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T19:00:28.216835+00:00",
-   "symbol": "EPIC",
-   "mint": "FVugTPW5CG2gvGthnaeDhJyBdwdQqcuzgFEFEAfhpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 21.4% > 12% gate",
-   "entry_price": 2.708e-05,
-   "mcap": 27084,
-   "liq": 10418.67,
-   "h1": -5.42,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -853,18 +853,18 @@
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 27,
+   "hits": 28,
    "symbols": [
-    "koinu",
     "PIPS",
     "Wifoween",
     "woohao",
     "Shitcoin",
     "Huang",
     "Socks",
-    "XRL"
+    "XRL",
+    "CHAR"
    ],
-   "last": "2026-11-16 18:00 UTC"
+   "last": "2026-11-17 14:30 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -982,8 +982,8 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": -5.3,
-   "ts": "2026-11-17 14:00 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-17 14:30 UTC"
   },
   {
    "symbol": "ROCCO",
@@ -993,9 +993,9 @@
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "FADING",
-   "h1": -43.2,
-   "ts": "2026-11-17 14:00 UTC"
+   "tag": "WATCH",
+   "h1": 3.8,
+   "ts": "2026-11-17 14:30 UTC"
   },
   {
    "symbol": "LEOSTAR",
@@ -1006,14 +1006,14 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-11-17 14:00 UTC"
+   "h1": 5.5,
+   "ts": "2026-11-17 14:30 UTC"
   },
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": 31.6,
-   "ts": "2026-11-17 14:00 UTC"
+   "h1": 11.3,
+   "ts": "2026-11-17 14:30 UTC"
   }
  ],
  "live_closes": [
