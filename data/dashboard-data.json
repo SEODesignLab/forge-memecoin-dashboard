@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:34:19.348407+00:00",
+ "generated": "2026-11-17T23:04:19.504714+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2460,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2461,
+  "cohort_wallets": 1519,
   "cohort_qualified": 237,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T23:00:31.613663+00:00",
+   "symbol": "LUCIA",
+   "mint": "3HPU5agEYMrecTnrunbDWAKkPy5Z4CMyt4GnTDe9pump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "Chase filter: +335% in 1h > 40% cap",
+   "entry_price": 0.0001547,
+   "mcap": 154720,
+   "liq": 27420.69,
+   "h1": 335,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T22:30:42.933364+00:00",
    "symbol": "GTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T04:30:26.795949+00:00",
-   "symbol": "Tuff",
-   "mint": "4xYLY4PLLapVcTwvUPRTnSraoPZgXzXYGtAKw7ogpump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "Liquidity $16680 < $25000",
-   "entry_price": 5.4e-05,
-   "mcap": 53935,
-   "liq": 16680.42,
-   "h1": 70.32,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,14 +993,14 @@
   {
    "symbol": "CHAR",
    "tag": "FADING",
-   "h1": -33.3,
-   "ts": "2026-11-17 22:30 UTC"
+   "h1": -47.0,
+   "ts": "2026-11-17 23:00 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 11.2,
-   "ts": "2026-11-17 22:30 UTC"
+   "h1": -1.7,
+   "ts": "2026-11-17 23:00 UTC"
   },
   {
    "symbol": "Rex",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": -18.8,
-   "ts": "2026-11-17 22:30 UTC"
+   "h1": 6.6,
+   "ts": "2026-11-17 23:00 UTC"
   }
  ],
  "live_closes": [
