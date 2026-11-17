@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T03:04:13.312925+00:00",
+ "generated": "2026-11-17T03:34:13.439779+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2421,
-  "cohort_wallets": 1635,
+  "cohort_runs": 2422,
+  "cohort_wallets": 1660,
   "cohort_qualified": 234,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T03:30:22.049755+00:00",
+   "symbol": "bul",
+   "mint": "Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 24.5% > 12% gate",
+   "entry_price": 0.0001269,
+   "mcap": 126943,
+   "liq": 63294.45,
+   "h1": 18.7,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T03:30:22.044636+00:00",
+   "symbol": "VICEX",
+   "mint": "2R4u7VwRhu6b8Em9j31n9TSnx3njFqD47KeZKDuppump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 49>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.479e-05,
+   "mcap": 34741,
+   "liq": 12305.59,
+   "h1": 10.88,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T03:01:05.717294+00:00",
    "symbol": "OPTIMJACK",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T15:30:22.334398+00:00",
-   "symbol": "VI",
-   "mint": "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 17.0% > 12% gate",
-   "entry_price": 4.138e-05,
-   "mcap": 41301,
-   "liq": 13223.22,
-   "h1": 46.69,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T15:00:18.199940+00:00",
-   "symbol": "TURN",
-   "mint": "qay6c14bea8Y2ebCYwDpNtMqxEE27WZFJELKPQ6cGTA",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 30.0% > 12% gate",
-   "entry_price": 7.82e-05,
-   "mcap": 78199,
-   "liq": 18360.22,
-   "h1": 47.31,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -988,8 +988,8 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": -6.7,
-   "ts": "2026-11-17 03:00 UTC"
+   "h1": 2.0,
+   "ts": "2026-11-17 03:30 UTC"
   },
   {
    "symbol": "ROCCO",
@@ -1000,20 +1000,20 @@
   {
    "symbol": "BAWSAQ",
    "tag": "WATCH",
-   "h1": 31.6,
-   "ts": "2026-11-17 03:00 UTC"
+   "h1": 79.3,
+   "ts": "2026-11-17 03:30 UTC"
   },
   {
    "symbol": "LEOSTAR",
-   "tag": "FADING",
-   "h1": -31.6,
-   "ts": "2026-11-17 03:00 UTC"
+   "tag": "WATCH",
+   "h1": -14.1,
+   "ts": "2026-11-17 03:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-17 03:00 UTC"
+   "h1": 23.3,
+   "ts": "2026-11-17 03:30 UTC"
   }
  ],
  "live_closes": [
