@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T08:34:14.976407+00:00",
+ "generated": "2026-11-17T09:04:15.147769+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2432,
-  "cohort_wallets": 1917,
+  "cohort_runs": 2433,
+  "cohort_wallets": 1947,
   "cohort_qualified": 235,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T09:00:26.216000+00:00",
+   "symbol": "PTA",
+   "mint": "3mbH52PNhs3vRm6cfSF8QwM8ukXf8V6aCvBTLzYwpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Liquidity $8320 < $25000",
+   "entry_price": 1.756e-05,
+   "mcap": 17526,
+   "liq": 8320.4,
+   "h1": -38.42,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T08:00:30.230153+00:00",
    "symbol": "SUPERPLUMB",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T18:30:28.991562+00:00",
-   "symbol": "001",
-   "mint": "EwbnNPZM2T8sbQs6FeEQWJGSwBniAq4LkDTrhY38cCfm",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $5396 < $25000",
-   "entry_price": 8.14e-06,
-   "mcap": 8140,
-   "liq": 5396.44,
-   "h1": -55.59,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -976,8 +976,8 @@
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -2.2,
-   "ts": "2026-11-17 08:30 UTC"
+   "h1": -13.7,
+   "ts": "2026-11-17 09:00 UTC"
   },
   {
    "symbol": "COGE",
@@ -988,8 +988,8 @@
   {
    "symbol": "COGE",
    "tag": "WATCH",
-   "h1": 3.6,
-   "ts": "2026-11-17 08:30 UTC"
+   "h1": -4.4,
+   "ts": "2026-11-17 09:00 UTC"
   },
   {
    "symbol": "ROCCO",
@@ -1000,20 +1000,20 @@
   {
    "symbol": "BAWSAQ",
    "tag": "WATCH",
-   "h1": 35.9,
-   "ts": "2026-11-17 08:30 UTC"
+   "h1": 40.9,
+   "ts": "2026-11-17 09:00 UTC"
   },
   {
    "symbol": "LEOSTAR",
    "tag": "WATCH",
-   "h1": -0.9,
-   "ts": "2026-11-17 08:30 UTC"
+   "h1": -3.0,
+   "ts": "2026-11-17 09:00 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 6.7,
-   "ts": "2026-11-17 08:30 UTC"
+   "h1": 19.1,
+   "ts": "2026-11-17 09:00 UTC"
   }
  ],
  "live_closes": [
