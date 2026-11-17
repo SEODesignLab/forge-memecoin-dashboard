@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:04:18.245615+00:00",
+ "generated": "2026-11-17T19:34:18.400617+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2453,
-  "cohort_wallets": 1879,
+  "cohort_runs": 2454,
+  "cohort_wallets": 1902,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 139
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T19:30:46.627744+00:00",
+   "symbol": "JALU",
+   "mint": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004901,
+   "mcap": 487334,
+   "liq": 50274.86,
+   "h1": 945,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T19:30:46.619972+00:00",
+   "symbol": "GTAI",
+   "mint": "GDrjvBB7GtFx6VjkWbtJ2mi8TZ3P5jMU77w3dDsopump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $19602 < $25000",
+   "entry_price": 5.91e-05,
+   "mcap": 59019,
+   "liq": 19601.77,
+   "h1": 23,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T19:00:38.694750+00:00",
    "symbol": "GM",
@@ -643,37 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T23:30:28.158382+00:00",
-   "symbol": "goldie",
-   "mint": "ZxRuXdtvsu3MzRgMux55V3LRgwCCcH3xo9YSrJKpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 20.6% > 12% gate",
-   "entry_price": 5.463e-05,
-   "mcap": 54527,
-   "liq": 19057.62,
-   "h1": 22.95,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T22:00:28.569280+00:00",
-   "symbol": "BAWSAQ",
-   "mint": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
-   "score": 90,
-   "decision": "PAPER_BUY",
-   "reason": "OK study:holder3%full,unlockedLP\u00d70.85,band85-99",
-   "entry_price": 0.001676,
-   "mcap": 1668490,
-   "liq": 95336.87,
-   "h1": -34.77,
-   "settled": true,
-   "exit_price": 0.001795,
-   "pnl_pct": 0.071,
-   "settled_ts": "2026-11-16T23:04:12.032277+00:00"
   }
  ],
  "narrative_paper": [
@@ -944,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "RESPECT",
-   "tag": "WATCH",
-   "h1": -14.7,
-   "ts": "2026-11-16 17:30 UTC"
-  },
-  {
    "symbol": "XRL",
    "tag": "FADING",
    "h1": -36.5,
@@ -1000,20 +993,26 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 3.1,
-   "ts": "2026-11-17 19:00 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-17 19:30 UTC"
   },
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": -4.9,
-   "ts": "2026-11-17 19:00 UTC"
+   "h1": 8.8,
+   "ts": "2026-11-17 19:30 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 31.3,
-   "ts": "2026-11-17 19:00 UTC"
+   "h1": 16.2,
+   "ts": "2026-11-17 19:30 UTC"
+  },
+  {
+   "symbol": "Rex",
+   "tag": "WATCH",
+   "h1": 11.3,
+   "ts": "2026-11-17 19:30 UTC"
   }
  ],
  "live_closes": [
