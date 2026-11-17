@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:34:18.400617+00:00",
+ "generated": "2026-11-17T20:04:18.579131+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2454,
-  "cohort_wallets": 1902,
+  "cohort_runs": 2455,
+  "cohort_wallets": 1924,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 139
+   "count": 141
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 13
+   "count": 12
   },
   {
    "reason": "Top holder 17.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T20:01:06.767268+00:00",
+   "symbol": "CSI",
+   "mint": "4z7LXmQewWk5LLDTbTZEeGpeUhTFR1dHGvg7ckhbpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001935,
+   "mcap": 193572,
+   "liq": 30629.24,
+   "h1": 431,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T20:01:06.759454+00:00",
+   "symbol": "ViceCat",
+   "mint": "58tcG4YSeH3c7JeEBrngipHJ2Ph3SX89EP6ZH4aupump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001417,
+   "mcap": 141664,
+   "liq": 25832.32,
+   "h1": 294,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T19:30:46.627744+00:00",
    "symbol": "JALU",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T00:00:29.845511+00:00",
-   "symbol": "LCN",
-   "mint": "HJELybxguLMcM1UrMVSdprgnU1cBC4DAAsnCCautpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 44.7% > 12% gate",
-   "entry_price": 6.936e-06,
-   "mcap": 6927,
-   "liq": 4871.86,
-   "h1": -76.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T00:00:29.839517+00:00",
-   "symbol": "GTA",
-   "mint": "6wYajafYWqMBrs1FpHJLAHciSjLr3gReQs5WYwbtpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Chase filter: +304% in 1h > 40% cap",
-   "entry_price": 0.000143,
-   "mcap": 141422,
-   "liq": 26017.93,
-   "h1": 304,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 101,
+   "hits": 102,
    "symbols": [
-    "CBUCKS",
     "FASTMOON",
     "GATO",
     "UM",
     "gtacoin",
     "NINU",
     "VI",
-    "COGE"
+    "COGE",
+    "Lucia"
    ],
-   "last": "2026-11-17 13:00 UTC"
+   "last": "2026-11-17 20:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -993,26 +993,26 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 10.0,
-   "ts": "2026-11-17 19:30 UTC"
+   "h1": 13.4,
+   "ts": "2026-11-17 20:00 UTC"
   },
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": 8.8,
-   "ts": "2026-11-17 19:30 UTC"
+   "h1": 21.0,
+   "ts": "2026-11-17 20:00 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 16.2,
-   "ts": "2026-11-17 19:30 UTC"
+   "h1": 2.5,
+   "ts": "2026-11-17 20:00 UTC"
   },
   {
    "symbol": "Rex",
-   "tag": "WATCH",
-   "h1": 11.3,
-   "ts": "2026-11-17 19:30 UTC"
+   "tag": "FADING",
+   "h1": -52.9,
+   "ts": "2026-11-17 20:00 UTC"
   }
  ],
  "live_closes": [
