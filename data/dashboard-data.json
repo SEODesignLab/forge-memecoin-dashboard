@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T16:34:17.483933+00:00",
+ "generated": "2026-11-17T17:04:17.664180+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2448,
-  "cohort_wallets": 1772,
+  "cohort_runs": 2449,
+  "cohort_wallets": 1798,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 136
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,26 @@
    "count": 4
   },
   {
-   "reason": "Top holder 14.9% > 12% gate",
+   "reason": "Top holder 15.2% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T17:00:37.962853+00:00",
+   "symbol": "JVOLT",
+   "mint": "6PrBbWUciChkoYKEaJZJXjtiQnRJqiAgLMYTEnXbpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002988,
+   "mcap": 297203,
+   "liq": 39339.84,
+   "h1": -26.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T16:00:33.488883+00:00",
    "symbol": "Rex",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T21:00:26.805719+00:00",
-   "symbol": "LastRide",
-   "mint": "D8q1rSs4ernxGWur9tb5YGiAGEh6tgzg2VQc6spkpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002149,
-   "mcap": 214844,
-   "liq": 31987.55,
-   "h1": 578,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -988,8 +988,8 @@
   {
    "symbol": "BAWSAQ",
    "tag": "WATCH",
-   "h1": -11.3,
-   "ts": "2026-11-17 16:30 UTC"
+   "h1": 12.7,
+   "ts": "2026-11-17 17:00 UTC"
   },
   {
    "symbol": "LEOSTAR",
@@ -1000,20 +1000,20 @@
   {
    "symbol": "GTA",
    "tag": "FADING",
-   "h1": -23.4,
-   "ts": "2026-11-17 16:30 UTC"
+   "h1": -31.2,
+   "ts": "2026-11-17 17:00 UTC"
   },
   {
    "symbol": "CHAR",
-   "tag": "FADING",
-   "h1": -26.1,
-   "ts": "2026-11-17 16:30 UTC"
+   "tag": "WATCH",
+   "h1": -6.1,
+   "ts": "2026-11-17 17:00 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -13.1,
-   "ts": "2026-11-17 16:30 UTC"
+   "h1": 10.9,
+   "ts": "2026-11-17 17:00 UTC"
   }
  ],
  "live_closes": [
