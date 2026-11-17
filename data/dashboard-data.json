@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T20:34:18.731015+00:00",
+ "generated": "2026-11-17T21:04:18.895422+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2456,
-  "cohort_wallets": 1945,
+  "cohort_runs": 2457,
+  "cohort_wallets": 1964,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T21:00:34.919218+00:00",
+   "symbol": "LUCIASS",
+   "mint": "9UvLfZuL4p7P2MPJ7LosboQnhjeukX2GnC78NVbmpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $23720 < $25000",
+   "entry_price": 0.0001192,
+   "mcap": 119250,
+   "liq": 23719.63,
+   "h1": 226,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T20:30:29.184384+00:00",
    "symbol": "LUCIA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T00:30:17.620838+00:00",
-   "symbol": "GTAMARKET",
-   "mint": "7vsy9nxAhNJdRsnndLd5a9Jhf5uVi8BDWr4C9hmZpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 27.6% > 12% gate",
-   "entry_price": 1.857e-05,
-   "mcap": 18574,
-   "liq": 8512.22,
-   "h1": -36.16,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -792,18 +792,18 @@
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
-   "hits": 42,
+   "hits": 43,
    "symbols": [
-    "THUG",
     "BIG",
     "Leonida",
     "Christmax",
     "GATO",
     "NINU",
     "WASTED",
-    "JOB"
+    "JOB",
+    "Lucia"
    ],
-   "last": "2026-11-16 23:30 UTC"
+   "last": "2026-11-17 21:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -848,7 +848,7 @@
     "CHAR",
     "Lucia"
    ],
-   "last": "2026-11-17 17:30 UTC"
+   "last": "2026-11-17 21:00 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -993,26 +993,26 @@
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": -17.9,
-   "ts": "2026-11-17 20:30 UTC"
+   "h1": -17.7,
+   "ts": "2026-11-17 21:00 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -4.6,
-   "ts": "2026-11-17 20:30 UTC"
+   "h1": 10.0,
+   "ts": "2026-11-17 21:00 UTC"
   },
   {
    "symbol": "Rex",
    "tag": "FADING",
-   "h1": -49.1,
-   "ts": "2026-11-17 20:30 UTC"
+   "h1": -78.4,
+   "ts": "2026-11-17 21:00 UTC"
   },
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": 127.0,
-   "ts": "2026-11-17 20:30 UTC"
+   "h1": 20.2,
+   "ts": "2026-11-17 21:00 UTC"
   }
  ],
  "live_closes": [
