@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T07:34:14.674726+00:00",
+ "generated": "2026-11-17T08:04:14.852049+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2430,
-  "cohort_wallets": 1864,
+  "cohort_runs": 2431,
+  "cohort_wallets": 1892,
   "cohort_qualified": 235,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 135
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T08:00:30.230153+00:00",
+   "symbol": "SUPERPLUMB",
+   "mint": "3ghMZsrHkWKzigd2pxvuLMGMcVYJt1JjDcatsfMhpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 15.8% > 12% gate",
+   "entry_price": 5.374e-05,
+   "mcap": 51775,
+   "liq": 15646.06,
+   "h1": 72.43,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T08:00:30.224778+00:00",
+   "symbol": "cepump",
+   "mint": "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Liquidity $24163 < $25000",
+   "entry_price": 0.0001217,
+   "mcap": 116347,
+   "liq": 24162.56,
+   "h1": 274,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T07:00:30.910799+00:00",
    "symbol": "KATIA",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T18:00:25.111368+00:00",
-   "symbol": "GTAHUB",
-   "mint": "2hg559PqkbnfaprUE3V5dSFAaDNjURnmvGs79kqepump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001842,
-   "mcap": 184196,
-   "liq": 29533.81,
-   "h1": 462,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T18:00:25.104893+00:00",
-   "symbol": "MAYA",
-   "mint": "BEivETeJfF2tLkuTc5dNMcpMH6vGGcwtZchw1J3vpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0009499,
-   "mcap": 949857,
-   "liq": 68611.37,
-   "h1": 2315,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -774,7 +774,7 @@
     "VIBED",
     "COGE"
    ],
-   "last": "2026-11-17 02:00 UTC"
+   "last": "2026-11-17 08:00 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -976,8 +976,8 @@
   {
    "symbol": "VI",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-11-17 07:30 UTC"
+   "h1": -5.9,
+   "ts": "2026-11-17 08:00 UTC"
   },
   {
    "symbol": "COGE",
@@ -987,9 +987,9 @@
   },
   {
    "symbol": "COGE",
-   "tag": "FADING",
-   "h1": -26.4,
-   "ts": "2026-11-17 07:30 UTC"
+   "tag": "WATCH",
+   "h1": 7.5,
+   "ts": "2026-11-17 08:00 UTC"
   },
   {
    "symbol": "ROCCO",
@@ -999,21 +999,21 @@
   },
   {
    "symbol": "BAWSAQ",
-   "tag": "FADING",
-   "h1": -20.6,
-   "ts": "2026-11-17 07:30 UTC"
+   "tag": "WATCH",
+   "h1": -11.8,
+   "ts": "2026-11-17 08:00 UTC"
   },
   {
    "symbol": "LEOSTAR",
    "tag": "WATCH",
-   "h1": 21.5,
-   "ts": "2026-11-17 07:30 UTC"
+   "h1": 6.0,
+   "ts": "2026-11-17 08:00 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -6.8,
-   "ts": "2026-11-17 07:30 UTC"
+   "h1": 2.8,
+   "ts": "2026-11-17 08:00 UTC"
   }
  ],
  "live_closes": [
