@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T18:04:17.962159+00:00",
+ "generated": "2026-11-17T18:34:18.106460+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2451,
-  "cohort_wallets": 1840,
+  "cohort_runs": 2452,
+  "cohort_wallets": 1862,
   "cohort_qualified": 236,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 136
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-17T18:30:34.852731+00:00",
+   "symbol": "Rex",
+   "mint": "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005615,
+   "mcap": 561441,
+   "liq": 53196.78,
+   "h1": 1310,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-17T18:30:34.845422+00:00",
+   "symbol": "MINT",
+   "mint": "5p9HhWsNh5aWnCUmd5wJysu8KhvdAGirNz9bQyFHpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Liquidity $12691 < $25000",
+   "entry_price": 3.645e-05,
+   "mcap": 36395,
+   "liq": 12690.89,
+   "h1": 25.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-17T18:00:31.925364+00:00",
    "symbol": "ACRUX",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T22:00:28.539109+00:00",
-   "symbol": "FLOOR",
-   "mint": "xXx8yi7XbTU8umLusE1yivoVJrHhXwssjm4952iLbie",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Liquidity $8965 < $25000",
-   "entry_price": 1.478e-05,
-   "mcap": 14789,
-   "liq": 8964.55,
-   "h1": 632,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-16T21:30:20.186411+00:00",
-   "symbol": "WORLDCRAFT",
-   "mint": "6ErRss728CstWJD9wHNeVEdVmKncYMRpsWHKLbxopump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 20.6% > 12% gate",
-   "entry_price": 3.712e-05,
-   "mcap": 33663,
-   "liq": 12524.44,
-   "h1": 20.08,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -988,8 +988,8 @@
   {
    "symbol": "BAWSAQ",
    "tag": "WATCH",
-   "h1": -16.9,
-   "ts": "2026-11-17 18:00 UTC"
+   "h1": -17.6,
+   "ts": "2026-11-17 18:30 UTC"
   },
   {
    "symbol": "LEOSTAR",
@@ -1000,20 +1000,20 @@
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -1.4,
-   "ts": "2026-11-17 18:00 UTC"
+   "h1": 9.2,
+   "ts": "2026-11-17 18:30 UTC"
   },
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": -7.4,
-   "ts": "2026-11-17 18:00 UTC"
+   "h1": 21.4,
+   "ts": "2026-11-17 18:30 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "FADING",
-   "h1": -47.0,
-   "ts": "2026-11-17 18:00 UTC"
+   "h1": -34.9,
+   "ts": "2026-11-17 18:30 UTC"
   }
  ],
  "live_closes": [
