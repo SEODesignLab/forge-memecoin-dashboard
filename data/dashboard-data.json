@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T14:34:24.240747+00:00",
+ "generated": "2026-11-18T15:04:24.404719+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2492,
-  "cohort_wallets": 1794,
+  "cohort_runs": 2493,
+  "cohort_wallets": 1819,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T15:00:44.097090+00:00",
+   "symbol": "Makenzi",
+   "mint": "HTkJVLVT6xszdCoWvhPHPZVrn69FpwbZQgjSfwLWpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 21.0% > 12% gate",
+   "entry_price": 3.203e-05,
+   "mcap": 32039,
+   "liq": 11745.09,
+   "h1": 4.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T15:00:44.091496+00:00",
+   "symbol": "CC",
+   "mint": "3ZYMcXEfq1nqEYE9VVdCgSqkwRCqhYVpKpQRFKkhTTVA",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $8050 < $25000",
+   "entry_price": 1.557e-05,
+   "mcap": 15554,
+   "liq": 8049.54,
+   "h1": -46.88,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T14:30:37.389106+00:00",
    "symbol": "Doubloon",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T21:00:34.919218+00:00",
-   "symbol": "LUCIASS",
-   "mint": "9UvLfZuL4p7P2MPJ7LosboQnhjeukX2GnC78NVbmpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Liquidity $23720 < $25000",
-   "entry_price": 0.0001192,
-   "mcap": 119250,
-   "liq": 23719.63,
-   "h1": 226,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T20:30:29.184384+00:00",
-   "symbol": "LUCIA",
-   "mint": "DX1Kmb8QiQhwR6cncj15JRnzfGhpceWq3t2iur2epump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 12.2% > 12% gate",
-   "entry_price": 8.382e-05,
-   "mcap": 83791,
-   "liq": 19714.32,
-   "h1": 133,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,8 +975,8 @@
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 43.6,
-   "ts": "2026-11-18 14:30 UTC"
+   "h1": -3.2,
+   "ts": "2026-11-18 15:00 UTC"
   },
   {
    "symbol": "Rex",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "JALU",
-   "tag": "FADING",
-   "h1": -32.6,
-   "ts": "2026-11-18 14:30 UTC"
+   "tag": "WATCH",
+   "h1": 10.7,
+   "ts": "2026-11-18 15:00 UTC"
   },
   {
    "symbol": "GROKIA",
@@ -999,14 +999,14 @@
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-18 14:30 UTC"
+   "h1": 15.4,
+   "ts": "2026-11-18 15:00 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -19.9,
-   "ts": "2026-11-18 14:30 UTC"
+   "h1": -9.5,
+   "ts": "2026-11-18 15:00 UTC"
   },
   {
    "symbol": "Leonida",
