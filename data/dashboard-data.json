@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T19:04:25.629418+00:00",
+ "generated": "2026-11-18T19:34:25.769658+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2501,
-  "cohort_wallets": 1537,
+  "cohort_runs": 2502,
+  "cohort_wallets": 1567,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 12
+   "count": 11
   },
   {
    "reason": "Top holder 17.6% > 12% gate",
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T19:30:43.889492+00:00",
+   "symbol": "TCG6",
+   "mint": "e88wzyWFZhBvj4w5erYMMdP2cvYX4zLmxXHkG3Apump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.953e-05,
+   "mcap": 39482,
+   "liq": 13097.43,
+   "h1": 29.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T19:30:43.884857+00:00",
+   "symbol": "JIGGLE",
+   "mint": "EamKUccsfTiDM9448CxPxVdBgSDyBKNoK6R4jBWfpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 6.515e-05,
+   "mcap": 65092,
+   "liq": 21100.69,
+   "h1": 45.37,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T19:30:43.880300+00:00",
+   "symbol": "QUIT",
+   "mint": "83KEwhixMSDS5KkUa3ow6Svnvjq9U9Xoig9WoctUpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 17.8% > 12% gate",
+   "entry_price": 6.9e-05,
+   "mcap": 65812,
+   "liq": 21897.47,
+   "h1": 100,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T19:30:43.875084+00:00",
+   "symbol": "1GTA",
+   "mint": "2uDBAsgxonpXXxCmfbLVZ6H5cJUhKrqnWxsf2Fk4pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001252,
+   "mcap": 1252082,
+   "liq": 80542.79,
+   "h1": 3299,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T19:00:48.343445+00:00",
    "symbol": "LUCIASS",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T02:00:35.691260+00:00",
-   "symbol": "Morph",
-   "mint": "94ES3iLb6PxnPtCVixzxXpFWZJTYnTeBcYtRMSKQxiMX",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 21.1% > 12% gate",
-   "entry_price": 2.815e-05,
-   "mcap": 28158,
-   "liq": 12242.61,
-   "h1": 8.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T01:30:32.378107+00:00",
-   "symbol": "Spud",
-   "mint": "47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 3.708e-05,
-   "mcap": 37081,
-   "liq": 13808.9,
-   "h1": 15.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T01:30:32.373007+00:00",
-   "symbol": "KATIA",
-   "mint": "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0008266,
-   "mcap": 826567,
-   "liq": 66621.46,
-   "h1": 829,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T00:30:24.370846+00:00",
-   "symbol": "hamster",
-   "mint": "2wFebWh1YQMRDmEZmWA5gCEzjWz1V8fPbQvfPv1Jpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 14.3% > 12% gate",
-   "entry_price": 7.442e-05,
-   "mcap": 70611,
-   "liq": 18772.71,
-   "h1": 83.48,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "JALU",
    "tag": "FADING",
-   "h1": -30.3,
-   "ts": "2026-11-18 19:00 UTC"
+   "h1": -25.2,
+   "ts": "2026-11-18 19:30 UTC"
   },
   {
    "symbol": "GROKIA",
@@ -993,26 +993,26 @@
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -16.1,
-   "ts": "2026-11-18 19:00 UTC"
+   "h1": -2.4,
+   "ts": "2026-11-18 19:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 12.9,
-   "ts": "2026-11-18 19:00 UTC"
+   "h1": -10.5,
+   "ts": "2026-11-18 19:30 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": -18.9,
-   "ts": "2026-11-18 19:00 UTC"
+   "h1": 7.7,
+   "ts": "2026-11-18 19:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-18 19:00 UTC"
+   "ts": "2026-11-18 19:30 UTC"
   }
  ],
  "live_closes": [
