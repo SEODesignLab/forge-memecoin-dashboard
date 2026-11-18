@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T21:04:26.241081+00:00",
+ "generated": "2026-11-18T21:34:26.358303+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2505,
-  "cohort_wallets": 1660,
+  "cohort_runs": 2506,
+  "cohort_wallets": 1691,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T21:30:42.203904+00:00",
+   "symbol": "AudaCity",
+   "mint": "ERDrmaqsoeLdsCMMpBKkRM4LV1mzTA2KHrVxKLpqpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Liquidity $22040 < $25000",
+   "entry_price": 6.835e-05,
+   "mcap": 68268,
+   "liq": 22039.52,
+   "h1": 39.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T21:00:50.767565+00:00",
    "symbol": "DAKITTY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T05:00:43.017384+00:00",
-   "symbol": "Brian",
-   "mint": "FG3sAP594dUmgkzYneQEv4BnEJdgS8txNT7QAPtrpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 9.125e-05,
-   "mcap": 88303,
-   "liq": 25251.95,
-   "h1": -9.72,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,26 +987,26 @@
   {
    "symbol": "GTAVI",
    "tag": "FADING",
-   "h1": -38.1,
-   "ts": "2026-11-18 21:00 UTC"
+   "h1": -43.4,
+   "ts": "2026-11-18 21:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "FADING",
-   "h1": -43.1,
-   "ts": "2026-11-18 21:00 UTC"
+   "h1": -64.6,
+   "ts": "2026-11-18 21:30 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-18 21:00 UTC"
+   "h1": 0.9,
+   "ts": "2026-11-18 21:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-18 21:00 UTC"
+   "ts": "2026-11-18 21:30 UTC"
   },
   {
    "symbol": "LUNO",
