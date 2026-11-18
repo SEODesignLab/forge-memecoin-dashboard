@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T17:34:25.159635+00:00",
+ "generated": "2026-11-18T18:04:25.346498+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2498,
-  "cohort_wallets": 1967,
+  "cohort_runs": 2499,
+  "cohort_wallets": 1993,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 135
+   "count": 136
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T18:00:42.547353+00:00",
+   "symbol": "LastRide",
+   "mint": "CC6NEsE5FjeVmRN9kcKgosuezi2ccnqc1LqC8z5Xpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003295,
+   "mcap": 328375,
+   "liq": 40965.18,
+   "h1": 797,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T17:30:42.567947+00:00",
    "symbol": "Rocco",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T22:30:42.933364+00:00",
-   "symbol": "GTA",
-   "mint": "453edF32x8aS8MXHBg2t6vtKLWyK7D7NKRyybcskpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 3.431e-05,
-   "mcap": 34277,
-   "liq": 12115.74,
-   "h1": 12.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -822,18 +822,18 @@
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
-   "hits": 33,
+   "hits": 34,
    "symbols": [
-    "ape hao",
     "Huang",
     "NOBUSHIBA",
     "jjaemu",
     "SHARKBUX",
     "CHAR",
     "JALU",
-    "GTAVI"
+    "GTAVI",
+    "Leonida"
    ],
-   "last": "2026-11-18 11:30 UTC"
+   "last": "2026-11-18 18:00 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -987,8 +987,8 @@
   {
    "symbol": "JALU",
    "tag": "FADING",
-   "h1": -56.5,
-   "ts": "2026-11-18 17:30 UTC"
+   "h1": -60.9,
+   "ts": "2026-11-18 18:00 UTC"
   },
   {
    "symbol": "GROKIA",
@@ -999,20 +999,20 @@
   {
    "symbol": "GTAVI",
    "tag": "FADING",
-   "h1": -54.8,
-   "ts": "2026-11-18 17:30 UTC"
+   "h1": -58.2,
+   "ts": "2026-11-18 18:00 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -17.7,
-   "ts": "2026-11-18 17:30 UTC"
+   "h1": 4.5,
+   "ts": "2026-11-18 18:00 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 7.9,
-   "ts": "2026-11-18 17:30 UTC"
+   "h1": -3.1,
+   "ts": "2026-11-18 18:00 UTC"
   }
  ],
  "live_closes": [
