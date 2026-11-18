@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T01:04:20.096923+00:00",
+ "generated": "2026-11-18T01:34:20.218334+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2465,
-  "cohort_wallets": 1588,
+  "cohort_runs": 2466,
+  "cohort_wallets": 1608,
   "cohort_qualified": 237,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T01:30:32.378107+00:00",
+   "symbol": "Spud",
+   "mint": "47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 19.0% > 12% gate",
+   "entry_price": 3.708e-05,
+   "mcap": 37081,
+   "liq": 13808.9,
+   "h1": 15.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T01:30:32.373007+00:00",
+   "symbol": "KATIA",
+   "mint": "5xhuX8VK8k8wGDdfFniWUzUQUSHjzKARosCGtEZypump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0008266,
+   "mcap": 826567,
+   "liq": 66621.46,
+   "h1": 829,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T00:30:24.370846+00:00",
    "symbol": "hamster",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T07:00:30.910799+00:00",
-   "symbol": "KATIA",
-   "mint": "9a5uUXxa7LzHkT6YUikttpQsUZm4Etw8qhd2HP7xpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 16.1% > 12% gate",
-   "entry_price": 0.0001078,
-   "mcap": 107778,
-   "liq": 29178.49,
-   "h1": 129,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T04:30:26.811621+00:00",
-   "symbol": "DRILL",
-   "mint": "Ts2yi5FhTDAmhwTKH6ab6unWeoCMzzjz4JCPtBDRiLL",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 19.2% > 12% gate",
-   "entry_price": 3.869e-05,
-   "mcap": 37015,
-   "liq": 12812.24,
-   "h1": 32.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -980,15 +980,15 @@
   },
   {
    "symbol": "CHAR",
-   "tag": "CHASE",
-   "h1": 223.0,
-   "ts": "2026-11-18 01:00 UTC"
+   "tag": "WATCH",
+   "h1": 10.4,
+   "ts": "2026-11-18 01:30 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-11-18 01:00 UTC"
+   "h1": 0.2,
+   "ts": "2026-11-18 01:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -999,20 +999,20 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": -10.1,
-   "ts": "2026-11-18 01:00 UTC"
+   "h1": -3.9,
+   "ts": "2026-11-18 01:30 UTC"
   },
   {
    "symbol": "GROKIA",
-   "tag": "FADING",
-   "h1": -28.9,
-   "ts": "2026-11-18 00:30 UTC"
+   "tag": "WATCH",
+   "h1": 20.1,
+   "ts": "2026-11-18 01:30 UTC"
   },
   {
    "symbol": "GTAVI",
-   "tag": "CHASE",
-   "h1": 5397.0,
-   "ts": "2026-11-18 01:00 UTC"
+   "tag": "WATCH",
+   "h1": 134.0,
+   "ts": "2026-11-18 01:30 UTC"
   }
  ],
  "live_closes": [
