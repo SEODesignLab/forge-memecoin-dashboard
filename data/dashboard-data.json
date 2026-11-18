@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T08:04:22.238017+00:00",
+ "generated": "2026-11-18T08:34:22.374370+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2479,
-  "cohort_wallets": 1930,
-  "cohort_qualified": 238,
+  "cohort_runs": 2480,
+  "cohort_wallets": 1956,
+  "cohort_qualified": 239,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T08:30:52.700838+00:00",
+   "symbol": "controller",
+   "mint": "6xKfWEJ76r5PzXwMpMnd8jiV5gArjkRcTsVXU7ujpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Liquidity $18348 < $25000",
+   "entry_price": 6.842e-05,
+   "mcap": 68424,
+   "liq": 18347.66,
+   "h1": 116,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T08:00:44.661019+00:00",
    "symbol": "controller",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T16:00:33.488883+00:00",
-   "symbol": "Rex",
-   "mint": "9hcGkiESMMLXJjMv9ktJjDDQpt5SyKJDZ5CKAt2Qpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "Top holder 18.2% > 12% gate",
-   "entry_price": 6.87e-05,
-   "mcap": 68695,
-   "liq": 17778.83,
-   "h1": 72.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -896,6 +896,21 @@
    "last": "2026-10-21 02:30 UTC"
   },
   {
+   "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
+   "hits": 24,
+   "symbols": [
+    "JASON",
+    "HWAN",
+    "Shitcoin",
+    "GATO",
+    "VIBED",
+    "COGE",
+    "Lucia",
+    "CHAR"
+   ],
+   "last": "2026-11-18 08:30 UTC"
+  },
+  {
    "wallet": "Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK",
    "hits": 23,
    "symbols": [
@@ -911,34 +926,19 @@
    "last": "2026-11-16 19:30 UTC"
   },
   {
-   "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
+   "wallet": "Aud2Dfp4x2Dxcbmb6vYiLhSGSrfUZMA4nky1XPtVZmNa",
    "hits": 23,
    "symbols": [
-    "CBUCKS",
-    "JASON",
-    "HWAN",
     "Shitcoin",
+    "Huang",
+    "jjaemu",
     "GATO",
     "VIBED",
     "COGE",
-    "Lucia"
+    "Lucia",
+    "CHAR"
    ],
-   "last": "2026-11-18 05:00 UTC"
-  },
-  {
-   "wallet": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
-   "hits": 22,
-   "symbols": [
-    "Dacity",
-    "Anakin",
-    "MAMESUKE",
-    "WASTED",
-    "1WIN",
-    "GATO",
-    "RICO",
-    "Leonida"
-   ],
-   "last": "2026-11-13 20:30 UTC"
+   "last": "2026-11-18 08:30 UTC"
   }
  ],
  "mints": [
@@ -975,14 +975,14 @@
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": -0.3,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": 0.3,
+   "ts": "2026-11-18 08:30 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 6.7,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": 0.2,
+   "ts": "2026-11-18 08:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -993,26 +993,26 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": 16.0,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": -2.4,
+   "ts": "2026-11-18 08:30 UTC"
   },
   {
    "symbol": "GROKIA",
    "tag": "WATCH",
-   "h1": 0.1,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": -7.3,
+   "ts": "2026-11-18 08:30 UTC"
   },
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -8.0,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": 2.4,
+   "ts": "2026-11-18 08:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -9.2,
-   "ts": "2026-11-18 08:00 UTC"
+   "h1": 34.1,
+   "ts": "2026-11-18 08:30 UTC"
   }
  ],
  "live_closes": [
