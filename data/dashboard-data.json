@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T09:04:22.542215+00:00",
+ "generated": "2026-11-18T09:34:22.664931+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2481,
-  "cohort_wallets": 1978,
-  "cohort_qualified": 239,
+  "cohort_runs": 2482,
+  "cohort_wallets": 1500,
+  "cohort_qualified": 240,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T09:30:43.853918+00:00",
+   "symbol": "GTA",
+   "mint": "8f6W5wYLbdV6sZq1kgGZchzzuKMU3KEoRmqYo4SUpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 44.4% > 12% gate",
+   "entry_price": 1.142e-05,
+   "mcap": 10749,
+   "liq": 7667.89,
+   "h1": 50.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T09:00:53.607447+00:00",
    "symbol": "SHARK",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T18:00:31.925364+00:00",
-   "symbol": "ACRUX",
-   "mint": "7Evw4uxTxLGGEFEvXLUNYyc1J7PnFk9EYwTUFagARUX",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 20.4% > 12% gate",
-   "entry_price": 9.842e-05,
-   "mcap": 97098,
-   "liq": 19517.36,
-   "h1": 141,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "COGE",
     "CHAR"
    ],
-   "last": "2026-11-18 02:30 UTC"
+   "last": "2026-11-18 09:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "Lucia",
-   "tag": "WATCH",
-   "h1": -10.8,
-   "ts": "2026-11-18 09:00 UTC"
+   "tag": "FADING",
+   "h1": -23.6,
+   "ts": "2026-11-18 09:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -993,26 +993,26 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": -14.8,
-   "ts": "2026-11-18 09:00 UTC"
+   "h1": 5.5,
+   "ts": "2026-11-18 09:30 UTC"
   },
   {
    "symbol": "GROKIA",
    "tag": "WATCH",
-   "h1": 19.8,
-   "ts": "2026-11-18 09:00 UTC"
+   "h1": 49.6,
+   "ts": "2026-11-18 09:30 UTC"
   },
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-11-18 09:00 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-18 09:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 44.6,
-   "ts": "2026-11-18 09:00 UTC"
+   "h1": 5.4,
+   "ts": "2026-11-18 09:30 UTC"
   }
  ],
  "live_closes": [
