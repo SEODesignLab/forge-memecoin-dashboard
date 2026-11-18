@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T11:04:23.167811+00:00",
+ "generated": "2026-11-18T11:34:23.314524+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2485,
-  "cohort_wallets": 1588,
+  "cohort_runs": 2486,
+  "cohort_wallets": 1616,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 136
+   "count": 135
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T11:30:34.398053+00:00",
+   "symbol": "AudaCity",
+   "mint": "2m7jKc7tFDnTqcCDLyAovppgUhHy4KzhZhQkeb5JYgDb",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 24.4% > 12% gate",
+   "entry_price": 3.504e-05,
+   "mcap": 35043,
+   "liq": 16504.22,
+   "h1": -28.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T11:00:54.694425+00:00",
    "symbol": "clipping",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T19:00:38.682747+00:00",
-   "symbol": "GTA",
-   "mint": "F5sVohBg9zjTWVxxGpiWpzsuGxGGy3W3XjwVRzrDpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Liquidity $21143 < $25000",
-   "entry_price": 9.715e-05,
-   "mcap": 97123,
-   "liq": 21142.63,
-   "h1": 170,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "JOB",
     "Lucia"
    ],
-   "last": "2026-11-18 05:30 UTC"
+   "last": "2026-11-18 11:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -822,18 +822,18 @@
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
-   "hits": 32,
+   "hits": 33,
    "symbols": [
-    "GTA",
     "ape hao",
     "Huang",
     "NOBUSHIBA",
     "jjaemu",
     "SHARKBUX",
     "CHAR",
-    "JALU"
+    "JALU",
+    "GTAVI"
    ],
-   "last": "2026-11-18 10:00 UTC"
+   "last": "2026-11-18 11:30 UTC"
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
@@ -981,8 +981,8 @@
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -6.0,
-   "ts": "2026-11-18 11:00 UTC"
+   "h1": -10.5,
+   "ts": "2026-11-18 11:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -993,8 +993,8 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": -18.7,
-   "ts": "2026-11-18 11:00 UTC"
+   "h1": 23.2,
+   "ts": "2026-11-18 11:30 UTC"
   },
   {
    "symbol": "GROKIA",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -7.4,
-   "ts": "2026-11-18 11:00 UTC"
+   "h1": 19.8,
+   "ts": "2026-11-18 11:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": -12.8,
-   "ts": "2026-11-18 11:00 UTC"
+   "h1": -13.9,
+   "ts": "2026-11-18 11:30 UTC"
   }
  ],
  "live_closes": [
