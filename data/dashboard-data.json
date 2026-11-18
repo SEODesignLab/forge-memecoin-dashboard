@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T19:34:25.769658+00:00",
+ "generated": "2026-11-18T20:04:25.928502+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2502,
-  "cohort_wallets": 1567,
+  "cohort_runs": 2503,
+  "cohort_wallets": 1599,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 136
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -38,6 +38,10 @@
   },
   {
    "reason": "Top holder 14.3% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 18.1% > 12% gate",
    "count": 5
   },
   {
@@ -61,10 +65,6 @@
    "count": 4
   },
   {
-   "reason": "Top holder 18.1% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 22.3% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T20:00:47.121959+00:00",
+   "symbol": "LURE",
+   "mint": "FKFYZ8RLQxxEzSbaFXKU9nsyyUomqMeAKQ89TUULure",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 51>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.571e-05,
+   "mcap": 35720,
+   "liq": 13639.16,
+   "h1": 18.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T20:00:47.114685+00:00",
+   "symbol": "Founder",
+   "mint": "Eyp4dHQD8oLLF4XLyA1QDcFxSYxQSFnphiujRvugpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002504,
+   "mcap": 248210,
+   "liq": 35209.33,
+   "h1": 634,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T20:00:47.106688+00:00",
+   "symbol": "FLC",
+   "mint": "pcDL74F9AYQ8ConwemryWMHQX5LWbPHyAEbULGNpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 18.1% > 12% gate",
+   "entry_price": 6.204e-05,
+   "mcap": 60364,
+   "liq": 20524.34,
+   "h1": 36.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T19:30:43.889492+00:00",
    "symbol": "TCG6",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T03:30:33.175457+00:00",
-   "symbol": "AI",
-   "mint": "A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Liquidity $15600 < $25000",
-   "entry_price": 3.922e-05,
-   "mcap": 39161,
-   "liq": 15600.14,
-   "h1": -12.24,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T03:01:12.311018+00:00",
-   "symbol": "GTA",
-   "mint": "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Chase filter: +4209% in 1h > 40% cap",
-   "entry_price": 0.001614,
-   "mcap": 1614220,
-   "liq": 91856.46,
-   "h1": 4209,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T02:00:35.696967+00:00",
-   "symbol": "GTA",
-   "mint": "AQqYJ5XaVCQd2PESVZitmyotD5d3qPjmZoEscEPDpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Liquidity $24689 < $25000",
-   "entry_price": 0.0001226,
-   "mcap": 122640,
-   "liq": 24688.52,
-   "h1": 228,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "JALU",
-   "tag": "FADING",
-   "h1": -25.2,
-   "ts": "2026-11-18 19:30 UTC"
+   "tag": "WATCH",
+   "h1": 6.7,
+   "ts": "2026-11-18 20:00 UTC"
   },
   {
    "symbol": "GROKIA",
@@ -993,26 +993,26 @@
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -2.4,
-   "ts": "2026-11-18 19:30 UTC"
+   "h1": -17.5,
+   "ts": "2026-11-18 20:00 UTC"
   },
   {
    "symbol": "GTA",
-   "tag": "WATCH",
-   "h1": -10.5,
-   "ts": "2026-11-18 19:30 UTC"
+   "tag": "FADING",
+   "h1": -32.4,
+   "ts": "2026-11-18 20:00 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 7.7,
-   "ts": "2026-11-18 19:30 UTC"
+   "h1": 15.6,
+   "ts": "2026-11-18 20:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-18 19:30 UTC"
+   "ts": "2026-11-18 20:00 UTC"
   }
  ],
  "live_closes": [
