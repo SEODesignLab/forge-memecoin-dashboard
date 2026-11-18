@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T20:04:25.928502+00:00",
+ "generated": "2026-11-18T20:34:26.061896+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2503,
-  "cohort_wallets": 1599,
+  "cohort_runs": 2504,
+  "cohort_wallets": 1630,
   "cohort_qualified": 241,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 136
+   "count": 135
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T20:30:45.010993+00:00",
+   "symbol": "FOUNDER",
+   "mint": "79QjDainx3coswjB3qk8PijgDeBBN258n1qv272ipump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 13.0% > 12% gate",
+   "entry_price": 0.0001009,
+   "mcap": 100868,
+   "liq": 26028.85,
+   "h1": 125,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T20:00:47.121959+00:00",
    "symbol": "LURE",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T03:30:33.181473+00:00",
-   "symbol": "VCN",
-   "mint": "8LK1MyMQwmbdpNaJ6g5u95MkJ2YooScMQsadsfPGpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Top holder 20.9% > 12% gate",
-   "entry_price": 3.326e-05,
-   "mcap": 33139,
-   "liq": 11986.53,
-   "h1": 9.99,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 111,
+   "hits": 112,
    "symbols": [
-    "Shitcoin",
     "Christmax",
     "GLITCH",
     "NINU",
     "DIGS",
     "RESPECT",
     "COGE",
-    "JOB"
+    "JOB",
+    "LUNO"
    ],
-   "last": "2026-11-18 02:30 UTC"
+   "last": "2026-11-18 20:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "BAWSAQ",
-   "tag": "WATCH",
-   "h1": -17.6,
-   "ts": "2026-11-17 18:30 UTC"
-  },
-  {
    "symbol": "LEOSTAR",
    "tag": "WATCH",
    "h1": 11.0,
@@ -992,27 +986,33 @@
   },
   {
    "symbol": "GTAVI",
-   "tag": "WATCH",
-   "h1": -17.5,
-   "ts": "2026-11-18 20:00 UTC"
+   "tag": "FADING",
+   "h1": -26.3,
+   "ts": "2026-11-18 20:30 UTC"
   },
   {
    "symbol": "GTA",
-   "tag": "FADING",
-   "h1": -32.4,
-   "ts": "2026-11-18 20:00 UTC"
+   "tag": "WATCH",
+   "h1": -15.7,
+   "ts": "2026-11-18 20:30 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 15.6,
-   "ts": "2026-11-18 20:00 UTC"
+   "h1": -8.3,
+   "ts": "2026-11-18 20:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-18 20:00 UTC"
+   "ts": "2026-11-18 20:30 UTC"
+  },
+  {
+   "symbol": "LUNO",
+   "tag": "WATCH",
+   "h1": 6.3,
+   "ts": "2026-11-18 20:30 UTC"
   }
  ],
  "live_closes": [
