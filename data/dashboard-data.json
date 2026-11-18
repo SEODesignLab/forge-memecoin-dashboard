@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T06:04:21.608388+00:00",
+ "generated": "2026-11-18T06:34:21.747987+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2475,
-  "cohort_wallets": 1830,
+  "cohort_runs": 2476,
+  "cohort_wallets": 1855,
   "cohort_qualified": 238,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 138
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T06:30:39.779376+00:00",
+   "symbol": "FI",
+   "mint": "EoC8TA2wiSgFzAXpYvczPQ7fwx8hHCdZwE4arHbupump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001245,
+   "mcap": 124501,
+   "liq": 25633.73,
+   "h1": 308,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T06:00:40.953627+00:00",
    "symbol": "Calypso",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T15:30:39.079328+00:00",
-   "symbol": "KIM",
-   "mint": "4GGiCw2FkwjWdJyGzQLiwrrGAtaPtqwTmatnHfHkpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $22589 < $25000",
-   "entry_price": 0.0001003,
-   "mcap": 100307,
-   "liq": 22588.51,
-   "h1": 222,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": 3.6,
-   "ts": "2026-11-18 06:00 UTC"
+   "h1": 2.9,
+   "ts": "2026-11-18 06:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -993,26 +993,26 @@
   {
    "symbol": "JALU",
    "tag": "FADING",
-   "h1": -25.5,
-   "ts": "2026-11-18 06:00 UTC"
+   "h1": -24.2,
+   "ts": "2026-11-18 06:30 UTC"
   },
   {
    "symbol": "GROKIA",
    "tag": "WATCH",
-   "h1": -7.4,
-   "ts": "2026-11-18 06:00 UTC"
+   "h1": 18.1,
+   "ts": "2026-11-18 06:30 UTC"
   },
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -0.8,
-   "ts": "2026-11-18 06:00 UTC"
+   "h1": -10.9,
+   "ts": "2026-11-18 06:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-11-18 06:00 UTC"
+   "h1": -13.2,
+   "ts": "2026-11-18 06:30 UTC"
   }
  ],
  "live_closes": [
