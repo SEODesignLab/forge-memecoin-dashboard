@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T10:04:22.868647+00:00",
+ "generated": "2026-11-18T10:34:22.985727+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2483,
-  "cohort_wallets": 1529,
+  "cohort_runs": 2484,
+  "cohort_wallets": 1556,
   "cohort_qualified": 240,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 136
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T10:30:32.686971+00:00",
+   "symbol": "VCN",
+   "mint": "9wzR2Efhgp2Lu8maV9hXuFaqrLwEioEFt3qA9mhTpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 29.6% > 12% gate",
+   "entry_price": 2.087e-05,
+   "mcap": 20880,
+   "liq": 9190.39,
+   "h1": -30.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T09:30:43.853918+00:00",
    "symbol": "GTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T18:30:34.845422+00:00",
-   "symbol": "MINT",
-   "mint": "5p9HhWsNh5aWnCUmd5wJysu8KhvdAGirNz9bQyFHpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Liquidity $12691 < $25000",
-   "entry_price": 3.645e-05,
-   "mcap": 36395,
-   "liq": 12690.89,
-   "h1": 25.29,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "Lucia",
     "GROKIA"
    ],
-   "last": "2026-11-18 08:00 UTC"
+   "last": "2026-11-18 10:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -981,8 +981,8 @@
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -6.6,
-   "ts": "2026-11-18 10:00 UTC"
+   "h1": 2.7,
+   "ts": "2026-11-18 10:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -993,26 +993,26 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": 21.4,
-   "ts": "2026-11-18 10:00 UTC"
+   "h1": -9.2,
+   "ts": "2026-11-18 10:30 UTC"
   },
   {
    "symbol": "GROKIA",
    "tag": "WATCH",
-   "h1": 30.3,
-   "ts": "2026-11-18 10:00 UTC"
+   "h1": -2.9,
+   "ts": "2026-11-18 10:30 UTC"
   },
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -6.7,
-   "ts": "2026-11-18 10:00 UTC"
+   "h1": -6.8,
+   "ts": "2026-11-18 10:30 UTC"
   },
   {
    "symbol": "GTA",
    "tag": "WATCH",
-   "h1": 9.6,
-   "ts": "2026-11-18 10:00 UTC"
+   "h1": 5.9,
+   "ts": "2026-11-18 10:30 UTC"
   }
  ],
  "live_closes": [
