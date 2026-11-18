@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T03:04:20.718225+00:00",
+ "generated": "2026-11-18T03:34:20.836211+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2469,
-  "cohort_wallets": 1670,
+  "cohort_runs": 2470,
+  "cohort_wallets": 1694,
   "cohort_qualified": 238,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 141
+   "count": 140
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-18T03:30:33.181473+00:00",
+   "symbol": "VCN",
+   "mint": "8LK1MyMQwmbdpNaJ6g5u95MkJ2YooScMQsadsfPGpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 20.9% > 12% gate",
+   "entry_price": 3.326e-05,
+   "mcap": 33139,
+   "liq": 11986.53,
+   "h1": 9.99,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-18T03:30:33.175457+00:00",
+   "symbol": "AI",
+   "mint": "A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Liquidity $15600 < $25000",
+   "entry_price": 3.922e-05,
+   "mcap": 39161,
+   "liq": 15600.14,
+   "h1": -12.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T03:01:12.311018+00:00",
    "symbol": "GTA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T13:00:39.069500+00:00",
-   "symbol": "Grokia",
-   "mint": "4u76UgKT5aMjqTVTREhJwbtH7YEYwAynbNza2MYWrPQY",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 17.3% > 12% gate",
-   "entry_price": 7.025e-05,
-   "mcap": 70127,
-   "liq": 21769.82,
-   "h1": 52.8,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-17T12:30:24.744303+00:00",
-   "symbol": "FAILED",
-   "mint": "CDMbeCvHyAiypmiqHN6a1N59MeXizQooKfEJMPZzpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 31.8% > 12% gate",
-   "entry_price": 3.623e-05,
-   "mcap": 36204,
-   "liq": 14994.53,
-   "h1": -23.14,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,14 +981,14 @@
   {
    "symbol": "CHAR",
    "tag": "WATCH",
-   "h1": -13.3,
-   "ts": "2026-11-18 03:00 UTC"
+   "h1": -7.4,
+   "ts": "2026-11-18 03:30 UTC"
   },
   {
    "symbol": "Lucia",
    "tag": "WATCH",
-   "h1": -2.2,
-   "ts": "2026-11-18 03:00 UTC"
+   "h1": -0.5,
+   "ts": "2026-11-18 03:30 UTC"
   },
   {
    "symbol": "Rex",
@@ -999,20 +999,20 @@
   {
    "symbol": "JALU",
    "tag": "WATCH",
-   "h1": -8.6,
-   "ts": "2026-11-18 03:00 UTC"
+   "h1": -14.7,
+   "ts": "2026-11-18 03:30 UTC"
   },
   {
    "symbol": "GROKIA",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-11-18 03:00 UTC"
+   "h1": -16.5,
+   "ts": "2026-11-18 03:30 UTC"
   },
   {
    "symbol": "GTAVI",
    "tag": "WATCH",
-   "h1": -15.3,
-   "ts": "2026-11-18 03:00 UTC"
+   "h1": -1.0,
+   "ts": "2026-11-18 03:30 UTC"
   }
  ],
  "live_closes": [
