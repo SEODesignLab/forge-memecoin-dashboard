@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:34:32.416808+00:00",
+ "generated": "2026-11-19T18:04:32.595811+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2546,
-  "cohort_wallets": 1518,
+  "cohort_runs": 2547,
+  "cohort_wallets": 1534,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 132
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T18:00:51.512011+00:00",
+   "symbol": "NEKOMARIO",
+   "mint": "4UYLfNTHRQ6D4e2nYtGGXRTVpsm9Mz5Ak7kZPSogpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 18.6% > 12% gate",
+   "entry_price": 3.857e-05,
+   "mcap": 38577,
+   "liq": 13069.65,
+   "h1": 29.24,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T18:00:51.499983+00:00",
+   "symbol": "DCTY",
+   "mint": "6GTDzJNqDfJ7v4kpmbs4aupxQZnVwgRqTD4WFU7fpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 40.0% > 12% gate",
+   "entry_price": 1.699e-05,
+   "mcap": 16752,
+   "liq": 10781.17,
+   "h1": 5.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T17:30:44.098729+00:00",
    "symbol": "SC",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T21:00:50.767565+00:00",
-   "symbol": "DAKITTY",
-   "mint": "3YyNSd5dAe5hbKu83syLCjZKWYD9d94EGYCfEWNkpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002539,
-   "mcap": 251459,
-   "liq": 35459.42,
-   "h1": 687,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T21:00:50.760954+00:00",
-   "symbol": "DCTYCAT",
-   "mint": "BUm7phoWgN4hjbXvKtrL6vkoTpU8rfEoiZ1zYN79pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Liquidity $24902 < $25000",
-   "entry_price": 0.0001297,
-   "mcap": 128159,
-   "liq": 24902.42,
-   "h1": 255,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,9 +993,9 @@
   },
   {
    "symbol": "GTASZN",
-   "tag": "FADING",
-   "h1": -71.8,
-   "ts": "2026-11-19 17:30 UTC"
+   "tag": "WATCH",
+   "h1": -8.6,
+   "ts": "2026-11-19 18:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 16.2,
-   "ts": "2026-11-19 17:30 UTC"
+   "h1": -2.9,
+   "ts": "2026-11-19 18:00 UTC"
   }
  ],
  "live_closes": [
