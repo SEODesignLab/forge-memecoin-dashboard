@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:04:32.932873+00:00",
+ "generated": "2026-11-19T19:34:33.037404+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2549,
-  "cohort_wallets": 1559,
+  "cohort_runs": 2550,
+  "cohort_wallets": 1582,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T19:30:50.798347+00:00",
+   "symbol": "DCTYCAT",
+   "mint": "EPNy2zvT8hs4yaYZVmtFEtcBkiZf1WGJFYE6K6AMpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 6.275e-05,
+   "mcap": 62733,
+   "liq": 17049.41,
+   "h1": 70.78,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T19:00:39.259998+00:00",
    "symbol": "DATITTY",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T22:30:48.314875+00:00",
-   "symbol": "Streamoor",
-   "mint": "7NyaU75Q9nP9WXmnigi6m3M7AzaS2hXLsJCKkuyKpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 13.3% > 12% gate",
-   "entry_price": 8.905e-05,
-   "mcap": 88957,
-   "liq": 20756.36,
-   "h1": 192,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -733,18 +733,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 104,
+   "hits": 105,
    "symbols": [
-    "UM",
     "gtacoin",
     "NINU",
     "VI",
     "COGE",
     "Lucia",
     "GROKIA",
-    "GLITCH"
+    "GLITCH",
+    "WASTED"
    ],
-   "last": "2026-11-18 16:30 UTC"
+   "last": "2026-11-19 19:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -988,8 +988,8 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -51.2,
-   "ts": "2026-11-19 19:00 UTC"
+   "h1": -22.9,
+   "ts": "2026-11-19 19:30 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1006,14 +1006,14 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-19 19:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-11-19 19:30 UTC"
   },
   {
    "symbol": "SIM",
-   "tag": "CHASE",
-   "h1": 163.0,
-   "ts": "2026-11-19 19:00 UTC"
+   "tag": "WATCH",
+   "h1": 8.7,
+   "ts": "2026-11-19 19:30 UTC"
   }
  ],
  "live_closes": [
