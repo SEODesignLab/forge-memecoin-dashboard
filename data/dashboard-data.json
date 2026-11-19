@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T04:34:28.466659+00:00",
+ "generated": "2026-11-19T05:04:28.671250+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2520,
-  "cohort_wallets": 1973,
+  "cohort_runs": 2521,
+  "cohort_wallets": 1990,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T05:00:44.688819+00:00",
+   "symbol": "MANDY",
+   "mint": "EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0009875,
+   "mcap": 987364,
+   "liq": 72020.77,
+   "h1": 2303,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T03:30:36.478602+00:00",
    "symbol": "Everglades",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T14:00:44.392265+00:00",
-   "symbol": "Tom\u00e1s",
-   "mint": "5ChyeKeH1Hv47qYd13E8ujg8n5Hn3YYPZtLS9DAUpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 15.9% > 12% gate",
-   "entry_price": 9.375e-05,
-   "mcap": 89142,
-   "liq": 26336.64,
-   "h1": 32.9,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "GTA",
-   "tag": "FADING",
-   "h1": -31.1,
-   "ts": "2026-11-17 20:30 UTC"
-  },
-  {
    "symbol": "CHAR",
    "tag": "WATCH",
    "h1": 1.8,
@@ -993,14 +987,14 @@
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 10.7,
-   "ts": "2026-11-19 04:30 UTC"
+   "h1": 8.2,
+   "ts": "2026-11-19 05:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-19 04:30 UTC"
+   "ts": "2026-11-19 05:00 UTC"
   },
   {
    "symbol": "LUNO",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -56.0,
-   "ts": "2026-11-19 04:30 UTC"
+   "h1": -23.1,
+   "ts": "2026-11-19 05:00 UTC"
+  },
+  {
+   "symbol": "MANDY",
+   "tag": "CHASE",
+   "h1": 2303.0,
+   "ts": "2026-11-19 05:00 UTC"
   }
  ],
  "live_closes": [
