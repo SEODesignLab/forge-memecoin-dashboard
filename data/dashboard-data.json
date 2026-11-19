@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:04:27.155555+00:00",
+ "generated": "2026-11-19T00:34:27.273744+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2511,
-  "cohort_wallets": 1811,
+  "cohort_runs": 2512,
+  "cohort_wallets": 1830,
   "cohort_qualified": 242,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T00:30:38.034378+00:00",
+   "symbol": "LUCIA",
+   "mint": "AGH3yuV6bMNX1axz7uwMEmLsFsVRT4z8sHBwRLNppump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Liquidity $12919 < $25000",
+   "entry_price": 3.572e-05,
+   "mcap": 35724,
+   "liq": 12918.52,
+   "h1": -0.13,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-18T23:30:38.852770+00:00",
    "symbol": "Mandy",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T09:30:43.853918+00:00",
-   "symbol": "GTA",
-   "mint": "8f6W5wYLbdV6sZq1kgGZchzzuKMU3KEoRmqYo4SUpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 44.4% > 12% gate",
-   "entry_price": 1.142e-05,
-   "mcap": 10749,
-   "liq": 7667.89,
-   "h1": 50.92,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,20 +987,20 @@
   {
    "symbol": "GTA",
    "tag": "FADING",
-   "h1": -37.8,
-   "ts": "2026-11-19 00:00 UTC"
+   "h1": -23.9,
+   "ts": "2026-11-19 00:30 UTC"
   },
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 9.3,
-   "ts": "2026-11-19 00:00 UTC"
+   "h1": 21.2,
+   "ts": "2026-11-19 00:30 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-19 00:00 UTC"
+   "ts": "2026-11-19 00:30 UTC"
   },
   {
    "symbol": "LUNO",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "GTASZN",
    "tag": "CHASE",
-   "h1": 1533.0,
-   "ts": "2026-11-19 00:00 UTC"
+   "h1": 1915.0,
+   "ts": "2026-11-19 00:30 UTC"
   }
  ],
  "live_closes": [
