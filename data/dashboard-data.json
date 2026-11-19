@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T18:34:32.743530+00:00",
+ "generated": "2026-11-19T19:04:32.932873+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2548,
-  "cohort_wallets": 1546,
+  "cohort_runs": 2549,
+  "cohort_wallets": 1559,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 132
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,26 @@
    "count": 4
   },
   {
-   "reason": "Top holder 17.3% > 12% gate",
+   "reason": "Top holder 15.8% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T19:00:39.259998+00:00",
+   "symbol": "DATITTY",
+   "mint": "3guXwT9btWrL4jDFgKevD2fTvEbXEBsR99ZARqg5pump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002597,
+   "mcap": 259725,
+   "liq": 35746.59,
+   "h1": 607,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T18:30:50.245843+00:00",
    "symbol": "AI",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T22:00:38.191943+00:00",
-   "symbol": "LGTA6",
-   "mint": "pp6SutEifuohJtxBDduiuKja1SbBChg9ohrT7Ukpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 28.6% > 12% gate",
-   "entry_price": 2.281e-05,
-   "mcap": 22777,
-   "liq": 11540.31,
-   "h1": -50.13,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "Rex",
-   "tag": "FADING",
-   "h1": -78.4,
-   "ts": "2026-11-17 21:00 UTC"
-  },
-  {
    "symbol": "JALU",
    "tag": "WATCH",
    "h1": 6.7,
@@ -993,9 +987,9 @@
   },
   {
    "symbol": "GTASZN",
-   "tag": "WATCH",
-   "h1": -10.9,
-   "ts": "2026-11-19 18:30 UTC"
+   "tag": "FADING",
+   "h1": -51.2,
+   "ts": "2026-11-19 19:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1006,14 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -3.5,
-   "ts": "2026-11-19 18:30 UTC"
+   "h1": 1.6,
+   "ts": "2026-11-19 19:00 UTC"
+  },
+  {
+   "symbol": "SIM",
+   "tag": "CHASE",
+   "h1": 163.0,
+   "ts": "2026-11-19 19:00 UTC"
   }
  ],
  "live_closes": [
