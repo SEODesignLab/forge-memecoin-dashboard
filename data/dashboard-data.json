@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:04:32.298061+00:00",
+ "generated": "2026-11-19T17:34:32.416808+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2545,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2546,
+  "cohort_wallets": 1518,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 132
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T17:30:44.098729+00:00",
+   "symbol": "SC",
+   "mint": "tBJvqFV89jHu9z4Sq6noBaDBDGRshcVp58ZH4YLpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0006669,
+   "mcap": 660501,
+   "liq": 61189.79,
+   "h1": 43.04,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T17:30:44.091096+00:00",
+   "symbol": "KFC",
+   "mint": "7RZuBWCWMp63JYXLFUnSdvmYVWN8dGAKsSvzLbBfpump",
+   "score": 117,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003169,
+   "mcap": 316927,
+   "liq": 39817.34,
+   "h1": 691,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T17:00:52.009279+00:00",
    "symbol": "MANDY",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T21:00:50.754201+00:00",
-   "symbol": "CRIME",
-   "mint": "96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 16.2% > 12% gate",
-   "entry_price": 5.493e-05,
-   "mcap": 54867,
-   "liq": 19404.13,
-   "h1": 19.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T20:30:45.010993+00:00",
-   "symbol": "FOUNDER",
-   "mint": "79QjDainx3coswjB3qk8PijgDeBBN258n1qv272ipump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 13.0% > 12% gate",
-   "entry_price": 0.0001009,
-   "mcap": 100868,
-   "liq": 26028.85,
-   "h1": 125,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -58.5,
-   "ts": "2026-11-19 17:00 UTC"
+   "h1": -71.8,
+   "ts": "2026-11-19 17:30 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -8.8,
-   "ts": "2026-11-19 17:00 UTC"
+   "h1": 16.2,
+   "ts": "2026-11-19 17:30 UTC"
   }
  ],
  "live_closes": [
