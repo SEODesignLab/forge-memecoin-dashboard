@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:34:33.037404+00:00",
+ "generated": "2026-11-19T20:04:33.218166+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2550,
-  "cohort_wallets": 1582,
+  "cohort_runs": 2551,
+  "cohort_wallets": 1607,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 132
+   "count": 133
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T20:00:45.341313+00:00",
+   "symbol": "OGTA",
+   "mint": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001283,
+   "mcap": 1276975,
+   "liq": 83974.1,
+   "h1": 78.77,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T20:00:45.335135+00:00",
+   "symbol": "CAT",
+   "mint": "HvYp9yArPNFeL4rN5BJTFpixGthfsuGrKFR15GYXpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "Liquidity $7372 < $25000",
+   "entry_price": 1.414e-05,
+   "mcap": 14133,
+   "liq": 7371.54,
+   "h1": -55.59,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T20:00:45.329959+00:00",
+   "symbol": "ONI",
+   "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 17.8% > 12% gate",
+   "entry_price": 6.361e-05,
+   "mcap": 63610,
+   "liq": 21129.39,
+   "h1": 110,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T19:30:50.798347+00:00",
    "symbol": "DCTYCAT",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T23:00:40.712781+00:00",
-   "symbol": "vicestream",
-   "mint": "5a4KfzA3k3kGVKDcJtLP8StCeNctTVauprvz6Va7pump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 24.4% > 12% gate",
-   "entry_price": 3.005e-05,
-   "mcap": 30018,
-   "liq": 11216.55,
-   "h1": -3.47,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T22:30:48.324700+00:00",
-   "symbol": "GRAND",
-   "mint": "CyfdugHk3PT44hEUxpnU25CXAJsVQ9EdipKWCHEBKSdS",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 15.7% > 12% gate",
-   "entry_price": 0.0003976,
-   "mcap": 397622,
-   "liq": 45284.7,
-   "h1": -27.65,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T22:30:48.320148+00:00",
-   "symbol": "PolyGTA",
-   "mint": "7wkPPoNPfrp3qVZCAme7wEXd6XhwP3G6xxrWeu8GTA6",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 21.7% > 12% gate",
-   "entry_price": 4.875e-05,
-   "mcap": 48673,
-   "liq": 17925.09,
-   "h1": 3.41,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -778,18 +778,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 46,
+   "hits": 47,
    "symbols": [
-    "GLITCH",
     "GATO",
     "NINU",
     "CBUCKS",
     "RESPECT",
     "JOB",
     "COGE",
-    "CHAR"
+    "CHAR",
+    "THUG"
    ],
-   "last": "2026-11-19 15:30 UTC"
+   "last": "2026-11-19 20:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "JALU",
-   "tag": "WATCH",
-   "h1": 6.7,
-   "ts": "2026-11-18 20:00 UTC"
-  },
-  {
    "symbol": "GROKIA",
    "tag": "WATCH",
    "h1": -2.9,
@@ -987,9 +981,9 @@
   },
   {
    "symbol": "GTASZN",
-   "tag": "FADING",
-   "h1": -22.9,
-   "ts": "2026-11-19 19:30 UTC"
+   "tag": "WATCH",
+   "h1": -14.8,
+   "ts": "2026-11-19 20:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1006,14 +1000,20 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -3.0,
-   "ts": "2026-11-19 19:30 UTC"
+   "h1": 5.5,
+   "ts": "2026-11-19 20:00 UTC"
   },
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": 8.7,
-   "ts": "2026-11-19 19:30 UTC"
+   "h1": 8.3,
+   "ts": "2026-11-19 20:00 UTC"
+  },
+  {
+   "symbol": "OGTA",
+   "tag": "WATCH",
+   "h1": 74.1,
+   "ts": "2026-11-19 20:00 UTC"
   }
  ],
  "live_closes": [
