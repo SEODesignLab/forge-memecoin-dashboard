@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-19T06:34:29.118022+00:00",
+ "generated": "2026-11-19T07:04:29.300872+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
-  "paper_skips": 499,
-  "paper_buys": 1,
+  "paper_skips": 498,
+  "paper_buys": 2,
   "paper_settled": 1,
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2524,
-  "cohort_wallets": 1554,
+  "cohort_runs": 2525,
+  "cohort_wallets": 1588,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 132
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T07:00:41.163342+00:00",
+   "symbol": "GTA",
+   "mint": "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump",
+   "score": 90,
+   "decision": "PAPER_BUY",
+   "reason": "OK study:holder3%full,unlockedLP\u00d70.85,band85-99",
+   "entry_price": 0.0008621,
+   "mcap": 859207,
+   "liq": 67534.18,
+   "h1": -7.52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T06:30:36.953088+00:00",
    "symbol": "CYBERLEEK",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T15:00:44.091496+00:00",
-   "symbol": "CC",
-   "mint": "3ZYMcXEfq1nqEYE9VVdCgSqkwRCqhYVpKpQRFKkhTTVA",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $8050 < $25000",
-   "entry_price": 1.557e-05,
-   "mcap": 15554,
-   "liq": 8049.54,
-   "h1": -46.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Lucia",
-   "tag": "WATCH",
-   "h1": -0.0,
-   "ts": "2026-11-18 16:00 UTC"
-  },
-  {
    "symbol": "Rex",
    "tag": "FADING",
    "h1": -78.4,
@@ -981,8 +975,8 @@
   {
    "symbol": "Leonida",
    "tag": "FADING",
-   "h1": -27.7,
-   "ts": "2026-11-19 06:30 UTC"
+   "h1": -21.9,
+   "ts": "2026-11-19 07:00 UTC"
   },
   {
    "symbol": "VI",
@@ -999,8 +993,8 @@
   {
    "symbol": "GTASZN",
    "tag": "WATCH",
-   "h1": 21.9,
-   "ts": "2026-11-19 06:30 UTC"
+   "h1": 4.4,
+   "ts": "2026-11-19 07:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1010,9 +1004,15 @@
   },
   {
    "symbol": "GTA",
-   "tag": "CHASE",
-   "h1": 2445.0,
-   "ts": "2026-11-19 06:30 UTC"
+   "tag": "WATCH",
+   "h1": -5.5,
+   "ts": "2026-11-19 07:00 UTC"
+  },
+  {
+   "symbol": "ANTS",
+   "tag": "WATCH",
+   "h1": 6.3,
+   "ts": "2026-11-19 07:00 UTC"
   }
  ],
  "live_closes": [
