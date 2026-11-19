@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:34:32.138150+00:00",
+ "generated": "2026-11-19T17:04:32.298061+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2544,
-  "cohort_wallets": 1990,
+  "cohort_runs": 2545,
+  "cohort_wallets": 1500,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T17:00:52.009279+00:00",
+   "symbol": "MANDY",
+   "mint": "DNZpNGgc25ka2CLJq7dn46urgPCJDsAvH7XHNxFQpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003589,
+   "mcap": 358774,
+   "liq": 41996.68,
+   "h1": 886,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T17:00:52.001793+00:00",
+   "symbol": "Topstar",
+   "mint": "7S2HhQnbWcbWJ2sUacjz384vSCLPCJiKa6F9eeb1pump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004673,
+   "mcap": 467290,
+   "liq": 48562.5,
+   "h1": 1168,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T17:00:51.993266+00:00",
+   "symbol": "LUCIA",
+   "mint": "25KkRDFPuUSC9fyMMH9ScRyy2aVR1DVn6JRVtcnqpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Liquidity $22364 < $25000",
+   "entry_price": 0.0001071,
+   "mcap": 107113,
+   "liq": 22363.54,
+   "h1": 193,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T16:30:46.878656+00:00",
    "symbol": "LOOSY",
@@ -629,51 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T20:00:47.121959+00:00",
-   "symbol": "LURE",
-   "mint": "FKFYZ8RLQxxEzSbaFXKU9nsyyUomqMeAKQ89TUULure",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 51>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.571e-05,
-   "mcap": 35720,
-   "liq": 13639.16,
-   "h1": 18.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T20:00:47.114685+00:00",
-   "symbol": "Founder",
-   "mint": "Eyp4dHQD8oLLF4XLyA1QDcFxSYxQSFnphiujRvugpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002504,
-   "mcap": 248210,
-   "liq": 35209.33,
-   "h1": 634,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T20:00:47.106688+00:00",
-   "symbol": "FLC",
-   "mint": "pcDL74F9AYQ8ConwemryWMHQX5LWbPHyAEbULGNpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 6.204e-05,
-   "mcap": 60364,
-   "liq": 20524.34,
-   "h1": 36.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -33.6,
-   "ts": "2026-11-19 16:30 UTC"
+   "h1": -58.5,
+   "ts": "2026-11-19 17:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -13.2,
-   "ts": "2026-11-19 16:30 UTC"
+   "h1": -8.8,
+   "ts": "2026-11-19 17:00 UTC"
   }
  ],
  "live_closes": [
