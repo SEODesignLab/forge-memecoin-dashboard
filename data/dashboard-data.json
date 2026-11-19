@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:34:31.217869+00:00",
+ "generated": "2026-11-19T14:04:31.393958+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2538,
-  "cohort_wallets": 1903,
+  "cohort_runs": 2539,
+  "cohort_wallets": 1918,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 130
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 11
+   "count": 10
   },
   {
    "reason": "Top holder 14.3% > 12% gate",
@@ -69,11 +69,41 @@
    "count": 4
   },
   {
-   "reason": "Top holder 20.4% > 12% gate",
+   "reason": "Top holder 17.3% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T14:00:44.253295+00:00",
+   "symbol": "OGTA",
+   "mint": "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001066,
+   "mcap": 1060459,
+   "liq": 76609.06,
+   "h1": 19.76,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T14:00:44.246373+00:00",
+   "symbol": "WIF",
+   "mint": "DD9YaiEC1cyrztQ5aGSbwZZkRGxRm7Mh3Y7b2kfFpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 20.3% > 12% gate",
+   "entry_price": 5.511e-05,
+   "mcap": 55018,
+   "liq": 19420.6,
+   "h1": 16.75,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T13:00:48.882469+00:00",
    "symbol": "ANTGENT",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T18:00:42.547353+00:00",
-   "symbol": "LastRide",
-   "mint": "CC6NEsE5FjeVmRN9kcKgosuezi2ccnqc1LqC8z5Xpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003295,
-   "mcap": 328375,
-   "liq": 40965.18,
-   "h1": 797,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T17:30:42.567947+00:00",
-   "symbol": "Rocco",
-   "mint": "6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0008597,
-   "mcap": 859578,
-   "liq": 68736.47,
-   "h1": 748,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -72.2,
-   "ts": "2026-11-19 13:30 UTC"
+   "h1": -34.4,
+   "ts": "2026-11-19 14:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1011,9 +1011,9 @@
   },
   {
    "symbol": "ANTS",
-   "tag": "WATCH",
-   "h1": -6.4,
-   "ts": "2026-11-19 13:30 UTC"
+   "tag": "FADING",
+   "h1": -24.0,
+   "ts": "2026-11-19 14:00 UTC"
   }
  ],
  "live_closes": [
