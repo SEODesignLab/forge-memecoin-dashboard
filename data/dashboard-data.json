@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T12:34:30.936044+00:00",
+ "generated": "2026-11-19T13:04:31.104489+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2536,
-  "cohort_wallets": 1868,
+  "cohort_runs": 2537,
+  "cohort_wallets": 1886,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 130
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T13:00:48.882469+00:00",
+   "symbol": "ANTGENT",
+   "mint": "G5MxDeYk7BREdjixY9C9Wez2ojP7gioSfdBQMq4wpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 21.6% > 12% gate",
+   "entry_price": 4.375e-05,
+   "mcap": 43697,
+   "liq": 16265.55,
+   "h1": 5.17,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T12:30:52.011426+00:00",
    "symbol": "PIPI",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T17:00:42.042783+00:00",
-   "symbol": "GTA",
-   "mint": "6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Liquidity $23982 < $25000",
-   "entry_price": 0.0001209,
-   "mcap": 119633,
-   "liq": 23981.64,
-   "h1": 234,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -993,9 +993,9 @@
   },
   {
    "symbol": "GTASZN",
-   "tag": "CHASE",
-   "h1": 190.0,
-   "ts": "2026-11-19 12:30 UTC"
+   "tag": "WATCH",
+   "h1": 2.5,
+   "ts": "2026-11-19 13:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -16.1,
-   "ts": "2026-11-19 12:30 UTC"
+   "h1": -15.2,
+   "ts": "2026-11-19 13:00 UTC"
   }
  ],
  "live_closes": [
