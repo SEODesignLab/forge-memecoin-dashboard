@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T14:34:31.520329+00:00",
+ "generated": "2026-11-19T15:04:31.709540+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2540,
-  "cohort_wallets": 1931,
+  "cohort_runs": 2541,
+  "cohort_wallets": 1945,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 130
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T15:00:45.019022+00:00",
+   "symbol": "Phone",
+   "mint": "EywjBvp69aahb3MHrb4PBtKqVzcQNEtE3NaGk36S8hCd",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $15628 < $25000",
+   "entry_price": 3.93e-05,
+   "mcap": 36814,
+   "liq": 15628.48,
+   "h1": 83.67,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T14:00:44.253295+00:00",
    "symbol": "OGTA",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T18:30:38.731775+00:00",
-   "symbol": "AI",
-   "mint": "GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001519,
-   "mcap": 151959,
-   "liq": 27118.32,
-   "h1": 276,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -924,7 +924,7 @@
     "Huang",
     "RESPECT"
    ],
-   "last": "2026-11-16 19:30 UTC"
+   "last": "2026-11-19 15:00 UTC"
   },
   {
    "wallet": "Aud2Dfp4x2Dxcbmb6vYiLhSGSrfUZMA4nky1XPtVZmNa",
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-11-19 14:30 UTC"
+   "h1": 20.7,
+   "ts": "2026-11-19 15:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1011,9 +1011,9 @@
   },
   {
    "symbol": "ANTS",
-   "tag": "FADING",
-   "h1": -32.0,
-   "ts": "2026-11-19 14:30 UTC"
+   "tag": "WATCH",
+   "h1": -17.1,
+   "ts": "2026-11-19 15:00 UTC"
   }
  ],
  "live_closes": [
