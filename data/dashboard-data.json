@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:04:32.019972+00:00",
+ "generated": "2026-11-19T16:34:32.138150+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2543,
-  "cohort_wallets": 1975,
+  "cohort_runs": 2544,
+  "cohort_wallets": 1990,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 130
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T16:30:46.878656+00:00",
+   "symbol": "LOOSY",
+   "mint": "FtSWWxVmKNXz8ksJxzJJ7BdDWXbQb3vC94J99oyypump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004338,
+   "mcap": 433830,
+   "liq": 47880.54,
+   "h1": 358,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T16:30:46.867391+00:00",
+   "symbol": "J4F",
+   "mint": "pwtKLrLyRZy78eM2mR74xxe7mzREH1MxGcbvZWApump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0009759,
+   "mcap": 975801,
+   "liq": 71098.65,
+   "h1": 2314,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T16:00:44.606103+00:00",
    "symbol": "MORALS",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T19:30:43.889492+00:00",
-   "symbol": "TCG6",
-   "mint": "e88wzyWFZhBvj4w5erYMMdP2cvYX4zLmxXHkG3Apump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 3.953e-05,
-   "mcap": 39482,
-   "liq": 13097.43,
-   "h1": 29.6,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T19:30:43.884857+00:00",
-   "symbol": "JIGGLE",
-   "mint": "EamKUccsfTiDM9448CxPxVdBgSDyBKNoK6R4jBWfpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 19.2% > 12% gate",
-   "entry_price": 6.515e-05,
-   "mcap": 65092,
-   "liq": 21100.69,
-   "h1": 45.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "FADING",
-   "h1": -39.4,
-   "ts": "2026-11-19 16:00 UTC"
+   "h1": -33.6,
+   "ts": "2026-11-19 16:30 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 7.4,
-   "ts": "2026-11-19 16:00 UTC"
+   "h1": -13.2,
+   "ts": "2026-11-19 16:30 UTC"
   }
  ],
  "live_closes": [
