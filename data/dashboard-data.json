@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T15:04:31.709540+00:00",
+ "generated": "2026-11-19T15:34:31.842543+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2541,
-  "cohort_wallets": 1945,
+  "cohort_runs": 2542,
+  "cohort_wallets": 1960,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 130
+   "count": 129
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T15:30:46.400356+00:00",
+   "symbol": "HOLM",
+   "mint": "D7P7cyJT4LRFP3X5932HFkbb7hcJkZXPjsSLNqQZpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 29.1% > 12% gate",
+   "entry_price": 2.408e-05,
+   "mcap": 24051,
+   "liq": 10003.9,
+   "h1": -19.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-19T15:30:46.394663+00:00",
+   "symbol": "JETSKI",
+   "mint": "J8JjZXF6XE3zDp3zVQPYxkC9SNDuejGh8Eh6hjKgpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Liquidity $13502 < $25000",
+   "entry_price": 4.113e-05,
+   "mcap": 39642,
+   "liq": 13501.91,
+   "h1": 33.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T15:00:45.019022+00:00",
    "symbol": "Phone",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T19:30:43.875084+00:00",
-   "symbol": "1GTA",
-   "mint": "2uDBAsgxonpXXxCmfbLVZ6H5cJUhKrqnWxsf2Fk4pump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001252,
-   "mcap": 1252082,
-   "liq": 80542.79,
-   "h1": 3299,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T19:00:48.343445+00:00",
-   "symbol": "LUCIASS",
-   "mint": "348S93Yzx5zKcA5aMtthXa6ipRmEzLiRLHrLpgKMpump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Liquidity $23252 < $25000",
-   "entry_price": 0.0001143,
-   "mcap": 114290,
-   "liq": 23252.2,
-   "h1": 222,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -789,7 +789,7 @@
     "COGE",
     "CHAR"
    ],
-   "last": "2026-11-19 02:00 UTC"
+   "last": "2026-11-19 15:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "WATCH",
-   "h1": 20.7,
-   "ts": "2026-11-19 15:00 UTC"
+   "h1": -7.0,
+   "ts": "2026-11-19 15:30 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -17.1,
-   "ts": "2026-11-19 15:00 UTC"
+   "h1": 1.4,
+   "ts": "2026-11-19 15:30 UTC"
   }
  ],
  "live_closes": [
