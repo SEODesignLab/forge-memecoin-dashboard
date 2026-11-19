@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T12:04:30.797527+00:00",
+ "generated": "2026-11-19T12:34:30.936044+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2535,
-  "cohort_wallets": 1853,
+  "cohort_runs": 2536,
+  "cohort_wallets": 1868,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T12:30:52.011426+00:00",
+   "symbol": "PIPI",
+   "mint": "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 8.383e-05,
+   "mcap": 83745,
+   "liq": 25529.62,
+   "h1": 83.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T12:01:02.209238+00:00",
    "symbol": "GAYTA",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T17:00:42.038232+00:00",
-   "symbol": "WW",
-   "mint": "8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 4.383e-05,
-   "mcap": 43781,
-   "liq": 13751.16,
-   "h1": 57.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -976,8 +976,8 @@
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": -6.1,
-   "ts": "2026-11-19 12:00 UTC"
+   "h1": 6.2,
+   "ts": "2026-11-19 12:30 UTC"
   },
   {
    "symbol": "VI",
@@ -993,9 +993,9 @@
   },
   {
    "symbol": "GTASZN",
-   "tag": "WATCH",
-   "h1": 33.9,
-   "ts": "2026-11-19 12:00 UTC"
+   "tag": "CHASE",
+   "h1": 190.0,
+   "ts": "2026-11-19 12:30 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 32.3,
-   "ts": "2026-11-19 12:00 UTC"
+   "h1": -16.1,
+   "ts": "2026-11-19 12:30 UTC"
   }
  ],
  "live_closes": [
