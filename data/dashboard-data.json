@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T22:04:33.805429+00:00",
+ "generated": "2026-11-19T22:34:33.944450+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2555,
-  "cohort_wallets": 1688,
-  "cohort_qualified": 243,
+  "cohort_runs": 2556,
+  "cohort_wallets": 1701,
+  "cohort_qualified": 244,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T22:30:45.062964+00:00",
+   "symbol": "DATITTY",
+   "mint": "7ZwcEsmBBUWshL3rpkgDchG6rhL1U9jHockwuzgZpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $22315 < $25000",
+   "entry_price": 0.0001046,
+   "mcap": 103112,
+   "liq": 22315.03,
+   "h1": 199,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T22:01:02.933867+00:00",
    "symbol": "VINTEL",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T06:00:56.072539+00:00",
-   "symbol": "GTA",
-   "mint": "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Chase filter: +2314% in 1h > 40% cap",
-   "entry_price": 0.0009024,
-   "mcap": 902314,
-   "liq": 68722.44,
-   "h1": 2314,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -733,18 +733,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 106,
+   "hits": 107,
    "symbols": [
-    "NINU",
     "VI",
     "COGE",
     "Lucia",
     "GROKIA",
     "GLITCH",
     "WASTED",
-    "GATO"
+    "GATO",
+    "SIM"
    ],
-   "last": "2026-11-19 21:00 UTC"
+   "last": "2026-11-19 22:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -849,7 +849,7 @@
     "DIGS",
     "THUG"
    ],
-   "last": "2026-11-19 21:00 UTC"
+   "last": "2026-11-19 22:30 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -1000,20 +1000,20 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-11-19 22:00 UTC"
+   "h1": -4.2,
+   "ts": "2026-11-19 22:30 UTC"
   },
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-19 22:00 UTC"
+   "h1": 10.8,
+   "ts": "2026-11-19 22:30 UTC"
   },
   {
    "symbol": "OGTA",
    "tag": "WATCH",
-   "h1": -17.6,
-   "ts": "2026-11-19 22:00 UTC"
+   "h1": -18.9,
+   "ts": "2026-11-19 22:30 UTC"
   }
  ],
  "live_closes": [
