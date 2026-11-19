@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T11:34:30.621478+00:00",
+ "generated": "2026-11-19T12:04:30.797527+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2534,
-  "cohort_wallets": 1831,
+  "cohort_runs": 2535,
+  "cohort_wallets": 1853,
   "cohort_qualified": 243,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 132
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-19T12:01:02.209238+00:00",
+   "symbol": "GAYTA",
+   "mint": "DeXXt9HopHa28msm4iATCvrQBer1FScmkpnt73Dgpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 16.8% > 12% gate",
+   "entry_price": 7.34e-05,
+   "mcap": 73401,
+   "liq": 22229.55,
+   "h1": 21.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-19T11:30:56.457973+00:00",
    "symbol": "Dacitytard",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-18T17:00:42.031750+00:00",
-   "symbol": "GTA",
-   "mint": "97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Chase filter: +386% in 1h > 40% cap",
-   "entry_price": 0.000175,
-   "mcap": 174958,
-   "liq": 28829.81,
-   "h1": 386,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -729,7 +729,7 @@
     "JOB",
     "LUNO"
    ],
-   "last": "2026-11-19 10:30 UTC"
+   "last": "2026-11-19 12:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -976,14 +976,14 @@
   {
    "symbol": "Leonida",
    "tag": "WATCH",
-   "h1": 7.0,
-   "ts": "2026-11-19 11:30 UTC"
+   "h1": -6.1,
+   "ts": "2026-11-19 12:00 UTC"
   },
   {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-19 11:30 UTC"
+   "ts": "2026-11-19 12:00 UTC"
   },
   {
    "symbol": "LUNO",
@@ -994,8 +994,8 @@
   {
    "symbol": "GTASZN",
    "tag": "WATCH",
-   "h1": -7.8,
-   "ts": "2026-11-19 11:30 UTC"
+   "h1": 33.9,
+   "ts": "2026-11-19 12:00 UTC"
   },
   {
    "symbol": "MANDY",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 4.1,
-   "ts": "2026-11-19 11:30 UTC"
+   "h1": 32.3,
+   "ts": "2026-11-19 12:00 UTC"
   }
  ],
  "live_closes": [
