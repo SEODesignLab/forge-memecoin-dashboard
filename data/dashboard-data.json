@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T20:34:40.648822+00:00",
+ "generated": "2026-11-20T21:04:40.829270+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2600,
-  "cohort_wallets": 1564,
-  "cohort_qualified": 246,
+  "cohort_runs": 2601,
+  "cohort_wallets": 1584,
+  "cohort_qualified": 247,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T21:01:09.741478+00:00",
+   "symbol": "Trader",
+   "mint": "BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 24.6% > 12% gate",
+   "entry_price": 0.0001087,
+   "mcap": 108717,
+   "liq": 57378.3,
+   "h1": 8.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T21:01:09.736577+00:00",
+   "symbol": "BTC",
+   "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000803,
+   "mcap": 803046,
+   "liq": 61266.05,
+   "h1": 2266,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T20:30:48.621108+00:00",
    "symbol": "Singularity",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:31:04.997479+00:00",
-   "symbol": "iAgent",
-   "mint": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.00135,
-   "mcap": 1350455,
-   "liq": 86097.29,
-   "h1": 1111,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:31:04.990876+00:00",
-   "symbol": "LUCIA",
-   "mint": "i48RfaqcYLRnNLpSxt8akF2ZubNuHckEReqBVPWpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "Chase filter: +792% in 1h > 40% cap",
-   "entry_price": 0.0003224,
-   "mcap": 322243,
-   "liq": 39624.67,
-   "h1": 792,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -732,18 +732,18 @@
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 108,
+   "hits": 109,
    "symbols": [
-    "COGE",
     "Lucia",
     "GROKIA",
     "GLITCH",
     "WASTED",
     "GATO",
     "SIM",
-    "THUG"
+    "THUG",
+    "RUDY"
    ],
-   "last": "2026-11-20 09:30 UTC"
+   "last": "2026-11-20 21:00 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "VI",
-   "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-19 12:00 UTC"
-  },
-  {
    "symbol": "LUNO",
    "tag": "WATCH",
    "h1": 12.7,
@@ -993,8 +987,8 @@
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": 21.6,
-   "ts": "2026-11-20 20:30 UTC"
+   "h1": -14.0,
+   "ts": "2026-11-20 21:00 UTC"
   },
   {
    "symbol": "iAgent",
@@ -1011,8 +1005,14 @@
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -0.3,
-   "ts": "2026-11-20 20:30 UTC"
+   "h1": -5.8,
+   "ts": "2026-11-20 21:00 UTC"
+  },
+  {
+   "symbol": "RUDY",
+   "tag": "WATCH",
+   "h1": -9.9,
+   "ts": "2026-11-20 21:00 UTC"
   }
  ],
  "live_closes": [
