@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T10:04:37.436915+00:00",
+ "generated": "2026-11-20T10:34:37.557983+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2579,
-  "cohort_wallets": 1629,
+  "cohort_runs": 2580,
+  "cohort_wallets": 1651,
   "cohort_qualified": 244,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T10:30:55.156301+00:00",
+   "symbol": "RUDY",
+   "mint": "GjFvarRNRrq5tL6K2qdY7Xv2ZEbVrstqjW1BW4hMpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Liquidity $12761 < $25000",
+   "entry_price": 2.068e-05,
+   "mcap": 20681,
+   "liq": 12760.88,
+   "h1": -69.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T10:00:57.133850+00:00",
    "symbol": "Gino ",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T18:30:50.245843+00:00",
-   "symbol": "AI",
-   "mint": "5k8yMkEzcekeufWvTk5zvuZ8xnx2PqNdxs86E9P2bvQf",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 19.9% > 12% gate",
-   "entry_price": 0.0002526,
-   "mcap": 252696,
-   "liq": 99329.91,
-   "h1": 96.77,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -777,18 +777,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 48,
+   "hits": 49,
    "symbols": [
-    "NINU",
     "CBUCKS",
     "RESPECT",
     "JOB",
     "COGE",
     "CHAR",
     "THUG",
-    "SIM"
+    "SIM",
+    "GATO"
    ],
-   "last": "2026-11-20 09:00 UTC"
+   "last": "2026-11-20 10:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -803,7 +803,7 @@
     "GLITCH",
     "THUG"
    ],
-   "last": "2026-11-20 10:00 UTC"
+   "last": "2026-11-20 10:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -993,26 +993,26 @@
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": -1.9,
-   "ts": "2026-11-20 10:00 UTC"
+   "h1": -9.1,
+   "ts": "2026-11-20 10:30 UTC"
   },
   {
    "symbol": "OGTA",
    "tag": "FADING",
-   "h1": -24.0,
-   "ts": "2026-11-20 10:00 UTC"
+   "h1": -44.3,
+   "ts": "2026-11-20 10:30 UTC"
   },
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-20 10:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-11-20 10:30 UTC"
   },
   {
    "symbol": "iAgent",
-   "tag": "FADING",
-   "h1": -38.7,
-   "ts": "2026-11-20 10:00 UTC"
+   "tag": "WATCH",
+   "h1": -16.1,
+   "ts": "2026-11-20 10:30 UTC"
   }
  ],
  "live_closes": [
