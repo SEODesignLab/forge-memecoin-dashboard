@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:34:34.823547+00:00",
+ "generated": "2026-11-20T02:04:34.996143+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2562,
-  "cohort_wallets": 1796,
+  "cohort_runs": 2563,
+  "cohort_wallets": 1807,
   "cohort_qualified": 244,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T02:00:56.932420+00:00",
+   "symbol": "RUGPULL",
+   "mint": "5AwnCWbvq64i9f5cbXJdFzhBZ3EpEWjk3Kp68582pump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $12136 < $25000",
+   "entry_price": 2.444e-05,
+   "mcap": 24443,
+   "liq": 12135.94,
+   "h1": -46.36,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T01:31:05.003837+00:00",
    "symbol": "LOOSY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T15:30:46.400356+00:00",
-   "symbol": "HOLM",
-   "mint": "D7P7cyJT4LRFP3X5932HFkbb7hcJkZXPjsSLNqQZpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 29.1% > 12% gate",
-   "entry_price": 2.408e-05,
-   "mcap": 24051,
-   "liq": 10003.9,
-   "h1": -19.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 113,
+   "hits": 114,
    "symbols": [
-    "GLITCH",
     "NINU",
     "DIGS",
     "RESPECT",
     "COGE",
     "JOB",
     "LUNO",
-    "SIM"
+    "SIM",
+    "ANTS"
    ],
-   "last": "2026-11-19 21:00 UTC"
+   "last": "2026-11-20 02:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -788,7 +788,7 @@
     "CHAR",
     "THUG"
    ],
-   "last": "2026-11-20 01:30 UTC"
+   "last": "2026-11-20 02:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "GROKIA",
-   "tag": "WATCH",
-   "h1": -2.9,
-   "ts": "2026-11-18 10:30 UTC"
-  },
-  {
    "symbol": "GTAVI",
    "tag": "FADING",
    "h1": -80.2,
@@ -999,20 +993,26 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 1.0,
-   "ts": "2026-11-20 01:30 UTC"
+   "h1": -4.2,
+   "ts": "2026-11-20 02:00 UTC"
   },
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-11-20 01:30 UTC"
+   "h1": -8.7,
+   "ts": "2026-11-20 02:00 UTC"
   },
   {
    "symbol": "OGTA",
-   "tag": "WATCH",
-   "h1": -15.1,
-   "ts": "2026-11-20 01:30 UTC"
+   "tag": "FADING",
+   "h1": -32.1,
+   "ts": "2026-11-20 02:00 UTC"
+  },
+  {
+   "symbol": "LOOSY",
+   "tag": "CHASE",
+   "h1": 2441.0,
+   "ts": "2026-11-20 02:00 UTC"
   }
  ],
  "live_closes": [
