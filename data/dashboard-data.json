@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:04:39.251864+00:00",
+ "generated": "2026-11-20T16:34:39.405890+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2591,
-  "cohort_wallets": 1895,
-  "cohort_qualified": 245,
+  "cohort_runs": 2592,
+  "cohort_wallets": 1908,
+  "cohort_qualified": 246,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 133
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T16:31:04.457804+00:00",
+   "symbol": "Mo\u0301m",
+   "mint": "BfNcetwXyxFJjsnmMboPpHqpZg19ez1ueQGPGE9upump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 18.0% > 12% gate",
+   "entry_price": 3.479e-05,
+   "mcap": 34793,
+   "liq": 11882.33,
+   "h1": 26.37,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T16:31:04.452198+00:00",
+   "symbol": "H4CK",
+   "mint": "J5zXjgnbwxnWSuT13aE5sRmGnbyoNafWHR52SDB9pump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Top holder 16.6% > 12% gate",
+   "entry_price": 5.351e-05,
+   "mcap": 53452,
+   "liq": 14934.8,
+   "h1": 87.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T15:31:07.855718+00:00",
    "symbol": "RIEMANN",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T21:30:51.746453+00:00",
-   "symbol": "FIONA",
-   "mint": "3hcJWcNvWJu3QBq6PiC8xavYQJJwBnr6adhdpHXppump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 43.9% > 12% gate",
-   "entry_price": 7.292e-06,
-   "mcap": 7292,
-   "liq": 5232.23,
-   "h1": -75.26,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T21:00:43.701089+00:00",
-   "symbol": "DAINU",
-   "mint": "82u71wqQSa4NmD1UTTDwKyh5EUm3xe9pMp4UZXhFpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0005222,
-   "mcap": 522180,
-   "liq": 51302.08,
-   "h1": 1327,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 115,
+   "hits": 116,
    "symbols": [
-    "DIGS",
     "RESPECT",
     "COGE",
     "JOB",
     "LUNO",
     "SIM",
     "ANTS",
-    "GATO"
+    "GATO",
+    "WASTED"
    ],
-   "last": "2026-11-20 16:00 UTC"
+   "last": "2026-11-20 16:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -818,7 +818,7 @@
     "GATO",
     "COGE"
    ],
-   "last": "2026-11-20 11:30 UTC"
+   "last": "2026-11-20 16:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -993,20 +993,20 @@
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": 18.6,
-   "ts": "2026-11-20 16:00 UTC"
+   "h1": 11.1,
+   "ts": "2026-11-20 16:30 UTC"
   },
   {
    "symbol": "OGTA",
    "tag": "WATCH",
-   "h1": 9.8,
-   "ts": "2026-11-20 16:00 UTC"
+   "h1": 20.1,
+   "ts": "2026-11-20 16:30 UTC"
   },
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": 3.8,
-   "ts": "2026-11-20 16:00 UTC"
+   "h1": -1.6,
+   "ts": "2026-11-20 16:30 UTC"
   },
   {
    "symbol": "iAgent",
