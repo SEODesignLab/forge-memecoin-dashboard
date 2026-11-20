@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T21:04:40.829270+00:00",
+ "generated": "2026-11-20T21:34:40.937629+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2601,
-  "cohort_wallets": 1584,
+  "cohort_runs": 2602,
+  "cohort_wallets": 1602,
   "cohort_qualified": 247,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 132
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T21:30:52.754979+00:00",
+   "symbol": "Singularity",
+   "mint": "GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 9.546e-05,
+   "mcap": 95463,
+   "liq": 21052.46,
+   "h1": 157,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T21:01:09.741478+00:00",
    "symbol": "Trader",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:31:05.003837+00:00",
-   "symbol": "LOOSY",
-   "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002115,
-   "mcap": 211503,
-   "liq": 32422.05,
-   "h1": 428,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "LUNO",
-   "tag": "WATCH",
-   "h1": 12.7,
-   "ts": "2026-11-18 21:00 UTC"
-  },
-  {
    "symbol": "GTASZN",
    "tag": "FADING",
    "h1": -20.1,
@@ -987,8 +981,8 @@
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": -14.0,
-   "ts": "2026-11-20 21:00 UTC"
+   "h1": -16.1,
+   "ts": "2026-11-20 21:30 UTC"
   },
   {
    "symbol": "iAgent",
@@ -1005,14 +999,20 @@
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-11-20 21:00 UTC"
+   "h1": -2.9,
+   "ts": "2026-11-20 21:30 UTC"
   },
   {
    "symbol": "RUDY",
    "tag": "WATCH",
    "h1": -9.9,
    "ts": "2026-11-20 21:00 UTC"
+  },
+  {
+   "symbol": "BTC",
+   "tag": "CHASE",
+   "h1": 3578.0,
+   "ts": "2026-11-20 21:30 UTC"
   }
  ],
  "live_closes": [
