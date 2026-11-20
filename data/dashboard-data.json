@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:34:40.342813+00:00",
+ "generated": "2026-11-20T20:04:40.523384+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2598,
-  "cohort_wallets": 1524,
+  "cohort_runs": 2599,
+  "cohort_wallets": 1542,
   "cohort_qualified": 246,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T20:00:58.277783+00:00",
+   "symbol": "GTA",
+   "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
+   "score": 112,
+   "decision": "SKIP",
+   "reason": "Chase filter: +496% in 1h > 40% cap",
+   "entry_price": 0.000201,
+   "mcap": 200981,
+   "liq": 30030.33,
+   "h1": 496,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T19:30:49.731485+00:00",
    "symbol": "FIENA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:00:52.931593+00:00",
-   "symbol": "COOKIE",
-   "mint": "GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $18558 < $25000",
-   "entry_price": 6.054e-05,
-   "mcap": 59238,
-   "liq": 18557.75,
-   "h1": 96.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "GATO",
     "WASTED"
    ],
-   "last": "2026-11-20 18:30 UTC"
+   "last": "2026-11-20 20:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -993,8 +993,8 @@
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": 8.0,
-   "ts": "2026-11-20 19:30 UTC"
+   "h1": 29.6,
+   "ts": "2026-11-20 20:00 UTC"
   },
   {
    "symbol": "iAgent",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "jingyu",
-   "tag": "WATCH",
-   "h1": -10.0,
-   "ts": "2026-11-20 19:30 UTC"
+   "tag": "FADING",
+   "h1": -24.8,
+   "ts": "2026-11-20 20:00 UTC"
   },
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": 3.2,
-   "ts": "2026-11-20 19:30 UTC"
+   "h1": 6.0,
+   "ts": "2026-11-20 20:00 UTC"
   }
  ],
  "live_closes": [
