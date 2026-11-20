@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:04:38.970416+00:00",
+ "generated": "2026-11-20T15:34:39.104026+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2589,
-  "cohort_wallets": 1853,
+  "cohort_runs": 2590,
+  "cohort_wallets": 1875,
   "cohort_qualified": 245,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T15:31:07.855718+00:00",
+   "symbol": "RIEMANN",
+   "mint": "2BQUmatyiKWJD8nThWP62tkPVPZqD1pq5fh1uqK33Wrc",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $11383 < $25000",
+   "entry_price": 2.969e-05,
+   "mcap": 29657,
+   "liq": 11383.32,
+   "h1": 3.56,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T13:30:55.845023+00:00",
    "symbol": "STICK",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T21:00:43.693927+00:00",
-   "symbol": "MANDY",
-   "mint": "GQngHP8P6s45MxWnU7JsocfV2HjPQdJZmCEAYKpBpump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002805,
-   "mcap": 280545,
-   "liq": 37002.6,
-   "h1": 585,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -837,18 +837,18 @@
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
-   "hits": 31,
+   "hits": 32,
    "symbols": [
-    "GATO",
     "X",
     "Shitcoin",
     "LuckyCoin",
     "CHAR",
     "Lucia",
     "DIGS",
-    "THUG"
+    "THUG",
+    "WASTED"
    ],
-   "last": "2026-11-20 00:30 UTC"
+   "last": "2026-11-20 15:30 UTC"
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
@@ -993,20 +993,20 @@
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": 8.9,
-   "ts": "2026-11-20 15:00 UTC"
+   "h1": 5.2,
+   "ts": "2026-11-20 15:30 UTC"
   },
   {
    "symbol": "OGTA",
-   "tag": "FADING",
-   "h1": -53.0,
-   "ts": "2026-11-20 15:00 UTC"
+   "tag": "WATCH",
+   "h1": 0.0,
+   "ts": "2026-11-20 15:30 UTC"
   },
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": 50.0,
-   "ts": "2026-11-20 15:00 UTC"
+   "h1": 12.9,
+   "ts": "2026-11-20 15:30 UTC"
   },
   {
    "symbol": "iAgent",
