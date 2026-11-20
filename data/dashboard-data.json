@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T22:34:41.253225+00:00",
+ "generated": "2026-11-20T23:04:41.479270+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2604,
-  "cohort_wallets": 1648,
-  "cohort_qualified": 247,
+  "cohort_runs": 2605,
+  "cohort_wallets": 1670,
+  "cohort_qualified": 248,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 130
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T23:00:55.398978+00:00",
+   "symbol": "Bust",
+   "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 16.0% > 12% gate",
+   "entry_price": 8.529e-05,
+   "mcap": 85141,
+   "liq": 24326.91,
+   "h1": 91.71,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T23:00:55.391713+00:00",
+   "symbol": "Singularity",
+   "mint": "HuN5y4fJU7LNkaPjV9LhxkY7LUwpynW7yhL4qoVhpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $12944 < $25000",
+   "entry_price": 4.068e-05,
+   "mcap": 38316,
+   "liq": 12943.83,
+   "h1": 201,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T21:30:52.754979+00:00",
    "symbol": "Singularity",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T03:00:56.762287+00:00",
-   "symbol": "MISU",
-   "mint": "J368btynAg5qCa414hj9WriSmRwp6H2sgWzXoRt3pump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 12.6% > 12% gate",
-   "entry_price": 0.0001019,
-   "mcap": 101789,
-   "liq": 27367.64,
-   "h1": 130,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T02:00:56.932420+00:00",
-   "symbol": "RUGPULL",
-   "mint": "5AwnCWbvq64i9f5cbXJdFzhBZ3EpEWjk3Kp68582pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $12136 < $25000",
-   "entry_price": 2.444e-05,
-   "mcap": 24443,
-   "liq": 12135.94,
-   "h1": -46.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "GTASZN",
-   "tag": "FADING",
-   "h1": -20.1,
-   "ts": "2026-11-19 20:30 UTC"
-  },
-  {
    "symbol": "MANDY",
    "tag": "FADING",
    "h1": -95.3,
@@ -981,8 +975,8 @@
   {
    "symbol": "LOOSY",
    "tag": "FADING",
-   "h1": -26.3,
-   "ts": "2026-11-20 22:30 UTC"
+   "h1": -25.6,
+   "ts": "2026-11-20 23:00 UTC"
   },
   {
    "symbol": "iAgent",
@@ -999,8 +993,8 @@
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -1.1,
-   "ts": "2026-11-20 22:30 UTC"
+   "h1": -3.4,
+   "ts": "2026-11-20 23:00 UTC"
   },
   {
    "symbol": "RUDY",
@@ -1010,9 +1004,15 @@
   },
   {
    "symbol": "BTC",
-   "tag": "FADING",
-   "h1": -31.8,
-   "ts": "2026-11-20 22:30 UTC"
+   "tag": "WATCH",
+   "h1": 9.7,
+   "ts": "2026-11-20 23:00 UTC"
+  },
+  {
+   "symbol": "CoT",
+   "tag": "WATCH",
+   "h1": -2.8,
+   "ts": "2026-11-20 23:00 UTC"
   }
  ],
  "live_closes": [
