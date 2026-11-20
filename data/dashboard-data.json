@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T23:04:41.479270+00:00",
+ "generated": "2026-11-20T23:34:41.612610+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2605,
-  "cohort_wallets": 1670,
+  "cohort_runs": 2606,
+  "cohort_wallets": 1693,
   "cohort_qualified": 248,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 130
+   "count": 131
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T23:30:56.905927+00:00",
+   "symbol": "MONKE",
+   "mint": "5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001788,
+   "mcap": 175062,
+   "liq": 34606.18,
+   "h1": 197,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T23:30:56.898570+00:00",
+   "symbol": "TITTYVERSE",
+   "mint": "4dXAFK3eL6MSmNtxoSni1u9493bJ9wweJDqSRkijpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Liquidity $20303 < $25000",
+   "entry_price": 9.213e-05,
+   "mcap": 91373,
+   "liq": 20302.93,
+   "h1": 170,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T23:00:55.398978+00:00",
    "symbol": "Bust",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T04:00:53.922418+00:00",
-   "symbol": "NeonCrime",
-   "mint": "Bg4Q8a2Nkxr8XcAs4dRkCqFXoEX6TCZxtaoYoDSypump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 25.8% > 12% gate",
-   "entry_price": 1.942e-05,
-   "mcap": 19423,
-   "liq": 9041.78,
-   "h1": -34.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T04:00:53.916606+00:00",
-   "symbol": "COGE",
-   "mint": "fDAeRE3bkFAK2KxK9btry4oDgU8NcxeWzW6n59mpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.804e-05,
-   "mcap": 18016,
-   "liq": 8672.05,
-   "h1": -40.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -974,9 +974,9 @@
   },
   {
    "symbol": "LOOSY",
-   "tag": "FADING",
-   "h1": -25.6,
-   "ts": "2026-11-20 23:00 UTC"
+   "tag": "WATCH",
+   "h1": -2.1,
+   "ts": "2026-11-20 23:30 UTC"
   },
   {
    "symbol": "iAgent",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "BTC",
    "tag": "WATCH",
-   "h1": 9.7,
-   "ts": "2026-11-20 23:00 UTC"
+   "h1": 16.5,
+   "ts": "2026-11-20 23:30 UTC"
   },
   {
    "symbol": "CoT",
    "tag": "WATCH",
-   "h1": -2.8,
-   "ts": "2026-11-20 23:00 UTC"
+   "h1": 16.0,
+   "ts": "2026-11-20 23:30 UTC"
   }
  ],
  "live_closes": [
