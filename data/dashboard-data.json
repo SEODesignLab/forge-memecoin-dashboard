@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:04:34.705474+00:00",
+ "generated": "2026-11-20T01:34:34.823547+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2561,
-  "cohort_wallets": 1782,
+  "cohort_runs": 2562,
+  "cohort_wallets": 1796,
   "cohort_qualified": 244,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 137
+   "count": 138
   },
   {
    "reason": "RugCheck risk 80>45",
    "count": 9
-  },
-  {
-   "reason": "Top holder 17.6% > 12% gate",
-   "count": 5
   },
   {
    "reason": "Top holder 18.1% > 12% gate",
@@ -61,6 +57,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 17.6% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 19.2% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T01:31:05.003837+00:00",
+   "symbol": "LOOSY",
+   "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002115,
+   "mcap": 211503,
+   "liq": 32422.05,
+   "h1": 428,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T01:31:04.997479+00:00",
+   "symbol": "iAgent",
+   "mint": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.00135,
+   "mcap": 1350455,
+   "liq": 86097.29,
+   "h1": 1111,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T01:31:04.990876+00:00",
+   "symbol": "LUCIA",
+   "mint": "i48RfaqcYLRnNLpSxt8akF2ZubNuHckEReqBVPWpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "Chase filter: +792% in 1h > 40% cap",
+   "entry_price": 0.0003224,
+   "mcap": 322243,
+   "liq": 39624.67,
+   "h1": 792,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T01:00:52.936181+00:00",
    "symbol": "AI",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T15:30:46.394663+00:00",
-   "symbol": "JETSKI",
-   "mint": "J8JjZXF6XE3zDp3zVQPYxkC9SNDuejGh8Eh6hjKgpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Liquidity $13502 < $25000",
-   "entry_price": 4.113e-05,
-   "mcap": 39642,
-   "liq": 13501.91,
-   "h1": 33.51,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T15:00:45.019022+00:00",
-   "symbol": "Phone",
-   "mint": "EywjBvp69aahb3MHrb4PBtKqVzcQNEtE3NaGk36S8hCd",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $15628 < $25000",
-   "entry_price": 3.93e-05,
-   "mcap": 36814,
-   "liq": 15628.48,
-   "h1": 83.67,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-19T14:00:44.253295+00:00",
-   "symbol": "OGTA",
-   "mint": "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001066,
-   "mcap": 1060459,
-   "liq": 76609.06,
-   "h1": 19.76,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "CHAR",
     "THUG"
    ],
-   "last": "2026-11-20 01:00 UTC"
+   "last": "2026-11-20 01:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -999,20 +999,20 @@
   {
    "symbol": "ANTS",
    "tag": "WATCH",
-   "h1": 0.5,
-   "ts": "2026-11-20 01:00 UTC"
+   "h1": 1.0,
+   "ts": "2026-11-20 01:30 UTC"
   },
   {
    "symbol": "SIM",
    "tag": "WATCH",
-   "h1": 6.2,
-   "ts": "2026-11-20 01:00 UTC"
+   "h1": -6.3,
+   "ts": "2026-11-20 01:30 UTC"
   },
   {
    "symbol": "OGTA",
    "tag": "WATCH",
-   "h1": 42.0,
-   "ts": "2026-11-20 01:00 UTC"
+   "h1": -15.1,
+   "ts": "2026-11-20 01:30 UTC"
   }
  ],
  "live_closes": [
