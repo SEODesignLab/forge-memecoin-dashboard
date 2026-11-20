@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T18:34:40.017749+00:00",
+ "generated": "2026-11-20T19:04:40.241200+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2596,
-  "cohort_wallets": 1980,
+  "cohort_runs": 2597,
+  "cohort_wallets": 1500,
   "cohort_qualified": 246,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 133
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T19:01:11.518522+00:00",
+   "symbol": "DYSON",
+   "mint": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004031,
+   "mcap": 403125,
+   "liq": 43659.43,
+   "h1": 1061,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T19:01:11.511719+00:00",
+   "symbol": "FIONAWIF",
+   "mint": "B4C3Jbueio385X9zH3ezXRLZpuAKJcVcjH2ZaDhapump",
+   "score": 110,
+   "decision": "SKIP",
+   "reason": "Liquidity $23160 < $25000",
+   "entry_price": 0.0001205,
+   "mcap": 120562,
+   "liq": 23160.36,
+   "h1": 252,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-20T19:01:11.505742+00:00",
+   "symbol": "Singularity",
+   "mint": "FBKkoVcXaHzpLHheCRnPk3zvLgiqhugbwGcegc9Ykvxx",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 0.00011,
+   "mcap": 109931,
+   "liq": 29246.12,
+   "h1": 143,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T18:31:18.174108+00:00",
    "symbol": "BTC",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:00:52.919666+00:00",
-   "symbol": "CI",
-   "mint": "72Uxzwsgv99kfMtXzmK9LnwQ4Y2P7A9XG926haKtpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.5% > 12% gate",
-   "entry_price": 6.059e-05,
-   "mcap": 60471,
-   "liq": 24327.94,
-   "h1": 5.15,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:00:52.913714+00:00",
-   "symbol": "Brian",
-   "mint": "CrJBEGkuaYqtx2W5QHnagg4RL6A2f7bZhiFcssQ5pump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001557,
-   "mcap": 155679,
-   "liq": 27228.42,
-   "h1": 326,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T00:30:47.296046+00:00",
-   "symbol": "FINOAWIF",
-   "mint": "4fT6JSPkK5SxfNwqEkvsVbidLTSGBXsNk3wpAeU1pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Liquidity $21222 < $25000",
-   "entry_price": 9.676e-05,
-   "mcap": 96731,
-   "liq": 21222.07,
-   "h1": 167,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,18 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "GTA",
-   "tag": "FADING",
-   "h1": -65.2,
-   "ts": "2026-11-19 03:00 UTC"
-  },
-  {
-   "symbol": "Leonida",
-   "tag": "WATCH",
-   "h1": 6.2,
-   "ts": "2026-11-19 12:30 UTC"
-  },
-  {
    "symbol": "VI",
    "tag": "WATCH",
    "h1": 0.0,
@@ -999,20 +987,32 @@
   {
    "symbol": "OGTA",
    "tag": "WATCH",
-   "h1": 8.6,
-   "ts": "2026-11-20 18:30 UTC"
+   "h1": 14.7,
+   "ts": "2026-11-20 19:00 UTC"
   },
   {
    "symbol": "LOOSY",
    "tag": "FADING",
-   "h1": -89.0,
-   "ts": "2026-11-20 18:30 UTC"
+   "h1": -88.3,
+   "ts": "2026-11-20 19:00 UTC"
   },
   {
    "symbol": "iAgent",
    "tag": "WATCH",
    "h1": -6.5,
    "ts": "2026-11-20 14:30 UTC"
+  },
+  {
+   "symbol": "jingyu",
+   "tag": "FADING",
+   "h1": -30.4,
+   "ts": "2026-11-20 19:00 UTC"
+  },
+  {
+   "symbol": "HOGE",
+   "tag": "WATCH",
+   "h1": -7.8,
+   "ts": "2026-11-20 19:00 UTC"
   }
  ],
  "live_closes": [
