@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:04:40.241200+00:00",
+ "generated": "2026-11-20T19:34:40.342813+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2597,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2598,
+  "cohort_wallets": 1524,
   "cohort_qualified": 246,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 132
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-20T19:30:49.731485+00:00",
+   "symbol": "FIENA",
+   "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $20813 < $25000",
+   "entry_price": 9.87e-05,
+   "mcap": 97420,
+   "liq": 20813.06,
+   "h1": 189,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-20T19:01:11.518522+00:00",
    "symbol": "DYSON",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T01:00:52.926150+00:00",
-   "symbol": "I",
-   "mint": "B9bVAePSKrgvediH1tRVfwcjVQSNRcR7djb1MQVGpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $4615 < $25000",
-   "entry_price": 6.233e-06,
-   "mcap": 6223,
-   "liq": 4614.82,
-   "h1": -79.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,14 +987,14 @@
   {
    "symbol": "OGTA",
    "tag": "WATCH",
-   "h1": 14.7,
-   "ts": "2026-11-20 19:00 UTC"
+   "h1": -8.8,
+   "ts": "2026-11-20 19:30 UTC"
   },
   {
    "symbol": "LOOSY",
-   "tag": "FADING",
-   "h1": -88.3,
-   "ts": "2026-11-20 19:00 UTC"
+   "tag": "WATCH",
+   "h1": 8.0,
+   "ts": "2026-11-20 19:30 UTC"
   },
   {
    "symbol": "iAgent",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "jingyu",
-   "tag": "FADING",
-   "h1": -30.4,
-   "ts": "2026-11-20 19:00 UTC"
+   "tag": "WATCH",
+   "h1": -10.0,
+   "ts": "2026-11-20 19:30 UTC"
   },
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -7.8,
-   "ts": "2026-11-20 19:00 UTC"
+   "h1": 3.2,
+   "ts": "2026-11-20 19:30 UTC"
   }
  ],
  "live_closes": [
