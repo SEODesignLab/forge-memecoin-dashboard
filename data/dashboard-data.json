@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T08:04:44.285170+00:00",
+ "generated": "2026-11-21T08:34:44.441701+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2623,
-  "cohort_wallets": 1586,
+  "cohort_runs": 2624,
+  "cohort_wallets": 1615,
   "cohort_qualified": 252,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 10
+   "count": 11
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-21T08:30:52.575647+00:00",
+   "symbol": "GTAVI",
+   "mint": "EZih8uh6nRK6PqBVQEVZkkJLsz6wU9G4W1BcrxWLpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.453e-05,
+   "mcap": 24534,
+   "liq": 9820.43,
+   "h1": -9.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-21T06:01:09.644383+00:00",
    "symbol": "SI",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T16:31:04.457804+00:00",
-   "symbol": "Mo\u0301m",
-   "mint": "BfNcetwXyxFJjsnmMboPpHqpZg19ez1ueQGPGE9upump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "Top holder 18.0% > 12% gate",
-   "entry_price": 3.479e-05,
-   "mcap": 34793,
-   "liq": 11882.33,
-   "h1": 26.37,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "COA",
     "LRS"
    ],
-   "last": "2026-11-21 08:00 UTC"
+   "last": "2026-11-21 08:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,20 +981,20 @@
   {
    "symbol": "BTC",
    "tag": "WATCH",
-   "h1": -7.7,
-   "ts": "2026-11-21 08:00 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-21 08:30 UTC"
   },
   {
    "symbol": "CoT",
    "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-11-21 08:00 UTC"
+   "h1": -1.4,
+   "ts": "2026-11-21 08:30 UTC"
   },
   {
    "symbol": "JENSEN",
-   "tag": "WATCH",
-   "h1": -9.3,
-   "ts": "2026-11-21 08:00 UTC"
+   "tag": "FADING",
+   "h1": -36.7,
+   "ts": "2026-11-21 08:30 UTC"
   },
   {
    "symbol": "LRS",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "PUNANI",
    "tag": "WATCH",
-   "h1": 0.4,
-   "ts": "2026-11-21 08:00 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-21 08:30 UTC"
   },
   {
    "symbol": "MAYA",
    "tag": "WATCH",
-   "h1": 5.0,
-   "ts": "2026-11-21 08:00 UTC"
+   "h1": -8.6,
+   "ts": "2026-11-21 08:30 UTC"
   }
  ],
  "live_closes": [
