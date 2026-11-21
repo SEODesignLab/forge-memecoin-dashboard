@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T19:34:47.932101+00:00",
+ "generated": "2026-11-21T20:04:48.114516+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2645,
-  "cohort_wallets": 1550,
+  "cohort_runs": 2646,
+  "cohort_wallets": 1570,
   "cohort_qualified": 253,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 138
+   "count": 137
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-21T20:00:58.648165+00:00",
+   "symbol": "ILY",
+   "mint": "51TUkCJcBPi5fj9gZgjnXh6Ny5RSiEbrxUBoikDLpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $14721 < $25000",
+   "entry_price": 4.963e-05,
+   "mcap": 47290,
+   "liq": 14720.87,
+   "h1": 136,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-21T20:00:58.643523+00:00",
+   "symbol": "TA",
+   "mint": "DKUM8qywmi8X9RYK2wUgnTw8QKjh1nYDThZR1GXPpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 14.0% > 12% gate",
+   "entry_price": 6.977e-05,
+   "mcap": 69710,
+   "liq": 18611.66,
+   "h1": 153,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-21T20:00:58.637755+00:00",
+   "symbol": "HOUSE",
+   "mint": "4Kfos2jUqUxwbDqNAJL16B4C99tdtaMSWZS5XmuSZr6Z",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 25.3% > 12% gate",
+   "entry_price": 0.0001323,
+   "mcap": 132378,
+   "liq": 69657,
+   "h1": 12.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-21T18:31:08.865408+00:00",
    "symbol": "PICCOLA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T20:30:48.621108+00:00",
-   "symbol": "Singularity",
-   "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Top holder 12.7% > 12% gate",
-   "entry_price": 9.456e-05,
-   "mcap": 94395,
-   "liq": 21011.71,
-   "h1": 226,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T20:00:58.277783+00:00",
-   "symbol": "GTA",
-   "mint": "3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump",
-   "score": 112,
-   "decision": "SKIP",
-   "reason": "Chase filter: +496% in 1h > 40% cap",
-   "entry_price": 0.000201,
-   "mcap": 200981,
-   "liq": 30030.33,
-   "h1": 496,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T19:30:49.731485+00:00",
-   "symbol": "FIENA",
-   "mint": "FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Liquidity $20813 < $25000",
-   "entry_price": 9.87e-05,
-   "mcap": 97420,
-   "liq": 20813.06,
-   "h1": 189,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "WASTED",
     "CBUCKS"
    ],
-   "last": "2026-11-21 17:30 UTC"
+   "last": "2026-11-21 20:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -981,8 +981,8 @@
   {
    "symbol": "JENSEN",
    "tag": "FADING",
-   "h1": -37.0,
-   "ts": "2026-11-21 19:30 UTC"
+   "h1": -34.9,
+   "ts": "2026-11-21 20:00 UTC"
   },
   {
    "symbol": "LRS",
@@ -992,15 +992,15 @@
   },
   {
    "symbol": "PUNANI",
-   "tag": "WATCH",
-   "h1": 122.0,
-   "ts": "2026-11-21 19:30 UTC"
+   "tag": "FADING",
+   "h1": -20.8,
+   "ts": "2026-11-21 20:00 UTC"
   },
   {
    "symbol": "MAYA",
-   "tag": "FADING",
-   "h1": -31.9,
-   "ts": "2026-11-21 19:30 UTC"
+   "tag": "WATCH",
+   "h1": 2.8,
+   "ts": "2026-11-21 20:00 UTC"
   },
   {
    "symbol": "RAMBO",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "SHIT",
    "tag": "WATCH",
-   "h1": 14.4,
-   "ts": "2026-11-21 19:30 UTC"
+   "h1": 3.0,
+   "ts": "2026-11-21 20:00 UTC"
   }
  ],
  "live_closes": [
