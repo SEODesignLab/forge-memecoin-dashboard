@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T01:04:42.111221+00:00",
+ "generated": "2026-11-21T01:34:42.235414+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2609,
-  "cohort_wallets": 1756,
+  "cohort_runs": 2610,
+  "cohort_wallets": 1781,
   "cohort_qualified": 248,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 131
+   "count": 130
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -57,6 +57,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 15.9% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 17.6% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,24 @@
   {
    "reason": "Top holder 19.2% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 19.3% > 12% gate",
-   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-21T01:30:55.881976+00:00",
+   "symbol": "S&P500",
+   "mint": "ACVkPjBRHWMZEKExATPQaw6PwMZ7ED4wobxomeWGpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 15.9% > 12% gate",
+   "entry_price": 4.507e-05,
+   "mcap": 45079,
+   "liq": 13840.63,
+   "h1": 58.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-21T00:30:54.284586+00:00",
    "symbol": "Mandy",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T04:30:42.211224+00:00",
-   "symbol": "ZOL",
-   "mint": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 21.3% > 12% gate",
-   "entry_price": 3.426e-05,
-   "mcap": 34197,
-   "liq": 11991.45,
-   "h1": 15.97,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -969,8 +969,8 @@
   {
    "symbol": "LOOSY",
    "tag": "WATCH",
-   "h1": -17.2,
-   "ts": "2026-11-21 01:00 UTC"
+   "h1": -4.0,
+   "ts": "2026-11-21 01:30 UTC"
   },
   {
    "symbol": "iAgent",
@@ -998,21 +998,21 @@
   },
   {
    "symbol": "BTC",
-   "tag": "WATCH",
-   "h1": -16.1,
-   "ts": "2026-11-21 01:00 UTC"
+   "tag": "FADING",
+   "h1": -65.0,
+   "ts": "2026-11-21 01:30 UTC"
   },
   {
    "symbol": "CoT",
    "tag": "WATCH",
-   "h1": -10.1,
-   "ts": "2026-11-21 01:00 UTC"
+   "h1": -5.4,
+   "ts": "2026-11-21 01:30 UTC"
   },
   {
    "symbol": "JENSEN",
-   "tag": "CHASE",
-   "h1": 1883.0,
-   "ts": "2026-11-21 01:00 UTC"
+   "tag": "WATCH",
+   "h1": -0.9,
+   "ts": "2026-11-21 01:30 UTC"
   }
  ],
  "live_closes": [
