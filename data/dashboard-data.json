@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T04:00:53.360701+00:00",
+ "generated": "2026-11-21T04:34:43.191680+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2615,
-  "cohort_wallets": 1893,
+  "cohort_runs": 2616,
+  "cohort_wallets": 1914,
   "cohort_qualified": 251,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,56 @@
    "count": 4
   },
   {
-   "reason": "RugCheck risk 55>45",
+   "reason": "Top holder 18.2% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-21T04:30:56.417872+00:00",
+   "symbol": "MUR",
+   "mint": "439nprrEUAawb4nmfnB8Y9AhpEKdRr5MpEfLse7R6HkJ",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 22.1% > 12% gate",
+   "entry_price": 2.55e-05,
+   "mcap": 25504,
+   "liq": 9674.43,
+   "h1": -2.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-21T04:30:56.413150+00:00",
+   "symbol": "BTC",
+   "mint": "8Vf84Hy21ZDU2t8S89JQVni5QaBXf21xEnv5yizXpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001323,
+   "mcap": 132248,
+   "liq": 25183.5,
+   "h1": 374,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-21T04:30:56.405886+00:00",
+   "symbol": "PENNY",
+   "mint": "C2nrwWDQ72yjtLiCCpJDBpzv1Se5eniAVqadTvAdpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Liquidity $24342 < $25000",
+   "entry_price": 0.0001211,
+   "mcap": 121137,
+   "liq": 24342.47,
+   "h1": 335,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-21T03:31:09.815903+00:00",
    "symbol": "FINGERS",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T11:01:08.713431+00:00",
-   "symbol": "AMC ",
-   "mint": "J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002866,
-   "mcap": 271087,
-   "liq": 48081.61,
-   "h1": 147,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T11:01:08.706431+00:00",
-   "symbol": "PASSTHEHAT",
-   "mint": "CdRvPpbLJdVCp9QZoVRB2dix6uf6XirarUe2sDmnpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.6% > 12% gate",
-   "entry_price": 3.615e-05,
-   "mcap": 36154,
-   "liq": 12436.29,
-   "h1": 17.95,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-20T10:30:55.156301+00:00",
-   "symbol": "RUDY",
-   "mint": "GjFvarRNRrq5tL6K2qdY7Xv2ZEbVrstqjW1BW4hMpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Liquidity $12761 < $25000",
-   "entry_price": 2.068e-05,
-   "mcap": 20681,
-   "liq": 12760.88,
-   "h1": -69.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "COA",
     "LRS"
    ],
-   "last": "2026-11-21 04:00 UTC"
+   "last": "2026-11-21 04:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -878,7 +878,7 @@
     "CoT",
     "LRS"
    ],
-   "last": "2026-11-21 04:00 UTC"
+   "last": "2026-11-21 04:30 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -993,26 +993,26 @@
   {
    "symbol": "BTC",
    "tag": "WATCH",
-   "h1": -1.3,
-   "ts": "2026-11-21 04:00 UTC"
+   "h1": -14.8,
+   "ts": "2026-11-21 04:30 UTC"
   },
   {
    "symbol": "CoT",
    "tag": "WATCH",
-   "h1": -2.2,
-   "ts": "2026-11-21 04:00 UTC"
+   "h1": -4.9,
+   "ts": "2026-11-21 04:30 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": -8.3,
-   "ts": "2026-11-21 04:00 UTC"
+   "h1": -19.5,
+   "ts": "2026-11-21 04:30 UTC"
   },
   {
    "symbol": "LRS",
    "tag": "WATCH",
-   "h1": -0.6,
-   "ts": "2026-11-21 04:00 UTC"
+   "h1": -2.3,
+   "ts": "2026-11-21 04:30 UTC"
   }
  ],
  "live_closes": [
