@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T14:04:53.886481+00:00",
+ "generated": "2026-11-22T14:34:54.017836+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2682,
-  "cohort_wallets": 1627,
+  "cohort_runs": 2683,
+  "cohort_wallets": 1639,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 129
+   "count": 128
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T14:31:20.361308+00:00",
+   "symbol": "AIBOSS",
+   "mint": "UqykpkcS7GHaJzw1pXfGy5t65KjS68tZtLeWpSHpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 57>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.324e-05,
+   "mcap": 22271,
+   "liq": 8117.92,
+   "h1": 5.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T14:01:09.366734+00:00",
    "symbol": "DUMB",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T21:31:23.524798+00:00",
-   "symbol": "BTC",
-   "mint": "2G5b75jm9HtJmAccjxpzdWGs5r7XXeMYLTANoEcvpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 22.0% > 12% gate",
-   "entry_price": 4.227e-05,
-   "mcap": 42235,
-   "liq": 16652.03,
-   "h1": -7.64,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -881,6 +881,21 @@
    "last": "2026-11-18 09:00 UTC"
   },
   {
+   "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
+   "hits": 27,
+   "symbols": [
+    "GATO",
+    "VIBED",
+    "COGE",
+    "Lucia",
+    "CHAR",
+    "SIM",
+    "LRS",
+    "Bigfoot"
+   ],
+   "last": "2026-11-22 14:30 UTC"
+  },
+  {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
    "hits": 26,
    "symbols": [
@@ -896,34 +911,19 @@
    "last": "2026-10-31 10:00 UTC"
   },
   {
-   "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
+   "wallet": "Aud2Dfp4x2Dxcbmb6vYiLhSGSrfUZMA4nky1XPtVZmNa",
    "hits": 26,
    "symbols": [
-    "Shitcoin",
     "GATO",
     "VIBED",
     "COGE",
     "Lucia",
     "CHAR",
     "SIM",
-    "LRS"
+    "LRS",
+    "Bigfoot"
    ],
-   "last": "2026-11-21 18:00 UTC"
-  },
-  {
-   "wallet": "Aud2Dfp4x2Dxcbmb6vYiLhSGSrfUZMA4nky1XPtVZmNa",
-   "hits": 25,
-   "symbols": [
-    "jjaemu",
-    "GATO",
-    "VIBED",
-    "COGE",
-    "Lucia",
-    "CHAR",
-    "SIM",
-    "LRS"
-   ],
-   "last": "2026-11-21 18:00 UTC"
+   "last": "2026-11-22 14:30 UTC"
   },
   {
    "wallet": "77H4ozFy3cZT54rsGLebyDB5nHfczakZdSEzF35aqMVX",
@@ -987,8 +987,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-11-22 14:00 UTC"
+   "h1": -1.9,
+   "ts": "2026-11-22 14:30 UTC"
   },
   {
    "symbol": "1",
@@ -999,8 +999,8 @@
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": 26.4,
-   "ts": "2026-11-22 14:00 UTC"
+   "h1": 51.1,
+   "ts": "2026-11-22 14:30 UTC"
   },
   {
    "symbol": "greg",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Bigfoot",
    "tag": "WATCH",
-   "h1": -5.3,
-   "ts": "2026-11-22 14:00 UTC"
+   "h1": -13.6,
+   "ts": "2026-11-22 14:30 UTC"
   }
  ],
  "live_closes": [
