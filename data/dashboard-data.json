@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T01:34:49.904467+00:00",
+ "generated": "2026-11-22T02:04:50.078141+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2657,
-  "cohort_wallets": 1776,
+  "cohort_runs": 2658,
+  "cohort_wallets": 1788,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T02:01:11.494908+00:00",
+   "symbol": "RIZZGIVING",
+   "mint": "BviBuSxeHUnckmt9AeYAgptnKeXqNCKrGQQUrMWdpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 24.8% > 12% gate",
+   "entry_price": 2.346e-05,
+   "mcap": 22165,
+   "liq": 9593.55,
+   "h1": 308,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T02:01:11.482031+00:00",
+   "symbol": "MANDY",
+   "mint": "3JqV4LuKVqzCpWsDAsBnTLg2mKik22hLeyyPyfW3pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Top holder 12.6% > 12% gate",
+   "entry_price": 0.0001255,
+   "mcap": 125553,
+   "liq": 24213.14,
+   "h1": 225,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T01:31:13.621899+00:00",
    "symbol": "GRAUDIA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T06:01:09.644383+00:00",
-   "symbol": "SI",
-   "mint": "2GiS8L6jzveE7cQ61bjGN6wVn5MS9FcBjarSAMFppump",
-   "score": 109,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003197,
-   "mcap": 319795,
-   "liq": 37706.38,
-   "h1": 1024,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T06:01:09.634061+00:00",
-   "symbol": "AI",
-   "mint": "6DkJawEZE7m1tnXi7WqdhoKrANfuMRPQwirXLyGKpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 19.0% > 12% gate",
-   "entry_price": 3.123e-05,
-   "mcap": 31173,
-   "liq": 11043.56,
-   "h1": 20.24,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 120,
+   "hits": 122,
    "symbols": [
-    "SIM",
-    "ANTS",
     "GATO",
     "WASTED",
     "CoT",
     "COA",
     "LRS",
-    "Bust"
+    "Bust",
+    "HOGE",
+    "1"
    ],
-   "last": "2026-11-22 01:00 UTC"
+   "last": "2026-11-22 02:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -792,18 +792,18 @@
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
-   "hits": 47,
+   "hits": 48,
    "symbols": [
-    "NINU",
     "WASTED",
     "JOB",
     "Lucia",
     "GLITCH",
     "THUG",
     "CBUCKS",
-    "Bust"
+    "Bust",
+    "GATO"
    ],
-   "last": "2026-11-22 00:30 UTC"
+   "last": "2026-11-22 02:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -945,8 +945,8 @@
   {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -11.6,
-   "ts": "2026-11-22 01:30 UTC"
+   "h1": -6.2,
+   "ts": "2026-11-22 02:00 UTC"
   },
   {
    "symbol": "RUDY",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "MAYA",
-   "tag": "FADING",
-   "h1": -61.6,
-   "ts": "2026-11-22 01:30 UTC"
+   "tag": "WATCH",
+   "h1": -15.9,
+   "ts": "2026-11-22 02:00 UTC"
   },
   {
    "symbol": "RAMBO",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "SHIT",
-   "tag": "WATCH",
-   "h1": 12.3,
-   "ts": "2026-11-22 01:30 UTC"
+   "tag": "FADING",
+   "h1": -56.2,
+   "ts": "2026-11-22 02:00 UTC"
   },
   {
    "symbol": "Bust",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "1",
    "tag": "WATCH",
-   "h1": -11.9,
-   "ts": "2026-11-22 01:30 UTC"
+   "h1": -9.3,
+   "ts": "2026-11-22 02:00 UTC"
   }
  ],
  "live_closes": [
