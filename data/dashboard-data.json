@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T19:04:55.694413+00:00",
+ "generated": "2026-11-22T19:34:55.842576+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2692,
-  "cohort_wallets": 1810,
+  "cohort_runs": 2693,
+  "cohort_wallets": 1827,
   "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,16 +37,8 @@
    "count": 6
   },
   {
-   "reason": "Top holder 20.0% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 18.1% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 15.9% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
@@ -69,11 +61,64 @@
    "count": 4
   },
   {
+   "reason": "Top holder 20.0% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 18.6% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 19.6% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T19:31:22.854630+00:00",
+   "symbol": "N\u0430e",
+   "mint": "EczUJ9Yc8VXRiC6LUMp2C4pMocmXywwqirfaxNDwpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $13023 < $25000",
+   "entry_price": 3.743e-05,
+   "mcap": 37350,
+   "liq": 13022.57,
+   "h1": 33.94,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T19:31:22.848939+00:00",
+   "symbol": "OpenIndex",
+   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004974,
+   "mcap": 475274,
+   "liq": 52737.41,
+   "h1": 93.85,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T19:31:22.841753+00:00",
+   "symbol": "earball",
+   "mint": "FryQiSLqU7NfPvpQJRiYrVuvRRW66uB4FLorrKmjpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 12.3% > 12% gate",
+   "entry_price": 9.421e-05,
+   "mcap": 89655,
+   "liq": 20941.95,
+   "h1": 118,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T19:01:19.554127+00:00",
    "symbol": "ALBA",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T01:31:13.621899+00:00",
-   "symbol": "GRAUDIA",
-   "mint": "B1oGtkaVAVZkdtWV7SXrHnFkcWC1Kd45sYpy6RYTpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $23287 < $25000",
-   "entry_price": 0.0001181,
-   "mcap": 116597,
-   "liq": 23287.11,
-   "h1": 278,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T01:01:09.159102+00:00",
-   "symbol": "Mei-chan",
-   "mint": "2Fm3qAJQ4s9Hcem4rLUsrfscFBYuMzpmmPbJiSADpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 20.0% > 12% gate",
-   "entry_price": 3.464e-05,
-   "mcap": 32953,
-   "liq": 12004.39,
-   "h1": 21.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T00:31:13.671099+00:00",
-   "symbol": "C@T",
-   "mint": "8R7rompcCDEZKGjRRybZt1UrDrZTdmSXqFjDtvSCpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $19055 < $25000",
-   "entry_price": 7.977e-05,
-   "mcap": 79760,
-   "liq": 19055.19,
-   "h1": 126,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,8 +975,8 @@
   {
    "symbol": "Bust",
    "tag": "FADING",
-   "h1": -21.4,
-   "ts": "2026-11-22 19:00 UTC"
+   "h1": -25.8,
+   "ts": "2026-11-22 19:30 UTC"
   },
   {
    "symbol": "1",
@@ -987,8 +987,8 @@
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": -6.3,
-   "ts": "2026-11-22 19:00 UTC"
+   "h1": -16.0,
+   "ts": "2026-11-22 19:30 UTC"
   },
   {
    "symbol": "greg",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Max",
    "tag": "WATCH",
-   "h1": -2.7,
-   "ts": "2026-11-22 19:00 UTC"
+   "h1": -4.1,
+   "ts": "2026-11-22 19:30 UTC"
   }
  ],
  "live_closes": [
