@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T15:34:54.342561+00:00",
+ "generated": "2026-11-22T16:04:54.527853+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2685,
-  "cohort_wallets": 1677,
+  "cohort_runs": 2686,
+  "cohort_wallets": 1698,
   "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
@@ -69,11 +69,56 @@
    "count": 4
   },
   {
-   "reason": "Top holder 16.4% > 12% gate",
+   "reason": "Top holder 19.6% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T16:01:23.855084+00:00",
+   "symbol": "GIF",
+   "mint": "B6wM98qkQKP71mhPA48S7No6TxM4KaXdFojDTZeUpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Liquidity $12979 < $25000",
+   "entry_price": 3.817e-05,
+   "mcap": 38137,
+   "liq": 12978.8,
+   "h1": 33.6,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T16:01:23.850335+00:00",
+   "symbol": "Jupiter",
+   "mint": "9WLkGszniwQjErPAYgwso71SbnJdz4p7HvEoWjNCpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 26.4% > 12% gate",
+   "entry_price": 1.981e-05,
+   "mcap": 18733,
+   "liq": 8671.13,
+   "h1": 8.73,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T16:01:23.844929+00:00",
+   "symbol": "MIKEDYSON",
+   "mint": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $21119 < $25000",
+   "entry_price": 5.51e-05,
+   "mcap": 55078,
+   "liq": 21118.58,
+   "h1": -8.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T15:31:16.497501+00:00",
    "symbol": "MengLan",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T22:01:17.869520+00:00",
-   "symbol": "VIRUS",
-   "mint": "HUpUhhHm3rh5kx47KE3h9MbHq6sHLNgaXGEf5e7Xpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 21.5% > 12% gate",
-   "entry_price": 2.773e-05,
-   "mcap": 27701,
-   "liq": 10671.05,
-   "h1": -9.78,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T21:31:23.539750+00:00",
-   "symbol": "\u0438\u043d\u0443",
-   "mint": "FHFJgWMcs7aXYCzr9dKvdjpXaQVEubYzagH5Gw18pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 14.7% > 12% gate",
-   "entry_price": 7.966e-05,
-   "mcap": 79521,
-   "liq": 20061.34,
-   "h1": 179,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T21:31:23.534987+00:00",
-   "symbol": "PUTIN",
-   "mint": "CRbJ2tHURNS13izU1ubitigQJsj82A3ZnHe31qyUpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 3.027e-05,
-   "mcap": 30236,
-   "liq": 11059.23,
-   "h1": 0.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 15:30 UTC"
+   "last": "2026-11-22 16:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "CoT",
-   "tag": "WATCH",
-   "h1": 72.8,
-   "ts": "2026-11-21 22:30 UTC"
-  },
-  {
    "symbol": "JENSEN",
    "tag": "FADING",
    "h1": -84.5,
@@ -987,8 +981,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-11-22 15:30 UTC"
+   "h1": -0.1,
+   "ts": "2026-11-22 16:00 UTC"
   },
   {
    "symbol": "1",
@@ -998,9 +992,9 @@
   },
   {
    "symbol": "PushCoin",
-   "tag": "FADING",
-   "h1": -34.5,
-   "ts": "2026-11-22 15:30 UTC"
+   "tag": "WATCH",
+   "h1": -12.3,
+   "ts": "2026-11-22 16:00 UTC"
   },
   {
    "symbol": "greg",
@@ -1010,9 +1004,15 @@
   },
   {
    "symbol": "Bigfoot",
+   "tag": "FADING",
+   "h1": -25.8,
+   "ts": "2026-11-22 16:00 UTC"
+  },
+  {
+   "symbol": "MIKEDYSON",
    "tag": "WATCH",
-   "h1": -14.3,
-   "ts": "2026-11-22 15:30 UTC"
+   "h1": -8.1,
+   "ts": "2026-11-22 16:00 UTC"
   }
  ],
  "live_closes": [
