@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:34:49.590800+00:00",
+ "generated": "2026-11-22T01:04:49.769105+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2655,
-  "cohort_wallets": 1749,
+  "cohort_runs": 2656,
+  "cohort_wallets": 1766,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -37,15 +37,15 @@
    "count": 6
   },
   {
+   "reason": "Top holder 20.0% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 16.4% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 15.9% > 12% gate",
-   "count": 4
-  },
-  {
-   "reason": "Top holder 20.0% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T01:01:09.159102+00:00",
+   "symbol": "Mei-chan",
+   "mint": "2Fm3qAJQ4s9Hcem4rLUsrfscFBYuMzpmmPbJiSADpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 20.0% > 12% gate",
+   "entry_price": 3.464e-05,
+   "mcap": 32953,
+   "liq": 12004.39,
+   "h1": 21.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T00:31:13.671099+00:00",
    "symbol": "C@T",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T05:30:58.912028+00:00",
-   "symbol": "tittcoin",
-   "mint": "7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001905,
-   "mcap": 190541,
-   "liq": 28994.69,
-   "h1": 532,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "LRS",
     "Bust"
    ],
-   "last": "2026-11-22 00:30 UTC"
+   "last": "2026-11-22 01:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -818,7 +818,7 @@
     "GATO",
     "COGE"
    ],
-   "last": "2026-11-21 17:00 UTC"
+   "last": "2026-11-22 01:00 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,16 +943,10 @@
  ],
  "mints": [
   {
-   "symbol": "jingyu",
-   "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-11-20 20:30 UTC"
-  },
-  {
    "symbol": "HOGE",
    "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-20 23:00 UTC"
+   "h1": -6.6,
+   "ts": "2026-11-22 01:00 UTC"
   },
   {
    "symbol": "RUDY",
@@ -993,8 +987,8 @@
   {
    "symbol": "MAYA",
    "tag": "FADING",
-   "h1": -21.4,
-   "ts": "2026-11-22 00:30 UTC"
+   "h1": -54.2,
+   "ts": "2026-11-22 01:00 UTC"
   },
   {
    "symbol": "RAMBO",
@@ -1004,15 +998,21 @@
   },
   {
    "symbol": "SHIT",
-   "tag": "FADING",
-   "h1": -47.8,
-   "ts": "2026-11-22 00:30 UTC"
+   "tag": "WATCH",
+   "h1": 56.1,
+   "ts": "2026-11-22 01:00 UTC"
   },
   {
    "symbol": "Bust",
    "tag": "WATCH",
    "h1": -6.7,
    "ts": "2026-11-22 00:30 UTC"
+  },
+  {
+   "symbol": "1",
+   "tag": "WATCH",
+   "h1": -0.2,
+   "ts": "2026-11-22 01:00 UTC"
   }
  ],
  "live_closes": [
