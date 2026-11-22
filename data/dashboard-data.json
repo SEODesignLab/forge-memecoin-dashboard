@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T20:34:56.179303+00:00",
+ "generated": "2026-11-22T21:04:56.366239+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2695,
-  "cohort_wallets": 1852,
+  "cohort_runs": 2696,
+  "cohort_wallets": 1863,
   "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 120
+   "count": 119
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T21:01:24.190517+00:00",
+   "symbol": "ASS",
+   "mint": "8U9611BhPXG8ubN77wkeN7Gs1ooAXQLy65KQDZr9pump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $15174 < $25000",
+   "entry_price": 3.404e-05,
+   "mcap": 34049,
+   "liq": 15174.43,
+   "h1": -24.05,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T20:31:16.056264+00:00",
    "symbol": "AMAZON",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T02:31:15.594622+00:00",
-   "symbol": "PushCoin",
-   "mint": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.001058,
-   "mcap": 1058554,
-   "liq": 72388.41,
-   "h1": 2906,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 18:30 UTC"
+   "last": "2026-11-22 21:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -975,8 +975,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -1.2,
-   "ts": "2026-11-22 20:30 UTC"
+   "h1": -1.5,
+   "ts": "2026-11-22 21:00 UTC"
   },
   {
    "symbol": "1",
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "PushCoin",
-   "tag": "WATCH",
-   "h1": -17.7,
-   "ts": "2026-11-22 20:30 UTC"
+   "tag": "FADING",
+   "h1": -35.7,
+   "ts": "2026-11-22 21:00 UTC"
   },
   {
    "symbol": "greg",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Max",
    "tag": "WATCH",
-   "h1": -8.3,
-   "ts": "2026-11-22 20:30 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-22 21:00 UTC"
   }
  ],
  "live_closes": [
