@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:04:56.664465+00:00",
+ "generated": "2026-11-22T22:34:56.791284+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2698,
-  "cohort_wallets": 1887,
+  "cohort_runs": 2699,
+  "cohort_wallets": 1893,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 118
+   "count": 119
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T22:31:33.362932+00:00",
+   "symbol": "BTC",
+   "mint": "fZz5uVNxjzJjUDRFho9efrQD2qcdYcsv4rWhuWbpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $24270 < $25000",
+   "entry_price": 0.0001286,
+   "mcap": 128592,
+   "liq": 24269.92,
+   "h1": 269,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T22:31:33.356429+00:00",
+   "symbol": "COPIUM",
+   "mint": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003917,
+   "mcap": 387758,
+   "liq": 43774.61,
+   "h1": 1092,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T22:01:30.011405+00:00",
    "symbol": "Heliogram",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T06:31:04.435532+00:00",
-   "symbol": "SANTA",
-   "mint": "tZsjFu2CH1R23wEpbfXAYGc2KUaVrUbwofCNNNqpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 16.5% > 12% gate",
-   "entry_price": 4.134e-05,
-   "mcap": 41344,
-   "liq": 13278.8,
-   "h1": 46.91,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T05:31:07.041344+00:00",
-   "symbol": "CORONA",
-   "mint": "6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 15.1% > 12% gate",
-   "entry_price": 4.306e-05,
-   "mcap": 43069,
-   "liq": 13368.85,
-   "h1": 51.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "COGE",
     "Bust"
    ],
-   "last": "2026-11-22 19:00 UTC"
+   "last": "2026-11-22 22:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "PUNANI",
-   "tag": "WATCH",
-   "h1": 2.5,
-   "ts": "2026-11-22 00:30 UTC"
-  },
-  {
    "symbol": "MAYA",
    "tag": "FADING",
    "h1": -55.5,
@@ -969,8 +963,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -1.4,
-   "ts": "2026-11-22 22:00 UTC"
+   "h1": -15.4,
+   "ts": "2026-11-22 22:30 UTC"
   },
   {
    "symbol": "1",
@@ -981,8 +975,8 @@
   {
    "symbol": "PushCoin",
    "tag": "FADING",
-   "h1": -81.7,
-   "ts": "2026-11-22 22:00 UTC"
+   "h1": -38.9,
+   "ts": "2026-11-22 22:30 UTC"
   },
   {
    "symbol": "greg",
@@ -1013,6 +1007,12 @@
    "tag": "CHASE",
    "h1": 183.0,
    "ts": "2026-11-22 22:00 UTC"
+  },
+  {
+   "symbol": "MINELIUS",
+   "tag": "CHASE",
+   "h1": 11600.0,
+   "ts": "2026-11-22 22:30 UTC"
   }
  ],
  "live_closes": [
