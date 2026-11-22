@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T16:04:54.527853+00:00",
+ "generated": "2026-11-22T16:34:54.670395+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2686,
-  "cohort_wallets": 1698,
+  "cohort_runs": 2687,
+  "cohort_wallets": 1716,
   "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 127
+   "count": 125
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -41,11 +41,19 @@
    "count": 5
   },
   {
+   "reason": "Top holder 18.1% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 15.9% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 14.6% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 17.7% > 12% gate",
    "count": 4
   },
   {
@@ -57,23 +65,45 @@
    "count": 4
   },
   {
-   "reason": "Top holder 18.1% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 19.2% > 12% gate",
    "count": 4
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 19.6% > 12% gate",
-   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T16:31:20.586141+00:00",
+   "symbol": "Tribe",
+   "mint": "AmkjLviyPepGRtrFEcuBQBm84W9F64bfcwZPHEhipump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 18.1% > 12% gate",
+   "entry_price": 3.823e-05,
+   "mcap": 38234,
+   "liq": 12645.87,
+   "h1": 22.22,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T16:31:20.576930+00:00",
+   "symbol": "poorcat",
+   "mint": "2w4jvePDKqNfzn8g358kGhoJn8vRhvQUYck4xLB1pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 17.7% > 12% gate",
+   "entry_price": 4.043e-05,
+   "mcap": 40363,
+   "liq": 13325.15,
+   "h1": 40.34,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T16:01:23.855084+00:00",
    "symbol": "GIF",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T22:01:17.881287+00:00",
-   "symbol": "T/opt",
-   "mint": "2eikdsdbe9BHXBXoG6o7scAA1amSQS5wtiG7HGH5pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 3.656e-05,
-   "mcap": 36564,
-   "liq": 12414.49,
-   "h1": 25.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T22:01:17.876912+00:00",
-   "symbol": "CHIHUAHUA",
-   "mint": "692gVUNkah3DBD1bKCwv9ZWU9mWpAm1hZUX74rYKpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 14.1% > 12% gate",
-   "entry_price": 5.435e-05,
-   "mcap": 54273,
-   "liq": 15413.84,
-   "h1": 80.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,22 +728,22 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 16:00 UTC"
+   "last": "2026-11-22 16:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
-   "hits": 111,
+   "hits": 112,
    "symbols": [
-    "GLITCH",
     "WASTED",
     "GATO",
     "SIM",
     "THUG",
     "RUDY",
     "CoT",
-    "CBUCKS"
+    "CBUCKS",
+    "MIKEDYSON"
    ],
-   "last": "2026-11-22 11:30 UTC"
+   "last": "2026-11-22 16:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -788,7 +788,7 @@
     "CBUCKS",
     "Bigfoot"
    ],
-   "last": "2026-11-22 13:30 UTC"
+   "last": "2026-11-22 16:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -803,7 +803,7 @@
     "GATO",
     "Bigfoot"
    ],
-   "last": "2026-11-22 15:00 UTC"
+   "last": "2026-11-22 16:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -981,8 +981,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -0.1,
-   "ts": "2026-11-22 16:00 UTC"
+   "h1": -12.6,
+   "ts": "2026-11-22 16:30 UTC"
   },
   {
    "symbol": "1",
@@ -993,8 +993,8 @@
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": -12.3,
-   "ts": "2026-11-22 16:00 UTC"
+   "h1": 6.3,
+   "ts": "2026-11-22 16:30 UTC"
   },
   {
    "symbol": "greg",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "Bigfoot",
-   "tag": "FADING",
-   "h1": -25.8,
-   "ts": "2026-11-22 16:00 UTC"
+   "tag": "WATCH",
+   "h1": 1.4,
+   "ts": "2026-11-22 16:30 UTC"
   },
   {
    "symbol": "MIKEDYSON",
-   "tag": "WATCH",
-   "h1": -8.1,
-   "ts": "2026-11-22 16:00 UTC"
+   "tag": "FADING",
+   "h1": -34.0,
+   "ts": "2026-11-22 16:30 UTC"
   }
  ],
  "live_closes": [
