@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T06:34:51.476941+00:00",
+ "generated": "2026-11-22T07:04:51.666800+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2667,
-  "cohort_wallets": 1917,
+  "cohort_runs": 2668,
+  "cohort_wallets": 1928,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 132
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T07:01:21.242672+00:00",
+   "symbol": "snowball",
+   "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Chase filter: +101% in 1h > 40% cap",
+   "entry_price": 0.0002008,
+   "mcap": 191985,
+   "liq": 32420.66,
+   "h1": 101,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T06:31:04.435532+00:00",
    "symbol": "SANTA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T15:31:08.494439+00:00",
-   "symbol": "Emily",
-   "mint": "EK2tRRD5jqNUxohdMjbjnJ5Q3t9TYGBkZVjtMceDpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 16.3% > 12% gate",
-   "entry_price": 5.737e-05,
-   "mcap": 55308,
-   "liq": 17316.86,
-   "h1": -31.45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 06:30 UTC"
+   "last": "2026-11-22 07:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -999,20 +999,20 @@
   {
    "symbol": "1",
    "tag": "WATCH",
-   "h1": 2.1,
-   "ts": "2026-11-22 06:30 UTC"
+   "h1": 3.3,
+   "ts": "2026-11-22 07:00 UTC"
   },
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": 12.3,
-   "ts": "2026-11-22 06:30 UTC"
+   "h1": 4.2,
+   "ts": "2026-11-22 07:00 UTC"
   },
   {
    "symbol": "greg",
    "tag": "WATCH",
-   "h1": -13.2,
-   "ts": "2026-11-22 06:30 UTC"
+   "h1": -4.6,
+   "ts": "2026-11-22 07:00 UTC"
   }
  ],
  "live_closes": [
