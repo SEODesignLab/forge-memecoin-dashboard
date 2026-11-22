@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T06:04:51.362027+00:00",
+ "generated": "2026-11-22T06:34:51.476941+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2666,
-  "cohort_wallets": 1899,
+  "cohort_runs": 2667,
+  "cohort_wallets": 1917,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 134
+   "count": 133
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T06:31:04.435532+00:00",
+   "symbol": "SANTA",
+   "mint": "tZsjFu2CH1R23wEpbfXAYGc2KUaVrUbwofCNNNqpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 16.5% > 12% gate",
+   "entry_price": 4.134e-05,
+   "mcap": 41344,
+   "liq": 13278.8,
+   "h1": 46.91,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T05:31:07.041344+00:00",
    "symbol": "CORONA",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T14:01:10.398433+00:00",
-   "symbol": "Bigfoot",
-   "mint": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 13.2% > 12% gate",
-   "entry_price": 7.808e-05,
-   "mcap": 77938,
-   "liq": 19972.06,
-   "h1": 169,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 06:00 UTC"
+   "last": "2026-11-22 06:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -788,7 +788,7 @@
     "WASTED",
     "CBUCKS"
    ],
-   "last": "2026-11-21 20:30 UTC"
+   "last": "2026-11-22 06:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "RUDY",
-   "tag": "WATCH",
-   "h1": -9.9,
-   "ts": "2026-11-20 21:00 UTC"
-  },
-  {
    "symbol": "BTC",
    "tag": "WATCH",
    "h1": -3.3,
@@ -992,9 +986,9 @@
   },
   {
    "symbol": "SHIT",
-   "tag": "FADING",
-   "h1": -56.9,
-   "ts": "2026-11-22 06:00 UTC"
+   "tag": "WATCH",
+   "h1": 3.4,
+   "ts": "2026-11-22 06:30 UTC"
   },
   {
    "symbol": "Bust",
@@ -1005,14 +999,20 @@
   {
    "symbol": "1",
    "tag": "WATCH",
-   "h1": -2.5,
-   "ts": "2026-11-22 06:00 UTC"
+   "h1": 2.1,
+   "ts": "2026-11-22 06:30 UTC"
   },
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": 3.5,
-   "ts": "2026-11-22 06:00 UTC"
+   "h1": 12.3,
+   "ts": "2026-11-22 06:30 UTC"
+  },
+  {
+   "symbol": "greg",
+   "tag": "WATCH",
+   "h1": -13.2,
+   "ts": "2026-11-22 06:30 UTC"
   }
  ],
  "live_closes": [
