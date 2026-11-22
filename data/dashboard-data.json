@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T16:34:54.670395+00:00",
+ "generated": "2026-11-22T17:04:54.850811+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2687,
-  "cohort_wallets": 1716,
+  "cohort_runs": 2688,
+  "cohort_wallets": 1733,
   "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 125
+   "count": 124
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T17:01:10.885374+00:00",
+   "symbol": "FOAM",
+   "mint": "2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Liquidity $21069 < $25000",
+   "entry_price": 8.98e-05,
+   "mcap": 89721,
+   "liq": 21068.57,
+   "h1": 206,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T17:01:10.878891+00:00",
+   "symbol": "OMGAI",
+   "mint": "AHDP4wVa73GQYSP6AhrC2f5eE5CfkpCyyzwLg5WQpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 32.5% > 12% gate",
+   "entry_price": 1.362e-05,
+   "mcap": 13598,
+   "liq": 7016.74,
+   "h1": -52,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T16:31:20.586141+00:00",
    "symbol": "Tribe",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T23:31:19.058513+00:00",
-   "symbol": "Vodkat",
-   "mint": "FxUMvvYHW6r41wtbbm4V52Hnu7cyyFfqhSXuwmuypump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 21.8% > 12% gate",
-   "entry_price": 3.203e-05,
-   "mcap": 30516,
-   "liq": 11504.51,
-   "h1": 67.54,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T23:01:19.948262+00:00",
-   "symbol": "Frog",
-   "mint": "4bu4wb9FyggLW4MA9tFHyCPw9E5XK7RCPZHuhddApump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $13396 < $25000",
-   "entry_price": 4.252e-05,
-   "mcap": 42521,
-   "liq": 13396.09,
-   "h1": 46.28,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 16:30 UTC"
+   "last": "2026-11-22 17:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,8 +981,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": -12.6,
-   "ts": "2026-11-22 16:30 UTC"
+   "h1": -14.7,
+   "ts": "2026-11-22 17:00 UTC"
   },
   {
    "symbol": "1",
@@ -993,8 +993,8 @@
   {
    "symbol": "PushCoin",
    "tag": "WATCH",
-   "h1": 6.3,
-   "ts": "2026-11-22 16:30 UTC"
+   "h1": 7.0,
+   "ts": "2026-11-22 17:00 UTC"
   },
   {
    "symbol": "greg",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "Bigfoot",
    "tag": "WATCH",
-   "h1": 1.4,
-   "ts": "2026-11-22 16:30 UTC"
+   "h1": -8.0,
+   "ts": "2026-11-22 17:00 UTC"
   },
   {
    "symbol": "MIKEDYSON",
