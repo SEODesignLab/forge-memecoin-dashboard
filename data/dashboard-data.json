@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T15:04:54.190803+00:00",
+ "generated": "2026-11-22T15:34:54.342561+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2684,
-  "cohort_wallets": 1654,
-  "cohort_qualified": 254,
+  "cohort_runs": 2685,
+  "cohort_wallets": 1677,
+  "cohort_qualified": 255,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 128
+   "count": 127
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T15:31:16.497501+00:00",
+   "symbol": "MengLan",
+   "mint": "37dRkSVpirqLLh2m8jdx2JXBFcNqFi7pdBgqDodppump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "Liquidity $13405 < $25000",
+   "entry_price": 3.956e-05,
+   "mcap": 39565,
+   "liq": 13405.38,
+   "h1": 27.03,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T14:31:20.361308+00:00",
    "symbol": "AIBOSS",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T21:31:23.530146+00:00",
-   "symbol": "valor",
-   "mint": "EoZL4GXLyCyoyh9AwVMqPQSuXh6K1xEwTWp9E8yQpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 14.6% > 12% gate",
-   "entry_price": 6.88e-05,
-   "mcap": 68691,
-   "liq": 17506.09,
-   "h1": 135,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-22 15:00 UTC"
+   "last": "2026-11-22 15:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -987,8 +987,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": 0.9,
-   "ts": "2026-11-22 15:00 UTC"
+   "h1": -5.2,
+   "ts": "2026-11-22 15:30 UTC"
   },
   {
    "symbol": "1",
@@ -998,9 +998,9 @@
   },
   {
    "symbol": "PushCoin",
-   "tag": "WATCH",
-   "h1": 20.2,
-   "ts": "2026-11-22 15:00 UTC"
+   "tag": "FADING",
+   "h1": -34.5,
+   "ts": "2026-11-22 15:30 UTC"
   },
   {
    "symbol": "greg",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Bigfoot",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-22 15:00 UTC"
+   "h1": -14.3,
+   "ts": "2026-11-22 15:30 UTC"
   }
  ],
  "live_closes": [
