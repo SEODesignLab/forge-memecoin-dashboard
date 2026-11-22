@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T09:04:52.314813+00:00",
+ "generated": "2026-11-22T09:34:52.434585+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2672,
-  "cohort_wallets": 1976,
+  "cohort_runs": 2673,
+  "cohort_wallets": 1987,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T09:31:02.463995+00:00",
+   "symbol": "GTA6",
+   "mint": "3am9ckbMBjCUxZT3W6TQK6SEETaKtBALadm1nBEZpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $15994 < $25000",
+   "entry_price": 6.013e-05,
+   "mcap": 60081,
+   "liq": 15993.68,
+   "h1": 97.81,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T09:31:02.458879+00:00",
+   "symbol": "MooSom",
+   "mint": "BKSP127UTT12VbipELqWMpLRw744Q36oyhirxC9Wpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 17.7% > 12% gate",
+   "entry_price": 4.798e-05,
+   "mcap": 47910,
+   "liq": 15430.07,
+   "h1": 50.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T09:01:20.074603+00:00",
    "symbol": "GIFTER",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T21:01:19.329239+00:00",
-   "symbol": "CI",
-   "mint": "9CzH43caG7FLeWyc4jS9Mzbp3FmjxnDV15zspW4Cpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Top holder 12.7% > 12% gate",
-   "entry_price": 7.62e-05,
-   "mcap": 76172,
-   "liq": 18306.29,
-   "h1": 118,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T20:00:58.648165+00:00",
-   "symbol": "ILY",
-   "mint": "51TUkCJcBPi5fj9gZgjnXh6Ny5RSiEbrxUBoikDLpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $14721 < $25000",
-   "entry_price": 4.963e-05,
-   "mcap": 47290,
-   "liq": 14720.87,
-   "h1": 136,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "PushCoin",
-   "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-22 09:00 UTC"
+   "tag": "FADING",
+   "h1": -31.6,
+   "ts": "2026-11-22 09:30 UTC"
   },
   {
    "symbol": "greg",
    "tag": "WATCH",
-   "h1": -7.6,
-   "ts": "2026-11-22 09:00 UTC"
+   "h1": -5.2,
+   "ts": "2026-11-22 09:30 UTC"
   }
  ],
  "live_closes": [
