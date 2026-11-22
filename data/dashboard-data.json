@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T21:34:56.498832+00:00",
+ "generated": "2026-11-22T22:04:56.664465+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2697,
-  "cohort_wallets": 1877,
+  "cohort_runs": 2698,
+  "cohort_wallets": 1887,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 119
+   "count": 118
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -69,11 +69,56 @@
    "count": 4
   },
   {
-   "reason": "Top holder 12.1% > 12% gate",
-   "count": 3
+   "reason": "Top holder 12.6% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T22:01:30.011405+00:00",
+   "symbol": "Heliogram",
+   "mint": "HELio3Xy1xAJhbMA9fWZMpeNDjoeiM5LrmCJrrrxZ5zM",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Liquidity $11291 < $25000",
+   "entry_price": 3.159e-05,
+   "mcap": 31598,
+   "liq": 11290.56,
+   "h1": 11.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T22:01:30.006142+00:00",
+   "symbol": "Wojak",
+   "mint": "5eiLc9r79PkJquiFvYWdXJYtGNRjTpzot8MR7Z4Ppump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 12.6% > 12% gate",
+   "entry_price": 9.06e-05,
+   "mcap": 90603,
+   "liq": 22432.89,
+   "h1": 218,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T22:01:29.997450+00:00",
+   "symbol": "FSDV15",
+   "mint": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0005227,
+   "mcap": 522704,
+   "liq": 50420.38,
+   "h1": 1250,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T21:01:24.190517+00:00",
    "symbol": "ASS",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T04:01:07.230618+00:00",
-   "symbol": "GTL",
-   "mint": "DTvEhHnxwochMvWwx3zmwUySJhvD9omQrWWhzM7cQ4fy",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 74.8% > 12% gate",
-   "entry_price": 8.884e-05,
-   "mcap": 88848,
-   "liq": 20828.71,
-   "h1": 210,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T03:01:05.680372+00:00",
-   "symbol": "MASCOIN",
-   "mint": "9GQhJ7t7Gy8DyeMVxjJZuTsHvmoZro5sVDxzNxsFpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $13807 < $25000",
-   "entry_price": 4.386e-05,
-   "mcap": 43868,
-   "liq": 13807.46,
-   "h1": 51.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T02:31:15.605221+00:00",
-   "symbol": "CATEMAS",
-   "mint": "kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001274,
-   "mcap": 127312,
-   "liq": 31907.73,
-   "h1": 169,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "GATO",
     "Bigfoot"
    ],
-   "last": "2026-11-22 20:30 UTC"
+   "last": "2026-11-22 22:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "LRS",
-   "tag": "WATCH",
-   "h1": -3.4,
-   "ts": "2026-11-21 05:00 UTC"
-  },
-  {
    "symbol": "PUNANI",
    "tag": "WATCH",
    "h1": 2.5,
@@ -975,8 +969,8 @@
   {
    "symbol": "Bust",
    "tag": "WATCH",
-   "h1": 8.7,
-   "ts": "2026-11-22 21:30 UTC"
+   "h1": -1.4,
+   "ts": "2026-11-22 22:00 UTC"
   },
   {
    "symbol": "1",
@@ -988,7 +982,7 @@
    "symbol": "PushCoin",
    "tag": "FADING",
    "h1": -81.7,
-   "ts": "2026-11-22 21:30 UTC"
+   "ts": "2026-11-22 22:00 UTC"
   },
   {
    "symbol": "greg",
@@ -1013,6 +1007,12 @@
    "tag": "WATCH",
    "h1": -5.4,
    "ts": "2026-11-22 21:30 UTC"
+  },
+  {
+   "symbol": "Wojak",
+   "tag": "CHASE",
+   "h1": 183.0,
+   "ts": "2026-11-22 22:00 UTC"
   }
  ],
  "live_closes": [
