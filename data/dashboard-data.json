@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T02:04:50.078141+00:00",
+ "generated": "2026-11-22T02:34:50.202392+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2658,
-  "cohort_wallets": 1788,
+  "cohort_runs": 2659,
+  "cohort_wallets": 1805,
   "cohort_qualified": 254,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 133
+   "count": 134
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-22T02:31:15.605221+00:00",
+   "symbol": "CATEMAS",
+   "mint": "kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001274,
+   "mcap": 127312,
+   "liq": 31907.73,
+   "h1": 169,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T02:31:15.594622+00:00",
+   "symbol": "PushCoin",
+   "mint": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.001058,
+   "mcap": 1058554,
+   "liq": 72388.41,
+   "h1": 2906,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-22T02:31:15.586210+00:00",
+   "symbol": "SANTA",
+   "mint": "48tDqrzNnEg3No94vUXvpCG24CQCgAjFV9Vf3bZwpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $10419 < $25000",
+   "entry_price": 2.723e-05,
+   "mcap": 27195,
+   "liq": 10418.76,
+   "h1": -5.06,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-22T02:01:11.494908+00:00",
    "symbol": "RIZZGIVING",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T11:00:56.178398+00:00",
-   "symbol": "TIMOTHY",
-   "mint": "YUJaNkMKnFwCM1WFQf4d1YGFpSkQDwQ3PDYWMnDpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Liquidity $17033 < $25000",
-   "entry_price": 6.583e-05,
-   "mcap": 65766,
-   "liq": 17033.11,
-   "h1": 133,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T09:01:00.913934+00:00",
-   "symbol": "\u30ea\u30aa\u30f3",
-   "mint": "Gqz7b4NvCm7co4gmSd1H2VgVzTGYBvGyTFU7z4ddpump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 19.8% > 12% gate",
-   "entry_price": 3.485e-05,
-   "mcap": 34817,
-   "liq": 11733.56,
-   "h1": 25.7,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-21T08:30:52.575647+00:00",
-   "symbol": "GTAVI",
-   "mint": "EZih8uh6nRK6PqBVQEVZkkJLsz6wU9G4W1BcrxWLpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 2.453e-05,
-   "mcap": 24534,
-   "liq": 9820.43,
-   "h1": -9.81,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -818,7 +818,7 @@
     "GATO",
     "COGE"
    ],
-   "last": "2026-11-22 01:30 UTC"
+   "last": "2026-11-22 02:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "HOGE",
-   "tag": "WATCH",
-   "h1": -6.2,
-   "ts": "2026-11-22 02:00 UTC"
-  },
-  {
    "symbol": "RUDY",
    "tag": "WATCH",
    "h1": -9.9,
@@ -986,9 +980,9 @@
   },
   {
    "symbol": "MAYA",
-   "tag": "WATCH",
-   "h1": -15.9,
-   "ts": "2026-11-22 02:00 UTC"
+   "tag": "FADING",
+   "h1": -55.5,
+   "ts": "2026-11-22 02:30 UTC"
   },
   {
    "symbol": "RAMBO",
@@ -999,8 +993,8 @@
   {
    "symbol": "SHIT",
    "tag": "FADING",
-   "h1": -56.2,
-   "ts": "2026-11-22 02:00 UTC"
+   "h1": -35.3,
+   "ts": "2026-11-22 02:30 UTC"
   },
   {
    "symbol": "Bust",
@@ -1013,6 +1007,12 @@
    "tag": "WATCH",
    "h1": -9.3,
    "ts": "2026-11-22 02:00 UTC"
+  },
+  {
+   "symbol": "PushCoin",
+   "tag": "CHASE",
+   "h1": 2906.0,
+   "ts": "2026-11-22 02:30 UTC"
   }
  ],
  "live_closes": [
