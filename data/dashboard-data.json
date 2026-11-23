@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T19:34:03.558056+00:00",
+ "generated": "2026-11-23T20:04:03.745717+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2741,
-  "cohort_wallets": 1965,
+  "cohort_runs": 2742,
+  "cohort_wallets": 1987,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 113
+   "count": 115
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 9
+   "count": 8
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -61,19 +61,64 @@
    "count": 4
   },
   {
-   "reason": "Top holder 17.6% > 12% gate",
-   "count": 3
-  },
-  {
    "reason": "Top holder 16.8% > 12% gate",
    "count": 3
   },
   {
    "reason": "Top holder 15.9% > 12% gate",
    "count": 3
+  },
+  {
+   "reason": "Top holder 22.6% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T20:00:23.072196+00:00",
+   "symbol": "\u6765\u6839\u534e\u5b50",
+   "mint": "3bGDshaXBnjo1GCpWoyLGQpLzpAZzvEZcooFdTuTpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0002063,
+   "mcap": 206116,
+   "liq": 31763.22,
+   "h1": 591,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T20:00:23.063972+00:00",
+   "symbol": "wif",
+   "mint": "6aTVKDY558PA4LoDyzprFrkKc3SiNjNtzKaD6FFipump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $4681 < $25000",
+   "entry_price": 6.903e-06,
+   "mcap": 6893,
+   "liq": 4681,
+   "h1": -77.03,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T20:00:23.058954+00:00",
+   "symbol": "BTC",
+   "mint": "ToDWKzWCNCECx3ukahtwUXVqFbHyKRNag7RJrDbpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001585,
+   "mcap": 156945,
+   "liq": 27558.86,
+   "h1": 336,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T19:30:22.951961+00:00",
    "symbol": "X",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T06:01:25.831902+00:00",
-   "symbol": "PumpMeme",
-   "mint": "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",
-   "score": 106,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0009663,
-   "mcap": 963724,
-   "liq": 69971.35,
-   "h1": 2589,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T05:01:16.720826+00:00",
-   "symbol": "panel",
-   "mint": "CE2Zuoxqmbz3enq5LBWbpcL5Nc7rzt8YUqK2zuMwpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 19.7% > 12% gate",
-   "entry_price": 3.675e-05,
-   "mcap": 36719,
-   "liq": 12415.6,
-   "h1": 23.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T04:31:19.988714+00:00",
-   "symbol": "TAIL",
-   "mint": "FzoAgxLPmeS7LajnoAQ1uPPu4vZ7t8VXWJr73AGNpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $10999 < $25000",
-   "entry_price": 2.899e-05,
-   "mcap": 28959,
-   "liq": 10998.81,
-   "h1": -2.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -968,9 +968,9 @@
   },
   {
    "symbol": "MINELIUS",
-   "tag": "FADING",
-   "h1": -84.6,
-   "ts": "2026-11-23 19:30 UTC"
+   "tag": "WATCH",
+   "h1": -13.7,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "FSDV15",
@@ -981,38 +981,38 @@
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-23 19:30 UTC"
+   "h1": -14.5,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-11-23 19:30 UTC"
+   "h1": 0.2,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "PumpMeme",
    "tag": "FADING",
-   "h1": -45.4,
-   "ts": "2026-11-23 19:30 UTC"
+   "h1": -37.8,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "FIONA",
    "tag": "CHASE",
-   "h1": 1413733.0,
-   "ts": "2026-11-23 19:00 UTC"
+   "h1": 1087010.0,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": 11.1,
-   "ts": "2026-11-23 19:30 UTC"
+   "h1": 44.1,
+   "ts": "2026-11-23 20:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-11-23 19:30 UTC"
+   "h1": -13.8,
+   "ts": "2026-11-23 20:00 UTC"
   }
  ],
  "live_closes": [
