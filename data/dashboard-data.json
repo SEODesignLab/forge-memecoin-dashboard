@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T20:04:03.745717+00:00",
+ "generated": "2026-11-23T20:34:03.874798+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2742,
-  "cohort_wallets": 1987,
+  "cohort_runs": 2743,
+  "cohort_wallets": 1500,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 115
+   "count": 113
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T20:30:23.012800+00:00",
+   "symbol": "DI",
+   "mint": "7QNijApaMvNSdgAqEf5Ni1H3DSYiLXvDQfaQrwzPpump",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 19.9% > 12% gate",
+   "entry_price": 3.516e-05,
+   "mcap": 35118,
+   "liq": 12264.5,
+   "h1": 15.92,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T20:30:23.007665+00:00",
+   "symbol": "NIVI",
+   "mint": "GejbZVwcf9yAKeUzBcJYzDUuZN3WRtdV5aTW5BZzpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $23322 < $25000",
+   "entry_price": 0.0001144,
+   "mcap": 114397,
+   "liq": 23321.53,
+   "h1": 184,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T20:00:23.072196+00:00",
    "symbol": "\u6765\u6839\u534e\u5b50",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T06:31:10.177836+00:00",
-   "symbol": "Milo",
-   "mint": "Cz1bmoA8PW2p8iS5ugxYzhAM1QQg6bRyNp6CmrKui2hL",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 15.5% > 12% gate",
-   "entry_price": 7.109e-05,
-   "mcap": 70993,
-   "liq": 18814.03,
-   "h1": 144,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T06:01:25.837079+00:00",
-   "symbol": "MCAT",
-   "mint": "J6LNWxpHuhZpUpNkShWLw7VYBQdFxqCkLn8yimvApump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Liquidity $12277 < $25000",
-   "entry_price": 3.619e-05,
-   "mcap": 36147,
-   "liq": 12276.56,
-   "h1": 11.32,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -968,9 +968,9 @@
   },
   {
    "symbol": "MINELIUS",
-   "tag": "WATCH",
-   "h1": -13.7,
-   "ts": "2026-11-23 20:00 UTC"
+   "tag": "FADING",
+   "h1": -23.2,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "FSDV15",
@@ -981,38 +981,38 @@
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -14.5,
-   "ts": "2026-11-23 20:00 UTC"
+   "h1": -4.9,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-11-23 20:00 UTC"
+   "h1": -12.0,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "PumpMeme",
-   "tag": "FADING",
-   "h1": -37.8,
-   "ts": "2026-11-23 20:00 UTC"
+   "tag": "WATCH",
+   "h1": 10.4,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "FIONA",
-   "tag": "CHASE",
-   "h1": 1087010.0,
-   "ts": "2026-11-23 20:00 UTC"
+   "tag": "WATCH",
+   "h1": 18.9,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "SCINU",
-   "tag": "WATCH",
-   "h1": 44.1,
-   "ts": "2026-11-23 20:00 UTC"
+   "tag": "FADING",
+   "h1": -24.8,
+   "ts": "2026-11-23 20:30 UTC"
   },
   {
    "symbol": "JENSEN",
-   "tag": "WATCH",
-   "h1": -13.8,
-   "ts": "2026-11-23 20:00 UTC"
+   "tag": "FADING",
+   "h1": -24.1,
+   "ts": "2026-11-23 20:30 UTC"
   }
  ],
  "live_closes": [
