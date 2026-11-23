@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T03:34:58.399176+00:00",
+ "generated": "2026-11-23T04:04:58.591715+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2709,
-  "cohort_wallets": 1605,
+  "cohort_runs": 2710,
+  "cohort_wallets": 1631,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T04:01:14.722663+00:00",
+   "symbol": "BOLTRAY",
+   "mint": "jAqpXQ8Zy3yDWGC3ccMstLUrbuuExeFq7zyv3aepump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 59>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.111e-05,
+   "mcap": 31075,
+   "liq": 11354.26,
+   "h1": 5.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T03:31:14.314984+00:00",
    "symbol": "PEACH",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T16:01:23.844929+00:00",
-   "symbol": "MIKEDYSON",
-   "mint": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $21119 < $25000",
-   "entry_price": 5.51e-05,
-   "mcap": 55078,
-   "liq": 21118.58,
-   "h1": -8.07,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -992,27 +992,27 @@
   },
   {
    "symbol": "MINELIUS",
-   "tag": "WATCH",
-   "h1": -14.7,
-   "ts": "2026-11-23 03:30 UTC"
+   "tag": "FADING",
+   "h1": -23.5,
+   "ts": "2026-11-23 04:00 UTC"
   },
   {
    "symbol": "FSDV15",
    "tag": "WATCH",
-   "h1": 12.2,
-   "ts": "2026-11-23 03:30 UTC"
+   "h1": 16.1,
+   "ts": "2026-11-23 04:00 UTC"
   },
   {
    "symbol": "COPIUM",
-   "tag": "FADING",
-   "h1": -22.1,
-   "ts": "2026-11-23 03:30 UTC"
+   "tag": "WATCH",
+   "h1": -10.4,
+   "ts": "2026-11-23 04:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": -5.8,
-   "ts": "2026-11-23 03:30 UTC"
+   "h1": 9.8,
+   "ts": "2026-11-23 04:00 UTC"
   }
  ],
  "live_closes": [
