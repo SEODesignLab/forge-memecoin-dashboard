@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T15:04:02.106953+00:00",
+ "generated": "2026-11-23T15:34:02.217171+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2732,
-  "cohort_wallets": 1723,
+  "cohort_runs": 2733,
+  "cohort_wallets": 1752,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 111
+   "count": 110
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T15:30:26.251370+00:00",
+   "symbol": "JENSENG",
+   "mint": "GQfkSHHYUTs8xnRCtwoyvXmVXghY6sBaS8NSqVdepump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 67>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 9.06e-05,
+   "mcap": 90605,
+   "liq": 24388.68,
+   "h1": 184,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T15:30:26.246447+00:00",
+   "symbol": "JENSEN",
+   "mint": "6oM2khHX4JJsnzBHBkQibewrbdcgQoEx1kFjEjJ9pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 53>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 5.001e-05,
+   "mcap": 49974,
+   "liq": 15124.29,
+   "h1": 57.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T15:00:14.152924+00:00",
    "symbol": "SLEAZESEN",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T22:31:33.362932+00:00",
-   "symbol": "BTC",
-   "mint": "fZz5uVNxjzJjUDRFho9efrQD2qcdYcsv4rWhuWbpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Liquidity $24270 < $25000",
-   "entry_price": 0.0001286,
-   "mcap": 128592,
-   "liq": 24269.92,
-   "h1": 269,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T22:31:33.356429+00:00",
-   "symbol": "COPIUM",
-   "mint": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003917,
-   "mcap": 387758,
-   "liq": 43774.61,
-   "h1": 1092,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 123,
+   "hits": 124,
    "symbols": [
-    "WASTED",
     "CoT",
     "COA",
     "LRS",
     "Bust",
     "HOGE",
     "1",
-    "JOB"
+    "JOB",
+    "GATO"
    ],
-   "last": "2026-11-23 15:00 UTC"
+   "last": "2026-11-23 15:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -773,7 +773,7 @@
     "CBUCKS",
     "BLOB"
    ],
-   "last": "2026-11-23 10:30 UTC"
+   "last": "2026-11-23 15:30 UTC"
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
@@ -803,7 +803,7 @@
     "Bigfoot",
     "WASTED"
    ],
-   "last": "2026-11-23 14:30 UTC"
+   "last": "2026-11-23 15:30 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "1",
-   "tag": "WATCH",
-   "h1": 3.3,
-   "ts": "2026-11-22 07:00 UTC"
-  },
-  {
    "symbol": "PushCoin",
    "tag": "WATCH",
    "h1": -14.1,
@@ -987,32 +981,38 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": 12.2,
-   "ts": "2026-11-23 15:00 UTC"
+   "h1": -11.5,
+   "ts": "2026-11-23 15:30 UTC"
   },
   {
    "symbol": "FSDV15",
-   "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-11-23 15:00 UTC"
+   "tag": "FADING",
+   "h1": -21.2,
+   "ts": "2026-11-23 15:30 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -4.5,
-   "ts": "2026-11-23 15:00 UTC"
+   "h1": 14.2,
+   "ts": "2026-11-23 15:30 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 31.8,
-   "ts": "2026-11-23 15:00 UTC"
+   "h1": 57.7,
+   "ts": "2026-11-23 15:30 UTC"
   },
   {
    "symbol": "PumpMeme",
    "tag": "WATCH",
-   "h1": 28.9,
-   "ts": "2026-11-23 15:00 UTC"
+   "h1": 10.3,
+   "ts": "2026-11-23 15:30 UTC"
+  },
+  {
+   "symbol": "MM",
+   "tag": "CHASE",
+   "h1": 938327.0,
+   "ts": "2026-11-23 15:30 UTC"
   }
  ],
  "live_closes": [
