@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T03:04:58.283914+00:00",
+ "generated": "2026-11-23T03:34:58.399176+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2708,
-  "cohort_wallets": 1579,
+  "cohort_runs": 2709,
+  "cohort_wallets": 1605,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T03:31:14.314984+00:00",
+   "symbol": "PEACH",
+   "mint": "61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0007544,
+   "mcap": 751740,
+   "liq": 61506.02,
+   "h1": 2053,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T03:31:14.307552+00:00",
+   "symbol": "hCAT",
+   "mint": "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $22053 < $25000",
+   "entry_price": 9.797e-05,
+   "mcap": 97980,
+   "liq": 22052.62,
+   "h1": 228,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T03:01:28.266638+00:00",
    "symbol": "CON",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T15:31:16.497501+00:00",
-   "symbol": "MengLan",
-   "mint": "37dRkSVpirqLLh2m8jdx2JXBFcNqFi7pdBgqDodppump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Liquidity $13405 < $25000",
-   "entry_price": 3.956e-05,
-   "mcap": 39565,
-   "liq": 13405.38,
-   "h1": 27.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T14:31:20.361308+00:00",
-   "symbol": "AIBOSS",
-   "mint": "UqykpkcS7GHaJzw1pXfGy5t65KjS68tZtLeWpSHpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 57>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 2.324e-05,
-   "mcap": 22271,
-   "liq": 8117.92,
-   "h1": 5.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-23 01:00 UTC"
+   "last": "2026-11-23 03:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -818,7 +818,7 @@
     "COGE",
     "Bust"
    ],
-   "last": "2026-11-22 22:30 UTC"
+   "last": "2026-11-23 03:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -993,26 +993,26 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": 4.7,
-   "ts": "2026-11-23 03:00 UTC"
+   "h1": -14.7,
+   "ts": "2026-11-23 03:30 UTC"
   },
   {
    "symbol": "FSDV15",
    "tag": "WATCH",
-   "h1": -18.4,
-   "ts": "2026-11-23 03:00 UTC"
+   "h1": 12.2,
+   "ts": "2026-11-23 03:30 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "FADING",
-   "h1": -37.3,
-   "ts": "2026-11-23 03:00 UTC"
+   "h1": -22.1,
+   "ts": "2026-11-23 03:30 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": -7.1,
-   "ts": "2026-11-23 03:00 UTC"
+   "h1": -5.8,
+   "ts": "2026-11-23 03:30 UTC"
   }
  ],
  "live_closes": [
