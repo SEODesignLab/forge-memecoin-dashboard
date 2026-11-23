@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T17:04:02.752279+00:00",
+ "generated": "2026-11-23T17:34:02.915678+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2736,
-  "cohort_wallets": 1840,
+  "cohort_runs": 2737,
+  "cohort_wallets": 1866,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 112
+   "count": 113
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 16.3% > 12% gate",
    "count": 5
-  },
-  {
-   "reason": "Top holder 17.6% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 19.2% > 12% gate",
@@ -69,11 +65,60 @@
    "count": 3
   },
   {
+   "reason": "Top holder 17.6% > 12% gate",
+   "count": 3
+  },
+  {
    "reason": "Top holder 16.8% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T17:30:20.817844+00:00",
+   "symbol": "Laser",
+   "mint": "9mS2wDV3y2mEQ85xDzFwZ3Hw8smiKwuJxyY2NL5Hpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $18478 < $25000",
+   "entry_price": 7.121e-05,
+   "mcap": 71091,
+   "liq": 18478.09,
+   "h1": 129,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T17:30:20.813344+00:00",
+   "symbol": "JACKET",
+   "mint": "C3g5gYECbttn2HmkyxhS2c3iqkhELkEDDNBTAhDCpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001264,
+   "mcap": 126418,
+   "liq": 25221.04,
+   "h1": 310,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T17:30:20.805053+00:00",
+   "symbol": "OFFSHORE",
+   "mint": "DMTxhDS1isv7fVrYZvoJpG5stEpHqfYTFAhHAYHVpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Liquidity $8380 < $25000",
+   "entry_price": 1.753e-05,
+   "mcap": 17476,
+   "liq": 8379.65,
+   "h1": -49.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T17:00:25.562396+00:00",
    "symbol": "Jensen",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T01:01:30.242464+00:00",
-   "symbol": "cCAT",
-   "mint": "63aEoSt7oGthFR5koz1572CAL9dd7NYGp7sWeQyjpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $23708 < $25000",
-   "entry_price": 0.0001107,
-   "mcap": 110672,
-   "liq": 23708.37,
-   "h1": 273,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T01:01:30.234512+00:00",
-   "symbol": "ALONE",
-   "mint": "8m7sCVngbi5TfKARfhAHU6B71yfEMNPDWteECGmJpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 76>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.607e-05,
-   "mcap": 16051,
-   "liq": 7764.77,
-   "h1": -48.52,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T00:01:35.688266+00:00",
-   "symbol": "ZOL",
-   "mint": "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Liquidity $19643 < $25000",
-   "entry_price": 8.595e-05,
-   "mcap": 85955,
-   "liq": 19643.37,
-   "h1": 146,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "JOB",
     "GATO"
    ],
-   "last": "2026-11-23 17:00 UTC"
+   "last": "2026-11-23 17:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -980,39 +980,39 @@
   },
   {
    "symbol": "MINELIUS",
-   "tag": "WATCH",
-   "h1": 7.0,
-   "ts": "2026-11-23 17:00 UTC"
+   "tag": "FADING",
+   "h1": -35.1,
+   "ts": "2026-11-23 17:30 UTC"
   },
   {
    "symbol": "FSDV15",
    "tag": "FADING",
-   "h1": -26.3,
-   "ts": "2026-11-23 17:00 UTC"
+   "h1": -21.2,
+   "ts": "2026-11-23 17:30 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -1.5,
-   "ts": "2026-11-23 17:00 UTC"
+   "h1": 11.7,
+   "ts": "2026-11-23 17:30 UTC"
   },
   {
    "symbol": "UCASH",
-   "tag": "FADING",
-   "h1": -23.3,
-   "ts": "2026-11-23 17:00 UTC"
+   "tag": "WATCH",
+   "h1": -7.8,
+   "ts": "2026-11-23 17:30 UTC"
   },
   {
    "symbol": "PumpMeme",
-   "tag": "FADING",
-   "h1": -29.1,
-   "ts": "2026-11-23 17:00 UTC"
+   "tag": "WATCH",
+   "h1": -5.0,
+   "ts": "2026-11-23 17:30 UTC"
   },
   {
    "symbol": "MM",
-   "tag": "WATCH",
-   "h1": 0.0,
-   "ts": "2026-11-23 17:00 UTC"
+   "tag": "FADING",
+   "h1": -38.1,
+   "ts": "2026-11-23 17:30 UTC"
   }
  ],
  "live_closes": [
