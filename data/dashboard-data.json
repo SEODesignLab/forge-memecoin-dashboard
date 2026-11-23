@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T10:34:00.654891+00:00",
+ "generated": "2026-11-23T11:04:00.842233+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2723,
-  "cohort_wallets": 1989,
+  "cohort_runs": 2724,
+  "cohort_wallets": 1500,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 113
+   "count": 112
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -57,6 +57,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 19.4% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 18.6% > 12% gate",
    "count": 4
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 15.1% > 12% gate",
    "count": 3
-  },
-  {
-   "reason": "Top holder 18.8% > 12% gate",
-   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T11:00:20.687246+00:00",
+   "symbol": "Claude AI",
+   "mint": "ReXuqkcjozgcmeVD84FkbactNky85bJkqKTAtyLpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 19.4% > 12% gate",
+   "entry_price": 3.219e-05,
+   "mcap": 32193,
+   "liq": 11538.62,
+   "h1": 6.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T11:00:20.675490+00:00",
+   "symbol": "BOBCAT",
+   "mint": "6GJQL9SciHTqVoRV9Rj3aAQePL4D8ngX64m2hMDnpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 18.2% > 12% gate",
+   "entry_price": 4.299e-05,
+   "mcap": 42994,
+   "liq": 14066.5,
+   "h1": 46.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T10:30:16.319586+00:00",
    "symbol": "shrex",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T19:31:22.854630+00:00",
-   "symbol": "N\u0430e",
-   "mint": "EczUJ9Yc8VXRiC6LUMp2C4pMocmXywwqirfaxNDwpump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Liquidity $13023 < $25000",
-   "entry_price": 3.743e-05,
-   "mcap": 37350,
-   "liq": 13022.57,
-   "h1": 33.94,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T19:31:22.848939+00:00",
-   "symbol": "OpenIndex",
-   "mint": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0004974,
-   "mcap": 475274,
-   "liq": 52737.41,
-   "h1": 93.85,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": -7.9,
-   "ts": "2026-11-23 10:30 UTC"
+   "h1": -19.1,
+   "ts": "2026-11-23 11:00 UTC"
   },
   {
    "symbol": "FSDV15",
-   "tag": "WATCH",
-   "h1": -18.3,
-   "ts": "2026-11-23 10:30 UTC"
+   "tag": "FADING",
+   "h1": -55.1,
+   "ts": "2026-11-23 11:00 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": 26.8,
-   "ts": "2026-11-23 10:30 UTC"
+   "h1": 7.0,
+   "ts": "2026-11-23 11:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 54.6,
-   "ts": "2026-11-23 10:30 UTC"
+   "h1": 24.4,
+   "ts": "2026-11-23 11:00 UTC"
   },
   {
    "symbol": "PumpMeme",
    "tag": "WATCH",
-   "h1": 28.6,
-   "ts": "2026-11-23 10:30 UTC"
+   "h1": -8.5,
+   "ts": "2026-11-23 11:00 UTC"
   }
  ],
  "live_closes": [
