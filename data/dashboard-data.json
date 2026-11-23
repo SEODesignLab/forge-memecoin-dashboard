@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-23T22:34:04.515618+00:00",
+ "generated": "2026-11-23T23:04:04.713490+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
-  "paper_skips": 498,
-  "paper_buys": 2,
+  "paper_skips": 497,
+  "paper_buys": 3,
   "paper_settled": 2,
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2747,
-  "cohort_wallets": 1585,
+  "cohort_runs": 2748,
+  "cohort_wallets": 1612,
   "cohort_qualified": 258,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 7
+   "count": 6
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -61,19 +61,64 @@
    "count": 4
   },
   {
-   "reason": "Top holder 15.9% > 12% gate",
-   "count": 3
-  },
-  {
    "reason": "Top holder 22.6% > 12% gate",
    "count": 3
   },
   {
    "reason": "Top holder 14.0% > 12% gate",
    "count": 3
+  },
+  {
+   "reason": "Top holder 14.1% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T23:00:31.094545+00:00",
+   "symbol": "TOLY",
+   "mint": "36WDRDA24YkLJ153HEJxDKeXHeaaMKMv5RDjb35Lpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 21.0% > 12% gate",
+   "entry_price": 3.549e-05,
+   "mcap": 35493,
+   "liq": 12240.46,
+   "h1": 20.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T23:00:31.088181+00:00",
+   "symbol": "JENSEN",
+   "mint": "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump",
+   "score": 93,
+   "decision": "PAPER_BUY",
+   "reason": "OK study:holder8%full,unlockedLP\u00d70.85,band85-99",
+   "entry_price": 0.0001852,
+   "mcap": 181830,
+   "liq": 29784.11,
+   "h1": 17.74,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T23:00:31.074108+00:00",
+   "symbol": "THANKS",
+   "mint": "BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 15.3% > 12% gate",
+   "entry_price": 6.391e-05,
+   "mcap": 63918,
+   "liq": 17391.92,
+   "h1": 106,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T22:30:23.112487+00:00",
    "symbol": "Bertcoin",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T15:00:14.142066+00:00",
-   "symbol": "BONER",
-   "mint": "13naDSyHxXexw6s35wcwiQJLgt6dHNNW5Lho9Ko9pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002539,
-   "mcap": 253946,
-   "liq": 37133.94,
-   "h1": 407,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T14:30:21.516333+00:00",
-   "symbol": "BONER",
-   "mint": "Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 8.549e-05,
-   "mcap": 85497,
-   "liq": 26449.62,
-   "h1": 44.03,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T13:30:37.193532+00:00",
-   "symbol": "AGI",
-   "mint": "7kctwFbSdLfpi6RuN9cjpVpYVHKPUr8PtG1meH35AEky",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Liquidity $18377 < $25000",
-   "entry_price": 5.069e-05,
-   "mcap": 50664,
-   "liq": 18377.03,
-   "h1": 12.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "JOB",
     "GATO"
    ],
-   "last": "2026-11-23 19:30 UTC"
+   "last": "2026-11-23 23:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -975,44 +975,44 @@
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": 13.1,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 119.0,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": 18.3,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "PumpMeme",
-   "tag": "WATCH",
-   "h1": -8.4,
-   "ts": "2026-11-23 22:30 UTC"
+   "tag": "FADING",
+   "h1": -58.5,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "FIONA",
    "tag": "WATCH",
-   "h1": -4.3,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": -2.7,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": 7.3,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": 117.0,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 11.9,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": -8.8,
+   "ts": "2026-11-23 23:00 UTC"
   },
   {
    "symbol": "HUSS",
    "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-11-23 22:30 UTC"
+   "h1": -10.3,
+   "ts": "2026-11-23 23:00 UTC"
   }
  ],
  "live_closes": [
