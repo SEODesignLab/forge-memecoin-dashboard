@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T04:04:58.591715+00:00",
+ "generated": "2026-11-23T04:34:58.730910+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2710,
-  "cohort_wallets": 1631,
+  "cohort_runs": 2711,
+  "cohort_wallets": 1657,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T04:31:19.988714+00:00",
+   "symbol": "TAIL",
+   "mint": "FzoAgxLPmeS7LajnoAQ1uPPu4vZ7t8VXWJr73AGNpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $10999 < $25000",
+   "entry_price": 2.899e-05,
+   "mcap": 28959,
+   "liq": 10998.81,
+   "h1": -2.46,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T04:01:14.722663+00:00",
    "symbol": "BOLTRAY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T16:01:23.850335+00:00",
-   "symbol": "Jupiter",
-   "mint": "9WLkGszniwQjErPAYgwso71SbnJdz4p7HvEoWjNCpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 26.4% > 12% gate",
-   "entry_price": 1.981e-05,
-   "mcap": 18733,
-   "liq": 8671.13,
-   "h1": 8.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "HOGE",
     "1"
    ],
-   "last": "2026-11-23 03:30 UTC"
+   "last": "2026-11-23 04:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -837,18 +837,18 @@
   },
   {
    "wallet": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
-   "hits": 33,
+   "hits": 34,
    "symbols": [
-    "Shitcoin",
     "LuckyCoin",
     "CHAR",
     "Lucia",
     "DIGS",
     "THUG",
     "WASTED",
-    "HOGE"
+    "HOGE",
+    "GATO"
    ],
-   "last": "2026-11-22 03:30 UTC"
+   "last": "2026-11-23 04:30 UTC"
   },
   {
    "wallet": "CdeT4gc7dT5JVpVszWioFbugqS2E5SbmbZHDWiRjyvam",
@@ -992,27 +992,27 @@
   },
   {
    "symbol": "MINELIUS",
-   "tag": "FADING",
-   "h1": -23.5,
-   "ts": "2026-11-23 04:00 UTC"
+   "tag": "WATCH",
+   "h1": 31.9,
+   "ts": "2026-11-23 04:30 UTC"
   },
   {
    "symbol": "FSDV15",
-   "tag": "WATCH",
-   "h1": 16.1,
-   "ts": "2026-11-23 04:00 UTC"
+   "tag": "FADING",
+   "h1": -30.6,
+   "ts": "2026-11-23 04:30 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -10.4,
-   "ts": "2026-11-23 04:00 UTC"
+   "h1": -4.3,
+   "ts": "2026-11-23 04:30 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 9.8,
-   "ts": "2026-11-23 04:00 UTC"
+   "h1": 0.7,
+   "ts": "2026-11-23 04:30 UTC"
   }
  ],
  "live_closes": [
