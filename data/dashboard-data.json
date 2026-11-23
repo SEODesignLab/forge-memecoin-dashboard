@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T05:34:59.071454+00:00",
+ "generated": "2026-11-23T06:04:59.254031+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2713,
-  "cohort_wallets": 1701,
+  "cohort_runs": 2714,
+  "cohort_wallets": 1726,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 114
+   "count": 115
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T06:01:25.837079+00:00",
+   "symbol": "MCAT",
+   "mint": "J6LNWxpHuhZpUpNkShWLw7VYBQdFxqCkLn8yimvApump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $12277 < $25000",
+   "entry_price": 3.619e-05,
+   "mcap": 36147,
+   "liq": 12276.56,
+   "h1": 11.32,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-23T06:01:25.831902+00:00",
+   "symbol": "PumpMeme",
+   "mint": "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",
+   "score": 106,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0009663,
+   "mcap": 963724,
+   "liq": 69971.35,
+   "h1": 2589,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T05:01:16.720826+00:00",
    "symbol": "panel",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T16:31:20.586141+00:00",
-   "symbol": "Tribe",
-   "mint": "AmkjLviyPepGRtrFEcuBQBm84W9F64bfcwZPHEhipump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 18.1% > 12% gate",
-   "entry_price": 3.823e-05,
-   "mcap": 38234,
-   "liq": 12645.87,
-   "h1": 22.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T16:31:20.576930+00:00",
-   "symbol": "poorcat",
-   "mint": "2w4jvePDKqNfzn8g358kGhoJn8vRhvQUYck4xLB1pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 17.7% > 12% gate",
-   "entry_price": 4.043e-05,
-   "mcap": 40363,
-   "liq": 13325.15,
-   "h1": 40.34,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "Bust",
-   "tag": "WATCH",
-   "h1": 20.6,
-   "ts": "2026-11-23 00:30 UTC"
-  },
-  {
    "symbol": "1",
    "tag": "WATCH",
    "h1": 3.3,
@@ -993,26 +987,32 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": -7.9,
-   "ts": "2026-11-23 05:30 UTC"
+   "h1": -3.6,
+   "ts": "2026-11-23 06:00 UTC"
   },
   {
    "symbol": "FSDV15",
    "tag": "WATCH",
-   "h1": 34.7,
-   "ts": "2026-11-23 05:30 UTC"
+   "h1": 19.7,
+   "ts": "2026-11-23 06:00 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -5.3,
-   "ts": "2026-11-23 05:30 UTC"
+   "h1": 21.9,
+   "ts": "2026-11-23 06:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 5.2,
-   "ts": "2026-11-23 05:30 UTC"
+   "h1": -18.5,
+   "ts": "2026-11-23 06:00 UTC"
+  },
+  {
+   "symbol": "PumpMeme",
+   "tag": "CHASE",
+   "h1": 2770.0,
+   "ts": "2026-11-23 06:00 UTC"
   }
  ],
  "live_closes": [
