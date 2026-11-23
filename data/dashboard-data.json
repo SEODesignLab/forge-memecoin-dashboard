@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T01:34:57.758387+00:00",
+ "generated": "2026-11-23T02:04:57.934311+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2705,
-  "cohort_wallets": 1500,
+  "cohort_runs": 2706,
+  "cohort_wallets": 1524,
   "cohort_qualified": 256,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 116
+   "count": 115
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T02:01:31.637586+00:00",
+   "symbol": "HYPE",
+   "mint": "771W62Ztos55kXCDFZsuNjdWfayqAG1nHjVGvgq7pump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 73>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.483e-05,
+   "mcap": 44794,
+   "liq": 13673.19,
+   "h1": 45.21,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T01:31:24.051843+00:00",
    "symbol": "cCAT",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T09:31:02.458879+00:00",
-   "symbol": "MooSom",
-   "mint": "BKSP127UTT12VbipELqWMpLRw744Q36oyhirxC9Wpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 17.7% > 12% gate",
-   "entry_price": 4.798e-05,
-   "mcap": 47910,
-   "liq": 15430.07,
-   "h1": 50.87,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,20 +999,20 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": 5.6,
-   "ts": "2026-11-23 01:30 UTC"
+   "h1": 11.0,
+   "ts": "2026-11-23 02:00 UTC"
   },
   {
    "symbol": "FSDV15",
    "tag": "WATCH",
-   "h1": -18.7,
-   "ts": "2026-11-23 01:30 UTC"
+   "h1": 14.4,
+   "ts": "2026-11-23 02:00 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -11.2,
-   "ts": "2026-11-23 01:30 UTC"
+   "h1": 40.6,
+   "ts": "2026-11-23 02:00 UTC"
   }
  ],
  "live_closes": [
