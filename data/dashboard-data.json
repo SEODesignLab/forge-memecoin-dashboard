@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T11:34:00.943430+00:00",
+ "generated": "2026-11-23T12:04:01.127572+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2725,
-  "cohort_wallets": 1528,
+  "cohort_runs": 2726,
+  "cohort_wallets": 1556,
   "cohort_qualified": 257,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 112
+   "count": 111
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-23T12:00:15.474023+00:00",
+   "symbol": "RNV",
+   "mint": "A2nbXtQvvRMvWtifCkV8cYepwcC4M7iA1jVMwAh6pump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 18.0% > 12% gate",
+   "entry_price": 4.61e-05,
+   "mcap": 46106,
+   "liq": 14796.96,
+   "h1": 50.27,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T11:30:22.920197+00:00",
    "symbol": "PRV",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-22T20:01:32.543522+00:00",
-   "symbol": "Rockstar",
-   "mint": "BQikzk8whXEwxoNGd53hq6b9UgwJUXc1fXdSbqcWpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.3% > 12% gate",
-   "entry_price": 3.285e-05,
-   "mcap": 32815,
-   "liq": 11505.94,
-   "h1": 6.26,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,32 +987,32 @@
   {
    "symbol": "MINELIUS",
    "tag": "WATCH",
-   "h1": -14.1,
-   "ts": "2026-11-23 11:30 UTC"
+   "h1": 26.6,
+   "ts": "2026-11-23 12:00 UTC"
   },
   {
    "symbol": "FSDV15",
-   "tag": "FADING",
-   "h1": -29.6,
-   "ts": "2026-11-23 11:30 UTC"
+   "tag": "WATCH",
+   "h1": 8.8,
+   "ts": "2026-11-23 12:00 UTC"
   },
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": -7.1,
-   "ts": "2026-11-23 11:30 UTC"
+   "h1": 18.4,
+   "ts": "2026-11-23 12:00 UTC"
   },
   {
    "symbol": "UCASH",
-   "tag": "WATCH",
-   "h1": -15.6,
-   "ts": "2026-11-23 11:30 UTC"
+   "tag": "FADING",
+   "h1": -26.5,
+   "ts": "2026-11-23 12:00 UTC"
   },
   {
    "symbol": "PumpMeme",
    "tag": "WATCH",
-   "h1": 6.0,
-   "ts": "2026-11-23 11:30 UTC"
+   "h1": 37.8,
+   "ts": "2026-11-23 12:00 UTC"
   }
  ],
  "live_closes": [
