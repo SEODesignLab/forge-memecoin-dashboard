@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-23T23:34:04.835591+00:00",
+ "generated": "2026-11-24T00:04:05.096288+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
   "paper_skips": 497,
   "paper_buys": 3,
-  "paper_settled": 2,
-  "paper_wins": 1,
-  "paper_win_rate": 0.5,
+  "paper_settled": 3,
+  "paper_wins": 2,
+  "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2749,
-  "cohort_wallets": 1632,
+  "cohort_runs": 2750,
+  "cohort_wallets": 1652,
   "cohort_qualified": 258,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 112
+   "count": 114
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -61,19 +61,79 @@
    "count": 4
   },
   {
-   "reason": "Top holder 22.6% > 12% gate",
-   "count": 3
-  },
-  {
    "reason": "Top holder 25.3% > 12% gate",
    "count": 3
   },
   {
    "reason": "Top holder 14.0% > 12% gate",
    "count": 3
+  },
+  {
+   "reason": "Top holder 14.1% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T00:00:29.739826+00:00",
+   "symbol": "JENPE",
+   "mint": "2kXxWxKJRNScZEL8vN2UKjbtpMArkXvEMbRgDnq4pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001631,
+   "mcap": 161679,
+   "liq": 27895.61,
+   "h1": 395,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T00:00:29.732357+00:00",
+   "symbol": "VRAM",
+   "mint": "7ZR7Le1QgSD2enqRVRW1n5Ds3czDbURqC97oJyqrc3v4",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Top holder 20.3% > 12% gate",
+   "entry_price": 3.098e-05,
+   "mcap": 30986,
+   "liq": 12889.54,
+   "h1": 2.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T00:00:29.726768+00:00",
+   "symbol": "TIMOTHY",
+   "mint": "AWg6LmGPfqjEqAU8N8wR8mYTbwmkwqMUqzrmggbgpump",
+   "score": 114,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 9.193e-05,
+   "mcap": 91937,
+   "liq": 20699.09,
+   "h1": 94.82,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T00:00:29.721262+00:00",
+   "symbol": "Tribe",
+   "mint": "3uiodaXi8dg7CBaNHeRTUqhX46k2BCFuYq9iabD4pump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0004659,
+   "mcap": 465895,
+   "liq": 48024.6,
+   "h1": 1078,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-23T23:30:26.866402+00:00",
    "symbol": "Donbei&Otsuyu",
@@ -145,9 +205,10 @@
    "mcap": 181830,
    "liq": 29784.11,
    "h1": 17.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
+   "settled": true,
+   "exit_price": 0.0002261,
+   "pnl_pct": 0.2208,
+   "settled_ts": "2026-11-24T00:04:04.993811+00:00"
   },
   {
    "ts": "2026-11-23T23:00:31.074108+00:00",
@@ -613,66 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T17:00:25.562396+00:00",
-   "symbol": "Jensen",
-   "mint": "8TXkY6SAaEa3vbnFR9y4G9f8AicepaVoTnZX6ZFMpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 12.4% > 12% gate",
-   "entry_price": 0.0001594,
-   "mcap": 159403,
-   "liq": 29140.67,
-   "h1": 233,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T17:00:25.557697+00:00",
-   "symbol": "JENSENG",
-   "mint": "6nFGenw2dVBsFZb5prjkTqTiczWjbGC5JaWLaK2tpump",
-   "score": 114,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003856,
-   "mcap": 385589,
-   "liq": 44346.88,
-   "h1": 845,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T17:00:25.550457+00:00",
-   "symbol": "NVDA",
-   "mint": "37corVSMFFrqP3WK7AtMV6yFTGSvjFEB5fWnH1Bcpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001736,
-   "mcap": 173660,
-   "liq": 28982.2,
-   "h1": 367,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T15:30:26.251370+00:00",
-   "symbol": "JENSENG",
-   "mint": "GQfkSHHYUTs8xnRCtwoyvXmVXghY6sBaS8NSqVdepump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 67>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 9.06e-05,
-   "mcap": 90605,
-   "liq": 24388.68,
-   "h1": 184,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -975,14 +976,14 @@
   {
    "symbol": "COPIUM",
    "tag": "WATCH",
-   "h1": 6.1,
-   "ts": "2026-11-23 23:30 UTC"
+   "h1": -8.0,
+   "ts": "2026-11-24 00:00 UTC"
   },
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": -4.2,
-   "ts": "2026-11-23 23:30 UTC"
+   "h1": -13.1,
+   "ts": "2026-11-24 00:00 UTC"
   },
   {
    "symbol": "PumpMeme",
@@ -993,8 +994,8 @@
   {
    "symbol": "FIONA",
    "tag": "WATCH",
-   "h1": 17.8,
-   "ts": "2026-11-23 23:30 UTC"
+   "h1": 73.7,
+   "ts": "2026-11-24 00:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -1005,14 +1006,14 @@
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": -19.7,
-   "ts": "2026-11-23 23:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-24 00:00 UTC"
   },
   {
    "symbol": "HUSS",
    "tag": "WATCH",
-   "h1": -15.7,
-   "ts": "2026-11-23 23:30 UTC"
+   "h1": -4.8,
+   "ts": "2026-11-24 00:00 UTC"
   }
  ],
  "live_closes": [
