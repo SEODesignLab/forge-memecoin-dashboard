@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T13:34:09.300141+00:00",
+ "generated": "2026-11-24T14:04:09.463375+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2777,
-  "cohort_wallets": 1537,
+  "cohort_runs": 2778,
+  "cohort_wallets": 1552,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T14:00:26.416757+00:00",
+   "symbol": "Memeployed",
+   "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+   "score": 114,
+   "decision": "SKIP",
+   "reason": "Liquidity $24733 < $25000",
+   "entry_price": 8.72e-05,
+   "mcap": 87095,
+   "liq": 24732.69,
+   "h1": 89.61,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T14:00:26.411440+00:00",
+   "symbol": "GPUBREAK",
+   "mint": "BykEjfKeLzSAen7p41nCHFwenuQ5s4fosPRzJudLpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 13.9% > 12% gate",
+   "entry_price": 8.392e-05,
+   "mcap": 83927,
+   "liq": 22598.95,
+   "h1": 189,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T13:30:23.942836+00:00",
    "symbol": "WOLF",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T00:00:29.732357+00:00",
-   "symbol": "VRAM",
-   "mint": "7ZR7Le1QgSD2enqRVRW1n5Ds3czDbURqC97oJyqrc3v4",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "Top holder 20.3% > 12% gate",
-   "entry_price": 3.098e-05,
-   "mcap": 30986,
-   "liq": 12889.54,
-   "h1": 2.55,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T00:00:29.726768+00:00",
-   "symbol": "TIMOTHY",
-   "mint": "AWg6LmGPfqjEqAU8N8wR8mYTbwmkwqMUqzrmggbgpump",
-   "score": 114,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 80>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 9.193e-05,
-   "mcap": 91937,
-   "liq": 20699.09,
-   "h1": 94.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 13:30 UTC"
+   "last": "2026-11-24 14:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -969,8 +969,8 @@
   {
    "symbol": "FIONA",
    "tag": "WATCH",
-   "h1": -1.6,
-   "ts": "2026-11-24 03:00 UTC"
+   "h1": 0.0,
+   "ts": "2026-11-24 14:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "JENSEN",
-   "tag": "FADING",
-   "h1": -36.0,
-   "ts": "2026-11-24 13:30 UTC"
+   "tag": "WATCH",
+   "h1": 11.7,
+   "ts": "2026-11-24 14:00 UTC"
   },
   {
    "symbol": "HUSS",
@@ -993,14 +993,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": 8.8,
-   "ts": "2026-11-24 13:30 UTC"
+   "h1": -14.1,
+   "ts": "2026-11-24 14:00 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 13:30 UTC"
+   "ts": "2026-11-24 14:00 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "cateball",
-   "tag": "CHASE",
-   "h1": 199.0,
-   "ts": "2026-11-24 13:30 UTC"
+   "tag": "WATCH",
+   "h1": 110.0,
+   "ts": "2026-11-24 14:00 UTC"
   }
  ],
  "live_closes": [
