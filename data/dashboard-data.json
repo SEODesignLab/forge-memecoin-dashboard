@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T07:34:07.376524+00:00",
+ "generated": "2026-11-24T08:04:07.560524+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2765,
-  "cohort_wallets": 1875,
+  "cohort_runs": 2766,
+  "cohort_wallets": 1890,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 115
+   "count": 114
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T08:00:20.457798+00:00",
+   "symbol": "SI",
+   "mint": "wG5KTn4ZGfSXKM6xsFGanR9VqhWmCDirdNBq63Wpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $15951 < $25000",
+   "entry_price": 5.631e-05,
+   "mcap": 56315,
+   "liq": 15951.25,
+   "h1": 88.11,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T07:30:25.415382+00:00",
    "symbol": "Satoshi",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T22:00:27.198237+00:00",
-   "symbol": "TrumpNVDIA",
-   "mint": "FMyw43m65EuPLMFxYewMBPst8NyG9GNdosn28GjNpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 20.1% > 12% gate",
-   "entry_price": 2.933e-05,
-   "mcap": 29287,
-   "liq": 10964.18,
-   "h1": -2.26,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -976,8 +976,8 @@
   {
    "symbol": "UCASH",
    "tag": "WATCH",
-   "h1": 75.1,
-   "ts": "2026-11-24 07:30 UTC"
+   "h1": 64.9,
+   "ts": "2026-11-24 08:00 UTC"
   },
   {
    "symbol": "PumpMeme",
@@ -994,14 +994,14 @@
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": 17.1,
-   "ts": "2026-11-24 07:30 UTC"
+   "h1": -15.4,
+   "ts": "2026-11-24 08:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-11-24 07:30 UTC"
+   "h1": 8.7,
+   "ts": "2026-11-24 08:00 UTC"
   },
   {
    "symbol": "HUSS",
@@ -1012,8 +1012,8 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-11-24 07:30 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-24 08:00 UTC"
   }
  ],
  "live_closes": [
