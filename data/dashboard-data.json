@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T04:34:06.425903+00:00",
+ "generated": "2026-11-24T05:04:06.591456+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2759,
-  "cohort_wallets": 1776,
+  "cohort_runs": 2760,
+  "cohort_wallets": 1793,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T05:00:27.227356+00:00",
+   "symbol": "Cilembu",
+   "mint": "9oSSnxP6gD4SYPSH8mUNYkoWjKPDWT5F4fucL6CHpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $12983 < $25000",
+   "entry_price": 3.866e-05,
+   "mcap": 38602,
+   "liq": 12983.24,
+   "h1": 26.54,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T05:00:27.222163+00:00",
+   "symbol": "Spidercow",
+   "mint": "9oxUBRyk9EXfQHMchya45p3xsF2fbNzzDUNKzEfKpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $21893 < $25000",
+   "entry_price": 9.74e-05,
+   "mcap": 97403,
+   "liq": 21892.73,
+   "h1": 222,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T04:30:25.587120+00:00",
    "symbol": "DCTY",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T20:30:23.007665+00:00",
-   "symbol": "NIVI",
-   "mint": "GejbZVwcf9yAKeUzBcJYzDUuZN3WRtdV5aTW5BZzpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Liquidity $23322 < $25000",
-   "entry_price": 0.0001144,
-   "mcap": 114397,
-   "liq": 23321.53,
-   "h1": 184,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T20:00:23.072196+00:00",
-   "symbol": "\u6765\u6839\u534e\u5b50",
-   "mint": "3bGDshaXBnjo1GCpWoyLGQpLzpAZzvEZcooFdTuTpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002063,
-   "mcap": 206116,
-   "liq": 31763.22,
-   "h1": 591,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -729,7 +729,7 @@
     "HUSS",
     "SCINU"
    ],
-   "last": "2026-11-24 04:00 UTC"
+   "last": "2026-11-24 05:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -924,7 +924,7 @@
     "Max",
     "HUSS"
    ],
-   "last": "2026-11-24 02:30 UTC"
+   "last": "2026-11-24 05:00 UTC"
   },
   {
    "wallet": "6bCT7cH4NyiyPx3mnUMfVar5LQAz6Eo6XcudvxFs4g9m",
@@ -975,9 +975,9 @@
   },
   {
    "symbol": "UCASH",
-   "tag": "WATCH",
-   "h1": 38.8,
-   "ts": "2026-11-24 04:30 UTC"
+   "tag": "FADING",
+   "h1": -38.8,
+   "ts": "2026-11-24 05:00 UTC"
   },
   {
    "symbol": "PumpMeme",
@@ -994,26 +994,26 @@
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": 0.1,
-   "ts": "2026-11-24 04:30 UTC"
+   "h1": -9.6,
+   "ts": "2026-11-24 05:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 9.4,
-   "ts": "2026-11-24 04:30 UTC"
+   "h1": 5.7,
+   "ts": "2026-11-24 05:00 UTC"
   },
   {
    "symbol": "HUSS",
    "tag": "WATCH",
-   "h1": -3.7,
-   "ts": "2026-11-24 04:30 UTC"
+   "h1": 6.4,
+   "ts": "2026-11-24 05:00 UTC"
   },
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": 65.4,
-   "ts": "2026-11-24 04:30 UTC"
+   "h1": 23.7,
+   "ts": "2026-11-24 05:00 UTC"
   }
  ],
  "live_closes": [
