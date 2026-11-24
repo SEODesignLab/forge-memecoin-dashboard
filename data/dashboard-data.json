@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:04:10.755296+00:00",
+ "generated": "2026-11-24T18:34:10.895025+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2786,
-  "cohort_wallets": 1643,
+  "cohort_runs": 2787,
+  "cohort_wallets": 1648,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 110
+   "count": 109
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -65,15 +65,45 @@
    "count": 4
   },
   {
-   "reason": "Top holder 20.3% > 12% gate",
+   "reason": "Top holder 20.7% > 12% gate",
    "count": 3
   },
   {
-   "reason": "Top holder 20.7% > 12% gate",
+   "reason": "RugCheck risk 59>45",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T18:30:35.860750+00:00",
+   "symbol": "BOWIE",
+   "mint": "BdXEez6YDsW983kv7yZGr1Q73gxEkfQ6GGJAGgiDpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 20.1% > 12% gate",
+   "entry_price": 4.795e-05,
+   "mcap": 47959,
+   "liq": 17709.88,
+   "h1": 2.42,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T18:30:35.848382+00:00",
+   "symbol": "SANTIA",
+   "mint": "2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Liquidity $21901 < $25000",
+   "entry_price": 0.0001061,
+   "mcap": 105189,
+   "liq": 21900.53,
+   "h1": 202,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T18:00:35.017808+00:00",
    "symbol": "SOLALA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T04:30:25.581855+00:00",
-   "symbol": "yippee",
-   "mint": "3mTQnHtok9wnT7yDA1G9BfMh5xNbyQerYkpfTDyKpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Liquidity $10004 < $25000",
-   "entry_price": 2.292e-05,
-   "mcap": 22882,
-   "liq": 10004.38,
-   "h1": -22.57,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T04:00:17.198672+00:00",
-   "symbol": "NOCAP",
-   "mint": "RZv3jrN6u1e2vCwTiJgRJwfnmyJaZqq48qkPz1xpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 27.9% > 12% gate",
-   "entry_price": 1.693e-05,
-   "mcap": 16932,
-   "liq": 8601.91,
-   "h1": -42.49,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 18:00 UTC"
+   "last": "2026-11-24 18:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -987,14 +987,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": -2.9,
-   "ts": "2026-11-24 18:00 UTC"
+   "h1": -8.8,
+   "ts": "2026-11-24 18:30 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 18:00 UTC"
+   "ts": "2026-11-24 18:30 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": 7.8,
-   "ts": "2026-11-24 18:00 UTC"
+   "h1": -6.6,
+   "ts": "2026-11-24 18:30 UTC"
   }
  ],
  "live_closes": [
