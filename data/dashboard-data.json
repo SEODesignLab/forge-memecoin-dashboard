@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:34:09.603462+00:00",
+ "generated": "2026-11-24T15:04:09.818372+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2779,
-  "cohort_wallets": 1567,
+  "cohort_runs": 2780,
+  "cohort_wallets": 1581,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 110
+   "count": 109
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T15:00:28.371701+00:00",
+   "symbol": "DIALED",
+   "mint": "CYhq3NsNoYwQN2T4tZrscyzp4NCJft76sBPFf9Shpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 16.7% > 12% gate",
+   "entry_price": 4.884e-05,
+   "mcap": 48761,
+   "liq": 14711.37,
+   "h1": 68.64,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T14:30:26.461062+00:00",
    "symbol": "Solana",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T00:30:21.359270+00:00",
-   "symbol": "JENSEN",
-   "mint": "GaNJeASYBM9k3TvEeUC2Pdyu1TjcpzTmPpoom92fpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Chase filter: +3546% in 1h > 40% cap",
-   "entry_price": 0.001313,
-   "mcap": 1313508,
-   "liq": 81649.1,
-   "h1": 3546,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 14:30 UTC"
+   "last": "2026-11-24 15:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -970,7 +970,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 14:30 UTC"
+   "ts": "2026-11-24 15:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -981,8 +981,8 @@
   {
    "symbol": "JENSEN",
    "tag": "WATCH",
-   "h1": 25.4,
-   "ts": "2026-11-24 14:30 UTC"
+   "h1": -16.4,
+   "ts": "2026-11-24 15:00 UTC"
   },
   {
    "symbol": "HUSS",
@@ -993,14 +993,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": -13.5,
-   "ts": "2026-11-24 14:30 UTC"
+   "h1": 0.0,
+   "ts": "2026-11-24 15:00 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 14:30 UTC"
+   "ts": "2026-11-24 15:00 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "cateball",
    "tag": "FADING",
-   "h1": -22.8,
-   "ts": "2026-11-24 14:30 UTC"
+   "h1": -24.7,
+   "ts": "2026-11-24 15:00 UTC"
   }
  ],
  "live_closes": [
