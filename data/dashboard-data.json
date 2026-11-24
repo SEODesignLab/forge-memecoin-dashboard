@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T19:04:11.092983+00:00",
+ "generated": "2026-11-24T19:34:11.228913+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2788,
-  "cohort_wallets": 1652,
+  "cohort_runs": 2789,
+  "cohort_wallets": 1661,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,15 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 109
+   "count": 110
   },
   {
    "reason": "RugCheck risk 80>45",
    "count": 5
-  },
-  {
-   "reason": "Top holder 20.0% > 12% gate",
-   "count": 4
   },
   {
    "reason": "Top holder 19.2% > 12% gate",
@@ -71,9 +67,58 @@
   {
    "reason": "Top holder 20.7% > 12% gate",
    "count": 3
+  },
+  {
+   "reason": "RugCheck risk 59>45",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T19:30:34.917730+00:00",
+   "symbol": "Gabriel",
+   "mint": "8DDM5ioUMwH8VgyHoNQzHjDUoHodXRgnZkSJtvSapump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 17.1% > 12% gate",
+   "entry_price": 4.267e-05,
+   "mcap": 39673,
+   "liq": 14044.35,
+   "h1": 47.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T19:30:34.910179+00:00",
+   "symbol": "PumpBull",
+   "mint": "GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump",
+   "score": 115,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.000146,
+   "mcap": 144617,
+   "liq": 25876.08,
+   "h1": 318,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T19:30:34.902379+00:00",
+   "symbol": "FREEDOM",
+   "mint": "FDNc812jkHdhkdeRNaLMVwyihHMLR6ztTmRfxG7opump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 13.8% > 12% gate",
+   "entry_price": 7.917e-05,
+   "mcap": 79031,
+   "liq": 19353.7,
+   "h1": 164,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T19:00:27.670651+00:00",
    "symbol": "BRUISER",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T06:00:25.985623+00:00",
-   "symbol": "ORBLUX",
-   "mint": "5KDyvAjSU8HWofZfVnpkdY2N4UM1R2jxUkLupYmgpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "Liquidity $18731 < $25000",
-   "entry_price": 7.659e-05,
-   "mcap": 76599,
-   "liq": 18731.16,
-   "h1": 157,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T05:30:20.360400+00:00",
-   "symbol": "ACHI",
-   "mint": "HADu1KBKhLhzmqyrdbF96F73XP892DTq3MC2dztApump",
-   "score": 98,
-   "decision": "SKIP",
-   "reason": "Top holder 18.4% > 12% gate",
-   "entry_price": 3.982e-05,
-   "mcap": 39828,
-   "liq": 13395.97,
-   "h1": 33.98,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T05:00:27.227356+00:00",
-   "symbol": "Cilembu",
-   "mint": "9oSSnxP6gD4SYPSH8mUNYkoWjKPDWT5F4fucL6CHpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $12983 < $25000",
-   "entry_price": 3.866e-05,
-   "mcap": 38602,
-   "liq": 12983.24,
-   "h1": 26.54,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 19:00 UTC"
+   "last": "2026-11-24 19:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "COPIUM",
-   "tag": "WATCH",
-   "h1": 13.6,
-   "ts": "2026-11-24 00:30 UTC"
-  },
-  {
    "symbol": "UCASH",
    "tag": "FADING",
    "h1": -74.4,
@@ -964,7 +958,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 19:00 UTC"
+   "ts": "2026-11-24 19:30 UTC"
   },
   {
    "symbol": "SCINU",
@@ -987,14 +981,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": 4.7,
-   "ts": "2026-11-24 19:00 UTC"
+   "h1": 7.1,
+   "ts": "2026-11-24 19:30 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 19:00 UTC"
+   "ts": "2026-11-24 19:30 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1010,9 +1004,15 @@
   },
   {
    "symbol": "SIMPS",
-   "tag": "FADING",
-   "h1": -24.3,
-   "ts": "2026-11-24 19:00 UTC"
+   "tag": "WATCH",
+   "h1": -5.2,
+   "ts": "2026-11-24 19:30 UTC"
+  },
+  {
+   "symbol": "CHUCHU",
+   "tag": "WATCH",
+   "h1": -13.4,
+   "ts": "2026-11-24 19:30 UTC"
   }
  ],
  "live_closes": [
