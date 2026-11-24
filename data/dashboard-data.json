@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T03:04:05.950289+00:00",
+ "generated": "2026-11-24T03:34:06.085445+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2756,
-  "cohort_wallets": 1733,
+  "cohort_runs": 2757,
+  "cohort_wallets": 1746,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -61,19 +61,49 @@
    "count": 4
   },
   {
-   "reason": "Top holder 14.0% > 12% gate",
-   "count": 3
-  },
-  {
    "reason": "Top holder 14.1% > 12% gate",
    "count": 3
   },
   {
    "reason": "Top holder 14.5% > 12% gate",
    "count": 3
+  },
+  {
+   "reason": "Top holder 14.6% > 12% gate",
+   "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T03:30:31.451571+00:00",
+   "symbol": "STACK",
+   "mint": "gzYHA8qjtFd76w58fEyn7knMdhedzdQuzmmAruwpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 14.7% > 12% gate",
+   "entry_price": 6.806e-05,
+   "mcap": 65663,
+   "liq": 18242.21,
+   "h1": 15.87,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T03:30:31.444637+00:00",
+   "symbol": "FATU",
+   "mint": "3reEjCbDFht7LnNdKncQ3vohYDbAMJWXkbzWLSNhpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 14.3% > 12% gate",
+   "entry_price": 5.227e-05,
+   "mcap": 52271,
+   "liq": 15302.69,
+   "h1": 79.29,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T03:00:25.220747+00:00",
    "symbol": "GROKIA",
@@ -644,36 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T19:30:22.947455+00:00",
-   "symbol": "PIKACHU",
-   "mint": "pikypfxzZBPAST4Pq5u47eAKUQsDDY9obWD1whJgCHu",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $18029 < $25000",
-   "entry_price": 4.967e-05,
-   "mcap": 49608,
-   "liq": 18029.15,
-   "h1": 12.69,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T19:30:22.942455+00:00",
-   "symbol": "tap",
-   "mint": "Bk1kfYeoS9arD5Cq6WtNCGSHqVkk9ZhDA7kUVARSpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 23.0% > 12% gate",
-   "entry_price": 2.55e-05,
-   "mcap": 25452,
-   "liq": 10342.18,
-   "h1": -15.27,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -729,7 +729,7 @@
     "HUSS",
     "SCINU"
    ],
-   "last": "2026-11-24 03:00 UTC"
+   "last": "2026-11-24 03:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -868,18 +868,18 @@
   },
   {
    "wallet": "2tgUbS9UMoQD6GkDZBiqKYCURnGrSb6ocYwRABrSJUvY",
-   "hits": 28,
+   "hits": 29,
    "symbols": [
-    "PIPS",
     "Wifoween",
     "woohao",
     "Shitcoin",
     "Huang",
     "Socks",
     "XRL",
-    "CHAR"
+    "CHAR",
+    "HUSS"
    ],
-   "last": "2026-11-18 09:00 UTC"
+   "last": "2026-11-24 03:30 UTC"
   },
   {
    "wallet": "3byvsa7YHf9iqN37iguJN4jWZMtpvBL1SL9XCJvGuVwT",
@@ -944,12 +944,6 @@
  ],
  "mints": [
   {
-   "symbol": "MIKEDYSON",
-   "tag": "FADING",
-   "h1": -34.0,
-   "ts": "2026-11-22 16:30 UTC"
-  },
-  {
    "symbol": "Max",
    "tag": "WATCH",
    "h1": -5.4,
@@ -981,9 +975,9 @@
   },
   {
    "symbol": "UCASH",
-   "tag": "WATCH",
-   "h1": 6.6,
-   "ts": "2026-11-24 03:00 UTC"
+   "tag": "FADING",
+   "h1": -86.0,
+   "ts": "2026-11-24 03:30 UTC"
   },
   {
    "symbol": "PumpMeme",
@@ -1000,20 +994,26 @@
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": 31.3,
-   "ts": "2026-11-24 03:00 UTC"
+   "h1": 4.7,
+   "ts": "2026-11-24 03:30 UTC"
   },
   {
    "symbol": "JENSEN",
-   "tag": "WATCH",
-   "h1": 10.8,
-   "ts": "2026-11-24 03:00 UTC"
+   "tag": "FADING",
+   "h1": -22.4,
+   "ts": "2026-11-24 03:30 UTC"
   },
   {
    "symbol": "HUSS",
    "tag": "WATCH",
-   "h1": -17.8,
-   "ts": "2026-11-24 03:00 UTC"
+   "h1": 20.1,
+   "ts": "2026-11-24 03:30 UTC"
+  },
+  {
+   "symbol": "DONJENSEN",
+   "tag": "CHASE",
+   "h1": 3128.0,
+   "ts": "2026-11-24 03:30 UTC"
   }
  ],
  "live_closes": [
