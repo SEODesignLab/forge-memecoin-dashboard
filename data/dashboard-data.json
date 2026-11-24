@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T17:04:10.439817+00:00",
+ "generated": "2026-11-24T17:34:10.567255+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2784,
-  "cohort_wallets": 1633,
+  "cohort_runs": 2785,
+  "cohort_wallets": 1639,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 110
+   "count": 109
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T17:31:23.942837+00:00",
+   "symbol": "OFFBANK",
+   "mint": "9edA8CpX7MjqPpgkRQsqDiupDNaZgeqTgbx5kAv6pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 18.5% > 12% gate",
+   "entry_price": 3.266e-05,
+   "mcap": 32626,
+   "liq": 11573.85,
+   "h1": 13.99,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T17:31:23.937346+00:00",
+   "symbol": "CAMKT",
+   "mint": "CAmAVvh3QxsXLuhU6KUYC3cVsN5rqCsxB5CT7LtZrket",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 35.5% > 12% gate",
+   "entry_price": 1.459e-05,
+   "mcap": 14576,
+   "liq": 7337.43,
+   "h1": -49.33,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T17:00:36.551149+00:00",
    "symbol": "ANNOYING",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T03:00:25.214326+00:00",
-   "symbol": "VIctory",
-   "mint": "81F3a7CihhMQEsk4TnEs34XVQgRr8QcbghBjNAZnpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 21.6% > 12% gate",
-   "entry_price": 2.816e-05,
-   "mcap": 28101,
-   "liq": 10641.09,
-   "h1": -12.46,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T03:00:25.209369+00:00",
-   "symbol": "DONJENSEN",
-   "mint": "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0008407,
-   "mcap": 840626,
-   "liq": 64801.8,
-   "h1": 2252,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 17:00 UTC"
+   "last": "2026-11-24 17:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -964,7 +964,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 17:00 UTC"
+   "ts": "2026-11-24 17:30 UTC"
   },
   {
    "symbol": "SCINU",
@@ -987,14 +987,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": 0.3,
-   "ts": "2026-11-24 17:00 UTC"
+   "h1": 2.0,
+   "ts": "2026-11-24 17:30 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 17:00 UTC"
+   "ts": "2026-11-24 17:30 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": 52.3,
-   "ts": "2026-11-24 17:00 UTC"
+   "h1": -12.9,
+   "ts": "2026-11-24 17:30 UTC"
   }
  ],
  "live_closes": [
