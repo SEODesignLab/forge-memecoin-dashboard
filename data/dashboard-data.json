@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T19:34:11.228913+00:00",
+ "generated": "2026-11-24T20:04:11.436701+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2789,
-  "cohort_wallets": 1661,
+  "cohort_runs": 2790,
+  "cohort_wallets": 1664,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -29,15 +29,15 @@
    "count": 110
   },
   {
+   "reason": "Top holder 18.6% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "RugCheck risk 80>45",
    "count": 5
   },
   {
    "reason": "Top holder 19.2% > 12% gate",
-   "count": 4
-  },
-  {
-   "reason": "Top holder 18.6% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T20:00:27.159856+00:00",
+   "symbol": "HOLDERS",
+   "mint": "4J4fWcAPHexkcXu3rfGsThW5ut26nJqTuZ8cK7s3pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 79>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.387e-05,
+   "mcap": 33844,
+   "liq": 11796.61,
+   "h1": 13.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T20:00:27.155391+00:00",
+   "symbol": "Anthropic",
+   "mint": "14T8tKqeaK3bMVDX9cNQVPzZt9PeYfEvHuKQEUK8pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 18.6% > 12% gate",
+   "entry_price": 3.498e-05,
+   "mcap": 34952,
+   "liq": 11828.87,
+   "h1": 21.96,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T20:00:27.150161+00:00",
+   "symbol": "wizardcat",
+   "mint": "6W3H5nEzuLUpTbcMrhRfMiDPCZ4QuBmZPBkeAMzypump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 40.7% > 12% gate",
+   "entry_price": 6.338e-06,
+   "mcap": 6331,
+   "liq": 4410.4,
+   "h1": -77.89,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T19:30:34.917730+00:00",
    "symbol": "Gabriel",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T06:30:32.534296+00:00",
-   "symbol": "WIFBRA",
-   "mint": "1Jv1rf5kbEY98hRepWgayjwmWqgkbE3zy9tEMuhpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Top holder 19.2% > 12% gate",
-   "entry_price": 5.241e-05,
-   "mcap": 52414,
-   "liq": 15173.67,
-   "h1": -11.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T06:30:32.529210+00:00",
-   "symbol": "AIRCOIN",
-   "mint": "3AEQPug2ddz2UPz7SQddd5EbZHyKrowXtKuLyTAmpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 22.8% > 12% gate",
-   "entry_price": 2.605e-05,
-   "mcap": 26055,
-   "liq": 10193.97,
-   "h1": -12.09,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T06:00:25.990719+00:00",
-   "symbol": "ATX",
-   "mint": "yG1g4V6iBusd62NqMdL4ssfpgvsHoP56cyGYSnypump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Liquidity $14954 < $25000",
-   "entry_price": 5.199e-05,
-   "mcap": 51993,
-   "liq": 14954.13,
-   "h1": 74.58,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 19:30 UTC"
+   "last": "2026-11-24 20:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -958,7 +958,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 19:30 UTC"
+   "ts": "2026-11-24 20:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -981,14 +981,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": 7.1,
-   "ts": "2026-11-24 19:30 UTC"
+   "h1": 5.2,
+   "ts": "2026-11-24 20:00 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 19:30 UTC"
+   "ts": "2026-11-24 20:00 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": -5.2,
-   "ts": "2026-11-24 19:30 UTC"
+   "h1": 6.4,
+   "ts": "2026-11-24 20:00 UTC"
   },
   {
    "symbol": "CHUCHU",
