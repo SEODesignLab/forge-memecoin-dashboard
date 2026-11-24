@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T18:34:10.895025+00:00",
+ "generated": "2026-11-24T19:04:11.092983+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2787,
-  "cohort_wallets": 1648,
+  "cohort_runs": 2788,
+  "cohort_wallets": 1652,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -27,10 +27,6 @@
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
    "count": 109
-  },
-  {
-   "reason": "Top holder 16.3% > 12% gate",
-   "count": 5
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -53,6 +49,10 @@
    "count": 4
   },
   {
+   "reason": "Top holder 16.3% > 12% gate",
+   "count": 4
+  },
+  {
    "reason": "Top holder 19.6% > 12% gate",
    "count": 4
   },
@@ -65,15 +65,45 @@
    "count": 4
   },
   {
-   "reason": "Top holder 20.7% > 12% gate",
-   "count": 3
+   "reason": "Top holder 20.8% > 12% gate",
+   "count": 4
   },
   {
-   "reason": "RugCheck risk 59>45",
+   "reason": "Top holder 20.7% > 12% gate",
    "count": 3
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T19:00:27.670651+00:00",
+   "symbol": "BRUISER",
+   "mint": "9Nb8Uj9skRkNhia4UvVtHJCRHz7CCoKNH1zyJ95xpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 20.8% > 12% gate",
+   "entry_price": 3.1e-05,
+   "mcap": 30972,
+   "liq": 11154.29,
+   "h1": 7.55,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-24T19:00:27.662625+00:00",
+   "symbol": "Slingoor",
+   "mint": "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 14.2% > 12% gate",
+   "entry_price": 7.584e-05,
+   "mcap": 75093,
+   "liq": 18303.22,
+   "h1": 120,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T18:30:35.860750+00:00",
    "symbol": "BOWIE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T05:00:27.222163+00:00",
-   "symbol": "Spidercow",
-   "mint": "9oxUBRyk9EXfQHMchya45p3xsF2fbNzzDUNKzEfKpump",
-   "score": 95,
-   "decision": "SKIP",
-   "reason": "Liquidity $21893 < $25000",
-   "entry_price": 9.74e-05,
-   "mcap": 97403,
-   "liq": 21892.73,
-   "h1": 222,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T04:30:25.587120+00:00",
-   "symbol": "DCTY",
-   "mint": "4v9CTtYru7vmfoCBS5vGrFcxYrpDaY5JZzqUF8g9pump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Liquidity $15093 < $25000",
-   "entry_price": 5.29e-05,
-   "mcap": 52849,
-   "liq": 15092.63,
-   "h1": 61.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SCINU",
     "POPSTAR"
    ],
-   "last": "2026-11-24 18:30 UTC"
+   "last": "2026-11-24 19:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -964,7 +964,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 17:30 UTC"
+   "ts": "2026-11-24 19:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -987,14 +987,14 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": -8.8,
-   "ts": "2026-11-24 18:30 UTC"
+   "h1": 4.7,
+   "ts": "2026-11-24 19:00 UTC"
   },
   {
    "symbol": "POPSTAR",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 18:30 UTC"
+   "ts": "2026-11-24 19:00 UTC"
   },
   {
    "symbol": "ROCKET",
@@ -1010,9 +1010,9 @@
   },
   {
    "symbol": "SIMPS",
-   "tag": "WATCH",
-   "h1": -6.6,
-   "ts": "2026-11-24 18:30 UTC"
+   "tag": "FADING",
+   "h1": -24.3,
+   "ts": "2026-11-24 19:00 UTC"
   }
  ],
  "live_closes": [
