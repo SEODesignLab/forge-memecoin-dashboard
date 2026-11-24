@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T08:34:07.681555+00:00",
+ "generated": "2026-11-24T09:04:07.874559+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2767,
-  "cohort_wallets": 1905,
+  "cohort_runs": 2768,
+  "cohort_wallets": 1922,
   "cohort_qualified": 260,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 114
+   "count": 113
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-24T09:00:25.472884+00:00",
+   "symbol": "Guest",
+   "mint": "7ZcoeMq5u29vjujGQQemFV2zYvy8sURwpNN9p9wGpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 69>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 2.915e-05,
+   "mcap": 29151,
+   "liq": 11535.79,
+   "h1": -14.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T08:30:22.599075+00:00",
    "symbol": "AdPaid",
@@ -659,21 +674,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-23T22:30:23.105225+00:00",
-   "symbol": "JENSEN",
-   "mint": "DrJjCnagFhVKNuc8Fe8HejkY4aZaaCqy7WivdwdVpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Chase filter: +41% in 1h > 40% cap",
-   "entry_price": 0.0001801,
-   "mcap": 176760,
-   "liq": 29456.75,
-   "h1": 41.38,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -970,8 +970,8 @@
   {
    "symbol": "UCASH",
    "tag": "FADING",
-   "h1": -40.7,
-   "ts": "2026-11-24 08:30 UTC"
+   "h1": -21.4,
+   "ts": "2026-11-24 09:00 UTC"
   },
   {
    "symbol": "PumpMeme",
@@ -988,14 +988,14 @@
   {
    "symbol": "SCINU",
    "tag": "WATCH",
-   "h1": -8.4,
-   "ts": "2026-11-24 08:30 UTC"
+   "h1": 11.9,
+   "ts": "2026-11-24 09:00 UTC"
   },
   {
    "symbol": "JENSEN",
    "tag": "FADING",
-   "h1": -22.3,
-   "ts": "2026-11-24 08:30 UTC"
+   "h1": -28.8,
+   "ts": "2026-11-24 09:00 UTC"
   },
   {
    "symbol": "HUSS",
@@ -1006,8 +1006,8 @@
   {
    "symbol": "DONJENSEN",
    "tag": "WATCH",
-   "h1": -6.4,
-   "ts": "2026-11-24 08:30 UTC"
+   "h1": 21.4,
+   "ts": "2026-11-24 09:00 UTC"
   },
   {
    "symbol": "POPSTAR",
