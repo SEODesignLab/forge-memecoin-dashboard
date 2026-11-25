@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T23:34:12.561834+00:00",
+ "generated": "2026-11-25T00:04:12.770499+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,9 +9,9 @@
   "paper_wins": 2,
   "paper_win_rate": 0.667,
   "need_settled": 50,
-  "cohort_runs": 2797,
-  "cohort_wallets": 1723,
-  "cohort_qualified": 261,
+  "cohort_runs": 2798,
+  "cohort_wallets": 1732,
+  "cohort_qualified": 262,
   "live_closes": 18,
   "live_wins": 4,
   "live_pnl_usdc": -12.71,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 110
+   "count": 109
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -42,6 +42,10 @@
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 12.6% > 12% gate",
    "count": 5
   },
   {
@@ -61,10 +65,6 @@
    "count": 4
   },
   {
-   "reason": "Top holder 12.6% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 19.3% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T00:00:31.293952+00:00",
+   "symbol": "KYM",
+   "mint": "FScg2SAUTF645h6RhtBS5icytr7jKcfq3UDhXAfspump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 12.6% > 12% gate",
+   "entry_price": 7.145e-05,
+   "mcap": 71454,
+   "liq": 17863.6,
+   "h1": 145,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-25T00:00:31.286032+00:00",
+   "symbol": "Pumpcar",
+   "mint": "4M1tpKSat8qWnJk6pskUBciw4PBvXt4gNMc36NV8pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $9146 < $25000",
+   "entry_price": 2.103e-05,
+   "mcap": 21032,
+   "liq": 9145.64,
+   "h1": -31.28,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-24T23:30:39.792920+00:00",
    "symbol": "CHAD",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T15:30:45.141168+00:00",
-   "symbol": "SuperMoon",
-   "mint": "HryZKMsqG2Mvkd78DJaK994Bv5CeEH9FMrGXXkwVpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 17.3% > 12% gate",
-   "entry_price": 3.767e-05,
-   "mcap": 37615,
-   "liq": 12374.68,
-   "h1": 30.67,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T15:30:45.135953+00:00",
-   "symbol": "WORTHLESS",
-   "mint": "ArTHx2XxPadBjkJw9WacfwPTEoaeG5jMakX26tzEpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 55>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 6.777e-05,
-   "mcap": 67357,
-   "liq": 22492.3,
-   "h1": 53.98,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -958,7 +958,7 @@
    "symbol": "FIONA",
    "tag": "WATCH",
    "h1": 0.0,
-   "ts": "2026-11-24 23:30 UTC"
+   "ts": "2026-11-25 00:00 UTC"
   },
   {
    "symbol": "SCINU",
@@ -980,9 +980,9 @@
   },
   {
    "symbol": "DONJENSEN",
-   "tag": "FADING",
-   "h1": -20.7,
-   "ts": "2026-11-24 23:30 UTC"
+   "tag": "WATCH",
+   "h1": -12.2,
+   "ts": "2026-11-25 00:00 UTC"
   },
   {
    "symbol": "POPSTAR",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": 0.7,
-   "ts": "2026-11-24 23:30 UTC"
+   "h1": 1.1,
+   "ts": "2026-11-25 00:00 UTC"
   },
   {
    "symbol": "CHUCHU",
