@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:34:18.975939+00:00",
+ "generated": "2026-11-25T20:04:19.174316+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2837,
-  "cohort_wallets": 1617,
+  "cohort_runs": 2838,
+  "cohort_wallets": 1624,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 105
+   "count": 103
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T20:00:59.287065+00:00",
+   "symbol": "HUSSPAD",
+   "mint": "rpoEbSB9JesYwxxYepKbDVzus1pymZGXdAs8uqjpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 20.9% > 12% gate",
+   "entry_price": 2.933e-05,
+   "mcap": 29307,
+   "liq": 10820.39,
+   "h1": -0.86,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-25T20:00:59.278466+00:00",
+   "symbol": "CRIME",
+   "mint": "xmraCcXf1qpZgkwaQn5myc7Q6SZ7He7sXQhXUBYNXMR",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 8.261e-05,
+   "mcap": 82474,
+   "liq": 22640.9,
+   "h1": 2.07,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T19:30:43.173242+00:00",
    "symbol": "PPK",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T04:30:33.762234+00:00",
-   "symbol": "Manlet",
-   "mint": "HyXjbs37EKU1QPKm2MnSQ3YaxNCugdh2W8bktSfYpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.5% > 12% gate",
-   "entry_price": 7.839e-05,
-   "mcap": 76731,
-   "liq": 19170.46,
-   "h1": 37.19,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T04:30:33.756867+00:00",
-   "symbol": "YUMA",
-   "mint": "CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 103.5% > 12% gate",
-   "entry_price": 0.0001438,
-   "mcap": 138901,
-   "liq": 25897.73,
-   "h1": 267,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 16.8,
-   "ts": "2026-11-25 19:30 UTC"
+   "h1": 7.0,
+   "ts": "2026-11-25 20:00 UTC"
   }
  ],
  "live_closes": [
