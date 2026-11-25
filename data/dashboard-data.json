@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:00:29.108857+00:00",
+ "generated": "2026-11-25T16:34:18.017709+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2830,
-  "cohort_wallets": 1566,
+  "cohort_runs": 2831,
+  "cohort_wallets": 1574,
   "cohort_qualified": 268,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 106
+   "count": 105
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T16:30:34.238202+00:00",
+   "symbol": "MONEY",
+   "mint": "BzzzoUPAX5rvmJctg8Xb6BkoworXNh5RGH27KVhPpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Liquidity $18024 < $25000",
+   "entry_price": 6.403e-05,
+   "mcap": 64035,
+   "liq": 18023.84,
+   "h1": 127,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-25T16:30:34.232808+00:00",
+   "symbol": "IPO",
+   "mint": "EYiXPL3LTuXEMb7KjhP6eTETPehJGhhU5H7ZYmWsSipo",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 23.5% > 12% gate",
+   "entry_price": 2.452e-05,
+   "mcap": 24529,
+   "liq": 9678.74,
+   "h1": -10.88,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T15:00:38.441049+00:00",
    "symbol": "Plush",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T00:30:29.771123+00:00",
-   "symbol": "FOMO",
-   "mint": "QiTWMupiepfVBPuYtG2Zq5HuWkhQYT6Wkq8oFTgpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 20.0% > 12% gate",
-   "entry_price": 3.474e-05,
-   "mcap": 34697,
-   "liq": 11843.96,
-   "h1": 20.12,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T00:30:29.766335+00:00",
-   "symbol": "DON'T",
-   "mint": "4ewVsV2Crgj9L2DY2MExubKd8PiSjfsVuCpX8f72pump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 34.8% > 12% gate",
-   "entry_price": 2.688e-05,
-   "mcap": 26860,
-   "liq": 10288.42,
-   "h1": -6.21,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,8 +999,8 @@
   {
    "symbol": "Jimmies",
    "tag": "WATCH",
-   "h1": -6.0,
-   "ts": "2026-11-25 16:00 UTC"
+   "h1": 7.1,
+   "ts": "2026-11-25 16:30 UTC"
   },
   {
    "symbol": "Memeployed",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": -4.1,
-   "ts": "2026-11-25 16:00 UTC"
+   "h1": 16.9,
+   "ts": "2026-11-25 16:30 UTC"
   }
  ],
  "live_closes": [
