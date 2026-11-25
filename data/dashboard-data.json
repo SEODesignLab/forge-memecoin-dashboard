@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T08:34:15.390793+00:00",
+ "generated": "2026-11-25T09:04:15.590431+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2815,
-  "cohort_wallets": 1913,
+  "cohort_runs": 2816,
+  "cohort_wallets": 1921,
   "cohort_qualified": 267,
   "live_closes": 18,
   "live_wins": 4,
@@ -33,10 +33,6 @@
    "count": 7
   },
   {
-   "reason": "Top holder 19.2% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "RugCheck risk 80>45",
    "count": 5
   },
@@ -50,6 +46,10 @@
   },
   {
    "reason": "Top holder 18.1% > 12% gate",
+   "count": 4
+  },
+  {
+   "reason": "Top holder 19.2% > 12% gate",
    "count": 4
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T09:00:30.089953+00:00",
+   "symbol": "HELIORA",
+   "mint": "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $24275 < $25000",
+   "entry_price": 0.0001231,
+   "mcap": 122851,
+   "liq": 24274.68,
+   "h1": 337,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T08:01:15.582125+00:00",
    "symbol": "JaoJiu",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T22:00:25.444089+00:00",
-   "symbol": "Squirrel",
-   "mint": "CkwFr1G8EPLLJSnp84PmwjEDRG4yA7bGJvRxRTx5pump",
-   "score": 104,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0002617,
-   "mcap": 261766,
-   "liq": 35111.75,
-   "h1": 586,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 127,
+   "hits": 128,
    "symbols": [
-    "Bust",
     "HOGE",
     "1",
     "JOB",
     "GATO",
     "HUSS",
     "SCINU",
-    "POPSTAR"
+    "POPSTAR",
+    "Christmax"
    ],
-   "last": "2026-11-24 21:30 UTC"
+   "last": "2026-11-25 09:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -777,18 +777,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 52,
+   "hits": 53,
    "symbols": [
-    "COGE",
     "CHAR",
     "THUG",
     "SIM",
     "GATO",
     "WASTED",
     "CBUCKS",
-    "Bigfoot"
+    "Bigfoot",
+    "Christmax"
    ],
-   "last": "2026-11-25 08:30 UTC"
+   "last": "2026-11-25 09:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -993,8 +993,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": -5.1,
-   "ts": "2026-11-25 08:30 UTC"
+   "h1": 1.6,
+   "ts": "2026-11-25 09:00 UTC"
   },
   {
    "symbol": "CHUCHU",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Jimmies",
    "tag": "WATCH",
-   "h1": 24.5,
-   "ts": "2026-11-25 08:30 UTC"
+   "h1": -6.2,
+   "ts": "2026-11-25 09:00 UTC"
   }
  ],
  "live_closes": [
