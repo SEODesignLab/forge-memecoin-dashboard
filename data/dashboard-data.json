@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T03:34:13.832300+00:00",
+ "generated": "2026-11-25T04:04:14.019326+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2805,
-  "cohort_wallets": 1808,
+  "cohort_runs": 2806,
+  "cohort_wallets": 1817,
   "cohort_qualified": 265,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T04:00:31.424032+00:00",
+   "symbol": "TROLL",
+   "mint": "7ykeHoEnjnGkY6tqteXn47fdGtd7kfXWghiyZ7YKpump",
+   "score": 108,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 67>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 4.446e-05,
+   "mcap": 44383,
+   "liq": 14343.01,
+   "h1": 45.33,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-25T04:00:31.418913+00:00",
+   "symbol": "SLITHEEN",
+   "mint": "2ajAnFA8UKpeYbWSoEwobGQrLvdUUmjipjpongMepump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Top holder 23.3% > 12% gate",
+   "entry_price": 2.173e-05,
+   "mcap": 21713,
+   "liq": 9287.19,
+   "h1": -29.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T03:30:34.903877+00:00",
    "symbol": "Spurdo",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T19:30:34.910179+00:00",
-   "symbol": "PumpBull",
-   "mint": "GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump",
-   "score": 115,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000146,
-   "mcap": 144617,
-   "liq": 25876.08,
-   "h1": 318,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T19:30:34.902379+00:00",
-   "symbol": "FREEDOM",
-   "mint": "FDNc812jkHdhkdeRNaLMVwyihHMLR6ztTmRfxG7opump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 13.8% > 12% gate",
-   "entry_price": 7.917e-05,
-   "mcap": 79031,
-   "liq": 19353.7,
-   "h1": 164,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -999,8 +999,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": 4.6,
-   "ts": "2026-11-25 03:30 UTC"
+   "h1": 3.5,
+   "ts": "2026-11-25 04:00 UTC"
   },
   {
    "symbol": "CHUCHU",
