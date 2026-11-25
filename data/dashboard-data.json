@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T12:00:25.581553+00:00",
+ "generated": "2026-11-25T12:34:16.700460+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2822,
-  "cohort_wallets": 1971,
+  "cohort_runs": 2823,
+  "cohort_wallets": 1985,
   "cohort_qualified": 268,
   "live_closes": 18,
   "live_wins": 4,
@@ -33,11 +33,11 @@
    "count": 7
   },
   {
-   "reason": "RugCheck risk 80>45",
-   "count": 5
+   "reason": "Top holder 16.3% > 12% gate",
+   "count": 6
   },
   {
-   "reason": "Top holder 16.3% > 12% gate",
+   "reason": "RugCheck risk 80>45",
    "count": 5
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T12:30:32.852228+00:00",
+   "symbol": "OUROBOROS",
+   "mint": "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 16.3% > 12% gate",
+   "entry_price": 5.126e-05,
+   "mcap": 51152,
+   "liq": 15677.67,
+   "h1": 72.3,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T11:00:38.897303+00:00",
    "symbol": "ZELENSKYY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-24T23:30:39.755867+00:00",
-   "symbol": "Jimmies",
-   "mint": "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001426,
-   "mcap": 142645,
-   "liq": 25667.67,
-   "h1": 346,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "Bigfoot",
     "Christmax"
    ],
-   "last": "2026-11-25 09:00 UTC"
+   "last": "2026-11-25 12:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -818,7 +818,7 @@
     "COGE",
     "Bust"
    ],
-   "last": "2026-11-25 06:30 UTC"
+   "last": "2026-11-25 12:30 UTC"
   },
   {
    "wallet": "HFX2dqzyQeRAdkjp41D4qThfsPPSyBDkVoruBr93zhY9",
@@ -848,7 +848,7 @@
     "GATO",
     "Christmax"
    ],
-   "last": "2026-11-25 09:30 UTC"
+   "last": "2026-11-25 12:30 UTC"
   },
   {
    "wallet": "CdeT4gc7dT5JVpVszWioFbugqS2E5SbmbZHDWiRjyvam",
@@ -993,8 +993,8 @@
   {
    "symbol": "SIMPS",
    "tag": "WATCH",
-   "h1": 4.5,
-   "ts": "2026-11-25 12:00 UTC"
+   "h1": -2.5,
+   "ts": "2026-11-25 12:30 UTC"
   },
   {
    "symbol": "CHUCHU",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Jimmies",
    "tag": "WATCH",
-   "h1": -8.1,
-   "ts": "2026-11-25 12:00 UTC"
+   "h1": 28.1,
+   "ts": "2026-11-25 12:30 UTC"
   }
  ],
  "live_closes": [
