@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:04:18.862629+00:00",
+ "generated": "2026-11-25T19:34:18.975939+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2836,
-  "cohort_wallets": 1614,
+  "cohort_runs": 2837,
+  "cohort_wallets": 1617,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 104
+   "count": 105
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-25T19:30:43.173242+00:00",
+   "symbol": "PPK",
+   "mint": "59efB6GMHMbsA4Z4GSZkYkmqjSHePn9xi1iRNzeepump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001335,
+   "mcap": 133576,
+   "liq": 25026.3,
+   "h1": 249,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T19:00:31.742899+00:00",
    "symbol": "Cumpute",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T04:00:31.424032+00:00",
-   "symbol": "TROLL",
-   "mint": "7ykeHoEnjnGkY6tqteXn47fdGtd7kfXWghiyZ7YKpump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 67>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 4.446e-05,
-   "mcap": 44383,
-   "liq": 14343.01,
-   "h1": 45.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 9.4,
-   "ts": "2026-11-25 19:00 UTC"
+   "h1": 16.8,
+   "ts": "2026-11-25 19:30 UTC"
   }
  ],
  "live_closes": [
