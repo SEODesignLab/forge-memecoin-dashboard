@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T20:04:26.759571+00:00",
+ "generated": "2026-11-26T20:34:26.883529+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2886,
-  "cohort_wallets": 1826,
+  "cohort_runs": 2887,
+  "cohort_wallets": 1837,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T20:30:44.935519+00:00",
+   "symbol": "dan",
+   "mint": "HLDU8dNCFiyQXvgfh8sJ1hCcH45i39U3AdWJKQPNpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Liquidity $15219 < $25000",
+   "entry_price": 5.201e-05,
+   "mcap": 52014,
+   "liq": 15219.42,
+   "h1": 75.43,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T20:00:50.007196+00:00",
    "symbol": "FOMO",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T14:30:38.755668+00:00",
-   "symbol": "WINTER",
-   "mint": "G6MgKXoipc6KhWyhxSqhmpTRwPJWnjsCK6WBpA69pump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 16.9% > 12% gate",
-   "entry_price": 4.872e-05,
-   "mcap": 48641,
-   "liq": 15252.36,
-   "h1": 63.33,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,8 +981,8 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": -8.2,
-   "ts": "2026-11-26 20:00 UTC"
+   "h1": -7.1,
+   "ts": "2026-11-26 20:30 UTC"
   },
   {
    "symbol": "NORFEATH",
