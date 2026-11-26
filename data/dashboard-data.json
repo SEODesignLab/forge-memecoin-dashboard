@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:04:24.251624+00:00",
+ "generated": "2026-11-26T12:34:24.401143+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2870,
-  "cohort_wallets": 1568,
+  "cohort_runs": 2871,
+  "cohort_wallets": 1589,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,11 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 102
+   "count": 101
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
-   "count": 6
+   "count": 7
   },
   {
    "reason": "Top holder 19.5% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T12:30:45.956235+00:00",
+   "symbol": "LEMPIRE",
+   "mint": "GTA6fheR7VzZCG4afZeThwBqZkT5TkmwNejGPUvqKDHV",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "Top holder 31.0% > 12% gate",
+   "entry_price": 3.712e-05,
+   "mcap": 37081,
+   "liq": 12743.19,
+   "h1": 25.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T12:30:45.950837+00:00",
+   "symbol": "Hey",
+   "mint": "F9CwhBgSsEJuCigbodtUH257EqQpRSzKLKwHPPKNpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 18.6% > 12% gate",
+   "entry_price": 3.717e-05,
+   "mcap": 37176,
+   "liq": 12438.61,
+   "h1": 29.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T10:30:37.443542+00:00",
    "symbol": "konnichiwa",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T22:01:48.915478+00:00",
-   "symbol": "LoreChan",
-   "mint": "FW1jbvnrFYfbxbTnHEF82PiYPMXhQ6fUuyxzZjzypump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 47>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 1.847e-05,
-   "mcap": 18478,
-   "liq": 8650.48,
-   "h1": -35.08,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T21:30:49.159532+00:00",
-   "symbol": "LINK",
-   "mint": "H9Kr6dQRpNJtJA8DUKLb4xhbeCvv6AoTWK6BdQdypump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001493,
-   "mcap": 149231,
-   "liq": 26446.49,
-   "h1": 410,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,14 +981,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 6.2,
-   "ts": "2026-11-26 12:00 UTC"
+   "h1": -3.0,
+   "ts": "2026-11-26 12:30 UTC"
   },
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": -7.2,
-   "ts": "2026-11-26 12:00 UTC"
+   "h1": -19.1,
+   "ts": "2026-11-26 12:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -999,14 +999,14 @@
   {
    "symbol": "Grodia",
    "tag": "FADING",
-   "h1": -31.3,
-   "ts": "2026-11-26 12:00 UTC"
+   "h1": -31.0,
+   "ts": "2026-11-26 12:30 UTC"
   },
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 23.4,
-   "ts": "2026-11-26 12:00 UTC"
+   "h1": 3.9,
+   "ts": "2026-11-26 12:30 UTC"
   },
   {
    "symbol": "KRYOX",
