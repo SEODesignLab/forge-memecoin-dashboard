@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T18:04:26.120873+00:00",
+ "generated": "2026-11-26T18:34:26.245261+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2882,
-  "cohort_wallets": 1775,
+  "cohort_runs": 2883,
+  "cohort_wallets": 1791,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 99
+   "count": 98
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T18:30:49.190486+00:00",
+   "symbol": "MIM",
+   "mint": "yPe7gBSiGXh5cvY73pnFM2VpAbVYwhW8FpXKwvipump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Liquidity $20190 < $25000",
+   "entry_price": 8.981e-05,
+   "mcap": 89662,
+   "liq": 20189.88,
+   "h1": 204,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T18:30:49.182009+00:00",
+   "symbol": "Coca-Cola",
+   "mint": "aHDePRQP7CduXvktTdisKrGLkqYc6bS1KKsjnzYpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 22.0% > 12% gate",
+   "entry_price": 3.314e-05,
+   "mcap": 33141,
+   "liq": 11629.57,
+   "h1": 12.15,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T18:01:01.164451+00:00",
    "symbol": "SOLANA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T12:30:45.950837+00:00",
-   "symbol": "Hey",
-   "mint": "F9CwhBgSsEJuCigbodtUH257EqQpRSzKLKwHPPKNpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Top holder 18.6% > 12% gate",
-   "entry_price": 3.717e-05,
-   "mcap": 37176,
-   "liq": 12438.61,
-   "h1": 29.12,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T10:30:37.443542+00:00",
-   "symbol": "konnichiwa",
-   "mint": "HdRPR3nqkNCt98DWQqDdfkRHDc1NFsgCJVbfXRnppump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 22.4% > 12% gate",
-   "entry_price": 2.878e-05,
-   "mcap": 28788,
-   "liq": 10962.04,
-   "h1": -1.25,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -777,18 +777,18 @@
   },
   {
    "wallet": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
-   "hits": 53,
+   "hits": 54,
    "symbols": [
-    "CHAR",
     "THUG",
     "SIM",
     "GATO",
     "WASTED",
     "CBUCKS",
     "Bigfoot",
-    "Christmax"
+    "Christmax",
+    "Santa"
    ],
-   "last": "2026-11-26 16:00 UTC"
+   "last": "2026-11-26 18:30 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -981,14 +981,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": -12.6,
-   "ts": "2026-11-26 18:00 UTC"
+   "h1": -8.0,
+   "ts": "2026-11-26 18:30 UTC"
   },
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": 11.2,
-   "ts": "2026-11-26 18:00 UTC"
+   "h1": -9.6,
+   "ts": "2026-11-26 18:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": -6.9,
-   "ts": "2026-11-26 18:00 UTC"
+   "h1": 2.6,
+   "ts": "2026-11-26 18:30 UTC"
   },
   {
    "symbol": "KRYOX",
