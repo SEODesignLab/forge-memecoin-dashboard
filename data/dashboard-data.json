@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T15:04:25.210336+00:00",
+ "generated": "2026-11-26T15:34:25.315152+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2876,
-  "cohort_wallets": 1679,
+  "cohort_runs": 2877,
+  "cohort_wallets": 1696,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 99
+   "count": 98
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -39,10 +39,6 @@
   {
    "reason": "Top holder 16.3% > 12% gate",
    "count": 6
-  },
-  {
-   "reason": "Top holder 19.4% > 12% gate",
-   "count": 5
   },
   {
    "reason": "RugCheck risk 80>45",
@@ -71,9 +67,73 @@
   {
    "reason": "Top holder 19.9% > 12% gate",
    "count": 4
+  },
+  {
+   "reason": "Top holder 19.3% > 12% gate",
+   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T15:31:28.259434+00:00",
+   "symbol": "Solholder",
+   "mint": "3f8P15vPP7WvWgQU7uJr8tc4MPkGcU6UvuBf8xsJpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $10753 < $25000",
+   "entry_price": 2.874e-05,
+   "mcap": 28747,
+   "liq": 10752.51,
+   "h1": -1.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T15:31:28.253557+00:00",
+   "symbol": "Coca-Cola",
+   "mint": "Kyxnr37gd1KoU7AjiGtV4XZZD4DizY8JmFvQDYApump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 20.1% > 12% gate",
+   "entry_price": 3.273e-05,
+   "mcap": 32707,
+   "liq": 11511.22,
+   "h1": 12.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T15:31:28.246704+00:00",
+   "symbol": "CRAB",
+   "mint": "6ppi7LfHkAhHkQwS3kT1zjCsGYQyK4uvpp3pE6Xmpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $12926 < $25000",
+   "entry_price": 4.035e-05,
+   "mcap": 37619,
+   "liq": 12926.37,
+   "h1": 41.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T15:31:28.238433+00:00",
+   "symbol": "DUO",
+   "mint": "CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "Liquidity $22378 < $25000",
+   "entry_price": 0.000111,
+   "mcap": 110832,
+   "liq": 22377.68,
+   "h1": 295,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T15:00:48.832771+00:00",
    "symbol": "SHILL",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T01:30:45.252742+00:00",
-   "symbol": "KEKW",
-   "mint": "4HS4oza8YdXCHTWP3ToCrPkYUm9Afv7aV3y6up5Upump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $8116 < $25000",
-   "entry_price": 1.733e-05,
-   "mcap": 17298,
-   "liq": 8116.43,
-   "h1": -40.22,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T01:30:45.248083+00:00",
-   "symbol": "UHI",
-   "mint": "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0008254,
-   "mcap": 825225,
-   "liq": 64759.13,
-   "h1": 102,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T01:30:45.237773+00:00",
-   "symbol": "TAXMAN",
-   "mint": "BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 52>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 4.195e-05,
-   "mcap": 41952,
-   "liq": 14923.22,
-   "h1": 79.59,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T01:00:39.571249+00:00",
-   "symbol": "PUMPDOG",
-   "mint": "73R7L2jLfnweJTXxTiccHMZV6mECaVELPUy3PkHopump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003226,
-   "mcap": 322573,
-   "liq": 39883.69,
-   "h1": 762,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -743,7 +743,7 @@
     "SIMPS",
     "Santa"
    ],
-   "last": "2026-11-26 10:00 UTC"
+   "last": "2026-11-26 15:30 UTC"
   },
   {
    "wallet": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
@@ -987,8 +987,8 @@
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": -17.6,
-   "ts": "2026-11-26 15:00 UTC"
+   "h1": 1.7,
+   "ts": "2026-11-26 15:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 4.0,
-   "ts": "2026-11-26 15:00 UTC"
+   "h1": 3.7,
+   "ts": "2026-11-26 15:30 UTC"
   },
   {
    "symbol": "KRYOX",
