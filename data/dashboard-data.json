@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:04:23.280722+00:00",
+ "generated": "2026-11-26T09:34:23.412610+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2864,
-  "cohort_wallets": 1957,
+  "cohort_runs": 2865,
+  "cohort_wallets": 1975,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 103
+   "count": 102
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T09:30:43.755794+00:00",
+   "symbol": "PPV",
+   "mint": "CbGrZ3Q2XxSV2oiZsLkDWW1GFjrqUDAzTH9XwVr1pump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 20.7% > 12% gate",
+   "entry_price": 2.777e-05,
+   "mcap": 27730,
+   "liq": 10531.4,
+   "h1": -3.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T08:00:44.988224+00:00",
    "symbol": "Sae",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T21:00:38.384234+00:00",
-   "symbol": "POMBAO",
-   "mint": "AGyQW6inE99G3Js63ooQWzAeEeBRu8718zjiSKPBpump",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Liquidity $22487 < $25000",
-   "entry_price": 0.0001105,
-   "mcap": 110554,
-   "liq": 22487.08,
-   "h1": 213,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -717,18 +717,18 @@
  "wallets": [
   {
    "wallet": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-   "hits": 129,
+   "hits": 130,
    "symbols": [
-    "1",
     "JOB",
     "GATO",
     "HUSS",
     "SCINU",
     "POPSTAR",
     "Christmax",
-    "WASTED"
+    "WASTED",
+    "FIONA"
    ],
-   "last": "2026-11-26 02:30 UTC"
+   "last": "2026-11-26 09:30 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -981,14 +981,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 12.3,
-   "ts": "2026-11-26 09:00 UTC"
+   "h1": -8.5,
+   "ts": "2026-11-26 09:30 UTC"
   },
   {
    "symbol": "NORFEATH",
-   "tag": "WATCH",
-   "h1": -8.0,
-   "ts": "2026-11-26 09:00 UTC"
+   "tag": "FADING",
+   "h1": -24.9,
+   "ts": "2026-11-26 09:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -998,15 +998,15 @@
   },
   {
    "symbol": "Grodia",
-   "tag": "FADING",
-   "h1": -48.0,
-   "ts": "2026-11-26 09:00 UTC"
+   "tag": "WATCH",
+   "h1": -15.4,
+   "ts": "2026-11-26 09:30 UTC"
   },
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": -1.8,
-   "ts": "2026-11-26 09:00 UTC"
+   "h1": -8.6,
+   "ts": "2026-11-26 09:30 UTC"
   },
   {
    "symbol": "KRYOX",
