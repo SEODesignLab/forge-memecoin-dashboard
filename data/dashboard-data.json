@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T15:34:25.315152+00:00",
+ "generated": "2026-11-26T16:04:25.503524+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2877,
-  "cohort_wallets": 1696,
+  "cohort_runs": 2878,
+  "cohort_wallets": 1713,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -30,7 +30,7 @@
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
-   "count": 8
+   "count": 7
   },
   {
    "reason": "Top holder 19.5% > 12% gate",
@@ -41,11 +41,11 @@
    "count": 6
   },
   {
-   "reason": "RugCheck risk 80>45",
-   "count": 5
+   "reason": "Top holder 19.6% > 12% gate",
+   "count": 6
   },
   {
-   "reason": "Top holder 19.6% > 12% gate",
+   "reason": "RugCheck risk 80>45",
    "count": 5
   },
   {
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T16:00:40.687141+00:00",
+   "symbol": "Roast",
+   "mint": "2ehZToEi8hicd6byJQ7kdk2DmNGFrELzTcikbXTMpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "RugCheck risk 69>45 (need holder\u226412% + liq\u2265$15000)",
+   "entry_price": 3.206e-05,
+   "mcap": 32014,
+   "liq": 11618.36,
+   "h1": 12.14,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T16:00:40.680982+00:00",
+   "symbol": "COMPUCOIN",
+   "mint": "5QDWYUeSoDQiG8JthxamRFs4Kh8wL3TYRDebWVbHpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $12713 < $25000",
+   "entry_price": 3.647e-05,
+   "mcap": 36443,
+   "liq": 12712.88,
+   "h1": 22.12,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T16:00:40.673121+00:00",
+   "symbol": "MUSEHACK",
+   "mint": "J1RypLWXhNnmzh1ieityqqhRNqrTTMLxsJFVjHgEpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 2.87e-05,
+   "mcap": 28673,
+   "liq": 10746.64,
+   "h1": -3.35,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T16:00:40.666700+00:00",
+   "symbol": "TURKEY",
+   "mint": "CZt7wX37NiJQnDvwdd6JsrDLeX1XDDe7JBZEX296pump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0007118,
+   "mcap": 711794,
+   "liq": 60168.67,
+   "h1": 626,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T15:31:28.259434+00:00",
    "symbol": "Solholder",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T02:01:00.258453+00:00",
-   "symbol": "PUMPCHAN",
-   "mint": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
-   "score": 105,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.00072,
-   "mcap": 719807,
-   "liq": 59438.28,
-   "h1": 2184,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T02:01:00.250137+00:00",
-   "symbol": "MemeStonks",
-   "mint": "ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump",
-   "score": 107,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001754,
-   "mcap": 175377,
-   "liq": 28856.94,
-   "h1": 350,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T02:01:00.243620+00:00",
-   "symbol": "COIN",
-   "mint": "jjw6p8XwSXDqf9Ebze4vrkiaY89mhGsdB92KY4Lpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "Top holder 31.6% > 12% gate",
-   "entry_price": 4.067e-05,
-   "mcap": 40604,
-   "liq": 13248.45,
-   "h1": 38.39,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T02:01:00.238139+00:00",
-   "symbol": "URANUS",
-   "mint": "4rsKXnDbZ4iusgSC1DZKTRTHbCZsuYbBkowNicM1LGND",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 28.9% > 12% gate",
-   "entry_price": 2.076e-07,
-   "mcap": 20767,
-   "liq": 11961.27,
-   "h1": -4.74,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -788,7 +788,7 @@
     "Bigfoot",
     "Christmax"
    ],
-   "last": "2026-11-25 23:00 UTC"
+   "last": "2026-11-26 16:00 UTC"
   },
   {
    "wallet": "7JCe3GHwkEr3feHgtLXnmuJ1yB3A7coSeyynxTBgdG8k",
@@ -987,8 +987,8 @@
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": 1.7,
-   "ts": "2026-11-26 15:30 UTC"
+   "h1": 39.1,
+   "ts": "2026-11-26 16:00 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 3.7,
-   "ts": "2026-11-26 15:30 UTC"
+   "h1": 9.0,
+   "ts": "2026-11-26 16:00 UTC"
   },
   {
    "symbol": "KRYOX",
