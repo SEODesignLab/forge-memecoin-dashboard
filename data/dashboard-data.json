@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T05:04:21.972923+00:00",
+ "generated": "2026-11-26T05:34:22.136909+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2856,
-  "cohort_wallets": 1810,
+  "cohort_runs": 2857,
+  "cohort_wallets": 1828,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T05:30:38.001789+00:00",
+   "symbol": "FRITZ",
+   "mint": "4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 15.0% > 12% gate",
+   "entry_price": 5.714e-05,
+   "mcap": 57141,
+   "liq": 16349.19,
+   "h1": 90.57,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T05:01:02.242942+00:00",
    "symbol": "TEEETHY",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T20:31:09.944526+00:00",
-   "symbol": "OnlyUp",
-   "mint": "H4eqZumNhGk7LKLB5QpJb84EYZ1yHbEg9HiwwLqkpump",
-   "score": 102,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0003631,
-   "mcap": 363143,
-   "liq": 41960.54,
-   "h1": 925,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "ROCKET",
-   "tag": "WATCH",
-   "h1": -4.5,
-   "ts": "2026-11-24 12:30 UTC"
-  },
-  {
    "symbol": "cateball",
    "tag": "FADING",
    "h1": -24.7,
@@ -987,14 +981,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 2.2,
-   "ts": "2026-11-26 05:00 UTC"
+   "h1": 3.8,
+   "ts": "2026-11-26 05:30 UTC"
   },
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": 24.1,
-   "ts": "2026-11-26 05:00 UTC"
+   "h1": 1.8,
+   "ts": "2026-11-26 05:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -1005,14 +999,20 @@
   {
    "symbol": "Grodia",
    "tag": "WATCH",
-   "h1": 11.6,
-   "ts": "2026-11-26 05:00 UTC"
+   "h1": -14.9,
+   "ts": "2026-11-26 05:30 UTC"
   },
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 0.2,
-   "ts": "2026-11-26 05:00 UTC"
+   "h1": 3.8,
+   "ts": "2026-11-26 05:30 UTC"
+  },
+  {
+   "symbol": "KRYOX",
+   "tag": "WATCH",
+   "h1": -13.0,
+   "ts": "2026-11-26 05:30 UTC"
   }
  ],
  "live_closes": [
