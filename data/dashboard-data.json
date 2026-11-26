@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T00:04:20.352095+00:00",
+ "generated": "2026-11-26T00:34:20.483993+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2846,
-  "cohort_wallets": 1671,
+  "cohort_runs": 2847,
+  "cohort_wallets": 1680,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 105
+   "count": 106
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -38,6 +38,10 @@
   },
   {
    "reason": "RugCheck risk 80>45",
+   "count": 5
+  },
+  {
+   "reason": "Top holder 19.5% > 12% gate",
    "count": 5
   },
   {
@@ -61,10 +65,6 @@
    "count": 4
   },
   {
-   "reason": "Top holder 19.5% > 12% gate",
-   "count": 4
-  },
-  {
    "reason": "Top holder 19.9% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T00:30:45.321920+00:00",
+   "symbol": "RAPEIT",
+   "mint": "BZzTetroktntcD7iPB4AVQLddaB4fJsM3g7fJP76pump",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Top holder 19.7% > 12% gate",
+   "entry_price": 4.296e-05,
+   "mcap": 42892,
+   "liq": 13785.02,
+   "h1": 46.41,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T00:30:45.316600+00:00",
+   "symbol": "Back",
+   "mint": "7gmn4B3WJBE3WQ1X7UiHRnXtiRQhWEKCjZdZ8XqZpump",
+   "score": 100,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 3.577e-05,
+   "mcap": 35705,
+   "liq": 12292.34,
+   "h1": 20.8,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T00:30:45.311992+00:00",
+   "symbol": "Solace",
+   "mint": "76axAUkdSFaF45HG9QMqNu7s6JwMwUnadvHe1zeDpump",
+   "score": 104,
+   "decision": "SKIP",
+   "reason": "Liquidity $15084 < $25000",
+   "entry_price": 5.143e-05,
+   "mcap": 51363,
+   "liq": 15084.19,
+   "h1": 62.51,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T00:30:45.303316+00:00",
+   "symbol": "Pumpcat",
+   "mint": "5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump",
+   "score": 109,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0003281,
+   "mcap": 328056,
+   "liq": 39994.2,
+   "h1": 917,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-25T23:30:40.832262+00:00",
    "symbol": "BLOCK0",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T17:00:38.281657+00:00",
-   "symbol": "STARMIND",
-   "mint": "2hsmC7864Ve1giwLygu7bJjZU1R4JZKX9kCxWmD9yP6o",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Liquidity $9658 < $25000",
-   "entry_price": 2.125e-05,
-   "mcap": 21254,
-   "liq": 9657.97,
-   "h1": -31.82,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T16:30:34.238202+00:00",
-   "symbol": "MONEY",
-   "mint": "BzzzoUPAX5rvmJctg8Xb6BkoworXNh5RGH27KVhPpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Liquidity $18024 < $25000",
-   "entry_price": 6.403e-05,
-   "mcap": 64035,
-   "liq": 18023.84,
-   "h1": 127,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T16:30:34.232808+00:00",
-   "symbol": "IPO",
-   "mint": "EYiXPL3LTuXEMb7KjhP6eTETPehJGhhU5H7ZYmWsSipo",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 23.5% > 12% gate",
-   "entry_price": 2.452e-05,
-   "mcap": 24529,
-   "liq": 9678.74,
-   "h1": -10.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T15:00:38.441049+00:00",
-   "symbol": "Plush",
-   "mint": "49t6L26yayxWr7NMoNw8QdwmJ5QUNFjBziea65fFWmmE",
-   "score": 96,
-   "decision": "SKIP",
-   "reason": "Top holder 20.8% > 12% gate",
-   "entry_price": 4.139e-05,
-   "mcap": 41231,
-   "liq": 13475.53,
-   "h1": 45,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": -9.6,
-   "ts": "2026-11-26 00:00 UTC"
+   "h1": 1.4,
+   "ts": "2026-11-26 00:30 UTC"
   },
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": 19.7,
-   "ts": "2026-11-26 00:00 UTC"
+   "h1": -10.3,
+   "ts": "2026-11-26 00:30 UTC"
   }
  ],
  "live_closes": [
