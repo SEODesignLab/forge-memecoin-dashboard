@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T02:34:21.142041+00:00",
+ "generated": "2026-11-26T03:04:21.332057+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2851,
-  "cohort_wallets": 1733,
+  "cohort_runs": 2852,
+  "cohort_wallets": 1746,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,11 +26,15 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 108
+   "count": 107
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
    "count": 7
+  },
+  {
+   "reason": "Top holder 19.5% > 12% gate",
+   "count": 6
   },
   {
    "reason": "Top holder 16.3% > 12% gate",
@@ -38,10 +42,6 @@
   },
   {
    "reason": "RugCheck risk 80>45",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 19.5% > 12% gate",
    "count": 5
   },
   {
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T03:00:34.551701+00:00",
+   "symbol": "MCAP",
+   "mint": "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump",
+   "score": 103,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 2.859e-05,
+   "mcap": 28592,
+   "liq": 10791.19,
+   "h1": -3.62,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T03:00:34.546040+00:00",
+   "symbol": "STUDS",
+   "mint": "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds",
+   "score": 105,
+   "decision": "SKIP",
+   "reason": "Top holder 13.5% > 12% gate",
+   "entry_price": 6.837e-05,
+   "mcap": 68255,
+   "liq": 17720.98,
+   "h1": 135,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T02:31:09.143472+00:00",
    "symbol": "Pair",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T20:00:59.278466+00:00",
-   "symbol": "CRIME",
-   "mint": "xmraCcXf1qpZgkwaQn5myc7Q6SZ7He7sXQhXUBYNXMR",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 15.2% > 12% gate",
-   "entry_price": 8.261e-05,
-   "mcap": 82474,
-   "liq": 22640.9,
-   "h1": 2.07,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T19:30:43.173242+00:00",
-   "symbol": "PPK",
-   "mint": "59efB6GMHMbsA4Z4GSZkYkmqjSHePn9xi1iRNzeepump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001335,
-   "mcap": 133576,
-   "liq": 25026.3,
-   "h1": 249,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,14 +987,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": 3.4,
-   "ts": "2026-11-26 02:30 UTC"
+   "h1": 8.3,
+   "ts": "2026-11-26 03:00 UTC"
   },
   {
    "symbol": "NORFEATH",
    "tag": "WATCH",
-   "h1": 7.2,
-   "ts": "2026-11-26 02:30 UTC"
+   "h1": 7.3,
+   "ts": "2026-11-26 03:00 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "Grodia",
-   "tag": "FADING",
-   "h1": -29.7,
-   "ts": "2026-11-26 02:30 UTC"
+   "tag": "WATCH",
+   "h1": -19.6,
+   "ts": "2026-11-26 03:00 UTC"
   },
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 17.9,
-   "ts": "2026-11-26 02:30 UTC"
+   "h1": 2.1,
+   "ts": "2026-11-26 03:00 UTC"
   }
  ],
  "live_closes": [
