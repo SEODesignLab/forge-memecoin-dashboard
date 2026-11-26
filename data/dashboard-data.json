@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T07:04:22.653475+00:00",
+ "generated": "2026-11-26T07:34:22.780173+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 0.5,
   "need_settled": 50,
-  "cohort_runs": 2860,
-  "cohort_wallets": 1886,
+  "cohort_runs": 2861,
+  "cohort_wallets": 1904,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 105
+   "count": 103
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-26T07:30:52.643182+00:00",
+   "symbol": "Fug",
+   "mint": "3QVBSB2kuJiQ75Po8qq4eV7msNFo7jMn22wfKuCTpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 15.2% > 12% gate",
+   "entry_price": 7.183e-05,
+   "mcap": 71698,
+   "liq": 18313.36,
+   "h1": 145,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-26T07:30:52.637894+00:00",
+   "symbol": "OG",
+   "mint": "AC6jhfpFFFYUciEX563ouCiMCZTxvDi1mr6zXhAMogog",
+   "score": 93,
+   "decision": "SKIP",
+   "reason": "Liquidity $7014 < $25000",
+   "entry_price": 1.345e-05,
+   "mcap": 13457,
+   "liq": 7014.35,
+   "h1": -54.97,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-26T07:00:48.797552+00:00",
    "symbol": "NVIDIA",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T20:31:09.959179+00:00",
-   "symbol": "CURSOR",
-   "mint": "BQ6wyyLoynQoz8Wu6gPEwHhJpBp8kWKGvWJoE3ZYpump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 18.8% > 12% gate",
-   "entry_price": 3.479e-05,
-   "mcap": 34741,
-   "liq": 11980.82,
-   "h1": 18.73,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-25T20:31:09.954468+00:00",
-   "symbol": "MAGGIE",
-   "mint": "9bZpo1cZa7ufDzJveP9Lk9drxJA9yfF63JngNPDG4eRm",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 19.6% > 12% gate",
-   "entry_price": 3.565e-05,
-   "mcap": 35651,
-   "liq": 12600.14,
-   "h1": 18.25,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -981,14 +981,14 @@
   {
    "symbol": "Santa",
    "tag": "WATCH",
-   "h1": -3.1,
-   "ts": "2026-11-26 07:00 UTC"
+   "h1": 0.6,
+   "ts": "2026-11-26 07:30 UTC"
   },
   {
    "symbol": "NORFEATH",
-   "tag": "FADING",
-   "h1": -24.4,
-   "ts": "2026-11-26 07:00 UTC"
+   "tag": "WATCH",
+   "h1": 11.2,
+   "ts": "2026-11-26 07:30 UTC"
   },
   {
    "symbol": "SKINPUSS",
@@ -999,14 +999,14 @@
   {
    "symbol": "Grodia",
    "tag": "WATCH",
-   "h1": 2.0,
-   "ts": "2026-11-26 07:00 UTC"
+   "h1": 14.9,
+   "ts": "2026-11-26 07:30 UTC"
   },
   {
    "symbol": "UHI",
    "tag": "WATCH",
-   "h1": 11.0,
-   "ts": "2026-11-26 07:00 UTC"
+   "h1": 18.6,
+   "ts": "2026-11-26 07:30 UTC"
   },
   {
    "symbol": "KRYOX",
