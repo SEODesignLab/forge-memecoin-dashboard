@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T15:04:32.871333+00:00",
+ "generated": "2026-11-27T15:34:33.007309+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,7 +9,7 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2924,
+  "cohort_runs": 2925,
   "cohort_wallets": 1970,
   "cohort_qualified": 270,
   "live_closes": 18,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 91
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T15:30:57.644023+00:00",
+   "symbol": "Sheeb",
+   "mint": "5rRxk9FC3ma11neg8BGLwTWxt4PokH19Y92sERwa2PJ3",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 17.4% > 12% gate",
+   "entry_price": 4.515e-05,
+   "mcap": 45157,
+   "liq": 14415.56,
+   "h1": 55.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T15:30:57.636236+00:00",
+   "symbol": "FULLPORT",
+   "mint": "FjfhXHU7f4ZY1u8G2MUvYJZCoNBEXarAK8mJhHx5pump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $11008 < $25000",
+   "entry_price": 2.892e-05,
+   "mcap": 28891,
+   "liq": 11007.75,
+   "h1": -54.63,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T14:00:46.562962+00:00",
    "symbol": "FRGST",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T01:01:18.318327+00:00",
-   "symbol": "Doomscroll",
-   "mint": "427E2wTecAscojz5WuMB6vcm9m4heQDnSArC38Yopump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 15.9% > 12% gate",
-   "entry_price": 4.519e-05,
-   "mcap": 45144,
-   "liq": 13923.7,
-   "h1": 34.47,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T01:01:18.312725+00:00",
-   "symbol": "Rodrigo",
-   "mint": "BMmrW6CdQqjCoZphi9dSsv67MQC6nNzwxAE98u13pump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.1% > 12% gate",
-   "entry_price": 4.034e-05,
-   "mcap": 40270,
-   "liq": 13224.33,
-   "h1": 36.71,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -974,9 +974,9 @@
   },
   {
    "symbol": "CINU",
-   "tag": "FADING",
-   "h1": -20.8,
-   "ts": "2026-11-27 15:00 UTC"
+   "tag": "WATCH",
+   "h1": 17.4,
+   "ts": "2026-11-27 15:30 UTC"
   },
   {
    "symbol": "Santaball",
