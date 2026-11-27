@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:34:33.626486+00:00",
+ "generated": "2026-11-27T18:04:33.820159+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2929,
-  "cohort_wallets": 1980,
+  "cohort_runs": 2930,
+  "cohort_wallets": 1989,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 90
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T18:00:50.370932+00:00",
+   "symbol": "KEE",
+   "mint": "CX1Tq8FAZcPaueyVJV9Trc6RKjoz6riRBQ41bGCKpump",
+   "score": 98,
+   "decision": "SKIP",
+   "reason": "Liquidity $19519 < $25000",
+   "entry_price": 8.423e-05,
+   "mcap": 84093,
+   "liq": 19518.75,
+   "h1": 184,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T18:00:50.365521+00:00",
+   "symbol": "FARMCOIN",
+   "mint": "Ai8KVFyrGQkFjXWDeipHE7cmY3eqYyGp5S3MZvSLpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 21.7% > 12% gate",
+   "entry_price": 4.726e-05,
+   "mcap": 47269,
+   "liq": 15198.89,
+   "h1": 64.15,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T17:31:03.496455+00:00",
    "symbol": "NOTHING",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T05:30:46.831358+00:00",
-   "symbol": "TikTok US",
-   "mint": "oSaCuqkDVk4RNDToTwUCzjKn2WUTnXyJb2Hu4bLpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 19.5% > 12% gate",
-   "entry_price": 4.601e-05,
-   "mcap": 45965,
-   "liq": 14133.54,
-   "h1": 51.54,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T05:01:23.157261+00:00",
-   "symbol": "CaveBaby",
-   "mint": "ADgpuUbnksqz1k3CbBcmW2TV1n9e7eyRhekWox2cpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 17.2% > 12% gate",
-   "entry_price": 4.456e-05,
-   "mcap": 44569,
-   "liq": 14432.13,
-   "h1": 51.68,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -728,7 +728,7 @@
     "SHIA",
     "CINU"
    ],
-   "last": "2026-11-27 14:30 UTC"
+   "last": "2026-11-27 18:00 UTC"
   },
   {
    "wallet": "gasTzr94Pmp4Gf8vknQnqxeYxdgwFjbgdJa4msYRpnB",
@@ -963,8 +963,8 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": 28.2,
-   "ts": "2026-11-27 17:30 UTC"
+   "h1": -18.7,
+   "ts": "2026-11-27 18:00 UTC"
   },
   {
    "symbol": "Santaball",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Fireball",
    "tag": "WATCH",
-   "h1": 31.3,
-   "ts": "2026-11-27 17:30 UTC"
+   "h1": 6.6,
+   "ts": "2026-11-27 18:00 UTC"
   },
   {
    "symbol": "Rizzmas",
    "tag": "WATCH",
-   "h1": 1.9,
-   "ts": "2026-11-27 17:30 UTC"
+   "h1": 11.1,
+   "ts": "2026-11-27 18:00 UTC"
   }
  ],
  "live_closes": [
