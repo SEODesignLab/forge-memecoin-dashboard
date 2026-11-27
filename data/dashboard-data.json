@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:34:34.570214+00:00",
+ "generated": "2026-11-27T21:04:34.748740+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2935,
-  "cohort_wallets": 1523,
+  "cohort_runs": 2936,
+  "cohort_wallets": 1531,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 91
+   "count": 92
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T21:00:52.996985+00:00",
+   "symbol": "WINTER",
+   "mint": "7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Liquidity $21140 < $25000",
+   "entry_price": 9.495e-05,
+   "mcap": 94951,
+   "liq": 21139.89,
+   "h1": 210,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T21:00:52.992135+00:00",
+   "symbol": "ZERO",
+   "mint": "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump",
+   "score": 96,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0007335,
+   "mcap": 733490,
+   "liq": 60565.19,
+   "h1": 1900,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T20:31:00.361361+00:00",
    "symbol": "Stefan",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T12:30:58.590411+00:00",
-   "symbol": "Salecat",
-   "mint": "BFLRy1dMqALUz7WFoaXHXdZSJdqEJZnndD7yqz56pump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $15270 < $25000",
-   "entry_price": 4.834e-05,
-   "mcap": 48343,
-   "liq": 15269.5,
-   "h1": 59.36,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T12:00:54.440013+00:00",
-   "symbol": "USFF",
-   "mint": "Fns2S2oSUX9TucDyAc6XPGVpcb9Wo7K6ifgc8Y2Lpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "RugCheck risk 74>45 (need holder\u226412% + liq\u2265$15000)",
-   "entry_price": 7.063e-05,
-   "mcap": 70537,
-   "liq": 24151.37,
-   "h1": 14.41,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -803,7 +803,7 @@
     "SIMPS",
     "CINU"
    ],
-   "last": "2026-11-27 17:30 UTC"
+   "last": "2026-11-27 21:00 UTC"
   },
   {
    "wallet": "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
@@ -963,8 +963,8 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": -14.4,
-   "ts": "2026-11-27 20:30 UTC"
+   "h1": -17.7,
+   "ts": "2026-11-27 21:00 UTC"
   },
   {
    "symbol": "Santaball",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "Fireball",
-   "tag": "FADING",
-   "h1": -28.5,
-   "ts": "2026-11-27 20:30 UTC"
+   "tag": "WATCH",
+   "h1": -4.0,
+   "ts": "2026-11-27 21:00 UTC"
   },
   {
    "symbol": "Rizzmas",
    "tag": "WATCH",
-   "h1": 1.6,
-   "ts": "2026-11-27 20:30 UTC"
+   "h1": -2.0,
+   "ts": "2026-11-27 21:00 UTC"
   }
  ],
  "live_closes": [
