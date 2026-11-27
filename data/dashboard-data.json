@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T18:04:33.820159+00:00",
+ "generated": "2026-11-27T18:34:33.933448+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2930,
-  "cohort_wallets": 1989,
+  "cohort_runs": 2931,
+  "cohort_wallets": 2000,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 90
+   "count": 91
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -42,6 +42,10 @@
   },
   {
    "reason": "Top holder 17.1% > 12% gate",
+   "count": 6
+  },
+  {
+   "reason": "Top holder 19.6% > 12% gate",
    "count": 6
   },
   {
@@ -61,10 +65,6 @@
    "count": 5
   },
   {
-   "reason": "Top holder 19.6% > 12% gate",
-   "count": 5
-  },
-  {
    "reason": "Top holder 12.6% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,51 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T18:30:50.752363+00:00",
+   "symbol": "AI",
+   "mint": "98hbuWcMDCtRhTKRnJapL1MfXUVS8ZTrqjFjVAszpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 19.6% > 12% gate",
+   "entry_price": 3.374e-05,
+   "mcap": 33687,
+   "liq": 11920.13,
+   "h1": 13.15,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T18:30:50.747671+00:00",
+   "symbol": "TOGO",
+   "mint": "8LX2fFyENqu1R6bmzk461BH3ZPVbmpCpppe1K7Zcpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0008117,
+   "mcap": 811617,
+   "liq": 63990.57,
+   "h1": 1955,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T18:30:50.740682+00:00",
+   "symbol": "VICAT",
+   "mint": "4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump",
+   "score": 107,
+   "decision": "SKIP",
+   "reason": "No cohort wallet with 3+ hits on this mint",
+   "entry_price": 0.0001729,
+   "mcap": 172917,
+   "liq": 28960.69,
+   "h1": 427,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T18:00:50.370932+00:00",
    "symbol": "KEE",
@@ -628,51 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T10:00:55.070866+00:00",
-   "symbol": "monky",
-   "mint": "At5hmwDn4YgPDoic1UN7zMdTtCoiXJsMhnKaoazEpump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 20.4% > 12% gate",
-   "entry_price": 3.966e-05,
-   "mcap": 39669,
-   "liq": 13595.43,
-   "h1": 30.35,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T08:30:43.327450+00:00",
-   "symbol": "Kibo",
-   "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.0001296,
-   "mcap": 129619,
-   "liq": 25933.16,
-   "h1": 5.43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T07:01:08.972061+00:00",
-   "symbol": "HERMES",
-   "mint": "Ej9g4roCo4UHKFA9ec3ASxwhio8Kg9LsfsvP4jkpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 19.6% > 12% gate",
-   "entry_price": 4.189e-05,
-   "mcap": 41892,
-   "liq": 13395.28,
-   "h1": 38.12,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": -18.7,
-   "ts": "2026-11-27 18:00 UTC"
+   "h1": 2.1,
+   "ts": "2026-11-27 18:30 UTC"
   },
   {
    "symbol": "Santaball",
@@ -1004,15 +1004,15 @@
   },
   {
    "symbol": "Fireball",
-   "tag": "WATCH",
-   "h1": 6.6,
-   "ts": "2026-11-27 18:00 UTC"
+   "tag": "FADING",
+   "h1": -44.3,
+   "ts": "2026-11-27 18:30 UTC"
   },
   {
    "symbol": "Rizzmas",
    "tag": "WATCH",
-   "h1": 11.1,
-   "ts": "2026-11-27 18:00 UTC"
+   "h1": 3.5,
+   "ts": "2026-11-27 18:30 UTC"
   }
  ],
  "live_closes": [
