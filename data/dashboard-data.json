@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T04:04:29.345704+00:00",
+ "generated": "2026-11-27T04:34:29.456506+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2902,
-  "cohort_wallets": 1892,
+  "cohort_runs": 2903,
+  "cohort_wallets": 1895,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 95
+   "count": 94
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -49,6 +49,10 @@
    "count": 5
   },
   {
+   "reason": "Top holder 19.4% > 12% gate",
+   "count": 5
+  },
+  {
    "reason": "Top holder 20.8% > 12% gate",
    "count": 5
   },
@@ -67,13 +71,39 @@
   {
    "reason": "Top holder 13.5% > 12% gate",
    "count": 4
-  },
-  {
-   "reason": "Top holder 12.6% > 12% gate",
-   "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T04:31:04.309242+00:00",
+   "symbol": "VOLALITY",
+   "mint": "4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Top holder 19.4% > 12% gate",
+   "entry_price": 2.995e-05,
+   "mcap": 29896,
+   "liq": 11102.52,
+   "h1": -1.02,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T04:31:04.300146+00:00",
+   "symbol": "Christmas",
+   "mint": "AgBxPNBFmBks58rtVnp2ZW5WHtE2968qTPWgDEvbpump",
+   "score": 102,
+   "decision": "SKIP",
+   "reason": "Top holder 19.2% > 12% gate",
+   "entry_price": 3.579e-05,
+   "mcap": 35792,
+   "liq": 12357.77,
+   "h1": 13.22,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T04:00:54.511328+00:00",
    "symbol": "X",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T21:00:54.094751+00:00",
-   "symbol": "Elonmas",
-   "mint": "ChYn9ZpCUzrwd8rcpUtr7K7iKgDWUfJijM4xwxBCpump",
-   "score": 99,
-   "decision": "SKIP",
-   "reason": "No cohort wallet with 3+ hits on this mint",
-   "entry_price": 0.000211,
-   "mcap": 211083,
-   "liq": 31856.45,
-   "h1": 491,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T20:30:44.935519+00:00",
-   "symbol": "dan",
-   "mint": "HLDU8dNCFiyQXvgfh8sJ1hCcH45i39U3AdWJKQPNpump",
-   "score": 103,
-   "decision": "SKIP",
-   "reason": "Liquidity $15219 < $25000",
-   "entry_price": 5.201e-05,
-   "mcap": 52014,
-   "liq": 15219.42,
-   "h1": 75.43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -1005,14 +1005,14 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": 49.0,
-   "ts": "2026-11-27 04:00 UTC"
+   "h1": 31.2,
+   "ts": "2026-11-27 04:30 UTC"
   },
   {
    "symbol": "Santaball",
    "tag": "WATCH",
-   "h1": 29.0,
-   "ts": "2026-11-27 04:00 UTC"
+   "h1": -17.7,
+   "ts": "2026-11-27 04:30 UTC"
   }
  ],
  "live_closes": [
