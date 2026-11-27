@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T12:34:32.042697+00:00",
+ "generated": "2026-11-27T13:04:32.201105+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2919,
-  "cohort_wallets": 1947,
+  "cohort_runs": 2920,
+  "cohort_wallets": 1953,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 92
+   "count": 91
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -65,15 +65,45 @@
    "count": 5
   },
   {
-   "reason": "Top holder 13.5% > 12% gate",
+   "reason": "Top holder 12.6% > 12% gate",
    "count": 4
   },
   {
-   "reason": "Top holder 12.6% > 12% gate",
+   "reason": "Top holder 19.3% > 12% gate",
    "count": 4
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T13:00:56.723667+00:00",
+   "symbol": "Zhaki",
+   "mint": "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Liquidity $13132 < $25000",
+   "entry_price": 3.975e-05,
+   "mcap": 39757,
+   "liq": 13132.5,
+   "h1": 31.16,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T13:00:56.715983+00:00",
+   "symbol": "DIH",
+   "mint": "3AYshf6BKsM9HVxbPk6vZ3QyWC5H4zTetAANynLrDmmZ",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Liquidity $10683 < $25000",
+   "entry_price": 2.787e-05,
+   "mcap": 27874,
+   "liq": 10682.59,
+   "h1": -6.18,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T12:30:58.606676+00:00",
    "symbol": "ChokingCat",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T00:01:06.349900+00:00",
-   "symbol": "if",
-   "mint": "D43PBweGL9R9beB6NagU8SdTKgn1JhdUJ8XQwBKnpump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Top holder 20.5% > 12% gate",
-   "entry_price": 2.736e-05,
-   "mcap": 27321,
-   "liq": 10555.13,
-   "h1": -7.88,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T00:01:06.343661+00:00",
-   "symbol": "FLOW",
-   "mint": "FxWDDcxosMaRnFRzzDQisFjN4a5Gip5ECs7MtsQYFLoW",
-   "score": 100,
-   "decision": "SKIP",
-   "reason": "Top holder 17.5% > 12% gate",
-   "entry_price": 4.174e-05,
-   "mcap": 41745,
-   "liq": 14364.3,
-   "h1": 24.77,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": 47.6,
-   "ts": "2026-11-27 12:30 UTC"
+   "h1": 18.9,
+   "ts": "2026-11-27 13:00 UTC"
   },
   {
    "symbol": "Santaball",
@@ -1011,8 +1011,8 @@
   {
    "symbol": "Snowball",
    "tag": "WATCH",
-   "h1": 105.0,
-   "ts": "2026-11-27 09:00 UTC"
+   "h1": -8.1,
+   "ts": "2026-11-27 13:00 UTC"
   }
  ],
  "live_closes": [
