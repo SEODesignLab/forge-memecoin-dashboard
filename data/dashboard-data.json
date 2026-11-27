@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T05:04:29.636103+00:00",
+ "generated": "2026-11-27T05:34:29.763790+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2904,
-  "cohort_wallets": 1901,
+  "cohort_runs": 2905,
+  "cohort_wallets": 1902,
   "cohort_qualified": 269,
   "live_closes": 18,
   "live_wins": 4,
@@ -26,7 +26,7 @@
  "skip_reasons": [
   {
    "reason": "No cohort wallet with 3+ hits on this mint",
-   "count": 94
+   "count": 93
   },
   {
    "reason": "Top holder 18.6% > 12% gate",
@@ -45,6 +45,10 @@
    "count": 6
   },
   {
+   "reason": "Top holder 19.5% > 12% gate",
+   "count": 6
+  },
+  {
    "reason": "Top holder 18.4% > 12% gate",
    "count": 5
   },
@@ -54,10 +58,6 @@
   },
   {
    "reason": "Top holder 20.8% > 12% gate",
-   "count": 5
-  },
-  {
-   "reason": "Top holder 19.5% > 12% gate",
    "count": 5
   },
   {
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T05:30:46.831358+00:00",
+   "symbol": "TikTok US",
+   "mint": "oSaCuqkDVk4RNDToTwUCzjKn2WUTnXyJb2Hu4bLpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 19.5% > 12% gate",
+   "entry_price": 4.601e-05,
+   "mcap": 45965,
+   "liq": 14133.54,
+   "h1": 51.54,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T05:01:23.157261+00:00",
    "symbol": "CaveBaby",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-26T21:00:54.106687+00:00",
-   "symbol": "PI",
-   "mint": "GEUULM43QbeFJ7p1Twodufx7bJDWNBibpwbKyETWpump",
-   "score": 108,
-   "decision": "SKIP",
-   "reason": "Liquidity $22429 < $25000",
-   "entry_price": 0.0001093,
-   "mcap": 109326,
-   "liq": 22428.85,
-   "h1": 210,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -943,12 +943,6 @@
  ],
  "mints": [
   {
-   "symbol": "CHUCHU",
-   "tag": "WATCH",
-   "h1": -13.4,
-   "ts": "2026-11-24 19:30 UTC"
-  },
-  {
    "symbol": "DongCoin",
    "tag": "FADING",
    "h1": -20.4,
@@ -1005,14 +999,20 @@
   {
    "symbol": "CINU",
    "tag": "WATCH",
-   "h1": 50.0,
-   "ts": "2026-11-27 05:00 UTC"
+   "h1": 17.1,
+   "ts": "2026-11-27 05:30 UTC"
   },
   {
    "symbol": "Santaball",
    "tag": "FADING",
    "h1": -43.5,
    "ts": "2026-11-27 05:00 UTC"
+  },
+  {
+   "symbol": "VOLALITY",
+   "tag": "CHASE",
+   "h1": 418.0,
+   "ts": "2026-11-27 05:30 UTC"
   }
  ],
  "live_closes": [
