@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T22:04:35.053729+00:00",
+ "generated": "2026-11-27T22:34:35.171823+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2938,
-  "cohort_wallets": 1545,
+  "cohort_runs": 2939,
+  "cohort_wallets": 1553,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-27T22:30:58.420379+00:00",
+   "symbol": "SpaceX",
+   "mint": "6iNMMQ7h1T6u7X2nrKsWp9NU5VyLbiJuQaPWwJN3pump",
+   "score": 92,
+   "decision": "SKIP",
+   "reason": "Liquidity $12232 < $25000",
+   "entry_price": 3.578e-05,
+   "mcap": 35737,
+   "liq": 12231.88,
+   "h1": 20.5,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T22:30:58.415774+00:00",
+   "symbol": "Grok",
+   "mint": "3WHLxgCY7uvkiHMtDPKFhuMAk2nuG3vFLfTL2cHFpump",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Liquidity $20286 < $25000",
+   "entry_price": 8.756e-05,
+   "mcap": 87425,
+   "liq": 20285.67,
+   "h1": 194,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T22:30:58.411165+00:00",
+   "symbol": "SAME",
+   "mint": "3ycbjRrp3GWn1TvRGqSpyNyjdgrfzVspSYBzXhAzpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Top holder 15.9% > 12% gate",
+   "entry_price": 6.569e-05,
+   "mcap": 65690,
+   "liq": 17214.45,
+   "h1": 119,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-27T22:30:58.405029+00:00",
+   "symbol": "FOMO",
+   "mint": "ZjSXr2PZtrAPX9U5kgaczQJojcCCJvExArT91Ghpump",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Top holder 17.2% > 12% gate",
+   "entry_price": 4.447e-05,
+   "mcap": 44403,
+   "liq": 13731.13,
+   "h1": 49.79,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-27T22:00:51.423117+00:00",
    "symbol": "Meta",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T16:00:57.629224+00:00",
-   "symbol": "FRGST",
-   "mint": "DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump",
-   "score": 93,
-   "decision": "SKIP",
-   "reason": "Liquidity $23470 < $25000",
-   "entry_price": 0.0001038,
-   "mcap": 103880,
-   "liq": 23469.95,
-   "h1": -13.05,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T16:00:57.623976+00:00",
-   "symbol": "TELL",
-   "mint": "TELLbUhH3mroXH5xtgGorT7eeFaVfzAiJkwQTbMvuWc",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 50.5% > 12% gate",
-   "entry_price": 2.449e-05,
-   "mcap": 24363,
-   "liq": 9506.18,
-   "h1": -40.04,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T15:30:57.644023+00:00",
-   "symbol": "Sheeb",
-   "mint": "5rRxk9FC3ma11neg8BGLwTWxt4PokH19Y92sERwa2PJ3",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 17.4% > 12% gate",
-   "entry_price": 4.515e-05,
-   "mcap": 45157,
-   "liq": 14415.56,
-   "h1": 55.16,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T15:30:57.636236+00:00",
-   "symbol": "FULLPORT",
-   "mint": "FjfhXHU7f4ZY1u8G2MUvYJZCoNBEXarAK8mJhHx5pump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Liquidity $11008 < $25000",
-   "entry_price": 2.892e-05,
-   "mcap": 28891,
-   "liq": 11007.75,
-   "h1": -54.63,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -963,8 +963,8 @@
   {
    "symbol": "CINU",
    "tag": "FADING",
-   "h1": -32.6,
-   "ts": "2026-11-27 22:00 UTC"
+   "h1": -30.0,
+   "ts": "2026-11-27 22:30 UTC"
   },
   {
    "symbol": "Santaball",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "Fireball",
    "tag": "WATCH",
-   "h1": 58.4,
-   "ts": "2026-11-27 22:00 UTC"
+   "h1": -3.4,
+   "ts": "2026-11-27 22:30 UTC"
   },
   {
    "symbol": "Rizzmas",
    "tag": "WATCH",
-   "h1": -2.0,
-   "ts": "2026-11-27 22:00 UTC"
+   "h1": -1.4,
+   "ts": "2026-11-27 22:30 UTC"
   }
  ],
  "live_closes": [
