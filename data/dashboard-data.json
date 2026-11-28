@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T08:04:38.219147+00:00",
+ "generated": "2026-11-28T08:34:38.333489+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2958,
-  "cohort_wallets": 1702,
+  "cohort_runs": 2959,
+  "cohort_wallets": 1715,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,66 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-28T08:31:01.227257+00:00",
+   "symbol": "CI",
+   "mint": "GggaHk9atb7LYq16S2X6FwjQdZT8D8YQ6vydeosgFGtg",
+   "score": 94,
+   "decision": "SKIP",
+   "reason": "Liquidity $10706 < $25000",
+   "entry_price": 2.812e-05,
+   "mcap": 28091,
+   "liq": 10705.92,
+   "h1": -0.49,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-28T08:31:01.218333+00:00",
+   "symbol": "USD1",
+   "mint": "B29od4bd54VAVAqJFToRKkKJadUGK5v8pkAVb5uvpump",
+   "score": 90,
+   "decision": "SKIP",
+   "reason": "Top holder 23.1% > 12% gate",
+   "entry_price": 5.099e-05,
+   "mcap": 50998,
+   "liq": 20505.48,
+   "h1": -25.53,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-28T08:31:01.213516+00:00",
+   "symbol": "USD1",
+   "mint": "8Y24KBnY9gaNWDaxohxtEU1gxESvfwdYeGFuHJKpump",
+   "score": 97,
+   "decision": "SKIP",
+   "reason": "Top holder 13.0% > 12% gate",
+   "entry_price": 9.128e-05,
+   "mcap": 91284,
+   "liq": 21229.44,
+   "h1": 197,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-28T08:31:01.208121+00:00",
+   "symbol": "COMM",
+   "mint": "8i2ssMZBaS3HShu5hoDEV4tVLf5RGXeNJnK3LNTHTH9e",
+   "score": 101,
+   "decision": "SKIP",
+   "reason": "Top holder 20.6% > 12% gate",
+   "entry_price": 3.107e-05,
+   "mcap": 31072,
+   "liq": 12477.44,
+   "h1": 6.33,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-28T08:01:16.440570+00:00",
    "symbol": "WLFI",
@@ -613,66 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T22:30:58.420379+00:00",
-   "symbol": "SpaceX",
-   "mint": "6iNMMQ7h1T6u7X2nrKsWp9NU5VyLbiJuQaPWwJN3pump",
-   "score": 92,
-   "decision": "SKIP",
-   "reason": "Liquidity $12232 < $25000",
-   "entry_price": 3.578e-05,
-   "mcap": 35737,
-   "liq": 12231.88,
-   "h1": 20.5,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T22:30:58.415774+00:00",
-   "symbol": "Grok",
-   "mint": "3WHLxgCY7uvkiHMtDPKFhuMAk2nuG3vFLfTL2cHFpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Liquidity $20286 < $25000",
-   "entry_price": 8.756e-05,
-   "mcap": 87425,
-   "liq": 20285.67,
-   "h1": 194,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T22:30:58.411165+00:00",
-   "symbol": "SAME",
-   "mint": "3ycbjRrp3GWn1TvRGqSpyNyjdgrfzVspSYBzXhAzpump",
-   "score": 91,
-   "decision": "SKIP",
-   "reason": "Top holder 15.9% > 12% gate",
-   "entry_price": 6.569e-05,
-   "mcap": 65690,
-   "liq": 17214.45,
-   "h1": 119,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T22:30:58.405029+00:00",
-   "symbol": "FOMO",
-   "mint": "ZjSXr2PZtrAPX9U5kgaczQJojcCCJvExArT91Ghpump",
-   "score": 94,
-   "decision": "SKIP",
-   "reason": "Top holder 17.2% > 12% gate",
-   "entry_price": 4.447e-05,
-   "mcap": 44403,
-   "liq": 13731.13,
-   "h1": 49.79,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,8 +987,8 @@
   {
    "symbol": "Fireball",
    "tag": "WATCH",
-   "h1": -9.7,
-   "ts": "2026-11-28 08:00 UTC"
+   "h1": -9.2,
+   "ts": "2026-11-28 08:30 UTC"
   },
   {
    "symbol": "Rizzmas",
@@ -1005,14 +1005,14 @@
   {
    "symbol": "BITCOINU",
    "tag": "WATCH",
-   "h1": -4.5,
-   "ts": "2026-11-28 08:00 UTC"
+   "h1": 25.9,
+   "ts": "2026-11-28 08:30 UTC"
   },
   {
    "symbol": "FINGART",
    "tag": "WATCH",
-   "h1": -15.5,
-   "ts": "2026-11-28 08:00 UTC"
+   "h1": 2.6,
+   "ts": "2026-11-28 08:30 UTC"
   }
  ],
  "live_closes": [
