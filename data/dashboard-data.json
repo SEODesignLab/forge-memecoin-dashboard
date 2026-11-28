@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T12:04:39.469442+00:00",
+ "generated": "2026-11-28T12:34:39.587062+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2966,
-  "cohort_wallets": 1782,
+  "cohort_runs": 2967,
+  "cohort_wallets": 1793,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -74,6 +74,36 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-28T12:32:06.585084+00:00",
+   "symbol": "smol",
+   "mint": "Crx6zQNJhkN4wJpUsUTnTKyYXEP5ChcSeoULzfQiMz3q",
+   "score": 95,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 1.391e-05,
+   "mcap": 13915,
+   "liq": 7573.26,
+   "h1": -42.08,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
+  {
+   "ts": "2026-11-28T12:32:06.579799+00:00",
+   "symbol": "FlipFlop",
+   "mint": "8yUDvFWAHXBXSdgcRJZ7cWtFb1DZ1dwaQeYhb7kEpump",
+   "score": 99,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 6.738e-05,
+   "mcap": 67389,
+   "liq": 17656.33,
+   "h1": 127,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-28T12:01:46.452826+00:00",
    "symbol": "OKOWARE",
@@ -643,36 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T23:30:58.782157+00:00",
-   "symbol": "Hackat",
-   "mint": "C5mEPFQQqwgde83YWKufYKm9TDnsPaUAAMnQ6CAtpump",
-   "score": 101,
-   "decision": "SKIP",
-   "reason": "Liquidity $12293 < $25000",
-   "entry_price": 3.594e-05,
-   "mcap": 35883,
-   "liq": 12292.59,
-   "h1": 20.66,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-27T23:30:58.776454+00:00",
-   "symbol": "IPOY",
-   "mint": "EgD7ugTPh8QTrA1NYF5WN6X6bvMUv8HzB3ezn7Yepump",
-   "score": 97,
-   "decision": "SKIP",
-   "reason": "Top holder 14.5% > 12% gate",
-   "entry_price": 7.837e-05,
-   "mcap": 78375,
-   "liq": 19617.32,
-   "h1": 162,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -986,9 +986,9 @@
   },
   {
    "symbol": "Fireball",
-   "tag": "FADING",
-   "h1": -29.3,
-   "ts": "2026-11-28 12:00 UTC"
+   "tag": "WATCH",
+   "h1": -9.2,
+   "ts": "2026-11-28 12:30 UTC"
   },
   {
    "symbol": "Rizzmas",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "BITCOINU",
    "tag": "WATCH",
-   "h1": -9.6,
-   "ts": "2026-11-28 12:00 UTC"
+   "h1": 9.9,
+   "ts": "2026-11-28 12:30 UTC"
   },
   {
    "symbol": "FINGART",
