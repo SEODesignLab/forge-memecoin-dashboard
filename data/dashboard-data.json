@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T13:34:39.897802+00:00",
+ "generated": "2026-11-28T14:04:40.105428+00:00",
  "mode": "PAPER \u2014 live buys off",
  "summary": {
   "paper_rows": 500,
@@ -9,8 +9,8 @@
   "paper_wins": 1,
   "paper_win_rate": 1.0,
   "need_settled": 50,
-  "cohort_runs": 2969,
-  "cohort_wallets": 1810,
+  "cohort_runs": 2970,
+  "cohort_wallets": 1821,
   "cohort_qualified": 270,
   "live_closes": 18,
   "live_wins": 4,
@@ -45,6 +45,10 @@
    "count": 7
   },
   {
+   "reason": "Mint/freeze not renounced",
+   "count": 6
+  },
+  {
    "reason": "Top holder 20.8% > 12% gate",
    "count": 5
   },
@@ -61,10 +65,6 @@
    "count": 5
   },
   {
-   "reason": "Mint/freeze not renounced",
-   "count": 5
-  },
-  {
    "reason": "Top holder 19.7% > 12% gate",
    "count": 4
   },
@@ -74,6 +74,21 @@
   }
  ],
  "paper": [
+  {
+   "ts": "2026-11-28T14:01:48.482111+00:00",
+   "symbol": "John",
+   "mint": "EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump",
+   "score": 91,
+   "decision": "SKIP",
+   "reason": "Mint/freeze not renounced",
+   "entry_price": 1.745e-05,
+   "mcap": 17452,
+   "liq": 8284.85,
+   "h1": -38.58,
+   "settled": false,
+   "exit_price": null,
+   "pnl_pct": null
+  },
   {
    "ts": "2026-11-28T13:32:20.601814+00:00",
    "symbol": "hold",
@@ -658,21 +673,6 @@
    "settled": false,
    "exit_price": null,
    "pnl_pct": null
-  },
-  {
-   "ts": "2026-11-28T00:30:56.241375+00:00",
-   "symbol": "Joe",
-   "mint": "Ckx9KwPxeajJujfLuzmwGicHuQL8nwfELBKUQr4Npump",
-   "score": 90,
-   "decision": "SKIP",
-   "reason": "Top holder 17.1% > 12% gate",
-   "entry_price": 4.102e-05,
-   "mcap": 41020,
-   "liq": 13311.57,
-   "h1": 37.43,
-   "settled": false,
-   "exit_price": null,
-   "pnl_pct": null
   }
  ],
  "narrative_paper": [
@@ -987,14 +987,14 @@
   {
    "symbol": "Fireball",
    "tag": "WATCH",
-   "h1": 5.4,
-   "ts": "2026-11-28 13:30 UTC"
+   "h1": -19.2,
+   "ts": "2026-11-28 14:00 UTC"
   },
   {
    "symbol": "Rizzmas",
    "tag": "WATCH",
-   "h1": 0.6,
-   "ts": "2026-11-28 13:30 UTC"
+   "h1": 5.8,
+   "ts": "2026-11-28 14:00 UTC"
   },
   {
    "symbol": "PRISMEICE",
@@ -1005,8 +1005,8 @@
   {
    "symbol": "BITCOINU",
    "tag": "WATCH",
-   "h1": 3.6,
-   "ts": "2026-11-28 13:30 UTC"
+   "h1": -3.6,
+   "ts": "2026-11-28 14:00 UTC"
   },
   {
    "symbol": "FINGART",
